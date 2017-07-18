@@ -1,0 +1,35 @@
+---
+output: pdf_document
+---
+
+\begin{centering}
+
+\vspace{3 cm}
+
+\Huge
+
+{\bf Health inequalities and multimorbidity:exploiting administrative data to understand the role of social care.}
+
+\vspace{3 cm}
+
+\Large
+David Alexander Gunn Henderson
+
+\vspace{3 cm}
+
+
+\normalsize
+Submitted in partial fulfilment of the requirements of the degree of ...
+
+Month Year
+
+\vspace{3 cm}
+
+\normalsize
+College of Social Sciences
+School of Political and Social Sciences
+
+\normalsize
+University of Glasgow
+
+\end{centering}
