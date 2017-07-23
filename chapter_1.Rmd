@@ -2,6 +2,42 @@
 output: pdf_document
 ---
 
-#Introduction
+\chapter{Introduction}\label{ch:intro}
 
-[@RN33; @RN326]
+Integration of health and social care became law in Scotland on 1st April 2016. Reflects patterns across the developing world to restructure health services to cope with demands of an ageing population. 
+
+Social Care of increasing policy (and political) importance. Link to healthcare (and demands on health services) becoming increasingly apparent (increase delayed discharge etc).
+
+This, in part, due to long-term conditions now major burden of global disease (replacing infectious diseases). Large proportions of population have multimorbidity (OECD) which has a number of negative outcomes including mortality and health care use.
+
+Association of multimorbidity and social care use is unknown. 
+
+PhD funding from Scottish Government to assess these topics. (2020 vision and other policy link)
+
+Important part of the funding to link administrative data sources in order to identify the benefit of this process. 
+
+(Need WHO policy outlines and other suitable high-level policy docs in this section)
+
+\section{Aims and Objectives}\label{sec:intro-aims-and-obs}
+
+There are two main aims of the thesis. First to assess whether there is fair access to social care for people with multimorbidity. Second to assess whether access to care for this group can improve health outcomes and reduce use of health services.
+
+The objectives of the project are:-
+
+1. To assess tho what extant measures of multimorbidity and of health and social care service use can be operationalised using linked health and social care administrative data.  
+2. To assess how access to social care services varies for people with multimorbidity, especially by socioeconomic status.
+3. To assess the impacts of social care service use on health service use and health outcomes for people with multimorbidity, where possible exploiting geographic differences in social care as "natural experiments". 
+4. To make recommendations for policy on the future of integration of health and social care services based on these results. 
+5. To make recommendations to policy makers on administrative data collections. 
+
+\section{Scientific contribution}\label{sec:intro-contribution}
+
+Explicit description of what thesis adds to knowledge
+
+\section{Conventions}\label{sec:intro-conventions}
+
+Outline definitions
+
+* Social care refers to Adult social care (with link to subsection \ref{subsec:access-sc-defs})
+* Multimorbidity and morbidity burden as opposed to comorbidity (with link to subsection \ref{subsec:mm-defs})
+

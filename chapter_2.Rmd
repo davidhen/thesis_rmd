@@ -2,5 +2,126 @@
 output: pdf_document
 ---
 
-#Literature Review{#lit-review}
+\chapter{Literature Review}\label{ch:lit-review}
+
+\section{Introduction}\label{sec:lit-review-intro}
+
+\section{Access to Social Care}\label{sec:access-sc}
+
+\subsection{Definitions}\label{subsec:access-sc-defs}
+
+This section will describe the differing definitions of social care - as provided in previous drafts
+
+\subsection{International models of social care}\label{subsec:access-sc-models}
+
+This section will synthesize literature on the varying European models of social care - as provided in previous drafts
+
+\subsection{International variation in access to social care}\label{subsec:access-sc-int-variation}
+
+This section will review literature regarding how the different models of social care described in subsection \ref{subsec:access-sc-models} influence access to social care. This is a new section and requires further reading and synthesis
+
+\subsection{National variation in access to social care}\label{subsec:access-sc-nat-variation}
+
+This section will describe the two ways in which access to social care can vary within the UK.  
+
+a) Firstly it will discuss social science theory of fair allocation of resources to Local Authorities such as "the strategy of equality" and whether current funding formulae reflect fair allocation. Here, the "inverse care law" will also be discussed. 
+
+b) Secondly, variation in access to social care *within* Local Authorities will be discussed. Theory regarding "Street level Bureaucracy" and "Candidacy" will be described and contrasted with Current eligibility frameworks governing access to social care. 
+
+*This subsection is likely to be very long and constitute an important part of the thesis - I need to rethink structure here - does it need to have its own section? or will subsection level as it is presently be ok?*
+
+\subsection{Summary}\label{subsec:access-sc-summary}
+
+A summary of the literature presented in section \ref{sec:access-sc}
+
+Varying definitions of social care. Differing European models described in literature - all now showing signs of change due to impact of ageing population. (Findings of differing access across these models section). Two main social theories with regard to access to services. One about allocation of resources, other about distribution of resources by providers. 
+
+\section{Health and Social Care Interaction}\label{sec:hsc-interaction}
+
+\subsection{Public Policy}\label{subsec:policy}
+
+Section discussing public policy of health and social care. Two silos. Short description of NHS funding and compared with LA funding described in subsection \ref{subsec:access-sc-nat-variation}. 
+
+Discuss why these services are linked - hosp discharge etc. 
+
+Highlight current policy such as 2020 vision in Scotland, Health and Social Care Act (2012) (UK) etc.
+
+Discuss Why poor co-ordination between services? 
+
+\subsection{Health and Social Care Integration}\label{subsec:hsc-integration}
+
+Overview of health and social care integration. What it aims to do. Why etc. 
+
+Policy - The Act - structure such as "Lead Agency" or "Joint Body" models. 
+
+Evidence of benefits of integration - (not much!)
+
+\subsection{Research on Health and Social Care Interaction}\label{subsec:research}
+
+Section discussing the few studies that have aimed to assess the interaction between health and social care services. 
+
+Bardsley et al[-@RN183] a good starting point - also studies identified by mini lit search in 1st year review plus update.
+
+\subsection{Summary}\label{subsec:hsc-interaction-summary}
+
+Summary of literature presented in section \ref{sec:hsc-interaction}
+
+\section{Multimorbidity}\label{sec:mm}
+
+\subsection{Why focus on Multimorbidity?}\label{subsec:why-mm}
+
+Important subsection. Brief definition - Identify high use of health care and association with poor outcomes (with citations). Then make case that use of social care likely to be associated with MM (though no evidence to back this up - hence need for thesis). 
+
+Discuss whether access to social care likely to be more or less "fair" for those with MM - ref to Inverse Care Law and PC literature. 
+
+Will Health and Social Care integration results in better or worse outcomes for MM? (Should be better - main aim of integration..)
+
+Link to following sections as background of current MM literature to help inform understanding of concept
+
+\subsection{Definitions}\label{subsec:mm-defs}
+
+As provided in previous drafts
+
+\subsection{Measurement}\label{subsec:mm-measures}
+
+As provided in previous drafts
+
+\subsection{Epidemiology}\label{subsec:mm-epi}
+
+As provided in previous drafts
+
+\subsection{Summary}\label{subsec:mm-summary}
+
+Summary of literature presented in section \ref{sec:mm}
+
+\section{Conclusion}\label{sec:lit-review-conclusion}
+
+Conclusion of chapter \ref{ch:lit-review}
+
+Access to social care is influenced in 2 main ways - allocation of resources *to* providers and distribution of services *within* providers. Theory and evidence suggest inequitable access possible.
+
+Major policy shift to integrate health and social care services internationally. One of main drivers increase in older population - services currently disjointed for this group. Two-thirds over 65s have multimorbidity and associated poorer outcomes - with social gradient. 
+
+Understanding how this population access social care, therefore, vitally important and under-researched.  
+
+Does an inverse *social* care law exist? i.e. Does the allocation of resources (via funding formulae) to Local Authorities negatively impact on those areas with higher need? 
+
+Furthermore, does access to social care vary across Local Authorities - is there a "postcode lottery" in terms of service provision i.e. does application of eligibility criteria depend on where you live?  
+
+Is multimorbidity status associated with levels of social care provided within *and* across local authorities?   
+
+Important to understand how access to social care influences health care use and mortality - do those with multimorbidity and social care have different outcomes from those with multimorbidity and no social care?
+
+Research questions:- 
+
+In people over the age of 65 in Scotland:
+
+1.	a.	What are the socioeconomic, demographic, and geographic patterns in the use of social care? 
+    b.	Is there an association between multimorbidity status and the amount and type of social care use over time? Does this vary by the patterns described in 1(a)?  
+    
+2.  a.	Is there an association in the use of social care services, multimorbidity status and unscheduled health care use?
+    b.	Do multimorbidity status and social care use predict mortality?
+
+
+
 

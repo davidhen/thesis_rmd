@@ -2,4 +2,8 @@
 output: pdf_document
 ---
 
-#Data Quality
+\chapter{Data Quality}\label{ch:quality}
+
+Results chapter describing quality of data (in particular SCS)
+
+One of main objectives of PhD

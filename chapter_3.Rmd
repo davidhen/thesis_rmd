@@ -2,5 +2,22 @@
 output: pdf_document
 ---
 
-#Methods
+\chapter{Methods}\label{ch:methods}
+
+\section{Overview}\label{sec:methods-overview}
+
+Discussion of methodological approach. Quant v Qual etc.
+
+\section{Administrative data research}\label{sec:methods-admindata}
+
+* Broad discussion of admin data research
+* Sensitive data - how protected
+
+\section{Data Sources}\label{sec:methods-data}
+
+* List data sources
+
+\section{Data linkage}\label{sec:methods-linkage}
+
+* Describe linkage process
 

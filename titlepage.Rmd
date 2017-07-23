@@ -8,7 +8,7 @@ output: pdf_document
 
 \Huge
 
-{\bf Health inequalities and multimorbidity:exploiting administrative data to understand the role of social care.}
+{\bf Access to Social Care and Multimorbidity: exploiting emerging adminstrative data sources in Scotland}
 
 \vspace{3 cm}
 
@@ -27,7 +27,6 @@ Month Year
 
 \normalsize
 College of Social Sciences
-School of Political and Social Sciences
 
 \normalsize
 University of Glasgow

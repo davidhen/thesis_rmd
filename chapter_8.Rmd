@@ -2,5 +2,5 @@
 output: pdf_document
 ---
 
-#Conclusion
+\chapter{Conclusion}\label{ch:conclusion}
 

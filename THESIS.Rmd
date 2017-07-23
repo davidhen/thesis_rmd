@@ -3,6 +3,7 @@ output:
   pdf_document:
     fig_caption: yes
     number_sections: yes
+documentclass: report
 bibliography: thesis.bib
 csl:  harvard-university-of-the-west-of-scotland.csl
 urlcolor: blue
@@ -10,7 +11,9 @@ linkcolor: blue
 fontsize: 12pt
 geometry: margin = 1.2in
 header-includes:
-- \usepackage{placeins}
+- \usepackage[section]{placeins}
+- \usepackage{hyperref}
+- \usepackage{caption}
 - \usepackage{fancyhdr}
 - \usepackage{setspace}
 - \usepackage{chngcntr}
@@ -18,14 +21,8 @@ header-includes:
 - \usepackage{booktabs}
 - \usepackage{graphicx}
 - \onehalfspacing
-- \counterwithin{figure}{section}
-- \counterwithin{table}{section}
 ---
 
----
-nocite: | 
-  @RN389, @RN33
-...
 
 ```{r global_options, include=FALSE}
 knitr::opts_chunk$set(fig.path = 'figures/',
