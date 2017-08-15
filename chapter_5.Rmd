@@ -2,7 +2,7 @@
 output: pdf_document
 ---
 
-\chapter{Data Quality}\label{ch:quality}
+\chapter{Linked Health and Social Care Data: Quality Assessment}\label{ch:quality}
 
 Results chapter describing quality of data (in particular SCS)
 

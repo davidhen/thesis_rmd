@@ -8,7 +8,7 @@ output: pdf_document
 
 \Huge
 
-{\bf Access to Social Care and Multimorbidity: exploiting emerging adminstrative data sources in Scotland}
+{\bf Multimorbidity and Access to Social Care: exploiting emerging adminstrative data sources in Scotland}
 
 \vspace{3 cm}
 
