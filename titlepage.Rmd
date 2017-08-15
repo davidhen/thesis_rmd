@@ -8,7 +8,7 @@ output: pdf_document
 
 \Huge
 
-{\bf Multimorbidity and Access to Social Care: exploiting emerging adminstrative data sources in Scotland}
+{\bf Multimorbidity and Access to Social Care: exploiting emerging administrative data sources in Scotland}
 
 \vspace{3 cm}
 
@@ -19,7 +19,7 @@ David Alexander Gunn Henderson
 
 
 \normalsize
-Submitted in partial fulfilment of the requirements of the degree of ...
+Submitted in partial fulfillment of the requirements of the degree of ...
 
 Month Year
 

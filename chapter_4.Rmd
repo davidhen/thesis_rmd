@@ -78,7 +78,7 @@ Using the "clumping" procedure detailed in Ng [-@RN72], Thirty-eight overlapping
 \resizebox{\textwidth}{!}{%
 \begin{tabular}{@{}lll@{}}
 \toprule
-\textbf{Group} & \textbf{Diseases Incuded} & \textbf{Strength} \\ \midrule
+\textbf{Group} & \textbf{Diseases Included} & \textbf{Strength} \\ \midrule
 1 & CHD, CKD, AtrialFib, Hypertension, HeartFailure, Rheu-Arthritis, PVD & 0.2833 \\
 2 & CHD, CKD, AtrialFib, Diabetes, TIA-Stroke, Hypertension, HeartFailure & 0.2806 \\
 3 & CHD, CKD, Hypertension, HeartFailure, Rheu-Arthritis, Pain & 0.2653 \\
