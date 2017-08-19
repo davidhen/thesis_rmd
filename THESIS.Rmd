@@ -140,7 +140,7 @@ knitr::opts_chunk$set(fig.path = 'figures/',
 
 \FloatBarrier
 \newpage
-\fancyhead[CO,CE]{Appendix 1}
+\fancyhead[CO,CE]{Appendix}
 
 ```{r child = 'appendix_1.Rmd'}
 ```

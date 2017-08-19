@@ -2,4 +2,13 @@
 output: pdf_document
 ---
 
-Appendix 1
+\appendix
+\chapter{Title A}
+
+Testing, testing. One-two, one-two.
+
+
+\chapter{Title B}
+
+Let's see what this looks like
+
