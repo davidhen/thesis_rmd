@@ -20,6 +20,8 @@ header-includes:
 - \usepackage{microtype}
 - \usepackage{booktabs}
 - \usepackage{graphicx}
+- \usepackage{enumitem}
+- \usepackage[flushleft]{threeparttable}
 - \onehalfspacing
 ---
 
