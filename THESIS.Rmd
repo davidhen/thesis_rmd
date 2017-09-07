@@ -20,8 +20,10 @@ header-includes:
 - \usepackage{microtype}
 - \usepackage{booktabs}
 - \usepackage{graphicx}
-- \usepackage{enumitem}
+- \usepackage[inline]{enumitem}
 - \usepackage[flushleft]{threeparttable}
+- \usepackage{perpage}
+- \MakePerPage{footnote}
 - \onehalfspacing
 ---
 
@@ -37,11 +39,6 @@ knitr::opts_chunk$set(fig.path = 'figures/',
 ```
 
 \newpage
-
-```{r child = 'declaration.Rmd'}
-```
-
-\newpage
 \pagestyle{fancy}
 
 \fancyhead[LE,RO]{}
@@ -51,19 +48,10 @@ knitr::opts_chunk$set(fig.path = 'figures/',
 
 \pagenumbering{roman}
 
-\fancyhead[CO,CE]{Abstract}
 \section*{Abstract}
 \addcontentsline{toc}{section}{Abstract}
 
 ```{r child = 'abstract.Rmd'}
-```
-
-\newpage
-\fancyhead[CO,CE]{Acknowledgements}
-\section*{Acknowledgements}
-\addcontentsline{toc}{section}{Acknowledgements}
-
-```{r child = 'acknowledgements.Rmd'}
 ```
 
 \newpage
@@ -72,55 +60,71 @@ knitr::opts_chunk$set(fig.path = 'figures/',
 \tableofcontents
 
 \newpage
-\fancyhead[CO,CE]{List of Figures}
-\addcontentsline{toc}{section}{List of Figures}
-\listoffigures
-
-\newpage
 \fancyhead[CO,CE]{List of Tables}
 \addcontentsline{toc}{section}{List of Tables}
 \listoftables
 
 \newpage
+\fancyhead[CO,CE]{List of Figures}
+\addcontentsline{toc}{section}{List of Figures}
+\listoffigures
+
+\newpage
+\section*{Acknowledgements}
+\fancyhead[CO,CE]{}
+\addcontentsline{toc}{section}{Acknowledgements}
+
+```{r child = 'acknowledgements.Rmd'}
+```
+
+\newpage
+\section*{Declaration}
+\fancyhead[CO,CE]{}
+\addcontentsline{toc}{section}{Declaration}
+
+```{r child = 'declaration.Rmd'}
+```
+
+\newpage
 \pagenumbering{arabic}
 
 \newpage
-\fancyhead[CO,CE]{Introduction}
+\fancyhead[CO,CE]{Chapter 1. Introduction}
 
 ```{r child = 'chapter_1.Rmd'}
 ```
 
 \FloatBarrier
 \newpage
-\fancyhead[CO,CE]{Literature Review}
+\fancyhead[CO,CE]{Chapter 2. Literature Review}
 
 ```{r child = 'chapter_2.Rmd'}
 ```
 
 \FloatBarrier
 \newpage
-\fancyhead[CO,CE]{Methods}
+\fancyhead[CO,CE]{Chapter 3. Methods}
 
 ```{r child = 'chapter_3.Rmd'}
 ```
 
 \FloatBarrier
 \newpage
-\fancyhead[CO,CE]{Measuring Multimorbidity}
+\fancyhead[CO,CE]{Chapter 4. Measuring Multimorbidity}
 
 ```{r child = 'chapter_4.Rmd'}
 ```
 
 \FloatBarrier
 \newpage
-\fancyhead[CO,CE]{Data Quality}
+\fancyhead[CO,CE]{Chapter 5. Linked Data Quality Assessment}
 
 ```{r child = 'chapter_5.Rmd'}
 ```
 
 \FloatBarrier
 \newpage
-\fancyhead[CO,CE]{Access to Social Care}
+\fancyhead[CO,CE]{Chapter 6. Access to Social Care}
 
 ```{r child = 'chapter_6.Rmd'}
 ```
@@ -128,21 +132,21 @@ knitr::opts_chunk$set(fig.path = 'figures/',
 
 \FloatBarrier
 \newpage
-\fancyhead[CO,CE]{Social Care and Health Outcomes}
+\fancyhead[CO,CE]{Chapter 7. Social Care and Health Outcomes}
 
 ```{r child = 'chapter_7.Rmd'}
 ```
 
 \FloatBarrier
 \newpage
-\fancyhead[CO,CE]{Conclusion}
+\fancyhead[CO,CE]{Chapter 8. Conclusion}
 
 ```{r child = 'chapter_8.Rmd'}
 ```
 
 \FloatBarrier
 \newpage
-\fancyhead[CO,CE]{Appendix}
+\fancyhead[CO,CE]{Appendices}
 
 ```{r child = 'appendix_1.Rmd'}
 ```

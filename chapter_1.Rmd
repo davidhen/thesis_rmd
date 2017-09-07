@@ -25,11 +25,13 @@ The thesis has both substantive and methodological aims. Substantively, it aims 
 
 The objectives of the project are:-
 
-1. To assess how access to social care services varies for people with multimorbidity, especially by socioeconomic status.  
-2. To assess the impacts of social care service use on health service use and health outcomes for people with multimorbidity, where possible exploiting geographic differences in social care as "natural experiments".
-3.  To make recommendations for policy on the future of integration of health and social care services based on these results.
-4.  To assess tho what extant measures of multimorbidity and of health and social care service use can be operationalised using existing linked health and social care administrative data.
-5. To make recommendations to policy makers on administrative data collections. 
+\begin{enumerate}[noitemsep]
+\item To assess how access to social care services varies for people with multimorbidity, especially by socioeconomic status.  
+\item To assess the impacts of social care service use on health service use and health outcomes for people with multimorbidity, where possible exploiting geographic differences in social care as "natural experiments".
+\item To make recommendations for policy on the future of integration of health and social care services based on these results.
+\item To assess tho what extant measures of multimorbidity and of health and social care service use can be operationalised using existing linked health and social care administrative data.
+\item To make recommendations to policy makers on administrative data collections. 
+\end{enumerate}
 
 \section{Scientific contribution}\label{sec:intro-contribution}
 

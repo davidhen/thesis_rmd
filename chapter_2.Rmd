@@ -16,7 +16,6 @@ Levels of multimorbidity in the Scottish population follow a stark socioeconomic
 
 Until recently many local authorities had attempted to protect front-line services, such as social care, from austerity cuts [@RN117]. However, given continued year-on-year reductions and a further 7.2% cut to local authority spending in 2016/2017 [@RN251], the ability to protect social care from reductions in spend becomes less likely. Decreased local government budgets across the UK and Scotland since 2010 have affected those living in the poorest areas hardest [@RN117; @RN235]. If social care budgets decrease further, the question of whether the most deprived areas will feel these cuts most is of grave importance.
 
-
 The overall aim of the PhD project is to empirically explore these issues. This chapter will specifically review literature regarding the three main themes outlined above namely; social care, the interaction of health and social care services, and  multimorbidity. Section \ref{sec:access-sc} reviews definitions, international models, and variation in access to social care. Section \ref{sec:hsc-interaction} outlines the policy framework regarding health and social care services, how these services are funded and delivered, and why they are linked. It then describes the legislation that made health and social care integration law in Scotland before reviewing empirical evidence of the nature of the interaction between health and social care services. Finally, Section \ref{sec:mm} describes why multimorbidity is important in the context of health and social care integration and then provides an overview of academic literature and policy documents regarding multimorbidity and its definitions, measurement, and epidemiology.
 
 \section{Access to Social Care}\label{sec:access-sc}
@@ -40,33 +39,34 @@ The NICE guideline [-@RN150] advises that social care planning for people with m
 
 A more succinct definition of social care is used in a report to the Minister for Care Services at the UK Department of Health, :- 
 \begin{quotation}
-	"The group of services that provide personal care and support to people in social situations – such as family; the community; a communal setting; to help them achieve independence and to promote their positive contribution as citizens." Platt [-@RN154, pp. 4]
-\end{quotation}
+	"The group of services that provide personal care and support to people in social situations – such as family; the community; a communal setting; to help them achieve independence and to promote their positive contribution as citizens." Platt 
+\end{quotation} [-@RN154, pp. 4]
+
 Huxley et al. [-@RN153] are critical of this service-based definition and argue that social care is intended to improve general well-being for those that are in need. As quality of life is an important factor of well-being, Huxley et al. [-@RN153] argue that wider issues regarding environment and the quality of public and private services also play an important role in social care. Indeed, Daly and Lewis [-@RN146, pp.287] argue that social care is “…an activity and set of relations lying at the intersection of state, market, family (and voluntary sector) relations.”
 
 This view is reflected in an aspirational constitution for social care published by an independent, cross-party think-tank [@RN136]. The authors argue that all citizens should have an equal ability to live and control a full and active life. Where this is not possible the state should have a duty to provide the necessary help, in whatever form that is required, to individuals who require it.
 
-A more clearly defined concept is that of *personal care* which has been provided for free in Scotland since 2002. The legislation introduced by the then Scottish Executive necessitated a clear definition and constitutes six dimensions [@RN373]. 
+A more clearly defined concept is that of *personal care* which has been provided for free in Scotland since 2002. The legislation introduced by the then Scottish Executive necessitated a clear definition and constitutes six dimensions [@RN373, pp.256]. 
+\begin{itemize}[noitemsep]
+\item Personal Hygiene: washing etc.  
+\item Personal Assistance: help with dressings, prostheses etc.  
+\item Continence Management: toileting, catheter management etc.  
+\item Food and Diet: help with eating, food preparation etc.  
+\item Problems of Immobility:  
+\item Simple Treatments: help with medicines, creams, oxygen therapy etc. 
+\end{itemize}
 
-a) Personal Hygiene: washing etc.  
-b) Personal Assistance: help with dressings, prostheses etc.  
-c) Continence Management: toileting, catheter management etc.  
-d) Food and Diet: help with eating, food preparation etc.  
-e) Problems of Immobility:  
-f) Simple Treatments: help with medicines, creams, oxygen therapy etc. 
-[@RN373, pp.256]
-
-Personal care is, however, only one aspect of social care provision and clear definitions of other services provided to individuals are lacking. Nevertheless, the defintions of social (or long-term) care above all highlight services that are required to aid with an individual's functional or cognitive needs.
+Personal care is, however, only one aspect of social care provision and clear definitions of other services provided to individuals are lacking. Nevertheless, the definitions of social (or long-term) care above all highlight services that are required to aid with an individual's functional or cognitive needs.
 
 \subsection{International models of social care}\label{subsec:access-sc-models}
 
-There are four ways in which social care can be provided to those in need: informally via family or community, formally via voluntary non-profit organisations, formally via the state, or formally via a for-profit organisations [@RN346]. In Europe, increasing demand from users has led to many welfare systems being unable to adequately provide care [@RN344; @RN414]. Changes in demography, the labour market, democracy, and values have all contributed to the increasing pressure on care services [@RN406; @RN342; @RN414]. There is wide consensus that lower birth rates and higher proportions of older people mean that a gap has emerged in the number of adult children able to provide informal care to their parents [@RN342; @RN343; @RN344; @RN346; @RN345; @RN414]. Traditionally, informal care was provided by women. As gender equality improves, more women are employed outwith domestic circumstances which also reduces the pool of informal social care available [@RN342]. Anttonen [-@RN342] also cites changes in societal attitudes from "familism" to "individualism" as having an impact on informal care resources. These combined factors mean that formal care services are increasingly required to provide social care. The pressures on formal social care services has seen increased discussion and comparison of models of care across Europe over the last 20 years [@RN347; @RN348; @RN346; @RN349].
+There are four ways in which social care \footnote{International, and particularly European, literature more frequently uses the phrase "long term care" to describe the kinds of services outlined in section \ref{subsec:access-sc-defs}. The term "social care" is used in-lieu for the purposes of this thesis.} can be provided to those in need: informally via family or community, formally via voluntary non-profit organisations, formally via the state, or formally via a for-profit organisations [@RN346]. In Europe, increasing demand from users has led to many welfare systems being unable to adequately provide care [@RN344; @RN414]. Changes in demography, the labour market, democracy, and values have all contributed to the increasing pressure on care services [@RN406; @RN342; @RN414]. There is wide consensus that lower birth rates and higher proportions of older people mean that a gap has emerged in the number of adult children able to provide informal care to their parents [@RN342; @RN343; @RN344; @RN346; @RN345; @RN414]. Traditionally, informal care was provided by women. As gender equality improves, more women are employed outwith domestic circumstances which also reduces the pool of informal social care available [@RN342]. Anttonen [-@RN342] also cites changes in societal attitudes from "familism" to "individualism" as having an impact on informal care resources. These combined factors mean that formal care services are increasingly required to provide social care. Pressures on these services has seen increased discussion and comparison of models of care across Europe over the last 20 years [@RN347; @RN348; @RN346; @RN349].
 
-In a report for the OECD, Colombo et al [-@RN414] categorised the varying models of care into three main groups with subdivisions as shown in Table \ref{tab:oecd-soc-care}.
+In a report for the OECD, Colombo et al [-@RN414] categorised the varying models of social care into three main groups with subdivisions as shown in Table \ref{tab:oecd-soc-care}. 
 
 \begin{table}[]
   \centering
-  \caption{Models of social care in OECD countries}
+  \caption{Models of social care in OECD countries adapted from Colombo et al (2011)}
   \label{tab:oecd-soc-care}
   \scalebox{0.7}{
     \begin{threeparttable}
@@ -78,9 +78,9 @@ In a report for the OECD, Colombo et al [-@RN414] categorised the varying models
           b) public long-term insurance & Germany, Japan, South Korea,                      Netherlands, Luxembourg \\
           c) health system & Belgium \\
           \textbf{Mixed systems} &  \\
-          a) parallell universal schemes & Scotland, Italy, Czech Republic,                 Poland \\
+          a) parallel universal schemes & Scotland, Italy, Czech Republic,                 Poland \\
           b) income-related universal benefit or subsidy & Ireland, Australia,              Austria, France \\
-          c) mix of universal and means-tested (or no) benefit & Switzerland,               New Zealand, some Candaian Provinces, Spain, and Greece\tnote{1} \\
+          c) mix of universal and means-tested (or no) benefit & Switzerland,               New Zealand, some Canadian Provinces, Spain, and Greece\tnote{1} \\
           \textbf{Means-tested safety net} & England, USA \\
           \bottomrule
           \end{tabular}
@@ -91,39 +91,64 @@ In a report for the OECD, Colombo et al [-@RN414] categorised the varying models
   }
 \end{table}
 
+Universal models of social care are characterised by; a) a single system being in place for delivery of services, b) nursing *and* personal care are provided for all individuals meeting defined eligibility criteria, and c) some form of charge is levied on service-users [@RN414]. Three subdivisions of universal coverage social care models are identified in this classification. 
 
-In broad terms, there is agreement that four main European social models exist although, more recently, the lines between these models are beginning to blur [@RN343]. The models have been classified as the: Nordic, Mediterranean, Continental, and Anglo-Saxon models [@RN347; @RN348; @RN346]. There is some variation in the how these models are labelled - for this discussion the most recently described nomenclature is used [@RN348; @RN349]. It must also be noted that the models below detail broad similarities in provision of social care across countries but differences in delivery of services remain between the countries within each model. 
+The tax-based universal models, also known as the Nordic model of care, have strong local-government influence in both the raising of funds and delivery of services [@RN414; @RN348; @RN346; @RN349]. Overall responsibility remains with national government which also contributes funds, often dependent on local population need and structure [@RN414]. Public long-term insurance schemes are mandatory in the countries that employ them, although the age at which citizens begin to contribute varies (e.g. only over 40s contribute in Japan) [@RN414; @RN413; @RN407]. These models have found it increasingly difficult to fund provision and have either increased user-payments or decreased coverage in recent years [@RN345; @RN413; @RN407]. In Belgium, social care is viewed as a health risk and is financed through the health system with a cap on user-contribution. This results in a medical (rather than social) model of care delivery, mostly provided by nurses [@RN414]. 
 
-The Nordic model of social care describes high levels of universal home and institutional social care funded through taxation or nationalised insurance with little or no role for private insurance [@RN348; @RN346; @RN349]. This model is found in Scandinavian countries such as: Sweden, Denmark, Finland, and the Netherlands and has strong local government influence on the delivery of services [@RN348; @RN346; @RN349].
+In contrast to universal models described above where a single system is in place for social care delivery, mixed social care systems employ either; a) universal coverage via different sources/sectors or b) a mixture of universal and means-tested benefits [@RN414]. Whilst acknowledging the wide variation in systems, Colombo et al [-@RN414] identify three subdivisions of mixed system models of social care as shown in table \ref{tab:oecd-soc-care}.
 
-In contrast. the Mediterranean model of social care (generally found in Greece, Italy, Portugal, and Spain) has very low intervention from local or national government with the majority of social care being informal and provided by family members [@RN348; @RN346; @RN349]. As this role is traditionally carried out by women, the Mediterranean model has attracted criticism from a feminist perspective [@RN346]. 
+Parallel universal schemes provide social care via two or more sectors (e.g. nursing care via health provider and personal care from a non-healthcare source) [@RN414]. Major differences exist between countries in how this is delivered in practice with varying degrees of coverage. Income related universal benefits provide needs-based universal coverage of social care but benefits received vary according to income [@RN414]. France provides an good example of this system where cash benefits are needs *and* income based - benefits are paid at six levels of dependency, those with higher incomes are paid proportionally less and top-up care costs themselves [@RN414; @RN420]. The final subdivision of mixed social care models has some universal entitlements provided alongside means-tested services e.g. free provision of nursing care with means-testing for personal care. 
 
-The Anglo-Saxon model of social care is used to describe the systems used in the UK and, perhaps as a misnomer, Ireland [@RN348; @RN346; @RN349]. The system is also characterised by informal care but has provision of extensive state-funded social care for those in the most need. The model has also been referred to as "means tested", or "the Beveridge model" [@RN346] and increasingly involves service provision from the private sector, particularly in terms of residential care [@RN346]. 
+Colombo et al [-@RN414] include Spain and Greece in this final subdivision of mixed social care models but note these countries have formal care systems that are much less developed than elsewhere in the OECD. Sometimes referred to as the Mediterranean model, informal care from family and other sources constitutes the main form of social care in these countries [@RN348; @RN346; @RN349]. As this role is traditionally carried out by women, the Mediterranean model has attracted criticism from a feminist perspective [@RN346].
 
-Most commonly found in Austria, Belgium, France, Germany and Luxembourg, the Continental model of social care also has a strong role for informal family care [@RN348; @RN346; @RN349].  The main difference in this model is in the delivery of formal care via non-governmental or religious organisations with funding provided by the state - also known as the subsidiarity model [@RN346].
+The final model in Colombo et al's [-@RN414] classification of social care in OECD countries is the Means-tested safety net model (Table \ref{tab:oecd-soc-care}). In this model only those below a pre-determined threshold are entitles to state-provided social care. Despite the free provision of health care and some non-means-tested benefits, England is included in this category in the report. Presumably this is due to the fact that state support in a residential home in England is provided only after an individual has depleted both income *and* assets below a threshold [@RN414], a system not seen in other countries \footnote{A cap of approximately £72,000 total contribution was to be introduced in 2016 (Eleftheriades et al., 2013)} [@RN420].
 
-The 4 models have not only been used to  describe variations in methods of social care delivery, but also to describe the wider model of welfare and social services within each group [@RN349]. As part of a wider social model of care, the Nordic model has a strong re-distributive effect and has the greatest effect of the four models at reducing income equality and poverty [@RN349]. The Mediterranean model performs worst in this respect as does the Anglo-Saxon model when considering incidence of poverty after taxes and transfers [@RN349]. 
+Of the three models of social care described in this section, universal systems have a number of advantages over the other two [@RN414; @RN420]. Sharing the burden of social care provision among the entire population, either via general taxation or mandatory insurance schemes, results in a reliable, predictable source of finance enabling states to plan more effectively [@RN414; @RN420; @RN413]. Mixed systems of social care can still result in considerable costs for those that require care, whereas the costs to individuals in the means-tested system can be "catastrophic" [@RN414, pp240]. The means-tested system can also be perceived as unfair for those that need to sell assets (such as a house) to pay for care, particularly when there is variation in eligibility criteria within countries [@RN414; @RN420; @RN421; @RN407; @RN413]. A particular advantage of a universal social care systems is that it, 
+\begin{quotation} 
+"...generally reduces utilisation of more expensive health care services and professionals (e.g. hospital care, doctors) for long-term care needs, for example by making "social hospitilisation" of frail people with [social care] needs more difficult." 
+\end{quotation} [@RN414, pp.222]
 
-There is a remarkable similarity in the description of the change from institution to home-based social care described by Deusdad et al. [-@RN343] and the shift in balance of health care recommended by WHO described in section \ref{sec:lit-review-intro}. It is likely they describe the same phenomenon. WHO [-@RN320] cite integration of health and social care as a potential process of moving care balance for treatment for non-acute, chronic conditions. Older individuals in this category are likely to have social care needs also. There have been large structural changes to delivery of social care in a number of European countries [@RN344]. Deusdad et al [-@RN343] argue that de-institutionalisation and the policy shift in balance of care has disguised reduction in state-funded social care support in some countries. 
+Given the pressures on state budgets and the desire to adequately fund care services, this seems a particularly useful benefit of the universal coverage model of social care. 
 
-\subsection{International variation in access to social care}\label{subsec:access-sc-int-variation}
+Disadvantages of universal systems are that they, generally, are more expensive to the state than other models of social care and can reduce the amount of informal care provided by relatives for elderly family [@RN414; @RN407]. The comprehensiveness of coverage can be over-burdensome for the state with a number of countries recently having to cut service or increase user-contributions to compensate for increasing demand [@RN345; @RN421; @RN407; @RN413]. 
 
-This section will review literature regarding how the different models of social care described in subsection \ref{subsec:access-sc-models} influence access to social care across countries. This is a new section and requires further reading and synthesis
+A recent examination of the effects of the 2008 financial crisis on the way social care is delivered across Europe suggests that the distinctions between social care models is beginning to blur [@RN343]. There is evidence those with more comprehensive coverage are reducing levels of care whilst those with less coverage are increasing provision [@RN414]. 
 
-A recent examination of the effects of the 2008 financial crisis on the way social care is delivered across Europe suggests that the distinctions between the 4 social care models is beginning to blur [@RN343]. There is evidence of a mixture of informal, semi-informal (i.e. black market), and formal care emerging as a more regular model for care delivery in Mediterranean countries whereas, in Nordic countries, an increase in family-based informal care is being observed [@RN343; @RN358]. A shift from residential to home-based care, in tandem with the marketisation of the care sector, has seen a gradual move away from universalism in Scandinavian countries and a greater emphasis on informal care and non-state care being seen across the continent [@RN343].
-
-*OECD(2013, pp180)*
-
-\subsection{Access to Social Care in the UK I - Resource allocation}\label{subsec:access-resources}
-
-This section will discuss social science theory of fair allocation of resources to Local Authorities such as "the strategy of equality." Will need to outline how social care is funded in the UK Here, the "inverse care law" will also be discussed. 
-
-Evidence and literature of how funding is distributed will also be presented. 
+\begin{figure}
+  \centering
+  \caption{Older recipients of long-term care services as a share of the over 65 population, 2008}
+  \label{fig:oecd-comparison}
+    \includegraphics[width=0.8\textwidth]{figures/oecd-comparison.PNG}
+\end{figure}
 
 
-\subsection{Access to Social Care in the UK II - Eligibility}\label{subsec:access-sc-nat-variation}
+Given the marked variations in how social care is funded and delivered across countries, it may be expected that there are also marked varations in levels of access and utilisation. Colombo et al [-@RN414] produced a chart (shown in figure \ref{fig:oecd-comparison}) derived from OECD data that shows the proportion of over 65s receiving some form of social care across countries for which data is provided. The chart shows that having a universal or mixed system of social care provision (as described above) does not absolutely influence the number of people receiving care. For example, South Korea employs a universal (insurance-based) system and has one of the lowest proportions of older people receiving care, whereas Swizerland has one of the highest whilst employing a mixed system involving some universal and some means-tested benefits. This suggests that eligibility criteria set within countries are likely to be more important in determining access to social care than any particular system of care delivery. 
+
+Social care can be seen as  
+  a) a group of services such as; skilled nursing care, social work, personal care, medical equipement \& technologies, and therapies. Delivered by,   
+  b) delivered by a range of  professionals such as; nurses, low-skilled carers, or allied health professionals. In,  
+  c) various locations such as; at home, in an institution, or via community care.
+  
+Policy choices across how each of these domains are funded and delivered result in the marked varations across contries in how social care is accessed and delivered [@RN414]. 
+
+\subsection{Access to Social Care I - Eligibility}\label{subsec:access-sc-eligibility}
+
+\subsubsection{Social Theory of eligibility}\label{subsubsec:eligibility-theory}
 
 This section will variation in access to social care *within* Local Authorities. Theory regarding "Street level Bureaucracy" and "Candidacy" will be described.
+
+A useful defintition of assessment and eligibility is provided by Eleftheriades & Wittenberg [-@RN407, pp.2],
+\begin{quotation}
+"...the \emph{criteria} under which a given individual is eligible for publicly funded support for long-term care, and for how much support the individual is eligible, and the \emph{processes} involved in selecting from the general population those who receive this support and determining for how much support each person is eligible"
+\end{quotation}
+
+Two social theories on how eligibility for public services are determined will be discussed in this subsection; Street-level bureaucracy and candidacy.
+
+The term Street-level bureaucracy is generally credited to Michael Lipsky and his book of the same name [-@RN174], along with its more recent revision [@RN430]. The theory investigates the extent to which front-line public service workers exercise discretion in which individuals of the general public are eligible to access any given service [@RN428]. 
+
+
+\subsubsection{Eligibility for social care in the UK}\label{subsubsec:eligibility-uk}
+
 
 Literature and evidence of how eligibility affects access will also be presented. 
 
@@ -156,6 +181,16 @@ Burchardt et al. [-@RN173] and Abrahams et al. [-@RN177] recognise some positive
 A similar picture has been seen in Scotland. Absolute numbers of people receiving home care has steadily fallen over the last 10 years whilst the number of hours of care provided has increased [@RN128]. There are wide variations in the number of hours of home care provided per population across Local Authorities [@RN128]. This may reflect different demographic make-up of each Local Authority although reductions in ratios per population can be seen in almost all Local Authorities [*edit - I can produce a table here to reflect this but is that appropriate in the Intro? Also would have to provide code in the Appendix to show how I produced the table*].
 
 In a report profiling the care at home sector in Scotland. MacLeod and Mair [-@RN147] describe large decreases in absolute numbers of people receiving care at home over the ten years to 2013. There have also been significant reductions in the number of people receiving non-personal care (so called “mopping and shopping”). The increase in the number of hours of home care delivered by all services reflects a focus on smaller numbers of individuals with higher care needs. This means those with moderate or low personal care needs and those requiring “mopping and shopping” services are now less likely to receive publicly funded care. Echoing the views of Burchardt et al. [-@RN173] and Abrahams et al. [-@RN177], Macleod and Mair [-@RN147] highlight the potential false economy of this situation – home care services are likely to reduce the need for costly emergency admissions to hospital and delay the requirement for more intensive home care packages.
+
+\subsection{Access to Social Care II - Resource allocation}\label{subsec:access-resources}
+
+\subsubsection{Social Theory of Resource Allocation}\label{subsubsec:theory-resources}
+
+\subsubsection{Resource Allocation for Social Care in the UK}\label{subsubsec:resources-uk}
+
+This section will discuss social science theory of fair allocation of resources to Local Authorities such as "the strategy of equality." Will need to outline how social care is funded in the UK Here, the "inverse care law" will also be discussed. 
+
+Evidence and literature of how funding is distributed will also be presented.
 
 \subsection{Health inequalities}\label{subsec:health-inequals}
 
