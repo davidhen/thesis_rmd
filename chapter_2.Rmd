@@ -144,7 +144,7 @@ A useful defintition of assessment and eligibility is provided by Eleftheriades 
 
 Two social theories on how eligibility for public services are determined will be discussed in this subsection; Street-level bureaucracy and candidacy.
 
-The term Street-level bureaucracy is generally credited to Michael Lipsky and his book of the same name [-@RN174], along with its more recent revision [@RN430]. The theory investigates the extent to which front-line public service workers exercise discretion in which individuals of the general public are eligible to access any given service [@RN428]. 
+The term Street-level bureaucracy is generally credited to Michael Lipsky and his book of the same name [-@RN174], along with its more recent revision [@RN430]. The theory investigates the extent to which front-line public service workers exercise discretion in which individuals of the general public are eligible to access any given service - doing so from a position of authority [@RN430]. As a result, Street-level bureaucrats control, "...the nature, amount, and quality of benefits and sanctions provided by their agencies." [@RN430, pp.13]. [@RN428]  
 
 
 \subsubsection{Eligibility for social care in the UK}\label{subsubsec:eligibility-uk}

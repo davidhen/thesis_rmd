@@ -3,16 +3,16 @@ output:
   pdf_document:
     fig_caption: yes
     number_sections: yes
+    citation_package: natbib
 documentclass: report
 bibliography: thesis.bib
 csl:  harvard-university-of-the-west-of-scotland.csl
-urlcolor: blue
+urlcolor: cyan
 linkcolor: blue
 fontsize: 12pt
 geometry: margin = 1.2in
 header-includes:
 - \usepackage[section]{placeins}
-- \usepackage{hyperref}
 - \usepackage{caption}
 - \usepackage{fancyhdr}
 - \usepackage{setspace}
@@ -23,6 +23,7 @@ header-includes:
 - \usepackage[inline]{enumitem}
 - \usepackage[flushleft]{threeparttable}
 - \usepackage{perpage}
+- \usepackage{hyperref}
 - \MakePerPage{footnote}
 - \onehalfspacing
 ---
@@ -155,4 +156,4 @@ knitr::opts_chunk$set(fig.path = 'figures/',
 \newpage
 \fancyhead[CO,CE]{References}
 
-# References
+#References
