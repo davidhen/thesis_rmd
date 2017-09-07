@@ -24,6 +24,7 @@ header-includes:
 - \usepackage[flushleft]{threeparttable}
 - \usepackage{perpage}
 - \usepackage{hyperref}
+- \usepackage[utf8]{inputenc}
 - \MakePerPage{footnote}
 - \onehalfspacing
 ---
@@ -153,7 +154,6 @@ knitr::opts_chunk$set(fig.path = 'figures/',
 ```
 
 \FloatBarrier
-\newpage
-\fancyhead[CO,CE]{References}
+\clearpage
 
-#References
+\addcontentsline{toc}{chapter}{Bibliography}
