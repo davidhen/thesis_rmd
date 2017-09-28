@@ -4,6 +4,7 @@ output:
     fig_caption: yes
     number_sections: yes
     citation_package: natbib
+    keep_tex: true
 documentclass: report
 bibliography: thesis.bib
 csl:  harvard-university-of-the-west-of-scotland.csl

@@ -1,0 +1,2074 @@
+\documentclass[12pt,]{report}
+\usepackage{lmodern}
+\usepackage{amssymb,amsmath}
+\usepackage{ifxetex,ifluatex}
+\usepackage{fixltx2e} % provides \textsubscript
+\ifnum 0\ifxetex 1\fi\ifluatex 1\fi=0 % if pdftex
+  \usepackage[T1]{fontenc}
+  \usepackage[utf8]{inputenc}
+\else % if luatex or xelatex
+  \ifxetex
+    \usepackage{mathspec}
+  \else
+    \usepackage{fontspec}
+  \fi
+  \defaultfontfeatures{Ligatures=TeX,Scale=MatchLowercase}
+\fi
+% use upquote if available, for straight quotes in verbatim environments
+\IfFileExists{upquote.sty}{\usepackage{upquote}}{}
+% use microtype if available
+\IfFileExists{microtype.sty}{%
+\usepackage{microtype}
+\UseMicrotypeSet[protrusion]{basicmath} % disable protrusion for tt fonts
+}{}
+\usepackage[margin = 1.2in]{geometry}
+\usepackage{hyperref}
+\PassOptionsToPackage{usenames,dvipsnames}{color} % color is loaded by hyperref
+\hypersetup{unicode=true,
+            colorlinks=true,
+            linkcolor=blue,
+            citecolor=Blue,
+            urlcolor=cyan,
+            breaklinks=true}
+\urlstyle{same}  % don't use monospace font for urls
+\usepackage{natbib}
+\bibliographystyle{plainnat}
+\usepackage{graphicx,grffile}
+\makeatletter
+\def\maxwidth{\ifdim\Gin@nat@width>\linewidth\linewidth\else\Gin@nat@width\fi}
+\def\maxheight{\ifdim\Gin@nat@height>\textheight\textheight\else\Gin@nat@height\fi}
+\makeatother
+% Scale images if necessary, so that they will not overflow the page
+% margins by default, and it is still possible to overwrite the defaults
+% using explicit options in \includegraphics[width, height, ...]{}
+\setkeys{Gin}{width=\maxwidth,height=\maxheight,keepaspectratio}
+\IfFileExists{parskip.sty}{%
+\usepackage{parskip}
+}{% else
+\setlength{\parindent}{0pt}
+\setlength{\parskip}{6pt plus 2pt minus 1pt}
+}
+\setlength{\emergencystretch}{3em}  % prevent overfull lines
+\providecommand{\tightlist}{%
+  \setlength{\itemsep}{0pt}\setlength{\parskip}{0pt}}
+\setcounter{secnumdepth}{5}
+% Redefines (sub)paragraphs to behave more like sections
+\ifx\paragraph\undefined\else
+\let\oldparagraph\paragraph
+\renewcommand{\paragraph}[1]{\oldparagraph{#1}\mbox{}}
+\fi
+\ifx\subparagraph\undefined\else
+\let\oldsubparagraph\subparagraph
+\renewcommand{\subparagraph}[1]{\oldsubparagraph{#1}\mbox{}}
+\fi
+
+%%% Use protect on footnotes to avoid problems with footnotes in titles
+\let\rmarkdownfootnote\footnote%
+\def\footnote{\protect\rmarkdownfootnote}
+
+%%% Change title format to be more compact
+\usepackage{titling}
+
+% Create subtitle command for use in maketitle
+\newcommand{\subtitle}[1]{
+  \posttitle{
+    \begin{center}\large#1\end{center}
+    }
+}
+
+\setlength{\droptitle}{-2em}
+  \title{}
+  \pretitle{\vspace{\droptitle}}
+  \posttitle{}
+  \author{}
+  \preauthor{}\postauthor{}
+  \date{}
+  \predate{}\postdate{}
+
+\usepackage[section]{placeins}
+\usepackage{caption}
+\usepackage{fancyhdr}
+\usepackage{setspace}
+\usepackage{chngcntr}
+\usepackage{microtype}
+\usepackage{booktabs}
+\usepackage{graphicx}
+\usepackage[inline]{enumitem}
+\usepackage[flushleft]{threeparttable}
+\usepackage{perpage}
+\usepackage{hyperref}
+\usepackage[utf8]{inputenc}
+\MakePerPage{footnote}
+\onehalfspacing
+
+\begin{document}
+
+\pagenumbering{gobble}
+
+\begin{centering}
+
+\vspace{3 cm}
+
+\Huge
+
+{\bf Multimorbidity and Access to Social Care: exploiting emerging administrative data sources in Scotland}
+
+\vspace{3 cm}
+
+\Large
+David Alexander Gunn Henderson
+
+\vspace{3 cm}
+
+
+\normalsize
+Submitted in partial fulfillment of the requirements of the degree of ...
+
+Month Year
+
+\vspace{3 cm}
+
+\normalsize
+College of Social Sciences
+
+\normalsize
+University of Glasgow
+
+\end{centering}
+
+\newpage
+
+\pagestyle{fancy}
+
+\fancyhead[LE,RO]{} \fancyhead[LO,RE]{}
+\renewcommand{\headrulewidth}{0.4pt} \renewcommand{\footrulewidth}{0pt}
+
+\pagenumbering{roman}
+
+\section*{Abstract}\addcontentsline{toc}{section}{Abstract}
+
+Blad de Blah blah blah. I may play about with centering and italicised
+styles here
+
+\newpage
+
+\fancyhead[CO,CE]{Table of Contents} \setcounter{tocdepth}{2}
+\tableofcontents
+
+\newpage
+
+\fancyhead[CO,CE]{List of Tables}
+\addcontentsline{toc}{section}{List of Tables} \listoftables
+
+\newpage
+
+\fancyhead[CO,CE]{List of Figures}
+\addcontentsline{toc}{section}{List of Figures} \listoffigures
+
+\newpage
+
+\section*{Acknowledgements}
+
+\fancyhead[CO,CE]{} \addcontentsline{toc}{section}{Acknowledgements}
+
+Again maybe play about with centering and layout.
+
+How about a nice quotation at the end???
+
+\newpage
+
+\section*{Declaration}
+
+\fancyhead[CO,CE]{} \addcontentsline{toc}{section}{Declaration}
+
+I declare, except where explicit reference is made to the contribution
+of others, that this thesis is the result of my own work and has not
+been submitted for any other degree at the University of Glasgow or any
+other institution.
+
+Printed Name: David Henderson
+
+Signature:
+
+\newpage
+
+\pagenumbering{arabic}
+
+\newpage
+
+\fancyhead[CO,CE]{Chapter 1. Introduction}
+
+\chapter{Introduction}\label{ch:intro}
+
+Integration of health and social care became law in Scotland on 1st
+April 2016. Reflects patterns across the developing world to restructure
+health services to cope with demands of an ageing population.
+
+Social Care of increasing policy (and political) importance. Link to
+healthcare (and demands on health services) becoming increasingly
+apparent (increase delayed discharge etc).
+
+This, in part, due to long-term conditions now major burden of global
+disease (replacing infectious diseases). Large proportions of population
+have multimorbidity (OECD) which has a number of negative outcomes
+including mortality and health care use.
+
+Association of multimorbidity and social care use is unknown.
+
+PhD funding from Scottish Government to assess these topics. (2020
+vision and other policy link)
+
+Important part of the funding to link administrative data sources in
+order to identify the benefit of this process. \emph{Measurement of
+social (or LTC) is improtant for a number of reseons - OECD(2013) page
+18, Care co-ordination (integration) is not measured well pp 76,
+administrative databases potential to help these problems plus ideas for
+outcome measures pp 76 \& 79, pp81 obstacles to data collection
+(overcome by data linkage in Soctland??}
+
+(Need WHO policy outlines and other suitable high-level policy docs in
+this section)
+
+\section{Aims and Objectives}\label{sec:intro-aims-and-obs}
+
+The thesis has both substantive and methodological aims. Substantively,
+it aims to contribute to the debate surrounding health and social care
+integration by looking specifically at a group that are likely to be
+regular users of both health and social care services, i.e.~those with
+multimorbidity. Methodologically, the thesis aims to contribute to
+efforts to improve the exploitation of administrative data as a means to
+analyse public service performance and effectiveness.
+
+Aims of the project are:-
+
+\begin{enumerate}[noitemsep]
+\item Describe and compare social inequalities in the use of social care services using linked health and social care data.
+\item Explore the effects of social care use for those with multimorbidity on 
+\begin{enumerate} 
+\item unscheduled health care use and
+\item mortality. 
+\end{enumerate}
+\end{enumerate}
+
+The objectives of the project are:-
+
+\begin{enumerate}[noitemsep]
+\item To assess how access to social care services varies for people with multimorbidity, especially by socioeconomic status.  
+\item To assess the impacts of social care service use on health service use and health outcomes for people with multimorbidity, where possible exploiting geographic differences in social care as "natural experiments".
+\item To make recommendations for policy on the future of integration of health and social care services based on these results.
+\item To assess tho what extant measures of multimorbidity and of health and social care service use can be operationalised using existing linked health and social care administrative data.
+\item To make recommendations to policy makers on administrative data collections. 
+\end{enumerate}
+
+\section{Scientific contribution}\label{sec:intro-contribution}
+
+Explicit description of what thesis adds to knowledge
+
+\section{Conventions}\label{sec:intro-conventions}
+
+Outline definitions
+
+\begin{itemize}
+\tightlist
+\item
+  Social care refers to Adult social care (with link to subsection
+  \ref{subsec:access-sc-defs})
+\item
+  Multimorbidity and morbidity burden as opposed to comorbidity (with
+  link to subsection \ref{subsec:mm-defs})
+\end{itemize}
+
+\FloatBarrier
+\newpage
+\fancyhead[CO,CE]{Chapter 2. Literature Review}
+
+\chapter{Literature Review}\label{ch:lit-review}
+
+\section{Introduction}\label{sec:lit-review-intro}
+
+\textbf{Introductory paragraph with link from Thesis introduction - also
+may require explanation of lack of structured lit search}
+
+Many countries, including the United Kingdom (UK), have recently seen
+policies implemented that aim to integrate the provision of health and
+social care services \citep{RN234, RN362, RN262}. In addition to
+reducing variations in the provision of care across geographic areas,
+these policies hope to save public money by reducing unplanned
+admissions and delayed discharges from hospital whilst also improving
+the quality of services for individuals \citep{RN232, RN266, RN406}. The
+World Health Organisation \citeyearpar{RN320} cites relative
+inequalities in improvements of health and life expectancy, within and
+between countries, as justification for recommended structural change to
+healthcare. The main recommendation is for governmental policy to shift
+healthcare focus from acute hospital care to outpatient and community
+care \citep{RN320}. The paradigm shift in the method of service delivery
+is suggested in response to increasing long-term, chronic conditions
+forming the major burden of care worldwide. Acute secondary care is
+expensive, thus the shift in care also reflects the need to find
+affordable models of healthcare in an age of diminishing budgets
+worldwide \citep{RN320}. Integrating health and social care services and
+increasing primary care spend are cited as two potential ways of
+facilitating this shift in focus \citep{RN320}. Policies introduced that
+facilitate integration of services have been implemented despite little
+evidence to suggest they will have the desired effect
+\citep{RN367, RN369, RN234, RN233, RN321, RN362, RN366, RN260}. The
+continued drive to integrate services does, however, implicitly
+acknowledge that health and social care services are linked. How these
+services interact at the individual level and whether differing levels
+of provision in each service affects the other is not well understood
+\citep{RN361, RN205, RN406}.
+
+Internationally, provision of social care has become one of the most
+important issues for policy makers in recent years \citep{RN406, RN250}.
+In Scotland, approximately two-thirds of individuals receiving social
+care services are over the age of 65 \citep{RN128} whilst approximately
+two-thirds of all those over the age of 65 have multimorbidity (two or
+more health conditions) \citep{RN33}. It would seem intuitive that a
+large proportion of those receiving social care (if not all) have
+multimorbidity. However, no single data source exists that allows this
+comparison to be made. Nevertheless, guidelines exist for healthcare
+professionals to assist in assessing the social care needs of older
+people with multiple long term conditions \citep{RN150}. Multimorbidity
+is associated with a number of negative outcomes including increased
+health care usage \citep{RN226}. Whether multimorbidity increases use of
+social care services is unknown but this could have an important role in
+informing policy decisions regarding social care provision.
+
+Levels of multimorbidity in the Scottish population follow a stark
+socioeconomic profile with those of lower socioeconomic position having
+higher levels of multiple conditions and more complex care needs
+\citep{RN33, RN21}. This inequality in outcome is compounded by the fact
+that primary care provision in areas of higher socioeconomic
+disadvantage, and thus areas of higher need, receive the same or less
+funding as other more affluent areas. This inequity in provision of
+service demonstrates existence of the inverse care law in primary care
+services \citep{RN120, RN39, RN148} which states, ``The availability of
+good medical care tends to vary inversely with the need for it in the
+population served \citep{RN120}.'' Little is known about how access to
+social care differs across socioeconomic and geographic strata. Health
+services are free to access at the point of need whereas social care is
+provided by Local Authorities and access is regulated by eligibility
+criteria. In an age of austerity, the question of whether an inverse
+\emph{social} care law exists remains unanswered.
+
+Until recently many local authorities had attempted to protect
+front-line services, such as social care, from austerity cuts
+\citep{RN117}. However, given continued year-on-year reductions and a
+further 7.2\% cut to local authority spending in 2016/2017
+\citep{RN251}, the ability to protect social care from reductions in
+spend becomes less likely. Decreased local government budgets across the
+UK and Scotland since 2010 have affected those living in the poorest
+areas hardest \citep{RN117, RN235}. If social care budgets decrease
+further, the question of whether the most deprived areas will feel these
+cuts most is of grave importance.
+
+The overall aim of the PhD project is to empirically explore these
+issues. This chapter will specifically review literature regarding the
+three main themes outlined above namely; social care, the interaction of
+health and social care services, and multimorbidity. Section
+\ref{sec:access-sc} reviews definitions, international models, and
+variation in access to social care. Section \ref{sec:hsc-interaction}
+outlines the policy framework regarding health and social care services,
+how these services are funded and delivered, and why they are linked. It
+then describes the legislation that made health and social care
+integration law in Scotland before reviewing empirical evidence of the
+nature of the interaction between health and social care services.
+Finally, Section \ref{sec:mm} describes why multimorbidity is important
+in the context of health and social care integration and then provides
+an overview of academic literature and policy documents regarding
+multimorbidity and its definitions, measurement, and epidemiology.
+
+\section{Access to Social Care}\label{sec:access-sc}
+
+\subsection{Definitions}\label{subsec:access-sc-defs}
+
+As in the case of multimorbidity, discussed in section
+\ref{subsec:mm-defs}, there is no internationally (or nationally)
+accepted definition of social care. Indeed, the difference between what
+is social care and what is health care has no clear line of demarcation
+resulting in local variation in provision of services \citep{RN371}. The
+Organisation for Economic Co-operation and Development (OECD) and the
+European Union (EU) jointly published a report on Long Term Care (LTC)
+for older people discussing much of what may be described in the UK as
+social care. In the report, LTC is defined as,
+
+\begin{quotation}
+"... a range of services required by persons with a reduced degree of functional capacity, physical or cognitive, and who are consequently dependent for an extended period of time on help with basic activities of daily living (ADL). This "personal care" component is frequently provided in combination with help with basic medical services such as "nursing care" (wound dressing, pain management, medication, health monitoring), as well as prevention, rehabilitation or palliative care. Long-term care services can also be combined with lower level care related to “domestic help” or help with instrumental activities of daily living (IADL)." 
+\end{quotation}
+
+\citep[pp38]{RN406}
+
+A recent NICE guideline \citeyearpar{RN150} addressing social care needs
+for older people with multiple chronic conditions, used a definition
+provided in the UK Health and Social Care Act \citeyearpar{RN149}:-
+
+\begin{quotation}
+    ““Adult social care”—
+    (a) includes all forms of personal care and other practical assistance provided for individuals who, by reason of age, illness, disability, pregnancy, childbirth, dependence on alcohol or drugs, or any other similar circumstances, are in need of such care or other assistance, but 
+    (b) does not include anything provided by an establishment or agency for which Her Majesty’s Chief Inspector of Education, Children’s Services and Skills is the registration authority under section 5 of the Care Standards Act 2000.”
+    (The Health and Social Care Act  2012 c7, Part 3, Chapter 1, Section 65, Subsection 4)
+\end{quotation}
+
+The NICE guideline \citeyearpar{RN150} advises that social care planning
+for people with multimorbidity should include holistic assessment of
+biopsychosocial factors including sexual, spiritual, cultural, and
+communication needs as well as considering access to leisure and social
+activities incorporating issues regarding mobility and transport.
+Specifically, the guideline cites; self-care, taking medicines,
+learning, volunteering, maintaining a home, financial management,
+employment, socialising with friends and hobbies as activities that all
+patients should be able to take part in should they wish and social care
+assessment should assess the ability of the individual to achieve this.
+
+A more succinct definition of social care is used in a report to the
+Minister for Care Services at the UK Department of Health, :-
+
+\begin{quotation}
+    "The group of services that provide personal care and support to people in social situations – such as family; the community; a communal setting; to help them achieve independence and to promote their positive contribution as citizens." Platt 
+\end{quotation}
+
+\citeyearpar[pp.~4]{RN154}
+
+Huxley et al. \citeyearpar{RN153} are critical of this service-based
+definition and argue that social care is intended to improve general
+well-being for those that are in need. As quality of life is an
+important factor of well-being, Huxley et al. \citeyearpar{RN153} argue
+that wider issues regarding environment and the quality of public and
+private services also play an important role in social care. Indeed,
+Daly and Lewis \citeyearpar[pp.287]{RN146} argue that social care is
+``\ldots{}an activity and set of relations lying at the intersection of
+state, market, family (and voluntary sector) relations.''
+
+This view is reflected in an aspirational constitution for social care
+published by an independent, cross-party think-tank \citep{RN136}. The
+authors argue that all citizens should have an equal ability to live and
+control a full and active life. Where this is not possible the state
+should have a duty to provide the necessary help, in whatever form that
+is required, to individuals who require it.
+
+A more clearly defined concept is that of \emph{personal care} which has
+been provided for free in Scotland since 2002. The legislation
+introduced by the then Scottish Executive necessitated a clear
+definition and constitutes six dimensions \citep[pp.256]{RN373}.
+
+\begin{itemize}[noitemsep]
+\item Personal Hygiene: washing etc.  
+\item Personal Assistance: help with dressings, prostheses etc.  
+\item Continence Management: toileting, catheter management etc.  
+\item Food and Diet: help with eating, food preparation etc.  
+\item Problems of Immobility:  
+\item Simple Treatments: help with medicines, creams, oxygen therapy etc. 
+\end{itemize}
+
+Personal care is, however, only one aspect of social care provision and
+clear definitions of other services provided to individuals are lacking.
+Nevertheless, the definitions of social (or long-term) care above all
+highlight services that are required to aid with an individual's
+functional or cognitive needs.
+
+\subsection{International models of social care}\label{subsec:access-sc-models}
+
+There are four ways in which social care
+\footnote{International, and particularly European, literature more frequently uses the phrase "long term care" to describe the kinds of services outlined in section \ref{subsec:access-sc-defs}. The term "social care" is used in-lieu for the purposes of this thesis.}
+can be provided to those in need: informally via family or community,
+formally via voluntary non-profit organisations, formally via the state,
+or formally via a for-profit organisations \citep{RN346}. In Europe,
+increasing demand from users has led to many welfare systems being
+unable to adequately provide care \citep{RN344, RN414}. Changes in
+demography, the labour market, democracy, and values have all
+contributed to the increasing pressure on care services
+\citep{RN406, RN342, RN414}. There is wide consensus that lower birth
+rates and higher proportions of older people mean that a gap has emerged
+in the number of adult children able to provide informal care to their
+parents \citep{RN342, RN343, RN344, RN346, RN345, RN414}. Traditionally,
+informal care was provided by women. As gender equality improves, more
+women are employed outwith domestic circumstances which also reduces the
+pool of informal social care available \citep{RN342}. Anttonen
+\citeyearpar{RN342} also cites changes in societal attitudes from
+``familism'' to ``individualism'' as having an impact on informal care
+resources. These combined factors mean that formal care services are
+increasingly required to provide social care. Pressures on these
+services has seen increased discussion and comparison of models of care
+across Europe over the last 20 years \citep{RN347, RN348, RN346, RN349}.
+
+In a report for the OECD, Colombo et al \citeyearpar{RN414} categorised
+the varying models of social care into three main groups with
+subdivisions as shown in Table \ref{tab:oecd-soc-care}.
+
+\begin{table}[]
+  \centering
+  \caption{Models of social care in OECD countries adapted from Colombo et al (2011)}
+  \label{tab:oecd-soc-care}
+  \scalebox{0.7}{
+    \begin{threeparttable}
+      \begin{tabular}{@{}ll@{}}
+        \toprule
+          \textbf{Model} & \textbf{Countries where employed} \\ \midrule
+          \textbf{Universal coverage} &  \\
+          a) tax based & Norway, Sweden, Denmark, Finland \\
+          b) public long-term insurance & Germany, Japan, South Korea,                      Netherlands, Luxembourg \\
+          c) health system & Belgium \\
+          \textbf{Mixed systems} &  \\
+          a) parallel universal schemes & Scotland, Italy, Czech Republic,                 Poland \\
+          b) income-related universal benefit or subsidy & Ireland, Australia,              Austria, France \\
+          c) mix of universal and means-tested (or no) benefit & Switzerland,               New Zealand, some Canadian Provinces, Spain, and Greece\tnote{1} \\
+          \textbf{Means-tested safety net} & England, USA \\
+          \bottomrule
+          \end{tabular}
+          \begin{tablenotes}
+        \item[1] Spain and Greece have less well developed formal care                    services
+      \end{tablenotes}
+  \end{threeparttable}
+  }
+\end{table}
+
+Universal models of social care are characterised by; a) a single system
+being in place for delivery of services, b) nursing \emph{and} personal
+care are provided for all individuals meeting defined eligibility
+criteria, and c) some form of charge is levied on service-users
+\citep{RN414}. Three subdivisions of universal coverage social care
+models are identified in this classification.
+
+The tax-based universal models, also known as the Nordic model of care,
+have strong local-government influence in both the raising of funds and
+delivery of services \citep{RN414, RN348, RN346, RN349}. Overall
+responsibility remains with national government which also contributes
+funds, often dependent on local population need and structure
+\citep{RN414}. Public long-term insurance schemes are mandatory in the
+countries that employ them, although the age at which citizens begin to
+contribute varies (e.g.~only over 40s contribute in Japan)
+\citep{RN414, RN413, RN407}. These models have found it increasingly
+difficult to fund provision and have either increased user-payments or
+decreased coverage in recent years \citep{RN345, RN413, RN407}. In
+Belgium, social care is viewed as a health risk and is financed through
+the health system with a cap on user-contribution. This results in a
+medical (rather than social) model of care delivery, mostly provided by
+nurses \citep{RN414}.
+
+In contrast to universal models described above where a single system is
+in place for social care delivery, mixed social care systems employ
+either; a) universal coverage via different sources/sectors or b) a
+mixture of universal and means-tested benefits \citep{RN414}. Whilst
+acknowledging the wide variation in systems, Colombo et al
+\citeyearpar{RN414} identify three subdivisions of mixed system models
+of social care as shown in table \ref{tab:oecd-soc-care}.
+
+Parallel universal schemes provide social care via two or more sectors
+(e.g.~nursing care via health provider and personal care from a
+non-healthcare source) \citep{RN414}. Major differences exist between
+countries in how this is delivered in practice with varying degrees of
+coverage. Income related universal benefits provide needs-based
+universal coverage of social care but benefits received vary according
+to income \citep{RN414}. France provides an good example of this system
+where cash benefits are needs \emph{and} income based - benefits are
+paid at six levels of dependency, those with higher incomes are paid
+proportionally less and top-up care costs themselves
+\citep{RN414, RN420}. The final subdivision of mixed social care models
+has some universal entitlements provided alongside means-tested services
+e.g.~free provision of nursing care with means-testing for personal
+care.
+
+Colombo et al \citeyearpar{RN414} include Spain and Greece in this final
+subdivision of mixed social care models but note these countries have
+formal care systems that are much less developed than elsewhere in the
+OECD. Sometimes referred to as the Mediterranean model, informal care
+from family and other sources constitutes the main form of social care
+in these countries \citep{RN348, RN346, RN349}. As this role is
+traditionally carried out by women, the Mediterranean model has
+attracted criticism from a feminist perspective \citep{RN346}.
+
+The final model in Colombo et al's \citeyearpar{RN414} classification of
+social care in OECD countries is the Means-tested safety net model
+(Table \ref{tab:oecd-soc-care}). In this model only those below a
+pre-determined threshold are entitles to state-provided social care.
+Despite the free provision of health care and some non-means-tested
+benefits, England is included in this category in the report. Presumably
+this is due to the fact that state support in a residential home in
+England is provided only after an individual has depleted both income
+\emph{and} assets below a threshold \citep{RN414}, a system not seen in
+other countries
+\footnote{A cap of approximately £72,000 total contribution was to be introduced in 2016 (Eleftheriades et al., 2013)}
+\citep{RN420}.
+
+Of the three models of social care described in this section, universal
+systems have a number of advantages over the other two
+\citep{RN414, RN420}. Sharing the burden of social care provision among
+the entire population, either via general taxation or mandatory
+insurance schemes, results in a reliable, predictable source of finance
+enabling states to plan more effectively \citep{RN414, RN420, RN413}.
+Mixed systems of social care can still result in considerable costs for
+those that require care, whereas the costs to individuals in the
+means-tested system can be ``catastrophic'' \citep[pp240]{RN414}. The
+means-tested system can also be perceived as unfair for those that need
+to sell assets (such as a house) to pay for care, particularly when
+there is variation in eligibility criteria within countries
+\citep{RN414, RN420, RN421, RN407, RN413}. A particular advantage of a
+universal social care systems is that it,
+
+\begin{quotation} 
+"...generally reduces utilisation of more expensive health care services and professionals (e.g. hospital care, doctors) for long-term care needs, for example by making "social hospitilisation" of frail people with [social care] needs more difficult." 
+\end{quotation}
+
+\citep[pp.222]{RN414}
+
+Given the pressures on state budgets and the desire to adequately fund
+care services, this seems a particularly useful benefit of the universal
+coverage model of social care.
+
+Disadvantages of universal systems are that they, generally, are more
+expensive to the state than other models of social care and can reduce
+the amount of informal care provided by relatives for elderly family
+\citep{RN414, RN407}. The comprehensiveness of coverage can be
+over-burdensome for the state with a number of countries recently having
+to cut service or increase user-contributions to compensate for
+increasing demand \citep{RN345, RN421, RN407, RN413}.
+
+A recent examination of the effects of the 2008 financial crisis on the
+way social care is delivered across Europe suggests that the
+distinctions between social care models is beginning to blur
+\citep{RN343}. There is evidence those with more comprehensive coverage
+are reducing levels of care whilst those with less coverage are
+increasing provision \citep{RN414}.
+
+\begin{figure}
+  \centering
+  \caption{Older recipients of long-term care services as a share of the over 65 population, 2008}
+  \label{fig:oecd-comparison}
+    \includegraphics[width=0.8\textwidth]{figures/oecd-comparison.PNG}
+\end{figure}
+
+Given the marked variations in how social care is funded and delivered
+across countries, it may be expected that there are also marked
+varations in levels of access and utilisation. Colombo et al
+\citeyearpar{RN414} produced a chart (shown in figure
+\ref{fig:oecd-comparison}) derived from OECD data that shows the
+proportion of over 65s receiving some form of social care across
+countries for which data is provided. The chart shows that having a
+universal or mixed system of social care provision (as described above)
+does not absolutely influence the number of people receiving care. For
+example, South Korea employs a universal (insurance-based) system and
+has one of the lowest proportions of older people receiving care,
+whereas Swizerland has one of the highest whilst employing a mixed
+system involving some universal and some means-tested benefits. This
+suggests that eligibility criteria set within countries are likely to be
+more important in determining access to social care than any particular
+system of care delivery.
+
+Social care can be seen as\\
+a) a group of services such as; skilled nursing care, social work,
+personal care, medical equipement \& technologies, and therapies.
+Delivered by,\\
+b) delivered by a range of professionals such as; nurses, low-skilled
+carers, or allied health professionals. In,\\
+c) various locations such as; at home, in an institution, or via
+community care.
+
+Policy choices across how each of these domains are funded and delivered
+result in the marked varations across contries in how social care is
+accessed and delivered \citep{RN414}.
+
+\subsection{Access to Social Care I - Eligibility}\label{subsec:access-sc-eligibility}
+
+\subsubsection{Social Theory of eligibility}\label{subsubsec:eligibility-theory}
+
+This section will variation in access to social care \emph{within} Local
+Authorities. Theory regarding ``Street level Bureaucracy'' and
+``Candidacy'' will be described.
+
+A useful defintition of assessment and eligibility is provided by
+Eleftheriades \& Wittenberg \citeyearpar[pp.2]{RN407},
+
+\begin{quotation}
+"...the \emph{criteria} under which a given individual is eligible for publicly funded support for long-term care, and for how much support the individual is eligible, and the \emph{processes} involved in selecting from the general population those who receive this support and determining for how much support each person is eligible"
+\end{quotation}
+
+Two social theories on how eligibility for public services are
+determined will be discussed in this subsection; Street-level
+bureaucracy and candidacy.
+
+The term Street-level bureaucracy is generally credited to Michael
+Lipsky and his book of the same name \citeyearpar{RN174}, along with its
+more recent revision \citep{RN430}. The theory investigates the extent
+to which front-line public service workers exercise discretion in which
+individuals of the general public are eligible to access any given
+service - doing so from a position of authority \citep{RN430}. As a
+result, Street-level bureaucrats control, ``\ldots{}the nature, amount,
+and quality of benefits and sanctions provided by their agencies.''
+\citep[pp.13]{RN430}. \citep{RN428}
+
+\subsubsection{Eligibility for social care in the UK}\label{subsubsec:eligibility-uk}
+
+Literature and evidence of how eligibility affects access will also be
+presented.
+
+Access to social care in Scotland is means tested via assessment carried
+out by a social worker. The criteria for social care delivery,
+therefore, has a very important part to play in how services are
+accessed. This section describes relevant literature on how eligibility
+criteria are set.
+
+In 2010 the Scottish Government published a report identifying a
+strategy for the policy of self-directed support \citep{RN171}. The
+report was written in conjunction with the Convention of Scottish Local
+Authorities~(COSLA) and included the recommendation that the National
+Eligibility Framework developed by the Sutherland review into free
+personal and nursing care \citeyearpar{RN172} should be applied across
+all social care services. The framework has four criteria for assessing
+risk in relation to a person's care needs: Critical, Substantial,
+Moderate and Low \citep{RN184}. The Critical and Substantial levels of
+risk indicate social care needs should be addressed immediately or
+imminently, whereas a moderate level of risk may indicate either some or
+no services being required. There is no explicit description of severity
+or which care needs fall into each category and in practice each Local
+Authority sets the criteria and decided at which level of risk they
+would provide social care \citep{RN170}.
+
+Equity of access to services is directly influenced by an eligibility
+framework. Indeed, the Strategy for Self-Directed Support
+\citep[pp.20]{RN171} acknowledges this and states that such a framework
+``\ldots{}can result in resources being narrowly focused on individuals
+with acute needs.'' However, the report goes on to state that growing
+demand and finite resources requires some form of eligibility assessment
+but this should not have a disproportionate effect on any one group of
+people requiring care.
+
+The eligibility framework allows each Local Authority to set thresholds
+for access to care in line with local priorities and resources. This has
+the effect that access to services varies across differing council
+areas. The potential for regional variation is again acknowledged by the
+Strategy for Self-Directed Support \citep[pp.20]{RN171} which states
+that, ``\ldots{}further work will be undertaken by the Scottish
+Government and COSLA to assess whether there is merit in establishing
+national thresholds for access to formal support across all client
+groups.''
+
+Acknowledgment of problems with eligibility criteria and the promise of
+``further work'' to be undertaken by the Scottish Government and COSLA
+is repeated in practitioner guidance on Self-Directed Support published
+in 2014 \citep[pp.19]{RN170} and that , ``\ldots{}it remains the case
+that local authorities should operate eligibility criteria to determine
+whether or not an individual assessed as having social care needs can
+access formal support and if so, which of their needs are to be met by
+that support.''
+
+Data is not available on levels of care provided by LAs for each of the
+National Eligibility Framework criteria or for the threshold that each
+LA provides care at. The Scottish Government collects an annual report
+of eligibility and waiting times for the 1st quarter of the year. The
+latest report \citep{RN184} provides information on the time individuals
+had to wait to receive assessment and the time individuals had to wait
+to receive care in the period January-March for the preceding 5 years.
+However, no absolute numbers of people in each category is provided.
+
+The Scottish National Eligibility Framework has striking similarities to
+that formerly used in England and described in Fair Access to Care
+Services (FACS) produced by the Social Care Institute for Excellence
+(SCIE) \citeyearpar{RN138}. Exactly the same nomenclature is used to
+describe the eligibility categories of need. Newton and Browne
+\citeyearpar{RN163} critiqued a previous version the FACS guidance and
+found similar issues to those raised above regarding regional variations
+in service and concentration of services on those with the highest need.
+Their paper describes further issues with access to social care in the
+context of social theory described by Lipsky \citeyearpar{RN174} and
+``Street level bureaucracy'' where intentional and unintentional
+judgment of entitlement by social care workers have an impact on whether
+an individual receives care or not. Newton and Browne
+\citeyearpar{RN163} also make the assertion that health and social care
+has never been accessed equitably by arguing that those with a greater
+ability to articulate needs and negotiate access are more likely to gain
+access to services. Although no citation is provided to back-up this
+argument it has certainly been described elsewhere \citep{RN118} and
+sits well in the broader discussion of inequitable access to services
+\citep{RN116, RN175, RN120}.
+
+In England, the Care Act \citeyearpar{RN176} aimed to remove regional
+variations in eligibility in access to social care by imposing national
+minimum thresholds that Local Authorities would have a statutory
+obligation to provide. The Care Act also aimed to ensure Local
+Authorities provided care, ``\ldots{}as early as possible to help
+maintain well-being and independence, and potentially delay a situation
+where longer-term care and support might be required.''
+\citep[pp.2]{RN169}. The minimum criteria for being eligible for care
+involves an individual having needs that impairs their ability to meet 2
+or more of a designated list of outcomes (e.g.~managing and maintaining
+nutrition or maintaining hygiene) \citep{RN169} and is set by the
+Secretary of State for Health \citep{RN177}.
+
+In practice, the most likely outcome is that the minimum threshold that
+Local Authorities will have to provide care will be similar to the
+``Critical'' level of the National Eligibility Framework previously used
+in the FACS guidance \citep{RN173, RN177} (and similar to that used in
+Scotland). This will legalise a shift that has already been occurring in
+England where fewer numbers of LAs are providing care for those with
+``moderate'' needs and only providing care for those with ``critical''
+needs \citep{RN173, RN177}. Burchardt et al. \citeyearpar{RN173} state
+that only 2\% of English LAs will have to widen their care threshold
+whereas 12\% could now, legally, tighten care provision as a result of
+the Care Act. This situation is not new and has been gradually worsening
+over the past decade and has profound impacts on the quality of, and
+access to, social care. Indeed:-
+
+\begin{quotation}
+"It is through the eligibility criteria that resources are rationed, that is "need" is equated with "resources available". This mechanism severely limited the idea that provision could be determined either by need or by the right to services."
+\end{quotation}
+
+\citep[pp.10]{RN374}
+
+A recent report by the House of Commons Communities and Local Government
+Committee \citeyearpar{RN287} confirmed reductions in the absolute
+number of people receiving care, the concentration of services in those
+with highest needs only, reduction in quality of care provided, and the
+resulting pressures this caused to the health service through increased
+emergency admissions and delayed discharges. The report highlights the
+perilous state of social care provision in England and urges immediate
+attention from the government to address funding shortfalls.
+
+Burchardt et al. \citeyearpar{RN173} and Abrahams et al.
+\citeyearpar{RN177} recognise some positive changes to Social Care
+policy through the Social Care Act but are damning about past UK
+Government Social Care policy in England and Wales. They cite chronic
+underfunding and cuts for over ten years resulting in fewer numbers of
+people receiving care at a time when demand is sharply increasing due to
+demographic change. The ``intensification'' of services on those with
+the most acute needs is cited by both sets of authors as
+counterproductive -- ignoring those with moderate care needs completely
+derails one of the main purposes of the Care Act, preventative services.
+Indeed,
+
+\begin{quotation}
+    “As well as lacking in moral sense, such an approach is economically unsound. Waiting for people to have high needs before providing care means that care will be more expensive, as well as pushing more older people into an already pressurised NHS. ” \end{quotation}
+
+\citep[pp.5]{RN177}
+
+A similar picture has been seen in Scotland. Absolute numbers of people
+receiving home care has steadily fallen over the last 10 years whilst
+the number of hours of care provided has increased \citep{RN128}. There
+are wide variations in the number of hours of home care provided per
+population across Local Authorities \citep{RN128}. This may reflect
+different demographic make-up of each Local Authority although
+reductions in ratios per population can be seen in almost all Local
+Authorities {[}\emph{edit - I can produce a table here to reflect this
+but is that appropriate in the Intro? Also would have to provide code in
+the Appendix to show how I produced the table}{]}.
+
+In a report profiling the care at home sector in Scotland. MacLeod and
+Mair \citeyearpar{RN147} describe large decreases in absolute numbers of
+people receiving care at home over the ten years to 2013. There have
+also been significant reductions in the number of people receiving
+non-personal care (so called ``mopping and shopping''). The increase in
+the number of hours of home care delivered by all services reflects a
+focus on smaller numbers of individuals with higher care needs. This
+means those with moderate or low personal care needs and those requiring
+``mopping and shopping'' services are now less likely to receive
+publicly funded care. Echoing the views of Burchardt et al.
+\citeyearpar{RN173} and Abrahams et al. \citeyearpar{RN177}, Macleod and
+Mair \citeyearpar{RN147} highlight the potential false economy of this
+situation -- home care services are likely to reduce the need for costly
+emergency admissions to hospital and delay the requirement for more
+intensive home care packages.
+
+\subsection{Access to Social Care II - Resource allocation}\label{subsec:access-resources}
+
+\subsubsection{Social Theory of Resource Allocation}\label{subsubsec:theory-resources}
+
+\subsubsection{Resource Allocation for Social Care in the UK}\label{subsubsec:resources-uk}
+
+This section will discuss social science theory of fair allocation of
+resources to Local Authorities such as ``the strategy of equality.''
+Will need to outline how social care is funded in the UK Here, the
+``inverse care law'' will also be discussed.
+
+Evidence and literature of how funding is distributed will also be
+presented.
+
+\subsection{Health inequalities}\label{subsec:health-inequals}
+
+This section will outline why access to services are linked to health
+inequalities (with reference to section \ref{subsec:access-resources}).
+Then summarise main literature on health inequalities (briefly).
+
+In the UK, poverty remains the largest predictor of relative ill health
+and has associations with increased morbidity, multimorbidity, and
+decreased life expectancy \citep{RN37}. People living in deprived areas
+are more likely to engage in unhealthy lifestyle behaviours, experience
+multimorbidity at a younger age, and live in overcrowded or unsuitable
+housing \citep{RN37, RN311}. The influential Marmot review into health
+inequalities found that those in the most deprived areas of England die,
+on average, 7 years earlier than their most affluent peers \citep{RN312}
+with the gap in life expectancy increasing between 1995 and 2008
+\citep{RN313}. Subsequent research by the King's Fund suggests the gap
+in life expectancy reduced between the periods 1999-2003 and 2006-2010
+\citep{RN314}. The report warns that this improvement may be due to the
+spending and policy decisions of the New Labour Government of the early
+2000s and that recent austerity measures in the UK may undermine the
+progress made \citep{RN314}. Indeed, the most recent analysis released
+by the Office for National Statistics \citeyearpar{RN375} suggests the
+gap in male life expectancy in England is now 9.1 years. In Northern
+Ireland, the male life expectancy gap is the lowest of all 4 UK nations,
+however those in the poorest neighbourhoods die, on average, 4 years
+earlier than those in the most affluent areas \citep{RN375}. In Wales
+the gap is slightly larger at 4.2 years \citep{RN375}. There is a gap of
+7 years in life expectancy at birth in Scottish males - those born in
+East Dunbartonshire can expect to live to 80.5 years, whereas those in
+Glasgow city can expect to live 73.4 years \citep{RN375}. In Scotland,
+the Government reports statistics on healthy life expectancy which is
+defined as the number of years people can expect to live in good health
+\citep{RN315}. The most recent figures suggest men and women in the most
+deprived areas can expect to become ill 25.1 and 22.1 years earlier than
+their most affluent peers respectively \citep{RN315} meaning Scotland
+has the highest levels of health inequalities in western and central
+Europe \citep{RN385, RN386}.
+
+These disparities in life expectancy are compounded by inequities in
+access to health services. The inverse care law - the availability of
+good medical care varying inversely with the need for it in the
+population served \citep{RN120} - persists. As discussed above, the most
+deprived areas have lower life expectancy and higher morbidity figures
+and therefore greater health needs \citep{RN37}. However, the poorest
+neighbourhoods in England have been reported to have 62.5 General
+Practitioners (GP) per 100,000 population whereas the most affluent
+neighbourhoods have 76.2 per 100,000 \citep{RN317} suggesting health
+provision does not match need. Recent planned changes in policy to
+distribute primary care funding based on population age are likely to
+exacerbate this situation \citep{RN39}. Indeed, increases in workload
+with deteriorating proportions of budgets has lead the King's Fund to
+describe the situation in primary care in England and Wales as, ``in
+crisis'' \citep[pp.3]{RN318}. In Scotland, the even distribution of GP
+workforce among the population means GP practices in the most deprived
+areas need to provide more consultations, for people with greater needs,
+at the same funding level as practices with fewer resource demands
+\citep{RN148, RN27}. Poorer access to primary health care is associated
+with greater demand for unnecessary admission to hospital
+\citep{RN49, RN268} which is responsible for high proportions of
+healthcare expenditure. Studies with interventions to improve access to
+primary care have shown reductions in unnecessary secondary care use
+\citep{RN245, RN246, RN272} providing an economic, as well as moral,
+case for primary care investment. As acute hospital admission rates
+rise, tackling health inequalities is a major policy priority and
+primary care can play a pivotal role in this action \citep{RN319}.
+
+There are many theories as to why inequalities in health exist across
+social class \citep{RN327, RN333}. Some of these, such as statistical
+artefact and biological reasons, were rejected as being implausible by
+the Black report \citep{RN277}. To a large extent, epidemiological
+evidence and theoretical argument has agreed with that view
+\citep{RN327, RN83, RN82, RN333}. There have been many critiques of the
+theories proposed in the last 35 years which focus on differing numbers
+proposals \citep{RN327, RN333, RN377, RN378, RN83}. Whilst arguments
+over which theory is most plausible to explain the cause of health
+inequality, most researchers agree on ways to remedy disparities in
+health outcome namely the redistribution of income, wealth and political
+power \citep{RN378, RN391, RN327, RN333}. Although health services have
+an important role to play, it is the ``upstream'' policies of
+redistribution that will make the biggest impacts in improving health
+outcomes across society \citep{RN378, RN391, RN327, RN325}. Whilst this
+has been known for some time, government policies in the UK to date have
+not addressed these issues and have thus failed to make meaningful
+improvements in health inequalities \citep{RN330, RN331, RN377}.
+
+\subsection{Summary}\label{subsec:access-sc-summary}
+
+A summary of the literature presented in section \ref{sec:access-sc}
+
+Varying definitions of social care. Differing European models described
+in literature - all now showing signs of change due to impact of ageing
+population. (Findings of differing access across these models section).
+Two main social theories with regard to access to services. One about
+allocation of resources, other about distribution of resources by
+providers.
+
+Social care is an increasing policy priority across Europe due to
+demographic trends and reductions in the amount of state-based funding
+available to provide care. All countries, regardless of model of social
+care, have seen increases in market-based systems and increased use of
+private care. The boundary between health and social care is not clearly
+defined. In the UK this means provision of services is decided locally
+which is likely to result in variation in provision and therefore
+outcomes. Devolution has resulted in variations in policy across the UK,
+most notably in the free provision of personal care in Scotland.
+However, there have been marked reductions in the amounts of social care
+delivered in both England and Scotland largely due to tightening of
+access to services through eligibility criteria. This has led to
+warnings that reduction in service provision is likely to be
+counter-productive in terms of service experience and cost to
+governments.
+
+\section{Health and Social Care Interaction}\label{sec:hsc-interaction}
+
+\subsection{Public Policy}\label{subsec:policy}
+
+Section discussing public policy of health and social care. Two silos.
+Short description of NHS funding and compared with LA funding described
+in subsection \ref{subsec:access-sc-nat-variation}.
+
+Discuss why these services are linked - hosp discharge etc.
+
+Highlight current policy such as 2020 vision in Scotland, Health and
+Social Care Act (2012)(UK) \textbf{Christie Commision} etc.
+
+Discuss Why poor co-ordination between services?
+
+\subsection{Health and Social Care Integration}\label{subsec:hsc-integration}
+
+Overview of health and social care integration. What it aims to do. Why
+etc.
+
+Policy - The Act - structure such as ``Lead Agency'' or ``Joint Body''
+models.
+
+Evidence of benefits of integration - (not much!)
+
+\subsection{Research on Health and Social Care Interaction}\label{subsec:research}
+
+Section discussing the few studies that have aimed to assess the
+interaction between health and social care services.
+
+Bardsley et al\citeyearpar{RN183} a good starting point - also studies
+identified by mini lit search in 1st year review plus update.
+
+\subsection{Summary}\label{subsec:hsc-interaction-summary}
+
+Summary of literature presented in section \ref{sec:hsc-interaction}
+
+\section{Multimorbidity}\label{sec:mm}
+
+\subsection{Why focus on Multimorbidity?}\label{subsec:why-mm}
+
+Important subsection. Brief definition - Identify high use of health
+care and association with poor outcomes (with citations). Then make case
+that use of social care likely to be associated with MM (though no
+evidence to back this up - hence need for thesis).
+
+Discuss whether access to social care likely to be more or less ``fair''
+for those with MM - ref to Inverse Care Law and PC literature.
+
+Will Health and Social Care integration results in better or worse
+outcomes for MM? (Should be better - main aim of integration..)
+
+Link to following sections as background of current MM literature to
+help inform understanding of concept
+
+\subsection{Definitions}\label{subsec:mm-defs}
+
+Despite the increasing importance of multimorbidity on health care
+systems, there is no internationally agreed definition of the term or
+concept \citep{RN89, RN95}. Van den Akker et al \citeyearpar{RN19} first
+made the distinction between the terms comorbidity and multimorbidity.
+Comorbidity was originally described by Fenstein \citep[pp.467]{RN338}
+who stated, ``In a patient with a particular index disease, the term
+co-morbidity refers to any additional co-existing ailment.'' Van Den
+Akker et al. \citeyearpar[pp.65]{RN19} used the term multimorbidity to
+describe, ``\ldots{}any co-occurrence of medical conditions within a
+person.'' In this sense, multimorbidity does not rely on the presence of
+a primary, or index, disease but refers to the overall state of multiple
+illnesses.
+
+Further development of definitions is provided by Valderas et al.
+\citep{RN64} who characterise the construct of the term comorbidity
+found in the literature in four main groups; (a) comorbidity --
+additional diseases in the context of an index disease, (b)
+multimorbidity -- more than one disease within an individual (without
+reference to an index disease), (c) morbidity burden -- total impact of
+physiological dysfunction linked to patient outcomes and (d) patient
+complexity -- the effect of non-health characteristics
+(e.g.~deprivation, culture, environment) on morbidity burden.
+
+Valderas et al. \citep{RN64} discuss these four constructs of
+comorbidity further in relation to three main research areas; clinical
+care, epidemiology and public health, and health service planning. It is
+suggested that comorbidity may be a more valid definition for use in
+specialist clinical care, whereas multimorbidity and morbidity burden
+would be more appropriate in primary care research. In epidemiological
+and public health research, the definitions of either comorbidity or
+multimorbidity would be of use depending on the origin of the diseases
+being studied and the particular research questions being investigated.
+Morbidity burden and patient complexity are, according to Valderas et
+al. \citep{RN64}, the most appropriate definitions for research
+exploring healthcare use and costs.
+
+A further definition of multimorbidity is offered by the European
+General Practice Research Network (EGPRN) who report findings of a
+systematic review in the construction of their definition. Citing over
+100 different definitions for multimorbidity in academic research the
+EGPRN \citep[pp.1]{RN77} aimed to clarify the concept of multimorbidity
+and define the term as
+
+\begin{quotation} "...any combination of chronic disease with at least one other disease (acute or chronic) biopsychosocial factor (associated or not) or somatic risk factor." \end{quotation}
+
+This definition goes some way to capture the complexity of the concept
+of multimorbidity as explained by Valderas et al. \citeyearpar{RN64} but
+has not ended debate on the matter.
+
+More recently, a systematic review focused on which diseases, risk
+factors and symptoms are included in varying definitions of
+multimorbidity \citep{RN254}. Whilst the majority of included studies in
+the review indicated multimorbidity as the presence of two or more
+conditions, Willadsen et al \citeyearpar{RN254} found the total number
+of diseases, risk factors, and symptoms used varied from 4 to 147. Of
+the 167 included articles in the review, 115 different ways of defining
+multimorbidity were identified \citep{RN254}.
+
+In a recently published guideline, the National Institute for Health and
+Care Excellence (NICE) \citep{RN226} acknowledge the complexity of
+defining multimorbidity. NICE agree with other commentators \citep{RN21}
+that basing the definition of multimorbidity on 2 or more health
+conditions only does not fully capture a clinically meaningful picture
+of the concept. The guideline highlights the fact that many people
+defined as multimorbid in this way may not be ill and have excellent
+quality of life requiring little or no health care input \citep{RN226}.
+For this reason the guideline is aimed at people with more than 1
+long-term condition with any of the following:-
+
+\begin{itemize}
+\tightlist
+\item
+  Difficulty managing treatments or day-to-day activities.
+\item
+  Care from multiple services and requiring care from a new service.
+\item
+  Both long-term physical and mental health conditions.
+\item
+  Frailty.
+\item
+  Frequent use of unplanned or emergency care.
+\item
+  Prescription of multiple, regular medicines.
+\end{itemize}
+
+\citep{RN226}
+
+Although multimorbidity may seem to be an intuitive thing to understand,
+defining a useful concept of the term is much more difficult
+\citep{RN155}. Whilst the co-occurrence of 2 or more long-term
+conditions is the most commonly used definition of multimorbidity, there
+are wide variations in the number of conditions from which this
+definition can be based. This lack of clarity means that identifying
+useful ways to measure Multimorbidity is also problematic with marked
+variations in approaches.
+
+\subsection{Measurement}\label{subsec:mm-measures}
+
+The findings of three recent systematic reviews have highlighted the
+myriad ways researchers have approached the measurement of
+multimorbidity \citep{RN16, RN34, RN29}. Each review aimed to collate
+evidence of measurement tools in comorbidity or multimorbidity but from
+different perspectives: De Groot et al \citeyearpar{RN16} searched for
+comorbidity indices to inform research into Multiple Sclerosis,
+Diederichs et al \citeyearpar{RN34} specifically searched for
+multimorbidity measurement indices, whereas Huntley et al
+\citeyearpar{RN29} searched for measures of multimorbidity used only in
+primary care research. The systematic reviews found 13, 39 and 17
+exclusive ways of measuring multimorbidity or comorbidity respectively.
+The number of medical conditions included in these measurements varied
+from 4 to 102 \citeyearpar{RN34}. Most indices are developed from
+secondary care populations but many have been adapted for other
+populations including primary care \citep{RN34, RN29}.
+
+There are two main ways of measuring multimorbidity: simple disease
+counts or using an index which applies weights to either prescribed
+medications or medical conditions and other factors in an attempt to
+explain severity of illness \citep{RN16, RN34, RN29}. In primary care
+research, the most frequently used measurement is simple disease counts
+\citep{RN29}. This may because of the ease with which it can be
+administered compared to more complex indices such as the Charlson index
+\citep{RN339} or Chronic Disease Score \citep{RN340} and their
+variations. Despite the large number of multimorbidity indices
+available, Huntley et al \citeyearpar{RN29} cite evidence that suggests
+simple counts of diseases or medications are almost as effective as the
+more complex indices at predicting mortality or health care use in the
+primary care setting. However, when aiming to predict mortality in
+Primary Care, Huntley et al \citeyearpar{RN29} recommend the best
+measurement of multimorbidity to be provided by the Charlson index
+\citep{RN339} and its variations. Measurement of multimorbidity in
+relation to primary care healthcare use can be predicted with
+equivalence by either; the Adjusted Clinical Group system \citep{RN341},
+the Charlson index \citep{RN339}, or disease counts \citep{RN29}.
+Disease counts were also found by Huntley et al \citeyearpar{RN29} to
+have good evidence to suggest they provide a robust measure of
+multimorbidity in relation to Quality of Life, as does the Charlson
+index \citep{RN339}. A count of medicines was found to be a good
+predictor of primary care use and mortality in a more recent paper
+\citep{RN247}. In their paper, Perkins et al \citeyearpar{RN78} argue
+that indices developed in the secondary care setting, such as the
+Charlson index, should be used with caution in other settings despite
+adaptions. More recently, Wallace et al \citeyearpar{RN228} found little
+difference between simple (count) and complex (index) measures when
+predicting hospital admission but noted that all measures of
+multimorbidity alone were poor predictors of the outcome.
+
+An emerging method of measuring multimorbidity is to identify clusters
+of medical conditions that co-exist in individuals at rates higher than
+would be expected - or non-random prevalence. Recent research and
+academic discussion suggests identification of disease clusters may
+enable clearer answers to clinically relevant research questions than
+currently employed measures
+\citetext{\citealp{RN96}; \citealp[RN109;][]{RN98}; \citealp{RN99}; \citealp{RN188}; \citealp{RN31}; \citealp{RN64}}.
+Statistical techniques employed in attempts to identify such clusters
+include: factor analysis, cluster analysis, the observed-to-expected
+ratio, multiple correspondence analysis \citep{RN98, RN301}, principal
+component analysis, latent class analysis \citep{RN109, RN365}, and
+machine learning techniques \citep{RN273}. In their systematic review of
+clustering methods, Prados-Torres et al \citeyearpar{RN98} found wide
+variations in approaches to clustering and characteristics of
+populations studied. As opposed to many of the studies included in the
+review, they recommend future attempts at clustering diseases use:
+population-sized datasets, statistical techniques that are suited to the
+dichotomous nature of diagnostic variables, and large numbers of
+conditions from which to form clusters \citep{RN98}. Prados-Torres et al
+\citeyearpar{RN98} identified three groups of patterns common to all
+included studies in their review despite marked heterogeneity namely;
+cardiovascular and metabolic diseases, mental health conditions, and
+musculoskeletal disorders. Whilst identification of groups may have some
+benefit in terms of identifying causal mechanisms between diseases,
+whether they are useful or meaningful in clinical terms is a matter of
+debate.
+
+\subsection{Epidemiology}\label{subsec:mm-epi}
+
+Sections \ref{subsec:mm-defs} and \ref{subsec:mm-measures} describe the
+wide variations in definitions and measures of multimorbidity. It is,
+therefore, unsurprising that there is marked heterogeneity in reports of
+multimorbidity prevalence. Fortin et al \citeyearpar{RN56} illustrate
+this by reporting variations in the prevalence of multimorbidity from
+3.5\% to 98.5\% across 21 studies included in their systematic review.
+The variation in findings is explained by the vastly different
+populations, settings, data collection techniques, and definitions of
+multimorbidity used by included studies. A more recent systematic review
+concentrating on primary care populations and aiming to describe
+prevalence, causes and patterns of multimorbidity \citep{RN15} found
+reports of multimorbidity prevalence between 12.9\% and 95.1\%. Similar
+variations in definitions, measures and populations were found. The
+number of conditions used to estimate multimorbidity prevalence varied
+between 5 and 335 \citep{RN15}. In an attempt to standardise conditions
+to be considered using international disease classification labels, a
+more recent paper included 60 conditions \citep{RN300}. Van den Akker et
+al {[}-RN91{]} highlighted the complications that can arise when
+attempting to measure prevalence of multimorbidity and suggest that
+certain decisions made in study design will depend on the specific
+question being interrogated by researchers (e.g.~the number of diseases
+to include in the measure of multimorbidity or the age-range of the
+sample). The systematic reviews of Violan et al \citeyearpar{RN15} and
+Fortin et al \citeyearpar{RN56} may reflect the varying decisions made
+by research teams in study design. Despite the difficulties in
+synthesizing evidence on heterogeneous studies, Violan et al
+\citeyearpar{RN15} found strong relationships between multimorbidity
+and: age, female gender, low socioeconomic status, and mental health
+across studies in their review.
+
+\subsection{Summary}\label{subsec:mm-summary}
+
+Multimorbidity is most commonly defined as the presence (or
+co-occurrence) of 2 or more long-term conditions in an individual.
+Debate continues as to the type and number of long-term conditions that
+should be included to provide a meaningful concept for individuals,
+clinicians and healthcare organisations. The lack of a standard
+definition is mirrored in the myriad ways of measuring multimorbidity
+with various counts, indices, and clusters. Despite this, evidence
+suggests multimorbidity is increasing in prevalence and has a strong
+socioeconomic pattern. As a result, policy needs to be tailored to
+account for the complex needs of the increasing numbers of people with
+multimorbidity.
+
+\section{Conclusion}\label{sec:lit-review-conclusion}
+
+Conclusion of chapter \ref{ch:lit-review}
+
+Access to social care is influenced in 2 main ways - allocation of
+resources \emph{to} providers and distribution of services \emph{within}
+providers. Theory and evidence suggest inequitable access possible.
+
+Major policy shift to integrate health and social care services
+internationally. One of main drivers increase in older population -
+services currently disjointed for this group. Two-thirds over 65s have
+multimorbidity and associated poorer outcomes - with social gradient.
+
+Understanding how this population access social care, therefore, vitally
+important and under-researched.
+
+Does an inverse \emph{social} care law exist? i.e.~Does the allocation
+of resources (via funding formulae) to Local Authorities negatively
+impact on those areas with higher need?
+
+Furthermore, does access to social care vary across Local Authorities -
+is there a ``postcode lottery'' in terms of service provision i.e.~does
+application of eligibility criteria depend on where you live?
+
+Is multimorbidity status associated with levels of social care provided
+within \emph{and} across local authorities?
+
+Important to understand how access to social care influences health care
+use and mortality - do those with multimorbidity and social care have
+different outcomes from those with multimorbidity and no social care?
+
+Research questions:-
+
+In people over the age of 65 in Scotland:
+
+\begin{enumerate}
+\def\labelenumi{\arabic{enumi}.}
+\item
+  \begin{enumerate}
+  \def\labelenumii{\alph{enumii}.}
+  \tightlist
+  \item
+    What are the socioeconomic, demographic, and geographic patterns in
+    the use of social care?
+  \item
+    Is there an association between multimorbidity status and the amount
+    and type of social care use over time? Does this vary by the
+    patterns described in 1(a)?
+  \end{enumerate}
+\item
+  \begin{enumerate}
+  \def\labelenumii{\alph{enumii}.}
+  \tightlist
+  \item
+    Is there an association in the use of social care services,
+    multimorbidity status and unscheduled health care use?
+  \item
+    Do multimorbidity status and social care use predict mortality?
+  \end{enumerate}
+\end{enumerate}
+
+\FloatBarrier
+\newpage
+\fancyhead[CO,CE]{Chapter 3. Methods}
+
+\chapter{Methods}\label{ch:methods}
+
+\section{Overview}\label{sec:methods-overview}
+
+Discussion of methodological approach. Quant v Qual etc.
+
+\section{Administrative data research}\label{sec:methods-admindata}
+
+\begin{itemize}
+\tightlist
+\item
+  Broad discussion of admin data research
+\item
+  Sensitive data - how protected
+\end{itemize}
+
+\section{Data Sources}\label{sec:methods-data}
+
+\begin{itemize}
+\tightlist
+\item
+  List data sources
+\end{itemize}
+
+\section{Data linkage}\label{sec:methods-linkage}
+
+\begin{itemize}
+\tightlist
+\item
+  Describe linkage process
+\end{itemize}
+
+\FloatBarrier
+\newpage
+\fancyhead[CO,CE]{Chapter 4. Measuring Multimorbidity}
+
+\chapter{Measuring Multimorbidity}\label{ch:clustering}
+
+\section{Introduction}\label{sec:clust-intro}
+
+As Chapter \ref{ch:lit-review} showed, multimorbidity can be defined as
+the presence of two or more chronic health conditions within an
+individual \citep{RN226}. It is associated with higher mortality
+\citep{RN81}, increased use of health care \citep{RN81, RN22},
+psychological distress \citep{RN243}, worse quality of life
+\citep{RN241, RN242}, and worse functional status \citep{RN40}. It not
+only affects older people but has been observed in greater absolute
+numbers in those under the age of 65 and affects those with lower
+socioeconomic status disproportionately \citep{RN33}. As the proportion
+of older people in the population increases, multimorbidity is expected
+to affect increasing numbers of people in the future
+\citep{RN155, RN288}.
+
+Many of the negative outcomes associated with mulitmorbidity are due to
+the structure of healthcare delivery which tends to concentrate
+treatment goals towards single diseases \citep[\citet{RN290}]{RN155}. As
+a result healthcare for individuals with multimorbidity can, at best,
+preferentially treat one disease to the detriment of others or, at
+worst, cause harm and affect patient safety e.g.~through medication
+interactions \citep{RN289}.
+
+Epidemiological research into multimorbidity has tended to count numbers
+or report proportions of health conditions. There is, however, marked
+heterogeneity in the population considered and the number of diseases
+included in measurement. As a result, prevalence rates of multimorbidity
+have been shown by systematic reviews to vary widely in the general
+population from 13.1\% - 71\% \citep{RN56} and 12.9\% - 95.1\%
+\citep{RN15}. There has been little research into the prevalence of
+combinations of diseases and non-random, co-occurrence of diseases
+partly due to the high number of theoretical combinations meaning large
+samples and complex calculations are required \citep{RN91, RN187}. More
+recent research has applied a variety of statistical techniques to
+overcome this problem \citep{RN98}.
+
+Identification of non-random co-occurrence of health conditions is
+important for a number of reasons; a) to gain a better understanding of
+the complicated nature of multimorbidity, b) to help assess the impact
+multimorbidity has on health outcomes, c) to help assess the
+sociodemographic differences in prevalence of multimorbidity which could
+have implications for health policy and the delivery of health services,
+and d) unexpected non-random associations could prompt further research
+into possible causal mechanisms for the association.
+
+The objective of this chapter was to apply a novel two-way clustering
+framework to a large dataset based on the Scottish population, The
+framework aims to identify clusters of the most significant non-random
+co-occurrence of health conditions and multimorbidity patterns among
+individuals \citep{RN72}. The specific aims were to a) Identify
+non-random associations of health conditions from the dataset,
+b)identify if meaningful, homogeneous sub-groups of individuals
+according to groups on non-random conditions can be formed, c) assess
+the sociodemographic make-up of identified clusters.
+
+\emph{Add para describing purpose of this chapter to overall thesis}
+
+\section{Background}\label{sec:clust-background}
+
+Previous clustering attempts in the field of multimorbidity have
+employed a number of different statistical techniques including; factor
+analysis, cluster analysis, the observed to expected ratio, multiple
+correspondence analysis \citep{RN98}, principal component analysis, and
+latent class analysis \citep{RN109}. Each of these techniques is a
+variant of latent variable modelling where clusters are deemed
+unobserved, or latent, variables that can be measured indirectly
+depending on the values of two or more observed variables \citep{RN291}.
+In their systematic review of clustering techniques, Prados-Torres et al
+\citeyearpar{RN98} found marked heterogeneity in the numbers of diseases
+included in analyses, populations studied, and resulting clusters of
+conditions. The authors recommended that future attempts at clustering
+should be conducted using large numbers of diseases and in
+population-based datasets as opposed to sub-groups of populations.
+
+An important decision in any clustering research is which statistical
+technique to apply to a given dataset. Collins \& Lanza
+\citeyearpar{RN291} argue that when the latent variable (cluster) and
+the observed variables used to identify the latent variable are
+categorical in nature, Latent Class Analysis (LCA), a version of a
+finite mixture model, is an appropriate statistical technique to employ.
+Other techniques such as factor or cluster analysis rely on latent
+and/or observed variables being continuous in nature \citep{RN291}. The
+aim of this chapter is to identify whether homogeneous sub-groups of
+individuals can be identified from a dataset of diseases represented by
+binary, categorical data. Such sub-groups would also be categorical in
+nature suggesting LCA is an appropriate technique to apply.
+
+The limitation to LCA is that as the number of observed variables
+increases it becomes more difficult for the LCA model to be well
+identified \citep{RN291}. This is because the first step of LCA is to
+create a contingency table of all possible combinations of outcomes. For
+example, in a simple dataset with two binary Yes/No variables there are
+\(2^{2} = 4\) potential response outcomes; No/No, Yes/No, No/Yes, and
+Yes/Yes. In the example of the dataset used in the current chapter with
+40 health conditions recorded as binary variables the number of cells in
+the contingency table will contain \(2^{40}\) (over 1 trillion) cells.
+This makes good model identification highly unlikely. Ideally the ratio
+of \(n/W\) where \(n\) denotes the sample size and \(W\) denotes the
+number of potential response outcomes should be as high as possible
+\citep{RN291}. When this ratio is very small there are only two options
+to overcome the problem, ``\ldots{}increase the amount of known
+information or reduce the amount of unknown information.'' \citep[
+:93]{RN291}
+
+In response to the ``high-dimensional'' problem created when trying to
+identify latent variables from health datasets with large numbers of
+diseases, Ng \citeyearpar{RN72} proposed a two-way model to identify
+multimorbidity clusters. The first step of this method is to ``clump''
+diseases in the dataset into statistically correlated groups of
+conditions thereby reducing the number of variables and therefore the
+size of contingency table of potential responses. This first step is
+described in more detail in Ng et al \citeyearpar{RN225}. The second
+step of the method then aims to identify latent groups of individuals
+based on response patterns to these ``clumped'' groups with a finite
+mixture model similar to LCA \citep{RN72}. This technique was applied to
+an Australian national health survey which contained self-reported
+responses of the presence of 24 physical and mental health conditions
+with full results detailed in Ng \citeyearpar{RN72}. The aim of this
+chapter is to identify whether this technique is valid in a much larger
+dataset of administrative health data.
+
+\section{Methods}\label{sec:clust-methods}
+
+\subsection{Data}\label{subsec:clust-data}
+
+In Scotland, much multimorbidity research has been informed by the
+Scottish Programme for Improving Clinical Effectiveness in Primary Care
+(SPICE-PC) dataset \citep{RN292, RN33, RN159, RN148}. Diagnostic data
+from the year 2007 is available on 1,754,133 people in Scotland drawn
+from 314 general practices. The anonymised dataset has information on
+the presence of 32 physical and 8 mental health conditions (?? add box
+with list of diseases??) in addition to age, gender and deprivation
+index data. Diagnostic data is derived from codes entered into IT
+systems in General Practices and prescription data. A full description
+of the 40 included diseases and the methods used to classify them is
+available as supplementary information in Barnett et al
+\citeyearpar{RN33}. The analysis for this chapter was restricted to
+adults over the age of 18 resulting in n=1,426,196. (10\% sample of this
+so far!!) Ethical approval for secondary analysis of the SPICE-PC
+dataset using LCA was granted by the Research Ethics Committee of the
+College of Social Sciences at the University of Glasgow on 29/04/2016.
+
+\subsection{Analysis}\label{subsec:clust-analysis}
+
+The two-way method proposed by Ng \citeyearpar{RN72} was applied to the
+above dataset of 40 health conditions. Firstly groups of conditions that
+co-occur are identified and then latent groups of individuals are
+identified using a mixture model approach. To identify the groups of
+conditions that co-occur the method aims to calculate the significant
+pairwise multimorbidity between all conditions. The asymmetric Somer's D
+statistic was used to quantify the degree of random co-morbidity with
+all pairs of health conditions. Significance of the Somer's D statistic
+for each pair of conditions was calculated using the Benjamini-Hochberg
+procedure \citep{RN293} to control the false discovery rate (FDR) with
+\(\alpha\) = 0.001. Diseases were then clustered into overlapping groups
+using a ``clumping'' procedure based on the technique described by
+Jardin \& Robson \citeyearpar{RN294} and fully described as equation 11
+in Ng et al \citeyearpar{RN225}. The strength of multimorbidity in each
+cluster was calculated using the average pairwise Somer's D statistics
+of disease within the group. From these overlapping groups,
+non-overlapping groups of diseases were created using an amended version
+of the algorithm specified in Ng \citeyearpar{RN72}:-
+
+\begin{enumerate}
+\def\labelenumi{\arabic{enumi}.}
+\tightlist
+\item
+  Name the cluster with the highest strength as the first group and then
+  remove its member health conditions in all subsequent clusters with
+  smaller strength. Each member in a cluster must have the condition
+  with which the pairwise concordance statistic is maximum in the same
+  cluster;
+\item
+  Repeat (1) for the next cluster and name it as a group if it is not
+  `singular' (singular cluster is defined as a cluster consisting of a
+  single health condition);\\
+\item
+  If a group is formed in (2), remove its member health conditions in
+  all subsequent clusters with smaller strength or singular clusters;
+\item
+  Repeat (2) and (3) until all clusters are visited;
+\item
+  Put the condition in a singular cluster into a predefined group where
+  more than half of the member conditions are significantly comorbid
+  with the condition;
+\item
+  Name those remaining singular clusters as a singular group.
+\end{enumerate}
+
+A matrix was then created assigning a score to individual observations
+for each identified non-overlapping group. Scores were assigned as:-
+
+\begin{itemize}
+\tightlist
+\item
+  1 for having no diseases within the group
+\item
+  2 for having one of the diseases in the group
+\item
+  3 for having 2 or more diseases within the group.
+\end{itemize}
+
+In the second part of the analysis a mixture-model of multivariate
+generalised Bernoulli distributions was applied to the matrix of these
+scores in order to identify latent groups of individuals according to
+response patterns to the score matrix. The most appropriate number of
+latent groups to fit the dataset was determined by the lowest Bayesian
+Information Criterion (BIC) and substantive theoretical analysis. Models
+with 3 to 9 latent groups were compared to find best model fit. Each
+observation was then assigned to the latent group for which the
+posterior probability was highest. Descriptive analysis of
+sociodemographic difference in latent group was then employed to
+identify patterns in groupings.
+
+All statistical analysis was completed using R version 3.3.3
+\citep{RN295}. Two-way clustering was conducted with amended code
+provided by Ng\citeyearpar{RN72}. Data manipulation and visualisation
+was conducted using tidyverse packages \citep{RN296} and the corrplot
+package.
+
+\section{Results}\label{sec:clust-results}
+
+\subsection{Pairwise correlation}\label{subsec:clust-pwcorr}
+
+\begin{figure}
+  \centering
+    \includegraphics[width=0.9\textwidth]{figures/sd-corrplot.png}
+  \caption{Significant Pairwise Correlations}
+  \label{fig:corrplot}
+\end{figure}
+
+With \(\alpha\) controlled at 0.001, 143 of a possible 780 pairwise
+correlations proved to be significant. A matrix showing all
+statistically significant correlations is shown in Figure
+\ref{fig:corrplot}. The number of expected false positives for 143 pairs
+is less than 1.
+
+\subsection{Grouping diseases}\label{subsec:clust-grouping}
+
+Using the ``clumping'' procedure detailed in Ng \citeyearpar{RN72},
+Thirty-eight overlapping groups of conditions were found as shown in
+Table \ref{tab:overlap}
+
+\begin{table}[]
+  \centering
+  \caption{Overlapping groups of diseases derived from "clumping" procedure}
+  \label{tab:overlap}
+  \resizebox{\textwidth}{!}{%
+    \begin{tabular}{@{}lll@{}}
+    \toprule
+    \textbf{Group} & \textbf{Diseases Included} & \textbf{Strength} \\ \midrule
+    1 & CHD, CKD, AtrialFib, Hypertension, HeartFailure, Rheu-Arthritis, PVD &        0.2833 \\
+    2 & CHD, CKD, AtrialFib, Diabetes, TIA-Stroke, Hypertension, HeartFailure &       0.2806 \\
+    3 & CHD, CKD, Hypertension, HeartFailure, Rheu-Arthritis, Pain & 0.2653 \\
+    4 & CHD, Hypertension, Prostate & 0.2622 \\
+    5 & CHD, CKD, Diabetes, TIA-Stroke, Hypertension, HeartFailure, Pain & 0.259      \\
+    6 & CHD, TIA-Stroke, Hypertension, HeartFailure, Laxat-Constip, Pain & 0.2525     \\
+    7 & Mental-Alcohol, LiverDisease, Depression, Anxiety & 0.2512 \\
+    8 & CHD, Hypertension, HeartFailure, Bronchitis, Pain & 0.2487 \\
+    9 & CHD, CKD, Diabetes, TIA-Stroke, Hypertension, PVD, Pain & 0.2348 \\
+    10 & CHD, CKD, Hypertension, PVD, Rheu-Arthritis, Pain & 0.2331 \\
+    11 & Mental-Alcohol, Mental-Psycho, ViralHepatitis, Depression, Anxiety &         0.2324 \\
+    12 & Mental-Psycho, Depression, Schiz-Bipolar, Anxiety & 0.2304 \\
+    13 & CHD, Hypertension, Diverticular, Laxat-Constip, Pain & 0.2294 \\
+    14 & Depression, Migraine, Pain & 0.2278 \\
+    15 & CKD, ThyroidDisorders, Hypertension, Pain & 0.2262 \\
+    16 & CHD, Blindness, Glaucoma, Hypertension & 0.2236 \\
+    17 & Depression, Dyspepsia, Laxat-Constip, Pain, Anxiety & 0.218 \\
+    18 & MS, Depression, Laxat-Constip, Pain & 0.2178 \\
+    19 & CHD, Diabetes, TIA-Stroke, Blindness, Hypertension, Pain & 0.2171 \\
+    20 & ActiveAsthma, Bronchitis, Bronchiectasis & 0.2166 \\
+    21 & CHD, TIS-Stroke, Blindness, Hypertension, Laxat-Constip, Pain & 0.2138 \\
+    22 & CHD, Hypertension, PVD, Bronchitis, Pain & 0.2114 \\
+    23 & CHD, Dementia, Parkinsons, TIA-Stroke, Hypertension, Laxat-Constip, Pain     & 0.2068 \\
+    24 & Dementia, Parkinsons, Depression, Laxat-Constip, Pain, Anxiety & 0.2068      \\
+    25 & CHD, Dementia, Hypertension, Rheu-Arthritis, Pain & 0.204 \\
+    26 & Diabetes, Hypertension, LiverDisease, Pain & 0.1964 \\
+    27 & Dementia, Mental-Psycho, Depression, Pain, Anxiety & 0.1939 \\
+    28 & Hypertension, Diverticular, Dyspepsia, Laxat-Constip, Pain & 0.1938 \\
+    29 & CHD, Dementia, Parkinsons, Hypertension, Laxat-Constip, Pain, Anxiety &      0.1922 \\
+    30 & Hypertension, Bronchitis, Bronchiectasis, Pain & 0.1917 \\
+    31 & Blindness, HearingLoss, Hypertension & 0.179 \\
+    32 & Dementia, Parkinsons, TIA-Stroke, Depression, Laxat-Constip, Pain & 0.173     \\
+    33 & HearingLoss, Hypertension, Prostate & 0.1729 \\
+    34 & AnyCancer-Last5Yrs, Hypertension, Pain & 0.1707 \\
+    35 & Hypertension, LiverDisease, Dyspepsia, Pain, Anxiety & 0.1593 \\
+    36 & Depression, IBS, Pain & 0.1563 \\
+    37 & CHD, Dementia, Mental-Psycho, Pain, Anxiety & 0.1385 \\
+    38 & Diverticular, IBS, Pain & 0.1226 \\ \bottomrule
+    \end{tabular}%
+  }
+\end{table}
+
+Six diseases; Epilepsy, Learning Disability, Sinusitis, Crohns,
+Anorexia, Psoriasis/Eczema did not have strong enough pairwise
+correlations to be included in any of the 38 groups. Thirteen
+non-overlapping groups were derived from the results of the clumping
+method using the algorithm described above and named according to the
+characteristics of the member disease in the groups as shown in Table
+\ref{tab:no-overlap}.
+
+A further four diseases; Diverticular disease, Prostate, IBS, and
+Dyspepsia were excluded from the non-overlapping groups. These four
+conditions did not appear in any groups with the diseases with which
+they had strongest pairwise correlation, a condition that had to be met
+in the first stage of the algorithm described above.
+
+\begin{table}[]
+  \centering
+  \caption{Non-overlapping groups of diseases derived from Ng algorithm}
+  \label{tab:no-overlap}
+  \resizebox{\textwidth}{!}{%
+  \begin{tabular}{@{}ll@{}}
+    \toprule
+    \textbf{Disease group name} & \textbf{Diseases included} \\ \midrule
+    \textit{Cardiovascular} & CHD, CKD, AtrialFib, Hypertension, HeartFailure,        Rheu-Arthritis, PVD \\
+    \textit{Diabetes/Stroke} & Diabetes, Stroke \\
+    \textit{Pain/MS} & Laxatives/Constipation, Pain, MS \\
+    \textit{Mental Health/Liver} & Mental/Alcohol, Liver Diseases, Depression,        Anxiety \\
+    \textit{Psychosis} & Mental-Psycho, Viral Hepatitis \\
+    \textit{Sciz/Bipolar} & Sciz-Bipolar \\
+    \textit{Migraine} & Migraine \\
+    \textit{Thyroid} & Thyroid disorders \\
+    \textit{Blindness} & Blindness, Glaucoma \\
+    \textit{Respiratory} & ActiveAsthma, Bronchitis, Bronchiectasis \\
+    \textit{Neurodegenerative} & Dementia, Parkinson's \\
+    \textit{Hearing Loss} & Hearing Loss \\
+    \textit{Cancer} & Any Cancer in Last 5 years \\ \bottomrule
+    \end{tabular}%
+  }
+\end{table}
+
+\subsection{Grouping individuals}\label{subsec:clust-clustering}
+
+Individuals were assigned a score depending on the number of diseases
+they had in each of the non-overlapping groups according to the criteria
+described above. The finite mixture model of multivariate generalised
+Bernoulli distributions was then applied to this dataset in order to
+identify latent groups of individuals depending on their scores for each
+of the 13 groups, based on presence of 30 diseases. BIC scores suggested
+the model for nine latent groups had best fit to the data. The
+nine-group model was compared with the model with second-lowest value of
+BIC, that for eight latent groups. However, despite offering a more
+parsimonious solution, the eight-group model did not provide a more
+substantive theoretical fit to the data. Thus, the nine-group model was
+deemed best fit and analysed further.
+
+Item-response probabilities for the nine-group model are shown in Figure
+\ref{fig:item-response}.
+
+\begin{figure}
+  \centering
+    \includegraphics[width=0.9\textwidth]{figures/item-response.png}
+  \caption{Item response probabilities for nine latent group model}
+  \label{fig:item-response}
+\end{figure}
+
+Each latent group was labelled according to these item response
+probabilities as follows;
+
+\begin{itemize}
+\tightlist
+\item
+  Latent Group 1. \textbf{Well}. High probabilities of having no
+  diseases in any of the groups.
+\item
+  Latent Group 2. \textbf{Cardiovascular only}. Item response in this
+  Latent group have more than 50\% chance of having at least 1 condition
+  from the Cardiovascular group. High probabilities of having no
+  diseases in any of the other groups.
+\item
+  Latent Group 3. \textbf{Cancer}. Individuals in this group have almost
+  100\% probability of having had cancer in last 5 years. Weak
+  probabilities across some other groups.
+\item
+  Latent Group 4. \textbf{Mental Health/Pain} High probability of having
+  at least one diseases from Pain/MS group and at least one disease from
+  Mental Health/Liver group.
+\item
+  Latent Group 5. \textbf{Mental and Physical Multimorbidity} High
+  probabilities of having at least 1 cardiovascular, diabetes/stroke,
+  Pain/MS, and Mental health/Liver disease. This group also has the
+  highest probability across latent groups for having 1 respiratory
+  disease.
+\item
+  Latent Group 6 \textbf{Physical Multimorbidity} High probability of a
+  least one cardiovascular disease and one of Diabetes/Stroke.
+\item
+  Latent Group 7. \textbf{Physical multimorbidity (Strong Cardio)}.
+  Similar to Latent group 6 but individuals in this group are more
+  likely to have 2 or more cardiovascular diseases.
+\item
+  Latent Group 8. \textbf{Dementia with Mental/Physical MM} Individuals
+  in this latent group have almost 100\% probability of having dementia
+  or Parkinson's. Also highly likely to have at least one Cardiovascular
+  disease and mildly raised probability of having mental health or
+  psychosis diseases.
+\item
+  Latent Group 9. \textbf{Mental Health only}. High probability of
+  having a least 1 of the Mental Health/Liver group diseases. Also
+  mildly raised probabilities in the Psychosis and Sciz\_Bipolar groups.
+\end{itemize}
+
+Proportionate size of each of the assigned latent variable groups is
+shown in Figure \ref{fig:group-props}.
+
+\begin{figure}
+  \centering
+    \includegraphics[width=0.9\textwidth]{figures/props.png}
+  \caption{Latent Group Proportions}
+  \label{fig:group-props}
+\end{figure}
+
+The ``Well'' latent group was by far the largest group with almost 70\%
+of individuals within it. The other groups formed much smaller
+proportions of the data.
+
+\subsection{Sociodemographic breakdown of latent groups}\label{subsec:clust-ses}
+
+Each of the Histograms of Age for each of the latent groups shown in
+Figure \ref{fig:lg-by-age} show variation in distribution. The ``Well''
+and ``Mental Health only'' groups have a much younger age distribution
+compared to the other groups. The ``Dementia'' group has a much older
+distribution.
+
+\begin{figure}
+  \centering
+    \includegraphics[width=0.9\textwidth]{figures/lg-by-age.png}
+  \caption{Histograms of Age, by Latent Group}
+  \label{fig:lg-by-age}
+\end{figure}
+
+Figure \ref{fig:lg-by-sex} shows higher proportions of males in the
+``Physical MM'' latent group. The ``Well'' and ``Physical MM high
+Cardio'' groups have even splits by gender. All other groups have higher
+proportions of females.
+
+\begin{figure}
+  \centering
+    \includegraphics[width=0.9\textwidth]{figures/lg-by-sex.png}
+  \caption{Count of Sec, by Latent Group - with Proportions}
+  \label{fig:lg-by-sex}
+\end{figure}
+
+Figure \ref{fig:lg-by-dep} shows distribution of deprivation across
+latent groups by Carstairs Decile. There are clear gradients in the
+``Mental Health \& Pain'', ``Ment/Phys MM'', and ``Mental Health only''
+groups with much higher numbers of people in Decile 10 (most deprived)
+areas.
+
+\begin{figure}
+  \centering
+    \includegraphics[width=0.9\textwidth]{figures/lg-by-dep.png}
+  \caption{Count of Carstairs Decile, by Latent Group}
+  \label{fig:lg-by-dep}
+\end{figure}
+
+\FloatBarrier
+
+\section{Discussion}\label{sec:clust-discussion}
+
+When proposing the two-way clustering method, Ng \citeyearpar{RN72}
+applied the technique to Australian survey data of 24 self-reported
+diseases from n=8841 respondents. These were ``clumped'' into nine
+non-overlapping groups of diseases with four latent groups of
+individuals being identified by the mixture model. Given the different
+classification of diseases, the nature of how data were collected, and
+the different populations, it is unsurprising that results from the
+present study are markedly different. What is of interest is whether the
+technique provided a meaningful representation of the data which can be
+used to improve the understanding of multimorbidity within this
+population.
+
+The first step of the two-way clustering technique resulted in 13
+non-overlapping groups being formed. As a result of this process, ten of
+the diseases recorded in the dataset were excluded from the final
+groups. Six diseases; Epilepsy, Learning Disability, Sinusitis, Crohns,
+Anorexia, and Psoriasis/Eczema did not have strong enough pairwise
+Somer's D correlation statistics with any other disease to be included
+in the non-overlapping ``clumping'' procedure. A further four diseases;
+Diverticular, Prostate, IBS, and Dyspepsia did not appear in any
+non-overlapping group with the disease with which they had the strongest
+Somer's D correlation. Identifying which diseases do not co-occur at
+non-random levels is a particularly interesting finding and adds to the
+debate about which diseases should be included in any multimorbidity
+measure.{[}be explicit -- do you think this suggests we shouldn't count
+these 10 in any MM measure and, if so, why? -NB{]} Of the 40 diseases
+present in the SPICE-PC dataset, in this analysis, only 30 diseases
+co-occurred with enough statistical power to be added to non-overlapping
+disease groups and considered in the mixture model.
+
+Past research has highlighted associations between; mental health and
+thyroid problems, mental health and pain, and diseases associated with
+the metabolic syndrome \citep{RN98}. As shown in figure 1, there is no
+pairwise correlation between any mental health diseases and thyroid
+disorders in the present study. Pain is associated with a large number
+of conditions, including mental health diseases. Diseases associated
+with metabolic syndrome such as, hypertension, coronary heart disease,
+diabetes, stroke, and heart failure all show correlations with each
+other to varying degrees. Prados-Torres et al \citeyearpar{RN98} also
+identified associations between Chronic Obstructive Pulmonary Disease
+(COPD) and Gastroesophageal reflux disease (GORD) with mental health
+diseases. No associations with between any respiratory disease and
+mental health diseases is apparent in figure 1. The SPICE-PC dataset
+does not record GORD, however Dyspepsia may be considered a similar
+diagnosis and has pairwise correlations with both Depression and
+Anxiety.
+
+The non-overlapping disease groups were named according to the
+characteristics of the diseases present in each, however many diseases
+appeared in groups that may not come from similar aetiology. The groups
+reflect diseases that commonly co-occur and therefore do not always fit
+into clinically recognisable groups. Individuals are scored as to the
+number of diseases they have from each group. This results in a loss of
+some information but the advantage of this method is that it reduces the
+number of variables in the dataset making the likelihood of identifying
+a good mixture model much more likely.
+
+Applying a mixture model of multivariate generalised Bernoulli
+distributions to these 13 non-overlapping disease groups identified nine
+latent groups as described above. These groups are clinically
+recognisable with some showing presence of diseases from only one
+disease group and others illustrating a more multimorbid population.
+Clear distinctions between mental and physical disease are made enabling
+individuals to have diseases from both groups. In their systematic
+review of clustering studies of multimorbidity, Prados-Torres et al
+\citeyearpar{RN98} found that included studies reported between three
+and twenty diseases clusters. From these they found three most common
+groups of diseases; cardiovascular, mental health, and musculoskeletal.
+Latent groups in the current study also contain cardiovascular and
+mental health elements, although they do not reflect any groups that
+could be identified as musculoskeletal.
+
+Clear sociodemographic patterns were identified in the latent groups.
+Those classified as belonging to a latent group with mental health
+involvement such as; mental health/pain, mental and physical
+multimorbidity, or mental health only, were more likely to be female and
+from lower deprivation deciles. Two similar latent groups; physical
+multimorbidity and physical multimorbidity high cardiovascular, had
+clear age differences with the former more likely to have younger male
+individuals assigned to it. These findings are similar to simple
+analyses of the same dataset which identified those in the most deprived
+areas being more likely to develop physical and mental health
+multimorbidity 10-15 years earlier than their more affluent peers
+\citep{RN33}.
+
+\subsection{Limitations}\label{subsec:clust-limitations}
+
+The two-step method proposed by Ng \citeyearpar{RN72} enables reduction
+of dimensions in datasets with large numbers of disease variables making
+model good identification of mixture models more likely. This, however,
+results in a loss of detail making interpretation of results more
+difficult. Report of the item-response probabilities shown in figure 4
+identifies that individuals have a probability of having none, one, or
+two of the diseases in any group. It is impossible to identify exactly
+which diseases. Hypertension with 13.4\% of individuals is the highest
+reported disease in the SPICE-PC . To what degree this accounts for
+individuals having one disease in the cardiovascular group across latent
+classes is unknown.
+
+This is particularly a problem as the non-overlapping groups formed by
+the two-way clustering method do not always follow recognised clinical
+groupings. For example, Rheumatoid arthritis is found in the
+cardiovascular group despite being a connective tissue disorder. It is
+the only disease in the group that does not directly affect the
+cardiovascular system. The reason it is found in this group may be due
+to the association of increased NSAID use with cardiovascular outcomes
+(ref) resulting in frequent co-occurrence. As some latent groups are
+classified as ``Cardiovascular only'', there is a possibility that small
+numbers of people with only Rheumatoid Arthritis are misclassified.
+{[}This is could be down to nomenclature and I maybe need to revisit
+group names. It does not get rid of the problem that for the group with
+high probs for the cardio/rheum disease we can't distinguish which
+disease the individual has{]}
+
+When clustering individuals, fitting a finite mixture model of
+multivariate generalised Bernoulli distributions makes the assumption
+that the indicator variables used to identify latent groups are
+independent. In a dataset containing medical conditions such as
+e.g.~Hypertension and Coronary Heart Disease, or Atrial Fibrillation and
+Stroke, this assumption is clearly violated. However, ignoring the
+independence assumption for multivariate categorical variables often
+results in better fit than when more complicated techniques are applied
+to account for non-independence of indicator variables
+\citep{RN72, RN298, RN297}.
+
+Results presented here account for 10\% of the SPICE-PC dataset due to
+the heavy computational requirements of fitting the finite mixture
+model. Confirmation of results on the whole dataset is required.
+
+\subsection{Future research}\label{subsec:clust-future}
+
+Sociodemographic comparison in the current study was limited to
+visualisation of histograms. More detailed reports of measures of
+central tendency and comparison of latent groups with sociodemographic
+variables such as Carstairs decile with logistic regression is
+warranted. SPICE-PC data also contains variables on lifestyle factors
+such as smoking status and alcohol intake. These variables should be
+included in further comparisons.
+
+A further calculation offered in the two-way clustering technique
+\citep{RN72} is the calculation of a multimorbidity score to each latent
+group and to each individual in the dataset based on their disease
+profile and posterior probabilities. Such as score would be continuous
+in nature and would offer the benefit of comparison with
+sociodemographic variables such Carstairs score or Age. Such comparisons
+would be amenable to well-recognised regression techniques.
+
+Part 1 of the two-step method involves reducing the dimensions of the
+dataset to be amenable to mixture modelling. Using the outcome of this
+first step, the non-overlapping groups, Ng's technique for clustering
+individuals should be compared to Latent Class Analysis which is also a
+suitable technique for the nature of the data \citep{RN291}. In
+supplementary material, NG \citeyearpar{RN72} compared his two-step
+method with Latent Profile Analysis and found it inferior to the
+two-step method. Latent Profile Analysis is a mixture model for
+continuous indicator variables \citep{RN291} and would not be suitable
+for the SPICE-PC dataset.
+
+\section{Conclusion}\label{sec:clust-conclusion}
+
+A novel two-step method for clustering health conditions and individuals
+was applied to large, population representative, dataset of
+administrative primary care data. The method found 10 of the 40
+conditions in the dataset did not co-occur with other diseases strongly
+enough to included in further analysis. Thirty conditions were
+``clumped'' into 13 groups of commonly co-occurring conditions and
+individuals in the dataset were assigned a score depending on the number
+of disease within each group they had. From this information nine latent
+groups of individuals were identified with a finite mixture model. These
+groups reflected varying degrees of physical, mental and physical/mental
+multimorbidity and showed sociodemographic patterning.
+
+\FloatBarrier
+\newpage
+\fancyhead[CO,CE]{Chapter 5. Linked Data Quality Assessment}
+
+\chapter{Linked Health and Social Care Data: Quality Assessment}\label{ch:quality}
+
+Results chapter describing quality of data (in particular SCS)
+
+One of main objectives of PhD
+
+\FloatBarrier
+\newpage
+\fancyhead[CO,CE]{Chapter 6. Access to Social Care}
+
+\chapter{Access to social care}\label{ch:social-care}
+
+Results chapter for 1st research question
+
+\FloatBarrier
+
+\FloatBarrier
+\newpage
+\fancyhead[CO,CE]{Chapter 7. Social Care and Health Outcomes}
+
+\chapter{Social care \& Health outcomes}\label{ch:sc-outcomes}
+
+Results chapter for 2nd research question.
+
+Need to find new title - must convey effect of sc \textbf{AND} mm on USC
+\textbf{AND} mortality
+
+\FloatBarrier
+\newpage
+\fancyhead[CO,CE]{Chapter 8. Conclusion}
+
+\chapter{Conclusion}\label{ch:conclusion}
+
+Reccomendations :-
+
+\begin{itemize}
+\item Standardised score reflecting need/frailty/vulnerability required to accurately assess access to care (OECD pp181)
+\item Measure outcomes relevent to social care (falls etc OECD 2013 pp59) OR link to outcome data e.g. preventable admission data, hip fracture data??
+\item Consider other forms of admin data to help with this e.g. Attendance Allowance?? - Problem being coverage
+\end{itemize}
+
+\FloatBarrier
+\newpage
+\fancyhead[CO,CE]{Appendices}
+
+\appendix
+\chapter{Title A}
+
+Testing, testing. One-two, one-two.
+
+\chapter{Title B}
+
+Let's see what this looks like
+
+\FloatBarrier
+\clearpage
+
+\addcontentsline{toc}{chapter}{Bibliography}
+
+\bibliography{thesis}
+
+
+\end{document}

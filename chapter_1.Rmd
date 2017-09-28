@@ -23,6 +23,19 @@ Important part of the funding to link administrative data sources in order to id
 
 The thesis has both substantive and methodological aims. Substantively, it aims to contribute to the debate surrounding health and social care integration by looking specifically at a group that are likely to be regular users of both health and social care services, i.e. those with multimorbidity. Methodologically, the thesis aims to contribute to efforts to improve the exploitation of administrative data as a means to analyse public service performance and effectiveness. 
 
+Aims of the project are:- 
+
+\begin{enumerate}[noitemsep]
+\item Describe and compare social inequalities in the use of social care services using linked health and social care data.
+\item Explore the effects of social care use for those with multimorbidity on 
+\begin{enumerate} 
+\item unscheduled health care use and
+\item mortality. 
+\end{enumerate}
+\end{enumerate}
+
+
+
 The objectives of the project are:-
 
 \begin{enumerate}[noitemsep]
@@ -32,6 +45,7 @@ The objectives of the project are:-
 \item To assess tho what extant measures of multimorbidity and of health and social care service use can be operationalised using existing linked health and social care administrative data.
 \item To make recommendations to policy makers on administrative data collections. 
 \end{enumerate}
+
 
 \section{Scientific contribution}\label{sec:intro-contribution}
 

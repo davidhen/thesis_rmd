@@ -1,9 +1,9 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.18 (MiKTeX 2.9.6300 64-bit) (preloaded format=pdflatex 2017.4.25)  7 SEP 2017 15:11
+This is pdfTeX, Version 3.14159265-2.6-1.40.18 (MiKTeX 2.9.6400 64-bit) (preloaded format=pdflatex 2017.9.8)  14 SEP 2017 11:45
 entering extended mode
 **./THESIS.tex
 (THESIS.tex
 LaTeX2e <2017-04-15>
-Babel <3.9r> and hyphenation patterns for 75 language(s) loaded.
+Babel <3.12> and hyphenation patterns for 75 language(s) loaded.
 (C:\MiXTeX\tex\latex\base\report.cls
 Document Class: report 2014/09/29 v1.4h Standard LaTeX document class
 (C:\MiXTeX\tex\latex\base\size12.clo
@@ -606,27 +606,26 @@ Package textcomp Info: Setting pplj sub-encoding to TS1/3 on input line 407.
 Package textcomp Info: Setting ptmx sub-encoding to TS1/4 on input line 408.
 Package textcomp Info: Setting ptmj sub-encoding to TS1/4 on input line 409.
 )) (C:\MiXTeX\tex\latex\microtype\microtype.sty
-Package: microtype 2016/05/14 v2.6a Micro-typographical refinements (RS)
+Package: microtype 2017/07/07 v2.7 Micro-typographical refinements (RS)
 (C:\MiXTeX\tex\latex\graphics\keyval.sty
 Package: keyval 2014/10/28 v1.15 key=value parser (DPC)
 \KV@toks@=\toks22
 )
 \MT@toks=\toks23
 \MT@count=\count100
-LaTeX Info: Redefining \textls on input line 774.
+LaTeX Info: Redefining \textls on input line 789.
 \MT@outer@kern=\dimen112
-LaTeX Info: Redefining \textmicrotypecontext on input line 1310.
+LaTeX Info: Redefining \textmicrotypecontext on input line 1334.
 \MT@listname@count=\count101
 (C:\MiXTeX\tex\latex\microtype\microtype-pdftex.def
-File: microtype-pdftex.def 2016/05/14 v2.6a Definitions specific to pdftex (RS)
-
-LaTeX Info: Redefining \lsstyle on input line 916.
-LaTeX Info: Redefining \lslig on input line 916.
+File: microtype-pdftex.def 2017/07/07 v2.7 Definitions specific to pdftex (RS)
+LaTeX Info: Redefining \lsstyle on input line 912.
+LaTeX Info: Redefining \lslig on input line 912.
 \MT@outer@space=\skip46
 )
 Package microtype Info: Loading configuration file microtype.cfg.
 (C:\MiXTeX\tex\latex\microtype\microtype.cfg
-File: microtype.cfg 2016/05/14 v2.6a microtype main configuration file (RS)
+File: microtype.cfg 2017/07/07 v2.7 microtype main configuration file (RS)
 )) (C:\MiXTeX\tex\latex\geometry\geometry.sty
 Package: geometry 2010/09/12 v5.6 Page Geometry
 (C:\MiXTeX\tex\generic\oberdiek\ifpdf.sty
@@ -766,9 +765,9 @@ Package: natbib 2010/09/13 8.31b (PWD, AO)
 LaTeX Info: Redefining \cite on input line 694.
 \c@NAT@ctr=\count115
 ) (C:\MiXTeX\tex\latex\graphics\graphicx.sty
-Package: graphicx 2014/10/28 v1.0g Enhanced LaTeX Graphics (DPC,SPQR)
+Package: graphicx 2017/06/01 v1.1a Enhanced LaTeX Graphics (DPC,SPQR)
 (C:\MiXTeX\tex\latex\graphics\graphics.sty
-Package: graphics 2017/04/14 v1.1b Standard LaTeX Graphics (DPC,SPQR)
+Package: graphics 2017/06/25 v1.2c Standard LaTeX Graphics (DPC,SPQR)
 (C:\MiXTeX\tex\latex\graphics\trig.sty
 Package: trig 2016/01/03 v1.10 sin cos tan (DPC)
 ) (C:\MiXTeX\tex\latex\graphics-cfg\graphics.cfg
@@ -776,8 +775,7 @@ File: graphics.cfg 2016/06/04 v1.11 sample graphics configuration
 )
 Package graphics Info: Driver file: pdftex.def on input line 99.
 (C:\MiXTeX\tex\latex\graphics-def\pdftex.def
-File: pdftex.def 2017/01/12 v0.06k Graphics/color for pdfTeX
-\Gread@gobject=\count116
+File: pdftex.def 2017/06/24 v1.0g Graphics/color driver for pdftex
 ))
 \Gin@req@height=\dimen125
 \Gin@req@width=\dimen126
@@ -809,7 +807,7 @@ Package caption3 Info: TeX engine: e-TeX on input line 67.
 \caption@parindent=\dimen132
 \caption@hangindent=\dimen133
 )
-\c@ContinuedFloat=\count117
+\c@ContinuedFloat=\count116
 Package caption Info: hyperref package is loaded.
 ) (C:\MiXTeX\tex\latex\fancyhdr\fancyhdr.sty
 Package: fancyhdr 2017/06/30 v3.9a Extensive control of page headers and footer
@@ -839,12 +837,12 @@ Package: booktabs 2005/04/14 v1.61803 publication quality tables
 \cmidrulesep=\dimen141
 \cmidrulekern=\dimen142
 \defaultaddspace=\dimen143
-\@cmidla=\count118
-\@cmidlb=\count119
+\@cmidla=\count117
+\@cmidlb=\count118
 \@aboverulesep=\dimen144
 \@belowrulesep=\dimen145
-\@thisruleclass=\count120
-\@lastruleclass=\count121
+\@thisruleclass=\count119
+\@lastruleclass=\count120
 \@thisrulewidth=\dimen146
 ) (C:\MiXTeX\tex\latex\enumitem\enumitem.sty
 Package: enumitem 2011/09/28 v3.5.2 Customized lists
@@ -852,15 +850,15 @@ Package: enumitem 2011/09/28 v3.5.2 Customized lists
 \enit@outerparindent=\dimen147
 \enit@toks=\toks25
 \enit@inbox=\box28
-\enitdp@description=\count122
+\enitdp@description=\count121
 ) (C:\MiXTeX\tex\latex\threeparttable\threeparttable.sty
 Package: threeparttable 2003/06/13  v 3.0
 \@tempboxb=\box29
 ) (C:\MiXTeX\tex\latex\bigfoot\perpage.sty
 Package: perpage 2014/10/25 2.0 Reset/sort counters per page
-\c@abspage=\count123
+\c@abspage=\count122
 )
-\c@pp@a@footnote=\count124
+\c@pp@a@footnote=\count123
 (THESIS.aux)
 \openout1 = `THESIS.aux'.
 
@@ -955,7 +953,7 @@ Package: nameref 2016/05/21 v2.44 Cross-referencing by name of section
 (C:\MiXTeX\tex\generic\oberdiek\gettitlestring.sty
 Package: gettitlestring 2016/05/16 v1.5 Cleanup title references (HO)
 )
-\c@section@level=\count125
+\c@section@level=\count124
 )
 LaTeX Info: Redefining \ref on input line 104.
 LaTeX Info: Redefining \pageref on input line 104.
@@ -966,16 +964,16 @@ LaTeX Info: Redefining \nameref on input line 104.
 
 (C:\MiXTeX\tex\context\base\supp-pdf.mkii
 [Loading MPS to PDF converter (version 2006.09.02).]
-\scratchcounter=\count126
+\scratchcounter=\count125
 \scratchdimen=\dimen148
 \scratchbox=\box31
-\nofMPsegments=\count127
-\nofMParguments=\count128
+\nofMPsegments=\count126
+\nofMParguments=\count127
 \everyMPshowfont=\toks26
-\MPscratchCnt=\count129
+\MPscratchCnt=\count128
 \MPscratchDim=\dimen149
-\MPnumerator=\count130
-\makeMPintoPDFobject=\count131
+\MPnumerator=\count129
+\makeMPintoPDFobject=\count130
 \everyMPtoPDFconversion=\toks27
 ) (C:\MiXTeX\tex\latex\oberdiek\epstopdf-base.sty
 Package: epstopdf-base 2016/05/15 v2.6 Base part for package epstopdf
@@ -985,7 +983,7 @@ Package: grfext 2016/05/16 v1.2 Manage graphics extensions (HO)
 Package epstopdf-base Info: Redefining graphics rule for `.eps' on input line 4
 38.
 Package grfext Info: Graphics extension search list:
-(grfext)             [.png,.pdf,.jpg,.mps,.jpeg,.jbig2,.jb2,.PNG,.PDF,.JPG,.JPE
+(grfext)             [.pdf,.png,.jpg,.mps,.jpeg,.jbig2,.jb2,.PDF,.PNG,.JPG,.JPE
 G,.JBIG2,.JB2,.eps]
 (grfext)             \AppendGraphicsExtensions on input line 456.
 )
@@ -1125,11 +1123,14 @@ Overfull \hbox (22.1476pt too wide) in paragraph at lines 511--512
  [][] 
  []
 
-[8] [9] [10] <figures/oecd-comparison.PNG, id=686, 471.63702pt x 325.5914pt>
+[8] [9] [10]
+<figures/oecd-comparison.PNG, id=686, 471.63702pt x 325.5914pt>
 File: figures/oecd-comparison.PNG Graphic file (type png)
 <use figures/oecd-comparison.PNG>
-Package pdftex.def Info: figures/oecd-comparison.PNG used on input line 626.
-(pdftex.def)             Requested size: 352.68338pt x 243.47256pt.
+Package pdftex.def Info: figures/oecd-comparison.PNG  used on input line 626. o
+n input line 626.
+Package pdftex.def Info: Requested size: 352.68338pt x 243.47256pt on input lin
+e 626.
 [11] [12 <./figures/oecd-comparison.PNG>] [13] [14] [15] [16] [17] [18] [19]
 
 LaTeX Warning: Reference `subsec:access-sc-nat-variation' on page 20 undefined 
@@ -1156,11 +1157,14 @@ Underfull \hbox (badness 10000) in paragraph at lines 1537--1541
 
  []
 
-[34] <figures/sd-corrplot.png, id=1290, 722.7pt x 578.16pt>
+[34]
+<figures/sd-corrplot.png, id=1290, 722.7pt x 578.16pt>
 File: figures/sd-corrplot.png Graphic file (type png)
 <use figures/sd-corrplot.png>
-Package pdftex.def Info: figures/sd-corrplot.png used on input line 1590.
-(pdftex.def)             Requested size: 396.7584pt x 317.40672pt.
+Package pdftex.def Info: figures/sd-corrplot.png  used on input line 1590. on i
+nput line 1590.
+Package pdftex.def Info: Requested size: 396.7584pt x 317.40672pt on input line
+ 1590.
 
 LaTeX Warning: No positions in optional float specifier.
                Default added (so using `tbp') on input line 1607.
@@ -1169,34 +1173,44 @@ LaTeX Warning: No positions in optional float specifier.
 LaTeX Warning: No positions in optional float specifier.
                Default added (so using `tbp') on input line 1671.
 
-[35] [36 <./figures/sd-corrplot.png>] [37] <figures/item-response.png, id=1311,
- 578.16pt x 722.7pt>
+[35] [36 <./figures/sd-corrplot.png>] [37]
+<figures/item-response.png, id=1311, 578.16pt x 722.7pt>
 File: figures/item-response.png Graphic file (type png)
 <use figures/item-response.png>
-Package pdftex.def Info: figures/item-response.png used on input line 1716.
-(pdftex.def)             Requested size: 396.76062pt x 495.95078pt.
-[38] [39 <./figures/item-response.png>] <figures/props.png, id=1322, 397.485pt 
-x 433.62pt>
+Package pdftex.def Info: figures/item-response.png  used on input line 1716. on
+ input line 1716.
+Package pdftex.def Info: Requested size: 396.76062pt x 495.95078pt on input lin
+e 1716.
+[38] [39 <./figures/item-response.png>]
+<figures/props.png, id=1322, 397.485pt x 433.62pt>
 File: figures/props.png Graphic file (type png)
 <use figures/props.png>
-Package pdftex.def Info: figures/props.png used on input line 1772.
-(pdftex.def)             Requested size: 396.7744pt x 432.8448pt.
+Package pdftex.def Info: figures/props.png  used on input line 1772. on input l
+ine 1772.
+Package pdftex.def Info: Requested size: 396.7744pt x 432.8448pt on input line 
+1772.
 <figures/lg-by-age.png, id=1324, 505.89pt x 289.08pt>
 File: figures/lg-by-age.png Graphic file (type png)
 <use figures/lg-by-age.png>
-Package pdftex.def Info: figures/lg-by-age.png used on input line 1791.
-(pdftex.def)             Requested size: 396.76942pt x 226.72539pt.
+Package pdftex.def Info: figures/lg-by-age.png  used on input line 1791. on inp
+ut line 1791.
+Package pdftex.def Info: Requested size: 396.76942pt x 226.72539pt on input lin
+e 1791.
 <figures/lg-by-sex.png, id=1326, 505.89pt x 433.62pt>
 File: figures/lg-by-sex.png Graphic file (type png)
 <use figures/lg-by-sex.png>
-Package pdftex.def Info: figures/lg-by-sex.png used on input line 1803.
-(pdftex.def)             Requested size: 396.76942pt x 340.08809pt.
-[40] [41 <./figures/props.png>] <figures/lg-by-dep.png, id=1338, 505.89pt x 433
-.62pt>
+Package pdftex.def Info: figures/lg-by-sex.png  used on input line 1803. on inp
+ut line 1803.
+Package pdftex.def Info: Requested size: 396.76942pt x 340.08809pt on input lin
+e 1803.
+[40] [41 <./figures/props.png>]
+<figures/lg-by-dep.png, id=1338, 505.89pt x 433.62pt>
 File: figures/lg-by-dep.png Graphic file (type png)
 <use figures/lg-by-dep.png>
-Package pdftex.def Info: figures/lg-by-dep.png used on input line 1816.
-(pdftex.def)             Requested size: 396.76942pt x 340.08809pt.
+Package pdftex.def Info: figures/lg-by-dep.png  used on input line 1816. on inp
+ut line 1816.
+Package pdftex.def Info: Requested size: 396.76942pt x 340.08809pt on input lin
+e 1816.
 [42 <./figures/lg-by-age.png>] [43 <./figures/lg-by-sex.png (PNG copy)>] [44 <.
 /figures/lg-by-dep.png>] [45] [46] [47] [48] [49]
 
@@ -1588,10 +1602,10 @@ LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right.
 Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 2063.
  ) 
 Here is how much of TeX's memory you used:
- 15672 strings out of 493328
- 224885 string characters out of 3146908
- 353769 words of memory out of 3000000
- 18480 multiletter control sequences out of 15000+200000
+ 15637 strings out of 493318
+ 224452 string characters out of 3146783
+ 349892 words of memory out of 3000000
+ 18455 multiletter control sequences out of 15000+200000
  75632 words of font info for 146 fonts, out of 3000000 for 9000
  1141 hyphenation exceptions out of 8191
  36i,16n,43p,682b,725s stack positions out of 5000i,500n,10000p,200000b,50000s
