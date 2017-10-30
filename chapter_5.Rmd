@@ -2,8 +2,46 @@
 output: pdf_document
 ---
 
-\chapter{Linked Health and Social Care Data: Quality Assessment}\label{ch:quality}
+\chapter{Renfrewshire Council Pilot Project}\label{ch:renfrew}
 
-Results chapter describing quality of data (in particular SCS)
+\section{Introduction}\label{sec:renf-intro}
 
-One of main objectives of PhD
+Pilot project to get first look at social care data to determine structure and definitions. Main linkage project to use cross-sectional social care data - is this reflective of social care provision throughout the year? Also able to attach datazone and dmogrpahic variables - is there variation in amounts of care across these variables?
+
+\subsection{Aims}\label{subsec:renfrew-aims}
+
+* Describe variation in social care provision in Renfrewshire Council area by Age, Gender, and socioeconomic position.
+* Describe the temporal variation in levels of care within financial years
+* Assess the quality of social care data for research purposes. 
+
+\subsection{Research Questions}\label{subsec:renfrew-qs}
+
+\begin{enumerate}[noitemsep]
+\item Is there variation in the amount of social care delivered in the Renfrewshire Council area by Age, Gender, and Socioeconomic position?
+\item How does social care use vary within and across financial years 2006/07 - 2015/16?
+\end{enumerate}
+
+\section{Background}\label{sec:renf-back}
+
+Link to SCS and census methods. Any relevant lit of social care analysis (Not much). Funders interested in these questions etc. 
+
+\section{Methods}\label{sec:renf-methods}
+
+Link to approval process described in chapter \ref{ch:methods} section \ref{sec:methods-timeline}. Also link to use of safe haven described in section \ref{subsec:IG}. Re-mention ethics. 
+
+Describe manipulation of variables to produce summary stats.
+
+Describe which methods used to summarise variation in care
+
+\section{Results}\label{sec:renf-results}
+
+Tables and grpahs of results with description
+
+\section{Discussion}\label{sec:renf-discuss}
+
+Implications - particular focus on variation in care throughout the year and whether care provided in a census week is a robust measure for research purposes (based on Renfrew results)
+
+Limitations - One council only. Different collection and reporting methods across LAs etc etc. 
+
+\section{Conclusion}\label{sec:renf-conc}
+

@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.18 (MiKTeX 2.9.6400 64-bit) (preloaded format=pdflatex 2017.9.8)  19 SEP 2017 14:37
+This is pdfTeX, Version 3.14159265-2.6-1.40.18 (MiKTeX 2.9.6400 64-bit) (preloaded format=pdflatex 2017.9.8)  30 OCT 2017 21:12
 entering extended mode
 **./THESIS.tex
 (THESIS.tex
@@ -1049,11 +1049,11 @@ Package Fancyhdr Warning: \headheight is too small (12.0pt):
  We now make it that large for the rest of the document.
  This may cause the page layout to be inconsistent, however.
 
-[3])
+[3] [4])
 \tf@toc=\write4
 \openout4 = `THESIS.toc'.
 
-[4]
+[5]
 
 Package Fancyhdr Warning: \fancyhead's `E' option without twoside option is use
 less on input line 160.
@@ -1062,7 +1062,7 @@ less on input line 160.
 \tf@lot=\write5
 \openout5 = `THESIS.lot'.
 
-[5
+[6
 
 ]
 
@@ -1073,19 +1073,19 @@ less on input line 165.
 \tf@lof=\write6
 \openout6 = `THESIS.lof'.
 
-[6
+[7
 
 ]
 
 Package Fancyhdr Warning: \fancyhead's `E' option without twoside option is use
 less on input line 172.
 
-[7]
+[8]
 
 Package Fancyhdr Warning: \fancyhead's `E' option without twoside option is use
 less on input line 182.
 
-[8]
+[9]
 
 Package Fancyhdr Warning: \fancyhead's `E' option without twoside option is use
 less on input line 199.
@@ -1108,153 +1108,161 @@ Chapter 2.
 
 ] [5] [6] [7]
 LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <10> on input line 472.
+(Font)              <10> on input line 476.
 LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <7> on input line 472.
+(Font)              <7> on input line 476.
 LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <5> on input line 472.
+(Font)              <5> on input line 476.
 [8]
 
 LaTeX Warning: No positions in optional float specifier.
-               Default added (so using `tbp') on input line 498.
+               Default added (so using `tbp') on input line 502.
 
 
-Overfull \hbox (22.1476pt too wide) in paragraph at lines 522--523
+Overfull \hbox (22.1476pt too wide) in paragraph at lines 526--527
  [][] 
  []
 
 [9] [10] [11]
-<figures/oecd-comparison.PNG, id=694, 471.63702pt x 325.5914pt>
+<figures/oecd-comparison.PNG, id=868, 471.63702pt x 325.5914pt>
 File: figures/oecd-comparison.PNG Graphic file (type png)
 <use figures/oecd-comparison.PNG>
-Package pdftex.def Info: figures/oecd-comparison.PNG  used on input line 637. o
-n input line 637.
+Package pdftex.def Info: figures/oecd-comparison.PNG  used on input line 641. o
+n input line 641.
 Package pdftex.def Info: Requested size: 352.68338pt x 243.47256pt on input lin
-e 637.
+e 641.
 [12] [13 <./figures/oecd-comparison.PNG>] [14] [15] [16] [17] [18] [19] [20]
 
 LaTeX Warning: Reference `subsec:access-sc-nat-variation' on page 21 undefined 
-on input line 1002.
+on input line 1005.
 
 [21] [22] [23] [24] [25] [26] [27] [28] [29]
 
 Package Fancyhdr Warning: \fancyhead's `E' option without twoside option is use
-less on input line 1335.
+less on input line 1338.
 
 Chapter 3.
 [30
 
-]
+] [31]
 
 Package Fancyhdr Warning: \fancyhead's `E' option without twoside option is use
-less on input line 1371.
+less on input line 1409.
 
 Chapter 4.
-[31
+[32
 
-] [32] [33] [34]
-Underfull \hbox (badness 10000) in paragraph at lines 1548--1552
+] [33] [34] [35]
+Underfull \hbox (badness 10000) in paragraph at lines 1586--1590
 
  []
 
-[35]
-<figures/sd-corrplot.png, id=1298, 722.7pt x 578.16pt>
+[36]
+<figures/sd-corrplot.png, id=1476, 722.7pt x 578.16pt>
 File: figures/sd-corrplot.png Graphic file (type png)
 <use figures/sd-corrplot.png>
-Package pdftex.def Info: figures/sd-corrplot.png  used on input line 1601. on i
-nput line 1601.
+Package pdftex.def Info: figures/sd-corrplot.png  used on input line 1639. on i
+nput line 1639.
 Package pdftex.def Info: Requested size: 396.7584pt x 317.40672pt on input line
- 1601.
+ 1639.
 
 LaTeX Warning: No positions in optional float specifier.
-               Default added (so using `tbp') on input line 1618.
+               Default added (so using `tbp') on input line 1656.
 
 
 LaTeX Warning: No positions in optional float specifier.
-               Default added (so using `tbp') on input line 1682.
+               Default added (so using `tbp') on input line 1720.
 
-[36] [37 <./figures/sd-corrplot.png>] [38]
-<figures/item-response.png, id=1319, 578.16pt x 722.7pt>
+[37] [38 <./figures/sd-corrplot.png>] [39]
+<figures/item-response.png, id=1498, 578.16pt x 722.7pt>
 File: figures/item-response.png Graphic file (type png)
 <use figures/item-response.png>
-Package pdftex.def Info: figures/item-response.png  used on input line 1727. on
- input line 1727.
+Package pdftex.def Info: figures/item-response.png  used on input line 1765. on
+ input line 1765.
 Package pdftex.def Info: Requested size: 396.76062pt x 495.95078pt on input lin
-e 1727.
-[39] [40 <./figures/item-response.png>]
-<figures/props.png, id=1331, 397.485pt x 433.62pt>
+e 1765.
+[40] [41 <./figures/item-response.png>]
+<figures/props.png, id=1509, 397.485pt x 433.62pt>
 File: figures/props.png Graphic file (type png)
 <use figures/props.png>
-Package pdftex.def Info: figures/props.png  used on input line 1783. on input l
-ine 1783.
+Package pdftex.def Info: figures/props.png  used on input line 1821. on input l
+ine 1821.
 Package pdftex.def Info: Requested size: 396.7744pt x 432.8448pt on input line 
-1783.
-<figures/lg-by-age.png, id=1333, 505.89pt x 289.08pt>
+1821.
+<figures/lg-by-age.png, id=1511, 505.89pt x 289.08pt>
 File: figures/lg-by-age.png Graphic file (type png)
 <use figures/lg-by-age.png>
-Package pdftex.def Info: figures/lg-by-age.png  used on input line 1802. on inp
-ut line 1802.
+Package pdftex.def Info: figures/lg-by-age.png  used on input line 1840. on inp
+ut line 1840.
 Package pdftex.def Info: Requested size: 396.76942pt x 226.72539pt on input lin
-e 1802.
-<figures/lg-by-sex.png, id=1335, 505.89pt x 433.62pt>
+e 1840.
+<figures/lg-by-sex.png, id=1513, 505.89pt x 433.62pt>
 File: figures/lg-by-sex.png Graphic file (type png)
 <use figures/lg-by-sex.png>
-Package pdftex.def Info: figures/lg-by-sex.png  used on input line 1814. on inp
-ut line 1814.
+Package pdftex.def Info: figures/lg-by-sex.png  used on input line 1852. on inp
+ut line 1852.
 Package pdftex.def Info: Requested size: 396.76942pt x 340.08809pt on input lin
-e 1814.
-[41] [42 <./figures/props.png>]
-<figures/lg-by-dep.png, id=1346, 505.89pt x 433.62pt>
+e 1852.
+[42] [43 <./figures/props.png>]
+<figures/lg-by-dep.png, id=1524, 505.89pt x 433.62pt>
 File: figures/lg-by-dep.png Graphic file (type png)
 <use figures/lg-by-dep.png>
-Package pdftex.def Info: figures/lg-by-dep.png  used on input line 1827. on inp
-ut line 1827.
+Package pdftex.def Info: figures/lg-by-dep.png  used on input line 1865. on inp
+ut line 1865.
 Package pdftex.def Info: Requested size: 396.76942pt x 340.08809pt on input lin
-e 1827.
-[43 <./figures/lg-by-age.png>] [44 <./figures/lg-by-sex.png (PNG copy)>] [45 <.
-/figures/lg-by-dep.png>] [46] [47] [48] [49] [50]
+e 1865.
+[44 <./figures/lg-by-age.png>] [45 <./figures/lg-by-sex.png (PNG copy)>] [46 <.
+/figures/lg-by-dep.png>] [47] [48] [49] [50] [51]
 
 Package Fancyhdr Warning: \fancyhead's `E' option without twoside option is use
-less on input line 2010.
+less on input line 2048.
 
 Chapter 5.
-[51
-
-]
-
-Package Fancyhdr Warning: \fancyhead's `E' option without twoside option is use
-less on input line 2020.
-
-Chapter 6.
 [52
 
-]
+] [53]
 
 Package Fancyhdr Warning: \fancyhead's `E' option without twoside option is use
-less on input line 2030.
+less on input line 2114.
 
-Chapter 7.
-[53
-
-]
-
-Package Fancyhdr Warning: \fancyhead's `E' option without twoside option is use
-less on input line 2041.
-
-Chapter 8.
+Chapter 6.
 [54
 
 ]
 
 Package Fancyhdr Warning: \fancyhead's `E' option without twoside option is use
-less on input line 2055.
+less on input line 2136.
+
+Chapter 7.
+[55
+
+] [56]
+
+Package Fancyhdr Warning: \fancyhead's `E' option without twoside option is use
+less on input line 2186.
+
+Chapter 8.
+[57
+
+] [58]
+
+Package Fancyhdr Warning: \fancyhead's `E' option without twoside option is use
+less on input line 2229.
+
+Chapter 9.
+[59
+
+]
+
+Package Fancyhdr Warning: \fancyhead's `E' option without twoside option is use
+less on input line 2243.
 
 Appendix A.
-[55
+[60
 
 ]
 Appendix B.
-[56
+[61
 
 ] (THESIS.bbl
 Underfull \hbox (badness 2126) in paragraph at lines 31--37
@@ -1298,7 +1306,7 @@ Underfull \hbox (badness 4168) in paragraph at lines 55--60
 loads / docs / report / 2016 / nr _ 160310 _
  []
 
-[57
+[62
 
 
 ]
@@ -1319,7 +1327,7 @@ Underfull \hbox (badness 3449) in paragraph at lines 86--96
 55-8196.  doi: $10 . 1258 / jhsrp . 2011 .
  []
 
-[58]
+[63]
 Underfull \hbox (badness 10000) in paragraph at lines 135--141
 []\T1/lmr/m/n/12 (+20) David Buck and David Maguire.  In-equal-i-ties in life e
 x-
@@ -1379,13 +1387,13 @@ Underfull \hbox (badness 1178) in paragraph at lines 192--197
 l care: op-tions for
  []
 
-[59]
+[64]
 Underfull \hbox (badness 10000) in paragraph at lines 263--271
 \T1/lmr/m/n/12 (+20) 1468-[]4446 . 2000 . 00281 . x / asset / j . 1468-[]4446 .
  2000 . 00281 . x . pdf ? v = 1 & t = ihfcdbp2 & s =
  []
 
-[60] [61] [62]
+[65] [66] [67]
 Underfull \hbox (badness 2744) in paragraph at lines 421--429
 \T1/lmr/m/n/12 (+20) co-mor-bid-ity: a re-view.  \T1/lmr/m/it/12 (+20) Jour-nal
  of clin-i-cal epi-demi-ol-ogy\T1/lmr/m/n/12 (+20) , 54(7):661--674,
@@ -1397,7 +1405,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 421--429
 1-[]11e5-[]8a3e-[]00000aacb35f &
  []
 
-[63]
+[68]
 Underfull \hbox (badness 1616) in paragraph at lines 527--532
 []\T1/lmr/m/n/12 (+20) R.; Humphries, R.; Thorlby, H.; Holder, P.; Hall, and A.
  Charles.  So-
@@ -1433,7 +1441,7 @@ Underfull \hbox (badness 3168) in paragraph at lines 535--545
 2):134--141, 2012.  ISSN 1544-1709.
  []
 
-[64] [65]
+[69] [70]
 Underfull \hbox (badness 10000) in paragraph at lines 663--673
 \T1/lmr/m/n/12 (+20) 0-[]S0398762014006816-[]main . pdf ? _tid = 2c292592-[]6ec
 f-[]11e5-[]9c03-[]00000aab0f6b &
@@ -1457,13 +1465,13 @@ Underfull \hbox (badness 10000) in paragraph at lines 693--700
 & acdnat = 1490267333 _
  []
 
-[66]
+[71]
 Underfull \hbox (badness 10000) in paragraph at lines 738--746
 \T1/lmr/m/n/12 (+20) 0-[]S1568163711000249-[]main . pdf ? _tid = 2294b2-[]65e5
 -[]11e5-[]91c1-[]00000aab0f02 &
  []
 
-[67]
+[72]
 Underfull \hbox (badness 10000) in paragraph at lines 822--827
 \T1/lmr/m/n/12 (+20) documents / Additional / C-[]Community _ services _ for _ 
 persons _ with _ disabilities /
@@ -1475,7 +1483,7 @@ Overfull \hbox (13.9627pt too wide) in paragraph at lines 829--835
 eas-[]with-[]the-[]worst-[]health-[]and-[]deprivation/$[][]. 
  []
 
-[68]
+[73]
 Underfull \hbox (badness 1975) in paragraph at lines 896--901
 []\T1/lmr/m/n/12 (+20) ONS.  Health state life ex-pectan-cies, uk: 2013 to 2015
 .  Re-port, 2016.
@@ -1505,7 +1513,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 920--929
 & acdnat = 1444306221 _
  []
 
-[69]
+[74]
 Underfull \hbox (badness 10000) in paragraph at lines 949--955
 \T1/lmr/m/n/12 (+20) Resources / Housing / Support _ materials / Other _ report
 s _ and _ guidance / The _
@@ -1541,7 +1549,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 984--989
 nity _ Assessment / 2014 /
  []
 
-[70] [71]
+[75] [76]
 Underfull \hbox (badness 2837) in paragraph at lines 1126--1135
 []\T1/lmr/m/n/12 (+20) Judith Sin-nige, Joze Braspen-ning, Fran-cois Schelle-vi
 s, Irina Stirbu-Wagner,
@@ -1553,7 +1561,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 1126--1135
 ww . plosone . org / article / fetchObject .
  []
 
-[72]
+[77]
 Underfull \hbox (badness 5274) in paragraph at lines 1160--1168
 []\T1/lmr/m/n/12 (+20) Ailsa Stew-art, Al-i-son Petch, and Lisa Cur-tice.  Mov-
 ing to-wards in-te-
@@ -1571,7 +1579,7 @@ Underfull \hbox (badness 3250) in paragraph at lines 1160--1168
 ocialcareinScotland :
  []
 
-[73]
+[78]
 Underfull \hbox (badness 3078) in paragraph at lines 1247--1252
 []\T1/lmr/m/n/12 (+20) Helen Weath-erly, Anne Ma-son, Maria God-dard, and K Wri
 ght.  Fi-nan-
@@ -1583,29 +1591,29 @@ Underfull \hbox (badness 1661) in paragraph at lines 1247--1252
 ence re-view.  Re-port,
  []
 
-[74])
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 2074.
-[75]
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 2074.
+[79])
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 2262.
+[80]
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 2262.
 (THESIS.aux)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 2074.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 2074.
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 2262.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 2262.
 
 Package rerunfilecheck Info: File `THESIS.out' has not changed.
-(rerunfilecheck)             Checksum: F09E7DA0A53BC7029537FEFEC367759E;8337.
+(rerunfilecheck)             Checksum: 7E904216FF01A324618A9FEF2ED7EB16;12082.
 
 LaTeX Warning: There were undefined references.
 
 
 LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right.
 
-Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 2074.
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 2262.
  ) 
 Here is how much of TeX's memory you used:
- 15642 strings out of 493318
- 224487 string characters out of 3146783
- 349892 words of memory out of 3000000
- 18455 multiletter control sequences out of 15000+200000
+ 15757 strings out of 493318
+ 226204 string characters out of 3146783
+ 351290 words of memory out of 3000000
+ 18524 multiletter control sequences out of 15000+200000
  75632 words of font info for 146 fonts, out of 3000000 for 9000
  1141 hyphenation exceptions out of 8191
  36i,16n,43p,682b,725s stack positions out of 5000i,500n,10000p,200000b,50000s
@@ -1622,9 +1630,9 @@ c/lm/lmmi12.pfb><C:/MiXTeX/fonts/type1/public/lm/lmr10.pfb><C:/MiXTeX/fonts/typ
 e1/public/lm/lmr12.pfb><C:/MiXTeX/fonts/type1/public/lm/lmr17.pfb><C:/MiXTeX/fo
 nts/type1/public/lm/lmr7.pfb><C:/MiXTeX/fonts/type1/public/lm/lmr8.pfb><C:/MiXT
 eX/fonts/type1/public/lm/lmri12.pfb>
-Output written on THESIS.pdf (84 pages, 953375 bytes).
+Output written on THESIS.pdf (90 pages, 984734 bytes).
 PDF statistics:
- 1833 PDF objects out of 2073 (max. 8388607)
- 328 named destinations out of 1000 (max. 500000)
- 12780 words of extra memory for PDF output out of 14400 (max. 10000000)
+ 2049 PDF objects out of 2073 (max. 8388607)
+ 374 named destinations out of 1000 (max. 500000)
+ 13052 words of extra memory for PDF output out of 14400 (max. 10000000)
 

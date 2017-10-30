@@ -2,12 +2,43 @@
 output: pdf_document
 ---
 
-\chapter{Conclusion}\label{ch:conclusion}
+\chapter{Social care \& Health outcomes}\label{ch:sc-outcomes}
 
+Results chapter for 2nd research question.
 
-Reccomendations :- 
-\begin{itemize}
-\item Standardised score reflecting need/frailty/vulnerability required to accurately assess access to care (OECD pp181)
-\item Measure outcomes relevent to social care (falls etc OECD 2013 pp59) OR link to outcome data e.g. preventable admission data, hip fracture data??
-\item Consider other forms of admin data to help with this e.g. Attendance Allowance?? - Problem being coverage
+Need to find new title - must convey effect of sc **AND** mm on USC **AND** mortality
+
+\section{Introduction}\label{sec:sc-outcomes-intro}
+
+\begin{itemize}[noitemsep]
+\item Social care believed to impact on use of unscheduled care
+\item New models of care important to find
+\item Understanding interaction between services essential to identify strategies to improve services
+\item Impact of social care on mortality never studied - multimorbidity an important confounder
 \end{itemize}
+
+\subsection{Aims}\label{subsec:sc-outcomes-aims}
+
+\begin{itemize}[noitemsep]
+\item Assess the impacts of social care service use on unscheduled care use and mortality for people with multimorbidity, accounting for age, gender, and socioeconomic position.
+\end{itemize}
+
+\subsection{Research Questions}\label{subsec:sc-outcomes-rqs}
+
+\begin{enumerate}[noitemsep]
+\item Is there an association in the use of social care services, multimorbidity status and unscheduled health care use?
+\item Do multimorbidity status and social care use predict mortality?
+\end{enumerate}
+
+\section{Background}\label{sec:sc-outcomes-background}
+
+\section{Methods}\label{sec:sc-outcomes-methods}
+
+\section{Results}\label{sec:sc-outcomes-results}
+
+\section{Discussion}\label{sec:sc-outcomes-discussion}
+
+\section{Conclusion}\label{sec:sc-outcomes-conclusion}
+
+
+	

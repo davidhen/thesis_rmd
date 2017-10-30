@@ -2,7 +2,20 @@
 output: pdf_document
 ---
 
-\chapter{Access to social care}\label{ch:social-care}
+\chapter{Linked Health and Social Care Data: Quality Assessment}\label{ch:quality}
 
-Results chapter for 1st research question
+Results chapter describing quality of data (in particular SCS)
 
+??????? Still going to include this??
+
+\section{Intro}\label{sec:qual-intro}
+
+\section{Background}\label{sec:qual-background}
+
+\section{Methods}\label{sec:qual-methods}
+
+\section{Results}\label{sec:qual-results}
+
+\section{Discussion}\label{sec:qual-discuss}
+
+\section{Conclusion}\label{sec:qual-concl}

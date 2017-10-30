@@ -1,0 +1,13 @@
+---
+output: pdf_document
+---
+
+\chapter{Conclusion}\label{ch:conclusion}
+
+
+Reccomendations :- 
+\begin{itemize}
+\item Standardised score reflecting need/frailty/vulnerability required to accurately assess access to care (OECD pp181)
+\item Measure outcomes relevent to social care (falls etc OECD 2013 pp59) OR link to outcome data e.g. preventable admission data, hip fracture data??
+\item Consider other forms of admin data to help with this e.g. Attendance Allowance?? - Problem being coverage
+\end{itemize}

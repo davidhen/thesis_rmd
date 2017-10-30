@@ -120,16 +120,22 @@ knitr::opts_chunk$set(fig.path = 'figures/',
 
 \FloatBarrier
 \newpage
-\fancyhead[CO,CE]{Chapter 5. Linked Data Quality Assessment}
-
+\fancyhead[CO,CE]{Chpater 5. Renfrewshire Council Pilot Project}
 ```{r child = 'chapter_5.Rmd'}
+```
+
+\FloatBarrier
+\newpage
+\fancyhead[CO,CE]{Chapter 6. Linked Data Quality Assessment}
+
+```{r child = 'chapter_6.Rmd'}
 ```
 
 \FloatBarrier
 \newpage
 \fancyhead[CO,CE]{Chapter 6. Access to Social Care}
 
-```{r child = 'chapter_6.Rmd'}
+```{r child = 'chapter_7.Rmd'}
 ```
 \FloatBarrier
 
@@ -137,14 +143,14 @@ knitr::opts_chunk$set(fig.path = 'figures/',
 \newpage
 \fancyhead[CO,CE]{Chapter 7. Social Care and Health Outcomes}
 
-```{r child = 'chapter_7.Rmd'}
+```{r child = 'chapter_8.Rmd'}
 ```
 
 \FloatBarrier
 \newpage
 \fancyhead[CO,CE]{Chapter 8. Conclusion}
 
-```{r child = 'chapter_8.Rmd'}
+```{r child = 'chapter_9.Rmd'}
 ```
 
 \FloatBarrier

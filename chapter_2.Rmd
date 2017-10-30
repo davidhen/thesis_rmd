@@ -58,6 +58,10 @@ A more clearly defined concept is that of *personal care* which has been provide
 
 Personal care is, however, only one aspect of social care provision and clear definitions of other services provided to individuals are lacking. Nevertheless, the definitions of social (or long-term) care above all highlight services that are required to aid with an individual's functional or cognitive needs.
 
+In this thesis...
+
+**Definition of social care I will use**
+
 \subsection{International models of social care}\label{subsec:access-sc-models}
 
 There are four ways in which social care \footnote{International, and particularly European, literature more frequently uses the phrase "long term care" to describe the kinds of services outlined in section \ref{subsec:access-sc-defs}. The term "social care" is used in-lieu for the purposes of this thesis.} can be provided to those in need: informally via family or community, formally via voluntary non-profit organisations, formally via the state, or formally via a for-profit organisations [@RN346]. In Europe, increasing demand from users has led to many welfare systems being unable to adequately provide care [@RN344; @RN414]. Changes in demography, the labour market, democracy, and values have all contributed to the increasing pressure on care services [@RN406; @RN342; @RN414]. There is wide consensus that lower birth rates and higher proportions of older people mean that a gap has emerged in the number of adult children able to provide informal care to their parents [@RN342; @RN343; @RN344; @RN346; @RN345; @RN414]. Traditionally, informal care was provided by women. As gender equality improves, more women are employed outwith domestic circumstances which also reduces the pool of informal social care available [@RN342]. Anttonen [-@RN342] also cites changes in societal attitudes from "familism" to "individualism" as having an impact on informal care resources. These combined factors mean that formal care services are increasingly required to provide social care. Pressures on these services has seen increased discussion and comparison of models of care across Europe over the last 20 years [@RN347; @RN348; @RN346; @RN349].
@@ -122,7 +126,7 @@ A recent examination of the effects of the 2008 financial crisis on the way soci
 \end{figure}
 
 
-Given the marked variations in how social care is funded and delivered across countries, it may be expected that there are also marked varations in levels of access and utilisation. Colombo et al [-@RN414] produced a chart (shown in figure \ref{fig:oecd-comparison}) derived from OECD data that shows the proportion of over 65s receiving some form of social care across countries for which data is provided. The chart shows that having a universal or mixed system of social care provision (as described above) does not absolutely influence the number of people receiving care. For example, South Korea employs a universal (insurance-based) system and has one of the lowest proportions of older people receiving care, whereas Swizerland has one of the highest whilst employing a mixed system involving some universal and some means-tested benefits. This suggests that eligibility criteria set within countries are likely to be more important in determining access to social care than any particular system of care delivery. 
+Given the marked variations in how social care is funded and delivered across countries, it may be expected that there are also marked varations in levels of access and utilisation. Colombo et al [-@RN414] produced a chart (shown in figure \ref{fig:oecd-comparison}) derived from OECD data that shows the proportion of over 65s receiving some form of social care across countries for which data is provided. The chart shows that having a universal or mixed system of social care provision (as described above) does not absolutely influence the number of people receiving care. For example, South Korea employs a universal (insurance-based) system and has one of the lowest proportions of older people receiving care, whereas Swizerland has one of the highest whilst employing a mixed system involving some universal and some means-tested benefits. This suggests that allocation of resources and eligibility criteria set within countries are likely to be more important in determining access to social care than any particular system of care delivery. 
 
 Social care can be seen as  
   a) a group of services such as; skilled nursing care, social work, personal care, medical equipement \& technologies, and therapies. Delivered by,   
@@ -186,11 +190,12 @@ In a report profiling the care at home sector in Scotland. MacLeod and Mair [-@R
 
 \subsubsection{Social Theory of Resource Allocation}\label{subsubsec:theory-resources}
 
+This section will discuss social science theory of fair allocation of resources to Local Authorities such as "the strategy of equality" and the "inverse care law" will also be discussed. 
+
 \subsubsection{Resource Allocation for Social Care in the UK}\label{subsubsec:resources-uk}
 
-This section will discuss social science theory of fair allocation of resources to Local Authorities such as "the strategy of equality." Will need to outline how social care is funded in the UK Here, the "inverse care law" will also be discussed. 
+Will need to outline how social care is funded and resources allocated in the UK Here.
 
-Evidence and literature of how funding is distributed will also be presented.
 
 \subsection{Health inequalities}\label{subsec:health-inequals}
 

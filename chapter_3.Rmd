@@ -6,18 +6,37 @@ output: pdf_document
 
 \section{Overview}\label{sec:methods-overview}
 
-Discussion of methodological approach. Quant v Qual etc.
+* Discussion of methodological approach. Quant v Qual etc.
+* Reference Lit review and describe how Research Questions more suitable for Quant approach
 
 \section{Administrative data research}\label{sec:methods-admindata}
 
+\subsection{Overview}\label{subsec:admin-data-overview}
+
 * Broad discussion of admin data research
+
+\subsection{Information Governance}\label{subsec:IG}
+
 * Sensitive data - how protected
+* eDRIS and SG policy docs
 
 \section{Data Sources}\label{sec:methods-data}
 
-* List data sources
+* List and describe data sources
 
 \section{Data linkage}\label{sec:methods-linkage}
 
 * Describe linkage process
+
+\section{Timeline}\label{sec:methods-timeline}
+
+Outline time frames of:-   
+
+* Approvals process
+* DSA
+* Linkage
+
+for both Renfrew and linked data
+
+Discuss barriers and setbacks. 
 

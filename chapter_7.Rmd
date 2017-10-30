@@ -2,8 +2,46 @@
 output: pdf_document
 ---
 
-\chapter{Social care \& Health outcomes}\label{ch:sc-outcomes}
+\chapter{Access to social care}\label{ch:social-care}
 
-Results chapter for 2nd research question.
+Results chapter for 1st research question
 
-Need to find new title - must convey effect of sc **AND** mm on USC **AND** mortality
+\section{Introduction}\label{sec:social-care-intro}
+
+Link to chapter \ref{ch:lit-review} re access to social care. Linked dataset to assess national variation in social care provision
+
+\subsection{Aims}\label{subsec:social-care-aims}
+
+\begin{itemize}[noitemsep]
+\item Assess how access to social care services varies for people with multimorbidity, especially by socioeconomic status.
+\end{itemize}
+
+\subsection{Research questions}\label{subsec:social-care-rqs}
+
+In people over the age of 65 in Scotland:-
+
+\begin{enumerate}[noitemsep]
+\item	What are the socioeconomic, demographic, and geographic patterns in the use of social care across Scotland? 
+\item Is there an association between multimorbidity status and the amount and type of social care use over time? Does this vary by the patterns described in question 1?
+\end{enumerate}
+
+\section{Background}\label{sec:social-care-background}
+
+Mention previous linkages of health and social care identified in section \ref{subsec:research}. 
+
+\section{Methods}\label{sec:social-care-methods}
+
+\begin{itemize}[noitemsep]
+\item Link to chapter \ref{ch:methods}
+\item Describe social care variables
+\item Describe PIS variables and summaries
+\item Describe socioeconomic and geogrpahic sources
+\end{itemize}
+
+\section{Results}\label{sec:social-care-results}
+
+\section{Discussion}\label{sec:social-care-discuss}
+
+\section{Conclusion}\label{sec:social-care-conclu}
+
+
