@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.18 (MiKTeX 2.9.6400 64-bit) (preloaded format=pdflatex 2017.9.8)  30 OCT 2017 21:12
+This is pdfTeX, Version 3.14159265-2.6-1.40.18 (MiKTeX 2.9.6400 64-bit) (preloaded format=pdflatex 2017.9.8)  2 NOV 2017 20:26
 entering extended mode
 **./THESIS.tex
 (THESIS.tex
@@ -844,9 +844,15 @@ Package: booktabs 2005/04/14 v1.61803 publication quality tables
 \@thisruleclass=\count119
 \@lastruleclass=\count120
 \@thisrulewidth=\dimen146
+) (C:\MiXTeX\tex\latex\epigraph\epigraph.sty
+Package: epigraph 2009/09/02 v1.5c typesetting epigraphs
+\beforeepigraphskip=\skip62
+\afterepigraphskip=\skip63
+\epigraphwidth=\skip64
+\epigraphrule=\skip65
 ) (C:\MiXTeX\tex\latex\enumitem\enumitem.sty
 Package: enumitem 2011/09/28 v3.5.2 Customized lists
-\labelindent=\skip62
+\labelindent=\skip66
 \enit@outerparindent=\dimen147
 \enit@toks=\toks25
 \enit@inbox=\box28
@@ -862,34 +868,34 @@ Package: perpage 2014/10/25 2.0 Reset/sort counters per page
 (THESIS.aux)
 \openout1 = `THESIS.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 104.
-LaTeX Font Info:    ... okay on input line 104.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 104.
-LaTeX Font Info:    ... okay on input line 104.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 104.
-LaTeX Font Info:    ... okay on input line 104.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 104.
-LaTeX Font Info:    ... okay on input line 104.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 104.
-LaTeX Font Info:    ... okay on input line 104.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 104.
-LaTeX Font Info:    ... okay on input line 104.
-LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 104.
-LaTeX Font Info:    Try loading font information for TS1+cmr on input line 104.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 105.
+LaTeX Font Info:    ... okay on input line 105.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 105.
+LaTeX Font Info:    ... okay on input line 105.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 105.
+LaTeX Font Info:    ... okay on input line 105.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 105.
+LaTeX Font Info:    ... okay on input line 105.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 105.
+LaTeX Font Info:    ... okay on input line 105.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 105.
+LaTeX Font Info:    ... okay on input line 105.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 105.
+LaTeX Font Info:    Try loading font information for TS1+cmr on input line 105.
 
 (C:\MiXTeX\tex\latex\base\ts1cmr.fd
 File: ts1cmr.fd 2014/09/29 v2.5h Standard LaTeX font definitions
 )
-LaTeX Font Info:    ... okay on input line 104.
-LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 104.
-LaTeX Font Info:    ... okay on input line 104.
-LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 104.
-LaTeX Font Info:    ... okay on input line 104.
-LaTeX Font Info:    Try loading font information for T1+lmr on input line 104.
+LaTeX Font Info:    ... okay on input line 105.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 105.
+LaTeX Font Info:    ... okay on input line 105.
+LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 105.
+LaTeX Font Info:    ... okay on input line 105.
+LaTeX Font Info:    Try loading font information for T1+lmr on input line 105.
 (C:\MiXTeX\tex\latex\lm\t1lmr.fd
 File: t1lmr.fd 2009/10/30 v1.6 Font defs for Latin Modern
 )
-LaTeX Info: Redefining \microtypecontext on input line 104.
+LaTeX Info: Redefining \microtypecontext on input line 105.
 Package microtype Info: Generating PDF output.
 Package microtype Info: Character protrusion enabled (level 2).
 Package microtype Info: Using protrusion set `basicmath'.
@@ -947,7 +953,7 @@ Package color Info: Driver file: pdftex.def on input line 147.
 (C:\MiXTeX\tex\latex\graphics\dvipsnam.def
 File: dvipsnam.def 2016/06/17 v3.0m Driver-dependent file (DPC,SPQR)
 ))
-Package hyperref Info: Link coloring ON on input line 104.
+Package hyperref Info: Link coloring ON on input line 105.
 (C:\MiXTeX\tex\latex\hyperref\nameref.sty
 Package: nameref 2016/05/21 v2.44 Cross-referencing by name of section
 (C:\MiXTeX\tex\generic\oberdiek\gettitlestring.sty
@@ -955,9 +961,9 @@ Package: gettitlestring 2016/05/16 v1.5 Cleanup title references (HO)
 )
 \c@section@level=\count124
 )
-LaTeX Info: Redefining \ref on input line 104.
-LaTeX Info: Redefining \pageref on input line 104.
-LaTeX Info: Redefining \nameref on input line 104.
+LaTeX Info: Redefining \ref on input line 105.
+LaTeX Info: Redefining \pageref on input line 105.
+LaTeX Info: Redefining \nameref on input line 105.
 (THESIS.out) (THESIS.out)
 \@outlinefile=\write3
 \openout3 = `THESIS.out'.
@@ -995,16 +1001,16 @@ Package caption Info: End \AtBeginDocument code.
 {C:/Users/hedgi/AppData/Local/MiKTeX/2.9/pdftex/config/pdftex.map}]
 
 Package Fancyhdr Warning: \fancyhead's `E' option without twoside option is use
-less on input line 143.
+less on input line 144.
 
 
 Package Fancyhdr Warning: \fancyhead's `E' option without twoside option is use
-less on input line 143.
+less on input line 144.
 
 [1]
 
 Package Fancyhdr Warning: \fancyhead's `E' option without twoside option is use
-less on input line 155.
+less on input line 156.
 
 (THESIS.toc
 LaTeX Font Info:    Try loading font information for OT1+lmr on input line 1.
@@ -1056,7 +1062,7 @@ Package Fancyhdr Warning: \headheight is too small (12.0pt):
 [5]
 
 Package Fancyhdr Warning: \fancyhead's `E' option without twoside option is use
-less on input line 160.
+less on input line 161.
 
 (THESIS.lot)
 \tf@lot=\write5
@@ -1067,7 +1073,7 @@ less on input line 160.
 ]
 
 Package Fancyhdr Warning: \fancyhead's `E' option without twoside option is use
-less on input line 165.
+less on input line 166.
 
 (THESIS.lof)
 \tf@lof=\write6
@@ -1078,191 +1084,223 @@ less on input line 165.
 ]
 
 Package Fancyhdr Warning: \fancyhead's `E' option without twoside option is use
-less on input line 172.
+less on input line 173.
 
 [8]
 
 Package Fancyhdr Warning: \fancyhead's `E' option without twoside option is use
-less on input line 182.
+less on input line 183.
 
 [9]
 
 Package Fancyhdr Warning: \fancyhead's `E' option without twoside option is use
-less on input line 199.
+less on input line 200.
 
 Chapter 1.
 [1
 
 ] [2]
-LaTeX Font Info:    Try loading font information for TS1+lmr on input line 274.
+LaTeX Font Info:    Try loading font information for TS1+lmr on input line 275.
 
 (C:\MiXTeX\tex\latex\lm\ts1lmr.fd
 File: ts1lmr.fd 2009/10/30 v1.6 Font defs for Latin Modern
 ) [3]
 
 Package Fancyhdr Warning: \fancyhead's `E' option without twoside option is use
-less on input line 283.
+less on input line 284.
 
 Chapter 2.
 [4
 
-] [5] [6] [7]
-LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <10> on input line 476.
-LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <7> on input line 476.
-LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <5> on input line 476.
-[8]
+] [5] [6] [7] [8] [9]
 
 LaTeX Warning: No positions in optional float specifier.
-               Default added (so using `tbp') on input line 502.
+               Default added (so using `tbp') on input line 520.
 
 
-Overfull \hbox (22.1476pt too wide) in paragraph at lines 526--527
+Overfull \hbox (22.1476pt too wide) in paragraph at lines 544--545
  [][] 
  []
 
-[9] [10] [11]
-<figures/oecd-comparison.PNG, id=868, 471.63702pt x 325.5914pt>
+[10]
+LaTeX Font Info:    External font `lmex10' loaded for size
+(Font)              <10> on input line 612.
+LaTeX Font Info:    External font `lmex10' loaded for size
+(Font)              <7> on input line 612.
+LaTeX Font Info:    External font `lmex10' loaded for size
+(Font)              <5> on input line 612.
+[11]
+<figures/oecd-comparison.PNG, id=870, 471.63702pt x 325.5914pt>
 File: figures/oecd-comparison.PNG Graphic file (type png)
 <use figures/oecd-comparison.PNG>
-Package pdftex.def Info: figures/oecd-comparison.PNG  used on input line 641. o
-n input line 641.
+Package pdftex.def Info: figures/oecd-comparison.PNG  used on input line 659. o
+n input line 659.
 Package pdftex.def Info: Requested size: 352.68338pt x 243.47256pt on input lin
-e 641.
-[12] [13 <./figures/oecd-comparison.PNG>] [14] [15] [16] [17] [18] [19] [20]
+e 659.
+[12]
+LaTeX Font Info:    External font `lmex10' loaded for size
+(Font)              <10.95> on input line 681.
+[13 <./figures/oecd-comparison.PNG>] [14] [15] [16] [17] [18]
 
-LaTeX Warning: Reference `subsec:access-sc-nat-variation' on page 21 undefined 
-on input line 1005.
+Package natbib Warning: Citation `449' on page 19 undefined on input line 927.
 
-[21] [22] [23] [24] [25] [26] [27] [28] [29]
+[19] [20]
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+[21] [22] [23]
+
+Package natbib Warning: Citation `RN447' on page 24 undefined on input line 113
+7.
+
+
+Package natbib Warning: Citation `RN447' on page 24 undefined on input line 113
+9.
+
+
+Package natbib Warning: Citation `RN446' on page 24 undefined on input line 114
+2.
+
+
+Package natbib Warning: Citation `RN447' on page 24 undefined on input line 114
+3.
+
+
+Package natbib Warning: Citation `RN446' on page 24 undefined on input line 114
+5.
+
+[24] [25] [26]
+
+LaTeX Warning: Reference `subsec:access-sc-nat-variation' on page 27 undefined 
+on input line 1256.
+
+[27] [28] [29] [30] [31] [32] [33] [34] [35]
 
 Package Fancyhdr Warning: \fancyhead's `E' option without twoside option is use
-less on input line 1338.
+less on input line 1589.
 
 Chapter 3.
-[30
+[36
 
-] [31]
+] [37]
 
 Package Fancyhdr Warning: \fancyhead's `E' option without twoside option is use
-less on input line 1409.
+less on input line 1660.
 
 Chapter 4.
-[32
+[38
 
-] [33] [34] [35]
-Underfull \hbox (badness 10000) in paragraph at lines 1586--1590
+] [39] [40] [41]
+Underfull \hbox (badness 10000) in paragraph at lines 1837--1841
 
  []
 
-[36]
-<figures/sd-corrplot.png, id=1476, 722.7pt x 578.16pt>
+[42]
+<figures/sd-corrplot.png, id=1613, 722.7pt x 578.16pt>
 File: figures/sd-corrplot.png Graphic file (type png)
 <use figures/sd-corrplot.png>
-Package pdftex.def Info: figures/sd-corrplot.png  used on input line 1639. on i
-nput line 1639.
+Package pdftex.def Info: figures/sd-corrplot.png  used on input line 1890. on i
+nput line 1890.
 Package pdftex.def Info: Requested size: 396.7584pt x 317.40672pt on input line
- 1639.
+ 1890.
 
 LaTeX Warning: No positions in optional float specifier.
-               Default added (so using `tbp') on input line 1656.
+               Default added (so using `tbp') on input line 1907.
 
 
 LaTeX Warning: No positions in optional float specifier.
-               Default added (so using `tbp') on input line 1720.
+               Default added (so using `tbp') on input line 1971.
 
-[37] [38 <./figures/sd-corrplot.png>] [39]
-<figures/item-response.png, id=1498, 578.16pt x 722.7pt>
+[43] [44 <./figures/sd-corrplot.png>] [45]
+<figures/item-response.png, id=1635, 578.16pt x 722.7pt>
 File: figures/item-response.png Graphic file (type png)
 <use figures/item-response.png>
-Package pdftex.def Info: figures/item-response.png  used on input line 1765. on
- input line 1765.
+Package pdftex.def Info: figures/item-response.png  used on input line 2016. on
+ input line 2016.
 Package pdftex.def Info: Requested size: 396.76062pt x 495.95078pt on input lin
-e 1765.
-[40] [41 <./figures/item-response.png>]
-<figures/props.png, id=1509, 397.485pt x 433.62pt>
+e 2016.
+[46] [47 <./figures/item-response.png>]
+<figures/props.png, id=1646, 397.485pt x 433.62pt>
 File: figures/props.png Graphic file (type png)
 <use figures/props.png>
-Package pdftex.def Info: figures/props.png  used on input line 1821. on input l
-ine 1821.
+Package pdftex.def Info: figures/props.png  used on input line 2072. on input l
+ine 2072.
 Package pdftex.def Info: Requested size: 396.7744pt x 432.8448pt on input line 
-1821.
-<figures/lg-by-age.png, id=1511, 505.89pt x 289.08pt>
+2072.
+<figures/lg-by-age.png, id=1648, 505.89pt x 289.08pt>
 File: figures/lg-by-age.png Graphic file (type png)
 <use figures/lg-by-age.png>
-Package pdftex.def Info: figures/lg-by-age.png  used on input line 1840. on inp
-ut line 1840.
+Package pdftex.def Info: figures/lg-by-age.png  used on input line 2091. on inp
+ut line 2091.
 Package pdftex.def Info: Requested size: 396.76942pt x 226.72539pt on input lin
-e 1840.
-<figures/lg-by-sex.png, id=1513, 505.89pt x 433.62pt>
+e 2091.
+<figures/lg-by-sex.png, id=1650, 505.89pt x 433.62pt>
 File: figures/lg-by-sex.png Graphic file (type png)
 <use figures/lg-by-sex.png>
-Package pdftex.def Info: figures/lg-by-sex.png  used on input line 1852. on inp
-ut line 1852.
+Package pdftex.def Info: figures/lg-by-sex.png  used on input line 2103. on inp
+ut line 2103.
 Package pdftex.def Info: Requested size: 396.76942pt x 340.08809pt on input lin
-e 1852.
-[42] [43 <./figures/props.png>]
-<figures/lg-by-dep.png, id=1524, 505.89pt x 433.62pt>
+e 2103.
+[48] [49 <./figures/props.png>]
+<figures/lg-by-dep.png, id=1661, 505.89pt x 433.62pt>
 File: figures/lg-by-dep.png Graphic file (type png)
 <use figures/lg-by-dep.png>
-Package pdftex.def Info: figures/lg-by-dep.png  used on input line 1865. on inp
-ut line 1865.
+Package pdftex.def Info: figures/lg-by-dep.png  used on input line 2116. on inp
+ut line 2116.
 Package pdftex.def Info: Requested size: 396.76942pt x 340.08809pt on input lin
-e 1865.
-[44 <./figures/lg-by-age.png>] [45 <./figures/lg-by-sex.png (PNG copy)>] [46 <.
-/figures/lg-by-dep.png>] [47] [48] [49] [50] [51]
+e 2116.
+[50 <./figures/lg-by-age.png>] [51 <./figures/lg-by-sex.png (PNG copy)>] [52 <.
+/figures/lg-by-dep.png>] [53] [54] [55] [56] [57]
 
 Package Fancyhdr Warning: \fancyhead's `E' option without twoside option is use
-less on input line 2048.
+less on input line 2299.
 
 Chapter 5.
-[52
+[58
 
-] [53]
+] [59]
 
 Package Fancyhdr Warning: \fancyhead's `E' option without twoside option is use
-less on input line 2114.
+less on input line 2365.
 
 Chapter 6.
-[54
-
-]
-
-Package Fancyhdr Warning: \fancyhead's `E' option without twoside option is use
-less on input line 2136.
-
-Chapter 7.
-[55
-
-] [56]
-
-Package Fancyhdr Warning: \fancyhead's `E' option without twoside option is use
-less on input line 2186.
-
-Chapter 8.
-[57
-
-] [58]
-
-Package Fancyhdr Warning: \fancyhead's `E' option without twoside option is use
-less on input line 2229.
-
-Chapter 9.
-[59
-
-]
-
-Package Fancyhdr Warning: \fancyhead's `E' option without twoside option is use
-less on input line 2243.
-
-Appendix A.
 [60
 
 ]
-Appendix B.
+
+Package Fancyhdr Warning: \fancyhead's `E' option without twoside option is use
+less on input line 2387.
+
+Chapter 7.
 [61
+
+] [62]
+
+Package Fancyhdr Warning: \fancyhead's `E' option without twoside option is use
+less on input line 2437.
+
+Chapter 8.
+[63
+
+] [64]
+
+Package Fancyhdr Warning: \fancyhead's `E' option without twoside option is use
+less on input line 2480.
+
+Chapter 9.
+[65
+
+]
+
+Package Fancyhdr Warning: \fancyhead's `E' option without twoside option is use
+less on input line 2494.
+
+Appendix A.
+[66
+
+]
+Appendix B.
+[67
 
 ] (THESIS.bbl
 Underfull \hbox (badness 2126) in paragraph at lines 31--37
@@ -1300,304 +1338,319 @@ Underfull \hbox (badness 10000) in paragraph at lines 31--37
 le % 20of % 20Social %
  []
 
+[68
 
-Underfull \hbox (badness 4168) in paragraph at lines 55--60
+
+]
+Underfull \hbox (badness 4168) in paragraph at lines 62--67
 \T1/lmr/m/n/12 (+20) URL [][]$http : / / www . audit-[]scotland . gov . uk / up
 loads / docs / report / 2016 / nr _ 160310 _
  []
 
-[62
 
-
-]
-Underfull \hbox (badness 2564) in paragraph at lines 86--96
+Underfull \hbox (badness 2564) in paragraph at lines 93--103
 []\T1/lmr/m/n/12 (+20) Martin Bard-s-ley, Theo Georghiou, Lu-dovic Chas-sin, Ge
 raint Lewis, Adam
  []
 
 
-Underfull \hbox (badness 1502) in paragraph at lines 86--96
+Underfull \hbox (badness 1502) in paragraph at lines 93--103
 \T1/lmr/m/n/12 (+20) Steven-ton, and Jen-nifer Dixon.  Over-lap of hos-pi-tal u
 se and so-cial care
  []
 
 
-Underfull \hbox (badness 3449) in paragraph at lines 86--96
+Underfull \hbox (badness 3449) in paragraph at lines 93--103
 \T1/lmr/m/it/12 (+20) icy\T1/lmr/m/n/12 (+20) , 17(3):133--139, 2012b.  ISSN 13
 55-8196.  doi: $10 . 1258 / jhsrp . 2011 .
  []
 
-[63]
-Underfull \hbox (badness 10000) in paragraph at lines 135--141
+[69]
+Underfull \hbox (badness 10000) in paragraph at lines 156--162
 []\T1/lmr/m/n/12 (+20) David Buck and David Maguire.  In-equal-i-ties in life e
 x-
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 135--141
+Underfull \hbox (badness 10000) in paragraph at lines 156--162
 \T1/lmr/m/n/12 (+20) pectancy: changes over time and im-pli-ca-tions for pol-ic
 y.  Re-
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 135--141
+Underfull \hbox (badness 10000) in paragraph at lines 156--162
 \T1/lmr/m/n/12 (+20) port, 2017.  URL [][]$http : / / www . thehealthwell . inf
 o / search-[]results /
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 135--141
+Underfull \hbox (badness 10000) in paragraph at lines 156--162
 \T1/lmr/m/n/12 (+20) inequalities-[]life-[]expectancy-[]changes-[]over-[]time-[
 ]and-[]implications-[]policy ? source =
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 135--141
+Underfull \hbox (badness 10000) in paragraph at lines 156--162
 \T1/lmr/m/n/12 (+20) relatedblock & content = resource & member = 572160 & cata
 logue = none & collection =
  []
 
 
-Underfull \hbox (badness 2556) in paragraph at lines 150--156
+Underfull \hbox (badness 2556) in paragraph at lines 171--177
 []\T1/lmr/m/n/12 (+20) L. Burgess.  Spice brief-ing. in-te-gra-tion of health a
 nd so-cial care: In-ter-
  []
 
 
-Underfull \hbox (badness 2547) in paragraph at lines 150--156
+Underfull \hbox (badness 2547) in paragraph at lines 171--177
 \T1/lmr/m/n/12 (+20) na-tional com-par-isons.  Re-port, 2012.  URL [][]$http : 
 / / www . parliament . scot /
  []
 
-
-Underfull \hbox (badness 7963) in paragraph at lines 185--190
+[70]
+Underfull \hbox (badness 7963) in paragraph at lines 206--211
 []\T1/lmr/m/n/12 (+20) CfWI.  In-depth re-view of the gen-eral prac-ti-cioner w
 ork-force.  Re-
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 185--190
+Underfull \hbox (badness 10000) in paragraph at lines 206--211
 \T1/lmr/m/n/12 (+20) port, 2014.  URL [][]$https : / / www . gov . uk / governm
 ent / publications /
  []
 
 
-Underfull \hbox (badness 1178) in paragraph at lines 192--197
+Underfull \hbox (badness 1178) in paragraph at lines 213--218
 []\T1/lmr/m/n/12 (+20) Anita Charlesworth and Ruth Thorlby.  Re-form-ing so-cia
 l care: op-tions for
  []
 
-[64]
-Underfull \hbox (badness 10000) in paragraph at lines 263--271
+
+Underfull \hbox (badness 10000) in paragraph at lines 273--281
 \T1/lmr/m/n/12 (+20) 1468-[]4446 . 2000 . 00281 . x / asset / j . 1468-[]4446 .
  2000 . 00281 . x . pdf ? v = 1 & t = ihfcdbp2 & s =
  []
 
-[65] [66] [67]
-Underfull \hbox (badness 2744) in paragraph at lines 421--429
+[71] [72]
+Underfull \hbox (badness 1242) in paragraph at lines 370--378
+[]\T1/lmr/m/n/12 (+20) Tony Evans.  Pro-fes-sion-als, man-agers and dis-cre-tio
+n: Cri-tiquing street-level
+ []
+
+
+Underfull \hbox (badness 2941) in paragraph at lines 370--378
+\T1/lmr/m/n/12 (+20) bu-reau-cracy.  \T1/lmr/m/it/12 (+20) The British Jour-nal
+ of So-cial Work\T1/lmr/m/n/12 (+20) , 41(2):368--386, 2010.
+ []
+
+[73]
+Underfull \hbox (badness 2744) in paragraph at lines 483--491
 \T1/lmr/m/n/12 (+20) co-mor-bid-ity: a re-view.  \T1/lmr/m/it/12 (+20) Jour-nal
  of clin-i-cal epi-demi-ol-ogy\T1/lmr/m/n/12 (+20) , 54(7):661--674,
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 421--429
+Underfull \hbox (badness 10000) in paragraph at lines 483--491
 \T1/lmr/m/n/12 (+20) 0-[]S0895435600003632-[]main . pdf ? _tid = 108170ce-[]6dc
 1-[]11e5-[]8a3e-[]00000aacb35f &
  []
 
-[68]
-Underfull \hbox (badness 1616) in paragraph at lines 527--532
+[74] [75]
+Underfull \hbox (badness 1616) in paragraph at lines 585--590
 []\T1/lmr/m/n/12 (+20) R.; Humphries, R.; Thorlby, H.; Holder, P.; Hall, and A.
  Charles.  So-
  []
 
 
-Underfull \hbox (badness 2142) in paragraph at lines 527--532
+Underfull \hbox (badness 2142) in paragraph at lines 585--590
 \T1/lmr/m/n/12 (+20) cial care for older peo-ple: Home truths.  Re-port, 2016. 
  URL [][]$https :
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 527--532
+Underfull \hbox (badness 10000) in paragraph at lines 585--590
 \T1/lmr/m/n/12 (+20) / / www . kingsfund . org . uk / sites / les / kf / eld 
 / eld _ publication _ le / Social _ care _
  []
 
 
-Underfull \hbox (badness 3088) in paragraph at lines 535--545
+Underfull \hbox (badness 3088) in paragraph at lines 593--603
 []\T1/lmr/m/n/12 (+20) Alyson L Hunt-ley, Rachel John-son, Sarah Purdy, Jose M 
 Valderas, and
  []
 
 
-Underfull \hbox (badness 1383) in paragraph at lines 535--545
+Underfull \hbox (badness 1383) in paragraph at lines 593--603
 \T1/lmr/m/n/12 (+20) in pri-mary care and com-mu-nity set-tings: a sys-tem-atic
  re-view and guide.
  []
 
 
-Underfull \hbox (badness 3168) in paragraph at lines 535--545
+Underfull \hbox (badness 3168) in paragraph at lines 593--603
 \T1/lmr/m/it/12 (+20) The An-nals of Fam-ily Medicine\T1/lmr/m/n/12 (+20) , 10(
 2):134--141, 2012.  ISSN 1544-1709.
  []
 
-[69] [70]
-Underfull \hbox (badness 10000) in paragraph at lines 663--673
+[76] [77]
+Underfull \hbox (badness 10000) in paragraph at lines 729--739
 \T1/lmr/m/n/12 (+20) 0-[]S0398762014006816-[]main . pdf ? _tid = 2c292592-[]6ec
 f-[]11e5-[]9c03-[]00000aab0f6b &
  []
 
 
-Underfull \hbox (badness 1728) in paragraph at lines 693--700
+Underfull \hbox (badness 1728) in paragraph at lines 759--766
 \T1/lmr/m/it/12 (+20) cial sci-ence and medicine\T1/lmr/m/n/12 (+20) , 44(6):72
 3--745, 1997.  ISSN 0277-9536.  URL
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 693--700
+Underfull \hbox (badness 10000) in paragraph at lines 759--766
 [][]$\T1/lmr/m/n/12 (+20) http : / / ac . els-[]cdn . com / S0277953696001839 /
  1-[]s2 . 0-[]S0277953696001839-[]main .
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 693--700
+Underfull \hbox (badness 10000) in paragraph at lines 759--766
 \T1/lmr/m/n/12 (+20) pdf ? _tid = aea008c0-[]0fb8-[]11e7-[]bfeb-[]00000aacb361 
 & acdnat = 1490267333 _
  []
 
-[71]
-Underfull \hbox (badness 10000) in paragraph at lines 738--746
+[78]
+Underfull \hbox (badness 10000) in paragraph at lines 825--833
 \T1/lmr/m/n/12 (+20) 0-[]S1568163711000249-[]main . pdf ? _tid = 2294b2-[]65e5
 -[]11e5-[]91c1-[]00000aab0f02 &
  []
 
-[72]
-Underfull \hbox (badness 10000) in paragraph at lines 822--827
+[79]
+Underfull \hbox (badness 10000) in paragraph at lines 909--914
 \T1/lmr/m/n/12 (+20) documents / Additional / C-[]Community _ services _ for _ 
 persons _ with _ disabilities /
  []
 
 
-Overfull \hbox (13.9627pt too wide) in paragraph at lines 829--835
+Overfull \hbox (13.9627pt too wide) in paragraph at lines 916--922
 \T1/lmr/m/n/12 (-20) tackling-[]inequalities-[]in-[]life-[]expectancy-[]in-[]ar
 eas-[]with-[]the-[]worst-[]health-[]and-[]deprivation/$[][]. 
  []
 
-[73]
-Underfull \hbox (badness 1975) in paragraph at lines 896--901
+[80]
+Underfull \hbox (badness 1975) in paragraph at lines 983--988
 []\T1/lmr/m/n/12 (+20) ONS.  Health state life ex-pectan-cies, uk: 2013 to 2015
 .  Re-port, 2016.
  []
 
 
-Underfull \hbox (badness 1383) in paragraph at lines 896--901
+Underfull \hbox (badness 1383) in paragraph at lines 983--988
 \T1/lmr/m/n/12 (+20) URL [][]$le : / / /C : /Users / hedgi / Downloads / Healt
 h % 20state % 20life % 20expectancies ,[]
  []
 
 
-Underfull \hbox (badness 1014) in paragraph at lines 920--929
+Underfull \hbox (badness 1014) in paragraph at lines 1007--1016
 []\T1/lmr/m/n/12 (+20) Anthony J Perkins, Kurt Kroenke, Jür-gen Unützer, Wayne 
 Ka-ton, John W
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 920--929
+Underfull \hbox (badness 10000) in paragraph at lines 1007--1016
 [][]$\T1/lmr/m/n/12 (+20) http : / / ac . els-[]cdn . com / S0895435604000812 /
  1-[]s2 . 0-[]S0895435604000812-[]main .
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 920--929
+Underfull \hbox (badness 10000) in paragraph at lines 1007--1016
 \T1/lmr/m/n/12 (+20) pdf ? _tid = 20def0d8-[]6db5-[]11e5-[]9bd1-[]00000aacb35f 
 & acdnat = 1444306221 _
  []
 
-[74]
-Underfull \hbox (badness 10000) in paragraph at lines 949--955
+[81]
+Underfull \hbox (badness 10000) in paragraph at lines 1036--1042
 \T1/lmr/m/n/12 (+20) Resources / Housing / Support _ materials / Other _ report
 s _ and _ guidance / The _
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 957--963
+Underfull \hbox (badness 10000) in paragraph at lines 1044--1050
 [][]$\T1/lmr/m/n/12 (+3) http : / / calls . ac . uk / wp-[]content / uploads / 
 nal _ report _ -[] _ assessing _ socio-[]economic _
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 957--963
+Underfull \hbox (badness 10000) in paragraph at lines 1044--1050
 \T1/lmr/m/n/12 (+20) inequalities _ in _ mortality _ and _ other _ health _ out
 comes _ at _ the _ scottish _
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 984--989
+Underfull \hbox (badness 10000) in paragraph at lines 1078--1083
 []\T1/lmr/m/n/12 (+20) Ruth Robert-son, Sarah Gre-gory, and Joni Jab-bal.  The 
 so-cial
  []
 
 
-Underfull \hbox (badness 6412) in paragraph at lines 984--989
+Underfull \hbox (badness 6412) in paragraph at lines 1078--1083
 \T1/lmr/m/n/12 (+20) care and health sys-tems of nine coun-tries.  Re-port, 201
 4.  URL
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 984--989
+Underfull \hbox (badness 10000) in paragraph at lines 1078--1083
 [][]$\T1/lmr/m/n/12 (+20) http : / / www . commed . vcu . edu / IntroPH / Commu
 nity _ Assessment / 2014 /
  []
 
-[75] [76]
-Underfull \hbox (badness 2837) in paragraph at lines 1126--1135
+[82] [83]
+Underfull \hbox (badness 2837) in paragraph at lines 1222--1231
 []\T1/lmr/m/n/12 (+20) Judith Sin-nige, Joze Braspen-ning, Fran-cois Schelle-vi
 s, Irina Stirbu-Wagner,
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 1126--1135
+Underfull \hbox (badness 10000) in paragraph at lines 1222--1231
 [][]$\T1/lmr/m/n/12 (+20) <[]GotoISI>[] : / / WOS : 000327221600142http : / / w
 ww . plosone . org / article / fetchObject .
  []
 
-[77]
-Underfull \hbox (badness 5274) in paragraph at lines 1160--1168
+[84]
+Underfull \hbox (badness 5274) in paragraph at lines 1264--1272
 []\T1/lmr/m/n/12 (+20) Ailsa Stew-art, Al-i-son Petch, and Lisa Cur-tice.  Mov-
 ing to-wards in-te-
  []
 
 
-Underfull \hbox (badness 1163) in paragraph at lines 1160--1168
+Underfull \hbox (badness 1163) in paragraph at lines 1264--1272
 \T1/lmr/m/n/12 (+20) grated work-ing in health and so-cial care in scot-land: f
 rom maze to ma-
  []
 
 
-Underfull \hbox (badness 3250) in paragraph at lines 1160--1168
+Underfull \hbox (badness 3250) in paragraph at lines 1264--1272
 \T1/lmr/m/n/12 (+20) 1820.  URL [][]$Movingtowardsintegratedworkinginhealthands
 ocialcareinScotland :
  []
 
-[78]
-Underfull \hbox (badness 3078) in paragraph at lines 1247--1252
+[85]
+Underfull \hbox (badness 3078) in paragraph at lines 1361--1366
 []\T1/lmr/m/n/12 (+20) Helen Weath-erly, Anne Ma-son, Maria God-dard, and K Wri
 ght.  Fi-nan-
  []
 
 
-Underfull \hbox (badness 1661) in paragraph at lines 1247--1252
+Underfull \hbox (badness 1661) in paragraph at lines 1361--1366
 \T1/lmr/m/n/12 (+20) cial in-te-gra-tion across health and so-cial care: ev-i-d
 ence re-view.  Re-port,
  []
 
-[79])
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 2262.
-[80]
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 2262.
+[86])
+
+Package natbib Warning: There were undefined citations.
+
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 2513.
+[87]
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 2513.
 (THESIS.aux)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 2262.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 2262.
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 2513.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 2513.
 
 Package rerunfilecheck Info: File `THESIS.out' has not changed.
 (rerunfilecheck)             Checksum: 7E904216FF01A324618A9FEF2ED7EB16;12082.
@@ -1607,21 +1660,18 @@ LaTeX Warning: There were undefined references.
 
 LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right.
 
-Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 2262.
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 2513.
  ) 
 Here is how much of TeX's memory you used:
- 15757 strings out of 493318
- 226204 string characters out of 3146783
- 351290 words of memory out of 3000000
- 18524 multiletter control sequences out of 15000+200000
- 75632 words of font info for 146 fonts, out of 3000000 for 9000
+ 15898 strings out of 493318
+ 228085 string characters out of 3146783
+ 353969 words of memory out of 3000000
+ 18627 multiletter control sequences out of 15000+200000
+ 87324 words of font info for 157 fonts, out of 3000000 for 9000
  1141 hyphenation exceptions out of 8191
- 36i,16n,43p,682b,725s stack positions out of 5000i,500n,10000p,200000b,50000s
-pdfTeX warning (dest): name{Hfootnote.2} has been referenced but does not exi
+ 36i,17n,43p,682b,747s stack positions out of 5000i,500n,10000p,200000b,50000s
+pdfTeX warning (dest): name{Hfootnote.1} has been referenced but does not exi
 st, replaced by a fixed one
-
-pdfTeX warning (dest): name{Hfootnote.1} has been referenced but does not exist
-, replaced by a fixed one
 
 {C:/MiXTeX/fonts/enc/dvips/lm/lm-mathit.enc}{C:/MiXTeX/fonts/enc/dvips/lm/lm-rm
 .enc}{C:/MiXTeX/fonts/enc/dvips/lm/lm-ec.enc}{C:/MiXTeX/fonts/enc/dvips/lm/lm-t
@@ -1629,10 +1679,11 @@ s1.enc}<C:/MiXTeX/fonts/type1/public/lm/lmbx12.pfb><C:/MiXTeX/fonts/type1/publi
 c/lm/lmmi12.pfb><C:/MiXTeX/fonts/type1/public/lm/lmr10.pfb><C:/MiXTeX/fonts/typ
 e1/public/lm/lmr12.pfb><C:/MiXTeX/fonts/type1/public/lm/lmr17.pfb><C:/MiXTeX/fo
 nts/type1/public/lm/lmr7.pfb><C:/MiXTeX/fonts/type1/public/lm/lmr8.pfb><C:/MiXT
-eX/fonts/type1/public/lm/lmri12.pfb>
-Output written on THESIS.pdf (90 pages, 984734 bytes).
+eX/fonts/type1/public/lm/lmri10.pfb><C:/MiXTeX/fonts/type1/public/lm/lmri12.pfb
+>
+Output written on THESIS.pdf (97 pages, 1049383 bytes).
 PDF statistics:
- 2049 PDF objects out of 2073 (max. 8388607)
- 374 named destinations out of 1000 (max. 500000)
- 13052 words of extra memory for PDF output out of 14400 (max. 10000000)
+ 2212 PDF objects out of 2487 (max. 8388607)
+ 399 named destinations out of 1000 (max. 500000)
+ 19196 words of extra memory for PDF output out of 20736 (max. 10000000)
 
