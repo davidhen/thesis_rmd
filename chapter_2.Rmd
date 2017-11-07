@@ -243,7 +243,9 @@ Understanding why there are differences in resource allocation for different typ
 
 These six "channels" concepetualise the modes of how and why welfare spending in certain areas appears to benefit more affluent groups. In their study investigating street-cleansing services, Hastings et al [-@RN116] observed the influence of middle class capture and some of the channels of advanatge described in table \ref{tab:gal} suggesting the theories of Le Grand [-@RN175], described above, and Tudor-Hart, described below, should not be discounted.
 
-\begin{quote} "The availability of good medical care tends to vary inversely with the need for it in the population served\end{quote} [@RN120]. In a similar fashion as Le Grand's work, "The inverse care law" has informed much research since first coined in the early 1970s. As discussed in section \ref{subsec:health-inequals}, people living in more deprived areas have lower life expectancy and higher morbidity figures and therefore greater health needs [@RN37]. However, the poorest neighbourhoods in England have been reported to have 62.5 General Practitioners (GP) per 100,000 population whereas the most affluent neighbourhoods have 76.2 per 100,000 [@RN317] which suggests health provision does not match need. Recent planned changes in policy to distribute primary care funding based on population age are likely to exacerbate this situation [@RN39]. Indeed, increases in workload with deteriorating proportions of budgets has lead the King’s Fund to describe the situation in primary care in England and Wales as, “in crisis” [@RN318, pp.3]. In Scotland, the  even distribution of GP workforce among the population means GP practices in the most deprived areas need to provide more consultations, for people with greater needs, at the same funding level as practices with fewer resource demands [@RN148; @RN27]. Poorer access to primary health care is associated with greater demand for unnecessary admission to hospital [@RN49; @RN268] which is responsible for high proportions of healthcare expenditure.
+\epigraph{"The availability of good medical care tends to vary inversely with the need for it in the population served"}{\textit{[The Inverse Care Law: Tudor-Hart, 1972]}}
+
+In a similar fashion as Le Grand's work, the inverse care law has informed much research since first coined in the early 1970s. As discussed in section \ref{subsec:health-inequals}, people living in more deprived areas have lower life expectancy and higher morbidity figures and therefore greater health needs [@RN37]. However, the poorest neighbourhoods in England have been reported to have 62.5 General Practitioners (GP) per 100,000 population whereas the most affluent neighbourhoods have 76.2 per 100,000 [@RN317] which suggests health provision does not match need. Recent planned changes in policy to distribute primary care funding based on population age are likely to exacerbate this situation [@RN39]. Indeed, increases in workload with deteriorating proportions of budgets has lead the King’s Fund to describe the situation in primary care in England and Wales as, “in crisis” [@RN318, pp.3]. In Scotland, the  even distribution of GP workforce among the population means GP practices in the most deprived areas need to provide more consultations, for people with greater needs, at the same funding level as practices with fewer resource demands [@RN148; @RN27]. Poorer access to primary health care is associated with greater demand for unnecessary admission to hospital [@RN49; @RN268] which is responsible for high proportions of healthcare expenditure.
 
 There has been no research, to the author's knowledge (is this ok??), of whether the inverse care law is observable in social care - a service delivered, like primary care, in a community setting and also likely to have an impact on secondary health care use. Nor has any research specifically investigated variations in the distribution of social care services by socioeconomic position at the local level. Such research would add useful evidence to the debate regarding the strategy of equality and middle class capture. 
 
@@ -320,32 +322,81 @@ There have been significant cuts to local authority budgets across the UK since 
 
 \subsection{Public Policy}\label{subsec:policy}
 
-Section discussing public policy of health and social care. Two silos. Short description of NHS funding and compared with LA funding described in subsection \ref{subsec:access-sc-nat-variation}. 
+\epigraph{Scotland "... is a paradoxical tapestry of rich resources, inventive humanity, gross inequalities, and persistant levels of disadvantage"}{\textit{[Christie, 2011, pp.2]}}
 
-Discuss why these services are linked - hosp discharge etc. 
+Acknowledging demand for public services was likely to increase, the Scottish Government set up the Christie Commision on the future delivery of public services in 2010. In its final report [@RN451], the commision made a number of pertinent observations including:- 
 
-Highlight current policy such as 2020 vision in Scotland, Health and Social Care Act (2012)(UK) **Christie Commision** etc.
+\begin{itemize}[noitemsep]
+\item Increasing demand for public services are due not only to demographic reasons but also beacuse of a failure to tackle inequality
+\item Spending levels on public services is unlikely to return to 2010 levels until 2026
+\item Public services in 2010 were fragmented with no coordination and often different services duplicated work
+\item Public services had a "top-down" approach to delivery with institutional and professional needs given precedence over users
+\end{itemize}
 
-Discuss Why poor co-ordination between services? 
+The reccomendations of the commision included:- 
+
+\begin{itemize}[noitemsep]
+\item Better coordination and integration of public services
+\item Empowerment of communities in how services are structured
+\item Reduction in demand for services by focussing on prevention
+\item Improving performance and efficiency of services
+\end{itemize}
+
+These reccomendations had profound effects on subsequent policy and legislation in Scotland, most notably in relation to health and social care services [@RN451], although this was not the first policy aimed to improve coordination between these services.  Previous policies aiming to increase cooperation between NHS health boards and local authority provided social care included; the Joint Future Group [-@RN452], the Community Care and Health (Scotland) Act [-@RN453], Community Health Partnerships [2002], and the Integrated Resource Framework [@RN454]. 
+
+2011 also saw the publication of the Scottish Government vision to acheive sustainable quality in the delivery of healthcare services by the year 2020 [@RN457]. Echoing some of the Christie commision reccomendations, the 2020 vision contained a number of objectives to change the way health and social care services are delivered including; a focus on prevention and self management of health conditions, and expanded role for GPs and primary care, a focus on reducing hospital stays and providing treatments in a community setting, improving care for those with multimorbidity, and formally integrating health and social care services [@RN251]. 
+
+The inclusion of the last of these objectives - to formally legislate for the integration of health and social care - was in response to the fact that that although previous policies had made some  progress in improving co-ordination between health and social care services, this had not had a demonstrable impact on outcomes for users of these services [@RN458; @RN252; @RN369]. This was often as a result, among other things, of different cultures in health and social care organisations [@RN458]. The difference in culture is perhaps understandable given the very different ways health and social care have been historically funded and delivered.
+
+Health care in Scotland, like the rest of the UK, is provided via the NHS free at the point of need to all citizens [@RN456]. This principal has remained in place despite many internal changes of structure (with some divergence from other parts of the UK)[@RN456]. Front-line services are delivered by 14 geographically-based health boards [@RN456]. 
+
+Provision of social care is the responsibility of the 32 Scottish local authorities who also either provide the services themselves, purchase provision through third-party private or voluntary organisations, or give individuals a budget to purchase provision themselves [@RN456]. As discussed in section \ref{sec:access-sc}, this service is not universal and depends on a needs-test against set eligibility criteria. Means-testing is employed to determine user-contribution to non-personal and non-nursing care institutional care home costs. 
+
+Given such contrasting backgrounds, and most importantly seperate silos of funding sources and budgets, integration of services had many barriers [@RN456]. Bulding on the 2020 vision [@RN457] objective of integrating health and social care, legislation to enact this structural change into law was announced in 2011. Section \ref{subsec:hsc-integration} describes these changes in more detail.
 
 \subsection{Health and Social Care Integration}\label{subsec:hsc-integration}
 
-Overview of health and social care integration. What it aims to do. Why etc. 
+\setlength{\epigraphwidth}{0.8\textwidth}
+\epigraph{"Our vision is that by 2020 everyone is able to live longer healthier lives at home, or in a homely setting. We will have a healthcare system where we have integrated health and social care, a focus on prevention, anticipation and supported self management. When hospital treatment is required, and cannot be provided in a community setting, day case treatment will be the norm. Whatever the setting, care will be provided to the highest standards of quality and safety, with the person at the centre of all decisions. There will be a focus on ensuring that people get back into their home or community environment as soon as appropriate, with minimal risk of re-admission."}{\textit{[Scottish Government, 2011, pp.2]}}
 
-Policy - The Act - structure such as "Lead Agency" or "Joint Body" models. 
+The Public Working(Joint Bodies) (Scotland) Act [@RN459] paved the way for the legal integration of health and social care services and all integrated authorities had manangement and structural plans in place by the Scottish Government's designated deadline of 1st April 2016. These reforms are seen as the "...most significant change to the way we care for and improve the health of our people, in their communities, since the creation of the NHS" [@RN461].
 
-Evidence of benefits of integration - (not much!)
+One of the most important changes this legislation made was that funding for the designated integrated services were to be provided from a single budget. In  a report investigating future change to health and social care services in England, the Barker commision noted, "...moving to a single budget with a single commissioner is not a sufficient condition to tackle the myriad problems of integration that face health and social care. But we believe it is a necessary one" [@RN460, pp.9].
 
+Integration is expected to ensure; better outcomes, more efficient use of resources, reduction in hospital and residential long term care use, a shift in care closer to people's homes, and avoidance of the consequences of fragmented & uncoordinated care [@RN252; @RN251; @RN234; @RN232; @RN455; @RN266]. However, despite streamlining of budgets, there remain significant barriers in achieving these aims [@RN252; @RN251]. 
+
+One of the key priniciples of the legislation is that health and social care is delivered under one of two models - the body corporate or lead agency model. The former sees the delegation of budgets from a health board and one or more local authorities to an Integrated Joint Board (IJB). This board is responsible for the delivery of care and develops a strategic plan for how services will be implemented [@RN455; @RN232; @RN366]. The IJB consists of representatives from the health board, local authority/authorities, health professionals, social work professionals, voluntary sector workers, unpaid carers, and service users [@RN252;@RN232]. The full extent of integrated services delegated to the IJB varies from area to area but as a minimum adult social care services, adult community health services, and some adult acute health services (particularly those that incur lots of emergency admissions) are delegated [@RN455; @RN252; @RN232; @RN366]. The IJB decides how the delegated budgets will best achieve the aims of the strategic plan for the area and directs the NHS board and local authority/authorities to provide services according to this plan[@RN252; @RN366]. 
+
+Under the lead agency model, a plan is made to divide the delivery of specific health and social care services to either the NHS board or a local authority [@RN455; @RN252; @RN232; @RN366]. Funding for these services is transferred between the health board and local authority as agreed in a delivery plan [@RN252; @RN366]. The Lead Agency plan between NHS Highland and Comhairle na Gàidhealtachd is the only one in place in Scotland - all other areas favouring the body corporate model [@RN455; @RN252; @RN232; @RN366]. Under this plan NHS Highland is responsible for the delivery of all adult health and social care services, whilst Comhairle na Gàidhealtachd takes responsibility for children's community health and social care services [@RN232; @RN366]. 
+
+Comparison of outcomes between the Highland partnership and all other IJBs will be of significant interest. One of the main aims of integration is to reduce unscheduled healthcare use, in particular unplanned admissions to hospital which can be indicator of a lack of social care support in an area [@RN455; @RN252; @RN251]. There are other key performance indicators that have been set nationally as way to audit the improvements (or lack of) made over time. These are focussed on outcomes on individuals and include self-report of health and wellbeing questions from surveys and statistics collected from routine data on service use [@RN465; @RN464; @RN366].  
+
+Early indicators suggest that Integration Authorities are still some way from making an impact on the delivery of services. In a report published immediately prior to IJBs taking control of services Audit Scotland [-@RN252] suggested that disagreements over budgets, poor workforce planning, difficult to understand governance arrangements, and poor planning around involvement of the charity and private sectors meant that little improvment was likely to be seen in 2016/17.  
 
 \subsection{Research on Health and Social Care Interaction}\label{subsec:research}
 
-Section discussing the few studies that have aimed to assess the interaction between health and social care services. 
+\epigraph{"There is tentative evidence that financial integration can be beneficial. However, robust evidence for improved health outcomes or cost savings is lacking"}{\textit{[Weatherly et al, 2010 pp. 3]}}
 
-Bardsley et al[-@RN183] a good starting point - also studies identified by mini lit search in 1st year review plus update.
+The large scale structural change in health and social care services seen in Scotland and further afield is built on (as discussed in previous sections) the expectation that more efficient social care provision can help reduce unplanned health care use. Although intuative there is very little robust evidence to suggest this is the case [@RN366; @RN467; @RN369]. Much research has been conducted on the \textit{structural} elements of integration with little emphasis on \textit{outcomes} for service users [@RN141]. There has also been little attention paid to those who deliver front-line services, indeed, ".. a preoccupation with the process and mechanisms of joint working has diverted attention away from the central role played by the professions, who appear sceptical of the aims of these initiatives and distrustful of their professional colleagues" [@RN467, pp.12]. 
+
+The lack of evidence around outcomes may be partially due to the difficulty in collecting data that can measure the interaction between health and social cae services. The recent increase in use of administrative and routine data is perhaps beginning to improve this situation. A small number of studies have been published in the last decade using linked-administrative data to look specifically at interactions between services. 
+
+Porter et al [-@RN462], using Welsh data, reported that aggregate statistics of social care use and emergency admission to hospital showed no correlation. However, when analysing individual-level linked administrative data, those that received social care before an emeregency admission episode were more likely to have less subsequent admissions with shorter lengths of stay than those that received social care only after an admission. The study period covered six years of data for adults over the age of 65 from one geographic area of Wales. 
+
+Using data from four areas in England, Bardsley et al [-@RN183] found that older persons staying in residential care homes were less likely to use unplanned hospital services compared to those receiving social care at home. The study period was based over one year only and all those that died during the year were excluded form analysis which may have had some impact on results. Intensive social care delivered at home was associated with higher unplanned \textit{and} planned secondary care use. 
+
+In Sweden, Condelius et al [-@RN30] found that individuals using high amounts of community health \& social care services were also likely to use large amounts of emergency hospital services. This suggests community services may not reduce unplanned health care use. The study period focussed on hospital admissions over one year in the over-65 age group and found a small number of individuals with high multimorbidity had higher use of all primary healthcare, social care, and secondary care services compared to others with lower multimorbidity levels. 
+
+Differences in the systems of health and social care, data types, outcomes, and analysis techniques make it impossible to draw robust conclusions from these studies. They each demonstrate, however, that linking administrative data sources is a feasible option for this type of research and that these techniques may be able to improve understanding of the interaction between health and social care services.
 
 \subsection{Summary}\label{subsec:hsc-interaction-summary}
 
-Summary of literature presented in section \ref{sec:hsc-interaction}
+Public policy in Scotland has been edging towards greater integration of health and social care services since the devolved Scottish Parliament was set-up in 1997. A lack of progress in shifting care from secondary to community settings through policy alone prompted legislation to formalise the integration of these services - a law which came into effect on the 1st April 2016.
+
+Almost all areas of Scotland have opted to employ a body-corporate model of intergration where health boards and local authorities devolve responsibility and budgets to an Integrated Joint Board that sets local priorities and directs how services will be delivered. Early indications suggest IJBs have not yet overcome governance, budgetery, or workforce issues to make any improvements in nationally set outcome indicators. 
+
+Very little research has been conducted into the interaction of health and social care services at the user level. Most studies and reports focus on the structural implications of integrating care instead. Novel techniques involving the linkage of administrative data sources at the individual-level are a feasible way of filling the gap in knowledge about the interaction of these services and the impacts they have on service-users. 
+
 
 \section{Multimorbidity}\label{sec:mm}
 
