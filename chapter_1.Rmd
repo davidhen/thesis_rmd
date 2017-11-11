@@ -19,7 +19,27 @@ Important part of the funding to link administrative data sources in order to id
 
 (Need WHO policy outlines and other suitable high-level policy docs in this section)
 
+
+Many countries, including the United Kingdom (UK), have recently seen policies implemented that aim to integrate the provision of health and social care services [@RN234; @RN362; @RN262]. In addition to reducing variations in the provision of care across geographic areas, these policies hope to save public money by reducing unplanned admissions and delayed discharges from hospital whilst also improving the quality of services for individuals [@RN232; @RN266; @RN406].
+
+The World Health Organisation [-@RN320] cites relative inequalities in improvements of health and life expectancy, within and between countries, as justification for recommended structural change to healthcare [@RN320]. The paradigm shift in the method of service delivery is suggested in response to increasing long-term, chronic conditions forming the major burden of care worldwide. Integrating health and social care services and increasing primary care spend are cited as two potential ways of facilitating this shift in focus [@RN320].
+
+Policies introduced that facilitate integration of services have been implemented despite little evidence to suggest they will have the desired effect [@RN367; @RN369; @RN234; @RN233; @RN321; @RN362; @RN366; @RN260]. The continued drive to integrate services does, however, implicitly acknowledge that health and social care services are linked. How these services interact at the individual level and whether differing levels of provision in each service affects the other is not well understood [@RN361; @RN205; @RN406].
+
+Until recently many local authorities had attempted to protect front-line services, such as social care, from austerity cuts [@RN117]. However, given continued year-on-year reductions and a further 7.2% cut to local authority spending in 2016/2017 [@RN251], the ability to protect social care from reductions in spend becomes less likely. Decreased local government budgets across the UK and Scotland since 2010 have affected those living in the poorest areas hardest [@RN117; @RN235]. If social care budgets decrease further, the question of whether the most deprived areas will feel these cuts most is of grave importance.
+
+
+
+
 \section{Aims and Objectives}\label{sec:intro-aims-and-obs}
+
+Does an inverse *social* care law exist? i.e. Does the allocation of resources (via funding formulae) to Local Authorities negatively impact on those areas with higher need? 
+
+Furthermore, does access to social care vary across Local Authorities - is there a "postcode lottery" in terms of service provision i.e. does application of eligibility criteria depend on where you live?  
+
+Is multimorbidity status associated with levels of social care provided within *and* across local authorities? What is the best way to measure multimorbidity? Do clustering techniques offer a better understanding of this phenomenon?
+
+Important to understand how access to social care influences health care use and mortality - do those with multimorbidity and social care have different outcomes from those with multimorbidity and no social care?
 
 The thesis has both substantive and methodological aims. Substantively, it aims to contribute to the debate surrounding health and social care integration by looking specifically at a group that are likely to be regular users of both health and social care services, i.e. those with multimorbidity. Methodologically, the thesis aims to contribute to efforts to improve the exploitation of administrative data as a means to analyse public service performance and effectiveness. 
 

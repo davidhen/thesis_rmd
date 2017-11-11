@@ -2,46 +2,36 @@
 output: pdf_document
 ---
 
-\chapter{Renfrewshire Council Pilot Project}\label{ch:renfrew}
+\chapter{Methods}\label{ch:methods}
 
-\section{Introduction}\label{sec:renf-intro}
+\section{Cohort}\label{sec:cohort}
 
-Pilot project to get first look at social care data to determine structure and definitions. Main linkage project to use cross-sectional social care data - is this reflective of social care provision throughout the year? Also able to attach datazone and dmogrpahic variables - is there variation in amounts of care across these variables?
+Describe the cohort - why it was chosen. How it was constructed
 
-\subsection{Aims}\label{subsec:renfrew-aims}
+\section{Linkage process}\label{sec:linkage}
 
-* Describe variation in social care provision in Renfrewshire Council area by Age, Gender, and socioeconomic position.
-* Describe the temporal variation in levels of care within financial years
-* Assess the quality of social care data for research purposes. 
+Detail of linkage process with diagramme. In-depth detail here. 
 
-\subsection{Research Questions}\label{subsec:renfrew-qs}
+\section{Summary measures}\label{sec:summaries}
 
-\begin{enumerate}[noitemsep]
-\item Is there variation in the amount of social care delivered in the Renfrewshire Council area by Age, Gender, and Socioeconomic position?
-\item How does social care use vary within and across financial years 2006/07 - 2015/16?
-\end{enumerate}
+\subsection{Social Care Survey}\label{subsec:scs-summs}
 
-\section{Background}\label{sec:renf-back}
+Which variables were used and how summarised and cleaned (i.e. telecare as categorical etc.)
 
-Link to SCS and census methods. Any relevant lit of social care analysis (Not much). Funders interested in these questions etc. 
+with reference to chapter \ref{ch:renfrew} and measure of hours of social care
 
-\section{Methods}\label{sec:renf-methods}
+\subsection{Prescribing Information Service}\label{subsec:pis-summs}
 
-Link to approval process described in chapter \ref{ch:methods} section \ref{sec:methods-timeline}. Also link to use of safe haven described in section \ref{subsec:IG}. Re-mention ethics. 
+How PIS data was summarised and measures chosen
 
-Describe manipulation of variables to produce summary stats.
+\subsection{Demographic, geographic, and deaths information}\label{subsec:nrs-summs}
 
-Describe which methods used to summarise variation in care
+Which Local Authority? Which SIMD data?
 
-\section{Results}\label{sec:renf-results}
+\subsection{Unscheduled care measures}\label{subsec:usc-summs}
 
-Tables and grpahs of results with description
+How was usc data wrangled? Which summary measures were chosen?
 
-\section{Discussion}\label{sec:renf-discuss}
+\section{Statistical methods}
 
-Implications - particular focus on variation in care throughout the year and whether care provided in a census week is a robust measure for research purposes (based on Renfrew results)
-
-Limitations - One council only. Different collection and reporting methods across LAs etc etc. 
-
-\section{Conclusion}\label{sec:renf-conc}
-
+Which summary and model statisitics were used to answer research questions. 

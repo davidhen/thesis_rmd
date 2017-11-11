@@ -6,13 +6,14 @@ output: pdf_document
 
 \section{Introduction}\label{sec:lit-review-intro}
 
-**Introductory paragraph with link from Thesis introduction - also may require explanation of lack of structured lit search**
+This chapter identifies and summarises academic and policy literature relevant to the thesis. Literature regarding a) access to social care, b) health and social care interaction, and c) multimorbidity is presented. As the main research is conducted with Scottish data, there is appropriate focus in the stuctures and policies regarding health and social care in this country. However, this is placed in the wider context of the UK and developed world. 
 
-Many countries, including the United Kingdom (UK), have recently seen policies implemented that aim to integrate the provision of health and social care services [@RN234; @RN362; @RN262]. In addition to reducing variations in the provision of care across geographic areas, these policies hope to save public money by reducing unplanned admissions and delayed discharges from hospital whilst also improving the quality of services for individuals [@RN232; @RN266; @RN406]. The World Health Organisation [-@RN320] cites relative inequalities in improvements of health and life expectancy, within and between countries, as justification for recommended structural change to healthcare. The main recommendation is for governmental policy to shift healthcare focus from acute hospital care to outpatient and community care [@RN320]. The paradigm shift in the method of service delivery is suggested in response to increasing long-term, chronic conditions forming the major burden of care worldwide. Acute secondary care is expensive, thus the shift in care also reflects the need to find affordable models of healthcare in an age of diminishing budgets worldwide [@RN320]. Integrating health and social care services and increasing primary care spend are cited as two potential ways of facilitating this shift in focus [@RN320]. Policies introduced that facilitate integration of services have been implemented despite little evidence to suggest they will have the desired effect [@RN367; @RN369; @RN234; @RN233; @RN321; @RN362; @RN366; @RN260]. The continued drive to integrate services does, however, implicitly acknowledge that health and social care services are linked. How these services interact at the individual level and whether differing levels of provision in each service affects the other is not well understood [@RN361; @RN205; @RN406].
+The chapter is organised in three parts following the main themes listed above. Section \ref{sec:access-sc} focuses on social care from a number of perspectives; varying definitions of the term, differing international models, social theory of eligibility and resource allocation, and finally the impact on health inequalities. 
 
-Until recently many local authorities had attempted to protect front-line services, such as social care, from austerity cuts [@RN117]. However, given continued year-on-year reductions and a further 7.2% cut to local authority spending in 2016/2017 [@RN251], the ability to protect social care from reductions in spend becomes less likely. Decreased local government budgets across the UK and Scotland since 2010 have affected those living in the poorest areas hardest [@RN117; @RN235]. If social care budgets decrease further, the question of whether the most deprived areas will feel these cuts most is of grave importance.
+Section \ref{sec:hsc-interaction} outlines the policy framework regarding health and social care services, how these services are funded and delivered, and why they are linked. It then describes the legislation that made health and social care integration law in Scotland before reviewing empirical evidence of the nature of the interaction between health and social care services.
 
-The overall aim of the PhD project is to empirically explore these issues. This chapter will specifically review literature regarding the three main themes outlined above namely; social care, the interaction of health and social care services, and  multimorbidity. Section \ref{sec:access-sc} reviews definitions, international models, and variation in access to social care. Section \ref{sec:hsc-interaction} outlines the policy framework regarding health and social care services, how these services are funded and delivered, and why they are linked. It then describes the legislation that made health and social care integration law in Scotland before reviewing empirical evidence of the nature of the interaction between health and social care services. Finally, Section \ref{sec:mm} describes why multimorbidity is important in the context of health and social care integration and then provides an overview of academic literature and policy documents regarding multimorbidity and its definitions, measurement, and epidemiology.
+Section \ref{sec:mm} describes why multimorbidity is important in the context of health and social care integration and then provides an overview of academic literature and policy documents regarding multimorbidity and its definitions, measurement, and epidemiology.
+
 
 \section{Access to Social Care}\label{sec:access-sc}
 
@@ -54,14 +55,14 @@ A more clearly defined concept is that of *personal care* which has been provide
 
 Personal care is, however, only one aspect of social care provision and clear definitions of other services provided to individuals are lacking. Nevertheless, the definitions of social (or long-term) care above all highlight services that are required to aid with an individual's functional or cognitive needs.
 
-A final defnition provided by Colombo et al[-@RN414] will be used for the purposes of this thesis,
-\begin{quotation}
+A final defnition provided by Colombo et al[-@RN414] will be used for the purposes of this thesis:- 
+
 \begin{enumerate}[noitemsep, label={\alph*)}]
 \item a group of services such as; skilled nursing care, social work, personal care, medical equipement \& technologies, and therapies. Delivered by,   
 \item a range of  professionals such as; nurses, low-skilled carers, or allied health professionals. In,  
-\item various locations such as; at home, in an institution, or via community care."
+\item various locations such as; at home, in an institution, or via community care.
 \end{enumerate}
-\end{quotation}
+
   
 This defintion clearly captures the broad range of services that can be associated with social care that are only partially provided in other definitions. It acknowledges that social care can include an number of components including personal, nursing care and help with other domestic activities, and articulates the variety of settings where this can take place. Whilst is is common in Europe to  describe "Long-term care" in relation to these services, this thesis will refer to "social care" as this is the most commonnly used term in the UK. Furthermore, unless stated otherwise, reference to social care in this thesis will be with regards to care received by adults over the age of 65. 
 
@@ -71,7 +72,7 @@ There are four ways in which social care can be provided to those in need; infor
 
 In a report for the OECD, Colombo et al [-@RN414] categorised the varying models of social care into three main groups with subdivisions as shown in Table \ref{tab:oecd-soc-care}. 
 
-\begin{table}[]
+\begin{table}[h]
   \centering
   \caption{Models of social care in OECD countries adapted from Colombo et al (2011)}
   \label{tab:oecd-soc-care}
@@ -121,16 +122,14 @@ Disadvantages of universal systems are that they, generally, are more expensive 
 
 A recent examination of the effects of the 2008 financial crisis on the way social care is delivered across Europe suggests that the distinctions between social care models is beginning to blur [@RN343]. There is evidence those with more comprehensive coverage are reducing levels of care whilst those with less coverage are increasing provision [@RN414]. 
 
-\begin{figure}
+\begin{figure}[h]
   \centering
   \caption{Older recipients of long-term care services as a share of the over 65 population, 2008}
   \label{fig:oecd-comparison}
     \includegraphics[width=0.8\textwidth]{figures/oecd-comparison.PNG}
 \end{figure}
 
-
 Given the marked variations in how social care is funded and delivered across countries, it may be expected that there are also marked varations in levels of access and utilisation. Colombo et al [-@RN414] produced a chart (shown in figure \ref{fig:oecd-comparison}) derived from OECD data that shows the proportion of over 65s receiving some form of social care across countries for which data is provided. The chart shows that having a universal or mixed system of social care provision (as described above) does not absolutely influence the number of people receiving care. For example, South Korea employs a universal (insurance-based) system and has one of the lowest proportions of older people receiving care, whereas Swizerland has one of the highest whilst employing a mixed system involving some universal and some means-tested benefits. This suggests that allocation of resources and eligibility criteria set within countries are likely to be more important in determining access to social care than any particular system of care delivery. 
-
 
 \subsection{Access to Social Care - Social Theory of Eligibility}\label{subsubsec:eligibility-theory}
 
@@ -297,8 +296,6 @@ There have been many critiques of other theories proposed in the last 35 years w
 
 \subsection{Summary}\label{subsec:access-sc-summary}
 
-**Either here or at the very end of the chapter??**
-
 There is no agreed standard definition of social care, a term often used synonomously is long-term care. The boundry between what is health care and what is social care is often blurry. The definition chosen for this thesis provided by Colombo et al [@RN414] encapsulates the wide number of services that make-up social care including nursing, personal, equipment, and technological. The definition also identifies that social care can be provided not only at home, but also in institutions or other community settings. 
 
 Three broad models of social care are seen internationally; universal, mixed, and means-tested schemes. Within each of these models there are many different methods of delivery across countries and no easy comparison can be made identifying differences in outcomes across countries. It does appear that universal systems spread the risk of the costs of social care more equitably among the popoulations where it is employed. Importantly, every model of social care involves some user-contribution towards costs. 
@@ -372,9 +369,12 @@ Early indicators suggest that Integration Authorities are still some way from ma
 
 \epigraph{"There is tentative evidence that financial integration can be beneficial. However, robust evidence for improved health outcomes or cost savings is lacking"}{\textit{[Weatherly et al, 2010 pp. 3]}}
 
-The large scale structural change in health and social care services seen in Scotland and further afield is built on (as discussed in previous sections) the expectation that more efficient social care provision can help reduce unplanned health care use. Although intuative there is very little robust evidence to suggest this is the case [@RN366; @RN467; @RN369]. Much research has been conducted on the \textit{structural} elements of integration with little emphasis on \textit{outcomes} for service users [@RN141]. There has also been little attention paid to those who deliver front-line services, indeed, ".. a preoccupation with the process and mechanisms of joint working has diverted attention away from the central role played by the professions, who appear sceptical of the aims of these initiatives and distrustful of their professional colleagues" [@RN467, pp.12]. 
+The large scale structural change in health and social care services seen in Scotland and further afield is built on (as discussed in previous sections) the expectation that more efficient social care provision can help reduce unplanned health care use. Although intuative there is very little robust evidence to suggest this is the case [@RN367; @RN234; @RN233; @RN231; @RN362; @RN260; @RN366; @RN467; @RN369].
 
-The lack of evidence around outcomes may be partially due to the difficulty in collecting data that can measure the interaction between health and social cae services. The recent increase in use of administrative and routine data is perhaps beginning to improve this situation. A small number of studies have been published in the last decade using linked-administrative data to look specifically at interactions between services. 
+Much research has been conducted on the \textit{structural} elements of integration with little emphasis on \textit{outcomes} for service users [@RN141]. There has also been little attention paid to those who deliver front-line services, indeed, ".. a preoccupation with the process and mechanisms of joint working has diverted attention away from the central role played by the professions, who appear sceptical of the aims of these initiatives and distrustful of their professional colleagues" [@RN467, pp.12]. 
+
+
+The lack of evidence around outcomes may be partially due to the difficulty in collecting data that can measure the interaction between health and social care services. A recent report for the OECD [-@RN406] highlighted the paucity of good data regarding social care, even in countries known to have good data resources. The report also suggests that use of routine adminsitrative data may be a useful tool in addressing this lack of evidence [@RN406]. A small number of studies have been published in the last decade using linked-administrative data to look specifically at interactions between health and social care services. 
 
 Porter et al [-@RN462], using Welsh data, reported that aggregate statistics of social care use and emergency admission to hospital showed no correlation. However, when analysing individual-level linked administrative data, those that received social care before an emeregency admission episode were more likely to have less subsequent admissions with shorter lengths of stay than those that received social care only after an admission. The study period covered six years of data for adults over the age of 65 from one geographic area of Wales. 
 
@@ -463,38 +463,42 @@ Multimorbidity is most commonly defined as the presence (or co-occurrence) of 2 
 
 \section{Conclusion}\label{sec:lit-review-conclusion}
 
-Conclusion of chapter \ref{ch:lit-review}
+Access to social care varies significantly internationally and is influenced in two main ways; allocation of resources to providers of social care, and how these providers distribute services within local areas. Eligibility criteria are the main means of how services are rationed. Demographic change has resulted in increasing demand on social care services at the same time as budgets in the UK and Scotland have been drastically cut. 
 
-Access to social care is influenced in 2 main ways - allocation of resources *to* providers and distribution of services *within* providers. Theory and evidence suggest inequitable access possible.
+In response, new models of sevice delivery have been sought by governments. In Scotland, the formal integation of health and social care services has been implemented with the dual aims of increasing efficiency and quality of service. Individuals with multimorbidity are high users of both health and social care and are likely to be able to benefit most if integration achieves its aims. 
 
-Major policy shift to integrate health and social care services internationally. One of main drivers increase in older population - services currently disjointed for this group. Two-thirds over 65s have multimorbidity and associated poorer outcomes - with social gradient. 
+Intuitively, social care can prevent unplanned used of unscheduled health care services but there is little evidence that suggests this is the case. Lack of data, particularly on social care, has made it difficult to understand the interaction bewteen these services. Routinely collected administrative data, along with new methods of linking records across sectors, mean there are possiblities to address this lack of evidence. One small study [@RN462] shows that linking individual-level health and social care data shows associations hidden in aggregate statistics. 
 
-Understanding how this population access social care, therefore, vitally important and under-researched.  
+Measuring multimorbidity is an inexact science with variarion in the methods and number of conditions used. Simple counts of diseases or medicines have been shown to be as an efficacious predictor of health care use as more complicated indices. Methods using statistical techniques to cluster regularly co-occuring health conditions may provide new insights into the social patterns of multimorbidity. 
 
-Does an inverse *social* care law exist? i.e. Does the allocation of resources (via funding formulae) to Local Authorities negatively impact on those areas with higher need? 
-
-Furthermore, does access to social care vary across Local Authorities - is there a "postcode lottery" in terms of service provision i.e. does application of eligibility criteria depend on where you live?  
-
-Is multimorbidity status associated with levels of social care provided within *and* across local authorities? What is the best way to measure multimorbidity? Do clustering techniques offer a better understanding of this phenomenon?
-
-Important to understand how access to social care influences health care use and mortality - do those with multimorbidity and social care have different outcomes from those with multimorbidity and no social care?
-
-Research questions:- 
+These broad issues inform the background of this thesis. Funding for the PhD was provided by the Scottish Government with the specific intention of exploring the possibilities of linking routinely held health and social care data to address these issues. Based on the aims and objectives described in chpater \ref{ch:intro} and the literature reviwed in this chapter the following research questions have been formulated:- 
 
 In people over the age of 65 in Scotland:
 
-1.	a.	What are the socioeconomic, demographic, and geographic patterns in the use of social care? 
-    b.	Is there an association between multimorbidity status and the amount and type of social care use over time? Does this vary by the patterns described in 1(a)?  
-    
-2.  a.	Is there an association in the use of social care services, multimorbidity status and unscheduled health care use?
-    b.	Do multimorbidity status and social care use predict mortality?
+1. 
+\begin{enumerate}[noitemsep]
+\item What are the socioeconomic, demographic, and geographic patterns in the use of social care? \item Is there an association between multimorbidity status and the amount and type of social care use over time? Does this vary by the patterns described in 1(a)?  
+\end{enumerate}
+2. 
+\begin{enumerate}[noitemsep]
+\item Is there an association in the use of social care services, multimorbidity status and unscheduled health care use?
+\item Do multimorbidity status and social care use predict mortality?
+\end{enumerate}
 
-Chapter 3 methods
-Chapter 4 MM Measure
-Chapter 5 Renfrew pilot
-Chapter 6 Research Q 1
-Chpater 7 Reserach Q 2
-Chapter 8 Conclusion
+\subsection{Thesis structure}\label{sec:lit-review-structure}
+
+Chapter \ref{ch:clustering} is a methodological chapter with the aim of identifying clinically meaningful clusters of health conditions from a nationally representative dataset. Given the wide approaches to measuring multimorbidity, identifying clusters of individuals with similar multimorbidity profiles could act as a useful control variable in analysis of outcomes.  The chapter investigates whether finite-mixture models can identify meanigful clusters from the dataset.  
+
+Chapter \ref{ch:data} discusses the institutions and infrastucture that enable data linkage to take place in Scotland. Each of the data sources used in the linkage is described in detail. This chapter also describes the complex information governance process involved with completing data linkage projects and how a "safe haven" environment is used for data analysis. 
+
+Chapter \ref{ch:methods} describes the methods employed to answer the above research questions. A rationale of how the study cohort was chosen is provided along with a description, for each data source, of the methodological techniques used to link to the cohort, the techniques used to clean data, and how summary measures were produced. Statistical methods used to answer each research question are also described. 
+
+Social care data for the main linkage project was obtained using the Social Care Survey published by the Scottish Government (as described in chapter \ref{ch:data}). This is cross-sectional data. In a short, stand-alone results chapter, chapter \ref{ch:renfrew} describes a pilot study based on 10 years of social care data from one Scottish local authority area - Renfrewshire council. The temporal variation in the amounts of home-care individuals received over this 10 year period is anlaysed to provided some validation of the measure of hours of home care used in the main linkage project.    
+
+Chapter \ref{ch:results} describes the results of anlayses related to each research question.
+
+Chapter \ref{ch:conclusion} summarises the thesis arguments and findings and places them in context.  
+
 
 
 

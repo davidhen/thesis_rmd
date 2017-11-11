@@ -2,20 +2,52 @@
 output: pdf_document
 ---
 
-\chapter{Linked Health and Social Care Data: Quality Assessment}\label{ch:quality}
+\chapter{Renfrewshire Council Pilot Project}\label{ch:renfrew}
 
-Results chapter describing quality of data (in particular SCS)
+\section{Background}\label{sec:renf-background}
 
-??????? Still going to include this??
+Pilot project to get first look at social care data to determine structure and definitions. Main linkage project to use cross-sectional social care data - \emph{is this reflective of social care provision throughout the year?} Also able to attach datazone and demogrpahic variables - is there variation in amounts of care across these variables? (potentially drop this second part)
 
-\section{Intro}\label{sec:qual-intro}
+\subsection{Aims}\label{subsec:renfrew-aims}
 
-\section{Background}\label{sec:qual-background}
+* Describe the temporal variation in levels of care within financial years
+* Describe variation in social care provision in Renfrewshire Council area by Age, Gender, and socioeconomic position. (potentially drop)
+* Assess the quality of social care data for research purposes (potentially drop)
 
-\section{Methods}\label{sec:qual-methods}
+\subsection{Research Questions}\label{subsec:renfrew-qs}
 
-\section{Results}\label{sec:qual-results}
+\begin{enumerate}[noitemsep]
+\item How does social care use vary within and across financial years 2006/07 - 2015/16?
+\item Is there variation in the amount of social care delivered in the Renfrewshire Council area by Age, Gender, and Socioeconomic position? (?drop)
+\end{enumerate}
 
-\section{Discussion}\label{sec:qual-discuss}
+\section{Methods}\label{sec:renf-methods}
 
-\section{Conclusion}\label{sec:qual-concl}
+Describe manipulation of variables to produce summary stats.
+
+Describe which methods used to summarise variation in care
+
+Link to RAC approval process described in chapter \ref{ch:data} section \ref{subsec:rac}. Also link to use of safe haven described in section \ref{sec:safe-haven}. Re-mention ethics. Note that PBPP not required fir this pilot 
+
+\section{Results}\label{sec:renf-results}
+
+Tables and graphs of results with description
+
+\begin{itemize}[noitemsep]
+\item Number of individuals
+\item Dropped records
+\item Per year breakdown of individuals
+\item Age - Gender - SIMD breakdown
+\item Mean hrs of homecare - median, range, interquartile range
+\item Average difference in hrs homecare (census week) and three previous quarters
+\item Average difference in hrs homecare (census week) and three following quarters
+\end{itemize}
+
+\section{Discussion}\label{sec:renf-discuss}
+
+Implications - particular focus on variation in care throughout the year and whether care provided in a census week is a robust measure for research purposes (based on Renfrew results)
+
+Limitations - One council only. Different collection and reporting methods across LAs etc etc. 
+
+\section{Conclusion}\label{sec:renf-conc}
+

@@ -2,43 +2,57 @@
 output: pdf_document
 ---
 
-\chapter{Access to social care}\label{ch:social-care}
+\chapter{Results}\label{ch:results}
 
-Results chapter for 1st research question
 
 \section{Introduction}\label{sec:social-care-intro}
 
-Link to chapter \ref{ch:lit-review} re access to social care. Linked dataset to assess national variation in social care provision
+Link to chapter \ref{ch:intro} and chapter \ref{ch:lit-review} re aims and research questions. Chapter \ref{ch:methods} for methods
 
-\subsection{Aims}\label{subsec:social-care-aims}
+\section{Data Linkage}\label{sec:res-linkage}
 
-\begin{itemize}[noitemsep]
-\item Assess how access to social care services varies for people with multimorbidity, especially by socioeconomic status.
-\end{itemize}
+Percent matches etc. 
 
-\subsection{Research questions}\label{subsec:social-care-rqs}
+\section{Characteristics of cohort}
 
-In people over the age of 65 in Scotland:-
-
-\begin{enumerate}[noitemsep]
-\item	What are the socioeconomic, demographic, and geographic patterns in the use of social care across Scotland? 
-\item Is there an association between multimorbidity status and the amount and type of social care use over time? Does this vary by the patterns described in question 1?
-\end{enumerate}
-
-\section{Background}\label{sec:social-care-background}
-
-Mention previous linkages of health and social care identified in section \ref{subsec:research}. 
-
-\section{Methods}\label{sec:social-care-methods}
+Long table
 
 \begin{itemize}[noitemsep]
-\item Link to chapter \ref{ch:methods}
-\item Describe social care variables
-\item Describe PIS variables and summaries
-\item Describe socioeconomic and geogrpahic sources
+\item n
+\item Age - mean, median, range IQR.
+\item Sex
+\item Local Authority
+\item SIMD
 \end{itemize}
 
-\section{Results}\label{sec:social-care-results}
+\section{Social care and multimorbidity}\label{sec:sc-mm}
+
+\begin{itemize}[noitemsep]
+\item Any SC by number of meds
+\item Hrs homecare by number of meds
+\item Telecare by number of meds
+\item etc.
+\end{itemize}
+
+\section{Geographic variation in social care}
+
+Accounting for MM
+
+\section{Social care, multimorbidity, and unscheduled health care use}
+
+\begin{itemize}[noitemsep]
+\item National picture
+\item broken down by LA
+\item broken down by HB
+\end{itemize}
+
+\section{Social Care, multimorbidity, and mortality}
+
+\begin{itemize}[noitemsep]
+\item National picture
+\item broken down by LA
+\item broken down by HB
+\end{itemize}
 
 \section{Discussion}\label{sec:social-care-discuss}
 
