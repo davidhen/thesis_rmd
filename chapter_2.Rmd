@@ -369,6 +369,9 @@ Early indicators suggest that integration authorities are still some way from ma
 
 \epigraph{"There is tentative evidence that financial integration can be beneficial. However, robust evidence for improved health outcomes or cost savings is lacking"}{\textit{[Weatherly et al, 2010 pp. 3]}}
 
+\textbf{Add in "Where is the NHS going wrong?" here}
+
+
 The large scale structural change in health and social care services seen in Scotland and further afield is built on (as discussed in previous sections) the expectation that more efficient social care provision can help reduce unplanned health care use. Although intuitive there is very little robust evidence to suggest this is the case [@RN367; @RN234; @RN233; @RN231; @RN362; @RN260; @RN366; @RN467; @RN369].
 
 Much research has been conducted on the \textit{structural} elements of integration with little emphasis on \textit{outcomes} for service users [@RN141]. There has also been little attention paid to those who deliver front-line services, indeed, ".. a preoccupation with the process and mechanisms of joint working has diverted attention away from the central role played by the professions, who appear sceptical of the aims of these initiatives and distrustful of their professional colleagues" [@RN467, pp.12]. 

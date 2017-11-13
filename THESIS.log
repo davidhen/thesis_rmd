@@ -1,19 +1,10 @@
-<<<<<<< HEAD
-This is pdfTeX, Version 3.14159265-2.6-1.40.18 (MiKTeX 2.9.6400 64-bit) (preloaded format=pdflatex 2017.9.20)  20 SEP 2017 18:12
-=======
-This is pdfTeX, Version 3.14159265-2.6-1.40.18 (MiKTeX 2.9.6400 64-bit) (preloaded format=pdflatex 2017.9.8)  12 NOV 2017 22:16
->>>>>>> 7c06a6aeb5cf60124c625bb8456869bcf9792e0c
+This is pdfTeX, Version 3.14159265-2.6-1.40.18 (MiKTeX 2.9.6400 64-bit) (preloaded format=pdflatex 2017.9.20)  13 NOV 2017 15:38
 entering extended mode
 **./THESIS.tex
 (THESIS.tex
 LaTeX2e <2017-04-15>
-<<<<<<< HEAD
 Babel <3.13> and hyphenation patterns for 75 language(s) loaded.
 (C:\MiKTeX\tex\latex\base\report.cls
-=======
-Babel <3.12> and hyphenation patterns for 75 language(s) loaded.
-(C:\MiXTeX\tex\latex\base\report.cls
->>>>>>> 7c06a6aeb5cf60124c625bb8456869bcf9792e0c
 Document Class: report 2014/09/29 v1.4h Standard LaTeX document class
 (C:\MiKTeX\tex\latex\base\size12.clo
 File: size12.clo 2014/09/29 v1.4h Standard LaTeX file (size option)
@@ -614,15 +605,9 @@ Package textcomp Info: Setting pplx sub-encoding to TS1/3 on input line 406.
 Package textcomp Info: Setting pplj sub-encoding to TS1/3 on input line 407.
 Package textcomp Info: Setting ptmx sub-encoding to TS1/4 on input line 408.
 Package textcomp Info: Setting ptmj sub-encoding to TS1/4 on input line 409.
-<<<<<<< HEAD
 )) (C:\MiKTeX\tex\latex\microtype\microtype.sty
 Package: microtype 2017/07/07 v2.7 Micro-typographical refinements (RS)
 (C:\MiKTeX\tex\latex\graphics\keyval.sty
-=======
-)) (C:\MiXTeX\tex\latex\microtype\microtype.sty
-Package: microtype 2017/07/07 v2.7 Micro-typographical refinements (RS)
-(C:\MiXTeX\tex\latex\graphics\keyval.sty
->>>>>>> 7c06a6aeb5cf60124c625bb8456869bcf9792e0c
 Package: keyval 2014/10/28 v1.15 key=value parser (DPC)
 \KV@toks@=\toks22
 )
@@ -632,26 +617,16 @@ LaTeX Info: Redefining \textls on input line 789.
 \MT@outer@kern=\dimen112
 LaTeX Info: Redefining \textmicrotypecontext on input line 1334.
 \MT@listname@count=\count101
-<<<<<<< HEAD
 (C:\MiKTeX\tex\latex\microtype\microtype-pdftex.def
-=======
-(C:\MiXTeX\tex\latex\microtype\microtype-pdftex.def
->>>>>>> 7c06a6aeb5cf60124c625bb8456869bcf9792e0c
 File: microtype-pdftex.def 2017/07/07 v2.7 Definitions specific to pdftex (RS)
 LaTeX Info: Redefining \lsstyle on input line 912.
 LaTeX Info: Redefining \lslig on input line 912.
 \MT@outer@space=\skip46
 )
 Package microtype Info: Loading configuration file microtype.cfg.
-<<<<<<< HEAD
 (C:\MiKTeX\tex\latex\microtype\microtype.cfg
 File: microtype.cfg 2017/07/07 v2.7 microtype main configuration file (RS)
 )) (C:\MiKTeX\tex\latex\geometry\geometry.sty
-=======
-(C:\MiXTeX\tex\latex\microtype\microtype.cfg
-File: microtype.cfg 2017/07/07 v2.7 microtype main configuration file (RS)
-)) (C:\MiXTeX\tex\latex\geometry\geometry.sty
->>>>>>> 7c06a6aeb5cf60124c625bb8456869bcf9792e0c
 Package: geometry 2010/09/12 v5.6 Page Geometry
 (C:\MiKTeX\tex\generic\oberdiek\ifpdf.sty
 Package: ifpdf 2017/03/15 v3.2 Provides the ifpdf switch
@@ -789,29 +764,17 @@ Package: natbib 2010/09/13 8.31b (PWD, AO)
 \bibsep=\skip49
 LaTeX Info: Redefining \cite on input line 694.
 \c@NAT@ctr=\count115
-<<<<<<< HEAD
 ) (C:\MiKTeX\tex\latex\graphics\graphicx.sty
 Package: graphicx 2017/06/01 v1.1a Enhanced LaTeX Graphics (DPC,SPQR)
 (C:\MiKTeX\tex\latex\graphics\graphics.sty
 Package: graphics 2017/06/25 v1.2c Standard LaTeX Graphics (DPC,SPQR)
 (C:\MiKTeX\tex\latex\graphics\trig.sty
-=======
-) (C:\MiXTeX\tex\latex\graphics\graphicx.sty
-Package: graphicx 2017/06/01 v1.1a Enhanced LaTeX Graphics (DPC,SPQR)
-(C:\MiXTeX\tex\latex\graphics\graphics.sty
-Package: graphics 2017/06/25 v1.2c Standard LaTeX Graphics (DPC,SPQR)
-(C:\MiXTeX\tex\latex\graphics\trig.sty
->>>>>>> 7c06a6aeb5cf60124c625bb8456869bcf9792e0c
 Package: trig 2016/01/03 v1.10 sin cos tan (DPC)
 ) (C:\MiKTeX\tex\latex\graphics-cfg\graphics.cfg
 File: graphics.cfg 2016/06/04 v1.11 sample graphics configuration
 )
 Package graphics Info: Driver file: pdftex.def on input line 99.
-<<<<<<< HEAD
 (C:\MiKTeX\tex\latex\graphics-def\pdftex.def
-=======
-(C:\MiXTeX\tex\latex\graphics-def\pdftex.def
->>>>>>> 7c06a6aeb5cf60124c625bb8456869bcf9792e0c
 File: pdftex.def 2017/06/24 v1.0g Graphics/color driver for pdftex
 ))
 \Gin@req@height=\dimen125
@@ -881,28 +844,20 @@ Package: booktabs 2005/04/14 v1.61803 publication quality tables
 \@thisruleclass=\count119
 \@lastruleclass=\count120
 \@thisrulewidth=\dimen146
-<<<<<<< HEAD
-) (C:\MiKTeX\tex\latex\enumitem\enumitem.sty
-=======
-) (C:\MiXTeX\tex\latex\epigraph\epigraph.sty
+) (C:\MiKTeX\tex\latex\epigraph\epigraph.sty
 Package: epigraph 2009/09/02 v1.5c typesetting epigraphs
 \beforeepigraphskip=\skip62
 \afterepigraphskip=\skip63
 \epigraphwidth=\skip64
 \epigraphrule=\skip65
-) (C:\MiXTeX\tex\latex\enumitem\enumitem.sty
->>>>>>> 7c06a6aeb5cf60124c625bb8456869bcf9792e0c
+) (C:\MiKTeX\tex\latex\enumitem\enumitem.sty
 Package: enumitem 2011/09/28 v3.5.2 Customized lists
 \labelindent=\skip66
 \enit@outerparindent=\dimen147
 \enit@toks=\toks25
 \enit@inbox=\box28
 \enitdp@description=\count121
-<<<<<<< HEAD
 ) (C:\MiKTeX\tex\latex\threeparttable\threeparttable.sty
-=======
-) (C:\MiXTeX\tex\latex\threeparttable\threeparttable.sty
->>>>>>> 7c06a6aeb5cf60124c625bb8456869bcf9792e0c
 Package: threeparttable 2003/06/13  v 3.0
 \@tempboxb=\box29
 ) (C:\MiKTeX\tex\latex\bigfoot\perpage.sty
@@ -931,23 +886,13 @@ LaTeX Font Info:    Try loading font information for TS1+cmr on input line 105.
 (C:\MiKTeX\tex\latex\base\ts1cmr.fd
 File: ts1cmr.fd 2014/09/29 v2.5h Standard LaTeX font definitions
 )
-<<<<<<< HEAD
-LaTeX Font Info:    ... okay on input line 104.
-LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 104.
-LaTeX Font Info:    ... okay on input line 104.
-LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 104.
-LaTeX Font Info:    ... okay on input line 104.
-LaTeX Font Info:    Try loading font information for T1+lmr on input line 104.
-(C:\MiKTeX\tex\latex\lm\t1lmr.fd
-=======
 LaTeX Font Info:    ... okay on input line 105.
 LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 105.
 LaTeX Font Info:    ... okay on input line 105.
 LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 105.
 LaTeX Font Info:    ... okay on input line 105.
 LaTeX Font Info:    Try loading font information for T1+lmr on input line 105.
-(C:\MiXTeX\tex\latex\lm\t1lmr.fd
->>>>>>> 7c06a6aeb5cf60124c625bb8456869bcf9792e0c
+(C:\MiKTeX\tex\latex\lm\t1lmr.fd
 File: t1lmr.fd 2009/10/30 v1.6 Font defs for Latin Modern
 )
 LaTeX Info: Redefining \microtypecontext on input line 105.
@@ -1008,13 +953,8 @@ Package color Info: Driver file: pdftex.def on input line 147.
 (C:\MiKTeX\tex\latex\graphics\dvipsnam.def
 File: dvipsnam.def 2016/06/17 v3.0m Driver-dependent file (DPC,SPQR)
 ))
-<<<<<<< HEAD
-Package hyperref Info: Link coloring ON on input line 104.
-(C:\MiKTeX\tex\latex\hyperref\nameref.sty
-=======
 Package hyperref Info: Link coloring ON on input line 105.
-(C:\MiXTeX\tex\latex\hyperref\nameref.sty
->>>>>>> 7c06a6aeb5cf60124c625bb8456869bcf9792e0c
+(C:\MiKTeX\tex\latex\hyperref\nameref.sty
 Package: nameref 2016/05/21 v2.44 Cross-referencing by name of section
 (C:\MiKTeX\tex\generic\oberdiek\gettitlestring.sty
 Package: gettitlestring 2016/05/16 v1.5 Cleanup title references (HO)
@@ -1182,20 +1122,6 @@ Overfull \hbox (22.1476pt too wide) in paragraph at lines 533--534
  [][] 
  []
 
-<<<<<<< HEAD
-[8] [9] [10]
-<figures/oecd-comparison.PNG, id=686, 471.63702pt x 325.5914pt>
-File: figures/oecd-comparison.PNG Graphic file (type png)
-<use figures/oecd-comparison.PNG>
-Package pdftex.def Info: figures/oecd-comparison.PNG  used on input line 626. o
-n input line 626.
-Package pdftex.def Info: Requested size: 352.68338pt x 243.47256pt on input lin
-e 626.
-[11] [12 <./figures/oecd-comparison.PNG>] [13] [14] [15] [16] [17] [18] [19]
-
-LaTeX Warning: Reference `subsec:access-sc-nat-variation' on page 20 undefined 
-on input line 991.
-=======
 [9] [10]
 LaTeX Font Info:    External font `lmex10' loaded for size
 (Font)              <10> on input line 601.
@@ -1216,189 +1142,134 @@ LaTeX Font Info:    External font `lmex10' loaded for size
 (Font)              <10.95> on input line 671.
 [13] [14] [15] [16] [17] [18] [19] [20] [21] [22] [23] [24] [25] [26] [27] [28]
 [29] [30] [31]
->>>>>>> 7c06a6aeb5cf60124c625bb8456869bcf9792e0c
 
 Package natbib Warning: Citation `RN231' on page 32 undefined on input line 146
-1.
+3.
 
 [32]
 
-Package natbib Warning: Citation `RN30' on page 33 undefined on input line 1501
+Package natbib Warning: Citation `RN30' on page 33 undefined on input line 1503
 .
 
-[33] [34] [35] [36] [37] [38] [39] [40] [41] [42]
+[33] [34] [35] [36] [37] [38] [39] [40] [41] [42] [43]
 
 Package Fancyhdr Warning: \fancyhead's `E' option without twoside option is use
-less on input line 1924.
+less on input line 1926.
 
 Chapter 3.
-[43
+[44
 
-] [44] [45] [46]
-Underfull \hbox (badness 10000) in paragraph at lines 2101--2105
+] [45] [46] [47]
+Underfull \hbox (badness 10000) in paragraph at lines 2103--2107
 
  []
 
-<<<<<<< HEAD
-[34]
-<figures/sd-corrplot.png, id=1290, 722.7pt x 578.16pt>
+[48]
+<figures/sd-corrplot.png, id=1831, 722.7pt x 578.16pt>
 File: figures/sd-corrplot.png Graphic file (type png)
 <use figures/sd-corrplot.png>
-Package pdftex.def Info: figures/sd-corrplot.png  used on input line 1590. on i
-nput line 1590.
+Package pdftex.def Info: figures/sd-corrplot.png  used on input line 2156. on i
+nput line 2156.
 Package pdftex.def Info: Requested size: 396.7584pt x 317.40672pt on input line
- 1590.
-=======
-[47]
-<figures/sd-corrplot.png, id=1829, 722.7pt x 578.16pt>
-File: figures/sd-corrplot.png Graphic file (type png)
-<use figures/sd-corrplot.png>
-Package pdftex.def Info: figures/sd-corrplot.png  used on input line 2154. on i
-nput line 2154.
-Package pdftex.def Info: Requested size: 396.7584pt x 317.40672pt on input line
- 2154.
->>>>>>> 7c06a6aeb5cf60124c625bb8456869bcf9792e0c
+ 2156.
 
 LaTeX Warning: No positions in optional float specifier.
-               Default added (so using `tbp') on input line 2171.
+               Default added (so using `tbp') on input line 2173.
 
 
 LaTeX Warning: No positions in optional float specifier.
-               Default added (so using `tbp') on input line 2235.
+               Default added (so using `tbp') on input line 2237.
 
-<<<<<<< HEAD
-[35] [36 <./figures/sd-corrplot.png>] [37]
-<figures/item-response.png, id=1311, 578.16pt x 722.7pt>
+[49] [50 <./figures/sd-corrplot.png>] [51]
+<figures/item-response.png, id=1853, 578.16pt x 722.7pt>
 File: figures/item-response.png Graphic file (type png)
 <use figures/item-response.png>
-Package pdftex.def Info: figures/item-response.png  used on input line 1716. on
- input line 1716.
+Package pdftex.def Info: figures/item-response.png  used on input line 2282. on
+ input line 2282.
 Package pdftex.def Info: Requested size: 396.76062pt x 495.95078pt on input lin
-e 1716.
-[38] [39 <./figures/item-response.png>]
-<figures/props.png, id=1322, 397.485pt x 433.62pt>
+e 2282.
+[52] [53 <./figures/item-response.png>]
+<figures/props.png, id=1864, 397.485pt x 433.62pt>
 File: figures/props.png Graphic file (type png)
 <use figures/props.png>
-Package pdftex.def Info: figures/props.png  used on input line 1772. on input l
-ine 1772.
+Package pdftex.def Info: figures/props.png  used on input line 2338. on input l
+ine 2338.
 Package pdftex.def Info: Requested size: 396.7744pt x 432.8448pt on input line 
-1772.
-<figures/lg-by-age.png, id=1324, 505.89pt x 289.08pt>
+2338.
+<figures/lg-by-age.png, id=1866, 505.89pt x 289.08pt>
 File: figures/lg-by-age.png Graphic file (type png)
 <use figures/lg-by-age.png>
-Package pdftex.def Info: figures/lg-by-age.png  used on input line 1791. on inp
-ut line 1791.
+Package pdftex.def Info: figures/lg-by-age.png  used on input line 2357. on inp
+ut line 2357.
 Package pdftex.def Info: Requested size: 396.76942pt x 226.72539pt on input lin
-e 1791.
-<figures/lg-by-sex.png, id=1326, 505.89pt x 433.62pt>
+e 2357.
+<figures/lg-by-sex.png, id=1868, 505.89pt x 433.62pt>
 File: figures/lg-by-sex.png Graphic file (type png)
 <use figures/lg-by-sex.png>
-Package pdftex.def Info: figures/lg-by-sex.png  used on input line 1803. on inp
-ut line 1803.
+Package pdftex.def Info: figures/lg-by-sex.png  used on input line 2369. on inp
+ut line 2369.
 Package pdftex.def Info: Requested size: 396.76942pt x 340.08809pt on input lin
-e 1803.
-[40] [41 <./figures/props.png>]
-<figures/lg-by-dep.png, id=1338, 505.89pt x 433.62pt>
+e 2369.
+[54] [55 <./figures/props.png>]
+<figures/lg-by-dep.png, id=1879, 505.89pt x 433.62pt>
 File: figures/lg-by-dep.png Graphic file (type png)
 <use figures/lg-by-dep.png>
-Package pdftex.def Info: figures/lg-by-dep.png  used on input line 1816. on inp
-ut line 1816.
+Package pdftex.def Info: figures/lg-by-dep.png  used on input line 2382. on inp
+ut line 2382.
 Package pdftex.def Info: Requested size: 396.76942pt x 340.08809pt on input lin
-e 1816.
-[42 <./figures/lg-by-age.png>] [43 <./figures/lg-by-sex.png (PNG copy)>] [44 <.
-/figures/lg-by-dep.png>] [45] [46] [47] [48] [49]
-=======
-[48] [49 <./figures/sd-corrplot.png>] [50]
-<figures/item-response.png, id=1850, 578.16pt x 722.7pt>
-File: figures/item-response.png Graphic file (type png)
-<use figures/item-response.png>
-Package pdftex.def Info: figures/item-response.png  used on input line 2280. on
- input line 2280.
-Package pdftex.def Info: Requested size: 396.76062pt x 495.95078pt on input lin
-e 2280.
-[51] [52 <./figures/item-response.png>]
-<figures/props.png, id=1862, 397.485pt x 433.62pt>
-File: figures/props.png Graphic file (type png)
-<use figures/props.png>
-Package pdftex.def Info: figures/props.png  used on input line 2336. on input l
-ine 2336.
-Package pdftex.def Info: Requested size: 396.7744pt x 432.8448pt on input line 
-2336.
-<figures/lg-by-age.png, id=1864, 505.89pt x 289.08pt>
-File: figures/lg-by-age.png Graphic file (type png)
-<use figures/lg-by-age.png>
-Package pdftex.def Info: figures/lg-by-age.png  used on input line 2355. on inp
-ut line 2355.
-Package pdftex.def Info: Requested size: 396.76942pt x 226.72539pt on input lin
-e 2355.
-<figures/lg-by-sex.png, id=1866, 505.89pt x 433.62pt>
-File: figures/lg-by-sex.png Graphic file (type png)
-<use figures/lg-by-sex.png>
-Package pdftex.def Info: figures/lg-by-sex.png  used on input line 2367. on inp
-ut line 2367.
-Package pdftex.def Info: Requested size: 396.76942pt x 340.08809pt on input lin
-e 2367.
-[53] [54 <./figures/props.png>]
-<figures/lg-by-dep.png, id=1877, 505.89pt x 433.62pt>
-File: figures/lg-by-dep.png Graphic file (type png)
-<use figures/lg-by-dep.png>
-Package pdftex.def Info: figures/lg-by-dep.png  used on input line 2380. on inp
-ut line 2380.
-Package pdftex.def Info: Requested size: 396.76942pt x 340.08809pt on input lin
-e 2380.
-[55 <./figures/lg-by-age.png>] [56 <./figures/lg-by-sex.png (PNG copy)>] [57 <.
-/figures/lg-by-dep.png>] [58] [59] [60] [61] [62]
+e 2382.
+[56 <./figures/lg-by-age.png>] [57 <./figures/lg-by-sex.png (PNG copy)>] [58 <.
+/figures/lg-by-dep.png>] [59] [60] [61] [62] [63]
 
 Package Fancyhdr Warning: \fancyhead's `E' option without twoside option is use
-less on input line 2563.
+less on input line 2565.
 
 Chapter 4.
-[63
+[64
 
-] [64] [65]
->>>>>>> 7c06a6aeb5cf60124c625bb8456869bcf9792e0c
+] [65] [66]
 
 Package Fancyhdr Warning: \fancyhead's `E' option without twoside option is use
-less on input line 2632.
+less on input line 2634.
 
 Chapter 5.
-[66
+[67
 
-] [67]
+] [68]
 
 Package Fancyhdr Warning: \fancyhead's `E' option without twoside option is use
-less on input line 2673.
+less on input line 2675.
 
 Chapter 6.
-[68
+[69
 
-] [69]
+] [70]
 
 Package Fancyhdr Warning: \fancyhead's `E' option without twoside option is use
-less on input line 2747.
+less on input line 2749.
 
 Chapter 7.
-[70
+[71
 
-] [71]
+] [72]
 
 Package Fancyhdr Warning: \fancyhead's `E' option without twoside option is use
-less on input line 2809.
+less on input line 2811.
 
 Chapter 8.
-[72
-
-]
-
-Package Fancyhdr Warning: \fancyhead's `E' option without twoside option is use
-less on input line 2824.
-
-Appendix A.
 [73
 
 ]
-Appendix B.
+
+Package Fancyhdr Warning: \fancyhead's `E' option without twoside option is use
+less on input line 2826.
+
+Appendix A.
 [74
+
+]
+Appendix B.
+[75
 
 ] (THESIS.bbl
 Underfull \hbox (badness 2126) in paragraph at lines 31--37
@@ -1436,7 +1307,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 31--37
 le % 20of % 20Social %
  []
 
-[75
+[76
 
 
 ]
@@ -1457,7 +1328,7 @@ Underfull \hbox (badness 4168) in paragraph at lines 76--81
 loads / docs / report / 2016 / nr _ 160310 _
  []
 
-[76]
+[77]
 Underfull \hbox (badness 10000) in paragraph at lines 178--184
 []\T1/lmr/m/n/12 (+20) David Buck and David Maguire.  In-equal-i-ties in life e
 x-
@@ -1499,7 +1370,7 @@ Underfull \hbox (badness 2547) in paragraph at lines 193--199
 / / www . parliament . scot /
  []
 
-[77]
+[78]
 Underfull \hbox (badness 7963) in paragraph at lines 238--243
 []\T1/lmr/m/n/12 (+20) CfWI.  In-depth re-view of the gen-eral prac-ti-cioner w
 ork-force.  Re-
@@ -1517,13 +1388,13 @@ Underfull \hbox (badness 1178) in paragraph at lines 245--250
 l care: op-tions for
  []
 
-[78]
+[79]
 Underfull \hbox (badness 10000) in paragraph at lines 311--319
 \T1/lmr/m/n/12 (+20) 1468-[]4446 . 2000 . 00281 . x / asset / j . 1468-[]4446 .
  2000 . 00281 . x . pdf ? v = 1 & t = ihfcdbp2 & s =
  []
 
-[79]
+[80]
 Underfull \hbox (badness 1242) in paragraph at lines 408--416
 []\T1/lmr/m/n/12 (+20) Tony Evans.  Pro-fes-sion-als, man-agers and dis-cre-tio
 n: Cri-tiquing street-level
@@ -1535,7 +1406,7 @@ Underfull \hbox (badness 2941) in paragraph at lines 408--416
  of So-cial Work\T1/lmr/m/n/12 (+20) , 41(2):368--386, 2010.
  []
 
-[80] [81]
+[81] [82]
 Underfull \hbox (badness 2744) in paragraph at lines 528--536
 \T1/lmr/m/n/12 (+20) co-mor-bid-ity: a re-view.  \T1/lmr/m/it/12 (+20) Jour-nal
  of clin-i-cal epi-demi-ol-ogy\T1/lmr/m/n/12 (+20) , 54(7):661--674,
@@ -1547,7 +1418,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 528--536
 1-[]11e5-[]8a3e-[]00000aacb35f &
  []
 
-[82]
+[83]
 Underfull \hbox (badness 3229) in paragraph at lines 571--578
 []\T1/lmr/m/n/12 (+20) Christopher Ham, Deirdre Anne Heenan, Mar-cus Lon-g-ley,
  and DR Steel.
@@ -1571,7 +1442,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 571--578
 eld / eld _ publication _ le /
  []
 
-[83]
+[84]
 Underfull \hbox (badness 1616) in paragraph at lines 651--656
 []\T1/lmr/m/n/12 (+20) R.; Humphries, R.; Thorlby, H.; Holder, P.; Hall, and A.
  Charles.  So-
@@ -1607,7 +1478,7 @@ Underfull \hbox (badness 3168) in paragraph at lines 659--669
 2):134--141, 2012.  ISSN 1544-1709.
  []
 
-[84]
+[85]
 Underfull \hbox (badness 3029) in paragraph at lines 740--752
 []\T1/lmr/m/n/12 (+20) Hal Kendig, Nicole Meal-ing, Rachel Carr, Sanja Lu-jic, 
 Julie Byles, and
@@ -1655,7 +1526,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 740--752
  x / asset / j . 1365-[]2524 . 2011 . 01040 . x . pdf ?
  []
 
-[85]
+[86]
 Underfull \hbox (badness 10000) in paragraph at lines 810--820
 \T1/lmr/m/n/12 (+20) 0-[]S0398762014006816-[]main . pdf ? _tid = 2c292592-[]6ec
 f-[]11e5-[]9c03-[]00000aab0f6b &
@@ -1679,19 +1550,19 @@ Underfull \hbox (badness 10000) in paragraph at lines 840--847
 & acdnat = 1490267333 _
  []
 
-[86]
+[87]
 Underfull \hbox (badness 10000) in paragraph at lines 906--914
 \T1/lmr/m/n/12 (+20) 0-[]S1568163711000249-[]main . pdf ? _tid = 2294b2-[]65e5
 -[]11e5-[]91c1-[]00000aab0f02 &
  []
 
-[87]
+[88]
 Underfull \hbox (badness 10000) in paragraph at lines 990--995
 \T1/lmr/m/n/12 (+20) documents / Additional / C-[]Community _ services _ for _ 
 persons _ with _ disabilities /
  []
 
-[88]
+[89]
 Overfull \hbox (13.9627pt too wide) in paragraph at lines 997--1003
 \T1/lmr/m/n/12 (-20) tackling-[]inequalities-[]in-[]life-[]expectancy-[]in-[]ar
 eas-[]with-[]the-[]worst-[]health-[]and-[]deprivation/$[][]. 
@@ -1709,7 +1580,7 @@ Underfull \hbox (badness 1383) in paragraph at lines 1064--1069
 h % 20state % 20life % 20expectancies ,[]
  []
 
-[89]
+[90]
 Underfull \hbox (badness 1014) in paragraph at lines 1088--1097
 []\T1/lmr/m/n/12 (+20) Anthony J Perkins, Kurt Kroenke, Jür-gen Unützer, Wayne 
 Ka-ton, John W
@@ -1745,7 +1616,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 1132--1138
 comes _ at _ the _ scottish _
  []
 
-[90]
+[91]
 Underfull \hbox (badness 10000) in paragraph at lines 1176--1181
 []\T1/lmr/m/n/12 (+20) Ruth Robert-son, Sarah Gre-gory, and Joni Jab-bal.  The 
 so-cial
@@ -1763,13 +1634,13 @@ Underfull \hbox (badness 10000) in paragraph at lines 1176--1181
 nity _ Assessment / 2014 /
  []
 
-[91]
+[92]
 Underfull \hbox (badness 10000) in paragraph at lines 1289--1294
 [][]$\T1/lmr/m/n/12 (+18) http : / / www . gov . scot / Topics / Health / Polic
 y / Adult-[]Health-[]SocialCare-[]Integration /
  []
 
-[92]
+[93]
 Underfull \hbox (badness 10000) in paragraph at lines 1334--1339
 \T1/lmr/m/n/12 (+20) Re-port, 2017b.  URL [][]$http : / / www . gov . scot / To
 pics / Health / Policy /
@@ -1787,7 +1658,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 1360--1369
 ww . plosone . org / article / fetchObject .
  []
 
-[93]
+[94]
 Underfull \hbox (badness 5274) in paragraph at lines 1402--1410
 []\T1/lmr/m/n/12 (+20) Ailsa Stew-art, Al-i-son Petch, and Lisa Cur-tice.  Mov-
 ing to-wards in-te-
@@ -1805,7 +1676,7 @@ Underfull \hbox (badness 3250) in paragraph at lines 1402--1410
 ocialcareinScotland :
  []
 
-[94]
+[95]
 Underfull \hbox (badness 3078) in paragraph at lines 1499--1504
 []\T1/lmr/m/n/12 (+20) Helen Weath-erly, Anne Ma-son, Maria God-dard, and K Wri
 ght.  Fi-nan-
@@ -1817,46 +1688,34 @@ Underfull \hbox (badness 1661) in paragraph at lines 1499--1504
 ence re-view.  Re-port,
  []
 
-[95])
+[96])
 
 Package natbib Warning: There were undefined citations.
 
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 2843.
-[96]
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 2843.
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 2845.
+[97]
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 2845.
 (THESIS.aux)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 2843.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 2843.
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 2845.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 2845.
 
 Package rerunfilecheck Info: File `THESIS.out' has not changed.
 (rerunfilecheck)             Checksum: 71732651E3F393FEAC975BD6D541F530;15096.
 
 LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right.
 
-Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 2843.
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 2845.
  ) 
 Here is how much of TeX's memory you used:
-<<<<<<< HEAD
- 15637 strings out of 493318
- 224452 string characters out of 3146773
- 349898 words of memory out of 3000000
- 18455 multiletter control sequences out of 15000+200000
- 75632 words of font info for 146 fonts, out of 3000000 for 9000
-=======
- 15984 strings out of 493318
- 228919 string characters out of 3146783
- 357693 words of memory out of 3000000
+ 15985 strings out of 493318
+ 228926 string characters out of 3146773
+ 357699 words of memory out of 3000000
  18680 multiletter control sequences out of 15000+200000
  87656 words of font info for 161 fonts, out of 3000000 for 9000
->>>>>>> 7c06a6aeb5cf60124c625bb8456869bcf9792e0c
  1141 hyphenation exceptions out of 8191
  36i,17n,43p,771b,785s stack positions out of 5000i,500n,10000p,200000b,50000s
 pdfTeX warning (dest): name{Hfootnote.1} has been referenced but does not exi
 st, replaced by a fixed one
-
-<<<<<<< HEAD
-pdfTeX warning (dest): name{Hfootnote.1} has been referenced but does not exist
-, replaced by a fixed one
 
 {C:/MiKTeX/fonts/enc/dvips/lm/lm-mathit.enc}{C:/MiKTeX/fonts/enc/dvips/lm/lm-rm
 .enc}{C:/MiKTeX/fonts/enc/dvips/lm/lm-ec.enc}{C:/MiKTeX/fonts/enc/dvips/lm/lm-t
@@ -1864,21 +1723,11 @@ s1.enc}<C:/MiKTeX/fonts/type1/public/lm/lmbx12.pfb><C:/MiKTeX/fonts/type1/publi
 c/lm/lmmi12.pfb><C:/MiKTeX/fonts/type1/public/lm/lmr10.pfb><C:/MiKTeX/fonts/typ
 e1/public/lm/lmr12.pfb><C:/MiKTeX/fonts/type1/public/lm/lmr17.pfb><C:/MiKTeX/fo
 nts/type1/public/lm/lmr7.pfb><C:/MiKTeX/fonts/type1/public/lm/lmr8.pfb><C:/MiKT
-eX/fonts/type1/public/lm/lmri12.pfb>
-Output written on THESIS.pdf (83 pages, 951841 bytes).
-=======
-{C:/MiXTeX/fonts/enc/dvips/lm/lm-mathit.enc}{C:/MiXTeX/fonts/enc/dvips/lm/lm-rm
-.enc}{C:/MiXTeX/fonts/enc/dvips/lm/lm-ec.enc}{C:/MiXTeX/fonts/enc/dvips/lm/lm-t
-s1.enc}<C:/MiXTeX/fonts/type1/public/lm/lmbx12.pfb><C:/MiXTeX/fonts/type1/publi
-c/lm/lmmi12.pfb><C:/MiXTeX/fonts/type1/public/lm/lmr10.pfb><C:/MiXTeX/fonts/typ
-e1/public/lm/lmr12.pfb><C:/MiXTeX/fonts/type1/public/lm/lmr17.pfb><C:/MiXTeX/fo
-nts/type1/public/lm/lmr7.pfb><C:/MiXTeX/fonts/type1/public/lm/lmr8.pfb><C:/MiXT
-eX/fonts/type1/public/lm/lmri10.pfb><C:/MiXTeX/fonts/type1/public/lm/lmri12.pfb
+eX/fonts/type1/public/lm/lmri10.pfb><C:/MiKTeX/fonts/type1/public/lm/lmri12.pfb
 >
-Output written on THESIS.pdf (106 pages, 1128226 bytes).
->>>>>>> 7c06a6aeb5cf60124c625bb8456869bcf9792e0c
+Output written on THESIS.pdf (107 pages, 1128730 bytes).
 PDF statistics:
- 2481 PDF objects out of 2487 (max. 8388607)
- 424 named destinations out of 1000 (max. 500000)
+ 2483 PDF objects out of 2487 (max. 8388607)
+ 425 named destinations out of 1000 (max. 500000)
  19236 words of extra memory for PDF output out of 20736 (max. 10000000)
 
