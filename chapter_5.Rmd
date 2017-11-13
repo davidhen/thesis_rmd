@@ -2,8 +2,36 @@
 output: pdf_document
 ---
 
-\chapter{Linked Health and Social Care Data: Quality Assessment}\label{ch:quality}
+\chapter{Methods}\label{ch:methods}
 
-Results chapter describing quality of data (in particular SCS)
+\section{Cohort}\label{sec:cohort}
 
-One of main objectives of PhD
+Describe the cohort - why it was chosen. How it was constructed
+
+\section{Linkage process}\label{sec:linkage}
+
+Detail of linkage process with diagramme. In-depth detail here. 
+
+\section{Summary measures}\label{sec:summaries}
+
+\subsection{Social Care Survey}\label{subsec:scs-summs}
+
+Which variables were used and how summarised and cleaned (i.e. telecare as categorical etc.)
+
+with reference to chapter \ref{ch:renfrew} and measure of hours of social care
+
+\subsection{Prescribing Information Service}\label{subsec:pis-summs}
+
+How PIS data was summarised and measures chosen
+
+\subsection{Demographic, geographic, and deaths information}\label{subsec:nrs-summs}
+
+Which Local Authority? Which SIMD data?
+
+\subsection{Unscheduled care measures}\label{subsec:usc-summs}
+
+How was usc data wrangled? Which summary measures were chosen?
+
+\section{Statistical methods}
+
+Which summary and model statisitics were used to answer research questions. 
