@@ -4,12 +4,15 @@ output: pdf_document
 
 \chapter{Data}\label{ch:data}
 
-\section{Infrastructure}\label{sec:infrastructure}
+\epigraph{Record linkage refers to a merging that brings together information from two or more sources of data with the object of consolidating facts concerning an individual or an event that are not available in any separate record.}{\textit{[OECD, 2006]}}
 
-\begin{itemize}[noitemsep]
-\item Describe record linkage
-\item Overview of Scottish linkage
-\end{itemize}
+Administrative data is data that is generated when individuals use public services [@RN85; @RN352]. This data can describe the provision of a specific service or how that service was administerd [@RN85; @RN352]. As the above definition outlines, record linkage involves joining data about individuals from two or more administrative databases together [@RN279; @RN470] and is being increasingly used in social science research [@RN133; @RN276]. 
+
+There are two main methods of linking data from disparate sources; deterministic matching and probabilistic matching [@RN279; @RN470]. Where differing datasets possess common unique identifiers, determinsitic matching simply links data using this identifier. Probability matching methodology can be employed in the abscence of a common unique identifier [@RN279; @RN470]. Using this method, a probability of two records matching correctly in calculated based on how well the records match based on a set of common partial identifiers such as name, date-of-birth, or postcode [@RN279; @RN470]. 
+
+Scotland is home to some of the best administrative databases in the world [@RN85]. This is particularly due to the high-quality of health datasets that have been collected and maintained for over 40 years [@RN85; @RN470]. Whilst linkage of differing health datasets has become common over this period, new cross-sectoral linkages are beginning to emerge such as health and educational data [@RN471], and health and social care data [@RN132]. These cross-sectoral linkages are providing new insights that have the potential to have lasting impact on policy and provision of services [@RN85; @RN133]. 
+
+\section{Infrastructure}\label{sec:infrastructure}
 
 \subsection{Urban Big Data Centre}\label{subsec:ubdc}
 
@@ -43,6 +46,9 @@ Describe PIS
 Describe USC data mart
 
 \section{Information Governance}\label{sec:ig}
+
+Use ADRN legal issues book
+Also use SG priniciples for DL
 
 \subsection{Research Approvals Commitee}\label{subsec:rac}
 
