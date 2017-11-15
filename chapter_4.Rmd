@@ -16,7 +16,7 @@ Scotland is home to some of the best administrative databases in the world [@RN8
 
 \subsection{Urban Big Data Centre}\label{subsec:ubdc}
 
-Describe UBDC (one of three - ADRN and Farr also)
+Funding for this PhD was provided by the Scottish Government and the Economic \& Social Research Council (ESRC). The bid for funding was won by the Urban Big Data Centre (UBDC) which is based within the University of Glasgow. UBDC as an organisation is also funded by the ESRC and brings together data scientists and social scientists with research interests relevant to urban living such as; housing, transport, migration, and health [@RN472]. UBDC has six partner universities; Edinburgh, Bristol, Cambridge, Reading, Sheffield, and Illinois-Chicago. It is also one of three UK research institutions that offer help for researchers using linked administrative data - the others being; The Administrative Data Research Network (ADRN) and the Farr Institute. 
 
 \subsection{NHS National Services Scotland}\label{subsec:edris}
 
