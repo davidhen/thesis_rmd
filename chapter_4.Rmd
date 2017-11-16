@@ -16,11 +16,13 @@ Scotland is home to some of the best administrative databases in the world [@RN8
 
 \subsection{Urban Big Data Centre}\label{subsec:ubdc}
 
-Funding for this PhD was provided by the Scottish Government and the Economic \& Social Research Council (ESRC). The bid for funding was won by the Urban Big Data Centre (UBDC) which is based within the University of Glasgow. UBDC as an organisation is also funded by the ESRC and brings together data scientists and social scientists with research interests relevant to urban living such as; housing, transport, migration, and health [@RN472]. UBDC has six partner universities; Edinburgh, Bristol, Cambridge, Reading, Sheffield, and Illinois-Chicago. It is also one of three UK research institutions that offer help for researchers using linked administrative data - the others being; The Administrative Data Research Network (ADRN) and the Farr Institute. The linkage project describe in this thesis was completed with the assistance of UBDC's controlled data service, which in turn liaises closely with the electronic Data and Research Innovation Service (eDRIS) provided by the Information Services Division of NHS National Services Scotland. 
+Funding for this PhD was provided by the Scottish Government and the Economic \& Social Research Council (ESRC). The bid for funding was won by the Urban Big Data Centre (UBDC) which is based within the University of Glasgow. UBDC as an organisation is also funded by the ESRC and brings together data scientists and social scientists with research interests relevant to urban living such as; housing, transport, migration, and health [@RN472]. UBDC has six partner universities; Edinburgh, Bristol, Cambridge, Reading, Sheffield, and Illinois-Chicago. It is also one of three UK research institutions that offer help for researchers using linked administrative data - the others being; The Administrative Data Research Network (ADRN) and the Farr Institute. 
 
-\subsection{Information Services Division}\label{subsec:edris}
+The linkage project describe in this thesis was completed with the assistance of UBDC's controlled data service which in turn liaises closely with the electronic Data and Research Innovation Service (eDRIS), provided by the Information Services Division (ISD) of NHS National Services Scotland (NSS). *More on controlled data plus ref to \ref{subsec:rac}
 
-The Information Services Division (ISD) is part of NHS National Services Scotland (NSS) [@RN324]. NSS is a national NHS Board in its own right and works with the other NHS Boards, particularly the 14 geographic health boards, to provide centralised services such as; procurement, legal support, IT, and public health intelligence [@RN473]. As a division of NSS, ISD provides services and support for IT and public health intelligence [@RN324]. The linkage project described in this thesis was 
+\subsection{electronic Data and Research Innovation Service (eDRIS)}\label{subsec:edris}
+
+ISD is a subdivision of NHS NSS [@RN324]. NSS is a national NHS Board in its own right and works with the other NHS Boards, particularly the 14 geographic health boards, to provide centralised services such as; procurement, legal support, IT, and public health intelligence [@RN473]. As a division of NSS, ISD provides, among other things, services and support for IT and public health intelligence [@RN324]. eDRIS is part of ISD and is detailed specifically with assisting research using health administrative datasets. Researchers using the eDRIS service have a named research assistant who provides advice on; data sources, study design, the information governance approvals system (described in section \ref{subsec:pbpp}), access to the safe haven environoment (described in section \ref{subsec:safe-haven}), and review of analysis outputs to ensure disclosive information cannot be inferred [@RN324]. 
 
 \subsection{Analytic Services Division}\label{subsec:asd}
 
@@ -69,7 +71,7 @@ College ethics and waivers
 
 DSA description
 
-\section{Safe Haven environment}\label{sec:safe-haven}
+\subsection{Safe Haven environment}\label{subsec:safe-haven}
 
 describe safe haven
 
