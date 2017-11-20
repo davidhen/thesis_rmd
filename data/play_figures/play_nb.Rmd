@@ -1,0 +1,49 @@
+---
+title: "Play figures"
+output: html_notebook
+---
+
+This is an [R Markdown](http://rmarkdown.rstudio.com) Notebook. When you execute code within the notebook, the results appear beneath the code. 
+
+Try executing this chunk by clicking the *Run* button within the chunk or by placing your cursor inside it and pressing *Ctrl+Shift+Enter*. 
+
+```{r library}
+library(dplyr)
+library(magrittr)
+library(ggplot2)
+library(cowplot)
+ubdc_palette <- c("#13AFD6", "#E6E600", "#F07329", "#35B14E", "#D7509A", "#2165AF",
+                  "#BCD032","#866BAC", "#545A5D",  "#7A8082", "#E2D988", "#628DB7",
+                  "#929B9A", "#93B8DA", "#31649B", "#FBF8D0", "#ACB2B4")
+knitr::opts_knit$set(root.dir = 'C:/GitHub/thesis_rmd/data/play_figures')
+```
+
+```{r}
+play_1 <- diamonds %>% ggplot(aes(cut, carat, fill = cut)) + geom_col() +
+  scale_fill_manual(values = ubdc_palette) + theme(legend.position = "none")
+play_1
+```
+
+```{r play_2}
+play_2 <- diamonds %>% ggplot(aes(clarity, carat, fill = cut)) + geom_col() +
+  scale_fill_manual(values = ubdc_palette) + theme(legend.position = "none")
+play_2
+```
+
+
+```{r play_cowplot}
+play_fig_1 <- plot_grid(play_1, play_2, ncol = 2)
+play_fig_1
+```
+
+```{r save}
+save_plot("play_fig_1.png", play_fig_1)
+```
+
+
+
+
+
+
+
+

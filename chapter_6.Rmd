@@ -31,17 +31,108 @@ Link to RAC approval process described in chapter \ref{ch:data} section \ref{sub
 
 \section{Results}\label{sec:renf-results}
 
-Tables and graphs of results with description
+There were \textit{n} number of individuals in receiving homecare 2006 - 2016
 
-\begin{itemize}[noitemsep]
-\item Number of individuals
-\item Dropped records
-\item Per year breakdown of individuals
-\item Age - Gender - SIMD breakdown
-\item Mean hrs of homecare - median, range, interquartile range
-\item Average difference in hrs homecare (census week) and three previous quarters
-\item Average difference in hrs homecare (census week) and three following quarters
-\end{itemize}
+\textit{n} individuals received more than 50 hrs of homecare per week during the 10 years representing \textit{n} packages of care. These are likely to be supported accomodation packages etc etc. (cut/paste from analysis re SCS return). These individuals were therefore dropped from analysis and all subsent results are based on \textit{n} number of individuasls with packages less than 50 hrs per week. 
+
+Figure \ref{fig:ren_1} shows the number of people receiving types of home care and number of people receiving care from different providers.
+
+\begin{figure}
+  \centering
+    \includegraphics{figures/play_fig_1.png}
+  \caption{Number of people receiving home care by type and provider}
+  \label{fig:ren_1}
+\end{figure}
+
+Table \ref{tab:renf_1} Shows descriptive statistics of care packages in the dataset
+
+\begin{table}[]
+\centering
+\caption{Care package descriptive statistics}
+\label{tab:renf_1}
+\resizebox{\textwidth}{!}{%
+\begin{tabular}{@{}lllllllll@{}}
+\toprule
+ & Min & Max & Mean & Standard Deviation & Range & 1st Quartile & 3rd Quartile & NA \\ \midrule
+Package hours &  &  &  &  &  &  &  &  \\
+Package Duration &  &  &  &  &  &  &  &  \\
+\begin{tabular}[c]{@{}l@{}}Total Hours per week\\ per individual\end{tabular} &  &  &  &  &  &  &  &  \\ \bottomrule
+\end{tabular}%
+}
+\end{table}
+
+
+Table \ref{tab:renf_2} shows the breakdown of individuals receiving home care by financial year with annual difference and percetage calculated
+
+
+\begin{table}[]
+\centering
+\caption{Home care by Financial year}
+\label{tab:renf_2}
+\begin{tabular}{@{}llll@{}}
+\toprule
+Financial Year & \begin{tabular}[c]{@{}l@{}}Number receiving\\ home care\end{tabular} & \begin{tabular}[c]{@{}l@{}}Difference from \\ previous year\end{tabular} & \begin{tabular}[c]{@{}l@{}}Percent change\\ \%\end{tabular} \\ \midrule
+2006/07 & 3138 & NA & NA \\
+2007/08 & 3052 & -86 & -2.74 \\
+2008/09 & 3033 & -19 & -0.62 \\
+2009/10 & 2905 & -128 & -4.22 \\
+2010/11 & 2412 & -493 & -16.97 \\
+2011/12 & 2265 & -147 & -6.1 \\
+2012/13 & 1952 & -313 & -13.82 \\
+2013/14 & 2289 & 337 & 17.26 \\
+2014/15 & 2327 & 38 & 1.67 \\
+2015/16 & 2299 & -28 & -1.20 \\ \bottomrule
+\end{tabular}
+\end{table}
+
+
+Time series created 6,138,451 observations of home care at weekly intervals. 
+
+There were \textit{n} number of continous care packages.
+
+\textit{n} number of people experienced a break in care during the study period.
+
+Figure \ref{fig:ren_2} plots the hours of home care for each individual over the 10 year period.
+
+\begin{figure}
+  \centering
+    \includegraphics{figures/gap_plot.png}
+  \caption{Temporal trend of care packages}
+  \label{fig:ren_2}
+\end{figure}
+
+
+Table \ref{tab:renf_3} shows the absolute number of individuals who had no change, an increase, or a decrease in home care hours for each financial year with average increase/decrease wih sd calculated. 
+
+\begin{table}[]
+\centering
+\caption{Change in home care hours by year}
+\label{tab:renf_3}
+\resizebox{\textwidth}{!}{%
+\begin{tabular}{@{}lllllll@{}}
+ & \begin{tabular}[c]{@{}l@{}}Total\\   N\end{tabular} & \begin{tabular}[c]{@{}l@{}}No change in hours\\          N(\%)\end{tabular} & \begin{tabular}[c]{@{}l@{}}Increase in hours\\       N(\%)\end{tabular} & \begin{tabular}[c]{@{}l@{}}Average increase in hours\\             mean(sd)\end{tabular} & \begin{tabular}[c]{@{}l@{}}Decrease in hours\\         N(\%)\end{tabular} & \begin{tabular}[c]{@{}l@{}}Average decrease in hours\\          mean(sd)\end{tabular} \\
+2006/07 &  &  &  &  &  &  \\
+2007/08 &  &  &  &  &  &  \\
+2008/09 &  &  &  &  &  &  \\
+2009/10 &  &  &  &  &  &  \\
+2010/11 &  &  &  &  &  &  \\
+2011/12 &  &  &  &  &  &  \\
+2012/13 &  &  &  &  &  &  \\
+2013/14 &  &  &  &  &  &  \\
+2014/15 &  &  &  &  &  &  \\
+2015/16 &  &  &  &  &  & 
+\end{tabular}
+}
+\end{table}
+
+Facet Plot Of Histogram with designated bins 40 for 20 hrs spread as in Figure \ref{fig:renf_3}. 
+
+\begin{figure}
+  \centering
+    \includegraphics{figures/gap_plot_2.png}
+  \caption{Histogram of difference in care package hours, by year}
+  \label{fig:renf_3}
+\end{figure}
 
 \section{Discussion}\label{sec:renf-discuss}
 
