@@ -388,6 +388,7 @@ Early indicators suggest that integration authorities are still some way from ma
 \epigraph{"There is tentative evidence that financial integration can be beneficial. However, robust evidence for improved health outcomes or cost savings is lacking"}{\textit{[Weatherly et al, 2010 pp. 3]}}
 
 \textbf{Add in "Where is the NHS going wrong?" here}
+\textbf{? also need to add in Witham et al} [@RN]
 
 
 The large scale structural change in health and social care services seen in Scotland and further afield is built on the expectation that more efficient social care provision can help reduce unplanned health care use. Although intuitive there is very little robust evidence to suggest this is the case [@RN367; @RN234; @RN233; @RN231; @RN362; @RN260; @RN366; @RN467; @RN369]. \textbf{clarify - refs predate Scottish integration - what were they measuring??}
