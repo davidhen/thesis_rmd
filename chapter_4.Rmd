@@ -14,19 +14,24 @@ Administrative data is data that is generated when individuals use a service of 
 
 There are two main methods of linking data from disparate sources; deterministic matching and probabilistic matching [@RN279; @RN470]. Where differing datasets possess common unique identifiers, determinsitic matching simply links data using this identifier. Probability matching methodology can be employed in the abscence of a common unique identifier [@RN279; @RN470]. Using this method, a probability of two records matching correctly in calculated based on how well the records match based on a set of common partial identifiers such as name, date-of-birth, and postcode [@RN279; @RN470].
 
-Outline how linkage process works - Separation of functions
+In order to preserve anonymity whilst linking administrative data from different agencies, a method known as "linkage using a separation of functions" is employed [@RN279; @RN85]. This process involves the use of a Trusted Third Party (TTP) to process non-anonymised information in order to link more than one dataset together. The TTP receives personal information (e.g. names, addresses and dates-of-birth) from the data controllers of the adminstrative datasets to be used and creates index "keys" to send back to the data controllers to attach to their data [@RN279; @RN85]. The TTP creates a lookup table of index "keys" relevant to each dataset and sends these to a linkage agent. The linkage agent receives data from the data controllers \textit{without} personal information and links them together using the "keys" created by the TTP and makes this available to a researcher in a secure envirnonment [@RN279; @RN85]. This process means the TTP receives lots of personal information but no other information, the researcher has access to information relevant to their study but no personal information, and the data controllers share information about individuals in their datasets without compromising anonymity [@RN479].
 
-Pros and Cons of admin data [@RN352]
+Pros and Cons of admin data 
+
+Table 1 in [@RN352] with backup from [@RN279; @RN133; @RN398]
+
+Talk more about match rates and false-positive links from [@RN279]. Use of gold-standard etc.
+
+And coding from [@RN398]
 
 Scotland is home to some of the best administrative databases in the world [@RN85]. This is particularly due to the high-quality of health datasets that have been collected and maintained for over 40 years [@RN85; @RN470]. Whilst linkage of differing health datasets has become common over this period, new cross-sectoral linkages are beginning to emerge such as health and educational data [@RN471], and health and social care data [@RN132]. These cross-sectoral linkages are providing new insights that have the potential to have lasting impact on policy and provision of services [@RN85; @RN133]. 
 
 \section{Infrastructure}\label{sec:infrastructure}
 
+\epigraph{The key test for an acronym is to ask whether it helps or hurts communication.}{\textit{Elon Musk}}
+
 \subsection{Scottish Informatics and Linkage Collaboration}\label{subsec:silc}
 
-
- (SILC)
-[@RN478]
 
 \subsection{Urban Big Data Centre}\label{subsec:ubdc}
 

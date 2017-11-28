@@ -26,6 +26,7 @@ header-includes:
 - \usepackage[flushleft]{threeparttable}
 - \usepackage{perpage}
 - \usepackage{hyperref}
+- \usepackage[toc,page]{appendix}
 - \usepackage[utf8]{inputenc}
 - \MakePerPage{footnote}
 - \onehalfspacing
@@ -107,34 +108,34 @@ knitr::opts_chunk$set(fig.path = 'figures/', echo = FALSE,
 
 \FloatBarrier
 \newpage
-\fancyhead[CO,CE]{Chapter 3. Methods}
+\fancyhead[CO,CE]{Chapter 3. Measuring Multimorbidity}
 
 ```{r child = 'chapter_3.Rmd'}
 ```
 
 \FloatBarrier
 \newpage
-\fancyhead[CO,CE]{Chapter 4. Measuring Multimorbidity}
+\fancyhead[CO,CE]{Chapter 4. Data}
 
 ```{r child = 'chapter_4.Rmd'}
 ```
 
 \FloatBarrier
 \newpage
-\fancyhead[CO,CE]{Chpater 5. Renfrewshire Council Pilot Project}
+\fancyhead[CO,CE]{Chpater 5. Methods}
 ```{r child = 'chapter_5.Rmd'}
 ```
 
 \FloatBarrier
 \newpage
-\fancyhead[CO,CE]{Chapter 6. Linked Data Quality Assessment}
+\fancyhead[CO,CE]{Chapter 6. Renfrewshire Council Pilot Project}
 
 ```{r child = 'chapter_6.Rmd'}
 ```
 
 \FloatBarrier
 \newpage
-\fancyhead[CO,CE]{Chapter 6. Access to Social Care}
+\fancyhead[CO,CE]{Chapter 7. Results}
 
 ```{r child = 'chapter_7.Rmd'}
 ```
@@ -142,7 +143,7 @@ knitr::opts_chunk$set(fig.path = 'figures/', echo = FALSE,
 
 \FloatBarrier
 \newpage
-\fancyhead[CO,CE]{Chapter 7. Social Care and Health Outcomes}
+\fancyhead[CO,CE]{Chapter 8. Conclusion}
 
 ```{r child = 'chapter_8.Rmd'}
 ```

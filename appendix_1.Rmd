@@ -2,13 +2,16 @@
 output: pdf_document
 ---
 
-\appendix
-\chapter{Title A}
+\begin{appendices}
 
-Testing, testing. One-two, one-two.
+\chapter*{Appendix A. Ethical Approval}
 
+\includegraphics[height=16cm,keepaspectratio]{data/college-ethics}
 
-\chapter{Title B}
+\chapter*{Appendix B. UBDC RAC approval}
 
-Let's see what this looks like
+\chapter*{Appendix C. PBPP approval}
+
+\end{appendices}
+
 
