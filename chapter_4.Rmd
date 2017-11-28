@@ -28,27 +28,27 @@ Scotland is home to some of the best administrative databases in the world [@RN8
 
 \subsection{Scottish Informatics and Linkage Collaboration}\label{subsec:silc}
 
+The Scottish Informatics and Linkage Collaboration (SILC) is an umbrella term for a number of support services that are available to individuals wishing to conduct research using linked administrative data [@RN478]. Services include computing resources (provided by the University of Edinburgh), research and project coordination advice (provided by the electronic Data Research and Innovation Service (eDRIS)), and an indexing service (provided by the National Records of Scotland (NRS)) [@RN478]. SILC currently has three partner institutions; the Adminstrative Data Research Centres, the Farr Institute, and the Urban Big Data Centre (UBDC) [@RN478].
 
 \subsection{Urban Big Data Centre}\label{subsec:ubdc}
 
-Funding for this PhD was provided by the Scottish Government and the Economic \& Social Research Council (ESRC). The bid for funding was won by the Urban Big Data Centre (UBDC) which is based within the University of Glasgow. UBDC as an organisation is also funded by the ESRC and brings together data scientists and social scientists with research interests relevant to urban living such as; housing, transport, migration, and health [@RN472]. UBDC has six partner universities; Edinburgh, Bristol, Cambridge, Reading, Sheffield, and Illinois-Chicago. It is also one of three UK partner research institutions that share infrastructure facilities offered by SILC. 
+Funding for this PhD was provided by the Scottish Government and the Economic \& Social Research Council (ESRC). The bid for funding was won by UBDC which is based within the University of Glasgow. UBDC as an organisation is also funded by the ESRC and brings together data scientists and social scientists with research interests relevant to urban living such as; housing, transport, migration, and health [@RN472]. UBDC has six partner universities; Edinburgh, Bristol, Cambridge, Reading, Sheffield, and Illinois-Chicago. 
 
-The linkage project described in this thesis was completed with the assistance of UBDC's controlled data service which helps researchers to access personal data that exists in administrative databases [@RN475]. In addition to  a vigorous approval process, access to data is tightly controlled via safe haven IT architecture which monitors use of data and output of analyses to ensure individual anonymity is maintained [@RN475] (this process is more fully explained in sections \ref{sec:ig}). UBDC arranges acces to the safe haven environment though liaison with the electronic Data and Research Innovation Service (eDRIS), provided by the Information Services Division (ISD) of NHS National Services Scotland (NSS). 
+The linkage project described in this thesis was completed with the assistance of UBDC's controlled data service. This service helps researchers to access personal data that exists in administrative databases [@RN475]. In addition to  a vigorous approval process, access to data is tightly controlled via safe haven IT architecture which monitors use of data and output of analyses to ensure individual anonymity is maintained [@RN475]. UBDC arranges acces to the safe haven environment though liaison with eDRIS, provided by the Information Services Division (ISD) of NHS National Services Scotland (NSS) under the auspices of SILC. 
 
 \subsection{electronic Data and Research Innovation Service (eDRIS)}\label{subsec:edris}
 
-ISD is a subdivision of NHS NSS [@RN324]. NSS is a national NHS Board in its own right and works with the other NHS Boards, particularly the 14 geographic health boards, to provide centralised services such as; procurement, legal support, IT, and public health intelligence [@RN473]. As a division of NSS, ISD provides, among other things, services and support for IT and public health intelligence [@RN324]. This includes administering the large number of databases containing information on health service use in Scotland varying from maternity \& births, to cancer sevices, and unscheduled health care [@RN324].
+ISD is a subdivision of NHS NSS [@RN324]. NSS is a national NHS board in its own right and works with the other NHS boards, particularly the 14 geographic health boards, to provide centralised services such as; procurement, legal support, IT, and public health intelligence [@RN473]. As a division of NSS, ISD provides, among other things, support for the latter two of these services [@RN324]. This includes administering the large number of databases containing information on health service use in Scotland varying from maternity \& births, to cancer sevices, and unscheduled health care [@RN324].
 
+eDRIS is part of ISD and provides services under SILC [@RN481]. It is detailed specifically with assisting research using health administrative datasets. Researchers using the eDRIS service have a named research assistant who provides advice on; data sources, study design, the information governance approvals system, access to the safe haven environoment, and review of analysis outputs to ensure disclosive information cannot be inferred [@RN324]. 
 
-eDRIS is part of ISD and is detailed specifically with assisting research using health administrative datasets. Researchers using the eDRIS service have a named research assistant who provides advice on; data sources, study design, the information governance approvals system, access to the safe haven environoment, and review of analysis outputs to ensure disclosive information cannot be inferred [@RN324]. 
+\subsection{National Records of Scotland}\label{subsec:nrs}
+
+NRS collects and maintains information about the people of Scotland including births, deaths, and marriages [@RN477]. In addition to producing annual reports and population estimates, NRS provides the indexing service under SILC which enables anonymous linking of administrative databases as a TTP. 
 
 \subsection{Health and Social Care Analysis}\label{subsec:asd}
 
 Health and Social Care Analysis (HSCA) is a division within the Socttish Government that provides statistic, economic, and research evidence to inform policy making in this area [@RN476]. It is one of many Analytical Service Divisions (ASD) that provide analytical support, advice, and briefing to the Government. HSCA creates reports and publications in a number of key areas including; social care, care homes, and mental health and is responsible for collecting and publishing the Social Care Survey (SCS) described in section \ref{sec:sources}
-
-\subsection{National Records of Scotland}\label{subsec:nrs}
-
-National Records of Scotland (NRS) collects and maintains information about the people of Scotland including births, deaths, and marriages [@RN477]. In addition to producing annual reports and population estimates, NRS provides a 
 
 \section{Data Sources}\label{sec:sources}
 

@@ -90,6 +90,7 @@ knitr::opts_chunk$set(fig.path = 'figures/', echo = FALSE,
 ```{r child = 'declaration.Rmd'}
 ```
 
+
 \newpage
 \pagenumbering{arabic}
 
