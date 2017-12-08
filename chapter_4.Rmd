@@ -18,7 +18,7 @@ Advantages of administrative databases are that they enable large, often populat
 
 There are two main methods of linking data from disparate sources; deterministic matching and probabilistic matching [@RN279; @RN470]. Where differing datasets possess common unique identifiers, determinsitic matching simply links data using this identifier. Probability matching methodology can be employed in the abscence of a common unique identifier [@RN279; @RN470]. Using this method, a probability of two records matching correctly is calculated based on how well the records match based on a set of common partial identifiers such as name, date-of-birth, and postcode [@RN279; @RN470]. An important consideration when using probabilistic linkage is making an assessment of false-positive match rates [@RN279; @RN470]. There are three main strategies to assist with this assessment; measuring error using "gold-standard" data (such as a validated external datasets), sensitivity analyses (comparing results across differing linkage parameters), and comparing linked and unlinked data according to characteristics (such as sociodemographic subgroups) [@RN279]. 
 
-In order to preserve anonymity whilst linking administrative data from different agencies, a method known as "linkage using a separation of functions" is employed [@RN279; @RN85]. This process involves the use of a Trusted Third Party (TTP) to process non-anonymised information in order to link more than one dataset together. The TTP receives personal information (e.g. names, addresses and dates-of-birth) from the data controllers of the adminstrative datasets to be used and creates index "keys" to send back to the data controllers to attach to their data [@RN279; @RN85]. The TTP creates a lookup table of index "keys" relevant to each dataset and sends these to a linkage agent. The linkage agent receives data from the data controllers \textit{without} personal information and links them together using the "keys" created by the TTP and makes this available to a researcher in a secure envirnonment [@RN279; @RN85]. This process means the TTP receives lots of personal information but no other information, the researcher has access to information relevant to their study but no personal information, and the data controllers share information about individuals in their datasets without compromising anonymity [@RN479].
+In order to preserve anonymity whilst linking administrative data from different agencies, a method known as "linkage using a separation of functions" is employed [@RN279; @RN85]. This process involves the use of a Trusted Third Party (TTP) to process non-anonymised information in order to link more than one dataset together. The TTP receives personal information (e.g. names, addresses and dates-of-birth) from the data controllers of the adminstrative datasets to be used and creates index "keys" to send back to the data controllers to attach to their data [@RN279; @RN85]. The TTP creates a lookup table of index "keys" relevant to each dataset and sends these to a linkage agent. The linkage agent receives data from the data controllers \textit{without} personal information and links them together using the "keys" created by the TTP and makes this available to a researcher in a secure envirnonment [@RN279; @RN85]. This process means the TTP receives lots of personal information but no other information, the researcher has access to information relevant to their study but no personal information, and the data controllers share information about individuals in their datasets without compromising anonymity and without seeing data from each others databases [@RN479].
 
 Scotland is home to some of the best administrative databases in the world [@RN85]. This is particularly due to the high-quality of health datasets that have been collected and maintained for over 40 years [@RN85; @RN470]. Whilst linkage of differing health datasets has become common over this period, new cross-sectoral linkages are beginning to emerge such as health and educational data [@RN471], and health and social care data [@RN132]. These cross-sectoral linkages are providing new insights that have the potential to have lasting impact on policy and provision of services [@RN85; @RN133]. 
 
@@ -28,7 +28,7 @@ Scotland is home to some of the best administrative databases in the world [@RN8
 
 \subsection{Scottish Informatics and Linkage Collaboration}\label{subsec:silc}
 
-The Scottish Informatics and Linkage Collaboration (SILC) is an umbrella term for a number of support services that are available to individuals wishing to conduct research using linked administrative data [@RN478]. Services include computing resources (provided by the University of Edinburgh), research and project coordination advice (provided by the electronic Data Research and Innovation Service (eDRIS)), and an indexing service (provided by the National Records of Scotland (NRS)) [@RN478]. SILC currently has three partner institutions; the Adminstrative Data Research Centres, the Farr Institute, and the Urban Big Data Centre (UBDC) [@RN478].
+The Scottish Informatics and Linkage Collaboration (SILC) is an umbrella term for a number of support services that are available to individuals wishing to conduct research using linked administrative data [@RN478]. Services include computing resources (provided by the University of Edinburgh), research and project coordination advice (provided by the electronic Data Research and Innovation Service (eDRIS)), and an indexing service (provided by the National Records of Scotland (NRS)) [@RN478]. SILC currently has three partner institutions; the Adminstrative Data Research Centres (ADRC), the Farr Institute, and the Urban Big Data Centre (UBDC) [@RN478].
 
 \subsection{Urban Big Data Centre}\label{subsec:ubdc}
 
@@ -36,7 +36,7 @@ Funding for this PhD was provided by the Scottish Government and the Economic \&
 
 The linkage project described in this thesis was completed with the assistance of UBDC's controlled data service. This service helps researchers to access personal data that exists in administrative databases [@RN475]. In addition to  a vigorous approval process, access to data is tightly controlled via safe haven IT architecture which monitors use of data and output of analyses to ensure individual anonymity is maintained [@RN475]. UBDC arranges acces to the safe haven environment though liaison with eDRIS, provided by the Information Services Division (ISD) of NHS National Services Scotland (NSS) under the auspices of SILC. 
 
-\subsection{electronic Data and Research Innovation Service (eDRIS)}\label{subsec:edris}
+\subsection{electronic Data and Research Innovation Service}\label{subsec:edris}
 
 ISD is a subdivision of NHS NSS [@RN324]. NSS is a national NHS board in its own right and works with the other NHS boards, particularly the 14 geographic health boards, to provide centralised services such as; procurement, legal support, IT, and public health intelligence [@RN473]. As a division of NSS, ISD provides, among other things, support for the latter two of these services [@RN324]. This includes administering the large number of databases containing information on health service use in Scotland varying from maternity \& births, to cancer sevices, and unscheduled health care [@RN324].
 
@@ -52,11 +52,17 @@ Health and Social Care Analysis (HSCA) is a division within the Socttish Governm
 
 \section{Data Sources}\label{sec:sources}
 
-[@RN352] Important to describe why and how data collected [@RN480]
+Research conducted with administrative data requires a thorough description of databases used [@RN480]. This should include a description of the purpose of the data collection and the methods employed to collect data. This enables appraisal of any  potential biases that may exist within the databases [@RN352; @RN480].
 
-\subsection{Social Care}\label{subsec:source-sc}
+Why collected? How collected? Data Quality checks?
 
-Descibe Social Care Survey
+\subsection{Social Care Survey}\label{subsec:source-sc}
+
+The Social Care Survey (SCS) is collected annualy by HSCA for the Scottish Government to provide descriptive statistics of the amounts of social care delivered by each of Scotland's 32 local authorities [@RN487]. Results are collated and published annualy by HSCA in the "Social Care Services, Scotland" report [@RN487]. As well as providing an overview of social care services, certain measures captured by the SCS are used in funding formulae to calculate allocation of resources to each local authority (e.g. number of people receiving home care) [@RN450]. 
+
+Early SCS from the 1980s collected aggregate information only. Since 2010 data has been collected at the individual-level. From 2010 - 2012 there were two relevant surveys - the Home Care Survey and the Direct Payments Survey. Since 2013 these have been combined to form the SCS [@RN488]. Some questions have remained constant throughout but there have also been some changes in definitions and measures. The most notable change in definition was that of hours of  "Home care services" which pre 2013 included 24-hour-7-day-a-week and live-in services but excludes these from 2013 onwards [@RN128]. These services are included under the measure of "Housing support services" in the more recent SCS [@RN488]. Plots of home care hours in the "Social Care Services, Scotland" report highlight the break in time series [@RN487]. 
+
+Information was collected on an individual basis for each Home Care client receiving home help services, meals services and community alarm / telecare services, as well as for clients receiving Direct Payments
 
 \subsection{Population Spine and Death records}
 
@@ -75,6 +81,7 @@ Describe USC data mart
 
 Use ADRN legal issues book
 Also use SG priniciples for DL
+Data linkage course material also. 
 
 \subsection{Research Approvals Commitee}\label{subsec:rac}
 

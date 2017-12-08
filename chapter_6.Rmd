@@ -31,9 +31,13 @@ Link to RAC approval process described in chapter \ref{ch:data} section \ref{sub
 
 \section{Results}\label{sec:renf-results}
 
-There were \textit{n} number of individuals in receiving homecare 2006 - 2016
-
 \textit{n} individuals received more than 50 hrs of homecare per week during the 10 years representing \textit{n} packages of care. These are likely to be supported accomodation packages etc etc. (cut/paste from analysis re SCS return). These individuals were therefore dropped from analysis and all subsent results are based on \textit{n} number of individuasls with packages less than 50 hrs per week. 
+
+\begin{itemize}[noitemsep]
+\item There were \textit{n} number of individuals in receiving homecare 2006 - 2016
+\end{itemize}
+
+
 
 Figure \ref{fig:ren_1} shows the number of people receiving types of home care and number of people receiving care from different providers.
 
