@@ -24,11 +24,9 @@ header-includes:
 - \usepackage{epigraph}
 - \usepackage[inline]{enumitem}
 - \usepackage[flushleft]{threeparttable}
-- \usepackage{perpage}
 - \usepackage{hyperref}
 - \usepackage[toc,page]{appendix}
 - \usepackage[utf8]{inputenc}
-- \MakePerPage{footnote}
 - \onehalfspacing
 ---
 

@@ -64,6 +64,9 @@ Early SCS from the 1980s collected aggregate information only. Since 2010 data h
 
 Information was collected on an individual basis for each Home Care client receiving home help services, meals services and community alarm / telecare services, as well as for clients receiving Direct Payments
 
+How can this be knitted when LaTeX has been removed??
+
+
 \subsection{Population Spine and Death records}
 
 via eDRIS or direct NRS?? - demography and geography also.
