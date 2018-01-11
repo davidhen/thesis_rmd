@@ -4,7 +4,22 @@ output: pdf_document
 
 \chapter{Renfrewshire Council Pilot Project}\label{ch:renfrew}
 
+\section{Introduction}\label{sec:renf-intro}
+
+As described in Chapter \ref{ch:data}, the Social Care Survey (SCS) is collected annually by the Scottish Government and provides a snapshot of individuals receiving social care in all 32 Scottish local authorities during a census week - usually including the date the 31st of March(ref). The cross-sectional nature of this data means it is impossible to identify every individual that receives social care in any given financial year. This has implications for research projects using the SCS and the statistical analyses that they can apply to the data. 
+
+In order to gain a better understanding of the data the SCS captures, and the data it does not, a pilot study was conducted to analyse social care data for indiviudals from one local authority only. This project aimed to analyse complete social care data for all individuals over a ten-year period to compare individuals receving care in the census week with individuals who receive care in the same financial year but would not have been captured by the SCS census.
+
+As social care data in Scotland has rarely been used for research purposes, this pilot project also offered the opportunity to assess the format, content, and suitability of the data from a research perspective. Ideally, data would be analysed from a number of local authorities for comparison however, as described below, aquiring sensitive data of this nature is a lenghty and complicated process relying heavily on the goodwill of the participating local authority. Despite early intentions to approach multiple local authorities practical considerations limited the pilot to data collected from Renfrewshire Council. 
+
 \section{Background}\label{sec:renf-background}
+
+\begin{itemize}[noitemsep]
+\item Describe Renfrewshire geography, social make up etc.
+\item Why chosen - easy
+\end{itemize}
+
+
 
 Pilot project to get first look at social care data to determine structure and definitions. Main linkage project to use cross-sectional social care data - \emph{is this reflective of social care provision throughout the year?} Also able to attach datazone and demogrpahic variables - is there variation in amounts of care across these variables? (potentially drop this second part)
 
@@ -23,6 +38,16 @@ Pilot project to get first look at social care data to determine structure and d
 
 \section{Methods}\label{sec:renf-methods}
 
+\subsection{Data collection}
+
+How renfrew collect
+How approached
+RAC
+Ethics
+DSA
+
+
+\subsection{Data}
 Describe manipulation of variables to produce summary stats.
 
 Describe which methods used to summarise variation in care
@@ -30,6 +55,8 @@ Describe which methods used to summarise variation in care
 Link to RAC approval process described in chapter \ref{ch:data} section \ref{subsec:rac}. Also link to use of safe haven described in section \ref{sec:safe-haven}. Re-mention ethics. Note that PBPP not required fir this pilot 
 
 \section{Results}\label{sec:renf-results}
+
+
 
 \textit{n} individuals received more than 50 hrs of homecare per week during the 10 years representing \textit{n} packages of care. These are likely to be supported accomodation packages etc etc. (cut/paste from analysis re SCS return). These individuals were therefore dropped from analysis and all subsent results are based on \textit{n} number of individuasls with packages less than 50 hrs per week. 
 
