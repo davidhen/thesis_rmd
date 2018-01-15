@@ -14,6 +14,9 @@ As social care data in Scotland has rarely been used for research purposes, this
 
 \section{Background}\label{sec:renf-background}
 
+Renfrewshire council area accounts for 3.2\% of the total population of Scotland and has a slightly larger proportion of individuals aged over 60 compared to the rest of the country (24.4\% v 24.2\%) [@RN492]. The mortality rate is also higher than recorded for the rest of Scotland (10.9\% v 10.3\%) with the main causes of death being cancer, circulatory diseases, and respiratory diseases [@RN492]. Life expectancy at birth is lower than the Scottish average in the Renfrewshire council area for both males and females (75.9 v 77.1 \& 80.6 v 81.1) [@RN492]. Sixty-three percent of dwellings in Renfrewshire fall into the lowest council tax bands A-C [@RN492] which is a higher than the ratio seen in the whole country (61\%) [@RN493]. Of all datazones in the Renfrewshire council area, 37.3\% fall into the most deprived 30\% of Scottish datazones - the ninth highest rate out of 32 local authorities [@RN494]. 
+
+
 \begin{itemize}[noitemsep]
 \item Describe Renfrewshire geography, social make up etc.
 \item Why chosen - easy
