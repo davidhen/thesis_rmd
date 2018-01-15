@@ -6,21 +6,21 @@ output: pdf_document
 
 \section{Introduction}\label{sec:renf-intro}
 
-As described in Chapter \ref{ch:data}, the Social Care Survey (SCS) is collected annually by the Scottish Government and provides a snapshot of individuals receiving social care in all 32 Scottish local authorities during a census week - usually including the date the 31st of March(ref). The cross-sectional nature of this data means it is impossible to identify every individual that receives social care in any given financial year. This has implications for research projects using the SCS and the statistical analyses that they can apply to the data. 
+As described in Chapter \ref{ch:data}, the Social Care Survey (SCS) is collected annually by the Scottish Government and provides a snapshot of individuals receiving social care in all 32 Scottish local authorities during a census week - usually including the date the 31st of March(ref). The cross-sectional nature of this data means it is impossible to identify every individual that receives social care in any given financial year. This has implications for research projects using the SCS and the statistical analyses that can be applied to SCS data when linked with other sources of information. 
 
-In order to gain a better understanding of the data the SCS captures, and the data it does not, a pilot study was conducted to analyse social care data for indiviudals from one local authority only. This project aimed to analyse complete social care data for all individuals over a ten-year period to compare individuals receving care in the census week with individuals who receive care in the same financial year but would not have been captured by the SCS census.
+In order to gain a better understanding of the data the SCS captures (and the data it does not) a pilot study was conducted to analyse social care data for indiviudals from one local authority only. This project aimed to analyse complete social care data for all individuals over a ten-year period to compare individuals receving care in the census week with individuals who receive care in the same financial year but would not have been captured by the SCS census.
 
 As social care data in Scotland has rarely been used for research purposes, this pilot project also offered the opportunity to assess the format, content, and suitability of the data from a research perspective. Ideally, data would be analysed from a number of local authorities for comparison however, as described below, aquiring sensitive data of this nature is a lenghty and complicated process relying heavily on the goodwill of the participating local authority. Despite early intentions to approach multiple local authorities practical considerations limited the pilot to data collected from Renfrewshire Council. 
 
 \section{Background}\label{sec:renf-background}
 
-Renfrewshire council area accounts for 3.2\% of the total population of Scotland and has a slightly larger proportion of individuals aged over 60 compared to the rest of the country (24.4\% v 24.2\%) [@RN492]. The mortality rate is also higher than recorded for the rest of Scotland (10.9\% v 10.3\%) with the main causes of death being cancer, circulatory diseases, and respiratory diseases [@RN492]. Life expectancy at birth is lower than the Scottish average in the Renfrewshire council area for both males and females (75.9 v 77.1 \& 80.6 v 81.1) [@RN492]. Sixty-three percent of dwellings in Renfrewshire fall into the lowest council tax bands A-C [@RN492] which is a higher than the ratio seen in the whole country (61\%) [@RN493]. Of all datazones in the Renfrewshire council area, 37.3\% fall into the most deprived 30\% of Scottish datazones - the ninth highest rate out of 32 local authorities [@RN494]. 
+The decision to approach Renfrewshire council as a potential pilot area was due to convenience given previous cooperation between the council and UBDC on other projects. Glasgow City council were also approached but preliminary discussions suggested that whilst the purpose of proposed research was supported, the council was unlikely to be able to provide sufficient resource to facilitate data sharing. Preliminary meetings with data analysts from Renfrewshire council confirmed that data could be provided to facilitate the proposed research and the formal process of obtaining data using UBDC's controlled data service was instigated in April 2016. 
+
+Renfrewshire council area accounts for 3.2\% of the total population of Scotland and has a slightly larger proportion of individuals aged over 60 compared to the rest of the country (24.4\% v 24.2\%) [@RN492]. The mortality rate is also higher than recorded for the rest of Scotland (10.9\% v 10.3\%) with the main causes of death being cancer, circulatory diseases, and respiratory diseases [@RN492]. Life expectancy at birth is lower than the Scottish average in the Renfrewshire council area for both males and females (75.9 v 77.1 \& 80.6 v 81.1) [@RN492]. Sixty-three percent of dwellings in Renfrewshire fall into the lowest council tax bands A-C [@RN492] which is a higher than the ratio seen in the whole country (61\%) [@RN493]. Of all datazones in the Renfrewshire council area, 37.3\% fall into the most deprived 30\% of Scottish datazones - the ninth highest rate out of 32 local authorities [@RN494]. Datazones in the Renfrewshire council area show marked differences in SIMD scores with some of the most and least deprived datazones in the whole of Scotland [@RN494]. 
 
 
-\begin{itemize}[noitemsep]
-\item Describe Renfrewshire geography, social make up etc.
-\item Why chosen - easy
-\end{itemize}
+
+The main aim of the pilot project was to 
 
 
 
@@ -41,7 +41,11 @@ Pilot project to get first look at social care data to determine structure and d
 
 \section{Methods}\label{sec:renf-methods}
 
-\subsection{Data collection}
+\subsection{Data}
+
+As with all services provided by Renfrewshire council, home care data is collected to ensure efficient mananagement of the service and as evidence of service provision [@RN495]. Recording of indivdual episodes of care also helps with budgetary management of the service. Data provided for the purposes of the pilot detailed information on; how many days per week, how many hours per day, who provided the service (e.g. local authority or independent provider), what type of home care was delivered (e.g. mainstream or reablement), a start date, and an end date for every episode of home care delivered between April 2006 and April 2017. As some episodes of home care were delivered over a period of time, data was provided for some packages where the care was first delivered as early as 2004 and as late as Summer 2017.  
+
+Data provided on home care services for individuals with variables identifying gender and year of birth was analysed for the purposes of the pilot. 
 
 How renfrew collect
 How approached
@@ -50,7 +54,7 @@ Ethics
 DSA
 
 
-\subsection{Data}
+\subsection{Analysis}
 Describe manipulation of variables to produce summary stats.
 
 Describe which methods used to summarise variation in care

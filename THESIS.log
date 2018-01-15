@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017/W32TeX) (preloaded format=pdflatex 2017.12.14)  15 JAN 2018 07:30
+This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017/W32TeX) (preloaded format=pdflatex 2017.12.14)  15 JAN 2018 16:36
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1330,43 +1330,43 @@ less on input line 2901.
 Chapter 6.
 [75
 
-] [76]
+] [76] [77]
 
-LaTeX Warning: Reference `sec:safe-haven' on page 77 undefined on input line 30
-01.
+LaTeX Warning: Reference `sec:safe-haven' on page 78 undefined on input line 30
+30.
 
-<figures/play_fig_1.png, id=2258, 317.988pt x 289.08pt>
+<figures/play_fig_1.png, id=2269, 317.988pt x 289.08pt>
 File: figures/play_fig_1.png Graphic file (type png)
 <use figures/play_fig_1.png>
-Package pdftex.def Info: figures/play_fig_1.png  used on input line 3022.
+Package pdftex.def Info: figures/play_fig_1.png  used on input line 3051.
 (pdftex.def)             Requested size: 318.00175pt x 289.09251pt.
 
 LaTeX Warning: No positions in optional float specifier.
-               Default added (so using `tbp') on input line 3030.
+               Default added (so using `tbp') on input line 3059.
 
-[77] [78 <./figures/play_fig_1.png (PNG copy)>]
 
 LaTeX Warning: No positions in optional float specifier.
-               Default added (so using `tbp') on input line 3048.
+               Default added (so using `tbp') on input line 3077.
 
-<figures/gap_plot.png, id=2272, 317.988pt x 289.08pt>
+<figures/gap_plot.png, id=2273, 317.988pt x 289.08pt>
 File: figures/gap_plot.png Graphic file (type png)
 <use figures/gap_plot.png>
-Package pdftex.def Info: figures/gap_plot.png  used on input line 3081.
+Package pdftex.def Info: figures/gap_plot.png  used on input line 3110.
 (pdftex.def)             Requested size: 318.00175pt x 289.09251pt.
+[78] [79 <./figures/play_fig_1.png (PNG copy)>]
 
 LaTeX Warning: No positions in optional float specifier.
-               Default added (so using `tbp') on input line 3090.
+               Default added (so using `tbp') on input line 3119.
 
-<figures/gap_plot_2.png, id=2275, 317.988pt x 289.08pt>
+<figures/gap_plot_2.png, id=2285, 317.988pt x 289.08pt>
 File: figures/gap_plot_2.png Graphic file (type png)
 <use figures/gap_plot_2.png>
-Package pdftex.def Info: figures/gap_plot_2.png  used on input line 3116.
+Package pdftex.def Info: figures/gap_plot_2.png  used on input line 3145.
 (pdftex.def)             Requested size: 318.00175pt x 289.09251pt.
-[79] [80 <./figures/gap_plot.png>] [81 <./figures/gap_plot_2.png>] [82]
+[80 <./figures/gap_plot.png>] [81 <./figures/gap_plot_2.png>] [82]
 
 Package Fancyhdr Warning: \fancyhead's `E' option without twoside option is use
-less on input line 3134.
+less on input line 3163.
 
 Chapter 7.
 [83
@@ -1374,7 +1374,7 @@ Chapter 7.
 ] [84]
 
 Package Fancyhdr Warning: \fancyhead's `E' option without twoside option is use
-less on input line 3196.
+less on input line 3225.
 
 Chapter 8.
 [85
@@ -1382,7 +1382,7 @@ Chapter 8.
 ]
 
 Package Fancyhdr Warning: \fancyhead's `E' option without twoside option is use
-less on input line 3211.
+less on input line 3240.
 
 [86
 
@@ -1391,10 +1391,10 @@ less on input line 3211.
 
 pdfTeX warning: pdflatex.exe (file ./data/college-ethics.pdf): PDF inclusion: f
 ound PDF version <1.7>, but at most version <1.5> allowed
-<data/college-ethics.pdf, id=2316, 597.55246pt x 845.07724pt>
+<data/college-ethics.pdf, id=2321, 597.55246pt x 845.07724pt>
 File: data/college-ethics.pdf Graphic file (type pdf)
 <use data/college-ethics.pdf>
-Package pdftex.def Info: data/college-ethics.pdf  used on input line 3217.
+Package pdftex.def Info: data/college-ethics.pdf  used on input line 3246.
 (pdftex.def)             Requested size: 321.8985pt x 455.23886pt.
 [87
 
@@ -1778,91 +1778,103 @@ comes _ at _ the _ scottish _
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 1267--1272
+Underfull \hbox (badness 1117) in paragraph at lines 1267--1272
+[]\T1/lmr/m/n/12 (+20) Renfrewshire-Council.  Cor-po-rate records man-age-ment 
+pol-icy.  Re-port, 2015.
+ []
+
+
+Underfull \hbox (badness 1082) in paragraph at lines 1267--1272
+\T1/lmr/m/n/12 (+20) URL [][]$http : / / www . renfrewshire . gov . uk / media 
+/ 2763 / Records-[]Management-[]Policy /
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 1274--1279
 []\T1/lmr/m/n/12 (+20) Ruth Robert-son, Sarah Gre-gory, and Joni Jab-bal.  The 
 so-cial
  []
 
 
-Underfull \hbox (badness 6412) in paragraph at lines 1267--1272
+Underfull \hbox (badness 6412) in paragraph at lines 1274--1279
 \T1/lmr/m/n/12 (+20) care and health sys-tems of nine coun-tries.  Re-port, 201
 4.  URL
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 1267--1272
+Underfull \hbox (badness 10000) in paragraph at lines 1274--1279
 [][]$\T1/lmr/m/n/12 (+20) http : / / www . commed . vcu . edu / IntroPH / Commu
 nity _ Assessment / 2014 /
  []
 
 [107] [108]
-Underfull \hbox (badness 10000) in paragraph at lines 1380--1385
+Underfull \hbox (badness 10000) in paragraph at lines 1387--1392
 [][]$\T1/lmr/m/n/12 (+18) http : / / www . gov . scot / Topics / Health / Polic
 y / Adult-[]Health-[]SocialCare-[]Integration /
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 1425--1430
+Underfull \hbox (badness 10000) in paragraph at lines 1432--1437
 \T1/lmr/m/n/12 (+20) Re-port, 2017b.  URL [][]$http : / / www . gov . scot / To
 pics / Health / Policy /
  []
 
 [109]
-Underfull \hbox (badness 2837) in paragraph at lines 1490--1499
+Underfull \hbox (badness 2837) in paragraph at lines 1497--1506
 []\T1/lmr/m/n/12 (+20) Judith Sin-nige, Joze Braspen-ning, Fran-cois Schelle-vi
 s, Irina Stirbu-Wagner,
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 1490--1499
+Underfull \hbox (badness 10000) in paragraph at lines 1497--1506
 [][]$\T1/lmr/m/n/12 (+20) <[]GotoISI>[] : / / WOS : 000327221600142http : / / w
 ww . plosone . org / article / fetchObject .
  []
 
 [110]
-Underfull \hbox (badness 5274) in paragraph at lines 1532--1540
+Underfull \hbox (badness 5274) in paragraph at lines 1539--1547
 []\T1/lmr/m/n/12 (+20) Ailsa Stew-art, Al-i-son Petch, and Lisa Cur-tice.  Mov-
 ing to-wards in-te-
  []
 
 
-Underfull \hbox (badness 1163) in paragraph at lines 1532--1540
+Underfull \hbox (badness 1163) in paragraph at lines 1539--1547
 \T1/lmr/m/n/12 (+20) grated work-ing in health and so-cial care in scot-land: f
 rom maze to ma-
  []
 
 
-Underfull \hbox (badness 3250) in paragraph at lines 1532--1540
+Underfull \hbox (badness 3250) in paragraph at lines 1539--1547
 \T1/lmr/m/n/12 (+20) 1820.  URL [][]$Movingtowardsintegratedworkinginhealthands
 ocialcareinScotland :
  []
 
 
-Underfull \hbox (badness 1360) in paragraph at lines 1551--1557
+Underfull \hbox (badness 1360) in paragraph at lines 1558--1564
 []\T1/lmr/m/n/12 (+20) Julian Tudor-Hart.  The in-verse care law.  \T1/lmr/m/it
 /12 (+20) The Lancet\T1/lmr/m/n/12 (+20) , 297(7696):405--412,
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 1575--1581
+Underfull \hbox (badness 10000) in paragraph at lines 1582--1588
 []\T1/lmr/m/n/12 (+20) UBDC.  Con-trolled data ser-vice guide for re-searchers 
 [last up-dated
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 1575--1581
+Underfull \hbox (badness 10000) in paragraph at lines 1582--1588
 \T1/lmr/m/n/12 (+20) 01.02.2017].  Re-port, 2017b.  URL [][]$http : / / ubdc . 
 ac . uk / media / 1445 /
  []
 
 [111]
-Underfull \hbox (badness 3078) in paragraph at lines 1664--1669
+Underfull \hbox (badness 3078) in paragraph at lines 1671--1676
 []\T1/lmr/m/n/12 (+20) Helen Weath-erly, Anne Ma-son, Maria God-dard, and K Wri
 ght.  Fi-nan-
  []
 
 
-Underfull \hbox (badness 1661) in paragraph at lines 1664--1669
+Underfull \hbox (badness 1661) in paragraph at lines 1671--1676
 \T1/lmr/m/n/12 (+20) cial in-te-gra-tion across health and so-cial care: ev-i-d
 ence re-view.  Re-port,
  []
@@ -1871,31 +1883,31 @@ ence re-view.  Re-port,
 
 Package natbib Warning: There were undefined citations.
 
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 3233.
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 3262.
 [113]
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 3233.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 3262.
 (./THESIS.aux)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 3233.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 3233.
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 3262.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 3262.
 
 Package rerunfilecheck Info: File `THESIS.out' has not changed.
-(rerunfilecheck)             Checksum: 88EA3E11EDE511A7223EB699C355ED87;16129.
+(rerunfilecheck)             Checksum: FCD0186FD6A68D3F29506E15861F3AA8;16091.
 
 LaTeX Warning: There were undefined references.
 
 
 LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right.
 
-Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 3233.
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 3262.
  ) 
 Here is how much of TeX's memory you used:
- 15876 strings out of 494926
- 235215 string characters out of 6179554
- 355442 words of memory out of 5000000
- 18293 multiletter control sequences out of 15000+600000
+ 15880 strings out of 494926
+ 235264 string characters out of 6179554
+ 355483 words of memory out of 5000000
+ 18296 multiletter control sequences out of 15000+600000
  87610 words of font info for 161 fonts, out of 8000000 for 9000
  14 hyphenation exceptions out of 8191
- 36i,17n,43p,771b,831s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 36i,17n,43p,771b,833s stack positions out of 5000i,500n,10000p,200000b,80000s
 pdfTeX warning (dest): name{Hfootnote.1} has been referenced but does not exi
 st, replaced by a fixed one
 
@@ -1913,10 +1925,10 @@ st/fonts/type1/public/lm/lmr7.pfb><c:/Users/hedgi/AppData/Roaming/TinyTeX/texmf
 -dist/fonts/type1/public/lm/lmr8.pfb><c:/Users/hedgi/AppData/Roaming/TinyTeX/te
 xmf-dist/fonts/type1/public/lm/lmri10.pfb><c:/Users/hedgi/AppData/Roaming/TinyT
 eX/texmf-dist/fonts/type1/public/lm/lmri12.pfb>
-Output written on THESIS.pdf (124 pages, 1335230 bytes).
+Output written on THESIS.pdf (124 pages, 1337378 bytes).
 PDF statistics:
- 2953 PDF objects out of 2984 (max. 8388607)
- 2755 compressed objects within 28 object streams
- 480 named destinations out of 1000 (max. 500000)
+ 2961 PDF objects out of 2984 (max. 8388607)
+ 2763 compressed objects within 28 object streams
+ 481 named destinations out of 1000 (max. 500000)
  19296 words of extra memory for PDF output out of 20736 (max. 10000000)
 
