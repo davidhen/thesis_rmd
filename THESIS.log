@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017/W32TeX) (preloaded format=pdflatex 2018.1.22)  23 JAN 2018 09:49
+This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017/W32TeX) (preloaded format=pdflatex 2018.1.22)  23 JAN 2018 15:55
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -999,7 +999,11 @@ Package: appendix 2009/09/02 v1.2b extra appendix facilities
 \c@@pps=\count126
 \c@@ppsavesec=\count127
 \c@@ppsaveapp=\count128
-) (./THESIS.aux)
+) (./THESIS.aux
+
+LaTeX Warning: Label `fig:renf-hrs' multiply defined.
+
+)
 \openout1 = `THESIS.aux'.
 
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 105.
@@ -1355,7 +1359,7 @@ Package Fancyhdr Warning: \headheight is too small (12.0pt):
  This may cause the page layout to be inconsistent, however.
 
 [11]
-<figures/oecd-comparison.PNG, id=904, 471.63702pt x 325.5914pt>
+<figures/oecd-comparison.PNG, id=912, 471.63702pt x 325.5914pt>
 File: figures/oecd-comparison.PNG Graphic file (type png)
 <use figures/oecd-comparison.PNG>
 Package pdftex.def Info: figures/oecd-comparison.PNG  used on input line 664.
@@ -1646,7 +1650,7 @@ Package Fancyhdr Warning: \headheight is too small (12.0pt):
  This may cause the page layout to be inconsistent, however.
 
 [49]
-<figures/sd-corrplot.png, id=1890, 722.7pt x 578.16pt>
+<figures/sd-corrplot.png, id=1898, 722.7pt x 578.16pt>
 File: figures/sd-corrplot.png Graphic file (type png)
 <use figures/sd-corrplot.png>
 Package pdftex.def Info: figures/sd-corrplot.png  used on input line 2191.
@@ -1680,7 +1684,7 @@ Package Fancyhdr Warning: \headheight is too small (12.0pt):
  This may cause the page layout to be inconsistent, however.
 
 [52]
-<figures/item-response.png, id=1912, 578.16pt x 722.7pt>
+<figures/item-response.png, id=1920, 578.16pt x 722.7pt>
 File: figures/item-response.png Graphic file (type png)
 <use figures/item-response.png>
 Package pdftex.def Info: figures/item-response.png  used on input line 2317.
@@ -1699,17 +1703,17 @@ Package Fancyhdr Warning: \headheight is too small (12.0pt):
  This may cause the page layout to be inconsistent, however.
 
 [54 <./figures/item-response.png>]
-<figures/props.png, id=1923, 397.485pt x 433.62pt>
+<figures/props.png, id=1931, 397.485pt x 433.62pt>
 File: figures/props.png Graphic file (type png)
 <use figures/props.png>
 Package pdftex.def Info: figures/props.png  used on input line 2373.
 (pdftex.def)             Requested size: 396.7744pt x 432.8448pt.
-<figures/lg-by-age.png, id=1925, 505.89pt x 289.08pt>
+<figures/lg-by-age.png, id=1933, 505.89pt x 289.08pt>
 File: figures/lg-by-age.png Graphic file (type png)
 <use figures/lg-by-age.png>
 Package pdftex.def Info: figures/lg-by-age.png  used on input line 2392.
 (pdftex.def)             Requested size: 396.76942pt x 226.72539pt.
-<figures/lg-by-sex.png, id=1927, 505.89pt x 433.62pt>
+<figures/lg-by-sex.png, id=1935, 505.89pt x 433.62pt>
 File: figures/lg-by-sex.png Graphic file (type png)
 <use figures/lg-by-sex.png>
 Package pdftex.def Info: figures/lg-by-sex.png  used on input line 2404.
@@ -1728,7 +1732,7 @@ Package Fancyhdr Warning: \headheight is too small (12.0pt):
  This may cause the page layout to be inconsistent, however.
 
 [56 <./figures/props.png>]
-<figures/lg-by-dep.png, id=1939, 505.89pt x 433.62pt>
+<figures/lg-by-dep.png, id=1947, 505.89pt x 433.62pt>
 File: figures/lg-by-dep.png Graphic file (type png)
 <use figures/lg-by-dep.png>
 Package pdftex.def Info: figures/lg-by-dep.png  used on input line 2417.
@@ -1890,15 +1894,11 @@ Package Fancyhdr Warning: \headheight is too small (12.0pt):
  This may cause the page layout to be inconsistent, however.
 
 [78]
-LaTeX Font Info:    Try loading font information for T1+lmtt on input line 3094
+LaTeX Font Info:    Try loading font information for T1+lmtt on input line 3099
 .
 (c:/Users/hedgi/AppData/Roaming/TinyTeX/texmf-dist/tex/latex/lm/t1lmtt.fd
 File: t1lmtt.fd 2009/10/30 v1.6 Font defs for Latin Modern
 )
-
-LaTeX Warning: Reference `sec:safe-haven' on page 79 undefined on input line 30
-98.
-
 
 Package Fancyhdr Warning: \headheight is too small (12.0pt): 
  Make it at least 14.49998pt.
@@ -1906,18 +1906,9 @@ Package Fancyhdr Warning: \headheight is too small (12.0pt):
  This may cause the page layout to be inconsistent, however.
 
 [79]
-<figures/play_fig_1.png, id=2299, 317.988pt x 289.08pt>
-File: figures/play_fig_1.png Graphic file (type png)
-<use figures/play_fig_1.png>
-Package pdftex.def Info: figures/play_fig_1.png  used on input line 3137.
-(pdftex.def)             Requested size: 318.00175pt x 289.09251pt.
 
 LaTeX Warning: No positions in optional float specifier.
-               Default added (so using `tbp') on input line 3145.
-
-
-LaTeX Warning: No positions in optional float specifier.
-               Default added (so using `tbp') on input line 3163.
+               Default added (so using `tbp') on input line 3135.
 
 
 Package Fancyhdr Warning: \headheight is too small (12.0pt): 
@@ -1926,54 +1917,67 @@ Package Fancyhdr Warning: \headheight is too small (12.0pt):
  This may cause the page layout to be inconsistent, however.
 
 [80]
+<figures/renf-type-fig.png, id=2317, 578.16pt x 289.08pt>
+File: figures/renf-type-fig.png Graphic file (type png)
+<use figures/renf-type-fig.png>
+Package pdftex.def Info: figures/renf-type-fig.png  used on input line 3162.
+(pdftex.def)             Requested size: 440.84415pt x 220.42206pt.
+<figures/renf-hrs-fig.png, id=2319, 433.62pt x 289.08pt>
+File: figures/renf-hrs-fig.png Graphic file (type png)
+<use figures/renf-hrs-fig.png>
+Package pdftex.def Info: figures/renf-hrs-fig.png  used on input line 3177.
+(pdftex.def)             Requested size: 433.63878pt x 289.09251pt.
 
 Package Fancyhdr Warning: \headheight is too small (12.0pt): 
  Make it at least 14.49998pt.
  We now make it that large for the rest of the document.
  This may cause the page layout to be inconsistent, however.
 
-[81 <./figures/play_fig_1.png (PNG copy)>]
-<figures/gap_plot.png, id=2312, 317.988pt x 289.08pt>
-File: figures/gap_plot.png Graphic file (type png)
-<use figures/gap_plot.png>
-Package pdftex.def Info: figures/gap_plot.png  used on input line 3196.
-(pdftex.def)             Requested size: 318.00175pt x 289.09251pt.
+[81 <./figures/renf-type-fig.png>]
+
+Package Fancyhdr Warning: \headheight is too small (12.0pt): 
+ Make it at least 14.49998pt.
+ We now make it that large for the rest of the document.
+ This may cause the page layout to be inconsistent, however.
+
+[82 <./figures/renf-hrs-fig.png>]
 
 LaTeX Warning: No positions in optional float specifier.
-               Default added (so using `tbp') on input line 3205.
+               Default added (so using `tbp') on input line 3193.
 
-<figures/gap_plot_2.png, id=2315, 317.988pt x 289.08pt>
-File: figures/gap_plot_2.png Graphic file (type png)
-<use figures/gap_plot_2.png>
-Package pdftex.def Info: figures/gap_plot_2.png  used on input line 3231.
-(pdftex.def)             Requested size: 318.00175pt x 289.09251pt.
-
-Package Fancyhdr Warning: \headheight is too small (12.0pt): 
- Make it at least 14.49998pt.
- We now make it that large for the rest of the document.
- This may cause the page layout to be inconsistent, however.
-
-[82 <./figures/gap_plot.png>]
+<figures/unique_sc_plot_revised.png, id=2332, 505.89pt x 505.89pt>
+File: figures/unique_sc_plot_revised.png Graphic file (type png)
+<use figures/unique_sc_plot_revised.png>
+Package pdftex.def Info: figures/unique_sc_plot_revised.png  used on input line
+ 3217.
+(pdftex.def)             Requested size: 440.85406pt x 440.85406pt.
 
 Package Fancyhdr Warning: \headheight is too small (12.0pt): 
  Make it at least 14.49998pt.
  We now make it that large for the rest of the document.
  This may cause the page layout to be inconsistent, however.
 
-[83 <./figures/gap_plot_2.png>]
+[83]
 
 Package Fancyhdr Warning: \headheight is too small (12.0pt): 
  Make it at least 14.49998pt.
  We now make it that large for the rest of the document.
  This may cause the page layout to be inconsistent, however.
 
-[84]
+[84 <./figures/unique_sc_plot_revised.png>]
+
+Package Fancyhdr Warning: \headheight is too small (12.0pt): 
+ Make it at least 14.49998pt.
+ We now make it that large for the rest of the document.
+ This may cause the page layout to be inconsistent, however.
+
+[85]
 
 Package Fancyhdr Warning: \fancyhead's `E' option without twoside option is use
-less on input line 3249.
+less on input line 3235.
 
 Chapter 7.
-[85
+[86
 
 ]
 
@@ -1982,172 +1986,191 @@ Package Fancyhdr Warning: \headheight is too small (12.0pt):
  We now make it that large for the rest of the document.
  This may cause the page layout to be inconsistent, however.
 
-[86]
+[87]
 
 Package Fancyhdr Warning: \fancyhead's `E' option without twoside option is use
-less on input line 3311.
+less on input line 3297.
 
 Chapter 8.
-[87
+[88
 
 ]
 
 Package Fancyhdr Warning: \fancyhead's `E' option without twoside option is use
-less on input line 3326.
+less on input line 3312.
 
-[88
-
-
-]
-
-pdfTeX warning: pdflatex.exe (file ./data/renf-ethics.pdf): PDF inclusion: foun
-d PDF version <1.7>, but at most version <1.5> allowed
-<data/renf-ethics.pdf, id=2350, 597.55246pt x 845.07724pt>
-File: data/renf-ethics.pdf Graphic file (type pdf)
-<use data/renf-ethics.pdf>
-Package pdftex.def Info: data/renf-ethics.pdf  used on input line 3332.
-(pdftex.def)             Requested size: 439.48299pt x 621.5305pt.
-
-
-pdfTeX warning: pdflatex.exe (file ./data/renf-ethics.pdf): PDF inclusion: foun
-d PDF version <1.7>, but at most version <1.5> allowed
-File: data/renf-ethics.pdf Graphic file (type pdf)
-<use data/renf-ethics.pdf>
-Package pdftex.def Info: data/renf-ethics.pdf  used on input line 3332.
-(pdftex.def)             Requested size: 439.48299pt x 621.5305pt.
-
-
-pdfTeX warning: pdflatex.exe (file ./data/renf-ethics.pdf): PDF inclusion: foun
-d PDF version <1.7>, but at most version <1.5> allowed
-
-
-pdfTeX warning: pdflatex.exe (file ./data/renf-ethics.pdf): PDF inclusion: foun
-d PDF version <1.7>, but at most version <1.5> allowed
-<data/renf-ethics.pdf, id=2353, page=1, 597.55246pt x 845.07724pt>
-File: data/renf-ethics.pdf Graphic file (type pdf)
-<use data/renf-ethics.pdf, page 1>
-Package pdftex.def Info: data/renf-ethics.pdf , page1 used on input line 3332.
-(pdftex.def)             Requested size: 597.551pt x 845.07518pt.
-File: data/renf-ethics.pdf Graphic file (type pdf)
-<use data/renf-ethics.pdf, page 1>
-Package pdftex.def Info: data/renf-ethics.pdf , page1 used on input line 3332.
-(pdftex.def)             Requested size: 562.1644pt x 795.03036pt.
 [89
 
+
 ]
-File: data/renf-ethics.pdf Graphic file (type pdf)
-<use data/renf-ethics.pdf, page 1>
-Package pdftex.def Info: data/renf-ethics.pdf , page1 used on input line 3332.
-(pdftex.def)             Requested size: 562.1644pt x 795.03036pt.
-File: data/renf-ethics.pdf Graphic file (type pdf)
-<use data/renf-ethics.pdf, page 1>
-Package pdftex.def Info: data/renf-ethics.pdf , page1 used on input line 3332.
-(pdftex.def)             Requested size: 562.1644pt x 795.03036pt.
-File: data/renf-ethics.pdf Graphic file (type pdf)
-<use data/renf-ethics.pdf, page 1>
-Package pdftex.def Info: data/renf-ethics.pdf , page1 used on input line 3332.
-(pdftex.def)             Requested size: 562.1644pt x 795.03036pt.
-[90 <./data/renf-ethics.pdf>]
 
-pdfTeX warning: pdflatex.exe (file ./data/renf-rac.pdf): PDF inclusion: found P
-DF version <1.7>, but at most version <1.5> allowed
-<data/renf-rac.pdf, id=2422, 597.55246pt x 845.07724pt>
-File: data/renf-rac.pdf Graphic file (type pdf)
-<use data/renf-rac.pdf>
-Package pdftex.def Info: data/renf-rac.pdf  used on input line 3336.
+pdfTeX warning: pdflatex.exe (file ./data/assets/renf-ethics.pdf): PDF inclusio
+n: found PDF version <1.7>, but at most version <1.5> allowed
+<data/assets/renf-ethics.pdf, id=2366, 597.55246pt x 845.07724pt>
+File: data/assets/renf-ethics.pdf Graphic file (type pdf)
+<use data/assets/renf-ethics.pdf>
+Package pdftex.def Info: data/assets/renf-ethics.pdf  used on input line 3318.
 (pdftex.def)             Requested size: 439.48299pt x 621.5305pt.
 
 
-pdfTeX warning: pdflatex.exe (file ./data/renf-rac.pdf): PDF inclusion: found P
-DF version <1.7>, but at most version <1.5> allowed
-File: data/renf-rac.pdf Graphic file (type pdf)
-<use data/renf-rac.pdf>
-Package pdftex.def Info: data/renf-rac.pdf  used on input line 3336.
+pdfTeX warning: pdflatex.exe (file ./data/assets/renf-ethics.pdf): PDF inclusio
+n: found PDF version <1.7>, but at most version <1.5> allowed
+File: data/assets/renf-ethics.pdf Graphic file (type pdf)
+<use data/assets/renf-ethics.pdf>
+Package pdftex.def Info: data/assets/renf-ethics.pdf  used on input line 3318.
 (pdftex.def)             Requested size: 439.48299pt x 621.5305pt.
 
 
-pdfTeX warning: pdflatex.exe (file ./data/renf-rac.pdf): PDF inclusion: found P
-DF version <1.7>, but at most version <1.5> allowed
+pdfTeX warning: pdflatex.exe (file ./data/assets/renf-ethics.pdf): PDF inclusio
+n: found PDF version <1.7>, but at most version <1.5> allowed
 
 
-pdfTeX warning: pdflatex.exe (file ./data/renf-rac.pdf): PDF inclusion: found P
-DF version <1.7>, but at most version <1.5> allowed
-<data/renf-rac.pdf, id=2425, page=1, 597.55246pt x 845.07724pt>
-File: data/renf-rac.pdf Graphic file (type pdf)
-<use data/renf-rac.pdf, page 1>
-Package pdftex.def Info: data/renf-rac.pdf , page1 used on input line 3336.
+pdfTeX warning: pdflatex.exe (file ./data/assets/renf-ethics.pdf): PDF inclusio
+n: found PDF version <1.7>, but at most version <1.5> allowed
+<data/assets/renf-ethics.pdf, id=2369, page=1, 597.55246pt x 845.07724pt>
+File: data/assets/renf-ethics.pdf Graphic file (type pdf)
+<use data/assets/renf-ethics.pdf, page 1>
+Package pdftex.def Info: data/assets/renf-ethics.pdf , page1 used on input line
+ 3318.
 (pdftex.def)             Requested size: 597.551pt x 845.07518pt.
-File: data/renf-rac.pdf Graphic file (type pdf)
-<use data/renf-rac.pdf, page 1>
-Package pdftex.def Info: data/renf-rac.pdf , page1 used on input line 3336.
+File: data/assets/renf-ethics.pdf Graphic file (type pdf)
+<use data/assets/renf-ethics.pdf, page 1>
+Package pdftex.def Info: data/assets/renf-ethics.pdf , page1 used on input line
+ 3318.
 (pdftex.def)             Requested size: 562.1644pt x 795.03036pt.
-[91
+[90
 
 ]
-File: data/renf-rac.pdf Graphic file (type pdf)
-<use data/renf-rac.pdf, page 1>
-Package pdftex.def Info: data/renf-rac.pdf , page1 used on input line 3336.
+File: data/assets/renf-ethics.pdf Graphic file (type pdf)
+<use data/assets/renf-ethics.pdf, page 1>
+Package pdftex.def Info: data/assets/renf-ethics.pdf , page1 used on input line
+ 3318.
 (pdftex.def)             Requested size: 562.1644pt x 795.03036pt.
-File: data/renf-rac.pdf Graphic file (type pdf)
-<use data/renf-rac.pdf, page 1>
-Package pdftex.def Info: data/renf-rac.pdf , page1 used on input line 3336.
+File: data/assets/renf-ethics.pdf Graphic file (type pdf)
+<use data/assets/renf-ethics.pdf, page 1>
+Package pdftex.def Info: data/assets/renf-ethics.pdf , page1 used on input line
+ 3318.
 (pdftex.def)             Requested size: 562.1644pt x 795.03036pt.
-File: data/renf-rac.pdf Graphic file (type pdf)
-<use data/renf-rac.pdf, page 1>
-Package pdftex.def Info: data/renf-rac.pdf , page1 used on input line 3336.
+File: data/assets/renf-ethics.pdf Graphic file (type pdf)
+<use data/assets/renf-ethics.pdf, page 1>
+Package pdftex.def Info: data/assets/renf-ethics.pdf , page1 used on input line
+ 3318.
 (pdftex.def)             Requested size: 562.1644pt x 795.03036pt.
-[92 <./data/renf-rac.pdf>]
+[91 <./data/assets/renf-ethics.pdf>]
 
-pdfTeX warning: pdflatex.exe (file ./data/renf-rac.pdf): PDF inclusion: found P
-DF version <1.7>, but at most version <1.5> allowed
-<data/renf-rac.pdf, id=2511, page=2, 597.55246pt x 845.07724pt>
-File: data/renf-rac.pdf Graphic file (type pdf)
-<use data/renf-rac.pdf, page 2>
-Package pdftex.def Info: data/renf-rac.pdf , page2 used on input line 3336.
-(pdftex.def)             Requested size: 562.1644pt x 795.03036pt.
-File: data/renf-rac.pdf Graphic file (type pdf)
-<use data/renf-rac.pdf, page 2>
-Package pdftex.def Info: data/renf-rac.pdf , page2 used on input line 3336.
-(pdftex.def)             Requested size: 562.1644pt x 795.03036pt.
-File: data/renf-rac.pdf Graphic file (type pdf)
-<use data/renf-rac.pdf, page 2>
-Package pdftex.def Info: data/renf-rac.pdf , page2 used on input line 3336.
-(pdftex.def)             Requested size: 562.1644pt x 795.03036pt.
-[93 <./data/renf-rac.pdf>]
+pdfTeX warning: pdflatex.exe (file ./data/assets/renf-rac.pdf): PDF inclusion: 
+found PDF version <1.7>, but at most version <1.5> allowed
+<data/assets/renf-rac.pdf, id=2438, 597.55246pt x 845.07724pt>
+File: data/assets/renf-rac.pdf Graphic file (type pdf)
+<use data/assets/renf-rac.pdf>
+Package pdftex.def Info: data/assets/renf-rac.pdf  used on input line 3322.
+(pdftex.def)             Requested size: 439.48299pt x 621.5305pt.
 
-pdfTeX warning: pdflatex.exe (file ./data/renf-rac.pdf): PDF inclusion: found P
-DF version <1.7>, but at most version <1.5> allowed
-<data/renf-rac.pdf, id=2532, page=3, 597.55246pt x 845.07724pt>
-File: data/renf-rac.pdf Graphic file (type pdf)
-<use data/renf-rac.pdf, page 3>
-Package pdftex.def Info: data/renf-rac.pdf , page3 used on input line 3336.
-(pdftex.def)             Requested size: 562.1644pt x 795.03036pt.
-File: data/renf-rac.pdf Graphic file (type pdf)
-<use data/renf-rac.pdf, page 3>
-Package pdftex.def Info: data/renf-rac.pdf , page3 used on input line 3336.
-(pdftex.def)             Requested size: 562.1644pt x 795.03036pt.
-File: data/renf-rac.pdf Graphic file (type pdf)
-<use data/renf-rac.pdf, page 3>
-Package pdftex.def Info: data/renf-rac.pdf , page3 used on input line 3336.
-(pdftex.def)             Requested size: 562.1644pt x 795.03036pt.
-[94 <./data/renf-rac.pdf>]
 
-pdfTeX warning: pdflatex.exe (file ./data/renf-rac.pdf): PDF inclusion: found P
-DF version <1.7>, but at most version <1.5> allowed
-<data/renf-rac.pdf, id=2538, page=4, 597.55246pt x 845.07724pt>
-File: data/renf-rac.pdf Graphic file (type pdf)
-<use data/renf-rac.pdf, page 4>
-Package pdftex.def Info: data/renf-rac.pdf , page4 used on input line 3336.
+pdfTeX warning: pdflatex.exe (file ./data/assets/renf-rac.pdf): PDF inclusion: 
+found PDF version <1.7>, but at most version <1.5> allowed
+File: data/assets/renf-rac.pdf Graphic file (type pdf)
+<use data/assets/renf-rac.pdf>
+Package pdftex.def Info: data/assets/renf-rac.pdf  used on input line 3322.
+(pdftex.def)             Requested size: 439.48299pt x 621.5305pt.
+
+
+pdfTeX warning: pdflatex.exe (file ./data/assets/renf-rac.pdf): PDF inclusion: 
+found PDF version <1.7>, but at most version <1.5> allowed
+
+
+pdfTeX warning: pdflatex.exe (file ./data/assets/renf-rac.pdf): PDF inclusion: 
+found PDF version <1.7>, but at most version <1.5> allowed
+<data/assets/renf-rac.pdf, id=2441, page=1, 597.55246pt x 845.07724pt>
+File: data/assets/renf-rac.pdf Graphic file (type pdf)
+<use data/assets/renf-rac.pdf, page 1>
+Package pdftex.def Info: data/assets/renf-rac.pdf , page1 used on input line 33
+22.
+(pdftex.def)             Requested size: 597.551pt x 845.07518pt.
+File: data/assets/renf-rac.pdf Graphic file (type pdf)
+<use data/assets/renf-rac.pdf, page 1>
+Package pdftex.def Info: data/assets/renf-rac.pdf , page1 used on input line 33
+22.
 (pdftex.def)             Requested size: 562.1644pt x 795.03036pt.
-File: data/renf-rac.pdf Graphic file (type pdf)
-<use data/renf-rac.pdf, page 4>
-Package pdftex.def Info: data/renf-rac.pdf , page4 used on input line 3336.
+[92
+
+]
+File: data/assets/renf-rac.pdf Graphic file (type pdf)
+<use data/assets/renf-rac.pdf, page 1>
+Package pdftex.def Info: data/assets/renf-rac.pdf , page1 used on input line 33
+22.
 (pdftex.def)             Requested size: 562.1644pt x 795.03036pt.
-File: data/renf-rac.pdf Graphic file (type pdf)
-<use data/renf-rac.pdf, page 4>
-Package pdftex.def Info: data/renf-rac.pdf , page4 used on input line 3336.
+File: data/assets/renf-rac.pdf Graphic file (type pdf)
+<use data/assets/renf-rac.pdf, page 1>
+Package pdftex.def Info: data/assets/renf-rac.pdf , page1 used on input line 33
+22.
 (pdftex.def)             Requested size: 562.1644pt x 795.03036pt.
-[95 <./data/renf-rac.pdf>] [96
+File: data/assets/renf-rac.pdf Graphic file (type pdf)
+<use data/assets/renf-rac.pdf, page 1>
+Package pdftex.def Info: data/assets/renf-rac.pdf , page1 used on input line 33
+22.
+(pdftex.def)             Requested size: 562.1644pt x 795.03036pt.
+[93 <./data/assets/renf-rac.pdf>]
+
+pdfTeX warning: pdflatex.exe (file ./data/assets/renf-rac.pdf): PDF inclusion: 
+found PDF version <1.7>, but at most version <1.5> allowed
+<data/assets/renf-rac.pdf, id=2527, page=2, 597.55246pt x 845.07724pt>
+File: data/assets/renf-rac.pdf Graphic file (type pdf)
+<use data/assets/renf-rac.pdf, page 2>
+Package pdftex.def Info: data/assets/renf-rac.pdf , page2 used on input line 33
+22.
+(pdftex.def)             Requested size: 562.1644pt x 795.03036pt.
+File: data/assets/renf-rac.pdf Graphic file (type pdf)
+<use data/assets/renf-rac.pdf, page 2>
+Package pdftex.def Info: data/assets/renf-rac.pdf , page2 used on input line 33
+22.
+(pdftex.def)             Requested size: 562.1644pt x 795.03036pt.
+File: data/assets/renf-rac.pdf Graphic file (type pdf)
+<use data/assets/renf-rac.pdf, page 2>
+Package pdftex.def Info: data/assets/renf-rac.pdf , page2 used on input line 33
+22.
+(pdftex.def)             Requested size: 562.1644pt x 795.03036pt.
+[94 <./data/assets/renf-rac.pdf>]
+
+pdfTeX warning: pdflatex.exe (file ./data/assets/renf-rac.pdf): PDF inclusion: 
+found PDF version <1.7>, but at most version <1.5> allowed
+<data/assets/renf-rac.pdf, id=2549, page=3, 597.55246pt x 845.07724pt>
+File: data/assets/renf-rac.pdf Graphic file (type pdf)
+<use data/assets/renf-rac.pdf, page 3>
+Package pdftex.def Info: data/assets/renf-rac.pdf , page3 used on input line 33
+22.
+(pdftex.def)             Requested size: 562.1644pt x 795.03036pt.
+File: data/assets/renf-rac.pdf Graphic file (type pdf)
+<use data/assets/renf-rac.pdf, page 3>
+Package pdftex.def Info: data/assets/renf-rac.pdf , page3 used on input line 33
+22.
+(pdftex.def)             Requested size: 562.1644pt x 795.03036pt.
+File: data/assets/renf-rac.pdf Graphic file (type pdf)
+<use data/assets/renf-rac.pdf, page 3>
+Package pdftex.def Info: data/assets/renf-rac.pdf , page3 used on input line 33
+22.
+(pdftex.def)             Requested size: 562.1644pt x 795.03036pt.
+[95 <./data/assets/renf-rac.pdf>]
+
+pdfTeX warning: pdflatex.exe (file ./data/assets/renf-rac.pdf): PDF inclusion: 
+found PDF version <1.7>, but at most version <1.5> allowed
+<data/assets/renf-rac.pdf, id=2554, page=4, 597.55246pt x 845.07724pt>
+File: data/assets/renf-rac.pdf Graphic file (type pdf)
+<use data/assets/renf-rac.pdf, page 4>
+Package pdftex.def Info: data/assets/renf-rac.pdf , page4 used on input line 33
+22.
+(pdftex.def)             Requested size: 562.1644pt x 795.03036pt.
+File: data/assets/renf-rac.pdf Graphic file (type pdf)
+<use data/assets/renf-rac.pdf, page 4>
+Package pdftex.def Info: data/assets/renf-rac.pdf , page4 used on input line 33
+22.
+(pdftex.def)             Requested size: 562.1644pt x 795.03036pt.
+File: data/assets/renf-rac.pdf Graphic file (type pdf)
+<use data/assets/renf-rac.pdf, page 4>
+Package pdftex.def Info: data/assets/renf-rac.pdf , page4 used on input line 33
+22.
+(pdftex.def)             Requested size: 562.1644pt x 795.03036pt.
+[96 <./data/assets/renf-rac.pdf>] [97
 
 ] (./THESIS.bbl
 Underfull \hbox (badness 2126) in paragraph at lines 31--37
@@ -2185,7 +2208,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 31--37
 le % 20of % 20Social %
  []
 
-[97
+[98
 
 
 ]
@@ -2212,7 +2235,7 @@ Package Fancyhdr Warning: \headheight is too small (12.0pt):
  We now make it that large for the rest of the document.
  This may cause the page layout to be inconsistent, however.
 
-[98]
+[99]
 Underfull \hbox (badness 10000) in paragraph at lines 194--200
 []\T1/lmr/m/n/12 (+20) David Buck and David Maguire.  In-equal-i-ties in life e
 x-
@@ -2248,7 +2271,7 @@ Package Fancyhdr Warning: \headheight is too small (12.0pt):
  We now make it that large for the rest of the document.
  This may cause the page layout to be inconsistent, however.
 
-[99]
+[100]
 Underfull \hbox (badness 2556) in paragraph at lines 209--215
 []\T1/lmr/m/n/12 (+20) L. Burgess.  Spice brief-ing. in-te-gra-tion of health a
 nd so-cial care: In-ter-
@@ -2284,7 +2307,7 @@ Package Fancyhdr Warning: \headheight is too small (12.0pt):
  We now make it that large for the rest of the document.
  This may cause the page layout to be inconsistent, however.
 
-[100]
+[101]
 Underfull \hbox (badness 1953) in paragraph at lines 316--324
 \T1/lmr/m/n/12 (+20) Hos-pi-tal ad-mis-sions among peo-ple 65+ re-lated to mul-
 ti-mor-bid-ity, mu-nic-i-
@@ -2308,14 +2331,14 @@ Package Fancyhdr Warning: \headheight is too small (12.0pt):
  We now make it that large for the rest of the document.
  This may cause the page layout to be inconsistent, however.
 
-[101]
+[102]
 
 Package Fancyhdr Warning: \headheight is too small (12.0pt): 
  Make it at least 14.49998pt.
  We now make it that large for the rest of the document.
  This may cause the page layout to be inconsistent, however.
 
-[102]
+[103]
 Underfull \hbox (badness 1242) in paragraph at lines 435--443
 []\T1/lmr/m/n/12 (+20) Tony Evans.  Pro-fes-sion-als, man-agers and dis-cre-tio
 n: Cri-tiquing street-level
@@ -2333,14 +2356,14 @@ Package Fancyhdr Warning: \headheight is too small (12.0pt):
  We now make it that large for the rest of the document.
  This may cause the page layout to be inconsistent, however.
 
-[103]
+[104]
 
 Package Fancyhdr Warning: \headheight is too small (12.0pt): 
  Make it at least 14.49998pt.
  We now make it that large for the rest of the document.
  This may cause the page layout to be inconsistent, however.
 
-[104]
+[105]
 Underfull \hbox (badness 2744) in paragraph at lines 564--572
 \T1/lmr/m/n/12 (+20) co-mor-bid-ity: a re-view.  \T1/lmr/m/it/12 (+20) Jour-nal
  of clin-i-cal epi-demi-ol-ogy\T1/lmr/m/n/12 (+20) , 54(7):661--674,
@@ -2382,7 +2405,7 @@ Package Fancyhdr Warning: \headheight is too small (12.0pt):
  We now make it that large for the rest of the document.
  This may cause the page layout to be inconsistent, however.
 
-[105]
+[106]
 Underfull \hbox (badness 1616) in paragraph at lines 692--697
 []\T1/lmr/m/n/12 (+20) R.; Humphries, R.; Thorlby, H.; Holder, P.; Hall, and A.
  Charles.  So-
@@ -2424,14 +2447,14 @@ Package Fancyhdr Warning: \headheight is too small (12.0pt):
  We now make it that large for the rest of the document.
  This may cause the page layout to be inconsistent, however.
 
-[106]
+[107]
 
 Package Fancyhdr Warning: \headheight is too small (12.0pt): 
  Make it at least 14.49998pt.
  We now make it that large for the rest of the document.
  This may cause the page layout to be inconsistent, however.
 
-[107]
+[108]
 Underfull \hbox (badness 3029) in paragraph at lines 787--799
 []\T1/lmr/m/n/12 (+20) Hal Kendig, Nicole Meal-ing, Rachel Carr, Sanja Lu-jic, 
 Julie Byles, and
@@ -2485,7 +2508,7 @@ Package Fancyhdr Warning: \headheight is too small (12.0pt):
  We now make it that large for the rest of the document.
  This may cause the page layout to be inconsistent, however.
 
-[108]
+[109]
 Underfull \hbox (badness 10000) in paragraph at lines 857--867
 \T1/lmr/m/n/12 (+20) 0-[]S0398762014006816-[]main . pdf ? _tid = 2c292592-[]6ec
 f-[]11e5-[]9c03-[]00000aab0f6b &
@@ -2515,7 +2538,7 @@ Package Fancyhdr Warning: \headheight is too small (12.0pt):
  We now make it that large for the rest of the document.
  This may cause the page layout to be inconsistent, however.
 
-[109]
+[110]
 Underfull \hbox (badness 10000) in paragraph at lines 953--961
 \T1/lmr/m/n/12 (+20) 0-[]S1568163711000249-[]main . pdf ? _tid = 229^^[4b2-[]65
 e5-[]11e5-[]91c1-[]00000aab0f02 &
@@ -2527,7 +2550,7 @@ Package Fancyhdr Warning: \headheight is too small (12.0pt):
  We now make it that large for the rest of the document.
  This may cause the page layout to be inconsistent, however.
 
-[110]
+[111]
 Underfull \hbox (badness 10000) in paragraph at lines 1046--1051
 \T1/lmr/m/n/12 (+20) documents / Additional / C-[]Community _ services _ for _ 
 persons _ with _ disabilities /
@@ -2545,7 +2568,7 @@ Package Fancyhdr Warning: \headheight is too small (12.0pt):
  We now make it that large for the rest of the document.
  This may cause the page layout to be inconsistent, however.
 
-[111]
+[112]
 Underfull \hbox (badness 2261) in paragraph at lines 1106--1111
 []\T1/lmr/m/n/12 (+20) NRS.  Ren-frew-shire couc-nil area - de-mo-graphic fact-
 sheet.  Re-port, 2015.
@@ -2581,7 +2604,7 @@ Package Fancyhdr Warning: \headheight is too small (12.0pt):
  We now make it that large for the rest of the document.
  This may cause the page layout to be inconsistent, however.
 
-[112]
+[113]
 Underfull \hbox (badness 1014) in paragraph at lines 1185--1194
 []\T1/lmr/m/n/12 (+20) Anthony J Perkins, Kurt Kroenke, Jür-gen Unützer, Wayne 
 Ka-ton, John W
@@ -2611,7 +2634,7 @@ Package Fancyhdr Warning: \headheight is too small (12.0pt):
  We now make it that large for the rest of the document.
  This may cause the page layout to be inconsistent, however.
 
-[113]
+[114]
 Underfull \hbox (badness 10000) in paragraph at lines 1229--1235
 [][]$\T1/lmr/m/n/12 (+3) http : / / calls . ac . uk / wp-[]content / uploads / 
 ^^\nal _ report _ -[] _ assessing _ socio-[]economic _
@@ -2659,14 +2682,14 @@ Package Fancyhdr Warning: \headheight is too small (12.0pt):
  We now make it that large for the rest of the document.
  This may cause the page layout to be inconsistent, however.
 
-[114]
+[115]
 
 Package Fancyhdr Warning: \headheight is too small (12.0pt): 
  Make it at least 14.49998pt.
  We now make it that large for the rest of the document.
  This may cause the page layout to be inconsistent, however.
 
-[115]
+[116]
 Underfull \hbox (badness 10000) in paragraph at lines 1399--1404
 [][]$\T1/lmr/m/n/12 (+18) http : / / www . gov . scot / Topics / Health / Polic
 y / Adult-[]Health-[]SocialCare-[]Integration /
@@ -2684,7 +2707,7 @@ Package Fancyhdr Warning: \headheight is too small (12.0pt):
  We now make it that large for the rest of the document.
  This may cause the page layout to be inconsistent, however.
 
-[116]
+[117]
 Underfull \hbox (badness 2837) in paragraph at lines 1515--1524
 []\T1/lmr/m/n/12 (+20) Judith Sin-nige, Joze Braspen-ning, Fran-cois Schelle-vi
 s, Irina Stirbu-Wagner,
@@ -2702,7 +2725,7 @@ Package Fancyhdr Warning: \headheight is too small (12.0pt):
  We now make it that large for the rest of the document.
  This may cause the page layout to be inconsistent, however.
 
-[117]
+[118]
 Underfull \hbox (badness 5274) in paragraph at lines 1557--1565
 []\T1/lmr/m/n/12 (+20) Ailsa Stew-art, Al-i-son Petch, and Lisa Cur-tice.  Mov-
 ing to-wards in-te-
@@ -2744,14 +2767,14 @@ Package Fancyhdr Warning: \headheight is too small (12.0pt):
  We now make it that large for the rest of the document.
  This may cause the page layout to be inconsistent, however.
 
-[118]
+[119]
 
 Package Fancyhdr Warning: \headheight is too small (12.0pt): 
  Make it at least 14.49998pt.
  We now make it that large for the rest of the document.
  This may cause the page layout to be inconsistent, however.
 
-[119]
+[120]
 Underfull \hbox (badness 3078) in paragraph at lines 1695--1700
 []\T1/lmr/m/n/12 (+20) Helen Weath-erly, Anne Ma-son, Maria God-dard, and K Wri
 ght.  Fi-nan-
@@ -2769,38 +2792,35 @@ Package Fancyhdr Warning: \headheight is too small (12.0pt):
  We now make it that large for the rest of the document.
  This may cause the page layout to be inconsistent, however.
 
-[120])
+[121])
 
 Package natbib Warning: There were undefined citations.
 
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 3350.
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 3336.
 
 Package Fancyhdr Warning: \headheight is too small (12.0pt): 
  Make it at least 14.49998pt.
  We now make it that large for the rest of the document.
  This may cause the page layout to be inconsistent, however.
 
-[121]
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 3350.
+[122]
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 3336.
 (./THESIS.aux)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 3350.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 3350.
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 3336.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 3336.
 
 Package rerunfilecheck Info: File `THESIS.out' has not changed.
-(rerunfilecheck)             Checksum: 715B29A3DDB71542879FAD2828E84E33;16260.
+(rerunfilecheck)             Checksum: C19BE18891246CE202975D0BA74F2F79;16552.
 
-LaTeX Warning: There were undefined references.
+LaTeX Warning: There were multiply-defined labels.
 
-
-LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right.
-
-Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 3350.
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 3336.
  ) 
 Here is how much of TeX's memory you used:
- 16703 strings out of 494921
- 248854 string characters out of 6179478
- 371059 words of memory out of 5000000
- 19082 multiletter control sequences out of 15000+600000
+ 16706 strings out of 494921
+ 249174 string characters out of 6179478
+ 371113 words of memory out of 5000000
+ 19083 multiletter control sequences out of 15000+600000
  87928 words of font info for 162 fonts, out of 8000000 for 9000
  14 hyphenation exceptions out of 8191
  41i,18n,47p,771b,857s stack positions out of 5000i,500n,10000p,200000b,80000s
@@ -2822,10 +2842,10 @@ st/fonts/type1/public/lm/lmr7.pfb><c:/Users/hedgi/AppData/Roaming/TinyTeX/texmf
 xmf-dist/fonts/type1/public/lm/lmri10.pfb><c:/Users/hedgi/AppData/Roaming/TinyT
 eX/texmf-dist/fonts/type1/public/lm/lmri12.pfb><c:/Users/hedgi/AppData/Roaming/
 TinyTeX/texmf-dist/fonts/type1/public/lm/lmtt12.pfb>
-Output written on THESIS.pdf (132 pages, 2766266 bytes).
+Output written on THESIS.pdf (133 pages, 2719281 bytes).
 PDF statistics:
- 3123 PDF objects out of 3580 (max. 8388607)
- 2882 compressed objects within 29 object streams
- 492 named destinations out of 1000 (max. 500000)
- 19346 words of extra memory for PDF output out of 20736 (max. 10000000)
+ 3141 PDF objects out of 3580 (max. 8388607)
+ 2898 compressed objects within 29 object streams
+ 494 named destinations out of 1000 (max. 500000)
+ 19362 words of extra memory for PDF output out of 20736 (max. 10000000)
 

@@ -22,7 +22,7 @@ In terms of social care, the 2017 SCS [@RN499, supp.charts] shows that the propo
 
 More recent versions of the SCS collect information on home care (such as personal care or reablement), housing support and meals services provided during the census week. In addition, data on services such as community alarm, telecare, social worker, and self-directed support that are provided at anytime during the financial year is also collected [@RN499]. The purpose of the exploratory project was to compare service provision of those services collected in the census week. As the vast majority of this data is focussed on home care services the analysis concentrates on this service only. Home care refers to services received in the home such as personal care or reablement (described in section \ref{subsec:access-sc-defs}). 
 
-\subsection{Research Questions}\label{subsec:renfrew-qs}
+\subsection{Research Question}\label{subsec:renfrew-qs}
 
 \begin{enumerate}[noitemsep]
 \item How does home care use vary within and across financial years 2006/07 - 2015/16 in the Renfrewshire council area?
@@ -44,8 +44,7 @@ The research questions of the main thesis are concerned with adults over the age
 
 A number of episodes of care (n = 3604) were found to have the same start and end date - considered to be data entry error when queried with a Renfrewshire council data analyst - and these records were also ommited from analysis. 
 
-Overnight and housing support. 
-
+As described in section \ref{subsec:source-sc}, from 2013 onwards a change in the types of service the SCS accepted as home care took place [@RN128]. Previously "housing support services" and services provided 24-hours-7-days-a-week had been included as home care. From 2013 onwards these services were collected seperately as "housing support". As these types of services are provided to a very small number of individuals epsiodes of care with these types of service were not included in the analysis. 
 The SCS requests information on the total hours of home care each indiviudal received during the census week. To replicate this information every episode of care in the exploratory dataset was summarised. For each episode of home care the number of hours per day was multiplied with days per week to give a weekly total of home care hours for each episode. To identify \textit{packages} of home care, episodes of home care with the same start and end date, and of the same home care type, were added together. For example, an indiviudal receiving home care of the type "Care at Home (Mainstream)" with an episode of care lasting 1 hour in the morning for 3 days a week, an episode of care lasting 45 minutes at luchtime 7 days a week, an evening episode of 30 minutes 7 days a week, and nightime episode of 45 mins 7 days a week, would have a total weekly home care hours count of 17 hours per week for that home care type. Finally, the totals for all types of home care were summed to give an overall weekly total. 
 
 \subsection{Analysis}\label{subsec:renf-methods-analysis}
@@ -54,9 +53,9 @@ Descriptive statistics of the study cohort measured mean, standard deviation, an
 
 To enable comparison of packages at different time points a time-series was created for the study period 27th March 2006 to 28th March 2016 at weekly intervals. The value of total hours of home care each indiviudal was receiving at each weekly interval time point was identified. From this time series weekly counts of the total number of individuals receiving home care were calculated. Maximum and minimum values, measures of central tendency, and range of these weekly values were compared to the total number of individuals receiving home care in each financial year and visualised. Comparison was also made to the figures returned by Renfrewshire council to the SCS for numbers of indiviudals receiving home care.
 
-For the financial years 2011/12 - 2015/16 (the study period of the main thesis project) data was subset to identify those packages of home care that were "live" during the week including the 31st of March and those that were not "live" i.e. (those that would not have been captured by SCS census). These subsets were the compared by visualising the duration, type, and amount of home care provided in each subset. 
+For the financial years 2011/12 - 2015/16 (the study period of the main thesis project) data was subset to identify those packages of home care that were "live" during the week including the 31st of March and those that were not "live" i.e. (those that would not have been captured by SCS census). These subsets were then compared by visualising the duration, type, and amount of home care provided in each subset. 
 
-All data cleaning and analysis was conducted using the R labguage and environment for statistical computing version 3.4.0 [@RN295] with packages \texttt{tidyverse} v1.2.0 [@RN296], \texttt{tibbletime} v0.0.2 [@RN496], and \texttt{cowplot} v0.9.0 [@RN497] via the Integrated Development Environment RStudio v ??? [@RN498]. Data was held securely in the safe haven environment described in section \ref{sec:safe-haven}
+All data cleaning and analysis was conducted using the R language and environment for statistical computing version 3.4.0 [@RN295] with packages \texttt{tidyverse} v1.2.0 [@RN296], \texttt{tibbletime} v0.0.2 [@RN496], and \texttt{cowplot} v0.9.0 [@RN497] via the Integrated Development Environment RStudio v ??? [@RN498]. Data was held securely in the safe haven environment described in section \ref{subsec:safe-haven}
 
 
 \subsection{Project approvals and timeline}\label{subsec:renf-methods-approvals}
@@ -67,113 +66,79 @@ Following academic and ethical approval the process of obtaining a data sharing 
 
 \section{Results}\label{sec:renf-results}
 
+\subsection{Descriptive statistics}\label{subsec:renf-descriptives}
 
-
-\textit{n} individuals received more than 50 hrs of homecare per week during the 10 years representing \textit{n} packages of care. These are likely to be supported accomodation packages etc etc. (cut/paste from analysis re SCS return). These individuals were therefore dropped from analysis and all subsent results are based on \textit{n} number of individuasls with packages less than 50 hrs per week. 
-
-\begin{itemize}[noitemsep]
-\item There were \textit{n} number of individuals in receiving homecare 2006 - 2016
-\end{itemize}
-
-
-
-Figure \ref{fig:ren_1} shows the number of people receiving types of home care and number of people receiving care from different providers.
-
-\begin{figure}
-  \centering
-    \includegraphics{figures/play_fig_1.png}
-  \caption{Number of people receiving home care by type and provider}
-  \label{fig:ren_1}
-\end{figure}
-
-Table \ref{tab:renf_1} Shows descriptive statistics of care packages in the dataset
+After data cleaning information on 38,337 packages of home care received by 10,130 individuals during the period 2006 to 2016 were included in the analysis. Mean age of those in the dataset was 81.6 years and median age was 82.0 years. Sixty-four percent of individuals (n = 6514) were female. Detailed breakdown of age and gender groups is shown in table \ref{tab:ren-age-gen}
 
 \begin{table}[]
 \centering
-\caption{Care package descriptive statistics}
-\label{tab:renf_1}
+\caption{Cross table of age and gender in renfrewshire analysis}
+\label{tab:ren-age-gen}
+\resizebox{\textwidth}{!}{%
+\begin{tabular}{@{}llllll@{}}
+\toprule
+ & \textbf{65-75} & \textbf{76-85} & \textbf{86-95} & \textbf{over 95} & \textbf{Total} \\ \midrule
+\textbf{Female} & 1442 (14.2\%) & 2965 (29.2\%) & 1985 (19.6\%) & 131 (1.3\%) & \textit{6514 (64.3\%)} \\
+\textbf{Male} & 1107 (10.9\%) & 1644 (16.2\%) & 827 (8.2\%) & 34 (0.3\%) & \textit{3612 (35.7\%)} \\
+\textbf{Missing data} & 2 & 1 & 1 & 0 & \textit{4} \\
+\textbf{Total} & \textit{2551 (25.2\%)} & \textit{4601 (45.4\%)} & \textit{2813 (27.8\%)} & \textit{165 (1.6\%)} & \textit{10130 (100\%)} \\ \bottomrule
+\end{tabular}%
+}
+\end{table}
+
+Eighty-four percent of home care packages (n=32054) were provided for "Care at Home (Mainstream)" with "Reablement" type packages making up the majority of the remainder (Figure \ref{fig:ren-type}). Only 28 packages of care for over 65s were classified as being provided for "Community Mental Health" during the study period. "Reblement" packages were first coded as such in the financial year 2010/11 meaning "Care at Home (Mainstream)" made up an even larger proportion of care packages prior to this. 
+
+\begin{figure}
+  \centering
+    \includegraphics{figures/renf-type-fig.png}
+  \caption{Number and ratio of packages of care by home care type}
+  \label{fig:ren-type}
+\end{figure}
+
+There is wide variation in the duration of home care packages which last from one week to over six years however greater than 90% of home care packages lasted less than one-year. The mean duration of home care packages was 22 weeks. The median duration was 11 weeks. The average number of hours of home care per week delivered as part of a package was seven. The median hours per week was six. Figure \ref{fig:renf-hrs} shows the number of packages grouped by hours of care provided 
+
+\begin{figure}
+  \centering
+    \includegraphics{figures/renf-hrs-fig.png}
+  \caption{Number of packages of home care by hours of care grouping}
+  \label{fig:renf-hrs}
+\end{figure}
+
+\FloatBarrier
+
+\subsection{Time series}\label{renf-results-ts}
+
+Table \ref{tab:renf-ts-summary} and figure \ref{fig:renf-hrs} show the variation in the number of people receiving home care during each financial year. There is little weekly variation with the exception of financial year 2010/11 which saw a large drop in the total number of individuals receiving care. The years following this show gradual increases 
+
+
+\begin{table}[]
+\centering
+\caption{Variation in number of individuals receiving home care}
+\label{tab:renf-ts-summary}
 \resizebox{\textwidth}{!}{%
 \begin{tabular}{@{}lllllllll@{}}
 \toprule
- & Min & Max & Mean & Standard Deviation & Range & 1st Quartile & 3rd Quartile & NA \\ \midrule
-Package hours &  &  &  &  &  &  &  &  \\
-Package Duration &  &  &  &  &  &  &  &  \\
-\begin{tabular}[c]{@{}l@{}}Total Hours per week\\ per individual\end{tabular} &  &  &  &  &  &  &  &  \\ \bottomrule
+\textbf{Financial Year} & \textbf{Minimum} & \textbf{Maximum} & \textbf{mean} & \textbf{sd} & \textbf{median} & \textbf{range} & \textbf{\begin{tabular}[c]{@{}l@{}}Social Care Survey\\ value\end{tabular}} & \textbf{\begin{tabular}[c]{@{}l@{}}Yearly total of\\ individuals\end{tabular}} \\ \midrule
+\textbf{2006/07} & 1219 & 1515 & 1488.6 & 35.3 & 1493 & 296 & 1520 & 2419 \\
+\textbf{2007/08} & 1476 & 1538 & 1498.5 & 15.5 & 1498 & 62 & 1490 & 2441 \\
+\textbf{2008/09} & 1424 & 1480 & 1450.1 & 13.5 & 1449 & 56 & 1520 & 2376 \\
+\textbf{2009/10} & 1416 & 1467 & 1438.8 & 11.8 & 1438 & 51 & 1530 & 2324 \\
+\textbf{2010/11} & 1178 & 1442 & 1317.0 & 89.1 & 1289 & 264 & 1290 & 2066 \\
+\textbf{2011/12} & 1121 & 1195 & 1155.5 & 14.7 & 1158 & 74 & 1300 & 2004 \\
+\textbf{2012/13} & 1166 & 1286 & 1206.1 & 35.0 & 1192 & 120 & 1410 & 2284 \\
+\textbf{2013/14} & 1256 & 1353 & 1321.8 & 20.2 & 1324 & 97 & 1520 & 2511 \\
+\textbf{2014/15} & 1349 & 1488 & 1422.8 & 47.0 & 1415 & 139 & 1760 & 2662 \\
+\textbf{2015/16} & 1467 & 1532 & 1505.2 & 14.2 & 1503 & 65 & 1740 & 2792 \\ \bottomrule
 \end{tabular}%
 }
 \end{table}
 
 
-Table \ref{tab:renf_2} shows the breakdown of individuals receiving home care by financial year with annual difference and percetage calculated
-
-
-\begin{table}[]
-\centering
-\caption{Home care by Financial year}
-\label{tab:renf_2}
-\begin{tabular}{@{}llll@{}}
-\toprule
-Financial Year & \begin{tabular}[c]{@{}l@{}}Number receiving\\ home care\end{tabular} & \begin{tabular}[c]{@{}l@{}}Difference from \\ previous year\end{tabular} & \begin{tabular}[c]{@{}l@{}}Percent change\\ \%\end{tabular} \\ \midrule
-2006/07 & 3138 & NA & NA \\
-2007/08 & 3052 & -86 & -2.74 \\
-2008/09 & 3033 & -19 & -0.62 \\
-2009/10 & 2905 & -128 & -4.22 \\
-2010/11 & 2412 & -493 & -16.97 \\
-2011/12 & 2265 & -147 & -6.1 \\
-2012/13 & 1952 & -313 & -13.82 \\
-2013/14 & 2289 & 337 & 17.26 \\
-2014/15 & 2327 & 38 & 1.67 \\
-2015/16 & 2299 & -28 & -1.20 \\ \bottomrule
-\end{tabular}
-\end{table}
-
-
-Time series created 6,138,451 observations of home care at weekly intervals. 
-
-There were \textit{n} number of continous care packages.
-
-\textit{n} number of people experienced a break in care during the study period.
-
-Figure \ref{fig:ren_2} plots the hours of home care for each individual over the 10 year period.
-
 \begin{figure}
   \centering
-    \includegraphics{figures/gap_plot.png}
-  \caption{Temporal trend of care packages}
-  \label{fig:ren_2}
-\end{figure}
-
-
-Table \ref{tab:renf_3} shows the absolute number of individuals who had no change, an increase, or a decrease in home care hours for each financial year with average increase/decrease wih sd calculated. 
-
-\begin{table}[]
-\centering
-\caption{Change in home care hours by year}
-\label{tab:renf_3}
-\resizebox{\textwidth}{!}{%
-\begin{tabular}{@{}lllllll@{}}
- & \begin{tabular}[c]{@{}l@{}}Total\\   N\end{tabular} & \begin{tabular}[c]{@{}l@{}}No change in hours\\          N(\%)\end{tabular} & \begin{tabular}[c]{@{}l@{}}Increase in hours\\       N(\%)\end{tabular} & \begin{tabular}[c]{@{}l@{}}Average increase in hours\\             mean(sd)\end{tabular} & \begin{tabular}[c]{@{}l@{}}Decrease in hours\\         N(\%)\end{tabular} & \begin{tabular}[c]{@{}l@{}}Average decrease in hours\\          mean(sd)\end{tabular} \\
-2006/07 &  &  &  &  &  &  \\
-2007/08 &  &  &  &  &  &  \\
-2008/09 &  &  &  &  &  &  \\
-2009/10 &  &  &  &  &  &  \\
-2010/11 &  &  &  &  &  &  \\
-2011/12 &  &  &  &  &  &  \\
-2012/13 &  &  &  &  &  &  \\
-2013/14 &  &  &  &  &  &  \\
-2014/15 &  &  &  &  &  &  \\
-2015/16 &  &  &  &  &  & 
-\end{tabular}
-}
-\end{table}
-
-Facet Plot Of Histogram with designated bins 40 for 20 hrs spread as in Figure \ref{fig:renf_3}. 
-
-\begin{figure}
-  \centering
-    \includegraphics{figures/gap_plot_2.png}
-  \caption{Histogram of difference in care package hours, by year}
-  \label{fig:renf_3}
+    \includegraphics{figures/unique_sc_plot_revised.png}
+  \caption{Variation in number of individuals receiving home care}
+  \label{fig:renf-hrs}
 \end{figure}
 
 \section{Discussion}\label{sec:renf-discuss}
