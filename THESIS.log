@@ -1,11 +1,11 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017/W32TeX) (preloaded format=pdflatex 2017.12.14)  18 JAN 2018 18:36
+This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017/W32TeX) (preloaded format=pdflatex 2018.1.22)  23 JAN 2018 09:49
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
 **./THESIS.tex
 (./THESIS.tex
 LaTeX2e <2017-04-15>
-Babel <3.15> and hyphenation patterns for 3 language(s) loaded.
+Babel <3.16> and hyphenation patterns for 3 language(s) loaded.
 (c:/Users/hedgi/AppData/Roaming/TinyTeX/texmf-dist/tex/latex/base/report.cls
 Document Class: report 2014/09/29 v1.4h Standard LaTeX document class
 (c:/Users/hedgi/AppData/Roaming/TinyTeX/texmf-dist/tex/latex/base/size12.clo
@@ -629,7 +629,7 @@ Package textcomp Info: Setting ptmj sub-encoding to TS1/4 on input line 409.
 ))
 (c:/Users/hedgi/AppData/Roaming/TinyTeX/texmf-dist/tex/latex/microtype/microtyp
 e.sty
-Package: microtype 2017/07/07 v2.7 Micro-typographical refinements (RS)
+Package: microtype 2018/01/14 v2.7a Micro-typographical refinements (RS)
 
 (c:/Users/hedgi/AppData/Roaming/TinyTeX/texmf-dist/tex/latex/graphics/keyval.st
 y
@@ -638,23 +638,24 @@ Package: keyval 2014/10/28 v1.15 key=value parser (DPC)
 )
 \MT@toks=\toks23
 \MT@count=\count100
-LaTeX Info: Redefining \textls on input line 789.
+LaTeX Info: Redefining \textls on input line 793.
 \MT@outer@kern=\dimen112
-LaTeX Info: Redefining \textmicrotypecontext on input line 1334.
+LaTeX Info: Redefining \textmicrotypecontext on input line 1339.
 \MT@listname@count=\count101
 
 (c:/Users/hedgi/AppData/Roaming/TinyTeX/texmf-dist/tex/latex/microtype/microtyp
 e-pdftex.def
-File: microtype-pdftex.def 2017/07/07 v2.7 Definitions specific to pdftex (RS)
-LaTeX Info: Redefining \lsstyle on input line 912.
-LaTeX Info: Redefining \lslig on input line 912.
+File: microtype-pdftex.def 2018/01/14 v2.7a Definitions specific to pdftex (RS)
+
+LaTeX Info: Redefining \lsstyle on input line 913.
+LaTeX Info: Redefining \lslig on input line 913.
 \MT@outer@space=\skip46
 )
 Package microtype Info: Loading configuration file microtype.cfg.
 
 (c:/Users/hedgi/AppData/Roaming/TinyTeX/texmf-dist/tex/latex/microtype/microtyp
 e.cfg
-File: microtype.cfg 2017/07/07 v2.7 microtype main configuration file (RS)
+File: microtype.cfg 2018/01/14 v2.7a microtype main configuration file (RS)
 ))
 (c:/Users/hedgi/AppData/Roaming/TinyTeX/texmf-dist/tex/latex/geometry/geometry.
 sty
@@ -836,7 +837,7 @@ Package graphics Info: Driver file: pdftex.def on input line 99.
 
 (c:/Users/hedgi/AppData/Roaming/TinyTeX/texmf-dist/tex/latex/graphics-def/pdfte
 x.def
-File: pdftex.def 2017/12/07 v1.0i Graphics/color driver for pdftex
+File: pdftex.def 2018/01/08 v1.0l Graphics/color driver for pdftex
 ))
 \Gin@req@height=\dimen125
 \Gin@req@width=\dimen126
@@ -930,57 +931,105 @@ Package: epigraph 2009/09/02 v1.5c typesetting epigraphs
 \epigraphwidth=\skip64
 \epigraphrule=\skip65
 )
+(c:/Users/hedgi/AppData/Roaming/TinyTeX/texmf-dist/tex/latex/pdfpages/pdfpages.
+sty
+Package: pdfpages 2017/10/31 v0.5l Insert pages of external PDF documents (AM)
+(c:/Users/hedgi/AppData/Roaming/TinyTeX/texmf-dist/tex/latex/base/ifthen.sty
+Package: ifthen 2014/09/29 v1.1c Standard LaTeX ifthen package (DPC)
+) (c:/Users/hedgi/AppData/Roaming/TinyTeX/texmf-dist/tex/latex/tools/calc.sty
+Package: calc 2014/10/28 v4.3 Infix arithmetic (KKT,FJ)
+\calc@Acount=\count121
+\calc@Bcount=\count122
+\calc@Adimen=\dimen147
+\calc@Bdimen=\dimen148
+\calc@Askip=\skip66
+\calc@Bskip=\skip67
+LaTeX Info: Redefining \setlength on input line 80.
+LaTeX Info: Redefining \addtolength on input line 81.
+\calc@Ccount=\count123
+\calc@Cskip=\skip68
+)
+(c:/Users/hedgi/AppData/Roaming/TinyTeX/texmf-dist/tex/latex/eso-pic/eso-pic.st
+y
+Package: eso-pic 2015/07/21 v2.0g eso-pic (RN)
+
+(c:/Users/hedgi/AppData/Roaming/TinyTeX/texmf-dist/tex/latex/graphics/color.sty
+Package: color 2016/07/10 v1.1e Standard LaTeX Color (DPC)
+
+(c:/Users/hedgi/AppData/Roaming/TinyTeX/texmf-dist/tex/latex/graphics-cfg/color
+.cfg
+File: color.cfg 2016/01/02 v1.6 sample color configuration
+)
+Package color Info: Driver file: pdftex.def on input line 147.
+
+(c:/Users/hedgi/AppData/Roaming/TinyTeX/texmf-dist/tex/latex/graphics/dvipsnam.
+def
+File: dvipsnam.def 2016/06/17 v3.0m Driver-dependent file (DPC,SPQR)
+)))
+\AM@pagewidth=\dimen149
+\AM@pageheight=\dimen150
+
+(c:/Users/hedgi/AppData/Roaming/TinyTeX/texmf-dist/tex/latex/pdfpages/pppdftex.
+def
+File: pppdftex.def 2017/10/31 v0.5l Pdfpages driver for pdfTeX (AM)
+)
+\AM@pagebox=\box28
+\AM@global@opts=\toks25
+\AM@toc@title=\toks26
+\c@AM@survey=\count124
+\AM@templatesizebox=\box29
+)
 (c:/Users/hedgi/AppData/Roaming/TinyTeX/texmf-dist/tex/latex/enumitem/enumitem.
 sty
 Package: enumitem 2011/09/28 v3.5.2 Customized lists
-\labelindent=\skip66
-\enit@outerparindent=\dimen147
-\enit@toks=\toks25
-\enit@inbox=\box28
-\enitdp@description=\count121
+\labelindent=\skip69
+\enit@outerparindent=\dimen151
+\enit@toks=\toks27
+\enit@inbox=\box30
+\enitdp@description=\count125
 )
 (c:/Users/hedgi/AppData/Roaming/TinyTeX/texmf-dist/tex/latex/threeparttable/thr
 eeparttable.sty
 Package: threeparttable 2003/06/13  v 3.0
-\@tempboxb=\box29
+\@tempboxb=\box31
 )
 (c:/Users/hedgi/AppData/Roaming/TinyTeX/texmf-dist/tex/latex/appendix/appendix.
 sty
 Package: appendix 2009/09/02 v1.2b extra appendix facilities
-\c@@pps=\count122
-\c@@ppsavesec=\count123
-\c@@ppsaveapp=\count124
+\c@@pps=\count126
+\c@@ppsavesec=\count127
+\c@@ppsaveapp=\count128
 ) (./THESIS.aux)
 \openout1 = `THESIS.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 104.
-LaTeX Font Info:    ... okay on input line 104.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 104.
-LaTeX Font Info:    ... okay on input line 104.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 104.
-LaTeX Font Info:    ... okay on input line 104.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 104.
-LaTeX Font Info:    ... okay on input line 104.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 104.
-LaTeX Font Info:    ... okay on input line 104.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 104.
-LaTeX Font Info:    ... okay on input line 104.
-LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 104.
-LaTeX Font Info:    Try loading font information for TS1+cmr on input line 104.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 105.
+LaTeX Font Info:    ... okay on input line 105.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 105.
+LaTeX Font Info:    ... okay on input line 105.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 105.
+LaTeX Font Info:    ... okay on input line 105.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 105.
+LaTeX Font Info:    ... okay on input line 105.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 105.
+LaTeX Font Info:    ... okay on input line 105.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 105.
+LaTeX Font Info:    ... okay on input line 105.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 105.
+LaTeX Font Info:    Try loading font information for TS1+cmr on input line 105.
 
 (c:/Users/hedgi/AppData/Roaming/TinyTeX/texmf-dist/tex/latex/base/ts1cmr.fd
 File: ts1cmr.fd 2014/09/29 v2.5h Standard LaTeX font definitions
 )
-LaTeX Font Info:    ... okay on input line 104.
-LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 104.
-LaTeX Font Info:    ... okay on input line 104.
-LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 104.
-LaTeX Font Info:    ... okay on input line 104.
-LaTeX Font Info:    Try loading font information for T1+lmr on input line 104.
+LaTeX Font Info:    ... okay on input line 105.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 105.
+LaTeX Font Info:    ... okay on input line 105.
+LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 105.
+LaTeX Font Info:    ... okay on input line 105.
+LaTeX Font Info:    Try loading font information for T1+lmr on input line 105.
 (c:/Users/hedgi/AppData/Roaming/TinyTeX/texmf-dist/tex/latex/lm/t1lmr.fd
 File: t1lmr.fd 2009/10/30 v1.6 Font defs for Latin Modern
 )
-LaTeX Info: Redefining \microtypecontext on input line 104.
+LaTeX Info: Redefining \microtypecontext on input line 105.
 Package microtype Info: Generating PDF output.
 Package microtype Info: Character protrusion enabled (level 2).
 Package microtype Info: Using protrusion set `basicmath'.
@@ -1030,22 +1079,8 @@ File: mt-cmr.cfg 2013/05/19 v2.2 microtype config. file: Computer Modern Roman
 * \@reversemarginfalse
 * (1in=72.27pt=25.4mm, 1cm=28.453pt)
 
-\AtBeginShipoutBox=\box30
-
-(c:/Users/hedgi/AppData/Roaming/TinyTeX/texmf-dist/tex/latex/graphics/color.sty
-Package: color 2016/07/10 v1.1e Standard LaTeX Color (DPC)
-
-(c:/Users/hedgi/AppData/Roaming/TinyTeX/texmf-dist/tex/latex/graphics-cfg/color
-.cfg
-File: color.cfg 2016/01/02 v1.6 sample color configuration
-)
-Package color Info: Driver file: pdftex.def on input line 147.
-
-(c:/Users/hedgi/AppData/Roaming/TinyTeX/texmf-dist/tex/latex/graphics/dvipsnam.
-def
-File: dvipsnam.def 2016/06/17 v3.0m Driver-dependent file (DPC,SPQR)
-))
-Package hyperref Info: Link coloring ON on input line 104.
+\AtBeginShipoutBox=\box32
+Package hyperref Info: Link coloring ON on input line 105.
 
 (c:/Users/hedgi/AppData/Roaming/TinyTeX/texmf-dist/tex/latex/hyperref/nameref.s
 ty
@@ -1055,11 +1090,11 @@ Package: nameref 2016/05/21 v2.44 Cross-referencing by name of section
 estring.sty
 Package: gettitlestring 2016/05/16 v1.5 Cleanup title references (HO)
 )
-\c@section@level=\count125
+\c@section@level=\count129
 )
-LaTeX Info: Redefining \ref on input line 104.
-LaTeX Info: Redefining \pageref on input line 104.
-LaTeX Info: Redefining \nameref on input line 104.
+LaTeX Info: Redefining \ref on input line 105.
+LaTeX Info: Redefining \pageref on input line 105.
+LaTeX Info: Redefining \nameref on input line 105.
 (./THESIS.out) (./THESIS.out)
 \@outlinefile=\write3
 \openout3 = `THESIS.out'.
@@ -1088,22 +1123,32 @@ e
 Package caption Info: Begin \AtBeginDocument code.
 Package caption Info: threeparttable package is loaded.
 Package caption Info: End \AtBeginDocument code.
-[1
+
+(c:/Users/hedgi/AppData/Roaming/TinyTeX/texmf-dist/tex/latex/oberdiek/pdflscape
+.sty
+Package: pdflscape 2016/05/14 v0.11 Display of landscape pages in PDF (HO)
+
+(c:/Users/hedgi/AppData/Roaming/TinyTeX/texmf-dist/tex/latex/graphics/lscape.st
+y
+Package: lscape 2000/10/22 v3.01 Landscape Pages (DPC)
+)
+Package pdflscape Info: Auto-detected driver: pdftex on input line 81.
+) [1
 
 {c:/Users/hedgi/AppData/Roaming/TinyTeX/texmf-var/fonts/map/pdftex/updmap/pdfte
 x.map}]
 
 Package Fancyhdr Warning: \fancyhead's `E' option without twoside option is use
-less on input line 143.
+less on input line 144.
 
 
 Package Fancyhdr Warning: \fancyhead's `E' option without twoside option is use
-less on input line 143.
+less on input line 144.
 
 [1]
 
 Package Fancyhdr Warning: \fancyhead's `E' option without twoside option is use
-less on input line 155.
+less on input line 156.
 
 (./THESIS.toc
 LaTeX Font Info:    Try loading font information for OT1+lmr on input line 1.
@@ -1152,14 +1197,34 @@ Package Fancyhdr Warning: \headheight is too small (12.0pt):
  We now make it that large for the rest of the document.
  This may cause the page layout to be inconsistent, however.
 
-[3] [4] [5])
+[3]
+
+Package Fancyhdr Warning: \headheight is too small (12.0pt): 
+ Make it at least 14.49998pt.
+ We now make it that large for the rest of the document.
+ This may cause the page layout to be inconsistent, however.
+
+[4]
+
+Package Fancyhdr Warning: \headheight is too small (12.0pt): 
+ Make it at least 14.49998pt.
+ We now make it that large for the rest of the document.
+ This may cause the page layout to be inconsistent, however.
+
+[5])
 \tf@toc=\write4
 \openout4 = `THESIS.toc'.
+
+
+Package Fancyhdr Warning: \headheight is too small (12.0pt): 
+ Make it at least 14.49998pt.
+ We now make it that large for the rest of the document.
+ This may cause the page layout to be inconsistent, however.
 
 [6]
 
 Package Fancyhdr Warning: \fancyhead's `E' option without twoside option is use
-less on input line 160.
+less on input line 161.
 
 (./THESIS.lot)
 \tf@lot=\write5
@@ -1170,7 +1235,7 @@ less on input line 160.
 ]
 
 Package Fancyhdr Warning: \fancyhead's `E' option without twoside option is use
-less on input line 165.
+less on input line 166.
 
 (./THESIS.lof)
 \tf@lof=\write6
@@ -1181,227 +1246,908 @@ less on input line 165.
 ]
 
 Package Fancyhdr Warning: \fancyhead's `E' option without twoside option is use
-less on input line 172.
+less on input line 173.
 
 [9]
 
 Package Fancyhdr Warning: \fancyhead's `E' option without twoside option is use
-less on input line 182.
+less on input line 183.
 
 [10]
 
 Package Fancyhdr Warning: \fancyhead's `E' option without twoside option is use
-less on input line 199.
+less on input line 200.
 
 Chapter 1.
 [1
 
 ]
 
-Package natbib Warning: Citation `RN205' on page 2 undefined on input line 258.
+Package natbib Warning: Citation `RN205' on page 2 undefined on input line 259.
 
 
-[2] [3]
-LaTeX Font Info:    Try loading font information for TS1+lmr on input line 330.
+
+Package Fancyhdr Warning: \headheight is too small (12.0pt): 
+ Make it at least 14.49998pt.
+ We now make it that large for the rest of the document.
+ This may cause the page layout to be inconsistent, however.
+
+[2]
+
+Package Fancyhdr Warning: \headheight is too small (12.0pt): 
+ Make it at least 14.49998pt.
+ We now make it that large for the rest of the document.
+ This may cause the page layout to be inconsistent, however.
+
+[3]
+LaTeX Font Info:    Try loading font information for TS1+lmr on input line 331.
 
 (c:/Users/hedgi/AppData/Roaming/TinyTeX/texmf-dist/tex/latex/lm/ts1lmr.fd
 File: ts1lmr.fd 2009/10/30 v1.6 Font defs for Latin Modern
-) [4]
+)
+
+Package Fancyhdr Warning: \headheight is too small (12.0pt): 
+ Make it at least 14.49998pt.
+ We now make it that large for the rest of the document.
+ This may cause the page layout to be inconsistent, however.
+
+[4]
 
 Package Fancyhdr Warning: \fancyhead's `E' option without twoside option is use
-less on input line 339.
+less on input line 340.
 
 Chapter 2.
 [5
 
-] [6] [7] [8]
-Overfull \hbox (22.1476pt too wide) in paragraph at lines 540--541
+]
+
+Package Fancyhdr Warning: \headheight is too small (12.0pt): 
+ Make it at least 14.49998pt.
+ We now make it that large for the rest of the document.
+ This may cause the page layout to be inconsistent, however.
+
+[6]
+
+Package Fancyhdr Warning: \headheight is too small (12.0pt): 
+ Make it at least 14.49998pt.
+ We now make it that large for the rest of the document.
+ This may cause the page layout to be inconsistent, however.
+
+[7]
+
+Package Fancyhdr Warning: \headheight is too small (12.0pt): 
+ Make it at least 14.49998pt.
+ We now make it that large for the rest of the document.
+ This may cause the page layout to be inconsistent, however.
+
+[8]
+Overfull \hbox (22.1476pt too wide) in paragraph at lines 547--548
  [][] 
  []
 
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-[9] [10]
+
+Package Fancyhdr Warning: \headheight is too small (12.0pt): 
+ Make it at least 14.49998pt.
+ We now make it that large for the rest of the document.
+ This may cause the page layout to be inconsistent, however.
+
+[9]
+
+Package Fancyhdr Warning: \headheight is too small (12.0pt): 
+ Make it at least 14.49998pt.
+ We now make it that large for the rest of the document.
+ This may cause the page layout to be inconsistent, however.
+
+[10]
 LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <10> on input line 608.
+(Font)              <10> on input line 615.
 LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <7> on input line 608.
+(Font)              <7> on input line 615.
 LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <5> on input line 608.
+(Font)              <5> on input line 615.
+
+Package Fancyhdr Warning: \headheight is too small (12.0pt): 
+ Make it at least 14.49998pt.
+ We now make it that large for the rest of the document.
+ This may cause the page layout to be inconsistent, however.
+
 [11]
-<figures/oecd-comparison.PNG, id=898, 471.63702pt x 325.5914pt>
+<figures/oecd-comparison.PNG, id=904, 471.63702pt x 325.5914pt>
 File: figures/oecd-comparison.PNG Graphic file (type png)
 <use figures/oecd-comparison.PNG>
-Package pdftex.def Info: figures/oecd-comparison.PNG  used on input line 657.
+Package pdftex.def Info: figures/oecd-comparison.PNG  used on input line 664.
 (pdftex.def)             Requested size: 352.68338pt x 243.47256pt.
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
+
+Package Fancyhdr Warning: \headheight is too small (12.0pt): 
+ Make it at least 14.49998pt.
+ We now make it that large for the rest of the document.
+ This may cause the page layout to be inconsistent, however.
+
 [12]
 LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <10.95> on input line 681.
-[13 <./figures/oecd-comparison.PNG>] [14] [15] [16] [17] [18] [19] [20] [21] [2
-2] [23] [24] [25] [26] [27] [28] [29] [30] [31] [32]
+(Font)              <10.95> on input line 688.
 
-Package natbib Warning: Citation `RN' on page 33 undefined on input line 1480.
+Package Fancyhdr Warning: \headheight is too small (12.0pt): 
+ Make it at least 14.49998pt.
+ We now make it that large for the rest of the document.
+ This may cause the page layout to be inconsistent, however.
+
+[13 <./figures/oecd-comparison.PNG>]
+
+Package Fancyhdr Warning: \headheight is too small (12.0pt): 
+ Make it at least 14.49998pt.
+ We now make it that large for the rest of the document.
+ This may cause the page layout to be inconsistent, however.
+
+[14]
+
+Package Fancyhdr Warning: \headheight is too small (12.0pt): 
+ Make it at least 14.49998pt.
+ We now make it that large for the rest of the document.
+ This may cause the page layout to be inconsistent, however.
+
+[15]
+
+Package Fancyhdr Warning: \headheight is too small (12.0pt): 
+ Make it at least 14.49998pt.
+ We now make it that large for the rest of the document.
+ This may cause the page layout to be inconsistent, however.
+
+[16]
+
+Package Fancyhdr Warning: \headheight is too small (12.0pt): 
+ Make it at least 14.49998pt.
+ We now make it that large for the rest of the document.
+ This may cause the page layout to be inconsistent, however.
+
+[17]
+
+Package Fancyhdr Warning: \headheight is too small (12.0pt): 
+ Make it at least 14.49998pt.
+ We now make it that large for the rest of the document.
+ This may cause the page layout to be inconsistent, however.
+
+[18]
+
+Package Fancyhdr Warning: \headheight is too small (12.0pt): 
+ Make it at least 14.49998pt.
+ We now make it that large for the rest of the document.
+ This may cause the page layout to be inconsistent, however.
+
+[19]
+
+Package Fancyhdr Warning: \headheight is too small (12.0pt): 
+ Make it at least 14.49998pt.
+ We now make it that large for the rest of the document.
+ This may cause the page layout to be inconsistent, however.
+
+[20]
+
+LaTeX Warning: `h' float specifier changed to `ht'.
 
 
-Package natbib Warning: Citation `RN231' on page 33 undefined on input line 148
-7.
+Package Fancyhdr Warning: \headheight is too small (12.0pt): 
+ Make it at least 14.49998pt.
+ We now make it that large for the rest of the document.
+ This may cause the page layout to be inconsistent, however.
 
-[33] [34] [35] [36] [37] [38] [39] [40] [41] [42] [43] [44]
+[21]
+
+Package Fancyhdr Warning: \headheight is too small (12.0pt): 
+ Make it at least 14.49998pt.
+ We now make it that large for the rest of the document.
+ This may cause the page layout to be inconsistent, however.
+
+[22]
+
+Package Fancyhdr Warning: \headheight is too small (12.0pt): 
+ Make it at least 14.49998pt.
+ We now make it that large for the rest of the document.
+ This may cause the page layout to be inconsistent, however.
+
+[23]
+
+Package Fancyhdr Warning: \headheight is too small (12.0pt): 
+ Make it at least 14.49998pt.
+ We now make it that large for the rest of the document.
+ This may cause the page layout to be inconsistent, however.
+
+[24]
+
+Package Fancyhdr Warning: \headheight is too small (12.0pt): 
+ Make it at least 14.49998pt.
+ We now make it that large for the rest of the document.
+ This may cause the page layout to be inconsistent, however.
+
+[25]
+
+Package Fancyhdr Warning: \headheight is too small (12.0pt): 
+ Make it at least 14.49998pt.
+ We now make it that large for the rest of the document.
+ This may cause the page layout to be inconsistent, however.
+
+[26]
+
+Package Fancyhdr Warning: \headheight is too small (12.0pt): 
+ Make it at least 14.49998pt.
+ We now make it that large for the rest of the document.
+ This may cause the page layout to be inconsistent, however.
+
+[27]
+
+Package Fancyhdr Warning: \headheight is too small (12.0pt): 
+ Make it at least 14.49998pt.
+ We now make it that large for the rest of the document.
+ This may cause the page layout to be inconsistent, however.
+
+[28]
+
+Package Fancyhdr Warning: \headheight is too small (12.0pt): 
+ Make it at least 14.49998pt.
+ We now make it that large for the rest of the document.
+ This may cause the page layout to be inconsistent, however.
+
+[29]
+
+Package Fancyhdr Warning: \headheight is too small (12.0pt): 
+ Make it at least 14.49998pt.
+ We now make it that large for the rest of the document.
+ This may cause the page layout to be inconsistent, however.
+
+[30]
+
+Package Fancyhdr Warning: \headheight is too small (12.0pt): 
+ Make it at least 14.49998pt.
+ We now make it that large for the rest of the document.
+ This may cause the page layout to be inconsistent, however.
+
+[31]
+
+Package Fancyhdr Warning: \headheight is too small (12.0pt): 
+ Make it at least 14.49998pt.
+ We now make it that large for the rest of the document.
+ This may cause the page layout to be inconsistent, however.
+
+[32]
+
+Package natbib Warning: Citation `RN' on page 33 undefined on input line 1487.
+
+
+Package natbib Warning: Citation `RN231' on page 33 undefined on input line 149
+4.
+
+
+Package Fancyhdr Warning: \headheight is too small (12.0pt): 
+ Make it at least 14.49998pt.
+ We now make it that large for the rest of the document.
+ This may cause the page layout to be inconsistent, however.
+
+[33]
+
+Package Fancyhdr Warning: \headheight is too small (12.0pt): 
+ Make it at least 14.49998pt.
+ We now make it that large for the rest of the document.
+ This may cause the page layout to be inconsistent, however.
+
+[34]
+
+Package Fancyhdr Warning: \headheight is too small (12.0pt): 
+ Make it at least 14.49998pt.
+ We now make it that large for the rest of the document.
+ This may cause the page layout to be inconsistent, however.
+
+[35]
+
+Package Fancyhdr Warning: \headheight is too small (12.0pt): 
+ Make it at least 14.49998pt.
+ We now make it that large for the rest of the document.
+ This may cause the page layout to be inconsistent, however.
+
+[36]
+
+Package Fancyhdr Warning: \headheight is too small (12.0pt): 
+ Make it at least 14.49998pt.
+ We now make it that large for the rest of the document.
+ This may cause the page layout to be inconsistent, however.
+
+[37]
+
+Package Fancyhdr Warning: \headheight is too small (12.0pt): 
+ Make it at least 14.49998pt.
+ We now make it that large for the rest of the document.
+ This may cause the page layout to be inconsistent, however.
+
+[38]
+
+Package Fancyhdr Warning: \headheight is too small (12.0pt): 
+ Make it at least 14.49998pt.
+ We now make it that large for the rest of the document.
+ This may cause the page layout to be inconsistent, however.
+
+[39]
+
+Package Fancyhdr Warning: \headheight is too small (12.0pt): 
+ Make it at least 14.49998pt.
+ We now make it that large for the rest of the document.
+ This may cause the page layout to be inconsistent, however.
+
+[40]
+
+Package Fancyhdr Warning: \headheight is too small (12.0pt): 
+ Make it at least 14.49998pt.
+ We now make it that large for the rest of the document.
+ This may cause the page layout to be inconsistent, however.
+
+[41]
+
+Package Fancyhdr Warning: \headheight is too small (12.0pt): 
+ Make it at least 14.49998pt.
+ We now make it that large for the rest of the document.
+ This may cause the page layout to be inconsistent, however.
+
+[42]
+
+Package Fancyhdr Warning: \headheight is too small (12.0pt): 
+ Make it at least 14.49998pt.
+ We now make it that large for the rest of the document.
+ This may cause the page layout to be inconsistent, however.
+
+[43]
+
+Package Fancyhdr Warning: \headheight is too small (12.0pt): 
+ Make it at least 14.49998pt.
+ We now make it that large for the rest of the document.
+ This may cause the page layout to be inconsistent, however.
+
+[44]
 
 Package Fancyhdr Warning: \fancyhead's `E' option without twoside option is use
-less on input line 1954.
+less on input line 1961.
 
 Chapter 3.
 [45
 
-] [46] [47] [48]
-Underfull \hbox (badness 10000) in paragraph at lines 2131--2135
+]
+
+Package Fancyhdr Warning: \headheight is too small (12.0pt): 
+ Make it at least 14.49998pt.
+ We now make it that large for the rest of the document.
+ This may cause the page layout to be inconsistent, however.
+
+[46]
+
+Package Fancyhdr Warning: \headheight is too small (12.0pt): 
+ Make it at least 14.49998pt.
+ We now make it that large for the rest of the document.
+ This may cause the page layout to be inconsistent, however.
+
+[47]
+
+Package Fancyhdr Warning: \headheight is too small (12.0pt): 
+ Make it at least 14.49998pt.
+ We now make it that large for the rest of the document.
+ This may cause the page layout to be inconsistent, however.
+
+[48]
+Underfull \hbox (badness 10000) in paragraph at lines 2138--2142
 
  []
 
+
+Package Fancyhdr Warning: \headheight is too small (12.0pt): 
+ Make it at least 14.49998pt.
+ We now make it that large for the rest of the document.
+ This may cause the page layout to be inconsistent, however.
+
 [49]
-<figures/sd-corrplot.png, id=1882, 722.7pt x 578.16pt>
+<figures/sd-corrplot.png, id=1890, 722.7pt x 578.16pt>
 File: figures/sd-corrplot.png Graphic file (type png)
 <use figures/sd-corrplot.png>
-Package pdftex.def Info: figures/sd-corrplot.png  used on input line 2184.
+Package pdftex.def Info: figures/sd-corrplot.png  used on input line 2191.
 (pdftex.def)             Requested size: 396.7584pt x 317.40672pt.
 
 LaTeX Warning: No positions in optional float specifier.
-               Default added (so using `tbp') on input line 2201.
+               Default added (so using `tbp') on input line 2208.
 
 
 LaTeX Warning: No positions in optional float specifier.
-               Default added (so using `tbp') on input line 2265.
+               Default added (so using `tbp') on input line 2272.
 
-[50] [51 <./figures/sd-corrplot.png>] [52]
-<figures/item-response.png, id=1904, 578.16pt x 722.7pt>
+
+Package Fancyhdr Warning: \headheight is too small (12.0pt): 
+ Make it at least 14.49998pt.
+ We now make it that large for the rest of the document.
+ This may cause the page layout to be inconsistent, however.
+
+[50]
+
+Package Fancyhdr Warning: \headheight is too small (12.0pt): 
+ Make it at least 14.49998pt.
+ We now make it that large for the rest of the document.
+ This may cause the page layout to be inconsistent, however.
+
+[51 <./figures/sd-corrplot.png>]
+
+Package Fancyhdr Warning: \headheight is too small (12.0pt): 
+ Make it at least 14.49998pt.
+ We now make it that large for the rest of the document.
+ This may cause the page layout to be inconsistent, however.
+
+[52]
+<figures/item-response.png, id=1912, 578.16pt x 722.7pt>
 File: figures/item-response.png Graphic file (type png)
 <use figures/item-response.png>
-Package pdftex.def Info: figures/item-response.png  used on input line 2310.
+Package pdftex.def Info: figures/item-response.png  used on input line 2317.
 (pdftex.def)             Requested size: 396.76062pt x 495.95078pt.
-[53] [54 <./figures/item-response.png>]
-<figures/props.png, id=1915, 397.485pt x 433.62pt>
+
+Package Fancyhdr Warning: \headheight is too small (12.0pt): 
+ Make it at least 14.49998pt.
+ We now make it that large for the rest of the document.
+ This may cause the page layout to be inconsistent, however.
+
+[53]
+
+Package Fancyhdr Warning: \headheight is too small (12.0pt): 
+ Make it at least 14.49998pt.
+ We now make it that large for the rest of the document.
+ This may cause the page layout to be inconsistent, however.
+
+[54 <./figures/item-response.png>]
+<figures/props.png, id=1923, 397.485pt x 433.62pt>
 File: figures/props.png Graphic file (type png)
 <use figures/props.png>
-Package pdftex.def Info: figures/props.png  used on input line 2366.
+Package pdftex.def Info: figures/props.png  used on input line 2373.
 (pdftex.def)             Requested size: 396.7744pt x 432.8448pt.
-<figures/lg-by-age.png, id=1917, 505.89pt x 289.08pt>
+<figures/lg-by-age.png, id=1925, 505.89pt x 289.08pt>
 File: figures/lg-by-age.png Graphic file (type png)
 <use figures/lg-by-age.png>
-Package pdftex.def Info: figures/lg-by-age.png  used on input line 2385.
+Package pdftex.def Info: figures/lg-by-age.png  used on input line 2392.
 (pdftex.def)             Requested size: 396.76942pt x 226.72539pt.
-<figures/lg-by-sex.png, id=1919, 505.89pt x 433.62pt>
+<figures/lg-by-sex.png, id=1927, 505.89pt x 433.62pt>
 File: figures/lg-by-sex.png Graphic file (type png)
 <use figures/lg-by-sex.png>
-Package pdftex.def Info: figures/lg-by-sex.png  used on input line 2397.
+Package pdftex.def Info: figures/lg-by-sex.png  used on input line 2404.
 (pdftex.def)             Requested size: 396.76942pt x 340.08809pt.
-[55] [56 <./figures/props.png>]
-<figures/lg-by-dep.png, id=1931, 505.89pt x 433.62pt>
+
+Package Fancyhdr Warning: \headheight is too small (12.0pt): 
+ Make it at least 14.49998pt.
+ We now make it that large for the rest of the document.
+ This may cause the page layout to be inconsistent, however.
+
+[55]
+
+Package Fancyhdr Warning: \headheight is too small (12.0pt): 
+ Make it at least 14.49998pt.
+ We now make it that large for the rest of the document.
+ This may cause the page layout to be inconsistent, however.
+
+[56 <./figures/props.png>]
+<figures/lg-by-dep.png, id=1939, 505.89pt x 433.62pt>
 File: figures/lg-by-dep.png Graphic file (type png)
 <use figures/lg-by-dep.png>
-Package pdftex.def Info: figures/lg-by-dep.png  used on input line 2410.
+Package pdftex.def Info: figures/lg-by-dep.png  used on input line 2417.
 (pdftex.def)             Requested size: 396.76942pt x 340.08809pt.
-[57 <./figures/lg-by-age.png>] [58 <./figures/lg-by-sex.png (PNG copy)>] [59 <.
-/figures/lg-by-dep.png>] [60] [61] [62] [63] [64]
+
+Package Fancyhdr Warning: \headheight is too small (12.0pt): 
+ Make it at least 14.49998pt.
+ We now make it that large for the rest of the document.
+ This may cause the page layout to be inconsistent, however.
+
+[57 <./figures/lg-by-age.png>]
+
+Package Fancyhdr Warning: \headheight is too small (12.0pt): 
+ Make it at least 14.49998pt.
+ We now make it that large for the rest of the document.
+ This may cause the page layout to be inconsistent, however.
+
+[58 <./figures/lg-by-sex.png (PNG copy)>]
+
+Package Fancyhdr Warning: \headheight is too small (12.0pt): 
+ Make it at least 14.49998pt.
+ We now make it that large for the rest of the document.
+ This may cause the page layout to be inconsistent, however.
+
+[59 <./figures/lg-by-dep.png>]
+
+Package Fancyhdr Warning: \headheight is too small (12.0pt): 
+ Make it at least 14.49998pt.
+ We now make it that large for the rest of the document.
+ This may cause the page layout to be inconsistent, however.
+
+[60]
+
+Package Fancyhdr Warning: \headheight is too small (12.0pt): 
+ Make it at least 14.49998pt.
+ We now make it that large for the rest of the document.
+ This may cause the page layout to be inconsistent, however.
+
+[61]
+
+Package Fancyhdr Warning: \headheight is too small (12.0pt): 
+ Make it at least 14.49998pt.
+ We now make it that large for the rest of the document.
+ This may cause the page layout to be inconsistent, however.
+
+[62]
+
+Package Fancyhdr Warning: \headheight is too small (12.0pt): 
+ Make it at least 14.49998pt.
+ We now make it that large for the rest of the document.
+ This may cause the page layout to be inconsistent, however.
+
+[63]
+
+Package Fancyhdr Warning: \headheight is too small (12.0pt): 
+ Make it at least 14.49998pt.
+ We now make it that large for the rest of the document.
+ This may cause the page layout to be inconsistent, however.
+
+[64]
 
 Package Fancyhdr Warning: \fancyhead's `E' option without twoside option is use
-less on input line 2593.
+less on input line 2600.
 
 Chapter 4.
 [65
 
-] [66] [67] [68] [69] [70] [71] [72]
+]
+
+Package Fancyhdr Warning: \headheight is too small (12.0pt): 
+ Make it at least 14.49998pt.
+ We now make it that large for the rest of the document.
+ This may cause the page layout to be inconsistent, however.
+
+[66]
+
+Package Fancyhdr Warning: \headheight is too small (12.0pt): 
+ Make it at least 14.49998pt.
+ We now make it that large for the rest of the document.
+ This may cause the page layout to be inconsistent, however.
+
+[67]
+
+Package Fancyhdr Warning: \headheight is too small (12.0pt): 
+ Make it at least 14.49998pt.
+ We now make it that large for the rest of the document.
+ This may cause the page layout to be inconsistent, however.
+
+[68]
+
+Package Fancyhdr Warning: \headheight is too small (12.0pt): 
+ Make it at least 14.49998pt.
+ We now make it that large for the rest of the document.
+ This may cause the page layout to be inconsistent, however.
+
+[69]
+
+Package Fancyhdr Warning: \headheight is too small (12.0pt): 
+ Make it at least 14.49998pt.
+ We now make it that large for the rest of the document.
+ This may cause the page layout to be inconsistent, however.
+
+[70]
+
+Package Fancyhdr Warning: \headheight is too small (12.0pt): 
+ Make it at least 14.49998pt.
+ We now make it that large for the rest of the document.
+ This may cause the page layout to be inconsistent, however.
+
+[71]
+
+Package Fancyhdr Warning: \headheight is too small (12.0pt): 
+ Make it at least 14.49998pt.
+ We now make it that large for the rest of the document.
+ This may cause the page layout to be inconsistent, however.
+
+[72]
 
 Package Fancyhdr Warning: \fancyhead's `E' option without twoside option is use
-less on input line 2860.
+less on input line 2867.
 
 Chapter 5.
 [73
 
-] [74]
+]
+
+Package Fancyhdr Warning: \headheight is too small (12.0pt): 
+ Make it at least 14.49998pt.
+ We now make it that large for the rest of the document.
+ This may cause the page layout to be inconsistent, however.
+
+[74]
 
 Package Fancyhdr Warning: \fancyhead's `E' option without twoside option is use
-less on input line 2901.
+less on input line 2908.
 
 Chapter 6.
 [75
 
-] [76]
+]
 
-LaTeX Warning: Reference `sec:safe-haven' on page 77 undefined on input line 30
-14.
+Package Fancyhdr Warning: \headheight is too small (12.0pt): 
+ Make it at least 14.49998pt.
+ We now make it that large for the rest of the document.
+ This may cause the page layout to be inconsistent, however.
+
+[76]
+
+Package Fancyhdr Warning: \headheight is too small (12.0pt): 
+ Make it at least 14.49998pt.
+ We now make it that large for the rest of the document.
+ This may cause the page layout to be inconsistent, however.
 
 [77]
-<figures/play_fig_1.png, id=2258, 317.988pt x 289.08pt>
+
+Package Fancyhdr Warning: \headheight is too small (12.0pt): 
+ Make it at least 14.49998pt.
+ We now make it that large for the rest of the document.
+ This may cause the page layout to be inconsistent, however.
+
+[78]
+LaTeX Font Info:    Try loading font information for T1+lmtt on input line 3094
+.
+(c:/Users/hedgi/AppData/Roaming/TinyTeX/texmf-dist/tex/latex/lm/t1lmtt.fd
+File: t1lmtt.fd 2009/10/30 v1.6 Font defs for Latin Modern
+)
+
+LaTeX Warning: Reference `sec:safe-haven' on page 79 undefined on input line 30
+98.
+
+
+Package Fancyhdr Warning: \headheight is too small (12.0pt): 
+ Make it at least 14.49998pt.
+ We now make it that large for the rest of the document.
+ This may cause the page layout to be inconsistent, however.
+
+[79]
+<figures/play_fig_1.png, id=2299, 317.988pt x 289.08pt>
 File: figures/play_fig_1.png Graphic file (type png)
 <use figures/play_fig_1.png>
-Package pdftex.def Info: figures/play_fig_1.png  used on input line 3035.
+Package pdftex.def Info: figures/play_fig_1.png  used on input line 3137.
 (pdftex.def)             Requested size: 318.00175pt x 289.09251pt.
 
 LaTeX Warning: No positions in optional float specifier.
-               Default added (so using `tbp') on input line 3043.
+               Default added (so using `tbp') on input line 3145.
 
 
 LaTeX Warning: No positions in optional float specifier.
-               Default added (so using `tbp') on input line 3061.
+               Default added (so using `tbp') on input line 3163.
 
-<figures/gap_plot.png, id=2262, 317.988pt x 289.08pt>
+
+Package Fancyhdr Warning: \headheight is too small (12.0pt): 
+ Make it at least 14.49998pt.
+ We now make it that large for the rest of the document.
+ This may cause the page layout to be inconsistent, however.
+
+[80]
+
+Package Fancyhdr Warning: \headheight is too small (12.0pt): 
+ Make it at least 14.49998pt.
+ We now make it that large for the rest of the document.
+ This may cause the page layout to be inconsistent, however.
+
+[81 <./figures/play_fig_1.png (PNG copy)>]
+<figures/gap_plot.png, id=2312, 317.988pt x 289.08pt>
 File: figures/gap_plot.png Graphic file (type png)
 <use figures/gap_plot.png>
-Package pdftex.def Info: figures/gap_plot.png  used on input line 3094.
+Package pdftex.def Info: figures/gap_plot.png  used on input line 3196.
 (pdftex.def)             Requested size: 318.00175pt x 289.09251pt.
 
 LaTeX Warning: No positions in optional float specifier.
-               Default added (so using `tbp') on input line 3103.
+               Default added (so using `tbp') on input line 3205.
 
-<figures/gap_plot_2.png, id=2265, 317.988pt x 289.08pt>
+<figures/gap_plot_2.png, id=2315, 317.988pt x 289.08pt>
 File: figures/gap_plot_2.png Graphic file (type png)
 <use figures/gap_plot_2.png>
-Package pdftex.def Info: figures/gap_plot_2.png  used on input line 3129.
+Package pdftex.def Info: figures/gap_plot_2.png  used on input line 3231.
 (pdftex.def)             Requested size: 318.00175pt x 289.09251pt.
-[78] [79 <./figures/play_fig_1.png (PNG copy)>] [80 <./figures/gap_plot.png>] [
-81 <./figures/gap_plot_2.png>] [82]
+
+Package Fancyhdr Warning: \headheight is too small (12.0pt): 
+ Make it at least 14.49998pt.
+ We now make it that large for the rest of the document.
+ This may cause the page layout to be inconsistent, however.
+
+[82 <./figures/gap_plot.png>]
+
+Package Fancyhdr Warning: \headheight is too small (12.0pt): 
+ Make it at least 14.49998pt.
+ We now make it that large for the rest of the document.
+ This may cause the page layout to be inconsistent, however.
+
+[83 <./figures/gap_plot_2.png>]
+
+Package Fancyhdr Warning: \headheight is too small (12.0pt): 
+ Make it at least 14.49998pt.
+ We now make it that large for the rest of the document.
+ This may cause the page layout to be inconsistent, however.
+
+[84]
 
 Package Fancyhdr Warning: \fancyhead's `E' option without twoside option is use
-less on input line 3147.
+less on input line 3249.
 
 Chapter 7.
-[83
-
-] [84]
-
-Package Fancyhdr Warning: \fancyhead's `E' option without twoside option is use
-less on input line 3209.
-
-Chapter 8.
 [85
 
 ]
 
-Package Fancyhdr Warning: \fancyhead's `E' option without twoside option is use
-less on input line 3224.
+Package Fancyhdr Warning: \headheight is too small (12.0pt): 
+ Make it at least 14.49998pt.
+ We now make it that large for the rest of the document.
+ This may cause the page layout to be inconsistent, however.
 
-[86
+[86]
+
+Package Fancyhdr Warning: \fancyhead's `E' option without twoside option is use
+less on input line 3311.
+
+Chapter 8.
+[87
+
+]
+
+Package Fancyhdr Warning: \fancyhead's `E' option without twoside option is use
+less on input line 3326.
+
+[88
 
 
 ]
 
-pdfTeX warning: pdflatex.exe (file ./data/college-ethics.pdf): PDF inclusion: f
-ound PDF version <1.7>, but at most version <1.5> allowed
-<data/college-ethics.pdf, id=2310, 597.55246pt x 845.07724pt>
-File: data/college-ethics.pdf Graphic file (type pdf)
-<use data/college-ethics.pdf>
-Package pdftex.def Info: data/college-ethics.pdf  used on input line 3230.
-(pdftex.def)             Requested size: 321.8985pt x 455.23886pt.
-[87
+pdfTeX warning: pdflatex.exe (file ./data/renf-ethics.pdf): PDF inclusion: foun
+d PDF version <1.7>, but at most version <1.5> allowed
+<data/renf-ethics.pdf, id=2350, 597.55246pt x 845.07724pt>
+File: data/renf-ethics.pdf Graphic file (type pdf)
+<use data/renf-ethics.pdf>
+Package pdftex.def Info: data/renf-ethics.pdf  used on input line 3332.
+(pdftex.def)             Requested size: 439.48299pt x 621.5305pt.
 
- <./data/college-ethics.pdf>] [88
 
-] [89
+pdfTeX warning: pdflatex.exe (file ./data/renf-ethics.pdf): PDF inclusion: foun
+d PDF version <1.7>, but at most version <1.5> allowed
+File: data/renf-ethics.pdf Graphic file (type pdf)
+<use data/renf-ethics.pdf>
+Package pdftex.def Info: data/renf-ethics.pdf  used on input line 3332.
+(pdftex.def)             Requested size: 439.48299pt x 621.5305pt.
+
+
+pdfTeX warning: pdflatex.exe (file ./data/renf-ethics.pdf): PDF inclusion: foun
+d PDF version <1.7>, but at most version <1.5> allowed
+
+
+pdfTeX warning: pdflatex.exe (file ./data/renf-ethics.pdf): PDF inclusion: foun
+d PDF version <1.7>, but at most version <1.5> allowed
+<data/renf-ethics.pdf, id=2353, page=1, 597.55246pt x 845.07724pt>
+File: data/renf-ethics.pdf Graphic file (type pdf)
+<use data/renf-ethics.pdf, page 1>
+Package pdftex.def Info: data/renf-ethics.pdf , page1 used on input line 3332.
+(pdftex.def)             Requested size: 597.551pt x 845.07518pt.
+File: data/renf-ethics.pdf Graphic file (type pdf)
+<use data/renf-ethics.pdf, page 1>
+Package pdftex.def Info: data/renf-ethics.pdf , page1 used on input line 3332.
+(pdftex.def)             Requested size: 562.1644pt x 795.03036pt.
+[89
+
+]
+File: data/renf-ethics.pdf Graphic file (type pdf)
+<use data/renf-ethics.pdf, page 1>
+Package pdftex.def Info: data/renf-ethics.pdf , page1 used on input line 3332.
+(pdftex.def)             Requested size: 562.1644pt x 795.03036pt.
+File: data/renf-ethics.pdf Graphic file (type pdf)
+<use data/renf-ethics.pdf, page 1>
+Package pdftex.def Info: data/renf-ethics.pdf , page1 used on input line 3332.
+(pdftex.def)             Requested size: 562.1644pt x 795.03036pt.
+File: data/renf-ethics.pdf Graphic file (type pdf)
+<use data/renf-ethics.pdf, page 1>
+Package pdftex.def Info: data/renf-ethics.pdf , page1 used on input line 3332.
+(pdftex.def)             Requested size: 562.1644pt x 795.03036pt.
+[90 <./data/renf-ethics.pdf>]
+
+pdfTeX warning: pdflatex.exe (file ./data/renf-rac.pdf): PDF inclusion: found P
+DF version <1.7>, but at most version <1.5> allowed
+<data/renf-rac.pdf, id=2422, 597.55246pt x 845.07724pt>
+File: data/renf-rac.pdf Graphic file (type pdf)
+<use data/renf-rac.pdf>
+Package pdftex.def Info: data/renf-rac.pdf  used on input line 3336.
+(pdftex.def)             Requested size: 439.48299pt x 621.5305pt.
+
+
+pdfTeX warning: pdflatex.exe (file ./data/renf-rac.pdf): PDF inclusion: found P
+DF version <1.7>, but at most version <1.5> allowed
+File: data/renf-rac.pdf Graphic file (type pdf)
+<use data/renf-rac.pdf>
+Package pdftex.def Info: data/renf-rac.pdf  used on input line 3336.
+(pdftex.def)             Requested size: 439.48299pt x 621.5305pt.
+
+
+pdfTeX warning: pdflatex.exe (file ./data/renf-rac.pdf): PDF inclusion: found P
+DF version <1.7>, but at most version <1.5> allowed
+
+
+pdfTeX warning: pdflatex.exe (file ./data/renf-rac.pdf): PDF inclusion: found P
+DF version <1.7>, but at most version <1.5> allowed
+<data/renf-rac.pdf, id=2425, page=1, 597.55246pt x 845.07724pt>
+File: data/renf-rac.pdf Graphic file (type pdf)
+<use data/renf-rac.pdf, page 1>
+Package pdftex.def Info: data/renf-rac.pdf , page1 used on input line 3336.
+(pdftex.def)             Requested size: 597.551pt x 845.07518pt.
+File: data/renf-rac.pdf Graphic file (type pdf)
+<use data/renf-rac.pdf, page 1>
+Package pdftex.def Info: data/renf-rac.pdf , page1 used on input line 3336.
+(pdftex.def)             Requested size: 562.1644pt x 795.03036pt.
+[91
+
+]
+File: data/renf-rac.pdf Graphic file (type pdf)
+<use data/renf-rac.pdf, page 1>
+Package pdftex.def Info: data/renf-rac.pdf , page1 used on input line 3336.
+(pdftex.def)             Requested size: 562.1644pt x 795.03036pt.
+File: data/renf-rac.pdf Graphic file (type pdf)
+<use data/renf-rac.pdf, page 1>
+Package pdftex.def Info: data/renf-rac.pdf , page1 used on input line 3336.
+(pdftex.def)             Requested size: 562.1644pt x 795.03036pt.
+File: data/renf-rac.pdf Graphic file (type pdf)
+<use data/renf-rac.pdf, page 1>
+Package pdftex.def Info: data/renf-rac.pdf , page1 used on input line 3336.
+(pdftex.def)             Requested size: 562.1644pt x 795.03036pt.
+[92 <./data/renf-rac.pdf>]
+
+pdfTeX warning: pdflatex.exe (file ./data/renf-rac.pdf): PDF inclusion: found P
+DF version <1.7>, but at most version <1.5> allowed
+<data/renf-rac.pdf, id=2511, page=2, 597.55246pt x 845.07724pt>
+File: data/renf-rac.pdf Graphic file (type pdf)
+<use data/renf-rac.pdf, page 2>
+Package pdftex.def Info: data/renf-rac.pdf , page2 used on input line 3336.
+(pdftex.def)             Requested size: 562.1644pt x 795.03036pt.
+File: data/renf-rac.pdf Graphic file (type pdf)
+<use data/renf-rac.pdf, page 2>
+Package pdftex.def Info: data/renf-rac.pdf , page2 used on input line 3336.
+(pdftex.def)             Requested size: 562.1644pt x 795.03036pt.
+File: data/renf-rac.pdf Graphic file (type pdf)
+<use data/renf-rac.pdf, page 2>
+Package pdftex.def Info: data/renf-rac.pdf , page2 used on input line 3336.
+(pdftex.def)             Requested size: 562.1644pt x 795.03036pt.
+[93 <./data/renf-rac.pdf>]
+
+pdfTeX warning: pdflatex.exe (file ./data/renf-rac.pdf): PDF inclusion: found P
+DF version <1.7>, but at most version <1.5> allowed
+<data/renf-rac.pdf, id=2532, page=3, 597.55246pt x 845.07724pt>
+File: data/renf-rac.pdf Graphic file (type pdf)
+<use data/renf-rac.pdf, page 3>
+Package pdftex.def Info: data/renf-rac.pdf , page3 used on input line 3336.
+(pdftex.def)             Requested size: 562.1644pt x 795.03036pt.
+File: data/renf-rac.pdf Graphic file (type pdf)
+<use data/renf-rac.pdf, page 3>
+Package pdftex.def Info: data/renf-rac.pdf , page3 used on input line 3336.
+(pdftex.def)             Requested size: 562.1644pt x 795.03036pt.
+File: data/renf-rac.pdf Graphic file (type pdf)
+<use data/renf-rac.pdf, page 3>
+Package pdftex.def Info: data/renf-rac.pdf , page3 used on input line 3336.
+(pdftex.def)             Requested size: 562.1644pt x 795.03036pt.
+[94 <./data/renf-rac.pdf>]
+
+pdfTeX warning: pdflatex.exe (file ./data/renf-rac.pdf): PDF inclusion: found P
+DF version <1.7>, but at most version <1.5> allowed
+<data/renf-rac.pdf, id=2538, page=4, 597.55246pt x 845.07724pt>
+File: data/renf-rac.pdf Graphic file (type pdf)
+<use data/renf-rac.pdf, page 4>
+Package pdftex.def Info: data/renf-rac.pdf , page4 used on input line 3336.
+(pdftex.def)             Requested size: 562.1644pt x 795.03036pt.
+File: data/renf-rac.pdf Graphic file (type pdf)
+<use data/renf-rac.pdf, page 4>
+Package pdftex.def Info: data/renf-rac.pdf , page4 used on input line 3336.
+(pdftex.def)             Requested size: 562.1644pt x 795.03036pt.
+File: data/renf-rac.pdf Graphic file (type pdf)
+<use data/renf-rac.pdf, page 4>
+Package pdftex.def Info: data/renf-rac.pdf , page4 used on input line 3336.
+(pdftex.def)             Requested size: 562.1644pt x 795.03036pt.
+[95 <./data/renf-rac.pdf>] [96
 
 ] (./THESIS.bbl
 Underfull \hbox (badness 2126) in paragraph at lines 31--37
@@ -1439,7 +2185,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 31--37
 le % 20of % 20Social %
  []
 
-[90
+[97
 
 
 ]
@@ -1460,7 +2206,13 @@ Underfull \hbox (badness 4168) in paragraph at lines 86--91
 loads / docs / report / 2016 / nr _ 160310 _
  []
 
-[91]
+
+Package Fancyhdr Warning: \headheight is too small (12.0pt): 
+ Make it at least 14.49998pt.
+ We now make it that large for the rest of the document.
+ This may cause the page layout to be inconsistent, however.
+
+[98]
 Underfull \hbox (badness 10000) in paragraph at lines 194--200
 []\T1/lmr/m/n/12 (+20) David Buck and David Maguire.  In-equal-i-ties in life e
 x-
@@ -1490,7 +2242,13 @@ Underfull \hbox (badness 10000) in paragraph at lines 194--200
 logue = none & collection =
  []
 
-[92]
+
+Package Fancyhdr Warning: \headheight is too small (12.0pt): 
+ Make it at least 14.49998pt.
+ We now make it that large for the rest of the document.
+ This may cause the page layout to be inconsistent, however.
+
+[99]
 Underfull \hbox (badness 2556) in paragraph at lines 209--215
 []\T1/lmr/m/n/12 (+20) L. Burgess.  Spice brief-ing. in-te-gra-tion of health a
 nd so-cial care: In-ter-
@@ -1520,7 +2278,13 @@ Underfull \hbox (badness 1178) in paragraph at lines 261--266
 l care: op-tions for
  []
 
-[93]
+
+Package Fancyhdr Warning: \headheight is too small (12.0pt): 
+ Make it at least 14.49998pt.
+ We now make it that large for the rest of the document.
+ This may cause the page layout to be inconsistent, however.
+
+[100]
 Underfull \hbox (badness 1953) in paragraph at lines 316--324
 \T1/lmr/m/n/12 (+20) Hos-pi-tal ad-mis-sions among peo-ple 65+ re-lated to mul-
 ti-mor-bid-ity, mu-nic-i-
@@ -1538,7 +2302,20 @@ Underfull \hbox (badness 10000) in paragraph at lines 338--346
  2000 . 00281 . x . pdf ? v = 1 & t = ihfcdbp2 & s =
  []
 
-[94] [95]
+
+Package Fancyhdr Warning: \headheight is too small (12.0pt): 
+ Make it at least 14.49998pt.
+ We now make it that large for the rest of the document.
+ This may cause the page layout to be inconsistent, however.
+
+[101]
+
+Package Fancyhdr Warning: \headheight is too small (12.0pt): 
+ Make it at least 14.49998pt.
+ We now make it that large for the rest of the document.
+ This may cause the page layout to be inconsistent, however.
+
+[102]
 Underfull \hbox (badness 1242) in paragraph at lines 435--443
 []\T1/lmr/m/n/12 (+20) Tony Evans.  Pro-fes-sion-als, man-agers and dis-cre-tio
 n: Cri-tiquing street-level
@@ -1550,7 +2327,20 @@ Underfull \hbox (badness 2941) in paragraph at lines 435--443
  of So-cial Work\T1/lmr/m/n/12 (+20) , 41(2):368--386, 2010.
  []
 
-[96] [97]
+
+Package Fancyhdr Warning: \headheight is too small (12.0pt): 
+ Make it at least 14.49998pt.
+ We now make it that large for the rest of the document.
+ This may cause the page layout to be inconsistent, however.
+
+[103]
+
+Package Fancyhdr Warning: \headheight is too small (12.0pt): 
+ Make it at least 14.49998pt.
+ We now make it that large for the rest of the document.
+ This may cause the page layout to be inconsistent, however.
+
+[104]
 Underfull \hbox (badness 2744) in paragraph at lines 564--572
 \T1/lmr/m/n/12 (+20) co-mor-bid-ity: a re-view.  \T1/lmr/m/it/12 (+20) Jour-nal
  of clin-i-cal epi-demi-ol-ogy\T1/lmr/m/n/12 (+20) , 54(7):661--674,
@@ -1586,7 +2376,13 @@ Underfull \hbox (badness 10000) in paragraph at lines 607--614
 / ^^\eld / ^^\eld _ publication _ ^^\le /
  []
 
-[98]
+
+Package Fancyhdr Warning: \headheight is too small (12.0pt): 
+ Make it at least 14.49998pt.
+ We now make it that large for the rest of the document.
+ This may cause the page layout to be inconsistent, however.
+
+[105]
 Underfull \hbox (badness 1616) in paragraph at lines 692--697
 []\T1/lmr/m/n/12 (+20) R.; Humphries, R.; Thorlby, H.; Holder, P.; Hall, and A.
  Charles.  So-
@@ -1622,7 +2418,20 @@ Underfull \hbox (badness 3168) in paragraph at lines 700--710
 2):134--141, 2012.  ISSN 1544-1709.
  []
 
-[99] [100]
+
+Package Fancyhdr Warning: \headheight is too small (12.0pt): 
+ Make it at least 14.49998pt.
+ We now make it that large for the rest of the document.
+ This may cause the page layout to be inconsistent, however.
+
+[106]
+
+Package Fancyhdr Warning: \headheight is too small (12.0pt): 
+ Make it at least 14.49998pt.
+ We now make it that large for the rest of the document.
+ This may cause the page layout to be inconsistent, however.
+
+[107]
 Underfull \hbox (badness 3029) in paragraph at lines 787--799
 []\T1/lmr/m/n/12 (+20) Hal Kendig, Nicole Meal-ing, Rachel Carr, Sanja Lu-jic, 
 Julie Byles, and
@@ -1670,7 +2479,13 @@ Underfull \hbox (badness 10000) in paragraph at lines 787--799
  x / asset / j . 1365-[]2524 . 2011 . 01040 . x . pdf ?
  []
 
-[101]
+
+Package Fancyhdr Warning: \headheight is too small (12.0pt): 
+ Make it at least 14.49998pt.
+ We now make it that large for the rest of the document.
+ This may cause the page layout to be inconsistent, however.
+
+[108]
 Underfull \hbox (badness 10000) in paragraph at lines 857--867
 \T1/lmr/m/n/12 (+20) 0-[]S0398762014006816-[]main . pdf ? _tid = 2c292592-[]6ec
 f-[]11e5-[]9c03-[]00000aab0f6b &
@@ -1694,13 +2509,25 @@ Underfull \hbox (badness 10000) in paragraph at lines 887--894
 & acdnat = 1490267333 _
  []
 
-[102]
+
+Package Fancyhdr Warning: \headheight is too small (12.0pt): 
+ Make it at least 14.49998pt.
+ We now make it that large for the rest of the document.
+ This may cause the page layout to be inconsistent, however.
+
+[109]
 Underfull \hbox (badness 10000) in paragraph at lines 953--961
 \T1/lmr/m/n/12 (+20) 0-[]S1568163711000249-[]main . pdf ? _tid = 229^^[4b2-[]65
 e5-[]11e5-[]91c1-[]00000aab0f02 &
  []
 
-[103]
+
+Package Fancyhdr Warning: \headheight is too small (12.0pt): 
+ Make it at least 14.49998pt.
+ We now make it that large for the rest of the document.
+ This may cause the page layout to be inconsistent, however.
+
+[110]
 Underfull \hbox (badness 10000) in paragraph at lines 1046--1051
 \T1/lmr/m/n/12 (+20) documents / Additional / C-[]Community _ services _ for _ 
 persons _ with _ disabilities /
@@ -1712,7 +2539,13 @@ Overfull \hbox (13.9627pt too wide) in paragraph at lines 1053--1059
 eas-[]with-[]the-[]worst-[]health-[]and-[]deprivation/$[][]. 
  []
 
-[104]
+
+Package Fancyhdr Warning: \headheight is too small (12.0pt): 
+ Make it at least 14.49998pt.
+ We now make it that large for the rest of the document.
+ This may cause the page layout to be inconsistent, however.
+
+[111]
 Underfull \hbox (badness 2261) in paragraph at lines 1106--1111
 []\T1/lmr/m/n/12 (+20) NRS.  Ren-frew-shire couc-nil area - de-mo-graphic fact-
 sheet.  Re-port, 2015.
@@ -1742,180 +2575,242 @@ Underfull \hbox (badness 1383) in paragraph at lines 1146--1151
 lth % 20state % 20life % 20expectancies ,[]
  []
 
-[105]
-Underfull \hbox (badness 1014) in paragraph at lines 1179--1188
+
+Package Fancyhdr Warning: \headheight is too small (12.0pt): 
+ Make it at least 14.49998pt.
+ We now make it that large for the rest of the document.
+ This may cause the page layout to be inconsistent, however.
+
+[112]
+Underfull \hbox (badness 1014) in paragraph at lines 1185--1194
 []\T1/lmr/m/n/12 (+20) Anthony J Perkins, Kurt Kroenke, Jür-gen Unützer, Wayne 
 Ka-ton, John W
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 1179--1188
+Underfull \hbox (badness 10000) in paragraph at lines 1185--1194
 [][]$\T1/lmr/m/n/12 (+20) http : / / ac . els-[]cdn . com / S0895435604000812 /
  1-[]s2 . 0-[]S0895435604000812-[]main .
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 1179--1188
+Underfull \hbox (badness 10000) in paragraph at lines 1185--1194
 \T1/lmr/m/n/12 (+20) pdf ? _tid = 20def0d8-[]6db5-[]11e5-[]9bd1-[]00000aacb35f 
 & acdnat = 1444306221 _
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 1215--1221
+Underfull \hbox (badness 10000) in paragraph at lines 1221--1227
 \T1/lmr/m/n/12 (+20) Resources / Housing / Support _ materials / Other _ report
 s _ and _ guidance / The _
  []
 
-[106]
-Underfull \hbox (badness 10000) in paragraph at lines 1223--1229
+
+Package Fancyhdr Warning: \headheight is too small (12.0pt): 
+ Make it at least 14.49998pt.
+ We now make it that large for the rest of the document.
+ This may cause the page layout to be inconsistent, however.
+
+[113]
+Underfull \hbox (badness 10000) in paragraph at lines 1229--1235
 [][]$\T1/lmr/m/n/12 (+3) http : / / calls . ac . uk / wp-[]content / uploads / 
 ^^\nal _ report _ -[] _ assessing _ socio-[]economic _
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 1223--1229
+Underfull \hbox (badness 10000) in paragraph at lines 1229--1235
 \T1/lmr/m/n/12 (+20) inequalities _ in _ mortality _ and _ other _ health _ out
 comes _ at _ the _ scottish _
  []
 
 
-Underfull \hbox (badness 1117) in paragraph at lines 1267--1272
+Underfull \hbox (badness 1117) in paragraph at lines 1273--1278
 []\T1/lmr/m/n/12 (+20) Renfrewshire-Council.  Cor-po-rate records man-age-ment 
 pol-icy.  Re-port, 2015.
  []
 
 
-Underfull \hbox (badness 1082) in paragraph at lines 1267--1272
+Underfull \hbox (badness 1082) in paragraph at lines 1273--1278
 \T1/lmr/m/n/12 (+20) URL [][]$http : / / www . renfrewshire . gov . uk / media 
 / 2763 / Records-[]Management-[]Policy /
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 1274--1279
+Underfull \hbox (badness 10000) in paragraph at lines 1280--1285
 []\T1/lmr/m/n/12 (+20) Ruth Robert-son, Sarah Gre-gory, and Joni Jab-bal.  The 
 so-cial
  []
 
 
-Underfull \hbox (badness 6412) in paragraph at lines 1274--1279
+Underfull \hbox (badness 6412) in paragraph at lines 1280--1285
 \T1/lmr/m/n/12 (+20) care and health sys-tems of nine coun-tries.  Re-port, 201
 4.  URL
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 1274--1279
+Underfull \hbox (badness 10000) in paragraph at lines 1280--1285
 [][]$\T1/lmr/m/n/12 (+20) http : / / www . commed . vcu . edu / IntroPH / Commu
 nity _ Assessment / 2014 /
  []
 
-[107] [108]
-Underfull \hbox (badness 10000) in paragraph at lines 1387--1392
+
+Package Fancyhdr Warning: \headheight is too small (12.0pt): 
+ Make it at least 14.49998pt.
+ We now make it that large for the rest of the document.
+ This may cause the page layout to be inconsistent, however.
+
+[114]
+
+Package Fancyhdr Warning: \headheight is too small (12.0pt): 
+ Make it at least 14.49998pt.
+ We now make it that large for the rest of the document.
+ This may cause the page layout to be inconsistent, however.
+
+[115]
+Underfull \hbox (badness 10000) in paragraph at lines 1399--1404
 [][]$\T1/lmr/m/n/12 (+18) http : / / www . gov . scot / Topics / Health / Polic
 y / Adult-[]Health-[]SocialCare-[]Integration /
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 1432--1437
+Underfull \hbox (badness 10000) in paragraph at lines 1444--1449
 \T1/lmr/m/n/12 (+20) Re-port, 2017b.  URL [][]$http : / / www . gov . scot / To
 pics / Health / Policy /
  []
 
-[109]
-Underfull \hbox (badness 2837) in paragraph at lines 1497--1506
+
+Package Fancyhdr Warning: \headheight is too small (12.0pt): 
+ Make it at least 14.49998pt.
+ We now make it that large for the rest of the document.
+ This may cause the page layout to be inconsistent, however.
+
+[116]
+Underfull \hbox (badness 2837) in paragraph at lines 1515--1524
 []\T1/lmr/m/n/12 (+20) Judith Sin-nige, Joze Braspen-ning, Fran-cois Schelle-vi
 s, Irina Stirbu-Wagner,
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 1497--1506
+Underfull \hbox (badness 10000) in paragraph at lines 1515--1524
 [][]$\T1/lmr/m/n/12 (+20) <[]GotoISI>[] : / / WOS : 000327221600142http : / / w
 ww . plosone . org / article / fetchObject .
  []
 
-[110]
-Underfull \hbox (badness 5274) in paragraph at lines 1539--1547
+
+Package Fancyhdr Warning: \headheight is too small (12.0pt): 
+ Make it at least 14.49998pt.
+ We now make it that large for the rest of the document.
+ This may cause the page layout to be inconsistent, however.
+
+[117]
+Underfull \hbox (badness 5274) in paragraph at lines 1557--1565
 []\T1/lmr/m/n/12 (+20) Ailsa Stew-art, Al-i-son Petch, and Lisa Cur-tice.  Mov-
 ing to-wards in-te-
  []
 
 
-Underfull \hbox (badness 1163) in paragraph at lines 1539--1547
+Underfull \hbox (badness 1163) in paragraph at lines 1557--1565
 \T1/lmr/m/n/12 (+20) grated work-ing in health and so-cial care in scot-land: f
 rom maze to ma-
  []
 
 
-Underfull \hbox (badness 3250) in paragraph at lines 1539--1547
+Underfull \hbox (badness 3250) in paragraph at lines 1557--1565
 \T1/lmr/m/n/12 (+20) 1820.  URL [][]$Movingtowardsintegratedworkinginhealthands
 ocialcareinScotland :
  []
 
 
-Underfull \hbox (badness 1360) in paragraph at lines 1558--1564
+Underfull \hbox (badness 1360) in paragraph at lines 1576--1582
 []\T1/lmr/m/n/12 (+20) Julian Tudor-Hart.  The in-verse care law.  \T1/lmr/m/it
 /12 (+20) The Lancet\T1/lmr/m/n/12 (+20) , 297(7696):405--412,
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 1582--1588
+Underfull \hbox (badness 10000) in paragraph at lines 1600--1606
 []\T1/lmr/m/n/12 (+20) UBDC.  Con-trolled data ser-vice guide for re-searchers 
 [last up-dated
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 1582--1588
+Underfull \hbox (badness 10000) in paragraph at lines 1600--1606
 \T1/lmr/m/n/12 (+20) 01.02.2017].  Re-port, 2017b.  URL [][]$http : / / ubdc . 
 ac . uk / media / 1445 /
  []
 
-[111]
-Underfull \hbox (badness 3078) in paragraph at lines 1671--1676
+
+Package Fancyhdr Warning: \headheight is too small (12.0pt): 
+ Make it at least 14.49998pt.
+ We now make it that large for the rest of the document.
+ This may cause the page layout to be inconsistent, however.
+
+[118]
+
+Package Fancyhdr Warning: \headheight is too small (12.0pt): 
+ Make it at least 14.49998pt.
+ We now make it that large for the rest of the document.
+ This may cause the page layout to be inconsistent, however.
+
+[119]
+Underfull \hbox (badness 3078) in paragraph at lines 1695--1700
 []\T1/lmr/m/n/12 (+20) Helen Weath-erly, Anne Ma-son, Maria God-dard, and K Wri
 ght.  Fi-nan-
  []
 
 
-Underfull \hbox (badness 1661) in paragraph at lines 1671--1676
+Underfull \hbox (badness 1661) in paragraph at lines 1695--1700
 \T1/lmr/m/n/12 (+20) cial in-te-gra-tion across health and so-cial care: ev-i-d
 ence re-view.  Re-port,
  []
 
-[112])
+
+Package Fancyhdr Warning: \headheight is too small (12.0pt): 
+ Make it at least 14.49998pt.
+ We now make it that large for the rest of the document.
+ This may cause the page layout to be inconsistent, however.
+
+[120])
 
 Package natbib Warning: There were undefined citations.
 
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 3246.
-[113]
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 3246.
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 3350.
+
+Package Fancyhdr Warning: \headheight is too small (12.0pt): 
+ Make it at least 14.49998pt.
+ We now make it that large for the rest of the document.
+ This may cause the page layout to be inconsistent, however.
+
+[121]
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 3350.
 (./THESIS.aux)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 3246.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 3246.
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 3350.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 3350.
 
 Package rerunfilecheck Info: File `THESIS.out' has not changed.
-(rerunfilecheck)             Checksum: 2D3400F29AE994C9952DE033C9643CFC;15892.
+(rerunfilecheck)             Checksum: 715B29A3DDB71542879FAD2828E84E33;16260.
 
 LaTeX Warning: There were undefined references.
 
 
 LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right.
 
-Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 3246.
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 3350.
  ) 
 Here is how much of TeX's memory you used:
- 15873 strings out of 494926
- 235162 string characters out of 6179554
- 355404 words of memory out of 5000000
- 18292 multiletter control sequences out of 15000+600000
- 87610 words of font info for 161 fonts, out of 8000000 for 9000
+ 16703 strings out of 494921
+ 248854 string characters out of 6179478
+ 371059 words of memory out of 5000000
+ 19082 multiletter control sequences out of 15000+600000
+ 87928 words of font info for 162 fonts, out of 8000000 for 9000
  14 hyphenation exceptions out of 8191
- 36i,17n,43p,771b,833s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 41i,18n,47p,771b,857s stack positions out of 5000i,500n,10000p,200000b,80000s
 pdfTeX warning (dest): name{Hfootnote.1} has been referenced but does not exi
 st, replaced by a fixed one
 
-{c:/Users/hedgi/AppData/Roaming/TinyTeX/texmf-dist/fonts/enc/dvips/lm/lm-mathit
-.enc}{c:/Users/hedgi/AppData/Roaming/TinyTeX/texmf-dist/fonts/enc/dvips/lm/lm-r
-m.enc}{c:/Users/hedgi/AppData/Roaming/TinyTeX/texmf-dist/fonts/enc/dvips/lm/lm-
-ec.enc}{c:/Users/hedgi/AppData/Roaming/TinyTeX/texmf-dist/fonts/enc/dvips/lm/lm
+{c:/Users/hedgi/AppData/Roaming/TinyTeX/texmf-dist/fonts/enc/dvips/lm/lm-ec.enc
+}{c:/Users/hedgi/AppData/Roaming/TinyTeX/texmf-dist/fonts/enc/dvips/lm/lm-mathi
+t.enc}{c:/Users/hedgi/AppData/Roaming/TinyTeX/texmf-dist/fonts/enc/dvips/lm/lm-
+rm.enc}{c:/Users/hedgi/AppData/Roaming/TinyTeX/texmf-dist/fonts/enc/dvips/lm/lm
 -ts1.enc}<c:/Users/hedgi/AppData/Roaming/TinyTeX/texmf-dist/fonts/type1/public/
 lm/lmbx12.pfb><c:/Users/hedgi/AppData/Roaming/TinyTeX/texmf-dist/fonts/type1/pu
 blic/lm/lmmi12.pfb><c:/Users/hedgi/AppData/Roaming/TinyTeX/texmf-dist/fonts/typ
@@ -1925,11 +2820,12 @@ onts/type1/public/lm/lmr17.pfb><c:/Users/hedgi/AppData/Roaming/TinyTeX/texmf-di
 st/fonts/type1/public/lm/lmr7.pfb><c:/Users/hedgi/AppData/Roaming/TinyTeX/texmf
 -dist/fonts/type1/public/lm/lmr8.pfb><c:/Users/hedgi/AppData/Roaming/TinyTeX/te
 xmf-dist/fonts/type1/public/lm/lmri10.pfb><c:/Users/hedgi/AppData/Roaming/TinyT
-eX/texmf-dist/fonts/type1/public/lm/lmri12.pfb>
-Output written on THESIS.pdf (124 pages, 1336668 bytes).
+eX/texmf-dist/fonts/type1/public/lm/lmri12.pfb><c:/Users/hedgi/AppData/Roaming/
+TinyTeX/texmf-dist/fonts/type1/public/lm/lmtt12.pfb>
+Output written on THESIS.pdf (132 pages, 2766266 bytes).
 PDF statistics:
- 2949 PDF objects out of 2984 (max. 8388607)
- 2751 compressed objects within 28 object streams
- 478 named destinations out of 1000 (max. 500000)
- 19280 words of extra memory for PDF output out of 20736 (max. 10000000)
+ 3123 PDF objects out of 3580 (max. 8388607)
+ 2882 compressed objects within 29 object streams
+ 492 named destinations out of 1000 (max. 500000)
+ 19346 words of extra memory for PDF output out of 20736 (max. 10000000)
 

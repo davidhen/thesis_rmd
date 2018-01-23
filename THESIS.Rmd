@@ -22,6 +22,7 @@ header-includes:
 - \usepackage{booktabs}
 - \usepackage{graphicx}
 - \usepackage{epigraph}
+- \usepackage{pdfpages}
 - \usepackage[inline]{enumitem}
 - \usepackage[flushleft]{threeparttable}
 - \usepackage{hyperref}

@@ -59,6 +59,10 @@ A more clearly defined concept is that of \textit{personal care} which has been 
 \item simple treatments: help with medicines, creams, oxygen therapy etc. 
 \end{itemize}
 
+**Need a definition of reablement here also** Try http://www.careinfoscotland.scot/topics/care-at-home/
+
+**Maybe an overall description of SCS social care - home care, telecare, equip etc.**
+
 Personal care is, however, only one aspect of social care provision and clear definitions of other services provided to individuals are lacking. Nevertheless, the definitions of social (or long-term) care above all highlight services that are required to aid with an individual's functional or cognitive needs.
 
 A final definition provided by Colombo et al[-@RN414] will be used for the purposes of this thesis:- 
