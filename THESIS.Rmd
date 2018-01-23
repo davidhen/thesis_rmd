@@ -47,7 +47,7 @@ knitr::opts_chunk$set(fig.path = 'figures/', echo = FALSE,
 
 \fancyhead[LE,RO]{}
 \fancyhead[LO,RE]{}
-\renewcommand{\headrulewidth}{0.4pt}
+\renewcommand{\headrulewidth}{0pt}
 \renewcommand{\footrulewidth}{0pt}
 
 \pagenumbering{roman}
@@ -76,6 +76,7 @@ knitr::opts_chunk$set(fig.path = 'figures/', echo = FALSE,
 \newpage
 \section*{Acknowledgements}
 \fancyhead[CO,CE]{}
+\renewcommand{\headrulewidth}{0pt}
 \addcontentsline{toc}{section}{Acknowledgements}
 
 ```{r child = 'acknowledgements.Rmd'}
@@ -84,6 +85,7 @@ knitr::opts_chunk$set(fig.path = 'figures/', echo = FALSE,
 \newpage
 \section*{Declaration}
 \fancyhead[CO,CE]{}
+\renewcommand{\headrulewidth}{0pt}
 \addcontentsline{toc}{section}{Declaration}
 
 ```{r child = 'declaration.Rmd'}
@@ -94,42 +96,51 @@ knitr::opts_chunk$set(fig.path = 'figures/', echo = FALSE,
 \pagenumbering{arabic}
 
 \newpage
-\fancyhead[CO,CE]{Chapter 1. Introduction}
+\fancyhf{}
+\fancyhead[L]{\rightmark}
+\fancyhead[R]{\thepage}
+\renewcommand{\headrulewidth}{0pt}
 
 ```{r child = 'intro.Rmd'}
 ```
 
 \FloatBarrier
 \newpage
-\fancyhead[CO,CE]{Chapter 2. Literature Review}
+\fancyhf{}
+\fancyhead[L]{\rightmark}
+\fancyhead[R]{\thepage}
+\renewcommand{\headrulewidth}{0pt}
 
 ```{r child = 'lit_review.Rmd'}
 ```
 
-%\FloatBarrier
-%\newpage
-%\fancyhead[CO,CE]{Chapter 3. Measuring Multimorbidity}
-
-%```{r child = 'chapter_3.Rmd'}
-%```
-
 \FloatBarrier
 \newpage
-\fancyhead[CO,CE]{Chapter 3. Data}
+\fancyhf{}
+\fancyhead[L]{\rightmark}
+\fancyhead[R]{\thepage}
+\renewcommand{\headrulewidth}{0pt}
 
 ```{r child = 'data.Rmd'}
 ```
 
 \FloatBarrier
 \newpage
-\fancyhead[CO,CE]{Chapter 4. Renfrewshire Council Pilot Project}
+\fancyhf{}
+\fancyhead[L]{\rightmark}
+\fancyhead[R]{\thepage}
+\renewcommand{\headrulewidth}{0pt}
 
 ```{r child = 'renfrew.Rmd'}
 ```
 
 \FloatBarrier
 \newpage
-\fancyhead[CO,CE]{Chapter 5. Methods}
+\fancyhf{}
+\fancyhead[L]{\rightmark}
+\fancyhead[R]{\thepage}
+\renewcommand{\headrulewidth}{0pt}
+
 ```{r child = 'methods.Rmd'}
 ```
 
@@ -137,7 +148,10 @@ knitr::opts_chunk$set(fig.path = 'figures/', echo = FALSE,
 
 \FloatBarrier
 \newpage
-\fancyhead[CO,CE]{Chapter 6. Results}
+\fancyhf{}
+\fancyhead[L]{\rightmark}
+\fancyhead[R]{\thepage}
+\renewcommand{\headrulewidth}{0pt}
 
 ```{r child = 'results.Rmd'}
 ```
@@ -145,7 +159,10 @@ knitr::opts_chunk$set(fig.path = 'figures/', echo = FALSE,
 
 \FloatBarrier
 \newpage
-\fancyhead[CO,CE]{Chapter 7. Conclusion}
+\fancyhf{}
+\fancyhead[L]{\rightmark}
+\fancyhead[R]{\thepage}
+\renewcommand{\headrulewidth}{0pt}
 
 ```{r child = 'conclusion.Rmd'}
 ```
@@ -153,7 +170,10 @@ knitr::opts_chunk$set(fig.path = 'figures/', echo = FALSE,
 
 \FloatBarrier
 \newpage
-\fancyhead[CO,CE]{Appendices}
+\fancyhf{}
+\fancyhead[L]{\rightmark}
+\fancyhead[R]{\thepage}
+\renewcommand{\headrulewidth}{0pt}
 
 ```{r child = 'appendix_1.Rmd'}
 ```

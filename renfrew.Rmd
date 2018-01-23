@@ -2,7 +2,7 @@
 output: pdf_document
 ---
 
-\chapter{Renfrewshire Council Exploratory Project}\label{ch:renfrew}
+\chapter[Renfrewshire Council Exploratory Project]{Renfrewshire Council \\ Exploratory Project}\label{ch:renfrew}
 
 \section{Introduction}\label{renf-intro}
 
@@ -108,10 +108,8 @@ There is wide variation in the duration of home care packages which last from on
 
 \subsection{Time series}\label{renf-results-ts}
 
-Table \ref{tab:renf-ts-summary} and figure \ref{fig:renf-hrs} show the variation in the number of people receiving home care during each financial year. There is little weekly variation with the exception of financial year 2010/11 which saw a large drop in the total number of individuals receiving care. The years following this show gradual increases 
-
-
-\begin{table}[]
+Table \ref{tab:renf-ts-summary} and figure \ref{fig:renf-hrs} show the variation in the number of people receiving home care during each financial year. There is little weekly variation with the exception of financial year 2010/11 which saw a large drop in the total number of individuals receiving care. The years following this show gradual increases and a return to pre-2010/11 levels. 
+\begin{table}[h]
 \centering
 \caption{Variation in number of individuals receiving home care}
 \label{tab:renf-ts-summary}
@@ -140,6 +138,12 @@ Table \ref{tab:renf-ts-summary} and figure \ref{fig:renf-hrs} show the variation
   \caption{Variation in number of individuals receiving home care}
   \label{fig:renf-hrs}
 \end{figure}
+
+The boxplots and crosses indicating the SCS value in figure \ref{fig:renf-hrs} show that the number of individuals receiving care in the census week is similar to the number receiving care in any other week of the year. This is particularly true of the years 2006/07 to 2010/11. After this there appears to be a structual discrepency between the numbers returned by Renfrewshire council to the SCS and those calculated in this analysis. The largest difference between the calculated maximum value and the value returned to the SCS is 272 individuals in financial year 2014/15. 
+
+Figure \ref{fig:renf-hrs} and table \ref{tab:renf-ts-summary} also indicate that in any financial year the average weekly number of indiviudals receiving home care is between 52% and 64% of the total number of individuals that will receive care in that year. The gap between the average and total number of individuals is wider in the years after 2010/11.  
+
+
 
 \section{Discussion}\label{sec:renf-discuss}
 
