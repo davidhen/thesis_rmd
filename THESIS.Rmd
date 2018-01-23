@@ -96,56 +96,58 @@ knitr::opts_chunk$set(fig.path = 'figures/', echo = FALSE,
 \newpage
 \fancyhead[CO,CE]{Chapter 1. Introduction}
 
-```{r child = 'chapter_1.Rmd'}
+```{r child = 'intro.Rmd'}
 ```
 
 \FloatBarrier
 \newpage
 \fancyhead[CO,CE]{Chapter 2. Literature Review}
 
-```{r child = 'chapter_2.Rmd'}
+```{r child = 'lit_review.Rmd'}
+```
+
+%\FloatBarrier
+%\newpage
+%\fancyhead[CO,CE]{Chapter 3. Measuring Multimorbidity}
+
+%```{r child = 'chapter_3.Rmd'}
+%```
+
+\FloatBarrier
+\newpage
+\fancyhead[CO,CE]{Chapter 3. Data}
+
+```{r child = 'data.Rmd'}
 ```
 
 \FloatBarrier
 \newpage
-\fancyhead[CO,CE]{Chapter 3. Measuring Multimorbidity}
+\fancyhead[CO,CE]{Chapter 4. Renfrewshire Council Pilot Project}
 
-```{r child = 'chapter_3.Rmd'}
+```{r child = 'renfrew.Rmd'}
 ```
 
 \FloatBarrier
 \newpage
-\fancyhead[CO,CE]{Chapter 4. Data}
-
-```{r child = 'chapter_4.Rmd'}
+\fancyhead[CO,CE]{Chapter 5. Methods}
+```{r child = 'methods.Rmd'}
 ```
+
+
 
 \FloatBarrier
 \newpage
-\fancyhead[CO,CE]{Chpater 5. Methods}
-```{r child = 'chapter_5.Rmd'}
-```
+\fancyhead[CO,CE]{Chapter 6. Results}
 
-\FloatBarrier
-\newpage
-\fancyhead[CO,CE]{Chapter 6. Renfrewshire Council Pilot Project}
-
-```{r child = 'chapter_6.Rmd'}
-```
-
-\FloatBarrier
-\newpage
-\fancyhead[CO,CE]{Chapter 7. Results}
-
-```{r child = 'chapter_7.Rmd'}
+```{r child = 'results.Rmd'}
 ```
 \FloatBarrier
 
 \FloatBarrier
 \newpage
-\fancyhead[CO,CE]{Chapter 8. Conclusion}
+\fancyhead[CO,CE]{Chapter 7. Conclusion}
 
-```{r child = 'chapter_8.Rmd'}
+```{r child = 'conclusion.Rmd'}
 ```
 
 
