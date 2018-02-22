@@ -83,6 +83,78 @@ The exploratory project utilised the controlled data service provided by UBDC an
 
 Following academic and ethical approval the process of obtaining a data sharing agreement (DSA) between the University of Glasgow and Renfrewshire council was instigated. This involved the production of an agreement in principal and privacy impact assessment as a basis for the DSA. This process involved the input of legal teams from both institutions as well as liaison with data analysts at Renfrewshire council and UBDC. The DSA was finally signed on 06/09/2017 with final transfer of data taking place on 21/09/2017. 
 
+
+```{r timeline, echo=FALSE, fig.height = 3, fig.width=10}
+library(ggplot2)
+library(dplyr)
+library(ggalt)
+library(cowplot)
+library(tibble)
+library(lubridate)
+
+#Create data to plot
+data <- tribble( ~start_date, ~event, ~displ,
+                ymd(20160201), "Initial meeting with Renfrewshire", 1,
+                ymd(20160430), "UBDC RAC submission", 0.7,
+                ymd(20160524), "College Ethics Approval", 0.5,
+                ymd(20160601), "UBDC RAC approval", -0.5,
+                ymd(20161101), "Agreeement in Principal", 0.3,
+                ymd(20170906), "DSA signed", 0.5,
+                ymd(20170921), "Data transferred", -0.5,
+                ymd(20180221), "Analysis complete", 0.5)
+
+
+#Function to shift x-axis to 0 taken from https://stackoverflow.com/questions/39071002/moving-x-or-y-axis-together-with-tick-labels-to-the-middle-of-a-single-ggplot-n
+
+shift_axis <- function(p, y=0){
+  g <- ggplotGrob(p)
+  dummy <- data.frame(y=y)
+  ax <- g[["grobs"]][g$layout$name == "axis-b"][[1]]
+  p + annotation_custom(grid::grobTree(ax, vp = grid::viewport(y=1, height=sum(ax$height))), 
+                        ymax=y, ymin=y) +
+    geom_hline(aes(yintercept=y), data = dummy) +
+    theme(axis.text.x = element_blank(), 
+          axis.ticks.x=element_blank())
+
+}
+
+
+#Conditionally set whether text will be above or below the point
+vjust = ifelse(data$displ > 0, -1, 1.5)
+
+#plot
+p1 <- data %>% 
+  ggplot(aes(start_date, displ)) +
+  geom_lollipop(point.size = 1) +
+  geom_text(aes(x = start_date, y = displ, label = event), data = data,
+            hjust = 0, vjust = vjust, size = 2.5) +
+  geom_hline(yintercept = 0) +
+  theme(axis.title = element_blank(),
+        axis.text.y = element_blank(),
+        axis.ticks.y = element_blank(),
+        axis.line = element_blank(),
+        axis.text.x = element_text(size = 8)) +
+  expand_limits(x = c(ymd(20151201), ymd(20180501)), y = 1.2) +
+  scale_x_date(breaks = scales::pretty_breaks(n = 9))
+
+#and run the function from above
+timeline <- shift_axis(p1)
+ggsave("figures/renf-timeline.png", timeline, height = 3, width = 10,
+       dpi = 600)
+
+rm(list = c("data", "p1", "timeline", "angle", "vjust", "shift_axis"))
+
+```
+
+\begin{figure}[]
+  \centering
+    \label{fig:ren-timeline}
+     \caption{Timeline of Renfrewshire exploratory project}
+    \includegraphics{figures/renf-timeline.png}
+\end{figure}
+
+
+
 \section{Results}\label{sec:renf-results}
 
 \subsection{Descriptive statistics}\label{subsec:renf-descriptives}
