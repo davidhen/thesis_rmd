@@ -1,11 +1,11 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017/W32TeX) (preloaded format=pdflatex 2018.1.22)  22 FEB 2018 09:53
+This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017/W32TeX) (preloaded format=pdflatex 2018.2.22)  22 FEB 2018 17:10
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
 **./THESIS.tex
 (./THESIS.tex
 LaTeX2e <2017-04-15>
-Babel <3.16> and hyphenation patterns for 3 language(s) loaded.
+Babel <3.18> and hyphenation patterns for 3 language(s) loaded.
 (c:/Users/hedgi/AppData/Roaming/TinyTeX/texmf-dist/tex/latex/base/report.cls
 Document Class: report 2014/09/29 v1.4h Standard LaTeX document class
 (c:/Users/hedgi/AppData/Roaming/TinyTeX/texmf-dist/tex/latex/base/size12.clo
@@ -685,7 +685,7 @@ Package ifvtex Info: VTeX not detected.
 )
 (c:/Users/hedgi/AppData/Roaming/TinyTeX/texmf-dist/tex/latex/hyperref/hyperref.
 sty
-Package: hyperref 2017/03/14 v6.85a Hypertext links for LaTeX
+Package: hyperref 2018/02/06 v6.86b Hypertext links for LaTeX
 
 (c:/Users/hedgi/AppData/Roaming/TinyTeX/texmf-dist/tex/generic/oberdiek/hobsub-
 hyperref.sty
@@ -709,7 +709,7 @@ Package etexcmds Info: Could not find \expanded.
 (etexcmds)             In the latter case, load this package earlier.
 Package: kvsetkeys 2016/05/16 v1.17 Key value parser (HO)
 Package: kvdefinekeys 2016/05/16 v1.4 Define keys (HO)
-Package: pdftexcmds 2017/03/19 v0.25 Utility functions of pdfTeX for LuaTeX (HO
+Package: pdftexcmds 2018/01/21 v0.26 Utility functions of pdfTeX for LuaTeX (HO
 )
 Package pdftexcmds Info: LuaTeX not detected.
 Package pdftexcmds Info: \pdf@primitive is available.
@@ -745,7 +745,7 @@ Package: kvoptions 2016/05/16 v3.12 Key value format for package options (HO)
 
 (c:/Users/hedgi/AppData/Roaming/TinyTeX/texmf-dist/tex/latex/hyperref/pd1enc.de
 f
-File: pd1enc.def 2017/03/14 v6.85a Hyperref: PDFDocEncoding definition (HO)
+File: pd1enc.def 2018/02/06 v6.86b Hyperref: PDFDocEncoding definition (HO)
 Now handling font encoding PD1 ...
 ... no UTF-8 mapping file for font encoding PD1
 )
@@ -755,43 +755,41 @@ Now handling font encoding PD1 ...
 ef.cfg
 File: hyperref.cfg 2002/06/06 v1.2 hyperref configuration of TeXLive
 )
-Package hyperref Info: Hyper figures OFF on input line 4498.
-Package hyperref Info: Link nesting OFF on input line 4503.
-Package hyperref Info: Hyper index ON on input line 4506.
-Package hyperref Info: Plain pages OFF on input line 4513.
-Package hyperref Info: Backreferencing OFF on input line 4518.
+Package hyperref Info: Hyper figures OFF on input line 4509.
+Package hyperref Info: Link nesting OFF on input line 4514.
+Package hyperref Info: Hyper index ON on input line 4517.
+Package hyperref Info: Plain pages OFF on input line 4524.
+Package hyperref Info: Backreferencing OFF on input line 4529.
 Package hyperref Info: Implicit mode ON; LaTeX internals redefined.
-Package hyperref Info: Bookmarks ON on input line 4751.
+Package hyperref Info: Bookmarks ON on input line 4762.
 \c@Hy@tempcnt=\count108
 (c:/Users/hedgi/AppData/Roaming/TinyTeX/texmf-dist/tex/latex/url/url.sty
 \Urlmuskip=\muskip11
 Package: url 2013/09/16  ver 3.4  Verb mode for urls, etc.
 )
-LaTeX Info: Redefining \url on input line 5104.
+LaTeX Info: Redefining \url on input line 5115.
 \XeTeXLinkMargin=\dimen122
 \Fld@menulength=\count109
 \Field@Width=\dimen123
 \Fld@charsize=\dimen124
-Package hyperref Info: Hyper figures OFF on input line 6358.
-Package hyperref Info: Link nesting OFF on input line 6363.
-Package hyperref Info: Hyper index ON on input line 6366.
-Package hyperref Info: backreferencing OFF on input line 6373.
-Package hyperref Info: Link coloring OFF on input line 6378.
-Package hyperref Info: Link coloring with OCG OFF on input line 6383.
-Package hyperref Info: PDF/A mode OFF on input line 6388.
-LaTeX Info: Redefining \ref on input line 6428.
-LaTeX Info: Redefining \pageref on input line 6432.
+Package hyperref Info: Hyper figures OFF on input line 6369.
+Package hyperref Info: Link nesting OFF on input line 6374.
+Package hyperref Info: Hyper index ON on input line 6377.
+Package hyperref Info: backreferencing OFF on input line 6384.
+Package hyperref Info: Link coloring OFF on input line 6389.
+Package hyperref Info: Link coloring with OCG OFF on input line 6394.
+Package hyperref Info: PDF/A mode OFF on input line 6399.
+LaTeX Info: Redefining \ref on input line 6439.
+LaTeX Info: Redefining \pageref on input line 6443.
 \Hy@abspage=\count110
 \c@Item=\count111
 \c@Hfootnote=\count112
 )
-
-Package hyperref Message: Driver (autodetected): hpdftex.
-
+Package hyperref Info: Driver (autodetected): hpdftex.
 
 (c:/Users/hedgi/AppData/Roaming/TinyTeX/texmf-dist/tex/latex/hyperref/hpdftex.d
 ef
-File: hpdftex.def 2017/03/14 v6.85a Hyperref driver for pdfTeX
+File: hpdftex.def 2018/02/06 v6.86b Hyperref driver for pdfTeX
 \Fld@listcount=\count113
 \c@bookmark@seq@number=\count114
 
@@ -806,7 +804,7 @@ Package uniquecounter Info: New unique counter `rerunfilecheck' on input line 2
 Package hyperref Info: Option `unicode' set `true' on input line 32.
 
 (c:/Users/hedgi/AppData/Roaming/TinyTeX/texmf-dist/tex/latex/hyperref/puenc.def
-File: puenc.def 2017/03/14 v6.85a Hyperref: PDF Unicode definition (HO)
+File: puenc.def 2018/02/06 v6.86b Hyperref: PDF Unicode definition (HO)
 Now handling font encoding PU ...
 ... no UTF-8 mapping file for font encoding PU
 )
@@ -844,11 +842,11 @@ File: pdftex.def 2018/01/08 v1.0l Graphics/color driver for pdftex
 )
 (c:/Users/hedgi/AppData/Roaming/TinyTeX/texmf-dist/tex/latex/oberdiek/grffile.s
 ty
-Package: grffile 2016/05/16 v1.17 Extended file name support for graphics (HO)
+Package: grffile 2017/06/30 v1.18 Extended file name support for graphics (HO)
 Package grffile Info: Option `multidot' is set to `true'.
 Package grffile Info: Option `extendedchars' is set to `false'.
 Package grffile Info: Option `space' is set to `true'.
-Package grffile Info: \Gin@ii of package `graphicx' fixed on input line 486.
+Package grffile Info: \Gin@ii of package `graphicx' fixed on input line 494.
 )
 (c:/Users/hedgi/AppData/Roaming/TinyTeX/texmf-dist/tex/latex/titling/titling.st
 y
@@ -1684,10 +1682,10 @@ Package Fancyhdr Warning: \headheight is too small (12.0pt):
 [53]
 
 LaTeX Warning: No positions in optional float specifier.
-               Default added (so using `tbp') on input line 2298.
+               Default added (so using `tbp') on input line 2299.
 
 
-Underfull \vbox (badness 10000) has occurred while \output is active []
+Underfull \vbox (badness 6204) has occurred while \output is active []
 
 
 Package Fancyhdr Warning: \headheight is too small (12.0pt): 
@@ -1710,13 +1708,11 @@ Package Fancyhdr Warning: \headheight is too small (12.0pt):
  This may cause the page layout to be inconsistent, however.
 
 [56]
-LaTeX Font Info:    Try loading font information for T1+lmtt on input line 2407
+LaTeX Font Info:    Try loading font information for T1+lmtt on input line 2425
 .
 (c:/Users/hedgi/AppData/Roaming/TinyTeX/texmf-dist/tex/latex/lm/t1lmtt.fd
 File: t1lmtt.fd 2009/10/30 v1.6 Font defs for Latin Modern
 )
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
 
 Package Fancyhdr Warning: \headheight is too small (12.0pt): 
  Make it at least 14.49998pt.
@@ -1726,21 +1722,16 @@ Package Fancyhdr Warning: \headheight is too small (12.0pt):
 [57]
 
 LaTeX Warning: No positions in optional float specifier.
-               Default added (so using `tbp') on input line 2443.
+               Default added (so using `tbp') on input line 2461.
 
 <figures/renf-type-fig.png, id=1970, 578.16pt x 289.08pt>
 File: figures/renf-type-fig.png Graphic file (type png)
 <use figures/renf-type-fig.png>
-Package pdftex.def Info: figures/renf-type-fig.png  used on input line 2470.
+Package pdftex.def Info: figures/renf-type-fig.png  used on input line 2488.
 (pdftex.def)             Requested size: 440.84415pt x 220.42206pt.
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-<figures/renf-hrs-fig.png, id=1972, 433.62pt x 289.08pt>
-File: figures/renf-hrs-fig.png Graphic file (type png)
-<use figures/renf-hrs-fig.png>
-Package pdftex.def Info: figures/renf-hrs-fig.png  used on input line 2485.
-(pdftex.def)             Requested size: 330.65297pt x 220.4353pt.
 
 Package Fancyhdr Warning: \headheight is too small (12.0pt): 
  Make it at least 14.49998pt.
@@ -1748,37 +1739,31 @@ Package Fancyhdr Warning: \headheight is too small (12.0pt):
  This may cause the page layout to be inconsistent, however.
 
 [58]
+<figures/renf-hrs-fig.png, id=1976, 433.62pt x 289.08pt>
+File: figures/renf-hrs-fig.png Graphic file (type png)
+<use figures/renf-hrs-fig.png>
+Package pdftex.def Info: figures/renf-hrs-fig.png  used on input line 2503.
+(pdftex.def)             Requested size: 330.65297pt x 220.4353pt.
 
 Package Fancyhdr Warning: \headheight is too small (12.0pt): 
  Make it at least 14.49998pt.
  We now make it that large for the rest of the document.
  This may cause the page layout to be inconsistent, however.
 
-[59 <./figures/renf-type-fig.png> <./figures/renf-hrs-fig.png>]
-<figures/unique_sc_plot_revised.png, id=1985, 505.89pt x 505.89pt>
+[59 <./figures/renf-type-fig.png>]
+<figures/unique_sc_plot_revised.png, id=1984, 505.89pt x 505.89pt>
 File: figures/unique_sc_plot_revised.png Graphic file (type png)
 <use figures/unique_sc_plot_revised.png>
 Package pdftex.def Info: figures/unique_sc_plot_revised.png  used on input line
- 2526.
+ 2544.
 (pdftex.def)             Requested size: 396.76942pt x 396.76942pt.
-<figures/len_facet_no_title.png, id=1989, 1589.94pt x 1156.32pt>
-File: figures/len_facet_no_title.png Graphic file (type png)
-<use figures/len_facet_no_title.png>
-Package pdftex.def Info: figures/len_facet_no_title.png  used on input line 255
-0.
-(pdftex.def)             Requested size: 440.83754pt x 320.60912pt.
-
-LaTeX Warning: `h' float specifier changed to `ht'.
-
 
 Package Fancyhdr Warning: \headheight is too small (12.0pt): 
  Make it at least 14.49998pt.
  We now make it that large for the rest of the document.
  This may cause the page layout to be inconsistent, however.
 
-[60
-
-]
+[60 <./figures/renf-hrs-fig.png>]
 
 Package Fancyhdr Warning: \headheight is too small (12.0pt): 
  Make it at least 14.49998pt.
@@ -1786,11 +1771,11 @@ Package Fancyhdr Warning: \headheight is too small (12.0pt):
  This may cause the page layout to be inconsistent, however.
 
 [61 <./figures/unique_sc_plot_revised.png>]
-<figures/hrs_facet_no_title.png, id=2001, 1589.94pt x 1156.32pt>
-File: figures/hrs_facet_no_title.png Graphic file (type png)
-<use figures/hrs_facet_no_title.png>
-Package pdftex.def Info: figures/hrs_facet_no_title.png  used on input line 257
-3.
+<figures/len_facet_no_title.png, id=1998, 1589.94pt x 1156.32pt>
+File: figures/len_facet_no_title.png Graphic file (type png)
+<use figures/len_facet_no_title.png>
+Package pdftex.def Info: figures/len_facet_no_title.png  used on input line 256
+8.
 (pdftex.def)             Requested size: 440.83754pt x 320.60912pt.
 
 Package Fancyhdr Warning: \headheight is too small (12.0pt): 
@@ -1799,6 +1784,12 @@ Package Fancyhdr Warning: \headheight is too small (12.0pt):
  This may cause the page layout to be inconsistent, however.
 
 [62 <./figures/len_facet_no_title.png>]
+<figures/hrs_facet_no_title.png, id=2006, 1589.94pt x 1156.32pt>
+File: figures/hrs_facet_no_title.png Graphic file (type png)
+<use figures/hrs_facet_no_title.png>
+Package pdftex.def Info: figures/hrs_facet_no_title.png  used on input line 259
+1.
+(pdftex.def)             Requested size: 440.83754pt x 320.60912pt.
 
 Package Fancyhdr Warning: \headheight is too small (12.0pt): 
  Make it at least 14.49998pt.
@@ -1806,6 +1797,8 @@ Package Fancyhdr Warning: \headheight is too small (12.0pt):
  This may cause the page layout to be inconsistent, however.
 
 [63 <./figures/hrs_facet_no_title.png>]
+Underfull \vbox (badness 6236) has occurred while \output is active []
+
 
 Package Fancyhdr Warning: \headheight is too small (12.0pt): 
  Make it at least 14.49998pt.
@@ -1862,7 +1855,7 @@ n: found PDF version <1.7>, but at most version <1.5> allowed
 <data/assets/renf-ethics.pdf, id=2059, 597.55246pt x 845.07724pt>
 File: data/assets/renf-ethics.pdf Graphic file (type pdf)
 <use data/assets/renf-ethics.pdf>
-Package pdftex.def Info: data/assets/renf-ethics.pdf  used on input line 2794.
+Package pdftex.def Info: data/assets/renf-ethics.pdf  used on input line 2812.
 (pdftex.def)             Requested size: 439.48299pt x 621.5305pt.
 
 
@@ -1870,7 +1863,7 @@ pdfTeX warning: pdflatex.exe (file ./data/assets/renf-ethics.pdf): PDF inclusio
 n: found PDF version <1.7>, but at most version <1.5> allowed
 File: data/assets/renf-ethics.pdf Graphic file (type pdf)
 <use data/assets/renf-ethics.pdf>
-Package pdftex.def Info: data/assets/renf-ethics.pdf  used on input line 2794.
+Package pdftex.def Info: data/assets/renf-ethics.pdf  used on input line 2812.
 (pdftex.def)             Requested size: 439.48299pt x 621.5305pt.
 
 
@@ -1884,12 +1877,12 @@ n: found PDF version <1.7>, but at most version <1.5> allowed
 File: data/assets/renf-ethics.pdf Graphic file (type pdf)
 <use data/assets/renf-ethics.pdf, page 1>
 Package pdftex.def Info: data/assets/renf-ethics.pdf , page1 used on input line
- 2794.
+ 2812.
 (pdftex.def)             Requested size: 597.551pt x 845.07518pt.
 File: data/assets/renf-ethics.pdf Graphic file (type pdf)
 <use data/assets/renf-ethics.pdf, page 1>
 Package pdftex.def Info: data/assets/renf-ethics.pdf , page1 used on input line
- 2794.
+ 2812.
 (pdftex.def)             Requested size: 562.1644pt x 795.03036pt.
 [73
 
@@ -1897,17 +1890,17 @@ Package pdftex.def Info: data/assets/renf-ethics.pdf , page1 used on input line
 File: data/assets/renf-ethics.pdf Graphic file (type pdf)
 <use data/assets/renf-ethics.pdf, page 1>
 Package pdftex.def Info: data/assets/renf-ethics.pdf , page1 used on input line
- 2794.
+ 2812.
 (pdftex.def)             Requested size: 562.1644pt x 795.03036pt.
 File: data/assets/renf-ethics.pdf Graphic file (type pdf)
 <use data/assets/renf-ethics.pdf, page 1>
 Package pdftex.def Info: data/assets/renf-ethics.pdf , page1 used on input line
- 2794.
+ 2812.
 (pdftex.def)             Requested size: 562.1644pt x 795.03036pt.
 File: data/assets/renf-ethics.pdf Graphic file (type pdf)
 <use data/assets/renf-ethics.pdf, page 1>
 Package pdftex.def Info: data/assets/renf-ethics.pdf , page1 used on input line
- 2794.
+ 2812.
 (pdftex.def)             Requested size: 562.1644pt x 795.03036pt.
 [74 <./data/assets/renf-ethics.pdf>]
 
@@ -1916,7 +1909,7 @@ found PDF version <1.7>, but at most version <1.5> allowed
 <data/assets/renf-rac.pdf, id=2130, 597.55246pt x 845.07724pt>
 File: data/assets/renf-rac.pdf Graphic file (type pdf)
 <use data/assets/renf-rac.pdf>
-Package pdftex.def Info: data/assets/renf-rac.pdf  used on input line 2798.
+Package pdftex.def Info: data/assets/renf-rac.pdf  used on input line 2816.
 (pdftex.def)             Requested size: 439.48299pt x 621.5305pt.
 
 
@@ -1924,7 +1917,7 @@ pdfTeX warning: pdflatex.exe (file ./data/assets/renf-rac.pdf): PDF inclusion:
 found PDF version <1.7>, but at most version <1.5> allowed
 File: data/assets/renf-rac.pdf Graphic file (type pdf)
 <use data/assets/renf-rac.pdf>
-Package pdftex.def Info: data/assets/renf-rac.pdf  used on input line 2798.
+Package pdftex.def Info: data/assets/renf-rac.pdf  used on input line 2816.
 (pdftex.def)             Requested size: 439.48299pt x 621.5305pt.
 
 
@@ -1937,31 +1930,31 @@ found PDF version <1.7>, but at most version <1.5> allowed
 <data/assets/renf-rac.pdf, id=2133, page=1, 597.55246pt x 845.07724pt>
 File: data/assets/renf-rac.pdf Graphic file (type pdf)
 <use data/assets/renf-rac.pdf, page 1>
-Package pdftex.def Info: data/assets/renf-rac.pdf , page1 used on input line 27
-98.
+Package pdftex.def Info: data/assets/renf-rac.pdf , page1 used on input line 28
+16.
 (pdftex.def)             Requested size: 597.551pt x 845.07518pt.
 File: data/assets/renf-rac.pdf Graphic file (type pdf)
 <use data/assets/renf-rac.pdf, page 1>
-Package pdftex.def Info: data/assets/renf-rac.pdf , page1 used on input line 27
-98.
+Package pdftex.def Info: data/assets/renf-rac.pdf , page1 used on input line 28
+16.
 (pdftex.def)             Requested size: 562.1644pt x 795.03036pt.
 [75
 
 ]
 File: data/assets/renf-rac.pdf Graphic file (type pdf)
 <use data/assets/renf-rac.pdf, page 1>
-Package pdftex.def Info: data/assets/renf-rac.pdf , page1 used on input line 27
-98.
+Package pdftex.def Info: data/assets/renf-rac.pdf , page1 used on input line 28
+16.
 (pdftex.def)             Requested size: 562.1644pt x 795.03036pt.
 File: data/assets/renf-rac.pdf Graphic file (type pdf)
 <use data/assets/renf-rac.pdf, page 1>
-Package pdftex.def Info: data/assets/renf-rac.pdf , page1 used on input line 27
-98.
+Package pdftex.def Info: data/assets/renf-rac.pdf , page1 used on input line 28
+16.
 (pdftex.def)             Requested size: 562.1644pt x 795.03036pt.
 File: data/assets/renf-rac.pdf Graphic file (type pdf)
 <use data/assets/renf-rac.pdf, page 1>
-Package pdftex.def Info: data/assets/renf-rac.pdf , page1 used on input line 27
-98.
+Package pdftex.def Info: data/assets/renf-rac.pdf , page1 used on input line 28
+16.
 (pdftex.def)             Requested size: 562.1644pt x 795.03036pt.
 [76 <./data/assets/renf-rac.pdf>]
 
@@ -1970,18 +1963,18 @@ found PDF version <1.7>, but at most version <1.5> allowed
 <data/assets/renf-rac.pdf, id=2220, page=2, 597.55246pt x 845.07724pt>
 File: data/assets/renf-rac.pdf Graphic file (type pdf)
 <use data/assets/renf-rac.pdf, page 2>
-Package pdftex.def Info: data/assets/renf-rac.pdf , page2 used on input line 27
-98.
+Package pdftex.def Info: data/assets/renf-rac.pdf , page2 used on input line 28
+16.
 (pdftex.def)             Requested size: 562.1644pt x 795.03036pt.
 File: data/assets/renf-rac.pdf Graphic file (type pdf)
 <use data/assets/renf-rac.pdf, page 2>
-Package pdftex.def Info: data/assets/renf-rac.pdf , page2 used on input line 27
-98.
+Package pdftex.def Info: data/assets/renf-rac.pdf , page2 used on input line 28
+16.
 (pdftex.def)             Requested size: 562.1644pt x 795.03036pt.
 File: data/assets/renf-rac.pdf Graphic file (type pdf)
 <use data/assets/renf-rac.pdf, page 2>
-Package pdftex.def Info: data/assets/renf-rac.pdf , page2 used on input line 27
-98.
+Package pdftex.def Info: data/assets/renf-rac.pdf , page2 used on input line 28
+16.
 (pdftex.def)             Requested size: 562.1644pt x 795.03036pt.
 [77 <./data/assets/renf-rac.pdf>]
 
@@ -1990,18 +1983,18 @@ found PDF version <1.7>, but at most version <1.5> allowed
 <data/assets/renf-rac.pdf, id=2241, page=3, 597.55246pt x 845.07724pt>
 File: data/assets/renf-rac.pdf Graphic file (type pdf)
 <use data/assets/renf-rac.pdf, page 3>
-Package pdftex.def Info: data/assets/renf-rac.pdf , page3 used on input line 27
-98.
+Package pdftex.def Info: data/assets/renf-rac.pdf , page3 used on input line 28
+16.
 (pdftex.def)             Requested size: 562.1644pt x 795.03036pt.
 File: data/assets/renf-rac.pdf Graphic file (type pdf)
 <use data/assets/renf-rac.pdf, page 3>
-Package pdftex.def Info: data/assets/renf-rac.pdf , page3 used on input line 27
-98.
+Package pdftex.def Info: data/assets/renf-rac.pdf , page3 used on input line 28
+16.
 (pdftex.def)             Requested size: 562.1644pt x 795.03036pt.
 File: data/assets/renf-rac.pdf Graphic file (type pdf)
 <use data/assets/renf-rac.pdf, page 3>
-Package pdftex.def Info: data/assets/renf-rac.pdf , page3 used on input line 27
-98.
+Package pdftex.def Info: data/assets/renf-rac.pdf , page3 used on input line 28
+16.
 (pdftex.def)             Requested size: 562.1644pt x 795.03036pt.
 [78 <./data/assets/renf-rac.pdf>]
 
@@ -2010,18 +2003,18 @@ found PDF version <1.7>, but at most version <1.5> allowed
 <data/assets/renf-rac.pdf, id=2246, page=4, 597.55246pt x 845.07724pt>
 File: data/assets/renf-rac.pdf Graphic file (type pdf)
 <use data/assets/renf-rac.pdf, page 4>
-Package pdftex.def Info: data/assets/renf-rac.pdf , page4 used on input line 27
-98.
+Package pdftex.def Info: data/assets/renf-rac.pdf , page4 used on input line 28
+16.
 (pdftex.def)             Requested size: 562.1644pt x 795.03036pt.
 File: data/assets/renf-rac.pdf Graphic file (type pdf)
 <use data/assets/renf-rac.pdf, page 4>
-Package pdftex.def Info: data/assets/renf-rac.pdf , page4 used on input line 27
-98.
+Package pdftex.def Info: data/assets/renf-rac.pdf , page4 used on input line 28
+16.
 (pdftex.def)             Requested size: 562.1644pt x 795.03036pt.
 File: data/assets/renf-rac.pdf Graphic file (type pdf)
 <use data/assets/renf-rac.pdf, page 4>
-Package pdftex.def Info: data/assets/renf-rac.pdf , page4 used on input line 27
-98.
+Package pdftex.def Info: data/assets/renf-rac.pdf , page4 used on input line 28
+16.
 (pdftex.def)             Requested size: 562.1644pt x 795.03036pt.
 [79 <./data/assets/renf-rac.pdf>] [80
 
@@ -2635,7 +2628,7 @@ Package Fancyhdr Warning: \headheight is too small (12.0pt):
 
 Package natbib Warning: There were undefined citations.
 
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 2812.
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 2830.
 
 Package Fancyhdr Warning: \headheight is too small (12.0pt): 
  Make it at least 14.49998pt.
@@ -2643,10 +2636,10 @@ Package Fancyhdr Warning: \headheight is too small (12.0pt):
  This may cause the page layout to be inconsistent, however.
 
 [102]
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 2812.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 2830.
 (./THESIS.aux)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 2812.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 2812.
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 2830.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 2830.
 
 Package rerunfilecheck Info: File `THESIS.out' has not changed.
 (rerunfilecheck)             Checksum: 120FEF51195DA0C4FA0DA31C6BC9F21A;14566.
@@ -2656,13 +2649,13 @@ LaTeX Warning: There were undefined references.
 
 LaTeX Warning: There were multiply-defined labels.
 
-Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 2812.
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 2830.
  ) 
 Here is how much of TeX's memory you used:
- 17181 strings out of 494921
- 257470 string characters out of 6179478
- 379000 words of memory out of 5000000
- 19604 multiletter control sequences out of 15000+600000
+ 17182 strings out of 494923
+ 257496 string characters out of 6179496
+ 379016 words of memory out of 5000000
+ 19603 multiletter control sequences out of 15000+600000
  87496 words of font info for 158 fonts, out of 8000000 for 9000
  14 hyphenation exceptions out of 8191
  41i,18n,77p,771b,807s stack positions out of 5000i,500n,10000p,200000b,80000s
@@ -2681,7 +2674,7 @@ pe1/public/lm/lmr7.pfb><c:/Users/hedgi/AppData/Roaming/TinyTeX/texmf-dist/fonts
 nts/type1/public/lm/lmri10.pfb><c:/Users/hedgi/AppData/Roaming/TinyTeX/texmf-di
 st/fonts/type1/public/lm/lmri12.pfb><c:/Users/hedgi/AppData/Roaming/TinyTeX/tex
 mf-dist/fonts/type1/public/lm/lmtt12.pfb>
-Output written on THESIS.pdf (112 pages, 2811002 bytes).
+Output written on THESIS.pdf (112 pages, 2812163 bytes).
 PDF statistics:
  2772 PDF objects out of 2984 (max. 8388607)
  2561 compressed objects within 26 object streams
