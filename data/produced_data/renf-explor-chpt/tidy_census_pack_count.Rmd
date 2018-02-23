@@ -1,0 +1,64 @@
+---
+title: "Wrangle CSV"
+author: "David Henderson"
+date: "23 February 2018"
+output: html_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+# Intro
+
+I'm going to wrangle a table I got as output from the safe haven. I need to summarise and tidy the data to make it more useful for the thesis chapter
+
+##Packages
+
+```{r packages, warning=FALSE, message=FALSE}
+library(tidyverse)
+library(magrittr)
+```
+
+##Load
+
+```{r load}
+pack_table <- read_csv(file = "figures/chapter-renf/census-pack-count.csv")
+```
+##Summarise
+
+```{r summarise}
+pack_table %<>% 
+  spread(fin_year, value) 
+
+
+
+pack_table_total <-
+  pack_table %>%
+  summarise(hc_type = "Total",
+            in_census = "",
+            `2011/12` = sum(`2011/12`),
+            `2012/13` = sum(`2012/13`),
+            `2013/14` = sum(`2013/14`),
+            `2014/15` = sum(`2014/15`),
+            `2015/16` = sum(`2015/16`)) %>%
+  bind_rows(pack_table, .)
+pack_table_total
+
+write_csv(pack_table_total, path = "data/produced_data/renf-explor-chpt/census_pack_count_tidy.csv")
+```
+
+```{r tidy}
+rm(list = c("pack_table", "pack_table_total"))
+```
+
+
+
+
+
+
+
+
+
+
+
