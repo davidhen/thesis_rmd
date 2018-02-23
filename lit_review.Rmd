@@ -140,7 +140,7 @@ A recent examination of the effects of the 2008 financial crisis on the way soci
   \centering
   \caption{Older recipients of long-term care services as a share of the over 65 population, 2008}
   \label{fig:oecd-comparison}
-    \includegraphics[width=0.8\textwidth]{figures/oecd-comparison.PNG}
+    \includegraphics[width=0.8\textwidth]{figures/chapter-lit-review/oecd-comparison.PNG}
 \end{figure}
 
 Given the marked variations in how social care is funded and delivered across countries, it may be expected that there are also marked variations in levels of access and utilisation. Colombo et al [-@RN414] produced a chart (shown in figure \ref{fig:oecd-comparison}) derived from OECD data that shows the proportion of over 65s receiving some form of social care across countries for which data is provided. The chart shows that having a universal or mixed system of social care provision (as described above) does not absolutely influence the number of people receiving care. For example, South Korea employs a universal (insurance-based) system and has one of the lowest proportions of older people receiving care, whereas Switzerland has one of the highest whilst employing a mixed system involving some universal and some means-tested benefits. This suggests that allocation of resources and eligibility criteria set within countries, as well as informal care, are likely to be more important in determining access to formal social care than any particular system of care delivery. 
