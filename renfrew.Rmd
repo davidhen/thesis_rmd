@@ -1,16 +1,19 @@
 ---
 output: pdf_document
+bibliography: thesis.bib
 ---
 
 \chapter[Renfrewshire Council Exploratory Project]{Renfrewshire Council \\ Exploratory Project}\label{ch:renfrew}
 
 \section{Introduction}\label{renf-intro}
 
-As described in Chapter \ref{ch:data}, the Social Care Survey (SCS) is collected annually by the Scottish Government and provides a snapshot of individuals receiving social care in all 32 Scottish local authorities during a census week - usually including the date the 31st of March [@RN487]. The cross-sectional nature of this adminsitrative data means it does not identify every individual who receives social care in any given financial year. This has implications for research projects using the SCS and the statistical analyses that can be applied to the data when linked with other sources of information. 
+As described in Chapter \ref{ch:data}, the Social Care Survey (SCS) is collected annually by the Scottish Government and provides a snapshot of individuals receiving social care in all 32 Scottish local authorities during a census week - usually including the date the 31st of March [@RN487]. The cross-sectional nature of this adminsitrative data means it does not identify every individual who receives social care in any given financial year. This has implications for research projects using the SCS and the statistical analyses that can be applied to the data when linked with other sources of information.
 
 In order to gain a better understanding of the data the SCS captures (and the data it does not) an exploratory study was conducted to assess social care data for individuals from one local authority only. This project aimed to analyse complete data for all individuals over a ten-year period to assess the validity of the SCS as a representation of social care delivered in any given financial year. In particular, the exploratory analysis aimed to; quantify the proportion of home care users identified by the SCS in each year, identify what differences (if any) exist between home care packages captured and not captured by the census, and assess whether values captured by the SCS (i.e. the total hours of home care provided) are representative of care throughout the year. Given intentions to amalgamate the SCS with administrative resources collected by ISD and move to a quarterly collection of data [@RN500], the exploratory project also aimed to quantify the proportion of all individuals that would be identified by more than one census per financial year. 
 
 As social care data in Scotland has rarely been used for research purposes, this exploratory project also offered the opportunity to assess the format, content, and suitability of the data from a research perspective. Ideally, data would be analysed from a number of local authorities for comparison. However, as described below, acquiring sensitive data of this nature is a lengthy and complicated process, relying heavily on the goodwill of the participating local authority. Despite early intentions to approach multiple local authorities, practical considerations limited the project to data collected from Renfrewshire Council. 
+
+SCS umbrella and breakdown with Renfrew data
 
 \section{Background}\label{sec:renf-background}
 
@@ -61,7 +64,7 @@ Data provided for the purposes of this exploratory study detailed anonymised inf
 
 As all episodes of home care were delivered over a period of time, data was provided for some packages where the care was first delivered as early as 2004 or as late as Summer 2017 (e.g. a home care episode starting in December 2005 and running to December 2006 was included in the data transfer). Data detailing information on community alarm and telecare services provided by Renfrewshire council were not analysed as part of this project. 
 
-Analysis focussed on individuals over the age of 65. An unexpectedly large number of individuals (n = 112, 0.01%) had a year of birth recorded as 1900 (compared to n = 68 born between the years 1901 and 1910). A similar phenomenon was reported in the SCS linkage process (described in chapter \ref{ch:methods}) with the deduction that 1900 was a code for missing data. In this analysis these records were omitted. To protect anonymity individual month and day of birth were not shared meaning age was calculable from year of birth only.  
+Analysis focussed on individuals over the age of 65. An unexpectedly large number of individuals (n = 112, 0.01%) had a year of birth recorded as 1900 (compared to n = 68 born between the years 1901 and 1910). A similar phenomenon was reported in the SCS linkage process (described in chapter \ref{ch:methods}) with the deduction that 1900 was a code for missing data. In this analysis these records were omitted. To protect anonymity individual month and day of birth were not shared meaning age was calculable from year of birth only. 
 
 The SCS requests information on the total hours of home care each individual received during the census week. To replicate this information, every episode of care in the exploratory dataset was summarised. For each episode of home care the number of hours per day was multiplied with days per week to give a weekly total of home care hours for each episode. To identify \textit{packages} of home care, episodes of home care with the same start and end date and of the same home care type, were added together. For example, an individual receiving home care of the type "Care at Home (Mainstream)" with an episode of care lasting 1 hour in the morning for 3 days a week, an episode of care lasting 45 minutes at lunchtime 7 days a week, an evening episode of 30 minutes 7 days a week, and nightime episode of 45 mins 7 days a week, would have a total weekly home care hours count of 17 hours per week for that home care type. Finally, the totals for all types of home care were summed to give an overall weekly total. 
 
@@ -83,68 +86,6 @@ The exploratory project utilised the controlled data service provided by UBDC an
 
 Following academic and ethical approval the process of obtaining a data sharing agreement (DSA) between the University of Glasgow and Renfrewshire council was instigated. This involved the production of an agreement in principal and privacy impact assessment as a basis for the DSA. Production of the DSA involved the input of legal teams from both institutions as well as liaison with data analysts at Renfrewshire council and UBDC. The initial draft was produced by the local authority with amendments from both sides before final completion and signing 06/09/2017. Final transfer of data took place on 21/09/2017. An illustration of this timeline is shown in figure \ref{fig:ren-timeline}
 
-
-```{r timeline, echo=FALSE, fig.height = 3, fig.width=10, warning=FALSE}
-library(ggplot2)
-library(dplyr)
-library(ggalt)
-library(cowplot)
-library(tibble)
-library(lubridate)
-
-#Create data to plot
-data <- tribble( ~start_date, ~event, ~displ,
-                ymd(20160201), "Initial meeting with Renfrewshire", 1,
-                ymd(20160428), "UBDC RAC submission", 0.7,
-                ymd(20160524), "College Ethics Approval", 0.5,
-                ymd(20160712), "UBDC RAC approval", -0.5,
-                ymd(20161902), "Privacy Impact Assessment", -0.3,
-                ymd(20161101), "Agreeement in Principal", 0.3,
-                ymd(20170403), "1st draft DSA received", -0.5,
-                ymd(20170601), "2nd draft DSA received", 0.5,
-                ymd(20170906), "DSA signed", 0.3,
-                ymd(20170921), "Data transferred", -0.5,
-                ymd(20180221), "Analysis complete", 0.5)
-
-
-#Function to shift x-axis to 0 taken from https://stackoverflow.com/questions/39071002/moving-x-or-y-axis-together-with-tick-labels-to-the-middle-of-a-single-ggplot-n
-
-shift_axis <- function(p, xmin, xmax, y=0){
-  g <- ggplotGrob(p)
-  dummy <- data.frame(y=y)
-  ax <- g[["grobs"]][g$layout$name == "axis-b"][[1]]
-  p + annotation_custom(grid::grobTree(ax, vp = grid::viewport(y=1, height=sum(ax$height))), 
-                        ymax=y, ymin=y) +
-    annotate("segment", y = 0, yend = 0, x = xmin, xend = xmax, 
-             arrow = arrow(length = unit(0.1, "inches"))) +
-    theme(axis.text.x = element_blank(), 
-          axis.ticks.x=element_blank())
-
-}
-
-#Conditionally set whether text will be above or below the point
-vjust = ifelse(data$displ > 0, -1, 1.5)
-
-#plot
-p1 <- data %>% 
-  ggplot(aes(start_date, displ)) +
-  geom_lollipop(point.size = 1) +
-  geom_text(aes(x = start_date, y = displ, label = event), data = data,
-            hjust = 0, vjust = vjust, size = 3) +
-  theme(axis.title = element_blank(),
-        axis.text.y = element_blank(),
-        axis.ticks.y = element_blank(),
-        axis.line = element_blank(),
-        axis.text.x = element_text(size = 7)) +
-  expand_limits(x = c(ymd(20151201), ymd(20180501)), y = c(1.2, -0.6)) +
-  scale_x_date(breaks = scales::pretty_breaks(n = 10))
-
-#and run the function from above
-timeline <- shift_axis(p1, ymd(20151201), ymd(20180501))
-ggsave("figures/renf-timeline.png", timeline, height = 3, width = 10,
-       dpi = 600)
-rm(list = c("data", "p1", "timeline", "vjust", "shift_axis"))
-```
 
 \begin{figure}[h]
   \centering
@@ -266,19 +207,24 @@ Figure \ref{fig:renf-hrs} and table \ref{tab:renf-ts-summary} also indicate that
 \begin{tabular}{@{}lllllll@{}}
 \toprule
 \textbf{Home care type} & \textbf{Present in census} & \textbf{2011/12} & \textbf{2012/13} & \textbf{2013/14} & \textbf{2014/15} & \textbf{2015/16} \\ \midrule
-Care at home (Mainstream) & no & 1573 (50.7\%) & 1830 (45.2\%) & 2055 (45.2\%) & 1759 (39.6\%) & 1890 (40.0\%) \\
-Care at home (Mainstream) & yes & 1070 (34.5\%) & 1024 (25.3\%) & 994 (21.9\%) & 1035 (23.3\%) & 1034 (27.6\%) \\
-Rapid Response & no & 181 (5.84\%) & 304 (7.5\%) & 294 (6.5\%) & 309 (7.0\%) & 287 (6.1\%) \\
-Rapid Response & yes & 74 (2.4\%) & 98 (2.4\%) & 114 (2.5\%) & 121 (2.7\%) & 117 (2.5\%) \\
-Reablement & no & 143 (4.6\%) & 600 (14.8\%) & 820 (18.0\%) & 873 (19.6\%) & 1012 (21.5\%) \\
-Reablement & yes & 60 (1.9\%) & 189 (4.7\%) & 267 (5.88\%) & 349 (7.9\%) & 377 (8.0\%) \\ \midrule
-\textbf{Total} & \textbf{} & \textbf{3101} & \textbf{4045} & \textbf{4544} & \textbf{4446} & \textbf{4717} \\ \bottomrule
+Care at home (Mainstream) & No & 1573 (50.7\%) & 1830 (45.2\%) & 2055 (45.2\%) & 1759 (39.6\%) & 1890 (40.0\%) \\
+Care at home (Mainstream) & Yes & 1070 (34.5\%) & 1024 (25.3\%) & 994 (21.9\%) & 1035 (23.3\%) & 1034 (27.6\%) \\
+Rapid Response & No & 181 (5.84\%) & 304 (7.5\%) & 294 (6.5\%) & 309 (7.0\%) & 287 (6.1\%) \\
+Rapid Response & Yes & 74 (2.4\%) & 98 (2.4\%) & 114 (2.5\%) & 121 (2.7\%) & 117 (2.5\%) \\
+Reablement & No & 143 (4.6\%) & 600 (14.8\%) & 820 (18.0\%) & 873 (19.6\%) & 1012 (21.5\%) \\
+Reablement & Yes & 60 (1.9\%) & 189 (4.7\%) & 267 (5.88\%) & 349 (7.9\%) & 377 (8.0\%) \\ \midrule
+\textbf{Total} & No & 1897 (61.2\%) & 2734 (67.6\%) & 3169 (69.7\%) & 2941 (66.1\%) & 3189 (67.6\%) \\
+\textbf{Total} & Yes & 1204 (38.8\%) & 1311 (32.4\%) & 1375 (30.3\%) & 1505 (33.9\%) & 1528 (32.4\%) \\
+\textbf{Overall total} & \textbf{} & \textbf{3101} & \textbf{4045} & \textbf{4544} & \textbf{4446} & \textbf{4717} \\
+\bottomrule
 \end{tabular}
 }
 \end{table}
 
 
-Table \ref{tab:renf-pack-count} shows that, as would be expected, all care types have fewer absolute numbers of packages captured by the census. Despite there being many more packages not captured by the census, there is much less variation in the duration of these packages which also tend to be shorter in length. Using Financial year 2013/14 as an example, figure \ref{fig:renf-duration-type} shows boxplots of the variation in duration of home care package split by age group, gender, and type of home care. In almost all groups the upper quartile of variation in groups not captured by the census do not overlap the lower quartile of variation in groups that \emph{are} in the census. This pattern is repeated when comparing package duration with hours of care received (figure \ref{fig:renf-duration-hours}) and across all years of data (see supplementary charts in section \ref{sec:renf-supp-charts}). 
+Table \ref{tab:renf-pack-count} shows that, as would be expected, all care types have fewer absolute numbers of packages captured by the census in each financial year. There is also a gradual increase in the total number of packages over time from 3,101 in 2010/11 to 4,717 in 2015/16. Interestingly, "Reablement" packages show a gradual increase in the total proportion of packages provided in each financial year from 6.5% in 2010/11 to 29.5% in 2015/16. This increase is largely at the expense of "Care at Home (Mainstream)" packages which show a decreased share from 85.2% to 67.6% over the same time period. Between 30.3% and 38.8% of packages delivered are "live" during the census week in the Financial years 2011/12 - 2015/16. 
+
+Despite there being many more packages not captured by the census, there is much less variation in the duration of these packages which also tend to be shorter in length. Using Financial year 2013/14 as an example, figure \ref{fig:renf-duration-type} shows boxplots of the variation in duration of home care package split by age group, gender, and type of home care. In almost all groups the upper quartile of variation in groups not captured by the census do not overlap the lower quartile of variation in groups that \emph{are} in the census. This pattern is repeated when comparing package duration with hours of care received (figure \ref{fig:renf-duration-hours}) and across all years of data (see supplementary charts in section \ref{sec:renf-supp-charts}). 
 
 \begin{figure}[]
   \centering
@@ -295,6 +241,25 @@ Table \ref{tab:renf-pack-count} shows that, as would be expected, all care types
     \includegraphics[height = 10cm, width = 12cm]{figures/chapter-renf/07-duration-hours.png}
     \label{fig:renf-duration-hours}
 \end{figure}
+
+When comparing the intensity of packages, the median value of total hours of home care tends to be higher in packages not captured by the census (figures \ref{fig:renf-intensity-type} and \ref{fig:renf-intensity-duration}. However the  
+
+
+\begin{figure}[]
+  \centering
+    \caption{Variation in intensit of package (hrs) - by type}
+    \includegraphics[height = 10cm, width = 12cm]{figures/chapter-renf/09-intensity-type.png}
+    \label{fig:renf-intensity-type}
+\end{figure}
+
+\begin{figure}[]
+  \centering
+    \caption{Variation in intensity (hrs) - by duration}
+    \includegraphics[height = 10cm, width = 12cm]{figures/chapter-renf/10-intensity-duration.png}
+    \label{fig:renf-intensity-duration}
+\end{figure}
+
+
 
 \subsection{Census packages - variation in total hours}\label{subsec:renf-census-variation}
 
