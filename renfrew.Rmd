@@ -72,9 +72,9 @@ The SCS requests information on the total hours of home care each individual rec
 
 To enable comparison of packages at different time points a time-series was created for the study period 27th March 2006 to 28th March 2016 at weekly intervals. The value of total hours of home care each individual was receiving at each of the 523 weekly time points was identified. From this time series weekly counts of the total number of individuals receiving home care were calculated. Maximum and minimum values, measures of central tendency and range of these weekly values were compared to the total number of individuals receiving home care in each financial year and visualised. Comparison was also made to the figures returned by Renfrewshire council to the SCS for numbers of individuals receiving home care.
 
-For the financial years 2011/12 - 2015/16 (the study period of the main thesis project) data was subset to identify those packages of home care that were "live" during the week including the 31st of March and those that were not "live" i.e. (those that would not have been captured by SCS census). These subsets were then compared by visualising the distribution of package duration and intensity (i.e. the total hours of homecare provided) across age and gender groups. As the home care packages of the types "Community Mental Health", "Overnight Services", "Housing Support", and "Extra Care Housing" accounted for less than one percent of packages of care, they were omitted from the comparative visualisations.
+For the financial years 2011/12 - 2015/16 (the study period of the main thesis project) data was subset to identify those packages of home care that were "live" during the week including the 31st of March and those that were not "live" i.e. (those that would not have been captured by SCS census). These subsets were then compared by visualising the distribution of package duration and intensity (i.e. the total hours of homecare provided) across age and gender groups. The non-parametric Mann_Whitney U test was used to compare differences between groups with p-values <0.05 accepted as showing a statistically significant difference. As the home care packages of the types "Community Mental Health", "Overnight Services", "Housing Support", and "Extra Care Housing" accounted for less than one percent of packages of care, they were omitted from the comparative visualisations and analysis.
 
-In order to assess whether the value of the total hours of homecare provided was representative of care in the six months preceding and following the census week, data was subset by individuals who only received a single package of care in the 12 months surrounding the census and those that received multiple packages of care. For those that received single packages of care, and therefore had an accurate measurement of their total hours of care, the distribution of the duration of these packages was assessed and visualised. For those that received mutiple packages of care, and therefore had differing values of hours of home care, the net difference in total hours of care received across all packages was calculated (e.g. an individual intially receiving 6 hrs of care, experiencing a break in care to zero hours, and then receiving a new package of care of 7 hrs before a further drop to 2 hrs would have a net difference of $-6 + 7 - 5 = -4$). The distribution of this value across all individuals was then assessed and visualised. 
+In order to assess whether the value of the total hours of homecare provided was representative of care in the six months preceding and following the census week, data was subset by individuals who only received a single package of care in the 12 months surrounding the census and those that received multiple packages of care. For those that received single packages of care, and therefore had an accurate measurement of their total hours of care, the distribution of the duration of these packages was assessed and visualised. For those that received mutiple packages of care, and therefore had differing values of hours of home care, the net difference in total hours of care received across all packages was calculated (e.g. an individual intially receiving 6 hrs of care, experiencing a break in care to zero hours, and then receiving a new package of care of 7 hrs before a further drop to 2 hrs would have a net difference of $(-6 + 7 - 5) = -4$). The distribution of this value across all individuals was then assessed and visualised. 
 
 Additional variables indicating whether home care packages were "live" at three, four, six, eight, and nine months before the census of each financial year were appended to the dataset. This enabled counts of indiviudals who would be captured by six-monthly, four monthly, and three monthly census repetitions. 
 
@@ -197,6 +197,8 @@ The boxplots and crosses indicating the SCS value in figure \ref{fig:renf-hrs} s
 
 Figure \ref{fig:renf-hrs} and table \ref{tab:renf-ts-summary} also indicate that in any financial year the average weekly number of individuals receiving home care is between 54% and 65% of the total number of individuals that will receive care in that year. The gap between the average and total number of individuals is wider in the years after 2010/11.  
 
+\FloatBarrier
+
 \subsection{Differences in packages captured by the census}\label{subsec:renf-pack-diff}
 
 \begin{table}[]
@@ -224,45 +226,147 @@ Reablement & Yes & 60 (1.9\%) & 189 (4.7\%) & 267 (5.88\%) & 349 (7.9\%) & 377 (
 
 Table \ref{tab:renf-pack-count} shows that, as would be expected, all care types have fewer absolute numbers of packages captured by the census in each financial year. There is also a gradual increase in the total number of packages over time from 3,101 in 2010/11 to 4,717 in 2015/16. Interestingly, "Reablement" packages show a gradual increase in the total proportion of packages provided in each financial year from 6.5% in 2010/11 to 29.5% in 2015/16. This increase is largely at the expense of "Care at Home (Mainstream)" packages which show a decreased share from 85.2% to 67.6% over the same time period. Between 30.3% and 38.8% of packages delivered are "live" during the census week in the Financial years 2011/12 - 2015/16. 
 
-Despite there being many more packages not captured by the census, there is much less variation in the duration of these packages which also tend to be shorter in length. Using Financial year 2013/14 as an example, figure \ref{fig:renf-duration-type} shows boxplots of the variation in duration of home care package split by age group, gender, and type of home care. In almost all groups the upper quartile of variation in groups not captured by the census do not overlap the lower quartile of variation in groups that \emph{are} in the census. This pattern is repeated when comparing package duration with hours of care received (figure \ref{fig:renf-duration-hours}) and across all years of data (see supplementary charts in section \ref{sec:renf-supp-charts}). 
+Despite there being many more packages not captured by the census, there is much less variation in the duration of these packages which also tend to be shorter in length. Using Financial year 2013/14 as an example, figure \ref{fig:renf-duration-type} shows boxplots of the variation in duration of home care package split by age group, gender, and type of home care. The visulaisation shows marked differences in packages either captured or not captured by the census. Table \ref{tab:renf-mann-duration} confirms the differences between groups are statistically significant across all gender and age groups. This pattern is repeated across all years of data (see supplementary charts in section \ref{sec:renf-supp-charts}). 
 
-\begin{figure}[]
+\begin{figure}[h]
   \centering
     \caption{Variation in duration - by type}
     \includegraphics[height = 10cm, width = 12cm]{figures/chapter-renf/08-duration-type.png}
     \label{fig:renf-duration-type}
 \end{figure}
+\newpage
 
+A similar pattern is seen when comparing the intensity of packages either captured or not by the census. Figure \ref{fig:renf-intensity-type} shows higher median values of total hours of home care across all groups but with much more overlap in variation. Table \ref{tab:renf-intensity-type} shows that despite this overlap the differences in variation between packages in/not in the census are statistically significant in all but one group - Males over the age of 86 receving Rapid Response care being the exception. Again, this pattern is repeated across all years of data (See supplementary figure in section \ref{sec:renf-supp-charts})
+
+\begin{table}[]
+\centering
+\caption{Mann-Whitney U test results for difference in duration across age, gender, and home care type groups}
+\label{tab:renf-mann-duration}
+\resizebox{0.6\textwidth}{!}{%
+\begin{tabular}{@{}lllll@{}}
+\toprule
+\textbf{Gender} & \textbf{Age Group} & \textbf{Type of Home Care} & \textbf{Statistic} & \textbf{p.value} \\ \midrule
+Female & 65-75 & Care at home (Mainstream) & 9920 & \textless0.001 \\
+Female & 65-75 & Rapid Response & 240 & \textless0.001 \\
+Female & 65-75 & Reablement & 102 & \textless0.001 \\
+Female & 76-85 & Care at home (Mainstream) & 29428 & \textless0.001 \\
+Female & 76-85 & Rapid Response & 296.5 & \textless0.001 \\
+Female & 76-85 & Reablement & 2151.5 & \textless0.001 \\
+Female & 86 plus & Care at home (Mainstream) & 15468.5 & \textless0.001 \\
+Female & 86 plus & Rapid Response & 100.5 & \textless0.001 \\
+Female & 86 plus & Reablement & 2134 & \textless0.001 \\
+Male & 65-75 & Care at home (Mainstream) & 3407 & \textless0.001 \\
+Male & 65-75 & Rapid Response & 12 & \textless0.001 \\
+Male & 65-75 & Reablement & 330 & \textless0.001 \\
+Male & 76-85 & Care at home (Mainstream) & 6188 & \textless0.001 \\
+Male & 76-85 & Rapid Response & 97.5 & \textless0.001 \\
+Male & 76-85 & Reablement & 512.5 & \textless0.001 \\
+Male & 86 plus & Care at home (Mainstream) & 1116 & \textless0.001 \\
+Male & 86 plus & Rapid Response & 15.5 & 0.002 \\
+Male & 86 plus & Reablement & 263 & \textless0.001 \\ \bottomrule
+\end{tabular}%
+}
+\end{table}
 
 
 \begin{figure}[]
   \centering
-    \caption{Variation in duration - by intensity (hrs)}
-    \includegraphics[height = 10cm, width = 12cm]{figures/chapter-renf/07-duration-hours.png}
-    \label{fig:renf-duration-hours}
-\end{figure}
-
-When comparing the intensity of packages, the median value of total hours of home care tends to be higher in packages not captured by the census (figures \ref{fig:renf-intensity-type} and \ref{fig:renf-intensity-duration}. However the  
-
-
-\begin{figure}[]
-  \centering
-    \caption{Variation in intensit of package (hrs) - by type}
+    \caption{Variation in intensity of package (hrs) - by type}
     \includegraphics[height = 10cm, width = 12cm]{figures/chapter-renf/09-intensity-type.png}
     \label{fig:renf-intensity-type}
 \end{figure}
 
+\begin{table}[]
+\centering
+\caption{Mann-Whitney U test results for difference in intensity across age, gender, and home care type groups}
+\label{tab:renf-intensity-type}
+\resizebox{0.6\textwidth}{!}{%
+\begin{tabular}{@{}lllll@{}}
+\toprule
+\textbf{Gender} & \textbf{Age Group} & \textbf{Home Care Type} & \textbf{Statistic} & \textbf{p.value} \\ \midrule
+Female & 65-75 & Care at home (Mainstream) & 34300.5 & \textless0.001 \\
+Female & 65-75 & Rapid Response & 993.5 & 0.027 \\
+Female & 65-75 & Reablement & 1423.5 & 0.001 \\
+Female & 76-85 & Care at home (Mainstream) & 112499.5 & \textless0.001 \\
+Female & 76-85 & Rapid Response & 2350.5 & \textless0.001 \\
+Female & 76-85 & Reablement & 10881.5 & \textless0.001 \\
+Female & 86 plus & Care at home (Mainstream) & 60028 & \textless0.001 \\
+Female & 86 plus & Rapid Response & 718.5 & 0.034 \\
+Female & 86 plus & Reablement & 9840.5 & 0.003 \\
+Male & 65-75 & Care at home (Mainstream) & 16286.5 & 0.071 \\
+Male & 65-75 & Rapid Response & 191 & 0.015 \\
+Male & 65-75 & Reablement & 1517.5 & 0.008 \\
+Male & 76-85 & Care at home (Mainstream) & 22496.5 & 0.004 \\
+Male & 76-85 & Rapid Response & 421.5 & 0.077 \\
+Male & 76-85 & Reablement & 3666.5 & \textless0.001 \\
+Male & 86 plus & Care at home (Mainstream) & 4641 & 0.021 \\
+Male & 86 plus & Rapid Response & 60 & 0.519 \\
+Male & 86 plus & Reablement & 1825.5 & 0.001 \\ \bottomrule
+\end{tabular}
+}
+\end{table}
+
+
+\FloatBarrier
+\subsection{Census packages - variation in total hours}\label{subsec:renf-census-variation}
+
+For packages captured in the census between the years 2011/12 and 2014/15 between 39.4% and 50.3% were the only package of care an individual received in the six months prior and following the census week. The remaning packages were received by individuals with more than one package of care in the same time period. 
+
+Single packages of care tended to be of much longer duration than seen across the whole dataset with a median value of between 105 and 139 weeks across years (table \ref{tab:renf-single-cen-distribution} and figure \ref{fig:renf-single-cen-distribution}). Indeed, three-quarters of packages lasted for between 75 and 84.5 weeks across each financial year.
+
+\begin{table}[]
+\centering
+\caption{Summary statistics of package duration for single packages of care captured by census}
+\label{tab:renf-single-cen-distribution}
+\resizebox{\textwidth}{!}{%
+\begin{tabular}{@{}lllllll@{}}
+\toprule
+Financial Year & Packages (n) & Packages (\%) & 25th percentile & Median & 75th Percentile & IQR \\ \midrule
+2011/12 & 623 & 50.3 & 82.5 & 139 & 205 & 122.5 \\
+2012/13 & 675 & 49.7 & 75 & 135 & 194.5 & 119.5 \\
+2013/14 & 667 & 47.0 & 84.5 & 128 & 177 & 92.5 \\
+2014/15 & 612 & 39.4 & 81 & 105 & 153.25 & 72.25 \\ \bottomrule
+\end{tabular}%
+}
+\end{table}
+
+
 \begin{figure}[]
   \centering
-    \caption{Variation in intensity (hrs) - by duration}
-    \includegraphics[height = 10cm, width = 12cm]{figures/chapter-renf/10-intensity-duration.png}
-    \label{fig:renf-intensity-duration}
+    \caption{Distribution of package duration for single packages included in census}
+    \includegraphics[height = 10cm, width = 12cm]{figures/chapter-renf/15-census-singles-length.png}
+    \label{fig:renf-single-cen-distribution}
+\end{figure}
+
+The variation in the net difference in total hours of homecare received by individuals who had one of a number of packages received in the 12 months surrounding the census captured in the census week is shown in figure \ref{fig:renf-multiple-cen-netdiff} and table \ref{tab:renf-multi-cen-netdiff}. Whilst there are some outlying points in every year, median values are close to zero with the interquartile range varying from 6.3 to 9.5 hours. 
+
+\begin{figure}[]
+  \centering
+    \caption{Distribution of net difference in hours of home care for multi packages included in census}
+    \includegraphics[height = 10cm, width = 12cm]{figures/chapter-renf/16-census-multiples-netdiff.png}
+    \label{fig:renf-multiple-cen-netdiff}
 \end{figure}
 
 
+**Need to add a individuals (n) column to this table**
 
-\subsection{Census packages - variation in total hours}\label{subsec:renf-census-variation}
+\begin{table}[]
+\centering
+\caption{Summary statistics for distribution of net difference in hours of home care for multi-packages included in the census}
+\label{tab:renf-multi-cen-netdiff}
+\resizebox{\textwidth}{!}{%
+\begin{tabular}{@{}lrrrrrrrrr@{}}
+\toprule
+\textbf{Financial Year} & \multicolumn{1}{l}{\textbf{Packages (n)}} & \multicolumn{1}{l}{\textbf{Packages (\%)}} & \multicolumn{1}{l}{\textbf{25th Percentile}} & \multicolumn{1}{l}{\textbf{Median}} & \multicolumn{1}{l}{\textbf{75th Percentile}} & \multicolumn{1}{l}{\textbf{IQR}} & \multicolumn{1}{l}{\textbf{Min}} & \multicolumn{1}{l}{\textbf{Max}} & \multicolumn{1}{l}{\textbf{Range}} \\ \midrule
+2011/12 & 616 & 49.7 & -1.75 & 0.75 & 4.5 & 6.3 & -24 & 49 & 73 \\
+2012/13 & 682 & 50.3 & -3.5 & 0 & 3.9375 & 7.4 & -29 & 30 & 59 \\
+2013/14 & 752 & 53.0 & -3.0 & 1 & 4.25 & 7.2 & -28 & 27 & 55 \\
+2014/15 & 940 & 60.6 & -7.0 & -1.75 & 2.5 & 9.5 & -45.5 & 35.5 & 81 \\ \bottomrule
+\end{tabular}%
+}
+\end{table}
 
+\FloatBarrier
 \subsection{Multi-census}\label{subsec:renf-multi-census}
 
 
@@ -295,8 +399,8 @@ Analysis of individual level social care data from Renfrewshire council area sug
 
 \begin{figure}[]
   \centering
-    \caption{Variation in duration - by intensity (hrs) - all years}
-    \includegraphics{figures/chapter-renf/11-comb-duration-hrs.png}
-    \label{fig:renf-duration-type-all}
+    \caption{Variation in intensity - by care type - all years}
+    \includegraphics{figures/chapter-renf/13-comb-intensity-type.png}
+    \label{fig:renf-intensity-type-all}
 \end{figure}
 
