@@ -121,7 +121,7 @@ Packages of non-zero hours of care & 28,775             \\ \bottomrule
 \end{threeparttable}
 \end{table}
 
-Mean age of those included in the analysis was ? years and median age was ? Sixty-four percent of individuals (n = 6515) were female. Detailed breakdown of age and gender groups is shown in figure \ref{fig:ren-age-gen}. The highest absolute numbers of individuals are found in the 76-85 age group. Statistical disclosure control meant that grouping an additional age group for over 95s was not possible.
+Mean age of those included in the analysis was 80.8 years and median age was 81. Sixty-four percent of individuals (n = 6515) were female. Detailed breakdown of age and gender groups is shown in figure \ref{fig:ren-age-gen}. The highest absolute numbers of individuals are found in the 76-85 age group. Statistical disclosure control meant that grouping an additional age group for over 95s was not possible.
 
 \begin{figure}[h]
   \centering
@@ -310,18 +310,19 @@ Male & 86 plus & Reablement & 1825.5 & 0.001 \\ \bottomrule
 \FloatBarrier
 \subsection{Census packages - variation in total hours}\label{subsec:renf-census-variation}
 
-For packages captured in the census between the years 2011/12 and 2014/15 between 39.4% and 50.3% were the only package of care an individual received in the six months prior and following the census week. The remaning packages were received by individuals with more than one package of care in the same time period. 
+For packages captured in the census between the years 2011/12 and 2014/15 between 39.4% and 50.3% were the only package of care an individual received in the six months prior and following the census week. The remaining packages were received by individuals with more than one package of care in the same time period. 
 
-Single packages of care tended to be of much longer duration than seen across the whole dataset with a median value of between 105 and 139 weeks across years (table \ref{tab:renf-single-cen-distribution} and figure \ref{fig:renf-single-cen-distribution}). Indeed, three-quarters of packages lasted for between 75 and 84.5 weeks across each financial year.
+Single packages of care tended to be of much longer duration than seen across the whole dataset with a median value of between 105 and 139 weeks across years (table \ref{tab:renf-single-cen-distribution} and figure \ref{fig:renf-single-cen-distribution}). In each financial year three-quarters of packages lasted for between 75 and 84.5 weeks. This compares to almost 85% of all packages lasting less than 52 weeks as previously shown in figure \ref{fig:ren-duration}. 
 
-\begin{table}[]
+
+\begin{table}[h]
 \centering
-\caption{Summary statistics of package duration for single packages of care captured by census}
+\caption{Summary statistics of package duration for individuals receiving a single package of home care in 6 months surrounding the census}
 \label{tab:renf-single-cen-distribution}
 \resizebox{\textwidth}{!}{%
 \begin{tabular}{@{}lllllll@{}}
 \toprule
-Financial Year & Packages (n) & Packages (\%) & 25th percentile & Median & 75th Percentile & IQR \\ \midrule
+\textbf{Financial Year} & \textbf{Individuals (n)} & \textbf{Individuals (\%)} & \textbf{25th Percentile} & \textbf{Median} & \textbf{75th Percentile} & \textbf{IQR} \\ \midrule
 2011/12 & 623 & 50.3 & 82.5 & 139 & 205 & 122.5 \\
 2012/13 & 675 & 49.7 & 75 & 135 & 194.5 & 119.5 \\
 2013/14 & 667 & 47.0 & 84.5 & 128 & 177 & 92.5 \\
@@ -330,34 +331,30 @@ Financial Year & Packages (n) & Packages (\%) & 25th percentile & Median & 75th 
 }
 \end{table}
 
-
 \begin{figure}[]
   \centering
-    \caption{Distribution of package duration for single packages included in census}
-    \includegraphics[height = 10cm, width = 12cm]{figures/chapter-renf/15-census-singles-length.png}
+    \caption{Distribution of package duration for individuals receiving a single package of homecare in the 6 months surrounding the census}
+    \includegraphics[height = 12cm, width = 16cm]{figures/chapter-renf/15-census-singles-length.png}
     \label{fig:renf-single-cen-distribution}
 \end{figure}
 
-The variation in the net difference in total hours of homecare received by individuals who had one of a number of packages received in the 12 months surrounding the census captured in the census week is shown in figure \ref{fig:renf-multiple-cen-netdiff} and table \ref{tab:renf-multi-cen-netdiff}. Whilst there are some outlying points in every year, median values are close to zero with the interquartile range varying from 6.3 to 9.5 hours. 
+Over time, an increasing number of individuals received mutiple packages of care in the 6 months surrounding the census date of each year. The variation in the net difference in total hours of homecare for these individuals is shown in table \ref{tab:renf-multi-cen-netdiff} and figure \ref{fig:renf-multiple-cen-netdiff}. Whilst there are some outlying points in every year, median values are close to zero with the interquartile range varying from 6.3 to 9.5 hours. Over time, values of net difference were more likely to be negative. In 2011/12 the interquartile range was between -1.75 and 4.5 hours, whereas in 2014/15 it was between -7.0 and 2.5 hours. 
 
 \begin{figure}[]
   \centering
-    \caption{Distribution of net difference in hours of home care for multi packages included in census}
-    \includegraphics[height = 10cm, width = 12cm]{figures/chapter-renf/16-census-multiples-netdiff.png}
+    \caption{Distribution of net difference in total hours of home care in 6 months surrounding the census for individuals with multiple packages of care}
+    \includegraphics[height = 12cm, width = 16cm]{figures/chapter-renf/16-census-multiples-netdiff.png}
     \label{fig:renf-multiple-cen-netdiff}
 \end{figure}
 
-
-**Need to add a individuals (n) column to this table**
-
-\begin{table}[]
+\begin{table}[h]
 \centering
-\caption{Summary statistics for distribution of net difference in hours of home care for multi-packages included in the census}
+\caption{Summary statistics of net difference in total hours of homecare in 6 months surrounding the census for individuals with multiple packages of care}
 \label{tab:renf-multi-cen-netdiff}
 \resizebox{\textwidth}{!}{%
 \begin{tabular}{@{}lrrrrrrrrr@{}}
 \toprule
-\textbf{Financial Year} & \multicolumn{1}{l}{\textbf{Packages (n)}} & \multicolumn{1}{l}{\textbf{Packages (\%)}} & \multicolumn{1}{l}{\textbf{25th Percentile}} & \multicolumn{1}{l}{\textbf{Median}} & \multicolumn{1}{l}{\textbf{75th Percentile}} & \multicolumn{1}{l}{\textbf{IQR}} & \multicolumn{1}{l}{\textbf{Min}} & \multicolumn{1}{l}{\textbf{Max}} & \multicolumn{1}{l}{\textbf{Range}} \\ \midrule
+\textbf{Financial Year} & \multicolumn{1}{l}{\textbf{Individuals (n)}} & \multicolumn{1}{l}{\textbf{Individuals (\%)}} & \multicolumn{1}{l}{\textbf{25th Percentile}} & \multicolumn{1}{l}{\textbf{Median}} & \multicolumn{1}{l}{\textbf{75th Percentile}} & \multicolumn{1}{l}{\textbf{IQR}} & \multicolumn{1}{l}{\textbf{Min}} & \multicolumn{1}{l}{\textbf{Max}} & \multicolumn{1}{l}{\textbf{Range}} \\ \midrule
 2011/12 & 616 & 49.7 & -1.75 & 0.75 & 4.5 & 6.3 & -24 & 49 & 73 \\
 2012/13 & 682 & 50.3 & -3.5 & 0 & 3.9375 & 7.4 & -29 & 30 & 59 \\
 2013/14 & 752 & 53.0 & -3.0 & 1 & 4.25 & 7.2 & -28 & 27 & 55 \\
@@ -366,8 +363,32 @@ The variation in the net difference in total hours of homecare received by indiv
 }
 \end{table}
 
+
 \FloatBarrier
 \subsection{Multi-census}\label{subsec:renf-multi-census}
+
+\begin{table}[h]
+\centering
+\caption{Proportion of individuals captured by census and hypothetical multi-census in each financial year}
+\label{tab:renf-multi-census}
+\resizebox{\textwidth}{!}{%
+\begin{tabular}{@{}lccccc@{}}
+\toprule
+\textbf{Financial Year} & \textbf{\begin{tabular}[c]{@{}c@{}}Total receiving\\ homecare (n)\end{tabular}} & \textbf{\begin{tabular}[c]{@{}c@{}}Captured by census\\ (\%)\end{tabular}} & \textbf{\begin{tabular}[c]{@{}c@{}}Captured by bi-annual\\ census (\%)\end{tabular}} & \textbf{\begin{tabular}[c]{@{}c@{}}Captured by tri-annual\\ census (\%)\end{tabular}} & \textbf{\begin{tabular}[c]{@{}c@{}}Captured by quarterly \\ census (\%)\end{tabular}} \\ \midrule
+2006/07 & 2435 & 62.1 & 75.5 & 80.9 & 84.2 \\
+2007/08 & 2465 & 60.7 & 74.5 & 80.1 & 83.2 \\
+2008/09 & 2438 & 61.7 & 75.0 & 81.3 & 84.5 \\
+2009/10 & 2428 & 61.9 & 75.5 & 81.1 & 83.9 \\
+2010/11 & 2157 & 57.8 & 72.8 & 82.9 & 85.8 \\
+2011/12 & 2096 & 59.1 & 73.4 & 78.9 & 82.6 \\
+2012/13 & 2381 & 57.0 & 68.2 & 73.9 & 77.8 \\
+2013/14 & 2599 & 54.6 & 68.1 & 73.7 & 78.8 \\
+2014/15 & 2763 & 56.2 & 69.7 & 86.6 & 87.8 \\ \bottomrule
+\end{tabular}%
+}
+\end{table}
+
+Table \ref{tab:renf-multi-census} shows the perecentage of the total number of individuals receiving home care in each financial year that would be captured if six-monthly, four monthly, or three-monthly census had been conducted. 
 
 
 \section{Discussion}\label{sec:renf-discuss}
@@ -393,14 +414,14 @@ Analysis of individual level social care data from Renfrewshire council area sug
 \begin{figure}[]
   \centering
     \caption{Variation in duration - by care type - all years}
-    \includegraphics{figures/chapter-renf/12-comb-duration-type.png}
+    \includegraphics[width = 16cm, height = 16cm]{figures/chapter-renf/12-comb-duration-type.png}
     \label{fig:renf-duration-type-all}
 \end{figure}
 
 \begin{figure}[]
   \centering
     \caption{Variation in intensity - by care type - all years}
-    \includegraphics{figures/chapter-renf/13-comb-intensity-type.png}
+    \includegraphics[width = 16cm, height = 16cm]{figures/chapter-renf/13-comb-intensity-type.png}
     \label{fig:renf-intensity-type-all}
 \end{figure}
 
