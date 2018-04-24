@@ -31,6 +31,7 @@ header-includes:
 - \usepackage[toc,page]{appendix}
 - \usepackage[utf8]{inputenc}
 - \onehalfspacing
+- \colorlet{Blue}{blue} #Sort out an issue with xcolor package(not explicitly loaded here!)
 ---
 
 

@@ -229,7 +229,7 @@ Despite there being many more packages not captured by the census, there is much
 
 \begin{figure}[h]
   \centering
-    \caption{Variation in duration - by type}
+    \caption{2013/14. Variation in duration - by type}
     \includegraphics[height = 10cm, width = 12cm]{figures/chapter-renf/08-duration-type.png}
     \label{fig:renf-duration-type}
 \end{figure}
@@ -239,7 +239,7 @@ A similar pattern is seen when comparing the intensity of packages either captur
 
 \begin{table}[]
 \centering
-\caption{Mann-Whitney U test results for difference in duration across age, gender, and home care type groups}
+\caption{Mann-Whitney U test results for difference in duration across age, gender, and home care type groups. 2013/14}
 \label{tab:renf-mann-duration}
 \resizebox{0.6\textwidth}{!}{%
 \begin{tabular}{@{}lllll@{}}
@@ -270,14 +270,14 @@ Male & 86 plus & Reablement & 263 & \textless0.001 \\ \bottomrule
 
 \begin{figure}[]
   \centering
-    \caption{Variation in intensity of package (hrs) - by type}
+    \caption{2013/14. Variation in intensity of package (hrs) - by type}
     \includegraphics[height = 10cm, width = 12cm]{figures/chapter-renf/09-intensity-type.png}
     \label{fig:renf-intensity-type}
 \end{figure}
 
 \begin{table}[]
 \centering
-\caption{Mann-Whitney U test results for difference in intensity across age, gender, and home care type groups}
+\caption{Mann-Whitney U test results for difference in intensity across age, gender, and home care type groups. 2013/14}
 \label{tab:renf-intensity-type}
 \resizebox{0.6\textwidth}{!}{%
 \begin{tabular}{@{}lllll@{}}
@@ -393,6 +393,8 @@ Table \ref{tab:renf-multi-census} shows the percentage of the total number of in
 Unsurprisingly, the largest increases are seen in the years where the number of individuals captured by a single census are relatively low compared to other years, in particular 2010/11, 2013/14, and 2015/16. 
 
 \section{Discussion}\label{sec:renf-discuss}
+
+*Discuss diffrence between types of package i.e. Reablement and Care at Home. Also discuss the differences in Care at Home- some misclassified reablement packages??*
 
 This exploratory project has investigated the variation in packages of care from one Scottish local authority area. It has found that figures returned by Renfrewshire council to the SCS represent between 58.4% and 63.7% of the total number of individuals that the council provided home care for in the financial years 2006/07 to 2015/16.
 
