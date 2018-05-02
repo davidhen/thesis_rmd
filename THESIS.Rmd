@@ -118,14 +118,16 @@ knitr::opts_chunk$set(fig.path = 'figures/', echo = FALSE,
 \FloatBarrier
 \newpage
 
-```{r child = 'data.Rmd'}
+```{r child = 'renfrew.Rmd'}
 ```
+
 
 \FloatBarrier
 \newpage
 
-```{r child = 'renfrew.Rmd'}
+```{r child = 'data.Rmd'}
 ```
+
 
 \FloatBarrier
 \newpage

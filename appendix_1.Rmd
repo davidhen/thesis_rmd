@@ -4,13 +4,13 @@ output: pdf_document
 
 \begin{appendices}
 
-\chapter*{Appendix A. Renfrewshire pilot. Ethical approval}\label{app:a}
-
-\includepdf[pages={-}]{data/assets/renf-ethics.pdf}
-
-\chapter*{Appendix B. Renfrewshire pilot. UBDC RAC approval}\label{app:b}
+\chapter*{Appendix A. Renfrewshire pilot. UBDC RAC approval}\label{app:b}
 
 \includepdf[pages={-}]{data/assets/renf-rac.pdf}
+
+\chapter*{Appendix B. Renfrewshire pilot. Ethical approval}\label{app:a}
+
+\includepdf[pages={-}]{data/assets/renf-ethics.pdf}
 
 \chapter*{Appendix C. PBPP approval}
 

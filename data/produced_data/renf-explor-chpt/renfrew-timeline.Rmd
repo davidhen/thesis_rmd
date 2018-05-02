@@ -5,7 +5,7 @@ date: "25 February 2018"
 output: html_document
 ---
 
-```{r timeline, echo=FALSE, fig.height = 3, fig.width=10, warning=FALSE}
+```{r timeline, echo=FALSE, fig.height = 3, fig.width=12, warning=FALSE}
 library(ggplot2)
 library(dplyr)
 library(ggalt)
@@ -51,19 +51,21 @@ p1 <- data %>%
   ggplot(aes(start_date, displ)) +
   geom_lollipop(point.size = 1) +
   geom_text(aes(x = start_date, y = displ, label = event), data = data,
-            hjust = 0, vjust = vjust, size = 3) +
+            hjust = 0, vjust = vjust, size = 4.5) +
   theme(axis.title = element_blank(),
         axis.text.y = element_blank(),
         axis.ticks.y = element_blank(),
         axis.line = element_blank(),
-        axis.text.x = element_text(size = 7)) +
-  expand_limits(x = c(ymd(20151201), ymd(20180501)), y = c(1.2, -0.6)) +
-  scale_x_date(breaks = scales::pretty_breaks(n = 10))
+        axis.text.x = element_text(size = 11),
+        plot.caption = element_text(size = 10, colour = "#808080")) +
+  expand_limits(x = c(ymd(20151201), ymd(20180601)), y = c(1.2, -0.6)) +
+  scale_x_date(breaks = scales::pretty_breaks(n = 10)) +
+  labs(caption = "UBDC = Urban Big Data Centre\nRAC = Research Approvals Committee\nDSA = Data Sharing Agreement")
 
 #and run the function from above
-timeline <- shift_axis(p1, ymd(20151201), ymd(20180501))
+timeline <- shift_axis(p1, ymd(20151201), ymd(20180701))
 timeline
-ggsave("figures/renf-timeline.png", timeline, height = 3, width = 10,
+ggsave("/Users/hedgi/OneDrive - University of Glasgow/GitHub/thesis_rmd/figures/chapter-renf/renf-timeline.png", timeline, height = 3, width = 12,
        dpi = 600)
 rm(list = c("data", "p1", "timeline", "vjust", "shift_axis"))
 ```
