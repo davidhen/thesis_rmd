@@ -213,6 +213,34 @@ Overnight Services & \\ \bottomrule
 
 \section{Methods}\label{sec:renf-methods}
 
+\subsection{Project approvals and timeline}\label{subsec:renf-methods-approvals}
+
+The exploratory project utilised the controlled data service provided by
+UBDC and therefore required approval from UBDC's Research Approvals
+Committee (RAC). This process is more fully explained in section
+\ref{subsec:rac} Approval from RAC was gained on 01/06/2016
+\emph{(Appendix A)}. Ethical approval for the study was gained from the
+University of Glasgow College of Social Sciences Research Ethics
+Committee on 24/05/2016 \emph{(Appendix B)}. .
+
+Following academic and ethical approval the process of obtaining a data
+sharing agreement (DSA) between the University of Glasgow and
+Renfrewshire council was instigated. This involved the production of an
+agreement in principal and privacy impact assessment as a basis for the
+DSA. Production of the DSA involved the input of legal teams from both
+institutions as well as liaison with data analysts at Renfrewshire
+council and UBDC. The initial draft was produced by the local authority
+with amendments from both sides before final completion and signing
+06/09/2017. Final transfer of data took place on 21/09/2017. An
+illustration of this timeline is shown in figure \ref{fig:ren-timeline}
+
+\begin{figure}[h]
+  \centering
+    \caption{Timeline of Renfrewshire exploratory project}
+    \includegraphics{figures/chapter-renf/renf-timeline.png}
+    \label{fig:ren-timeline}
+\end{figure}
+
 \subsection{Data}\label{subsec:renf-methods-data}
 
 As with all services provided by Renfrewshire council, home care data is
@@ -321,38 +349,10 @@ with packages \texttt{dplyr} v0.7.4 (Wickham and Francois 2017),
 (Wickham 2017), \texttt{purrr} v0.2.4 (Henry and Wickham 2017),
 \texttt{lubridate} v1.6.0. (Grolemund and Wickham 2017),
 \texttt{magrittr} v1.5 (Bache and Wickham 2014), \texttt{broom} v0.4.2
-\{Robinson (2017)\}, and \textt{ggplot2} v2.2.1 (Wickham and Chang 2016)
+(Robinson 2017), and \texttt{ggplot2} v2.2.1 (Wickham and Chang 2016)
 via the Integrated Development Environment RStudio v1.0.143
 (RStudio-team 2016). Data was held securely in the safe haven
 environment described in section \ref{subsec:safe-haven}
-
-\subsection{Project approvals and timeline}\label{subsec:renf-methods-approvals}
-
-The exploratory project utilised the controlled data service provided by
-UBDC and therefore required approval from UBDC's Research Approvals
-Committee (RAC). This process is more fully explained in section
-\ref{subsec:rac}. Ethical approval for the study was gained from the
-University of Glasgow College of Social Sciences Research Ethics
-Committee on 24/05/2016 \emph{(Appendix A)}. Approval from RAC was
-gained on 01/06/2016 \emph{(Appendix B)}.
-
-Following academic and ethical approval the process of obtaining a data
-sharing agreement (DSA) between the University of Glasgow and
-Renfrewshire council was instigated. This involved the production of an
-agreement in principal and privacy impact assessment as a basis for the
-DSA. Production of the DSA involved the input of legal teams from both
-institutions as well as liaison with data analysts at Renfrewshire
-council and UBDC. The initial draft was produced by the local authority
-with amendments from both sides before final completion and signing
-06/09/2017. Final transfer of data took place on 21/09/2017. An
-illustration of this timeline is shown in figure \ref{fig:ren-timeline}
-
-\begin{figure}[h]
-  \centering
-    \caption{Timeline of Renfrewshire exploratory project}
-    \includegraphics{figures/chapter-renf/renf-timeline.png}
-    \label{fig:ren-timeline}
-\end{figure}
 
 \FloatBarrier
 
@@ -371,7 +371,7 @@ ended altogether. These 12,227 records showed a value of zero for the
 total hours of homecare received and in the case of care provision
 having ended, showed an end date of 28th March 2016.
 
-\begin{table}[]
+\begin{table}[h]
 \centering
 \caption{Number of records at each stage of data cleaning}
 \label{tab:renf-cleaning}
@@ -421,11 +421,10 @@ even larger proportion of care packages prior to this.
 \end{figure}
 
 Almost two-thirds of home care packages in the study period provided
-care at lower intensities of less than 10 hours per week. Only 1,352
-packages over the 10 year study period provided high intensity packages
-of over 20 hours per week (figure \ref{fig:ren-hrs}). Packages were more
-likely to be short-lived with almost 85\% lasting for less than one year
-(figure \ref{fig:ren-duration}).
+care at intensities of less than 10 hours per week. Only 1,352 (47\%)
+packages over the 10 year study period provided high intensity care of
+over 20 hours per week (figure \ref{fig:ren-hrs}). Eight-five percent of
+packages lasted for less than one year (figure \ref{fig:ren-duration}).
 
 \begin{figure}[h]
   \centering
@@ -447,10 +446,11 @@ likely to be short-lived with almost 85\% lasting for less than one year
 
 Table \ref{tab:renf-ts-summary} and figure \ref{fig:renf-hrs} show the
 variation in the number of people receiving home care during each
-financial year. There is little weekly variation with the exception of
-financial year 2010/11 which saw a large drop in the total number of
-individuals receiving care. The years following this show gradual
-increases and a return to pre-2010/11 levels.
+financial year. There is little weekly variation within years with the
+exception of financial year 2010/11 which saw a large drop in the total
+number of individuals receiving care. The variation in years following
+this show gradual increases and overall numbers return to pre-2010/11
+levels by 2014/15.
 
 \begin{figure}[]
   \centering
@@ -524,17 +524,17 @@ Reablement & Yes & 60 (1.9\%) & 189 (4.7\%) & 267 (5.88\%) & 349 (7.9\%) & 377 (
 }
 \end{table}
 
-Table \ref{tab:renf-pack-count} shows that, as would be expected, all
-care types have fewer absolute numbers of packages captured by the
-census in each financial year. There is also a gradual increase in the
-total number of packages over time from 3,101 in 2010/11 to 4,717 in
-2015/16. Interestingly, ``Reablement'' packages show a gradual increase
-in the total proportion of packages provided in each financial year from
-6.5\% in 2010/11 to 29.5\% in 2015/16. This increase is largely at the
-expense of ``Care at Home (Mainstream)'' packages which show a decreased
-share from 85.2\% to 67.6\% over the same time period. Between 30.3\%
-and 38.8\% of packages delivered are ``live'' during the census week in
-the Financial years 2011/12 - 2015/16.
+Table \ref{tab:renf-pack-count} shows that all care types have fewer
+absolute numbers of packages captured by the census in each financial
+year. There is also a gradual increase in the total number of packages
+over time from 3,101 in 2010/11 to 4,717 in 2015/16. ``Reablement''
+packages show a gradual increase in the total proportion of packages
+provided in each financial year from 6.5\% in 2010/11 to 29.5\% in
+2015/16. This increase is largely at the expense of ``Care at Home
+(Mainstream)'' packages which show a decreased share from 85.2\% to
+67.6\% over the same time period. Between 30.3\% and 38.8\% of packages
+delivered are ``live'' during the census week in the Financial years
+2011/12 - 2015/16.
 
 Despite there being many more packages not captured by the census, there
 is much less variation in the duration of these packages which also tend
@@ -636,23 +636,28 @@ Male & 86 plus & Reablement & 1825.5 & 0.001 \\ \bottomrule
 \FloatBarrier
 \subsection{Census packages - variation in total hours}\label{subsec:renf-census-variation}
 
-For packages captured in the census between the years 2011/12 and
-2014/15 between 39.4\% and 50.3\% were the only package of care an
-individual received in the six months prior and following the census
-week. The remaining packages were received by individuals with more than
-one package of care in the same time period.
+\textbf{This section needs re-analysed to take into account combined
+duration of care for those with multiple packages}
 
-Single packages of care tended to be of much longer duration than seen
-across the whole dataset with a median value of between 105 and 139
-weeks across years (table \ref{tab:renf-single-cen-distribution} and
-figure \ref{fig:renf-single-cen-distribution}). In each financial year
-three-quarters of packages lasted for between 75 and 84.5 weeks. This
-compares to almost 85\% of all packages lasting less than 52 weeks as
-previously shown in figure \ref{fig:ren-duration}.
+Between the years 2011/12 and 2014/15 a gradual decrease from 50.3\% to
+39.4\% of individuals captured by the census received only one package
+of care in the 12-month period surrounding the census. The remaining
+individuals received more than one package of care in the same time
+period.
+
+Those who did not see a change in their care pacakge were more likely to
+have a longer lasting package of care than seen across the whole dataset
+with a median value of between 105 and 139 weeks across years (table
+\ref{tab:renf-single-cen-distribution} and figure
+\ref{fig:renf-single-cen-distribution}). At the census week in each
+financial year three-quarters of indiviudals had packages of care that
+lasted for at least 75 weeks. This compares to almost 85\% of all
+packages lasting less than 52 weeks as previously shown in figure
+\ref{fig:ren-duration}.
 
 \begin{table}[h]
 \centering
-\caption{Summary statistics of package duration (weeks) for individuals receiving a single package of home care in 6 months surrounding the census}
+\caption{Summary statistics of package duration (weeks) for individuals receiving a single package of home care in 12 months surrounding the census week}
 \label{tab:renf-single-cen-distribution}
 \resizebox{\textwidth}{!}{%
 \begin{tabular}{@{}lllllll@{}}
@@ -668,13 +673,13 @@ previously shown in figure \ref{fig:ren-duration}.
 
 \begin{figure}[]
   \centering
-    \caption{Distribution of package duration for individuals receiving a single package of homecare in the 6 months surrounding the census}
+    \caption{Distribution of package duration for individuals receiving a single package of homecare in the 12 months surrounding the census week}
     \includegraphics[height = 12cm, width = 16cm]{figures/chapter-renf/15-census-singles-length.png}
     \label{fig:renf-single-cen-distribution}
 \end{figure}
 
 Over time, an increasing number of individuals received mutiple packages
-of care in the 6 months surrounding the census date of each year. The
+of care in the 12 months surrounding the census date of each year. The
 variation in the net difference in total hours of homecare between these
 packages is shown in table \ref{tab:renf-multi-cen-netdiff} and figure
 \ref{fig:renf-multiple-cen-netdiff}. Whilst there are some outlying
@@ -686,14 +691,14 @@ it was between -7.0 and 2.5 hours.
 
 \begin{figure}[]
   \centering
-    \caption{Distribution of net difference in total hours of home care in 6 months surrounding the census for individuals with multiple packages of care}
+    \caption{Distribution of net difference in total hours of home care in 12 months surrounding the census week for individuals with multiple packages of care}
     \includegraphics[height = 12cm, width = 16cm]{figures/chapter-renf/16-census-multiples-netdiff.png}
     \label{fig:renf-multiple-cen-netdiff}
 \end{figure}
 
 \begin{table}[h]
 \centering
-\caption{Summary statistics of net difference in total hours of homecare in 6 months surrounding the census for individuals with multiple packages of care}
+\caption{Summary statistics of net difference in total hours of homecare in 12 months surrounding the census week for individuals with multiple packages of care}
 \label{tab:renf-multi-cen-netdiff}
 \resizebox{\textwidth}{!}{%
 \begin{tabular}{@{}lrrrrrrrrr@{}}

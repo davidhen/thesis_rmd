@@ -4,41 +4,18 @@ output: pdf_document
 
 \chapter{Methods}\label{ch:methods}
 
-\section{Information Governance}\label{sec:ig}
-
-Use ADRN legal issues book
-Also use SG priniciples for DL
-Data linkage course material also. 
-
-\subsection{Research Approvals Commitee}\label{subsec:rac}
-
-UBDC RAC process
-
-\subsection{Public Benefit and Privacy Panel}\label{subsec:pbpp}
-
-PBPP Process
-
-\subsection{Ethics}\label{subsec:ethics}
-
-College ethics and waivers
-
-\subsection{Data sharing agreement}\label{subsec:dsa}
-
-DSA description
-
-\subsection{Safe Haven environment}\label{subsec:safe-haven}
-
-describe safe haven
-
-\section{Timeline}\label{sec:timeline}
-
-Describe timeline of approvals process - major hurdles and barriers.
 
 \section{Cohort}\label{sec:cohort}
 
 Describe the cohort - why it was chosen. How it was constructed
 
 \section{Linkage process}\label{sec:linkage}
+
+\subsection{Social care linkage}\label{subsec:meth-soc-link}
+
+Describe probabilistic match to population spine with rates for each local authority
+
+\subsection{Linkage to health sources}
 
 Detail of linkage process with diagramme. In-depth detail here. 
 
