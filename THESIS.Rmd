@@ -3,12 +3,12 @@ output:
   pdf_document:
     fig_caption: yes
     number_sections: yes
-    citation_package: natbib
+    citation_package: biblatex
     keep_tex: false
 documentclass: report
 classoption: a4paper,oneside
-bibliography: thesis
-csl:  harvard-university-of-the-west-of-scotland.csl
+bibliography: thesis.bib
+biblio-style: apa,maxcitenames=2,mincitenames=1
 urlcolor: cyan
 linkcolor: blue
 fontsize: 12pt
@@ -16,20 +16,20 @@ geometry: top = 1.8cm, bottom = 1.8cm, left = 1.5cm, right = 1.5cm, margin = 2.5
 header-includes:
 - \usepackage[section]{placeins}
 - \usepackage{caption}
-- \usepackage{fancyhdr}
-- \usepackage{setspace}
+- \usepackage{fancyhdr} #for headers/footers
+- \usepackage{setspace} #for 1.5 spacing
 - \usepackage{chngcntr}
 - \usepackage[export]{adjustbox}
 - \usepackage{microtype}
-- \usepackage{booktabs}
-- \usepackage{graphicx}
-- \usepackage{epigraph}
-- \usepackage{pdfpages}
-- \usepackage[inline]{enumitem}
-- \usepackage[flushleft]{threeparttable}
-- \usepackage{hyperref}
-- \usepackage[toc,page]{appendix}
-- \usepackage[utf8]{inputenc}
+- \usepackage{booktabs} #tables
+- \usepackage{graphicx} #figures
+- \usepackage{epigraph} #nice quotations
+- \usepackage{pdfpages} #appendices
+- \usepackage[inline]{enumitem} #no item sepetate space
+- \usepackage[flushleft]{threeparttable} #table footer
+- \usepackage{hyperref} #cross-refs and hyperlinks
+- \usepackage[toc,page]{appendix} #appendix in toc
+- \usepackage[utf8]{inputenc} 
 - \onehalfspacing
 - \colorlet{Blue}{blue} #Sort out an issue with xcolor package(not explicitly loaded here!)
 ---
@@ -104,7 +104,6 @@ knitr::opts_chunk$set(fig.path = 'figures/', echo = FALSE,
 \fancyfoot[LE,LO]{\rightmark}
 \fancyfoot[RE,RO]{Page \thepage}
 \renewcommand{\headrulewidth}{0pt}
-\onehalfspacing
 
 ```{r child = 'intro.Rmd'}
 ```
