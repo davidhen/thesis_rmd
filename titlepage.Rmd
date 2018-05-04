@@ -10,25 +10,32 @@ output: pdf_document
 
 {\bf Multimorbidity and Access to Social Care: exploiting emerging administrative data sources in Scotland}
 
-\vspace{3 cm}
+\vspace{2 cm}
+
+\begin{figure}[h]
+  \centering
+    \includegraphics[width = 0.5\textwidth]{figures/title-page/Ghlaschu.png}
+\end{figure}
+
+\vspace{2 cm}
 
 \Large
-David Alexander Gunn Henderson
+David Alexander Gunn Henderson \\
+MRes(Health Research), PGcert(Advanced Practice), BSc(Nursing)
 
-\vspace{3 cm}
-
-
-\normalsize
-Submitted in partial fulfilment of the requirements of the degree of ...
-
-Month Year
-
-\vspace{3 cm}
+\vspace{1 cm}
 
 \normalsize
-College of Social Sciences
+Submitted in partial fulfilment of the requirements of the degree of \\
+Doctor of Philosophy (PhD)
+
+\vspace{1 cm}
 
 \normalsize
+School of Social and Political Sciences \\
+College of Social Sciences\\
 University of Glasgow
+
+October 2018
 
 \end{centering}

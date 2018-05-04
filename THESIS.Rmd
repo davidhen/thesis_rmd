@@ -6,13 +6,13 @@ output:
     citation_package: natbib
     keep_tex: false
 documentclass: report
-classoption: twoside
+classoption: a4paper,oneside
 bibliography: thesis
 csl:  harvard-university-of-the-west-of-scotland.csl
 urlcolor: cyan
 linkcolor: blue
 fontsize: 12pt
-geometry: margin = 1.2in
+geometry: top = 1.8cm, bottom = 1.8cm, left = 1.5cm, right = 1.5cm, margin = 2.5cm
 header-includes:
 - \usepackage[section]{placeins}
 - \usepackage{caption}
@@ -104,6 +104,7 @@ knitr::opts_chunk$set(fig.path = 'figures/', echo = FALSE,
 \fancyfoot[LE,LO]{\rightmark}
 \fancyfoot[RE,RO]{Page \thepage}
 \renewcommand{\headrulewidth}{0pt}
+\onehalfspacing
 
 ```{r child = 'intro.Rmd'}
 ```
