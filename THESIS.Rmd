@@ -8,7 +8,7 @@ output:
 documentclass: report
 classoption: a4paper,oneside
 bibliography: thesis.bib
-biblio-style: apa,maxcitenames=2,mincitenames=1
+biblio-style: authoryear
 urlcolor: cyan
 linkcolor: blue
 fontsize: 12pt
@@ -115,12 +115,6 @@ knitr::opts_chunk$set(fig.path = 'figures/', echo = FALSE,
 ```{r child = 'lit_review.Rmd'}
 ```
 
-\FloatBarrier
-\newpage
-
-```{r child = 'renfrew.Rmd'}
-```
-
 
 \FloatBarrier
 \newpage
@@ -128,6 +122,11 @@ knitr::opts_chunk$set(fig.path = 'figures/', echo = FALSE,
 ```{r child = 'data.Rmd'}
 ```
 
+\FloatBarrier
+\newpage
+
+```{r child = 'renfrew.Rmd'}
+```
 
 \FloatBarrier
 \newpage
@@ -138,7 +137,24 @@ knitr::opts_chunk$set(fig.path = 'figures/', echo = FALSE,
 \FloatBarrier
 \newpage
 
-```{r child = 'results.Rmd'}
+```{r child = 'results-1.Rmd'}
+```
+
+\FloatBarrier
+\newpage
+
+```{r child = 'results-2.Rmd'}
+```
+
+\FloatBarrier
+\newpage
+```{r child = 'results-3.Rmd'}
+```
+
+\FloatBarrier
+\newpage
+
+```{r child = 'discussion.Rmd'}
 ```
 
 \FloatBarrier
@@ -157,5 +173,4 @@ knitr::opts_chunk$set(fig.path = 'figures/', echo = FALSE,
 
 \FloatBarrier
 \clearpage
-
 \addcontentsline{toc}{chapter}{Bibliography}

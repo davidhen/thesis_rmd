@@ -397,6 +397,11 @@ Unsurprisingly, the largest increases are seen in the years where the number of 
 
 \section{Discussion}\label{sec:renf-discuss}
 
+* 60\% sample
+* Same type of people
+* Same type of packages
+* Different types of packages not accurately captured by categorisation?
+
 This exploratory project has investigated the variation in packages of care from one Scottish local authority area. It has found that figures returned by Renfrewshire council to the SCS represent between 58.4% and 63.7% of the total number of individuals that the council provided home care for in the financial years 2006/07 to 2015/16. 
 
 Counts of individuals produced by this analysis appear to be similar to those returned by Renfrewshire Council to the SCS for the years 2006/07 to 2010/11. Thereafter, counts are slightly less. This could be due to changes in the way data was returned to SCS from the year 2011 onwards. There have also been changes in the criteria of which individuals should be included in counts of home care since 2011 that could not be replicated in this analysis. 
