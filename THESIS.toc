@@ -1,191 +1,95 @@
-\boolfalse {citerequest}\boolfalse {citetracker}\boolfalse {pagetracker}\boolfalse {backtracker}\relax 
-\defcounter {refsection}{0}\relax 
 \contentsline {section}{Abstract}{i}{section*.2}
-\defcounter {refsection}{0}\relax 
 \contentsline {section}{List of Tables}{vi}{chapter*.3}
-\defcounter {refsection}{0}\relax 
 \contentsline {section}{List of Figures}{vii}{chapter*.4}
-\defcounter {refsection}{0}\relax 
 \contentsline {section}{Acknowledgements}{viii}{section*.6}
-\defcounter {refsection}{0}\relax 
 \contentsline {section}{Declaration}{ix}{section*.7}
-\defcounter {refsection}{0}\relax 
 \contentsline {chapter}{\numberline {1}Introduction}{1}{chapter.1}
-\defcounter {refsection}{0}\relax 
 \contentsline {section}{\numberline {1.1}Aims and Objectives}{2}{section.1.1}
-\defcounter {refsection}{0}\relax 
 \contentsline {section}{\numberline {1.2}Scientific contribution}{3}{section.1.2}
-\defcounter {refsection}{0}\relax 
 \contentsline {section}{\numberline {1.3}Conventions}{4}{section.1.3}
-\defcounter {refsection}{0}\relax 
 \contentsline {chapter}{\numberline {2}Literature Review}{5}{chapter.2}
-\defcounter {refsection}{0}\relax 
 \contentsline {section}{\numberline {2.1}Introduction}{5}{section.2.1}
-\defcounter {refsection}{0}\relax 
 \contentsline {section}{\numberline {2.2}Access to Social Care}{5}{section.2.2}
-\defcounter {refsection}{0}\relax 
 \contentsline {subsection}{\numberline {2.2.1}Definitions}{6}{subsection.2.2.1}
-\defcounter {refsection}{0}\relax 
 \contentsline {subsection}{\numberline {2.2.2}International models of social care}{8}{subsection.2.2.2}
-\defcounter {refsection}{0}\relax 
 \contentsline {subsection}{\numberline {2.2.3}Access to Social Care - Social Theory of Eligibility}{12}{subsection.2.2.3}
-\defcounter {refsection}{0}\relax 
 \contentsline {subsection}{\numberline {2.2.4}Access to Social Care - Eligibility in Scotland and the UK}{15}{subsection.2.2.4}
-\defcounter {refsection}{0}\relax 
 \contentsline {subsection}{\numberline {2.2.5}Access to Social Care - Social Theory of Resource allocation}{18}{subsection.2.2.5}
-\defcounter {refsection}{0}\relax 
 \contentsline {subsection}{\numberline {2.2.6}Access to Social Care - Resource Allocation in Scotland}{20}{subsection.2.2.6}
-\defcounter {refsection}{0}\relax 
 \contentsline {subsection}{\numberline {2.2.7}Health inequalities}{23}{subsection.2.2.7}
-\defcounter {refsection}{0}\relax 
 \contentsline {subsection}{\numberline {2.2.8}Summary}{24}{subsection.2.2.8}
-\defcounter {refsection}{0}\relax 
 \contentsline {section}{\numberline {2.3}Health and Social Care Interaction}{25}{section.2.3}
-\defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {2.3.1}Public Policy}{26}{subsection.2.3.1}
-\defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {2.3.2}Health and Social Care Integration}{28}{subsection.2.3.2}
-\defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {2.3.3}Research on Health and Social Care Interaction}{30}{subsection.2.3.3}
-\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {2.3.1}Public Policy}{25}{subsection.2.3.1}
+\contentsline {subsection}{\numberline {2.3.2}Health and Social Care Integration}{27}{subsection.2.3.2}
+\contentsline {subsection}{\numberline {2.3.3}Research on Health and Social Care Interaction}{29}{subsection.2.3.3}
 \contentsline {subsection}{\numberline {2.3.4}Summary}{31}{subsection.2.3.4}
-\defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {2.4}Multimorbidity}{32}{section.2.4}
-\defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {2.4.1}Why focus on Multimorbidity?}{32}{subsection.2.4.1}
-\defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {2.4.2}Definitions}{33}{subsection.2.4.2}
-\defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {2.4.3}Measurement}{35}{subsection.2.4.3}
-\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {2.4}Multimorbidity}{31}{section.2.4}
+\contentsline {subsection}{\numberline {2.4.1}Why focus on Multimorbidity?}{31}{subsection.2.4.1}
+\contentsline {subsection}{\numberline {2.4.2}Definitions}{32}{subsection.2.4.2}
+\contentsline {subsection}{\numberline {2.4.3}Measurement}{34}{subsection.2.4.3}
 \contentsline {subsection}{\numberline {2.4.4}Epidemiology}{36}{subsection.2.4.4}
-\defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {2.4.5}Summary}{37}{subsection.2.4.5}
-\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {2.4.5}Summary}{36}{subsection.2.4.5}
 \contentsline {section}{\numberline {2.5}Conclusion}{37}{section.2.5}
-\defcounter {refsection}{0}\relax 
 \contentsline {subsection}{\numberline {2.5.1}Thesis structure}{38}{subsection.2.5.1}
-\defcounter {refsection}{0}\relax 
-\contentsline {chapter}{\numberline {3}Data \& Information Governance}{40}{chapter.3}
-\defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {3.1}Introduction}{40}{section.3.1}
-\defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {3.2}Data Linkage}{40}{section.3.2}
-\defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {3.3}Infrastructure}{42}{section.3.3}
-\defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {3.3.1}Scottish Informatics and Linkage Collaboration}{42}{subsection.3.3.1}
-\defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {3.3.2}Urban Big Data Centre}{43}{subsection.3.3.2}
-\defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {3.3.3}electronic Data and Research Innovation Service}{43}{subsection.3.3.3}
-\defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {3.3.4}National Records of Scotland}{43}{subsection.3.3.4}
-\defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {3.3.5}Health and Social Care Analysis}{44}{subsection.3.3.5}
-\defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {3.4}Data Sources}{44}{section.3.4}
-\defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {3.4.1}Social Care Survey}{44}{subsection.3.4.1}
-\defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {3.4.2}Population Spine and Death records}{45}{subsection.3.4.2}
-\defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {3.4.3}Prescribing Information System}{45}{subsection.3.4.3}
-\defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {3.4.4}Unscheduled Care Data}{45}{subsection.3.4.4}
-\defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {3.5}Information Governance}{45}{section.3.5}
-\defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {3.5.1}Research Approvals Commitee}{45}{subsection.3.5.1}
-\defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {3.5.2}Public Benefit and Privacy Panel}{46}{subsection.3.5.2}
-\defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {3.5.3}Ethics}{46}{subsection.3.5.3}
-\defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {3.5.4}Data sharing agreement}{46}{subsection.3.5.4}
-\defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {3.5.5}Safe Haven environment}{46}{subsection.3.5.5}
-\defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {3.6}Timeline}{46}{section.3.6}
-\defcounter {refsection}{0}\relax 
-\contentsline {chapter}{\numberline {4}Renfrewshire Council Exploratory Project}{47}{chapter.4}
-\defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {4.1}Introduction}{47}{section.4.1}
-\defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {4.2}Background}{48}{section.4.2}
-\defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {4.2.1}Research Questions}{49}{subsection.4.2.1}
-\defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {4.3}Methods}{50}{section.4.3}
-\defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {4.3.1}Project approvals and timeline}{50}{subsection.4.3.1}
-\defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {4.3.2}Data}{50}{subsection.4.3.2}
-\defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {4.3.3}Analysis}{51}{subsection.4.3.3}
-\defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {4.4}Results}{53}{section.4.4}
-\defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {4.4.1}Descriptive statistics}{53}{subsection.4.4.1}
-\defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {4.4.2}Distribution of individuals receiving home care}{56}{subsection.4.4.2}
-\defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {4.4.3}Differences in packages captured by the census}{57}{subsection.4.4.3}
-\defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {4.4.4}Census packages - variation in total hours}{61}{subsection.4.4.4}
-\defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {4.4.5}Multi-census}{64}{subsection.4.4.5}
-\defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {4.5}Discussion}{64}{section.4.5}
-\defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {4.6}Conclusion}{66}{section.4.6}
-\defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {4.7}Supplementary charts}{66}{section.4.7}
-\defcounter {refsection}{0}\relax 
-\contentsline {chapter}{\numberline {5}Methods}{69}{chapter.5}
-\defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {5.1}Cohort}{69}{section.5.1}
-\defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {5.2}Linkage process}{69}{section.5.2}
-\defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {5.2.1}Social care linkage}{69}{subsection.5.2.1}
-\defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {5.2.2}Linkage to health sources}{69}{subsection.5.2.2}
-\defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {5.3}Summary measures}{69}{section.5.3}
-\defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {5.3.1}Social Care Survey}{69}{subsection.5.3.1}
-\defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {5.3.2}Prescribing Information Service}{69}{subsection.5.3.2}
-\defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {5.3.3}Demographic, geographic, and deaths information}{70}{subsection.5.3.3}
-\defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {5.3.4}Unscheduled care measures}{70}{subsection.5.3.4}
-\defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {5.4}Statistical methods}{70}{section.5.4}
-\defcounter {refsection}{0}\relax 
-\contentsline {chapter}{\numberline {6}Results 1}{71}{chapter.6}
-\defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {6.1}Introduction}{71}{section.6.1}
-\defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {6.2}Data Linkage}{71}{section.6.2}
-\defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {6.3}Characteristics of cohort}{71}{section.6.3}
-\defcounter {refsection}{0}\relax 
-\contentsline {chapter}{\numberline {7}Results 2}{72}{chapter.7}
-\defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {7.1}Social care and multimorbidity}{72}{section.7.1}
-\defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {7.2}Geographic variation in social care}{72}{section.7.2}
-\defcounter {refsection}{0}\relax 
-\contentsline {chapter}{\numberline {8}Results 3}{73}{chapter.8}
-\defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {8.1}Social care, multimorbidity, and unscheduled health care use}{73}{section.8.1}
-\defcounter {refsection}{0}\relax 
-\contentsline {chapter}{\numberline {9}Discussion}{74}{chapter.9}
-\defcounter {refsection}{0}\relax 
-\contentsline {chapter}{\numberline {10}Conclusion}{75}{chapter.10}
-\defcounter {refsection}{0}\relax 
-\contentsline {chapter}{Appendices}{76}{section*.36}
-\defcounter {refsection}{0}\relax 
-\contentsline {chapter}{Bibliography}{85}{Appendix*.39}
+\contentsline {chapter}{\numberline {3}Data \& Information Governance}{39}{chapter.3}
+\contentsline {section}{\numberline {3.1}Introduction}{39}{section.3.1}
+\contentsline {section}{\numberline {3.2}Data Linkage}{39}{section.3.2}
+\contentsline {section}{\numberline {3.3}Infrastructure}{41}{section.3.3}
+\contentsline {subsection}{\numberline {3.3.1}Scottish Informatics and Linkage Collaboration}{41}{subsection.3.3.1}
+\contentsline {subsection}{\numberline {3.3.2}Urban Big Data Centre}{42}{subsection.3.3.2}
+\contentsline {subsection}{\numberline {3.3.3}electronic Data and Research Innovation Service}{42}{subsection.3.3.3}
+\contentsline {subsection}{\numberline {3.3.4}National Records of Scotland}{42}{subsection.3.3.4}
+\contentsline {subsection}{\numberline {3.3.5}Health and Social Care Analysis}{43}{subsection.3.3.5}
+\contentsline {section}{\numberline {3.4}Data Sources}{43}{section.3.4}
+\contentsline {subsection}{\numberline {3.4.1}Social Care Survey}{43}{subsection.3.4.1}
+\contentsline {subsection}{\numberline {3.4.2}Population Spine and Death records}{44}{subsection.3.4.2}
+\contentsline {subsection}{\numberline {3.4.3}Prescribing Information System}{44}{subsection.3.4.3}
+\contentsline {subsection}{\numberline {3.4.4}Unscheduled Care Data}{44}{subsection.3.4.4}
+\contentsline {section}{\numberline {3.5}Information Governance}{44}{section.3.5}
+\contentsline {subsection}{\numberline {3.5.1}Research Approvals Commitee}{44}{subsection.3.5.1}
+\contentsline {subsection}{\numberline {3.5.2}Public Benefit and Privacy Panel}{45}{subsection.3.5.2}
+\contentsline {subsection}{\numberline {3.5.3}Ethics}{45}{subsection.3.5.3}
+\contentsline {subsection}{\numberline {3.5.4}Data sharing agreement}{45}{subsection.3.5.4}
+\contentsline {subsection}{\numberline {3.5.5}Safe Haven environment}{45}{subsection.3.5.5}
+\contentsline {section}{\numberline {3.6}Timeline}{45}{section.3.6}
+\contentsline {chapter}{\numberline {4}Renfrewshire Council Exploratory Project}{46}{chapter.4}
+\contentsline {section}{\numberline {4.1}Introduction}{46}{section.4.1}
+\contentsline {section}{\numberline {4.2}Background}{47}{section.4.2}
+\contentsline {subsection}{\numberline {4.2.1}Research Questions}{48}{subsection.4.2.1}
+\contentsline {section}{\numberline {4.3}Methods}{49}{section.4.3}
+\contentsline {subsection}{\numberline {4.3.1}Project approvals and timeline}{49}{subsection.4.3.1}
+\contentsline {subsection}{\numberline {4.3.2}Data}{49}{subsection.4.3.2}
+\contentsline {subsection}{\numberline {4.3.3}Analysis}{50}{subsection.4.3.3}
+\contentsline {section}{\numberline {4.4}Results}{52}{section.4.4}
+\contentsline {subsection}{\numberline {4.4.1}Descriptive statistics}{52}{subsection.4.4.1}
+\contentsline {subsection}{\numberline {4.4.2}Distribution of individuals receiving home care}{55}{subsection.4.4.2}
+\contentsline {subsection}{\numberline {4.4.3}Differences in packages captured by the census}{56}{subsection.4.4.3}
+\contentsline {subsection}{\numberline {4.4.4}Census packages - variation in total hours}{60}{subsection.4.4.4}
+\contentsline {subsection}{\numberline {4.4.5}Multi-census}{63}{subsection.4.4.5}
+\contentsline {section}{\numberline {4.5}Discussion}{63}{section.4.5}
+\contentsline {section}{\numberline {4.6}Conclusion}{65}{section.4.6}
+\contentsline {section}{\numberline {4.7}Supplementary charts}{65}{section.4.7}
+\contentsline {chapter}{\numberline {5}Methods}{68}{chapter.5}
+\contentsline {section}{\numberline {5.1}Cohort}{68}{section.5.1}
+\contentsline {section}{\numberline {5.2}Linkage process}{68}{section.5.2}
+\contentsline {subsection}{\numberline {5.2.1}Social care linkage}{68}{subsection.5.2.1}
+\contentsline {subsection}{\numberline {5.2.2}Linkage to health sources}{68}{subsection.5.2.2}
+\contentsline {section}{\numberline {5.3}Summary measures}{68}{section.5.3}
+\contentsline {subsection}{\numberline {5.3.1}Social Care Survey}{68}{subsection.5.3.1}
+\contentsline {subsection}{\numberline {5.3.2}Prescribing Information Service}{68}{subsection.5.3.2}
+\contentsline {subsection}{\numberline {5.3.3}Demographic, geographic, and deaths information}{69}{subsection.5.3.3}
+\contentsline {subsection}{\numberline {5.3.4}Unscheduled care measures}{69}{subsection.5.3.4}
+\contentsline {section}{\numberline {5.4}Statistical methods}{69}{section.5.4}
+\contentsline {chapter}{\numberline {6}Results 1}{70}{chapter.6}
+\contentsline {section}{\numberline {6.1}Introduction}{70}{section.6.1}
+\contentsline {section}{\numberline {6.2}Data Linkage}{70}{section.6.2}
+\contentsline {section}{\numberline {6.3}Characteristics of cohort}{70}{section.6.3}
+\contentsline {chapter}{\numberline {7}Results 2}{71}{chapter.7}
+\contentsline {section}{\numberline {7.1}Social care and multimorbidity}{71}{section.7.1}
+\contentsline {section}{\numberline {7.2}Geographic variation in social care}{71}{section.7.2}
+\contentsline {chapter}{\numberline {8}Results 3}{72}{chapter.8}
+\contentsline {section}{\numberline {8.1}Social care, multimorbidity, and unscheduled health care use}{72}{section.8.1}
+\contentsline {chapter}{\numberline {9}Discussion}{73}{chapter.9}
+\contentsline {chapter}{\numberline {10}Conclusion}{74}{chapter.10}
+\contentsline {chapter}{Appendices}{75}{section*.36}
+\contentsline {chapter}{References}{84}{chapter*.40}

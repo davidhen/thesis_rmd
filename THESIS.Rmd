@@ -3,14 +3,12 @@ output:
   pdf_document:
     fig_caption: yes
     number_sections: yes
-    citation_package: biblatex
-    keep_tex: false
 documentclass: report
 classoption: a4paper,oneside
 bibliography: thesis.bib
-biblio-style: authoryear
-urlcolor: cyan
-linkcolor: blue
+csl: harvard-cite-them-right.csl
+urlcolor: black
+linkcolor: black
 fontsize: 12pt
 geometry: top = 1.8cm, bottom = 1.8cm, left = 1.5cm, right = 1.5cm, margin = 2.5cm
 header-includes:
@@ -173,4 +171,5 @@ knitr::opts_chunk$set(fig.path = 'figures/', echo = FALSE,
 
 \FloatBarrier
 \clearpage
-\addcontentsline{toc}{chapter}{Bibliography}
+
+# References
