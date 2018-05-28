@@ -1,0 +1,16 @@
+fin_year,hc_type,method,statistic,p.value
+2010/11,Care at home (Mainstream),Fligner-Killeen test of homogeneity of variances,12.31120,0.00045
+2010/11,Rapid Response,Fligner-Killeen test of homogeneity of variances,0.61275,0.43375
+2010/11,Reablement,Fligner-Killeen test of homogeneity of variances,0.06709,0.79562
+2011/12,Care at home (Mainstream),Fligner-Killeen test of homogeneity of variances,0.21965,0.63931
+2011/12,Rapid Response,Fligner-Killeen test of homogeneity of variances,0.04274,0.83621
+2011/12,Reablement,Fligner-Killeen test of homogeneity of variances,4.88841,0.02704
+2012/13,Care at home (Mainstream),Fligner-Killeen test of homogeneity of variances,2.86511,0.09052
+2012/13,Rapid Response,Fligner-Killeen test of homogeneity of variances,10.05949,0.00152
+2012/13,Reablement,Fligner-Killeen test of homogeneity of variances,2.67873,0.10170
+2013/14,Care at home (Mainstream),Fligner-Killeen test of homogeneity of variances,1.91826,0.16605
+2013/14,Rapid Response,Fligner-Killeen test of homogeneity of variances,2.75081,0.09721
+2013/14,Reablement,Fligner-Killeen test of homogeneity of variances,5.16651,0.02303
+2014/15,Care at home (Mainstream),Fligner-Killeen test of homogeneity of variances,0.00013,0.99093
+2014/15,Rapid Response,Fligner-Killeen test of homogeneity of variances,1.27526,0.25878
+2014/15,Reablement,Fligner-Killeen test of homogeneity of variances,5.49152,0.01911

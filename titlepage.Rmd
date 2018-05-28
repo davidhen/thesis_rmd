@@ -4,18 +4,17 @@ output: pdf_document
 
 \begin{centering}
 
+\begin{figure}[h]
+  \centering
+    \includegraphics[width = 0.5\textwidth]{figures/title-page/Ghlaschu.png}
+\end{figure}
+
+
 \vspace{3 cm}
 
 \Huge
 
 {\bf Multimorbidity and Access to Social Care: exploiting emerging administrative data sources in Scotland}
-
-\vspace{2 cm}
-
-\begin{figure}[h]
-  \centering
-    \includegraphics[width = 0.5\textwidth]{figures/title-page/Ghlaschu.png}
-\end{figure}
 
 \vspace{2 cm}
 

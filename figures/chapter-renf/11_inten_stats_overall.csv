@@ -1,0 +1,36 @@
+fin_year,age_group,gender,method,statistic,p.value
+2010/11,Total,All,Fligner-Killeen test of homogeneity of variances,13.10249,0.0003
+2010/11,65-75,Female,Fligner-Killeen test of homogeneity of variances,0.77156,0.3797
+2010/11,65-75,Male,Fligner-Killeen test of homogeneity of variances,1.8425,0.1747
+2010/11,76-85,Female,Fligner-Killeen test of homogeneity of variances,0.21406,0.6436
+2010/11,76-85,Male,Fligner-Killeen test of homogeneity of variances,0.40794,0.523
+2010/11,86 plus,Female,Fligner-Killeen test of homogeneity of variances,0.20143,0.6536
+2010/11,86 plus,Male,Fligner-Killeen test of homogeneity of variances,0.62173,0.4304
+2011/12,Total,All,Fligner-Killeen test of homogeneity of variances,1.26416,0.2609
+2011/12,65-75,Female,Fligner-Killeen test of homogeneity of variances,7.55589,0.006
+2011/12,65-75,Male,Fligner-Killeen test of homogeneity of variances,0.16601,0.6837
+2011/12,76-85,Female,Fligner-Killeen test of homogeneity of variances,0.59927,0.4389
+2011/12,76-85,Male,Fligner-Killeen test of homogeneity of variances,1.60259,0.2055
+2011/12,86 plus,Female,Fligner-Killeen test of homogeneity of variances,5.6459,0.0175
+2011/12,86 plus,Male,Fligner-Killeen test of homogeneity of variances,1.89133,0.1691
+2012/13,Total,All,Fligner-Killeen test of homogeneity of variances,2.51663,0.1127
+2012/13,65-75,Female,Fligner-Killeen test of homogeneity of variances,4.71716,0.0299
+2012/13,65-75,Male,Fligner-Killeen test of homogeneity of variances,4.32085,0.0376
+2012/13,76-85,Female,Fligner-Killeen test of homogeneity of variances,0.51811,0.4716
+2012/13,76-85,Male,Fligner-Killeen test of homogeneity of variances,0.57846,0.4469
+2012/13,86 plus,Female,Fligner-Killeen test of homogeneity of variances,1.17196,0.279
+2012/13,86 plus,Male,Fligner-Killeen test of homogeneity of variances,0.61762,0.4319
+2013/14,Total,All,Fligner-Killeen test of homogeneity of variances,11.73401,0.0006
+2013/14,65-75,Female,Fligner-Killeen test of homogeneity of variances,0.92624,0.3358
+2013/14,65-75,Male,Fligner-Killeen test of homogeneity of variances,0.26435,0.6071
+2013/14,76-85,Female,Fligner-Killeen test of homogeneity of variances,1.97138,0.1603
+2013/14,76-85,Male,Fligner-Killeen test of homogeneity of variances,0.85648,0.3547
+2013/14,86 plus,Female,Fligner-Killeen test of homogeneity of variances,0.78326,0.3761
+2013/14,86 plus,Male,Fligner-Killeen test of homogeneity of variances,0.01456,0.9039
+2014/15,Total,All,Fligner-Killeen test of homogeneity of variances,10.34534,0.0013
+2014/15,65-75,Female,Fligner-Killeen test of homogeneity of variances,0.77156,0.3797
+2014/15,65-75,Male,Fligner-Killeen test of homogeneity of variances,1.8425,0.1747
+2014/15,76-85,Female,Fligner-Killeen test of homogeneity of variances,0.21406,0.6436
+2014/15,76-85,Male,Fligner-Killeen test of homogeneity of variances,0.40794,0.523
+2014/15,86 plus,Female,Fligner-Killeen test of homogeneity of variances,0.20143,0.6536
+2014/15,86 plus,Male,Fligner-Killeen test of homogeneity of variances,0.62173,0.4304

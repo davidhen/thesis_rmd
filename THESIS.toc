@@ -64,32 +64,32 @@
 \contentsline {subsection}{\numberline {4.4.1}Descriptive statistics}{52}{subsection.4.4.1}
 \contentsline {subsection}{\numberline {4.4.2}Distribution of individuals receiving home care}{55}{subsection.4.4.2}
 \contentsline {subsection}{\numberline {4.4.3}Differences in packages captured by the census}{56}{subsection.4.4.3}
-\contentsline {subsection}{\numberline {4.4.4}Census packages - variation in total hours}{60}{subsection.4.4.4}
-\contentsline {subsection}{\numberline {4.4.5}Multi-census}{63}{subsection.4.4.5}
-\contentsline {section}{\numberline {4.5}Discussion}{63}{section.4.5}
-\contentsline {section}{\numberline {4.6}Conclusion}{65}{section.4.6}
-\contentsline {section}{\numberline {4.7}Supplementary charts}{65}{section.4.7}
-\contentsline {chapter}{\numberline {5}Methods}{68}{chapter.5}
-\contentsline {section}{\numberline {5.1}Cohort}{68}{section.5.1}
-\contentsline {section}{\numberline {5.2}Linkage process}{68}{section.5.2}
-\contentsline {subsection}{\numberline {5.2.1}Social care linkage}{68}{subsection.5.2.1}
-\contentsline {subsection}{\numberline {5.2.2}Linkage to health sources}{68}{subsection.5.2.2}
-\contentsline {section}{\numberline {5.3}Summary measures}{68}{section.5.3}
-\contentsline {subsection}{\numberline {5.3.1}Social Care Survey}{68}{subsection.5.3.1}
-\contentsline {subsection}{\numberline {5.3.2}Prescribing Information Service}{68}{subsection.5.3.2}
-\contentsline {subsection}{\numberline {5.3.3}Demographic, geographic, and deaths information}{69}{subsection.5.3.3}
-\contentsline {subsection}{\numberline {5.3.4}Unscheduled care measures}{69}{subsection.5.3.4}
-\contentsline {section}{\numberline {5.4}Statistical methods}{69}{section.5.4}
-\contentsline {chapter}{\numberline {6}Results 1}{70}{chapter.6}
-\contentsline {section}{\numberline {6.1}Introduction}{70}{section.6.1}
-\contentsline {section}{\numberline {6.2}Data Linkage}{70}{section.6.2}
-\contentsline {section}{\numberline {6.3}Characteristics of cohort}{70}{section.6.3}
-\contentsline {chapter}{\numberline {7}Results 2}{71}{chapter.7}
-\contentsline {section}{\numberline {7.1}Social care and multimorbidity}{71}{section.7.1}
-\contentsline {section}{\numberline {7.2}Geographic variation in social care}{71}{section.7.2}
-\contentsline {chapter}{\numberline {8}Results 3}{72}{chapter.8}
-\contentsline {section}{\numberline {8.1}Social care, multimorbidity, and unscheduled health care use}{72}{section.8.1}
-\contentsline {chapter}{\numberline {9}Discussion}{73}{chapter.9}
-\contentsline {chapter}{\numberline {10}Conclusion}{74}{chapter.10}
-\contentsline {chapter}{Appendices}{75}{section*.36}
-\contentsline {chapter}{References}{84}{chapter*.40}
+\contentsline {subsection}{\numberline {4.4.4}Census packages - variation in total hours}{58}{subsection.4.4.4}
+\contentsline {subsection}{\numberline {4.4.5}Multi-census}{61}{subsection.4.4.5}
+\contentsline {section}{\numberline {4.5}Discussion}{61}{section.4.5}
+\contentsline {section}{\numberline {4.6}Conclusion}{63}{section.4.6}
+\contentsline {section}{\numberline {4.7}Supplementary charts}{63}{section.4.7}
+\contentsline {chapter}{\numberline {5}Methods}{66}{chapter.5}
+\contentsline {section}{\numberline {5.1}Cohort}{66}{section.5.1}
+\contentsline {section}{\numberline {5.2}Linkage process}{66}{section.5.2}
+\contentsline {subsection}{\numberline {5.2.1}Social care linkage}{66}{subsection.5.2.1}
+\contentsline {subsection}{\numberline {5.2.2}Linkage to health sources}{66}{subsection.5.2.2}
+\contentsline {section}{\numberline {5.3}Summary measures}{66}{section.5.3}
+\contentsline {subsection}{\numberline {5.3.1}Social Care Survey}{66}{subsection.5.3.1}
+\contentsline {subsection}{\numberline {5.3.2}Prescribing Information Service}{66}{subsection.5.3.2}
+\contentsline {subsection}{\numberline {5.3.3}Demographic, geographic, and deaths information}{67}{subsection.5.3.3}
+\contentsline {subsection}{\numberline {5.3.4}Unscheduled care measures}{67}{subsection.5.3.4}
+\contentsline {section}{\numberline {5.4}Statistical methods}{67}{section.5.4}
+\contentsline {chapter}{\numberline {6}Results 1}{68}{chapter.6}
+\contentsline {section}{\numberline {6.1}Introduction}{68}{section.6.1}
+\contentsline {section}{\numberline {6.2}Data Linkage}{68}{section.6.2}
+\contentsline {section}{\numberline {6.3}Characteristics of cohort}{68}{section.6.3}
+\contentsline {chapter}{\numberline {7}Results 2}{69}{chapter.7}
+\contentsline {section}{\numberline {7.1}Social care and multimorbidity}{69}{section.7.1}
+\contentsline {section}{\numberline {7.2}Geographic variation in social care}{69}{section.7.2}
+\contentsline {chapter}{\numberline {8}Results 3}{70}{chapter.8}
+\contentsline {section}{\numberline {8.1}Social care, multimorbidity, and unscheduled health care use}{70}{section.8.1}
+\contentsline {chapter}{\numberline {9}Discussion}{71}{chapter.9}
+\contentsline {chapter}{\numberline {10}Conclusion}{72}{chapter.10}
+\contentsline {chapter}{Appendices}{73}{section*.34}
+\contentsline {chapter}{References}{82}{chapter*.38}

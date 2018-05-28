@@ -1,0 +1,19 @@
+gender,age_group,hc_type,statistic,p.value,method,alternative
+Female,65-75,Care at home (Mainstream),34300.5,2.875883976796812e-4,Wilcoxon rank sum test with continuity correction,two.sided
+Female,65-75,Rapid Response,993.5,0.026973551296821177,Wilcoxon rank sum test with continuity correction,two.sided
+Female,65-75,Reablement,1423.5,6.967843505883244e-4,Wilcoxon rank sum test with continuity correction,two.sided
+Female,76-85,Care at home (Mainstream),112499.5,1.5697095231801352e-6,Wilcoxon rank sum test with continuity correction,two.sided
+Female,76-85,Rapid Response,2350.5,1.282767173052057e-4,Wilcoxon rank sum test with continuity correction,two.sided
+Female,76-85,Reablement,10881.5,5.769541513236128e-6,Wilcoxon rank sum test with continuity correction,two.sided
+Female,86 plus,Care at home (Mainstream),60028,2.9108082912335407e-12,Wilcoxon rank sum test with continuity correction,two.sided
+Female,86 plus,Rapid Response,718.5,0.033760147769057995,Wilcoxon rank sum test with continuity correction,two.sided
+Female,86 plus,Reablement,9840.5,0.0030216334654754626,Wilcoxon rank sum test with continuity correction,two.sided
+Male,65-75,Care at home (Mainstream),16286.5,0.07090059631860773,Wilcoxon rank sum test with continuity correction,two.sided
+Male,65-75,Rapid Response,191,0.014742930662450242,Wilcoxon rank sum test with continuity correction,two.sided
+Male,65-75,Reablement,1517.5,0.008056533646899752,Wilcoxon rank sum test with continuity correction,two.sided
+Male,76-85,Care at home (Mainstream),22496.5,0.0036760714960334044,Wilcoxon rank sum test with continuity correction,two.sided
+Male,76-85,Rapid Response,421.5,0.07733680715024513,Wilcoxon rank sum test with continuity correction,two.sided
+Male,76-85,Reablement,3666.5,7.274946996263841e-6,Wilcoxon rank sum test with continuity correction,two.sided
+Male,86 plus,Care at home (Mainstream),4641,0.02149332910092245,Wilcoxon rank sum test with continuity correction,two.sided
+Male,86 plus,Rapid Response,60,0.5190119149281128,Wilcoxon rank sum test with continuity correction,two.sided
+Male,86 plus,Reablement,1825.5,7.253853425319681e-4,Wilcoxon rank sum test with continuity correction,two.sided

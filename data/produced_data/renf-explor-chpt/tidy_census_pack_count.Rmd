@@ -23,7 +23,7 @@ library(magrittr)
 ##Load
 
 ```{r load}
-pack_table <- read_csv(file = "/GitHub/thesis_rmd/figures/chapter-renf/census-pack-count.csv")
+pack_table <- read_csv(file = "/Users/hedgi/OneDrive - University of Glasgow/GitHub/thesis_rmd/figures/chapter-renf/census-pack-count.csv")
 ```
 ##Summarise
 
@@ -41,18 +41,19 @@ pack_table %<>%
             `2015/16` = sum(`2015/16`)) %>%
   bind_rows(pack_table, .)
 
-pack_table %<>%
+pack_table_total <-
+  pack_table %>%
   group_by(in_census) %>% 
   summarise_at(vars(`2011/12`:`2015/16`), funs(sum(.))) %>% 
   mutate(hc_type = "Total") %>% 
   select(hc_type, everything()) %>% 
   bind_rows(pack_table, .) %>% 
   slice(-7)
-pack_table
+pack_table_total
 
 
 
-write_csv(pack_table_total, path = "/GitHub/thesis_rmd/data/produced_data/renf-explor-chpt/census_pack_count_tidy.csv")
+write_csv(pack_table_total, path = "/Users/hedgi/OneDrive - University of Glasgow/GitHub/thesis_rmd/data/produced_data/renf-explor-chpt/census_pack_count_tidy.csv")
 ```
 
 

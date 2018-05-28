@@ -4,6 +4,8 @@ output: pdf_document
 
 \chapter{Introduction}\label{ch:intro}
 
+**Revist Burchardt et al**
+
 Integration of health and social care became law in Scotland on 1st April 2016. Reflects patterns across the developing world to restructure health services to cope with demands of an ageing population. 
 
 Social Care of increasing policy (and political) importance. Link to healthcare (and demands on health services) becoming increasingly apparent (increase delayed discharge etc).
