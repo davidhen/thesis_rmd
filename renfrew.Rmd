@@ -197,43 +197,7 @@ Figure \ref{fig:renf-hrs} and table \ref{tab:renf-ts-summary} also indicate that
 \end{table}
 
 \FloatBarrier
-
-\subsection{Differences in packages captured by the census}\label{subsec:renf-pack-diff}
-
-**Major changes in this section rename**
-
-\begin{figure}[]
-  \centering
-    \caption{Proportion of individuals receiving home care}
-    \includegraphics{figures/chapter-renf/08-census-prop-plot.png}
-    \label{fig:renf-prop-plot}
-\end{figure}
-
-
-Table \ref{tab:renf-pack-count} shows that all care types have fewer absolute numbers of packages captured by the census in each financial year. There is also a gradual increase in the total number of packages over time from 3,101 in 2010/11 to 4,717 in 2015/16. "Reablement" packages show a gradual increase in the total proportion of packages provided in each financial year from 6.5% in 2010/11 to 29.5% in 2015/16. This increase is largely at the expense of "Care at Home (Mainstream)" packages which show a decreased share from 85.2% to 67.6% over the same time period. Between 30.3% and 38.8% of packages delivered are "live" during the census week in the Financial years 2011/12 - 2015/16. 
-
-Despite there being many more packages not captured by the census, there is much less variation in the duration of these packages which also tend to be shorter in length. Using Financial year 2013/14 as an example, figure \ref{fig:renf-duration-type} shows boxplots of the variation in duration of home care package split by age group, gender, and type of home care. The visulaisation shows marked differences in packages either captured or not captured by the census. Table \ref{tab:renf-mann-duration} confirms the differences between groups are statistically significant across all gender and age groups. This pattern is repeated across all years of data (see supplementary charts in section \ref{sec:renf-supp-charts}). 
-
-\begin{figure}[h]
-  \centering
-    \caption{Variation in intensity of home care}
-    \includegraphics{figures/chapter-renf/10-inten.png}
-    \label{fig:renf-inten}
-\end{figure}
-\newpage
-
-**A similar pattern is seen when comparing the intensity of packages either captured or not by the census. Figure \ref{fig:renf-intensity-type} shows higher median values of total hours of home care across all groups but with much more overlap in variation. Table \ref{tab:renf-intensity-type} shows that despite this overlap, the differences in variation between packages in/not in the census are statistically significant in all but two groups - Males in the age groups 76-85 and 86 plus receving "Rapid Response" care being the exceptions. Again, this pattern is repeated across all years of data (See supplementary figure in section \ref{sec:renf-supp-charts})**
-
-
-\begin{figure}[]
-  \centering
-    \caption{2013/14. Variation in intensity of package (hrs) - by type}
-    \includegraphics{figures/chapter-renf/12-type-inten.png}
-    \label{fig:renf-intensity-type}
-\end{figure}
-
-\FloatBarrier
-\subsection{Census packages - variation in total hours}\label{subsec:renf-census-variation}
+\subsection{Variation in care packages captured by census}\label{subsec:renf-census-variation}
 
 **This section needs re-analysed to take into account combined duration of care for those with multiple packages**
 
@@ -288,6 +252,38 @@ Over time, an increasing number of individuals received mutiple packages of care
 \end{tabular}%
 }
 \end{table}
+
+\FloatBarrier
+\subsection{Comparison of individuals with no packages in census}\label{subsec:renf-pack-diff}
+
+Figure \ref{fig:renf-prop-plot} shows that there are similar proportions of indviduals receiving each type of homecare in each financial year regardless of whether they have any packages of care captured by the census. The figure also shows the increasing proportion of "Reablement" packages over time from almost no packages in 2010/11 to approximately 14% of all packages delivered in 2014/15. "Care at home (Mainstream)" type packages saw a drop from approximately 82% to 60% of all packages over the same period. 
+
+\begin{figure}[h]
+  \centering
+    \caption{Proportion of individuals receiving home care}
+    \includegraphics{figures/chapter-renf/08-census-prop-plot.png}
+    \label{fig:renf-prop-plot}
+\end{figure}
+
+\begin{figure}[h]
+  \centering
+    \caption{Variation in intensity of home care}
+    \includegraphics{figures/chapter-renf/10-inten.png}
+    \label{fig:renf-inten}
+\end{figure}
+\newpage
+
+
+
+
+\begin{figure}[]
+  \centering
+    \caption{2013/14. Variation in intensity of package (hrs) - by type}
+    \includegraphics{figures/chapter-renf/12-type-inten.png}
+    \label{fig:renf-intensity-type}
+\end{figure}
+
+
 
 
 \FloatBarrier
