@@ -1,0 +1,41 @@
+---
+title: "Amend variation table"
+author: "David Henderson"
+date: "29 May 2018"
+output: html_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+# Intro
+
+I'm going to wrangle a table I got as output from the safe haven. I want to add a column showing me the percentage of indiviudals that are captured by the census each year
+
+##Packages
+
+```{r packages, warning=FALSE, message=FALSE}
+library(tidyverse)
+library(magrittr)
+```
+
+##Load
+
+```{r load, message=FALSE}
+var_table <- read_csv(file = "/Users/hedgi/OneDrive - University of Glasgow/GitHub/thesis_rmd/figures/chapter-renf/07_indivdual_weekly_variation.csv")
+var_table
+```
+
+#Add ratio
+
+```{r add_ratio}
+var_table %<>%
+  mutate(`%_in_census` = (n_unique - not_in_census)/n_unique * 100)
+var_table
+```
+
+```{r write_out}
+write_csv(var_table, "/Users/hedgi/OneDrive - University of Glasgow/GitHub/thesis_rmd/figures/chapter-renf/07_indivdual_weekly_variation.csv")
+```
+

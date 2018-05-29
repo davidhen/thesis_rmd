@@ -168,32 +168,30 @@ Table \ref{tab:renf-ts-summary} and figure \ref{fig:renf-hrs} show the variation
 \begin{figure}[]
   \centering
     \caption{Variation in the number of individuals receiving home care}
-    \includegraphics[width = 12cm, height = 10cm]{figures/chapter-renf/06-indivdual-weekly-variation.png}
+    \includegraphics[width = 14cm, height = 22cm]{figures/chapter-renf/06-indivdual-weekly-variation.png}
     \label{fig:renf-hrs}
 \end{figure}
 
-The boxplots and crosses indicating the SCS value in figure \ref{fig:renf-hrs} show that the number of individuals receiving care in the census week is similar to the number receiving care in any other week of the year. This is particularly true of the years 2006/07 to 2010/11. After this there appears to be a structural discrepancy between the numbers returned by Renfrewshire council to the SCS and those calculated in this analysis. The largest difference between the calculated maximum value and the value returned to the SCS is 192 individuals in financial year 2014/15.   
-
-Figure \ref{fig:renf-hrs} and table \ref{tab:renf-ts-summary} also indicate that in any financial year the average weekly number of individuals receiving home care is between 54.1% and 64.8% of the total number of individuals that will receive care in that year. The gap between the average and total number of individuals is wider in the years after 2010/11.  
+Figure \ref{fig:renf-hrs} and table \ref{tab:renf-ts-summary} also indicate that number of individuals receiving home care and captured by the census is between 51.7% and 61.9% of the total number of individuals that will receive care in that year. The trend shows a decreasing proportion of individuals are captured by the census.  
 
 \begin{table}[h]
 \centering
 \caption{Variation in the number of individuals receiving home care}
 \label{tab:renf-ts-summary}
 \resizebox{\textwidth}{!}{%
-\begin{tabular}{@{}lrrrrrrrrr@{}}
+\begin{tabular}{@{}lrrrrrrrrrr@{}}
 \toprule
-\multicolumn{1}{c}{\textbf{Financial Year}} & \multicolumn{1}{c}{\textbf{min}} & \multicolumn{1}{c}{\textbf{max}} & \multicolumn{1}{c}{\textbf{mean}} & \multicolumn{1}{c}{\textbf{sd}} & \multicolumn{1}{c}{\textbf{median}} & \multicolumn{1}{c}{\textbf{range}} & \multicolumn{1}{c}{\textbf{IQR}} & \multicolumn{1}{c}{\textbf{\begin{tabular}[c]{@{}c@{}}Total individuals\\ receiving home \\ care\end{tabular}}} & \multicolumn{1}{c}{\textbf{\begin{tabular}[c]{@{}c@{}}Total individuals\\ not captured by\\ census\end{tabular}}} \\ \midrule
-\textbf{2006/07} & 1479 & 1527 & 1502.507976 & 11.74802036 & 1501 & 48 & 15 & 2435 & 928 \\
-\textbf{2007/08} & 1488 & 1544 & 1508.645206 & 12.61027996 & 1508 & 56 & 18 & 2465 & 970 \\
-\textbf{2008/09} & 1486 & 1527 & 1508.62658 & 9.956265437 & 1508 & 41 & 16 & 2438 & 934 \\
-\textbf{2009/10} & 1488 & 1551 & 1516.428231 & 15.62001291 & 1520 & 63 & 24 & 2428 & 926 \\
-\textbf{2010/11} & 1256 & 1520 & 1399.392544 & 90.84648229 & 1378 & 264 & 176 & 2157 & 910 \\
-\textbf{2011/12} & 1195 & 1271 & 1234.189647 & 15.21338476 & 1236 & 76 & 19 & 2096 & 857 \\
-\textbf{2012/13} & 1248 & 1369 & 1288.438407 & 36.54615864 & 1278 & 121 & 39 & 2381 & 1024 \\
-\textbf{2013/14} & 1343 & 1436 & 1405.52485 & 21.16635671 & 1408 & 93 & 31 & 2599 & 1180 \\
-\textbf{2014/15} & 1437 & 1568 & 1505.504587 & 44.67960549 & 1502 & 131 & 90 & 2763 & 1212 \\
-\textbf{2015/16} & 1545 & 1609 & 1582.59595 & 13.27268182 & 1580 & 64 & 21 & 2881 & 1392 \\ \bottomrule
+\textbf{\begin{tabular}[c]{@{}l@{}}Financial\\ Year\end{tabular}} & \textbf{min} & \textbf{max} & \textbf{mean} & \textbf{sd} & \textbf{median} & \textbf{range} & \textbf{IQR} & \textbf{\begin{tabular}[c]{@{}r@{}}Total individuals\\ receiving home\\ care\end{tabular}} & \textbf{\begin{tabular}[c]{@{}r@{}}Total individulas\\ not captured by\\ census\end{tabular}} & \textbf{\begin{tabular}[c]{@{}r@{}}Ratio of individuals\\ captured by census\\ (\%)\end{tabular}} \\ \midrule
+\textbf{2006/07} & 1479 & 1527 & 1502.51 & 11.75 & 1501 & 48 & 15 & 2435 & 928 & 61.89 \\
+\textbf{2007/08} & 1488 & 1544 & 1508.65 & 12.61 & 1508 & 56 & 18 & 2465 & 970 & 60.65 \\
+\textbf{2008/09} & 1486 & 1527 & 1508.63 & 9.96 & 1508 & 41 & 16 & 2438 & 934 & 61.69 \\
+\textbf{2009/10} & 1488 & 1551 & 1516.43 & 15.62 & 1520 & 63 & 24 & 2428 & 926 & 61.86 \\
+\textbf{2010/11} & 1256 & 1520 & 1399.39 & 90.85 & 1378 & 264 & 176 & 2157 & 910 & 57.81 \\
+\textbf{2011/12} & 1195 & 1271 & 1234.19 & 15.21 & 1236 & 76 & 19 & 2096 & 857 & 59.11 \\
+\textbf{2012/13} & 1248 & 1369 & 1288.44 & 36.55 & 1278 & 121 & 39 & 2381 & 1024 & 56.99 \\
+\textbf{2013/14} & 1343 & 1436 & 1405.52 & 21.17 & 1408 & 93 & 31 & 2599 & 1180 & 54.60 \\
+\textbf{2014/15} & 1437 & 1568 & 1505.50 & 44.68 & 1502 & 131 & 90 & 2763 & 1212 & 56.13 \\
+\textbf{2015/16} & 1545 & 1609 & 1582.60 & 13.27 & 1580 & 64 & 21 & 2881 & 1392 & 51.68 \\ \bottomrule
 \end{tabular}%
 }
 \end{table}
@@ -207,7 +205,7 @@ Figure \ref{fig:renf-hrs} and table \ref{tab:renf-ts-summary} also indicate that
 \begin{figure}[]
   \centering
     \caption{Proportion of individuals receiving home care}
-    \includegraphics[width = 10cm, height = 12cm]{figures/chapter-renf/08-census-prop-plot.png}
+    \includegraphics{figures/chapter-renf/08-census-prop-plot.png}
     \label{fig:renf-prop-plot}
 \end{figure}
 
@@ -219,7 +217,7 @@ Despite there being many more packages not captured by the census, there is much
 \begin{figure}[h]
   \centering
     \caption{Variation in intensity of home care}
-    \includegraphics[height = 10cm, width = 12cm]{figures/chapter-renf/10-inten.png}
+    \includegraphics{figures/chapter-renf/10-inten.png}
     \label{fig:renf-inten}
 \end{figure}
 \newpage
@@ -230,7 +228,7 @@ Despite there being many more packages not captured by the census, there is much
 \begin{figure}[]
   \centering
     \caption{2013/14. Variation in intensity of package (hrs) - by type}
-    \includegraphics[height = 10cm, width = 12cm]{figures/chapter-renf/12-type-inten.png}
+    \includegraphics{figures/chapter-renf/12-type-inten.png}
     \label{fig:renf-intensity-type}
 \end{figure}
 

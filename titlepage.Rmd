@@ -6,17 +6,16 @@ output: pdf_document
 
 \begin{figure}[h]
   \centering
-    \includegraphics[width = 0.5\textwidth]{figures/title-page/Ghlaschu.png}
+    \includegraphics[width = 0.5\textwidth]{figures/title-page/Ghlaschu.pdf}
 \end{figure}
 
-
-\vspace{3 cm}
+\vspace{2 cm}
 
 \Huge
 
 {\bf Multimorbidity and Access to Social Care: exploiting emerging administrative data sources in Scotland}
 
-\vspace{2 cm}
+\vspace{1 cm}
 
 \Large
 David Alexander Gunn Henderson \\
