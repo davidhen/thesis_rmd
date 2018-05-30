@@ -199,88 +199,354 @@ Figure \ref{fig:renf-hrs} and table \ref{tab:renf-ts-summary} also indicate that
 \FloatBarrier
 \subsection{Variation in care packages captured by census}\label{subsec:renf-census-variation}
 
-**This section needs re-analysed to take into account combined duration of care for those with multiple packages**
-
-Between the years 2011/12 and 2014/15 a gradual decrease from 50.3% to 39.4% of individuals captured by the census received only one package of care in the 12-month period surrounding the census. The remaining individuals received more than one package of care in the same time period. 
-
-Those who did not see a change in their care pacakge were more likely to have a longer lasting package of care than seen across the whole dataset with a median value of between 105 and 139 weeks across years (table \ref{tab:renf-single-cen-distribution} and figure \ref{fig:renf-single-cen-distribution}). At the census week in each financial year three-quarters of indiviudals had packages of care that lasted for at least 75 weeks. This compares to almost 85% of all packages lasting less than 52 weeks as previously shown in figure \ref{fig:ren-duration}. 
-
-\begin{table}[h]
+\begin{table}[]
 \centering
-\caption{Summary statistics of package duration (weeks) for individuals receiving a single package of home care in 12 months surrounding the census week}
-\label{tab:renf-single-cen-distribution}
+\caption{Variation in net difference of total hours of homecare by care type}
+\label{tab:renf-net-diff}
 \resizebox{\textwidth}{!}{%
-\begin{tabular}{@{}lllllll@{}}
+\begin{threeparttable}
+\begin{tabular}{@{}llrrrrrrrr@{}}
 \toprule
-\textbf{Financial Year} & \textbf{Individuals (n)} & \textbf{Individuals (\%)} & \textbf{25th Percentile} & \textbf{Median} & \textbf{75th Percentile} & \textbf{IQR} \\ \midrule
-2011/12 & 623 & 50.3 & 82.5 & 139 & 205 & 122.5 \\
-2012/13 & 675 & 49.7 & 75 & 135 & 194.5 & 119.5 \\
-2013/14 & 667 & 47.0 & 84.5 & 128 & 177 & 92.5 \\
-2014/15 & 612 & 39.4 & 81 & 105 & 153.25 & 72.25 \\ \bottomrule
-\end{tabular}%
+\textbf{\begin{tabular}[c]{@{}l@{}}Financial \\ Year\end{tabular}} & \textbf{Type of home care} & \textbf{\begin{tabular}[c]{@{}r@{}}number\\ of packages\end{tabular}} & \textbf{\begin{tabular}[c]{@{}r@{}}number \\ of unique\\ individuals\end{tabular}} & \textbf{mean} & \textbf{sd} & \textbf{median} & \textbf{IQR} & \textbf{\begin{tabular}[c]{@{}r@{}}25th\\ percentile\end{tabular}} & \textbf{\begin{tabular}[c]{@{}r@{}}75th\\ percentile\end{tabular}} \\ \midrule
+2010/11 & Care at home (Mainstream) & 1456 & 561 & 0.23 & 5.01 & -0.13 & 4.25 & -2.00 & 2.25 \\
+2010/11 & Rapid Response & 54 & 21 & -1.04 & 3.97 & -0.13 & 4.63 & -3.31 & 1.31 \\
+2010/11 & Reablement\tnote{1} & * & * & -4.20 & 5.75 & 0.00 & 10.50 & -10.50 & 0.00 \\
+2011/12 & Care at home (Mainstream) & 1241 & 437 & 0.73 & 5.52 & 0.25 & 5.25 & -1.75 & 3.50 \\
+2011/12 & Rapid Response & 133 & 47 & -1.42 & 7.25 & -1.75 & 8.75 & -7.00 & 1.75 \\
+2011/12 & Reablement & 119 & 38 & -5.52 & 5.28 & -5.25 & 7.00 & -10.00 & -3.00 \\
+2012/13 & Care at home (Mainstream) & 1528 & 486 & 0.42 & 7.49 & 0.00 & 6.50 & -3.00 & 3.50 \\
+2012/13 & Rapid Response & 242 & 72 & -2.55 & 7.33 & -2.50 & 10.75 & -8.75 & 2.00 \\
+2012/13 & Reablement & 537 & 167 & -4.61 & 7.39 & -5.25 & 10.00 & -10.00 & 0.00 \\
+2013/14 & Care at home (Mainstream) & 1648 & 498 & -0.37 & 7.50 & 0.00 & 8.00 & -4.50 & 3.50 \\
+2013/14 & Rapid Response & 277 & 87 & -3.52 & 7.70 & -3.75 & 12.25 & -8.75 & 3.50 \\
+2013/14 & Reablement & 672 & 209 & -2.52 & 8.80 & -3.50 & 13.00 & -9.50 & 3.50 \\
+2014/15 & Care at home (Mainstream) & 1373 & 468 & 0.28 & 7.03 & 1.00 & 8.50 & -3.50 & 5.00 \\
+2014/15 & Rapid Response & 241 & 73 & -1.94 & 10.29 & -3.50 & 14.00 & -10.50 & 3.50 \\
+2014/15 & Reablement & 643 & 216 & -2.75 & 7.94 & -2.25 & 10.50 & -8.75 & 1.75 \\ \bottomrule
+\end{tabular}
+\begin{tablenotes}
+\item[1] Numbers to low to be disclosed
+\end{tablenotes}
+\end{threeparttable}%
 }
 \end{table}
 
-\begin{figure}[]
-  \centering
-    \caption{Distribution of package duration for individuals receiving a single package of homecare in the 12 months surrounding the census week}
-    \includegraphics[height = 12cm, width = 16cm]{figures/chapter-renf/15-census-singles-length.png}
-    \label{fig:renf-single-cen-distribution}
-\end{figure}
-
-Over time, an increasing number of individuals received mutiple packages of care in the 12 months surrounding the census date of each year. The variation in the net difference in total hours of homecare between these packages is shown in table \ref{tab:renf-multi-cen-netdiff} and figure \ref{fig:renf-multiple-cen-netdiff}. Whilst there are some outlying points in every year, median values are close to zero with the interquartile range varying from 6.3 to 9.5 hours. Over time, values of net difference were more likely to be negative. In 2011/12 the interquartile range was between -1.75 and 4.5 hours, whereas in 2014/15 it was between -7.0 and 2.5 hours. 
 
 \begin{figure}[]
   \centering
-    \caption{Distribution of net difference in total hours of home care in 12 months surrounding the census week for individuals with multiple packages of care}
-    \includegraphics[height = 12cm, width = 16cm]{figures/chapter-renf/16-census-multiples-netdiff.png}
-    \label{fig:renf-multiple-cen-netdiff}
+    \caption{Variation in net difference of total hours of care by care type}
+    \includegraphics[]{figures/chapter-renf/10-net-diff-plot.png}
+    \label{fig:renf-net-diff}
 \end{figure}
 
-\begin{table}[h]
-\centering
-\caption{Summary statistics of net difference in total hours of homecare in 12 months surrounding the census week for individuals with multiple packages of care}
-\label{tab:renf-multi-cen-netdiff}
-\resizebox{\textwidth}{!}{%
-\begin{tabular}{@{}lrrrrrrrrr@{}}
-\toprule
-\textbf{Financial Year} & \multicolumn{1}{l}{\textbf{Individuals (n)}} & \multicolumn{1}{l}{\textbf{Individuals (\%)}} & \multicolumn{1}{l}{\textbf{25th Percentile}} & \multicolumn{1}{l}{\textbf{Median}} & \multicolumn{1}{l}{\textbf{75th Percentile}} & \multicolumn{1}{l}{\textbf{IQR}} & \multicolumn{1}{l}{\textbf{Min}} & \multicolumn{1}{l}{\textbf{Max}} & \multicolumn{1}{l}{\textbf{Range}} \\ \midrule
-2011/12 & 616 & 49.7 & -1.75 & 0.75 & 4.5 & 6.3 & -24 & 49 & 73 \\
-2012/13 & 682 & 50.3 & -3.5 & 0 & 3.9375 & 7.4 & -29 & 30 & 59 \\
-2013/14 & 752 & 53.0 & -3.0 & 1 & 4.25 & 7.2 & -28 & 27 & 55 \\
-2014/15 & 940 & 60.6 & -7.0 & -1.75 & 2.5 & 9.5 & -45.5 & 35.5 & 81 \\ \bottomrule
-\end{tabular}%
-}
-\end{table}
+
 
 \FloatBarrier
-\subsection{Comparison of individuals with no packages in census}\label{subsec:renf-pack-diff}
+\subsection{Comparison of individuals with/without any packages in the census}\label{subsec:renf-pack-diff}
 
-Figure \ref{fig:renf-prop-plot} shows that there are similar proportions of indviduals receiving each type of homecare in each financial year regardless of whether they have any packages of care captured by the census. The figure also shows the increasing proportion of "Reablement" packages over time from almost no packages in 2010/11 to approximately 14% of all packages delivered in 2014/15. "Care at home (Mainstream)" type packages saw a drop from approximately 82% to 60% of all packages over the same period. 
+Figure \ref{fig:renf-prop-plot} shows that there are similar proportions of indviduals receiving each type of homecare in each financial year regardless of whether or not they have any packages of care captured by the census. The figure also shows the increasing proportion of "Reablement" packages over time from almost no packages in 2010/11 to approximately 14% of all packages delivered in 2014/15. "Care at home (Mainstream)" type packages saw a drop from approximately 82% to 60% of all packages over the same period. 
 
 \begin{figure}[h]
   \centering
     \caption{Proportion of individuals receiving home care}
-    \includegraphics{figures/chapter-renf/08-census-prop-plot.png}
+    \includegraphics{figures/chapter-renf/12-census-prop-plot.png}
     \label{fig:renf-prop-plot}
 \end{figure}
+
+\subsection{Comparison of package intensity for indiviudals with/without any packages in the census}\label{subsec:renf-inten-diff}
+
+Comparison of the total weekly hours of home care (intensity) that indivduals with/without any packages in the census receive (figure \ref{fig:renf-inten}) shows that there is very little difference in median values. However, as time progresses, the median value for total hours of home care is slightly larger for those with no packages of care captured in the census. 
+
+This trend is shown in table \ref{tab:renf-regr-inten} which shows the intercept and coefficient of total hours of home care in linear regression models for each year (in bold). The presence of zero packages in the census is the independent variable. Over time the intercept increases from 6.26 hours in 2010/11 to 8.41 hrs in 2014/15 indicating a general increase in intensity. There is also an increase in the coefficient value over the same time period from -0.41 to +1.2 suggesting those not in the census are increasingly more likely to have higher intensity packages of care in later years. This, however, is a very modest difference (the 1.2 hrs increase in intensity in 2014/15 equates to approximately 10 minutes extra care per day). 
+
 
 \begin{figure}[h]
   \centering
     \caption{Variation in intensity of home care}
-    \includegraphics{figures/chapter-renf/10-inten.png}
+    \includegraphics{figures/chapter-renf/14-inten.png}
     \label{fig:renf-inten}
 \end{figure}
-\newpage
 
+Table \ref{tab:renf-regr-inten} also shows the results of the same linear regression model applied seperately to groups of home care type. "Rapid Response" and "Reablement" packages of home care have higher intercept values than the overall figure as well as "Care at home (Mainstream)" packages in all years. With the exception of "Care at home (Mainstream)" packages in 2010/11, there are no statsitically significant differences between those with zero packages captured by the census for each care type until 2012/13. In this year there is a significant increase in hours for "Reablement" packages - a trend that continues to 2014/15. There are also statistically significant differences between "Care at home (Mainstream)" packages delivered to individuals with no census coverage in 2013/14 and 2014/15. These differences are more modest than those seen with "Reablement" packages with coefficients of 0.77 and 0.62 compared to 1.37 and 2.14 (6.6 mins & 5.3 mins v 11.7 & 18.3 mins increase per day). There were no statistically significant differences in "Rapid Response" packages.  These variations are shown in figure \ref{fig:renf-intensity-type}. 
+
+
+\begin{landscape}
+\begin{longtable}[c]{@{}lllllllll@{}}
+\caption{Regression models of package intensity}
+\label{tab:renf-regr-inten}\\
+\toprule
+\textbf{\begin{tabular}[c]{@{}l@{}}Financial\\ Year\end{tabular}} & \textbf{Gender} & \textbf{Age group} & \textbf{Type of home care} & \textbf{} & \textbf{estimate} & \textbf{std.error} & \textbf{statistic} & \textbf{p value} \\* \midrule
+\endfirsthead
+%
+\multicolumn{9}{c}%
+{{\bfseries Table \thetable\ continued from previous page}} \\
+\toprule
+\textbf{\begin{tabular}[c]{@{}l@{}}Financial\\ Year\end{tabular}} & \textbf{Gender} & \textbf{Age group} & \textbf{Type of home care} & \textbf{} & \textbf{estimate} & \textbf{std.error} & \textbf{statistic} & \textbf{p value} \\* \midrule
+\endhead
+%
+\bottomrule
+\endfoot
+%
+\endlastfoot
+%
+\textbf{2010/11} & \textbf{} & \textbf{} & \textbf{} & \textbf{(Intercept)} & \textbf{6.255} & \textbf{0.115} & \textbf{54.630} & \textbf{} \\
+\textbf{} & \textbf{} & \textbf{} & \textbf{} & \textbf{No package in census} & \textbf{-0.415} & \textbf{0.193} & \textbf{-2.147} & \textbf{\textless{}0.05} \\
+ & Female &  &  & (Intercept) & 6.184 & 0.134 & 46.091 &  \\
+ & Female &  &  & No package in census & -0.435 & 0.234 & -1.861 & 0.063 \\
+ & Male &  &  & (Intercept) & 6.450 & 0.220 & 29.338 &  \\
+ & Male &  &  & No package in census & -0.428 & 0.346 & -1.237 & 0.217 \\
+ &  & 65-75 &  & (Intercept) & 7.200 & 0.243 & 29.573 &  \\
+ &  & 65-75 &  & No package in census & -1.534 & 0.417 & -3.678 & \textless{}0.05 \\
+ &  & 76-85 &  & (Intercept) & 5.803 & 0.164 & 35.386 &  \\
+ &  & 76-85 &  & No package in census & -0.084 & 0.276 & -0.303 & 0.762 \\
+ &  & 86 plus &  & (Intercept) & 6.065 & 0.204 & 29.764 &  \\
+ &  & 86 plus &  & No package in census & 0.119 & 0.340 & 0.349 & 0.727 \\
+ &  &  & Care at home (Mainstream) & (Intercept) & 6.266 & 0.118 & 53.245 &  \\
+ &  &  & Care at home (Mainstream) & No package in census & -0.430 & 0.198 & -2.177 & \textless{}0.05 \\
+ &  &  & Rapid Response & (Intercept) & 5.470 & 0.490 & 11.169 &  \\
+ &  &  & Rapid Response & No package in census & 0.332 & 0.908 & 0.365 & 0.716 \\
+ &  &  & Reablement & (Intercept) & 9.958 & 1.602 & 6.216 &  \\
+ &  &  & Reablement & No package in census & -1.792 & 3.582 & -0.500 & 0.625 \\
+ \\
+ \\
+ \\
+\textbf{2011/12} & \textbf{} & \textbf{} & \textbf{} & \textbf{(Intercept)} & \textbf{6.754} & \textbf{0.118} & \textbf{57.119} & \textbf{} \\
+\textbf{} & \textbf{} & \textbf{} & \textbf{} & \textbf{No package in census} & \textbf{0.426} & \textbf{0.203} & \textbf{2.097} & \textbf{\textless{}0.05} \\
+ & Female &  &  & (Intercept) & 6.701 & 0.146 & 46.012 &  \\
+ & Female &  &  & No package in census & 0.485 & 0.251 & 1.929 & 0.054 \\
+ & Male &  &  & (Intercept) & 6.871 & 0.201 & 34.101 &  \\
+ & Male &  &  & No package in census & 0.297 & 0.344 & 0.866 & 0.387 \\
+ &  & 65-75 &  & (Intercept) & 7.414 & 0.224 & 33.119 &  \\
+ &  & 65-75 &  & No package in census & -0.504 & 0.434 & -1.161 & 0.246 \\
+ &  & 76-85 &  & (Intercept) & 6.391 & 0.175 & 36.605 &  \\
+ &  & 76-85 &  & No package in census & 0.718 & 0.291 & 2.468 & \textless{}0.05 \\
+ &  & 86 plus &  & (Intercept) & 6.576 & 0.229 & 28.772 &  \\
+ &  & 86 plus &  & No package in census & 0.892 & 0.373 & 2.390 & \textless{}0.05 \\
+ &  &  & Care at home (Mainstream) & (Intercept) & 6.551 & 0.127 & 51.631 &  \\
+ &  &  & Care at home (Mainstream) & No package in census & 0.295 & 0.223 & 1.323 & 0.186 \\
+ &  &  & Rapid Response & (Intercept) & 7.770 & 0.413 & 18.826 &  \\
+ &  &  & Rapid Response & No package in census & 0.748 & 0.634 & 1.180 & 0.239 \\
+ &  &  & Reablement & (Intercept) & 8.573 & 0.480 & 17.868 &  \\
+ &  &  & Reablement & No package in census & 0.250 & 0.737 & 0.339 & 0.735 \\
+ \\
+ \\
+ \\
+\textbf{2012/13} & \textbf{} & \textbf{} & \textbf{} & \textbf{(Intercept)} & \textbf{8.375} & \textbf{0.118} & \textbf{70.736} & \textbf{} \\
+\textbf{} & \textbf{} & \textbf{} & \textbf{} & \textbf{No package in census} & \textbf{0.586} & \textbf{0.202} & \textbf{2.896} & \textbf{\textless{}0.05} \\
+ & Female &  &  & (Intercept) & 8.460 & 0.144 & 58.950 &  \\
+ & Female &  &  & No package in census & 0.363 & 0.249 & 1.458 & 0.145 \\
+ & Male &  &  & (Intercept) & 8.190 & 0.209 & 39.100 &  \\
+ & Male &  &  & No package in census & 1.031 & 0.348 & 2.964 & \textless{}0.05 \\
+ &  & 65-75 &  & (Intercept) & 8.034 & 0.231 & 34.830 &  \\
+ &  & 65-75 &  & No package in census & 0.917 & 0.383 & 2.394 & \textless{}0.05 \\
+ &  & 76-85 &  & (Intercept) & 8.398 & 0.181 & 46.311 &  \\
+ &  & 76-85 &  & No package in census & 0.544 & 0.306 & 1.779 & \textless{}0.05 \\
+ &  & 86 plus &  & (Intercept) & 8.611 & 0.212 & 40.545 &  \\
+ &  & 86 plus &  & No package in census & 0.391 & 0.381 & 1.027 & 0.304 \\
+ &  &  & Care at home (Mainstream) & (Intercept) & 8.054 & 0.140 & 57.715 &  \\
+ &  &  & Care at home (Mainstream) & No package in census & 0.139 & 0.248 & 0.561 & 0.575 \\
+ &  &  & Rapid Response & (Intercept) & 10.172 & 0.388 & 26.193 &  \\
+ &  &  & Rapid Response & No package in census & -0.218 & 0.589 & -0.370 & 0.712 \\
+ &  &  & Reablement & (Intercept) & 8.830 & 0.262 & 33.668 &  \\
+ &  &  & Reablement & No package in census & 1.806 & 0.419 & 4.309 & \textless{}0.05 \\
+ \\
+ \\
+ \\
+\textbf{2013/14} & \textbf{} & \textbf{} & \textbf{} & \textbf{(Intercept)} & \textbf{8.531} & \textbf{0.117} & \textbf{72.894} & \textbf{} \\
+\textbf{} & \textbf{} & \textbf{} & \textbf{} & \textbf{No package in census} & \textbf{0.995} & \textbf{0.198} & \textbf{5.038} & \textbf{\textless{}0.05} \\
+ & Female &  &  & (Intercept) & 8.560 & 0.145 & 58.926 &  \\
+ & Female &  &  & No package in census & 1.092 & 0.253 & 4.322 & \textless{}0.05 \\
+ & Male &  &  & (Intercept) & 8.464 & 0.196 & 43.167 &  \\
+ & Male &  &  & No package in census & 0.844 & 0.313 & 2.699 & \textless{}0.05 \\
+ &  & 65-75 &  & (Intercept) & 8.624 & 0.222 & 38.794 &  \\
+ &  & 65-75 &  & No package in census & 0.774 & 0.387 & 2.001 & \textless{}0.05 \\
+ &  & 76-85 &  & (Intercept) & 8.420 & 0.176 & 47.958 &  \\
+ &  & 76-85 &  & No package in census & 0.953 & 0.295 & 3.233 & \textless{}0.05 \\
+ &  & 86 plus &  & (Intercept) & 8.607 & 0.221 & 38.879 &  \\
+ &  & 86 plus &  & No package in census & 1.240 & 0.367 & 3.378 & \textless{}0.05 \\
+ &  &  & Care at home (Mainstream) & (Intercept) & 8.159 & 0.143 & 57.052 &  \\
+ &  &  & Care at home (Mainstream) & No package in census & 0.766 & 0.247 & 3.101 & \textless{}0.05 \\
+ &  &  & Rapid Response & (Intercept) & 9.621 & 0.356 & 27.037 &  \\
+ &  &  & Rapid Response & No package in census & 0.944 & 0.603 & 1.565 & 0.118 \\
+ &  &  & Reablement & (Intercept) & 9.239 & 0.241 & 38.259 &  \\
+ &  &  & Reablement & No package in census & 1.364 & 0.383 & 3.562 & \textless{}0.05 \\
+ \\
+ \\
+ \\
+\textbf{2014/15} & \textbf{} & \textbf{} & \textbf{} & \textbf{(Intercept)} & \textbf{8.411} & \textbf{0.114} & \textbf{73.466} & \textbf{} \\
+\textbf{} & \textbf{} & \textbf{} & \textbf{} & \textbf{No package in census} & \textbf{1.197} & \textbf{0.189} & \textbf{6.340} & \textbf{\textless{}0.05} \\
+ & Female &  &  & (Intercept) & 8.369 & 0.141 & 59.267 &  \\
+ & Female &  &  & No package in census & 1.298 & 0.234 & 5.539 & \textless{}0.05 \\
+ & Male &  &  & (Intercept) & 8.498 & 0.195 & 43.498 &  \\
+ & Male &  &  & No package in census & 0.996 & 0.319 & 3.126 & \textless{}0.05 \\
+ &  & 65-75 &  & (Intercept) & 8.427 & 0.219 & 38.538 &  \\
+ &  & 65-75 &  & No package in census & 0.878 & 0.383 & 2.294 & \textless{}0.05 \\
+ &  & 76-85 &  & (Intercept) & 8.374 & 0.169 & 49.619 &  \\
+ &  & 76-85 &  & No package in census & 1.175 & 0.280 & 4.201 & \textless{}0.05 \\
+ &  & 86 plus &  & (Intercept) & 8.458 & 0.222 & 38.051 &  \\
+ &  & 86 plus &  & No package in census & 1.456 & 0.347 & 4.194 & \textless{}0.05 \\
+ &  &  & Care at home (Mainstream) & (Intercept) & 8.004 & 0.138 & 57.848 &  \\
+ &  &  & Care at home (Mainstream) & No package in census & 0.623 & 0.238 & 2.617 & \textless{}0.05 \\
+ &  &  & Rapid Response & (Intercept) & 9.992 & 0.385 & 25.960 &  \\
+ &  &  & Rapid Response & No package in census & 0.694 & 0.612 & 1.134 & 0.257 \\
+ &  &  & Reablement & (Intercept) & 8.898 & 0.230 & 38.757 &  \\
+ &  &  & Reablement & No package in census & 2.135 & 0.352 & 6.072 & \textless{}0.05 \\* \bottomrule
+\end{longtable}
+\end{landscape}
 
 
 
 \begin{figure}[]
   \centering
-    \caption{2013/14. Variation in intensity of package (hrs) - by type}
-    \includegraphics{figures/chapter-renf/12-type-inten.png}
+    \caption{Variation in intensity of home care - by type}
+    \includegraphics{figures/chapter-renf/16-type-inten.png}
     \label{fig:renf-intensity-type}
+\end{figure}
+
+\FloatBarrier
+\subsection{Comparison of package duration for indiviudals with/without any packages in the census}\label{subsec:renf-duration-diff}
+
+Figure \ref{fig:renf-duration} shows a comparison of the total duration of care for indiviudals with or without any packages in the census for each financial year. A clear difference can be seen for those with no packages captured by the census who have much shorter total duration of care. 
+
+\begin{figure}[]
+  \centering
+    \caption{Variation in duration of home care}
+    \includegraphics{figures/chapter-renf/17-duration.png}
+    \label{fig:renf-duration}
+\end{figure}
+
+
+
+\begin{landscape}
+\begin{longtable}[c]{@{}lllllllll@{}}
+\caption{Regression models of package duration}
+\label{tab:renf-regr-duration}\\
+\toprule
+\textbf{\begin{tabular}[c]{@{}l@{}}Financial\\ Year\end{tabular}} & \textbf{Gender} & \textbf{Age group} & \textbf{Type of home care} & \textbf{} & \textbf{estimate} & \textbf{std.error} & \textbf{statistic} & \textbf{p value} \\* \midrule
+\endfirsthead
+%
+\multicolumn{9}{c}%
+{{\bfseries Table \thetable\ continued from previous page}} \\
+\toprule
+\textbf{\begin{tabular}[c]{@{}l@{}}Financial\\ Year\end{tabular}} & \textbf{Gender} & \textbf{Age group} & \textbf{Type of home care} & \textbf{} & \textbf{estimate} & \textbf{std.error} & \textbf{statistic} & \textbf{p value} \\* \midrule
+\endhead
+%
+\bottomrule
+\endfoot
+%
+\endlastfoot
+%
+\textbf{2010/11} & \textbf{} & \textbf{} & \textbf{} & \textbf{(Intercept)} & \textbf{131.19} & \textbf{1.55} & \textbf{84.80} & \textbf{} \\
+\textbf{} & \textbf{} & \textbf{} & \textbf{} & \textbf{No package in census} & \textbf{-76.55} & \textbf{2.62} & \textbf{-29.18} & \textbf{\textless{}0.05} \\
+ & Female &  &  & (Intercept) & 132.62 & 1.83 & 72.40 &  \\
+ & Female &  &  & No package in census & -75.29 & 3.20 & -23.54 & \textless{}0.05 \\
+ & Male &  &  & (Intercept) & 127.36 & 2.89 & 44.12 &  \\
+ & Male &  &  & No package in census & -78.09 & 4.59 & -17.01 & \textless{}0.05 \\
+ &  & 65-75 &  & (Intercept) & 146.55 & 3.31 & 44.22 &  \\
+ &  & 65-75 &  & No package in census & -98.60 & 5.68 & -17.35 & \textless{}0.05 \\
+ &  & 76-85 &  & (Intercept) & 130.26 & 2.29 & 56.81 &  \\
+ &  & 76-85 &  & No package in census & -73.53 & 3.89 & -18.89 & \textless{}0.05 \\
+ &  & 86 plus &  & (Intercept) & 117.76 & 2.51 & 46.83 &  \\
+ &  & 86 plus &  & No package in census & -60.34 & 4.21 & -14.32 & \textless{}0.05 \\
+ &  &  & Care at home (Mainstream) & (Intercept) & 131.56 & 1.58 & 83.35 &  \\
+ &  &  & Care at home (Mainstream) & No package in census & -76.67 & 2.67 & -28.77 & \textless{}0.05 \\
+ &  &  & Rapid Response & (Intercept) & 140.74 & 7.85 & 17.92 &  \\
+ &  &  & Rapid Response & No package in census & -90.23 & 14.54 & -6.21 & \textless{}0.05 \\
+ &  &  & Reablement & (Intercept) & 17.57 & 5.87 & 2.99 &  \\
+ &  &  & Reablement & No package in census & -11.24 & 13.98 & -0.80 & 0.43401 \\
+ \\
+ \\
+ \\
+\textbf{2011/12} & \textbf{} & \textbf{} & \textbf{} & \textbf{(Intercept)} & \textbf{111.31} & \textbf{1.44} & \textbf{77.39} & \textbf{} \\
+\textbf{} & \textbf{} & \textbf{} & \textbf{} & \textbf{No package in census} & \textbf{-67.55} & \textbf{2.49} & \textbf{-27.09} & \textbf{\textless{}0.05} \\
+ & Female &  &  & (Intercept) & 113.67 & 1.73 & 65.70 &  \\
+ & Female &  &  & No package in census & -67.69 & 3.00 & -22.55 & \textless{}0.05 \\
+ & Male &  &  & (Intercept) & 106.17 & 2.58 & 41.15 &  \\
+ & Male &  &  & No package in census & -67.21 & 4.46 & -15.06 & \textless{}0.05 \\
+ &  & 65-75 &  & (Intercept) & 122.75 & 2.72 & 45.06 &  \\
+ &  & 65-75 &  & No package in census & -85.49 & 5.27 & -16.23 & \textless{}0.05 \\
+ &  & 76-85 &  & (Intercept) & 109.74 & 2.25 & 48.73 &  \\
+ &  & 76-85 &  & No package in census & -67.86 & 3.79 & -17.92 & \textless{}0.05 \\
+ &  & 86 plus &  & (Intercept) & 101.08 & 2.49 & 40.60 &  \\
+ &  & 86 plus &  & No package in census & -49.92 & 4.13 & -12.09 & \textless{}0.05 \\
+ &  &  & Care at home (Mainstream) & (Intercept) & 117.92 & 1.58 & 74.84 &  \\
+ &  &  & Care at home (Mainstream) & No package in census & -68.29 & 2.78 & -24.56 & \textless{}0.05 \\
+ &  &  & Rapid Response & (Intercept) & 79.82 & 4.45 & 17.96 &  \\
+ &  &  & Rapid Response & No package in census & -55.49 & 7.03 & -7.89 & \textless{}0.05 \\
+ &  &  & Reablement & (Intercept) & 63.15 & 3.16 & 19.98 &  \\
+ &  &  & Reablement & No package in census & -51.53 & 5.06 & -10.18 & \textless{}0.05 \\
+ \\
+ \\
+ \\
+\textbf{2012/13} & \textbf{} & \textbf{} & \textbf{} & \textbf{(Intercept)} & \textbf{104.68} & \textbf{1.20} & \textbf{87.51} & \textbf{} \\
+\textbf{} & \textbf{} & \textbf{} & \textbf{} & \textbf{No package in census} & \textbf{-69.14} & \textbf{2.06} & \textbf{-33.51} & \textbf{\textless{}0.05} \\
+ & Female &  &  & (Intercept) & 105.59 & 1.45 & 72.89 &  \\
+ & Female &  &  & No package in census & -67.85 & 2.53 & -26.84 & \textless{}0.05 \\
+ & Male &  &  & (Intercept) & 102.72 & 2.12 & 48.49 &  \\
+ & Male &  &  & No package in census & -71.45 & 3.57 & -20.01 & \textless{}0.05 \\
+ &  & 65-75 &  & (Intercept) & 120.31 & 2.73 & 44.05 &  \\
+ &  & 65-75 &  & No package in census & -80.02 & 4.61 & -17.34 & \textless{}0.05 \\
+ &  & 76-85 &  & (Intercept) & 102.25 & 1.77 & 57.92 &  \\
+ &  & 76-85 &  & No package in census & -67.40 & 3.01 & -22.38 & \textless{}0.05 \\
+ &  & 86 plus &  & (Intercept) & 95.62 & 1.87 & 51.00 &  \\
+ &  & 86 plus &  & No package in census & -63.47 & 3.35 & -18.94 & \textless{}0.05 \\
+ &  &  & Care at home (Mainstream) & (Intercept) & 117.05 & 1.52 & 77.20 &  \\
+ &  &  & Care at home (Mainstream) & No package in census & -71.43 & 2.71 & -26.38 & \textless{}0.05 \\
+ &  &  & Rapid Response & (Intercept) & 85.41 & 3.12 & 27.40 &  \\
+ &  &  & Rapid Response & No package in census & -60.22 & 4.88 & -12.34 & \textless{}0.05 \\
+ &  &  & Reablement & (Intercept) & 69.45 & 1.64 & 42.46 &  \\
+ &  &  & Reablement & No package in census & -55.95 & 2.68 & -20.91 & \textless{}0.05 \\
+ \\
+ \\
+ \\
+\textbf{2013/14} & \textbf{} & \textbf{} & \textbf{} & \textbf{(Intercept)} & \textbf{104.94} & \textbf{1.09} & \textbf{95.88} & \textbf{} \\
+\textbf{} & \textbf{} & \textbf{} & \textbf{} & \textbf{No package in census} & \textbf{-68.39} & \textbf{1.86} & \textbf{-36.75} & \textbf{\textless{}0.05} \\
+ & Female &  &  & (Intercept) & 107.27 & 1.38 & 77.99 &  \\
+ & Female &  &  & No package in census & -68.11 & 2.41 & -28.20 & \textless{}0.05 \\
+ & Male &  &  & (Intercept) & 99.80 & 1.77 & 56.28 &  \\
+ & Male &  &  & No package in census & -67.59 & 2.84 & -23.78 & \textless{}0.05 \\
+ &  & 65-75 &  & (Intercept) & 121.50 & 2.42 & 50.14 &  \\
+ &  & 65-75 &  & No package in census & -86.25 & 4.23 & -20.39 & \textless{}0.05 \\
+ &  & 76-85 &  & (Intercept) & 103.77 & 1.62 & 63.93 &  \\
+ &  & 76-85 &  & No package in census & -68.17 & 2.74 & -24.87 & \textless{}0.05 \\
+ &  & 86 plus &  & (Intercept) & 91.45 & 1.69 & 53.97 &  \\
+ &  & 86 plus &  & No package in census & -52.46 & 2.84 & -18.44 & \textless{}0.05 \\
+ &  &  & Care at home (Mainstream) & (Intercept) & 114.43 & 1.46 & 78.32 &  \\
+ &  &  & Care at home (Mainstream) & No package in census & -69.58 & 2.54 & -27.40 & \textless{}0.05 \\
+ &  &  & Rapid Response & (Intercept) & 93.32 & 3.05 & 30.59 &  \\
+ &  &  & Rapid Response & No package in census & -67.26 & 5.30 & -12.69 & \textless{}0.05 \\
+ &  &  & Reablement & (Intercept) & 82.70 & 1.49 & 55.68 &  \\
+ &  &  & Reablement & No package in census & -61.07 & 2.38 & -25.69 & \textless{}0.05 \\
+ \\
+ \\
+ \\
+\textbf{2014/15} & \textbf{} & \textbf{} & \textbf{} & \textbf{(Intercept)} & \textbf{90.76} & \textbf{0.99} & \textbf{91.86} & \textbf{} \\
+\textbf{} & \textbf{} & \textbf{} & \textbf{} & \textbf{No package in census} & \textbf{-54.32} & \textbf{1.63} & \textbf{-33.23} & \textbf{\textless{}0.05} \\
+ & Female &  &  & (Intercept) & 91.79 & 1.20 & 76.25 &  \\
+ & Female &  &  & No package in census & -54.28 & 2.00 & -27.11 & \textless{}0.05 \\
+ & Male &  &  & (Intercept) & 88.64 & 1.73 & 51.27 &  \\
+ & Male &  &  & No package in census & -54.28 & 2.83 & -19.19 & \textless{}0.05 \\
+ &  & 65-75 &  & (Intercept) & 106.95 & 2.30 & 46.56 &  \\
+ &  & 65-75 &  & No package in census & -71.40 & 3.98 & -17.95 & \textless{}0.05 \\
+ &  & 76-85 &  & (Intercept) & 84.83 & 1.34 & 63.13 &  \\
+ &  & 76-85 &  & No package in census & -48.84 & 2.24 & -21.79 & \textless{}0.05 \\
+ &  & 86 plus &  & (Intercept) & 85.24 & 1.68 & 50.62 &  \\
+ &  & 86 plus &  & No package in census & -47.48 & 2.65 & -17.91 & \textless{}0.05 \\
+ &  &  & Care at home (Mainstream) & (Intercept) & 98.60 & 1.40 & 70.59 &  \\
+ &  &  & Care at home (Mainstream) & No package in census & -56.46 & 2.41 & -23.46 & \textless{}0.05 \\
+ &  &  & Rapid Response & (Intercept) & 80.31 & 2.52 & 31.88 &  \\
+ &  &  & Rapid Response & No package in census & -45.33 & 4.02 & -11.28 & \textless{}0.05 \\
+ &  &  & Reablement & (Intercept) & 75.47 & 1.26 & 59.82 &  \\
+ &  &  & Reablement & No package in census & -48.43 & 1.95 & -24.79 & \textless{}0.05 \\* \bottomrule
+\end{longtable}
+\end{landscape}
+
+
+\begin{figure}[]
+  \centering
+    \caption{Variation in duration of home care by care type}
+    \includegraphics{figures/chapter-renf/19-dur-type-plot.png}
+    \label{fig:renf-dur-type}
 \end{figure}
 
 
@@ -345,19 +611,5 @@ Future work using this data should consider the difference in individuals receiv
 
 Analysis of individual level social care data from Renfrewshire council area suggests that the number of people recorded as receiving home care by the Social Care Survey captures between 52% and 64% of the total number of people that will receive home care during a financial year. This has implications for the types of analysis that can be conducted with SCS in data linkage projects. Those individuals receiving care in the census week have packages of care that are broadly similar in duration and intensity. Some reablement packages of care may be misclassified. 
 
-\section{Supplementary charts}\label{sec:renf-supp-charts}
 
-\begin{figure}[]
-  \centering
-    \caption{Variation in duration - by care type - all years}
-    \includegraphics[width = 16cm, height = 16cm]{figures/chapter-renf/12-comb-duration-type.png}
-    \label{fig:renf-duration-type-all}
-\end{figure}
-
-\begin{figure}[]
-  \centering
-    \caption{Variation in intensity - by care type - all years}
-    \includegraphics[width = 16cm, height = 16cm]{figures/chapter-renf/13-comb-intensity-type.png}
-    \label{fig:renf-intensity-type-all}
-\end{figure}
 

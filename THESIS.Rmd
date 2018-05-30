@@ -20,6 +20,8 @@ header-includes:
 - \usepackage[export]{adjustbox}
 - \usepackage{microtype}
 - \usepackage{booktabs} #tables
+- \usepackage{longtable}
+- \usepackage{pdflscape}
 - \usepackage{graphicx} #figures
 - \usepackage{epigraph} #nice quotations
 - \usepackage{pdfpages} #appendices
