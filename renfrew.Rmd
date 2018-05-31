@@ -49,8 +49,8 @@ Overnight Services & \\ \bottomrule
 
 \begin{itemize}[noitemsep]
 \item To what extent does SCS data capture the distribution of individuals receiving home care across each financial year?
-\item Are there differences in the types of home care package that are/are not captured by the census? Do these differences vary by age or gender?
-\item For packages that \emph{are} captured by the SCS, is the value of total hours of home care received reflective of the total hours of home care received in the previous and following six months?
+\item Are there differences in the care received by indiviudals that are/are not captured by the census?
+\item For packages that \emph{are} captured by the SCS, is the value of total hours of home care received reflective of the total hours of home care received in the financial year?
 \item What proportion of the total amount indiviudals receiving home care would be captured if more than one census was conducted in each financial year?
 \end{itemize}
 
@@ -165,16 +165,16 @@ Almost two-thirds of home care packages in the study period provided care at int
 
 Table \ref{tab:renf-ts-summary} and figure \ref{fig:renf-hrs} show the variation in the number of people receiving home care during each financial year. There is little weekly variation within years with the exception of financial year 2010/11 which saw a large drop in the total number of individuals receiving care. The variation in years following this show gradual increases and overall numbers return to pre-2010/11 levels by 2014/15. 
 
-\begin{figure}[]
+\begin{figure}[h]
   \centering
     \caption{Variation in the number of individuals receiving home care}
-    \includegraphics[width = 14cm, height = 22cm]{figures/chapter-renf/06-indivdual-weekly-variation.png}
+    \includegraphics{figures/chapter-renf/06-indivdual-weekly-variation.png}
     \label{fig:renf-hrs}
 \end{figure}
 
 Figure \ref{fig:renf-hrs} and table \ref{tab:renf-ts-summary} also indicate that number of individuals receiving home care and captured by the census is between 51.7% and 61.9% of the total number of individuals that will receive care in that year. The trend shows a decreasing proportion of individuals are captured by the census.  
 
-\begin{table}[h]
+\begin{table}[]
 \centering
 \caption{Variation in the number of individuals receiving home care}
 \label{tab:renf-ts-summary}
@@ -196,50 +196,6 @@ Figure \ref{fig:renf-hrs} and table \ref{tab:renf-ts-summary} also indicate that
 }
 \end{table}
 
-\FloatBarrier
-\subsection{Variation in care packages captured by census}\label{subsec:renf-census-variation}
-
-\begin{table}[]
-\centering
-\caption{Variation in net difference of total hours of homecare by care type}
-\label{tab:renf-net-diff}
-\resizebox{\textwidth}{!}{%
-\begin{threeparttable}
-\begin{tabular}{@{}llrrrrrrrr@{}}
-\toprule
-\textbf{\begin{tabular}[c]{@{}l@{}}Financial \\ Year\end{tabular}} & \textbf{Type of home care} & \textbf{\begin{tabular}[c]{@{}r@{}}number\\ of packages\end{tabular}} & \textbf{\begin{tabular}[c]{@{}r@{}}number \\ of unique\\ individuals\end{tabular}} & \textbf{mean} & \textbf{sd} & \textbf{median} & \textbf{IQR} & \textbf{\begin{tabular}[c]{@{}r@{}}25th\\ percentile\end{tabular}} & \textbf{\begin{tabular}[c]{@{}r@{}}75th\\ percentile\end{tabular}} \\ \midrule
-2010/11 & Care at home (Mainstream) & 1456 & 561 & 0.23 & 5.01 & -0.13 & 4.25 & -2.00 & 2.25 \\
-2010/11 & Rapid Response & 54 & 21 & -1.04 & 3.97 & -0.13 & 4.63 & -3.31 & 1.31 \\
-2010/11 & Reablement\tnote{1} & * & * & -4.20 & 5.75 & 0.00 & 10.50 & -10.50 & 0.00 \\
-2011/12 & Care at home (Mainstream) & 1241 & 437 & 0.73 & 5.52 & 0.25 & 5.25 & -1.75 & 3.50 \\
-2011/12 & Rapid Response & 133 & 47 & -1.42 & 7.25 & -1.75 & 8.75 & -7.00 & 1.75 \\
-2011/12 & Reablement & 119 & 38 & -5.52 & 5.28 & -5.25 & 7.00 & -10.00 & -3.00 \\
-2012/13 & Care at home (Mainstream) & 1528 & 486 & 0.42 & 7.49 & 0.00 & 6.50 & -3.00 & 3.50 \\
-2012/13 & Rapid Response & 242 & 72 & -2.55 & 7.33 & -2.50 & 10.75 & -8.75 & 2.00 \\
-2012/13 & Reablement & 537 & 167 & -4.61 & 7.39 & -5.25 & 10.00 & -10.00 & 0.00 \\
-2013/14 & Care at home (Mainstream) & 1648 & 498 & -0.37 & 7.50 & 0.00 & 8.00 & -4.50 & 3.50 \\
-2013/14 & Rapid Response & 277 & 87 & -3.52 & 7.70 & -3.75 & 12.25 & -8.75 & 3.50 \\
-2013/14 & Reablement & 672 & 209 & -2.52 & 8.80 & -3.50 & 13.00 & -9.50 & 3.50 \\
-2014/15 & Care at home (Mainstream) & 1373 & 468 & 0.28 & 7.03 & 1.00 & 8.50 & -3.50 & 5.00 \\
-2014/15 & Rapid Response & 241 & 73 & -1.94 & 10.29 & -3.50 & 14.00 & -10.50 & 3.50 \\
-2014/15 & Reablement & 643 & 216 & -2.75 & 7.94 & -2.25 & 10.50 & -8.75 & 1.75 \\ \bottomrule
-\end{tabular}
-\begin{tablenotes}
-\item[1] Numbers to low to be disclosed
-\end{tablenotes}
-\end{threeparttable}%
-}
-\end{table}
-
-
-\begin{figure}[]
-  \centering
-    \caption{Variation in net difference of total hours of care by care type}
-    \includegraphics[]{figures/chapter-renf/10-net-diff-plot.png}
-    \label{fig:renf-net-diff}
-\end{figure}
-
-
 
 \FloatBarrier
 \subsection{Comparison of individuals with/without any packages in the census}\label{subsec:renf-pack-diff}
@@ -257,17 +213,18 @@ Figure \ref{fig:renf-prop-plot} shows that there are similar proportions of indv
 
 Comparison of the total weekly hours of home care (intensity) that indivduals with/without any packages in the census receive (figure \ref{fig:renf-inten}) shows that there is very little difference in median values. However, as time progresses, the median value for total hours of home care is slightly larger for those with no packages of care captured in the census. 
 
-This trend is shown in table \ref{tab:renf-regr-inten} which shows the intercept and coefficient of total hours of home care in linear regression models for each year (in bold). The presence of zero packages in the census is the independent variable. Over time the intercept increases from 6.26 hours in 2010/11 to 8.41 hrs in 2014/15 indicating a general increase in intensity. There is also an increase in the coefficient value over the same time period from -0.41 to +1.2 suggesting those not in the census are increasingly more likely to have higher intensity packages of care in later years. This, however, is a very modest difference (the 1.2 hrs increase in intensity in 2014/15 equates to approximately 10 minutes extra care per day). 
+This trend is shown in table \ref{tab:renf-regr-inten} which shows the intercept and coefficient of total hours of home care in linear regression models for each year (in bold) with presence of at least one, or zero packages in the census as a categorical predictor. Over time, the intercept value increases from 6.26 hours in 2010/11 to 8.41 hrs in 2014/15 indicating a general increase in intensity for individuals with at least one package in the census. There is a statistically significant difference in the amount of hours of care received betweeen those that have at lease one package in the census and those that have no packages in every financial year. The coefficient value is negative in 2010/11 but positive in all other years and increases over time. However, the difference in groups is modest (the 1.2 hrs increase in intensity in 2014/15 is equivalent to approximately 10 minutes extra care per day). 
 
 
 \begin{figure}[h]
   \centering
     \caption{Variation in intensity of home care}
+    {\scriptsize outlying points removed to avoid disclosure}
     \includegraphics{figures/chapter-renf/14-inten.png}
     \label{fig:renf-inten}
 \end{figure}
 
-Table \ref{tab:renf-regr-inten} also shows the results of the same linear regression model applied seperately to groups of home care type. "Rapid Response" and "Reablement" packages of home care have higher intercept values than the overall figure as well as "Care at home (Mainstream)" packages in all years. With the exception of "Care at home (Mainstream)" packages in 2010/11, there are no statsitically significant differences between those with zero packages captured by the census for each care type until 2012/13. In this year there is a significant increase in hours for "Reablement" packages - a trend that continues to 2014/15. There are also statistically significant differences between "Care at home (Mainstream)" packages delivered to individuals with no census coverage in 2013/14 and 2014/15. These differences are more modest than those seen with "Reablement" packages with coefficients of 0.77 and 0.62 compared to 1.37 and 2.14 (6.6 mins & 5.3 mins v 11.7 & 18.3 mins increase per day). There were no statistically significant differences in "Rapid Response" packages.  These variations are shown in figure \ref{fig:renf-intensity-type}. 
+Table \ref{tab:renf-regr-inten} also shows the results of the same linear regression model applied seperately to individuals from groups of different gender, age, and home care type. The differences between theses groups become more apparent over time with all groups (apart from the "Rapid Response" care type) showing statistically significant differences in 2014/15. Intercept values for total hours of home care vary slightly across different groups with "Rapid Response" and "Reablement" packages more likely to have higher values - particularly in later years. Differences between groups also vary with older age groups and "Reablement" care type packages showing larger coefficient values for those with zero packages captured by the census. The largest difference is seen for "Reablement" packages in 2014/15 with an expected 2.14 hrs increase for those with zero packages compared to those with at least one package in the census. This is equivalent to an 18.3 minute increase in care per day. The variation in total hours of care between home care types is plotted in figure \ref{fig:renf-intensity-type}. 
 
 
 \begin{landscape}
@@ -399,6 +356,7 @@ Table \ref{tab:renf-regr-inten} also shows the results of the same linear regres
 \begin{figure}[]
   \centering
     \caption{Variation in intensity of home care - by type}
+    {\scriptsize outlying points removed to avoid disclosure}
     \includegraphics{figures/chapter-renf/16-type-inten.png}
     \label{fig:renf-intensity-type}
 \end{figure}
@@ -406,11 +364,14 @@ Table \ref{tab:renf-regr-inten} also shows the results of the same linear regres
 \FloatBarrier
 \subsection{Comparison of package duration for indiviudals with/without any packages in the census}\label{subsec:renf-duration-diff}
 
-Figure \ref{fig:renf-duration} shows a comparison of the total duration of care for indiviudals with or without any packages in the census for each financial year. A clear difference can be seen for those with no packages captured by the census who have much shorter total duration of care. 
+Figure \ref{fig:renf-duration} shows a comparison of the total duration of care for indiviudals with or without any packages in the census for each financial year. A clear difference can be seen for those with no packages captured by the census who have much shorter total duration of care. Results of linear regression models plotting package duration against presence or not of at least one package in the census (table \ref{tab:renf-regr-duration}) confirms statistically significant differences between all groups (with the exception of "Reablement" packages in 2010/11). These differences are large e.g. the overall coefficient in 2014/14 is -54.32 weeks suggesting individuals with zero packages captured by the census have care duration, on average, over a year shorter than those with at least one package in the census. 
 
-\begin{figure}[]
+Intercept values in table \ref{tab:renf-regr-duration} gradually decrease over time which is likely due to censoring at the end of the time series. Within years there is a large difference in intercept values. Older age groups, as well as "Rapid Response" and "Reablement" type packages all show much lower values than the total seen in each year. Variation in duration of care by home care type is plotted in figure \ref{fig:renf-dur-type}
+
+\begin{figure}[h]
   \centering
     \caption{Variation in duration of home care}
+    {\scriptsize outlying points removed to avoid disclosure}
     \includegraphics{figures/chapter-renf/17-duration.png}
     \label{fig:renf-duration}
 \end{figure}
@@ -545,11 +506,84 @@ Figure \ref{fig:renf-duration} shows a comparison of the total duration of care 
 \begin{figure}[]
   \centering
     \caption{Variation in duration of home care by care type}
+    {\scriptsize outlying points removed to avoid disclosure}
     \includegraphics{figures/chapter-renf/19-dur-type-plot.png}
     \label{fig:renf-dur-type}
 \end{figure}
 
 
+\FloatBarrier
+\subsection{Variation in care packages captured by census}\label{subsec:renf-census-variation}
+
+Descriptive statistics of the net difference in total hours of home care for those indiviudals that have at least one package captured by the census \emph{and} more than one package in a financial year are shown in table \ref{tab:renf-net-diff}. The variation is plotted in figure \ref{fig:renf-net-diff}. The median value of the net difference in total hours of home care for individuals with multiple packages of "Care at home (Mainstream)" is close to zero in all years with interquartile ranges (IQR) varying from 4.25 to 8.5hrs. These individuals account for approximately 60% of all those captured by the census with mutiple packages of care.  
+
+The remaining individuals see larger negative values for the net difference in total hours of home care over the financial year with wider IQR values. Linear regression of the net difference in total hours of homecare with home care type as an explanatory variable (table \ref{tab:renf-net-diff-regr}) shows statistically significant results in all years except 2010/11. 
+
+\begin{table}[h]
+\centering
+\caption{Variation in net difference of total hours of homecare by care type}
+\label{tab:renf-net-diff}
+\resizebox{\textwidth}{!}{%
+\begin{threeparttable}
+\begin{tabular}{@{}llrrrrrrrr@{}}
+\toprule
+\textbf{\begin{tabular}[c]{@{}l@{}}Financial \\ Year\end{tabular}} & \textbf{Type of home care} & \textbf{\begin{tabular}[c]{@{}r@{}}number\\ of packages\end{tabular}} & \textbf{\begin{tabular}[c]{@{}r@{}}number \\ of unique\\ individuals\end{tabular}} & \textbf{mean} & \textbf{sd} & \textbf{median} & \textbf{IQR} & \textbf{\begin{tabular}[c]{@{}r@{}}25th\\ percentile\end{tabular}} & \textbf{\begin{tabular}[c]{@{}r@{}}75th\\ percentile\end{tabular}} \\ \midrule
+2010/11 & Care at home (Mainstream) & 1456 & 561 & 0.23 & 5.01 & -0.13 & 4.25 & -2.00 & 2.25 \\
+2010/11 & Rapid Response & 54 & 21 & -1.04 & 3.97 & -0.13 & 4.63 & -3.31 & 1.31 \\
+2010/11 & Reablement\tnote{1} & * & * & -4.20 & 5.75 & 0.00 & 10.50 & -10.50 & 0.00 \\
+2011/12 & Care at home (Mainstream) & 1241 & 437 & 0.73 & 5.52 & 0.25 & 5.25 & -1.75 & 3.50 \\
+2011/12 & Rapid Response & 133 & 47 & -1.42 & 7.25 & -1.75 & 8.75 & -7.00 & 1.75 \\
+2011/12 & Reablement & 119 & 38 & -5.52 & 5.28 & -5.25 & 7.00 & -10.00 & -3.00 \\
+2012/13 & Care at home (Mainstream) & 1528 & 486 & 0.42 & 7.49 & 0.00 & 6.50 & -3.00 & 3.50 \\
+2012/13 & Rapid Response & 242 & 72 & -2.55 & 7.33 & -2.50 & 10.75 & -8.75 & 2.00 \\
+2012/13 & Reablement & 537 & 167 & -4.61 & 7.39 & -5.25 & 10.00 & -10.00 & 0.00 \\
+2013/14 & Care at home (Mainstream) & 1648 & 498 & -0.37 & 7.50 & 0.00 & 8.00 & -4.50 & 3.50 \\
+2013/14 & Rapid Response & 277 & 87 & -3.52 & 7.70 & -3.75 & 12.25 & -8.75 & 3.50 \\
+2013/14 & Reablement & 672 & 209 & -2.52 & 8.80 & -3.50 & 13.00 & -9.50 & 3.50 \\
+2014/15 & Care at home (Mainstream) & 1373 & 468 & 0.28 & 7.03 & 1.00 & 8.50 & -3.50 & 5.00 \\
+2014/15 & Rapid Response & 241 & 73 & -1.94 & 10.29 & -3.50 & 14.00 & -10.50 & 3.50 \\
+2014/15 & Reablement & 643 & 216 & -2.75 & 7.94 & -2.25 & 10.50 & -8.75 & 1.75 \\ \bottomrule
+\end{tabular}
+\begin{tablenotes}
+\item[1] Numbers too low to be disclosed
+\end{tablenotes}
+\end{threeparttable}%
+}
+\end{table}
+
+
+\begin{figure}[]
+  \centering
+    \caption{Variation in net difference of total hours of care by care type}
+    {\scriptsize outlying points removed to avoid disclosure}
+    \includegraphics[]{figures/chapter-renf/10-net-diff-plot.png}
+    \label{fig:renf-net-diff}
+\end{figure}
+
+\begin{table}[]
+\centering
+\caption{Regression models of net difference in total hours of care by home care type}
+\label{tab:renf-net-diff-regr}
+\begin{tabular}{@{}llrrrr@{}}
+\toprule
+\textbf{\begin{tabular}[c]{@{}l@{}}Financial\\ Year\end{tabular}} & \textbf{} & \textbf{estimate} & \textbf{std.error} & \textbf{statistic} & \textbf{p value} \\ \midrule
+\textbf{2010/11} & (Intercept) & 0.0562 & 0.1973 & 0.2846 &  \\
+\textbf{} & Rapid Response & -1.3300 & 1.0386 & -1.2805 & 0.2009 \\
+\textbf{} & Reablement & -5.3062 & 3.3102 & -1.6030 & 0.1095 \\
+\textbf{2011/12} & (Intercept) & 0.7082 & 0.2739 & 2.5858 &  \\
+\textbf{} & Rapid Response & -2.5433 & 0.8790 & -2.8936 & \textless{}0.05 \\
+\textbf{} & Reablement & -6.2806 & 0.9684 & -6.4857 & \textless{}0.05 \\
+\textbf{2012/13} & (Intercept) & 0.1091 & 0.3313 & 0.3292 &  \\
+\textbf{} & Rapid Response & -2.9493 & 0.9222 & -3.1981 & \textless{}0.05 \\
+\textbf{} & Reablement & -5.2183 & 0.6551 & -7.9661 & \textless{}0.05 \\
+\textbf{2013/14} & (Intercept) & -0.4347 & 0.3440 & -1.2637 &  \\
+\textbf{} & Rapid Response & -3.5078 & 0.8921 & -3.9321 & \textless{}0.05 \\
+ & Reablement & -3.2064 & 0.6328 & -5.0675 & \textless{}0.05 \\
+\textbf{2014/15} & (Intercept) & 0.0459 & 0.3481 & 0.1320 &  \\
+ & Rapid Response & -2.3576 & 0.9476 & -2.4879 & \textless{}0.05 \\
+ & Reablement & -3.5078 & 0.6194 & -5.6627 & \textless{}0.05 \\ \bottomrule
+\end{tabular}
+\end{table}
 
 
 \FloatBarrier
@@ -579,7 +613,7 @@ Figure \ref{fig:renf-duration} shows a comparison of the total duration of care 
 
 Table \ref{tab:renf-multi-census} shows the percentage of the total number of individuals receiving home care in each financial year that would be captured if six-monthly, four monthly, or three-monthly census had been conducted and the increases these would signify. A bi-annual census would have captured an average of 72.5% of individuals that received home care during the study period - an average increase of 13.5% from the census. Tri-annual census collection would have captured an average 79.9% of individuals (average increase of 20.9%) whilst a quarterly census collection would have captured an average 83.2% of individuals (average increase of 24.2%). 
 
-Unsurprisingly, the largest increases are seen in the years where the number of individuals captured by a single census are relatively low compared to other years, in particular 2010/11, 2013/14, and 2015/16. 
+The largest increases are seen in the years where the number of individuals captured by a single census are relatively low compared to other years, in particular 2010/11, 2013/14, and 2015/16. 
 
 \section{Discussion}\label{sec:renf-discuss}
 
@@ -588,11 +622,25 @@ Unsurprisingly, the largest increases are seen in the years where the number of 
 * Same type of packages
 * Different types of packages not accurately captured by categorisation?
 
-This exploratory project has investigated the variation in packages of care from one Scottish local authority area. It has found that figures returned by Renfrewshire council to the SCS represent between 58.4% and 63.7% of the total number of individuals that the council provided home care for in the financial years 2006/07 to 2015/16. 
+This exploratory project has investigated the variation in packages of care from one Scottish local authority area and aimed to 
+\begin{itemize}[noitemsep]
+\item quantify the proportion of indiviudals in receipt of home care during Social Care Survey census week
+\item describe the differences in individuals that receive some care during the cenus week and those that don't
+\item validate the value of total weekly hours of care compared to the rest of the financial year for those that \emph{do} receive some care during the census
+\item assess the difference in the proportion of indivudals that would be captured by hypothetical extra census dates. 
+\end{itemize}
 
-Counts of individuals produced by this analysis appear to be similar to those returned by Renfrewshire Council to the SCS for the years 2006/07 to 2010/11. Thereafter, counts are slightly less. This could be due to changes in the way data was returned to SCS from the year 2011 onwards. There have also been changes in the criteria of which individuals should be included in counts of home care since 2011 that could not be replicated in this analysis. 
+Between 51.7% and 61.9% of all individuals receiving home care in the years 2006/07 to 2015/16 had "live" packages of care during the SCS census week. The trend is decreasing with the minimum value being recorded in the most recent year of data. This trend likely reflects the increase seen in the proportion of "Reablement" type packages of care which are designed to be implemented for short periods of time following hospital discharge. The shorter duration of these packages means they are less likely to coincide with the census date. 
 
-*Packages not captured by the census tend to be of much shorter duration and have a higher intensity (measured by total hours per week) than those packages that are seen in the census weeks.* (Maybe drop this - need to focus more on difference in individuals rather than packages) More recent years have seen a greater proportion of packages being delivered for Reablement type services at the expense of Care at home (Mainstream) type packages of care. However, reablement services only account for a maximum of 8% of packages captured by the census and 21.5% not captured by the census with much lower proportions in earlier years.
+Individuals that have no packages of home care captured by the census in each year have a considerably shorter total duration of care. This is seen across all care types and age and gender groups. The most likely explanation for this is that no matter what care type, some individuals go on to require longer term care and thus receive more contiguous packages which eventually coinciding with a census date. Those that have zero packages captured by a census truely are short-term users of care. It is impossible, with this data, to account for what proportion of this is due to care no longer being required or due to mortality or to other causes. 
+
+Those without any packages captured by a census are also more likely to have slightly more total hours of home care per week. This is a moderate increase and affects indiviudals receiving "Reablement" type care to a greater extent. The difference for individuals receiving "Care at home (Mainstream)" type packages (the large majority) is equivalent to as little as 5 minutes per day extra care on average.  
+
+For approximately 50% of indiviudals that \emph{do} have at least one package of care captured by a census - the value of total weekly hours of home care that they receive in the census week is absolutely representative. This is because they only receive one package of care during the financial year and are likely receipients of long-term care. The remaining indiviudals receive mutliple packages of care during the financial year or stop receiving care altogether. There are differences in the variation in the net-difference of total hours of home care for these individuals depending on the type of care they receive. Individuals with "Care at home (Mainstream)" type packages (again a majority**how much??**) show mild variation with median values close to zero. Those receiving "Reablement" or "Rapid Response" type packages (**quantify**) are more likely to have negative net difference values. It is possible these are short-term packages of care that started soon before the census and end soon after resulting in negative values.    
+
+Individuals who have no packages captured by the census during a financial year tend to receive care for much shorter periods of time. This is unsurprising as longer packages of care would be more likely to coincide with the census week. These individuals are also likely to have a higher intensity (measured by total hours per week) of care than indiviudals with at least one package of care  captured by the census. This increase is modest, however, and at the most being equivalent to 18 minutes of care per day for "Reablement" packages and 10 minutes a day overall.  
+
+More recent years have seen a greater proportion of packages being delivered for Reablement type services at the expense of Care at home (Mainstream) type packages of care. However, reablement services only account for a maximum of 8% of packages captured by the census and 21.5% not captured by the census with much lower proportions in earlier years.
 
 Coupled with the finding that roughly half of indivudals with "live" care packages during the census week have only a single package of care in the six months pre and post census, usually with a long duration, a picture emerges of two types of "Care at Home (Mainstream)" packages. The first type are long-term packages, sometimes lasting multiple years. The second type have much shorter duration and mirror many of the characteristics of "Reablement" type packages (*but I haven't accounted for multiple packages received by one indivudal*). Whether these packages are misclassified, or if the recent addition of "Reablement" packages as a care type has not yet filtered through to data categorisation is unknown.
 

@@ -1,0 +1,31 @@
+fin_year,any_census,hc_type,prop,n,total
+2010/11,Yes,Care at home (Mainstream),0.551563,1182,2143
+2010/11,Yes,Rapid Response,0.024265,52,2143
+2010/11,Yes,Reablement,*,*,2143
+2010/11,No,Care at home (Mainstream),0.384508,824,2143
+2010/11,No,Rapid Response,0.013066,28,2143
+2010/11,No,Reablement,*,*,2143
+2011/12,Yes,Care at home (Mainstream),0.527325024,1100,2086
+2011/12,Yes,Rapid Response,0.040268456,84,2086
+2011/12,Yes,Reablement,0.033077661,69,2086
+2011/12,No,Care at home (Mainstream),0.303451582,633,2086
+2011/12,No,Rapid Response,0.041227229,86,2086
+2011/12,No,Reablement,0.034995206,73,2086
+2012/13,Yes,Care at home (Mainstream),0.445894737,1059,2375
+2012/13,Yes,Rapid Response,0.046315789,110,2375
+2012/13,Yes,Reablement,0.090526316,215,2375
+2012/13,No,Care at home (Mainstream),0.24,570,2375
+2012/13,No,Rapid Response,0.053473684,127,2375
+2012/13,No,Reablement,0.100210526,238,2375
+2013/14,Yes,Care at home (Mainstream),0.399537216,1036,2593
+2013/14,Yes,Rapid Response,0.050520632,131,2593
+2013/14,Yes,Reablement,0.116467412,302,2593
+2013/14,No,Care at home (Mainstream),0.245661396,637,2593
+2013/14,No,Rapid Response,0.041650598,108,2593
+2013/14,No,Reablement,0.126494408,328,2593
+2014/15,Yes,Care at home (Mainstream),0.385537791,1061,2752
+2014/15,Yes,Rapid Response,0.047238372,130,2752
+2014/15,Yes,Reablement,0.136991279,377,2752
+2014/15,No,Care at home (Mainstream),0.226380814,623,2752
+2014/15,No,Rapid Response,0.042514535,117,2752
+2014/15,No,Reablement,0.141715116,390,2752
