@@ -5,7 +5,7 @@ date: "25 February 2018"
 output: html_document
 ---
 
-```{r timeline, echo=FALSE, fig.height = 3, fig.width=12, warning=FALSE}
+```{r timeline, echo=FALSE, fig.height = 4, fig.width=14, warning=FALSE, message=FALSE}
 library(ggplot2)
 library(dplyr)
 library(ggalt)
@@ -25,7 +25,7 @@ data <- tribble( ~start_date, ~event, ~displ,
                 ymd(20170601), "2nd draft DSA received", 0.5,
                 ymd(20170906), "DSA signed", 0.3,
                 ymd(20170921), "Data transferred", -0.5,
-                ymd(20180221), "Analysis complete", 0.5)
+                ymd(20180528), "Analysis complete", 0.5)
 
 
 #Function to shift x-axis to 0 taken from https://stackoverflow.com/questions/39071002/moving-x-or-y-axis-together-with-tick-labels-to-the-middle-of-a-single-ggplot-n
@@ -57,15 +57,15 @@ p1 <- data %>%
         axis.ticks.y = element_blank(),
         axis.line = element_blank(),
         axis.text.x = element_text(size = 11),
-        plot.caption = element_text(size = 10, colour = "#808080")) +
-  expand_limits(x = c(ymd(20151201), ymd(20180601)), y = c(1.2, -0.6)) +
+        plot.caption = element_text(size = 12, colour = "#808080")) +
+  expand_limits(x = c(ymd(20151201), ymd(20181001)), y = c(1.2, -0.6)) +
   scale_x_date(breaks = scales::pretty_breaks(n = 10)) +
   labs(caption = "UBDC = Urban Big Data Centre\nRAC = Research Approvals Committee\nDSA = Data Sharing Agreement")
 
 #and run the function from above
-timeline <- shift_axis(p1, ymd(20151201), ymd(20180701))
+timeline <- shift_axis(p1, ymd(20151201), ymd(20180901))
 timeline
-ggsave("/Users/hedgi/OneDrive - University of Glasgow/GitHub/thesis_rmd/figures/chapter-renf/renf-timeline.png", timeline, height = 3, width = 12,
+ggsave("/Users/hedgi/OneDrive - University of Glasgow/GitHub/thesis_rmd/figures/chapter-renf/renf-timeline.png", timeline, height = 4, width = 14,
        dpi = 600)
 rm(list = c("data", "p1", "timeline", "vjust", "shift_axis"))
 ```

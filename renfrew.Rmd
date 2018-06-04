@@ -7,21 +7,19 @@ bibliography: thesis.bib
 
 \section{Introduction}\label{renf-intro}
 
-As described in Chapter \ref{ch:data}, the Social Care Survey (SCS) is collected annually by the Scottish Government and provides a snapshot of individuals receiving social care in all 32 Scottish local authorities during a census week - usually including the date the 31st of March [@RN487]. The cross-sectional nature of this adminsitrative data means it does not identify every individual who receives social care in any given financial year. This has implications for the interpretation of research projects using the SCS and the statistical inferences that can be applied to the data when linked with other sources of information.
+As described in Section \ref{subsec:source-sc}, the Social Care Survey (SCS) is collected annually by the Scottish Government and provides a snapshot of individuals receiving social care in all 32 Scottish local authorities during a census week - usually including the date the 31st of March [@RN487]. The cross-sectional nature of this administrative data means it does not identify every individual who receives social care in any given financial year. This has implications for the interpretation of research projects using the SCS and the statistical inferences that can be applied to the data when linked with other sources of information.
 
-In order to gain a better understanding of the data the SCS captures (and the data it does not) an exploratory study was conducted to assess social care data for individuals from one local authority only. This project aimed to analyse complete data for all individuals over a ten-year period to assess the validity of the SCS as a representation of social care delivered in any given financial year. In particular, the exploratory analysis aimed to; quantify the proportion of home care users identified by the SCS in each year, identify what differences (if any) exist between home care packages captured and not captured by the census, and assess whether values captured by the SCS (i.e. the total hours of home care provided) are representative of care received by an individual throughout the year. Given intentions to amalgamate the SCS with administrative resources collected by ISD and move to a quarterly collection of data [@RN500], the exploratory project also aimed to quantify the proportion of all individuals that would be identified by two, three, or four survey repetitions per financial year. 
+In order to gain a better understanding of the data the SCS captures an exploratory study was conducted to assess social care data for individuals from one local authority only. This project aimed to analyse complete data for all individuals over a ten-year period to assess the validity of the SCS as a representation of social care delivered in any given financial year. In particular, the exploratory analysis aimed to: quantify the number of home care users receiving home care during the census week as a proportion of the total number receiving home care in each year, identify what differences (if any) exist between individuals captured and not captured by the census, and assess whether values captured by the SCS (i.e. the total hours of home care provided) are representative of care received by an individual throughout the year. Given intentions to amalgamate the SCS with administrative resources collected by ISD and move to a quarterly collection of data [@RN500], the exploratory project also aimed to quantify the proportion of all individuals that would be identified by two, three, or four survey repetitions per financial year. 
 
 As social care data in Scotland has rarely been used for research purposes, this exploratory project also offered the opportunity to assess the format, content, and suitability of the data from a research perspective. Ideally, data would be analysed from a number of local authorities for comparison. However, as described below, acquiring sensitive data of this nature is a lengthy and complicated process, relying heavily on the goodwill of the participating local authority. Despite early intentions to approach multiple local authorities, practical considerations limited the project to data collected from Renfrewshire Council. 
-
-SCS umbrella and breakdown with Renfrew data
 
 \section{Background}\label{sec:renf-background}
 
 The decision to approach Renfrewshire Council as a potential source of data was due to convenience given previous cooperation between the council and UBDC on other projects. Another local authority was also approached but preliminary discussions suggested that whilst the purpose of proposed research was supported, the council was unlikely to be able to provide sufficient resource to facilitate data sharing. Preliminary meetings with data analysts from Renfrewshire council confirmed that data could be provided to facilitate the proposed research and the formal process of obtaining data using UBDC's controlled data service was instigated in April 2016. 
 
-Renfrewshire Council area accounts for 3.2\% of the total population of Scotland and has a similar proportion of individuals aged over 60 compared to the rest of the country (24.4\% v 24.2\%) [@RN492]. The mortality rate is very slightly higher than recorded for the rest of Scotland (10.9\% v 10.3\%) with the main causes of death being cancer, circulatory diseases, and respiratory diseases [@RN492]. Life expectancy at birth is lower than the Scottish average for both males and females (75.9 v 77.1 \& 80.6 v 81.1) [@RN492]. Sixty-three percent of dwellings in Renfrewshire fall into the lowest council tax bands A-C [@RN492] which is a higher than the ratio seen in the whole country (61\%) [@RN493]. Of all datazones in the Renfrewshire Council area, 37.3\% fall into the most deprived 30\% of Scottish datazones - the ninth highest rate out of all 32 local authorities [@RN494]. Datazones in the area show marked differences in SIMD scores with some of the most and least deprived datazones in the whole of Scotland and a spread of urban and rural neighbourhoods [@RN494]. 
+Renfrewshire Council area accounts for 3.2\% of the total population of Scotland and has a similar proportion of individuals aged over 60 compared to the rest of the country (24.4\% v 24.2\%) [@RN492]. The mortality rate is very slightly higher than recorded for the rest of Scotland (10.9\% v 10.3\%) with the main causes of death being cancer, circulatory diseases, and respiratory diseases [@RN492]. Life expectancy at birth is lower than the Scottish average for both males and females (75.9 v 77.1 \& 80.6 v 81.1) [@RN492]. Sixty-three percent of dwellings in Renfrewshire fall into the lowest council tax bands A-C [@RN492] which is a higher than the percentage seen in the whole country (61\%) [@RN493]. Of all datazones in the Renfrewshire Council area, 37.3\% fall into the most deprived 30\% of Scottish datazones - the ninth highest rate out of all 32 local authorities [@RN494]. Datazones in the area show marked differences in SIMD scores with some of the most and least deprived datazones in the whole of Scotland and a spread of urban and rural neighbourhoods [@RN494]. 
 
-In terms of social care, the 2017 SCS [@RN499, supp.charts] shows that the proportion of over 65s receiving home care provided or administered by Renfrewshire dipped a little between 2011 and 2015 but has nearly returned to 2010 levels (52.4 per thousand in 2010, 49.4 per thousand in 2017). Historically, this is lower than levels seen across Scotland as a whole, although national levels are now very similar to those seen in Renfrew (60.8 per thousand in 2010 to 48.9 per thousand in 2017). The absolute numbers of over 65s receiving home care in Renfrewshire in the 2010 census week was 1812 versus 1603 in the 2017 census [@RN499, supp.charts].
+In terms of social care, the 2017 SCS [@RN499, supp.charts] shows that the proportion of over 65s receiving home care provided or administered by Renfrewshire dipped a little between 2011 and 2015 but has nearly returned to 2010 levels (52.4 per thousand in 2010, 49.4 per thousand in 2017). Historically, this is lower than levels seen across Scotland as a whole, although national levels are now very similar to those seen in Renfrewshire (60.8 per thousand in 2010 to 48.9 per thousand in 2017). The absolute numbers of over 65s receiving home care in Renfrewshire in the 2010 census week was 1812 versus 1603 in the 2017 census [@RN499, supp.charts].
 
 More recent versions of the SCS collect information on home care (such as personal care or reablement), housing support and meals services provided during the census week. In addition, data on services such as community alarm, telecare, social worker, and self-directed support that are provided at any time during the financial year is also collected [@RN499]. The purpose of the exploratory project was to compare service provision of those services collected in the census week. As the vast majority of this data is focussed on home care services, the analysis concentrates on this service only. Home care refers to services received in the home such as personal care or reablement (described in section \ref{subsec:access-sc-defs} ans summarised in table \ref{tab:renf-homecaredefs}). 
 
@@ -48,19 +46,20 @@ Overnight Services & \\ \bottomrule
 \subsection{Research Questions}\label{subsec:renfrew-qs}
 
 \begin{itemize}[noitemsep]
-\item To what extent does SCS data capture the distribution of individuals receiving home care across each financial year?
-\item Are there differences in the care received by indiviudals that are/are not captured by the census?
-\item For packages that \emph{are} captured by the SCS, is the value of total hours of home care received reflective of the total hours of home care received in the financial year?
-\item What proportion of the total amount indiviudals receiving home care would be captured if more than one census was conducted in each financial year?
+\item To what extent does SCS data capture the number of individuals receiving home care across each financial year?
+\item Are there differences in the age and gender of the individuals that are/are not captured by the census?
+\item Is there a difference in the intensity and duration of care provided those that are/are not captured by the census?
+\item For individuals that \emph{do} have packages of care during the census week, is the value of total hours of home care received reflective of the total hours of home care received in the financial year?
+\item What proportion of the total amount of individuals receiving home care would be captured if more than one census was conducted in each financial year?
 \end{itemize}
 
 \section{Methods}\label{sec:renf-methods}
 
 \subsection{Project approvals and timeline}\label{subsec:renf-methods-approvals}
 
-The exploratory project utilised the controlled data service provided by UBDC and therefore required approval from UBDC's Research Approvals Committee (RAC). This process is more fully explained in section \ref{subsec:rac} Approval from RAC was gained on 01/06/2016 *(Appendix A)*. Ethical approval for the study was gained from the University of Glasgow College of Social Sciences Research Ethics Committee on 24/05/2016 *(Appendix B)*. . 
+The exploratory project utilised the controlled data service provided by UBDC and therefore required approval from UBDC's Research Approvals Committee (RAC). This process is more fully explained in section \ref{subsec:rac} Approval from RAC was gained on 01/06/2016 (Appendix A). Ethical approval for the study was gained from the University of Glasgow College of Social Sciences Research Ethics Committee on 24/05/2016 (Appendix B).
 
-Following academic and ethical approval the process of obtaining a data sharing agreement (DSA) between the University of Glasgow and Renfrewshire council was instigated. This involved the production of an agreement in principal and privacy impact assessment as a basis for the DSA. Production of the DSA involved the input of legal teams from both institutions as well as liaison with data analysts at Renfrewshire council and UBDC. The initial draft was produced by the local authority with amendments from both sides before final completion and signing 06/09/2017. Final transfer of data took place on 21/09/2017. An illustration of this timeline is shown in figure \ref{fig:ren-timeline}
+Following academic and ethical approval the process of obtaining a data sharing agreement (DSA) between the University of Glasgow and Renfrewshire council was instigated. This involved the production of an agreement in principle and privacy impact assessment as a basis for the DSA. Production of the DSA involved the input of legal teams from both institutions as well as liaison with data analysts at Renfrewshire council and UBDC. The initial draft was produced by the local authority with amendments from both sides before final completion and signing 06/09/2017. Final transfer of data took place on 21/09/2017. An illustration of this timeline is shown in figure \ref{fig:ren-timeline}
 
 
 \begin{figure}[h]
@@ -75,25 +74,29 @@ Following academic and ethical approval the process of obtaining a data sharing 
 
 As with all services provided by Renfrewshire council, home care data is collected to ensure efficient management of the service and as evidence of service provision [@RN495]. Recording of individual episodes of care also helps with budgetary management of the service.
 
-Data provided for the purposes of this exploratory study detailed anonymised information on; how many days per week, how many hours per day, service provider (e.g. local authority or independent provider), type of care (e.g. mainstream or reablement), start date and end date for every episode of home care delivered to individuals in the Renfrewshire council area between April 2006 and April 2017. Demographic information detailing gender and year of birth was also provided.
+For the purposes of analysis distinction is made between \emph{episodes} and \emph{packages} of home care. An episode of care refers to each instance a carer visits a home care client in their own home. A package of care is the collection of repeated episodes an individual routinely receives in a week.  
 
-As all episodes of home care were delivered over a period of time, data was provided for some packages where the care was first delivered as early as 2004 or as late as Summer 2017 (e.g. a home care episode starting in December 2005 and running to December 2006 was included in the data transfer). Data detailing information on community alarm and telecare services provided by Renfrewshire council were not analysed as part of this project. 
+Data provided for the purposes of this exploratory study included anonymised information on; how many days per week, how many hours per day, service provider (e.g. local authority or independent provider), type of care (e.g. mainstream or reablement), start date and end date for every episode of home care delivered to individuals in the Renfrewshire council area between April 2006 and April 2017. Demographic information detailing gender and year of birth was also provided.
+
+As all episodes of home care were delivered over a period of time, data was provided for some episodes where the care was first delivered as early as 2004 or as late as Summer 2017 (e.g. a home care episode starting in December 2005 and running to December 2006 was included in the data transfer). Data detailing information on community alarm and telecare services provided by Renfrewshire council were not analysed as part of this project. 
 
 Analysis focussed on individuals over the age of 65. An unexpectedly large number of individuals (n = 112, 0.01%) had a year of birth recorded as 1900 (compared to n = 68 born between the years 1901 and 1910). A similar phenomenon was reported in the SCS linkage process (described in chapter \ref{ch:methods}) with the deduction that 1900 was a code for missing data. In this analysis these records were omitted. To protect anonymity individual month and day of birth were not shared meaning age was calculable from year of birth only. 
 
-The SCS requests information on the total hours of home care each individual received during the census week. To replicate this information, every episode of care in the exploratory dataset was summarised. For each episode of home care the number of hours per day was multiplied with days per week to give a weekly total of home care hours for each episode. To identify \emph{packages} of home care, episodes of home care with the same start and end date and of the same home care type, were added together. For example, an individual receiving home care of the type "Care at Home (Mainstream)" with an episode of care lasting 1 hour in the morning for 3 days a week, an episode of care lasting 45 minutes at lunchtime 7 days a week, an evening episode of 30 minutes 7 days a week, and nightime episode of 45 mins 7 days a week, would have a total weekly home care hours count of 17 hours per week for that home care type. Finally, the totals for all types of home care were summed to give an overall weekly total for each individual. 
+The SCS requests information on the total weekly hours of home care each individual received during the census week. To replicate this information, every episode of care in the exploratory dataset was summarised. For each episode of home care, the number of hours per day was multiplied with days per week to give a weekly total of home care hours for each episode. To identify \emph{packages} of home care, episodes of home care with the same start and end date and of the same home care type, were added together. For example, an individual receiving home care of the type "Care at Home (Mainstream)" with an episode of care lasting 1 hour in the morning for 3 days a week, an episode of care lasting 45 minutes at lunchtime 7 days a week, an evening episode of 30 minutes 7 days a week, and night-time episode of 45 mins 7 days a week, would have a total weekly home care hours count of 17 hours per week for that home care type. Finally, the totals for all types of home care were summed to give an overall weekly total for each individual. 
 
 \subsection{Analysis}\label{subsec:renf-methods-analysis}
 
-To enable comparison of packages at different time points a time-series was created for the study period 27th March 2006 to 28th March 2016 at weekly intervals. The value of total hours of home care each individual was receiving at each of the 523 weekly time points was identified. From this time series weekly counts of the total number of individuals receiving home care were calculated. Maximum and minimum values, measures of central tendency and range of these weekly values were compared to the total number of individuals receiving home care in each financial year and visualised. Comparison was also made of the number of indivudals receving home care in the census week to figures returned by Renfrewshire council to the SCS for the same census week.
+To enable analysis of the proportion of individuals captured by the census in each year, a time-series was created for the study period 27th March 2006 to 28th March 2016 at weekly intervals. The value of total hours of home care each individual was receiving at each of the 523 weekly time points was identified. From this time series weekly counts of the total number of individuals receiving home care were calculated. Maximum and minimum values and measures of central tendency of these weekly values were compared to the total number of individuals receiving home care, and total number of those not captured by the census, in each financial year.
 
-For the financial years 2011/12 - 2015/16 (the study period of the main thesis project) data was subset to identify those packages of home care that were "live" during the week including the 31st of March and those that were not "live" i.e. (those that would not have been captured by SCS census). These subsets were then compared by visualising the distribution of package duration and intensity (i.e. the total hours of homecare provided) across age and gender groups. The non-parametric Mann_Whitney U test was used to compare differences between groups with p-values <0.05 accepted as showing a statistically significant difference. As the home care packages of the types "Community Mental Health", "Overnight Services", "Housing Support", and "Extra Care Housing" accounted for less than one percent of packages of care, they were omitted from the comparative visualisations and analysis.
+As it was possible for individuals to receive more than one package of care in each financial year, individuals were grouped by those that had at least one package of care during the census week and those that had none. This enabled comparison of the proportions of each age group, gender, and type of home care received by whether an individual had been identified in the census or not.
 
-In order to assess whether the value of the total hours of homecare provided was representative of care in the six months preceding and following the census week, data was subset by individuals who only received a single package of care in the 12 months surrounding the census and those that received multiple packages of care. For those that received single packages of care, and therefore had an accurate measurement of their total hours of care, the distribution of the duration of these packages was assessed. For those that received mutiple packages of care, and therefore had differing values of hours of home care, the net difference in total hours of care received across all packages was calculated in order to summarise the variation from the reported hours of each individual. For example, an individual intially receiving 6 hrs of care, experiencing a break in care to zero hours, and then receiving a new package of care of 7 hrs before a further drop to 2 hrs would have a net difference of $(-6 + 7 - 5) = -4$ hours. The distribution of this value across all individuals was then assessed. 
+To assess the difference in the type of care received by individuals in each of these groups, comparison was made of the total hours of home care and total duration of care they received. Linear regression models were fitted for the financial years 2010/11 to 2014/15 using total weekly hours of home care or package duration (in weeks) as dependent variables. A dummy variable indicating whether an individual had a least one package identified in a census was used as the independent predictor. To compare how differences in care varied across age, gender, and care type groups, further linear models using the same parameters were fitted to subsets of data containing these groups. This enabled comparison of intercept and coefficient values. As the home care packages of the types "Community Mental Health", "Overnight Services", "Housing Support", and "Extra Care Housing" accounted for less than one percent of packages of care, individuals receiving these types of care were omitted from these analyses.
 
-Additional variables indicating whether home care packages were "live" at three, four, six, eight, and nine months before the census of each financial year were appended to the dataset. This enabled counts of indiviudals who would be captured by six-monthly, four monthly, and three monthly census repetitions. 
+For individuals that received multiple packages of care, one of which was captured by a census, the net difference in total weekly hours of home care received across all packages was calculated in order to summarise the variation in care. For example, an individual initially receiving 6 hrs of care, experiencing a break in care to zero hours, and then receiving a new package of care of 7 hrs before a further drop to 2 hrs would have a net difference of $(-6 + 7 - 5) = -4$ hours. The distribution of this value across all individuals was then assessed. 
 
-All data cleaning and analysis was conducted using the R language and environment for statistical computing version 3.4.0 [@RN295] with packages \texttt{dplyr} v0.7.4 [@RN283], \texttt{tidyr} v0.7.2. [@RN524], \texttt{forcats} v0.2.0 [@RN521], \texttt{purrr} v0.2.4 [@RN523], \texttt{lubridate} v1.6.0. [@RN522], \texttt{magrittr} v1.5 [@RN526], \texttt{broom} v0.4.2 [@RN520], and \texttt{ggplot2} v2.2.1 [@RN525] via the Integrated Development Environment RStudio v1.0.143 [@RN498]. Data was held securely in the safe haven environment described in section \ref{subsec:safe-haven} 
+Additional variables indicating whether home care packages were "live" at three, four, six, eight, and nine months before the census of each financial year were appended to the dataset. This enabled counts of individuals who would be captured by six-monthly, four monthly, and three monthly census repetitions. 
+
+All data cleaning and analysis was conducted using the R language and environment for statistical computing version 3.4.0 [@RN295] with additional software packages: \texttt{dplyr} v0.7.4 [@RN283], \texttt{tidyr} v0.7.2. [@RN524], \texttt{forcats} v0.2.0 [@RN521], \texttt{purrr} v0.2.4 [@RN523], \texttt{lubridate} v1.6.0. [@RN522], \texttt{tibbletime} v0.0.2 [@RN356], \texttt{magrittr} v1.5 [@RN526], \texttt{broom} v0.4.2 [@RN520], \texttt{ggplot2} v2.2.1 [@RN525], and \texttt{ggthemes} v3.5.0 [@RN527] via the Integrated Development Environment RStudio v1.0.143 [@RN498]. Data was held securely in the safe haven environment described in section \ref{subsec:safe-haven} 
 
 
 \FloatBarrier
@@ -102,7 +105,7 @@ All data cleaning and analysis was conducted using the R language and environmen
 
 \subsection{Descriptive statistics}\label{subsec:renf-descriptives}
 
-After data cleaning, information on 41,002 packages of home care received by 10,130 individuals during the period 2006 to 2016 were included in the analysis. The number of records retained at each stage of the cleaning process is shown in table \ref{tab:renf-cleaning}. Of these packages, 28,775 described actual packages of care. The remainder described placeholders for each individual where they were not receiving care, either because of a break in care or beacuse care provision had ended altogether. These 12,227 records showed a value of zero for the total hours of homecare received and in the case of care provision having ended, showed an end date of 28th March 2016.
+After data cleaning, information on 41,002 packages of home care received by 10,130 individuals during the period 2006 to 2016 were included in the analysis. The number of records retained at each stage of the cleaning process is shown in table \ref{tab:renf-cleaning}. Of these packages, 28,775 described actual packages of care. The remainder described place holders for each individual where they were not receiving care, either because of a break in care or because care provision had ended altogether. These 12,227 records showed a value of zero for the total hours of homecare received and in the case of care provision having ended, showed an end date of 28th March 2016.
 
 \begin{table}[h]
 \centering
@@ -118,35 +121,35 @@ Summarised to packages of care     & 41,002\tnote{1}    \\
 Packages of non-zero hours of care & 28,775             \\ \bottomrule
 \end{tabular}
 \begin{tablenotes}
-\item[1] Total number of indiviudals = 10,310
+\item[1] Total number of individuals = 10,310
 \end{tablenotes}
 \end{threeparttable}
 \end{table}
 
-Mean age of those included in the analysis was 80.8 years and median age was 81. Sixty-four percent of individuals (n = 6515) were female. Detailed breakdown of age and gender groups is shown in figure \ref{fig:ren-age-gen}. The highest absolute numbers of individuals are found in the 76-85 age group. Statistical disclosure control meant that grouping an additional age group for over 95s was not possible.
+Mean age of those included in the analysis was 80.8 years and median age was 81. Sixty-four percent of individuals (n = 6,515) were female. Detailed breakdown of age and gender groups is shown in figure \ref{fig:ren-age-gen}. The highest absolute numbers of individuals are found in the 76-85 age group. Statistical disclosure control meant that grouping an additional age group for over 95s was not possible.
 
-\begin{figure}[h]
+\begin{figure}[]
   \centering
-    \caption{Breakdown of age and gender}
-    \includegraphics[height = 10cm, width = 12cm]{figures/chapter-renf/01-age-gender-ts-subset.png}
+    \caption{Count and proportion of indidividuals receiving home care by age and gender}
+    \includegraphics[height = 10cm]{figures/chapter-renf/01-age-gender-ts-subset.png}
     \label{fig:ren-age-gen}
 \end{figure}
 
-Seventy-eight percent of home care packages (n=22484) were provided for "Care at Home (Mainstream)" with "Reablement" type packages making up the majority of the remainder (Figure \ref{fig:ren-type}). Only 60 packages of care for over 65s were classified as being provided for "Community Mental Health" or "Overnight Services" during the study period. "Reablement" packages were first coded as such in the financial year 2010/11 meaning "Care at Home (Mainstream)" made up an even larger proportion of care packages prior to this. 
+Seventy-eight percent of home care packages (n=22,484) were provided for "Care at Home (Mainstream)" with "Reablement" type packages making up the majority of the remainder (Figure \ref{fig:ren-type}). Only 60 packages of care for over 65s were classified as being provided for "Community Mental Health" or "Overnight Services" during the study period. "Reablement" packages were first coded as such in the financial year 2010/11 meaning "Care at Home (Mainstream)" made up an even larger proportion of care packages prior to this. 
 
 \begin{figure}[]
   \centering
     \caption{Count and proportion of home care type}
-    \includegraphics[height = 10cm, width = 12cm]{figures/chapter-renf/03-pack-plot}
+    \includegraphics[height = 10cm]{figures/chapter-renf/03-pack-plot}
     \label{fig:ren-type}
 \end{figure}
 
-Almost two-thirds of home care packages in the study period provided care at intensities of less than 10 hours per week. Only 1,352 (47%) packages over the 10 year study period provided high intensity care of over 20 hours per week (figure \ref{fig:ren-hrs}). Eight-five percent of packages lasted for less than one year (figure \ref{fig:ren-duration}). 
+Almost two-thirds of home care packages in the study period provided care at intensities of less than 10 hours per week. Only 1,352 (4.7%) packages over the 10 year study period provided high intensity care of over 20 hours per week (figure \ref{fig:ren-hrs}). Eighty-five percent of packages lasted for less than one year (figure \ref{fig:ren-duration}). 
 
-\begin{figure}[h]
+\begin{figure}[]
   \centering
     \caption{Count of packages of care by intensity}
-    \includegraphics[height = 10cm, width = 12cm]{figures/chapter-renf/04-hrs-plot-ts-subset.png}
+    \includegraphics[height = 10cm]{figures/chapter-renf/04-hrs-plot-ts-subset.png}
     \label{fig:ren-hrs}
 \end{figure}
 
@@ -154,7 +157,7 @@ Almost two-thirds of home care packages in the study period provided care at int
 \begin{figure}[]
   \centering
     \caption{Count of packages of care by duration}
-    \includegraphics[height = 10cm, width = 12cm]{figures/chapter-renf/05-duration-plot.png}
+    \includegraphics[height = 10cm]{figures/chapter-renf/05-duration-plot.png}
     \label{fig:ren-duration}
 \end{figure}
 
@@ -168,7 +171,7 @@ Table \ref{tab:renf-ts-summary} and figure \ref{fig:renf-hrs} show the variation
 \begin{figure}[h]
   \centering
     \caption{Variation in the number of individuals receiving home care}
-    \includegraphics{figures/chapter-renf/06-indivdual-weekly-variation.png}
+    \includegraphics{figures/chapter-renf/06-individual-weekly-variation.png}
     \label{fig:renf-hrs}
 \end{figure}
 
@@ -181,7 +184,7 @@ Figure \ref{fig:renf-hrs} and table \ref{tab:renf-ts-summary} also indicate that
 \resizebox{\textwidth}{!}{%
 \begin{tabular}{@{}lrrrrrrrrrr@{}}
 \toprule
-\textbf{\begin{tabular}[c]{@{}l@{}}Financial\\ Year\end{tabular}} & \textbf{min} & \textbf{max} & \textbf{mean} & \textbf{sd} & \textbf{median} & \textbf{range} & \textbf{IQR} & \textbf{\begin{tabular}[c]{@{}r@{}}Total individuals\\ receiving home\\ care\end{tabular}} & \textbf{\begin{tabular}[c]{@{}r@{}}Total individulas\\ not captured by\\ census\end{tabular}} & \textbf{\begin{tabular}[c]{@{}r@{}}Ratio of individuals\\ captured by census\\ (\%)\end{tabular}} \\ \midrule
+\textbf{\begin{tabular}[c]{@{}l@{}}Financial\\ Year\end{tabular}} & \textbf{min} & \textbf{max} & \textbf{mean} & \textbf{sd} & \textbf{median} & \textbf{range} & \textbf{IQR} & \textbf{\begin{tabular}[c]{@{}r@{}}Total individuals\\ receiving home\\ care\end{tabular}} & \textbf{\begin{tabular}[c]{@{}r@{}}Total individuals\\ not captured by\\ census\end{tabular}} & \textbf{\begin{tabular}[c]{@{}r@{}}Ratio of individuals\\ captured by census\\ (\%)\end{tabular}} \\ \midrule
 \textbf{2006/07} & 1479 & 1527 & 1502.51 & 11.75 & 1501 & 48 & 15 & 2435 & 928 & 61.89 \\
 \textbf{2007/08} & 1488 & 1544 & 1508.65 & 12.61 & 1508 & 56 & 18 & 2465 & 970 & 60.65 \\
 \textbf{2008/09} & 1486 & 1527 & 1508.63 & 9.96 & 1508 & 41 & 16 & 2438 & 934 & 61.69 \\
@@ -200,20 +203,51 @@ Figure \ref{fig:renf-hrs} and table \ref{tab:renf-ts-summary} also indicate that
 \FloatBarrier
 \subsection{Comparison of individuals with/without any packages in the census}\label{subsec:renf-pack-diff}
 
-Figure \ref{fig:renf-prop-plot} shows that there are similar proportions of indviduals receiving each type of homecare in each financial year regardless of whether or not they have any packages of care captured by the census. The figure also shows the increasing proportion of "Reablement" packages over time from almost no packages in 2010/11 to approximately 14% of all packages delivered in 2014/15. "Care at home (Mainstream)" type packages saw a drop from approximately 82% to 60% of all packages over the same period. 
+Table \ref{tab:renf-cens-indi-count} shows the number of individuals with at least one package captured by the census compared to those that have zero packages during the census week in each financial year. There is very little variation in the proportions in each group over time. 
 
-\begin{figure}[h]
+\begin{table}[]
+\centering
+\caption{Count of individuals with packages captured by census}
+\label{tab:renf-cens-indi-count}
+\begin{tabular}{@{}lrr@{}}
+\toprule
+\textbf{Financial Year} & \textbf{\begin{tabular}[c]{@{}r@{}}Individuals with zero\\ packages captured by \\ census (n)\end{tabular}} & \textbf{\begin{tabular}[c]{@{}r@{}}Individuals with at\\ least one package \\ captured by census (n)\end{tabular}} \\ \midrule
+\textbf{2010/11} & 864 (40.3\%) & 1279 (59.7\%) \\
+\textbf{2011/12} & 797 (38.2\%) & 1289 (61.8\%) \\
+\textbf{2012/13} & 945 (39.8\%) & 1430 (60.2\%) \\
+\textbf{2013/14} & 1080 (41.7\%) & 1513 (58.3\%) \\
+\textbf{2014/15} & 1138 (41.4\%) & 1614 (58.6\%) \\ \bottomrule
+\end{tabular}
+\end{table}
+
+
+As shown in figure \ref{fig:renf-prop-plot-age}, there is very little difference in age and gender groups between those that are not captured by the census in each year compared to those that are represented in the census. 
+
+
+\begin{figure}[]
   \centering
     \caption{Proportion of individuals receiving home care}
-    \includegraphics{figures/chapter-renf/12-census-prop-plot.png}
+    \includegraphics{figures/chapter-renf/12a-prop-plot-age.png}
+    \label{fig:renf-prop-plot-age}
+\end{figure}
+
+
+Figure \ref{fig:renf-prop-plot} shows that there are similar proportions of individuals receiving each type of homecare in each financial year regardless of whether or not they have any packages of care captured by the census. The figure also shows the increasing proportion of "Reablement" packages over time from almost no packages in 2010/11 to approximately 14% of all packages delivered in 2014/15. "Care at home (Mainstream)" type packages saw a drop from approximately 82% to 60% of all packages over the same period. 
+
+\begin{figure}[]
+  \centering
+    \caption{Proportion of individuals receiving home care}
+    \includegraphics{figures/chapter-renf/12c-census-prop-plot.png}
     \label{fig:renf-prop-plot}
 \end{figure}
 
-\subsection{Comparison of package intensity for indiviudals with/without any packages in the census}\label{subsec:renf-inten-diff}
+\FloatBarrier
 
-Comparison of the total weekly hours of home care (intensity) that indivduals with/without any packages in the census receive (figure \ref{fig:renf-inten}) shows that there is very little difference in median values. However, as time progresses, the median value for total hours of home care is slightly larger for those with no packages of care captured in the census. 
+\subsection{Comparison of package intensity for individuals with/without any packages in the census}\label{subsec:renf-inten-diff}
 
-This trend is shown in table \ref{tab:renf-regr-inten} which shows the intercept and coefficient of total hours of home care in linear regression models for each year (in bold) with presence of at least one, or zero packages in the census as a categorical predictor. Over time, the intercept value increases from 6.26 hours in 2010/11 to 8.41 hrs in 2014/15 indicating a general increase in intensity for individuals with at least one package in the census. There is a statistically significant difference in the amount of hours of care received betweeen those that have at lease one package in the census and those that have no packages in every financial year. The coefficient value is negative in 2010/11 but positive in all other years and increases over time. However, the difference in groups is modest (the 1.2 hrs increase in intensity in 2014/15 is equivalent to approximately 10 minutes extra care per day). 
+Comparison of the total weekly hours of home care (intensity) that individuals with/without any packages in the census receive (figure \ref{fig:renf-inten}) shows that there is very little difference in median values. However, as time progresses, the median value for total hours of home care is slightly larger for those with no packages of care captured in the census. 
+
+This trend is shown in table \ref{tab:renf-regr-inten} which shows the intercept and coefficient of total hours of home care in linear regression models for each year (in bold) with presence of at least one, or zero packages in the census as a categorical predictor. Over time, the intercept value increases from 6.26 hours in 2010/11 to 8.41 hrs in 2014/15 indicating a general increase in intensity for individuals with at least one package in the census. There is a statistically significant difference in the amount of hours of care received between those that have at lease one package in the census and those that have no packages in every financial year. The coefficient value is negative in 2010/11 but positive in all other years and increases over time. However, the difference in groups is modest (the 1.2 hrs increase in intensity in 2014/15 is equivalent to approximately 10 minutes extra care per day). 
 
 
 \begin{figure}[h]
@@ -224,7 +258,7 @@ This trend is shown in table \ref{tab:renf-regr-inten} which shows the intercept
     \label{fig:renf-inten}
 \end{figure}
 
-Table \ref{tab:renf-regr-inten} also shows the results of the same linear regression model applied seperately to individuals from groups of different gender, age, and home care type. The differences between theses groups become more apparent over time with all groups (apart from the "Rapid Response" care type) showing statistically significant differences in 2014/15. Intercept values for total hours of home care vary slightly across different groups with "Rapid Response" and "Reablement" packages more likely to have higher values - particularly in later years. Differences between groups also vary with older age groups and "Reablement" care type packages showing larger coefficient values for those with zero packages captured by the census. The largest difference is seen for "Reablement" packages in 2014/15 with an expected 2.14 hrs increase for those with zero packages compared to those with at least one package in the census. This is equivalent to an 18.3 minute increase in care per day. The variation in total hours of care between home care types is plotted in figure \ref{fig:renf-intensity-type}. 
+Table \ref{tab:renf-regr-inten} also shows the results of the same linear regression model applied separately to individuals from groups of different gender, age, and home care type. The differences between theses groups become more apparent over time with all groups (apart from the "Rapid Response" care type) showing statistically significant differences in 2014/15. Intercept values for total hours of home care vary slightly across different groups with "Rapid Response" and "Reablement" packages more likely to have higher values - particularly in later years. Differences between groups also vary with older age groups and "Reablement" care type packages showing larger coefficient values for those with zero packages captured by the census. The largest difference is seen for "Reablement" packages in 2014/15 with an expected 2.14 hrs increase for those with zero packages compared to those with at least one package in the census. This is equivalent to an 18.3 minute increase in care per day. The variation in total hours of care between home care types is plotted in figure \ref{fig:renf-intensity-type}. 
 
 
 \begin{landscape}
@@ -362,9 +396,9 @@ Table \ref{tab:renf-regr-inten} also shows the results of the same linear regres
 \end{figure}
 
 \FloatBarrier
-\subsection{Comparison of package duration for indiviudals with/without any packages in the census}\label{subsec:renf-duration-diff}
+\subsection{Comparison of package duration for individuals with/without any packages in the census}\label{subsec:renf-duration-diff}
 
-Figure \ref{fig:renf-duration} shows a comparison of the total duration of care for indiviudals with or without any packages in the census for each financial year. A clear difference can be seen for those with no packages captured by the census who have much shorter total duration of care. Results of linear regression models plotting package duration against presence or not of at least one package in the census (table \ref{tab:renf-regr-duration}) confirms statistically significant differences between all groups (with the exception of "Reablement" packages in 2010/11). These differences are large e.g. the overall coefficient in 2014/14 is -54.32 weeks suggesting individuals with zero packages captured by the census have care duration, on average, over a year shorter than those with at least one package in the census. 
+Figure \ref{fig:renf-duration} shows a comparison of the total duration of care for individuals with or without any packages in the census for each financial year. A clear difference can be seen for those with no packages captured by the census who have much shorter total duration of care. Results of linear regression models fitting package duration against presence or not of at least one package in the census (table \ref{tab:renf-regr-duration}) confirms statistically significant differences between all groups (with the exception of "Reablement" packages in 2010/11). These differences are large e.g. the overall coefficient in 2014/14 is -54.32 weeks suggesting individuals with zero packages captured by the census have care duration, on average, over a year shorter than those with at least one package in the census. 
 
 Intercept values in table \ref{tab:renf-regr-duration} gradually decrease over time which is likely due to censoring at the end of the time series. Within years there is a large difference in intercept values. Older age groups, as well as "Rapid Response" and "Reablement" type packages all show much lower values than the total seen in each year. Variation in duration of care by home care type is plotted in figure \ref{fig:renf-dur-type}
 
@@ -515,9 +549,11 @@ Intercept values in table \ref{tab:renf-regr-duration} gradually decrease over t
 \FloatBarrier
 \subsection{Variation in care packages captured by census}\label{subsec:renf-census-variation}
 
-Descriptive statistics of the net difference in total hours of home care for those indiviudals that have at least one package captured by the census \emph{and} more than one package in a financial year are shown in table \ref{tab:renf-net-diff}. The variation is plotted in figure \ref{fig:renf-net-diff}. The median value of the net difference in total hours of home care for individuals with multiple packages of "Care at home (Mainstream)" is close to zero in all years with interquartile ranges (IQR) varying from 4.25 to 8.5hrs. These individuals account for approximately 60% of all those captured by the census with mutiple packages of care.  
+Descriptive statistics of the net difference in total hours of home care for those individuals that have at least one package captured by the census \emph{and} more than one package in a financial year are shown in table \ref{tab:renf-net-diff}. The variation is plotted in figure \ref{fig:renf-net-diff}. The median value of the net difference in total hours of home care for individuals with multiple packages of "Care at home (Mainstream)" is close to zero in all years with interquartile ranges (IQR) varying from 4.25 to 8.5hrs. These individuals account for approximately 60% of all those captured by the census with multiple packages of care.  
 
 The remaining individuals see larger negative values for the net difference in total hours of home care over the financial year with wider IQR values. Linear regression of the net difference in total hours of homecare with home care type as an explanatory variable (table \ref{tab:renf-net-diff-regr}) shows statistically significant results in all years except 2010/11. 
+
+\vspace{3cm}
 
 \begin{table}[h]
 \centering
@@ -617,47 +653,51 @@ The largest increases are seen in the years where the number of individuals capt
 
 \section{Discussion}\label{sec:renf-discuss}
 
-* 60\% sample
-* Same type of people
-* Same type of packages
-* Different types of packages not accurately captured by categorisation?
+\subsection{Findings}\label{subsec:renf-discuss-find}
 
-This exploratory project has investigated the variation in packages of care from one Scottish local authority area and aimed to 
-\begin{itemize}[noitemsep]
-\item quantify the proportion of indiviudals in receipt of home care during Social Care Survey census week
-\item describe the differences in individuals that receive some care during the cenus week and those that don't
-\item validate the value of total weekly hours of care compared to the rest of the financial year for those that \emph{do} receive some care during the census
-\item assess the difference in the proportion of indivudals that would be captured by hypothetical extra census dates. 
-\end{itemize}
+This exploratory project has investigated the variation in packages of care from one Scottish local authority area and aimed to: a) quantify the proportion of individuals in receipt of home care during Social Care Survey census week, b) describe the differences in individuals that receive some care during the census week and those that don't, c) validate the value of total weekly hours of care compared to the rest of the financial year for those that \emph{do} receive some care during the census, and d) assess the difference in the proportion of individuals that would be captured by hypothetical extra census dates. 
 
-Between 51.7% and 61.9% of all individuals receiving home care in the years 2006/07 to 2015/16 had "live" packages of care during the SCS census week. The trend is decreasing with the minimum value being recorded in the most recent year of data. This trend likely reflects the increase seen in the proportion of "Reablement" type packages of care which are designed to be implemented for short periods of time following hospital discharge. The shorter duration of these packages means they are less likely to coincide with the census date. 
+Between 51.7% and 61.9% of all individuals receiving home care in the years 2006/07 to 2015/16 had "live" packages of care during the SCS census week. The trend is decreasing with the minimum value being recorded in the most recent year of data. This trend likely reflects the increase seen in the proportion of "Reablement" type packages of care which are designed to be implemented for short periods of time following hospital discharge. The shorter duration of these packages means they are less likely to coincide with the census date. There are no significant differences in the overall proportion or demographic structure of the group that are not captured by the census compared to the group that are in each financial year. 
 
-Individuals that have no packages of home care captured by the census in each year have a considerably shorter total duration of care. This is seen across all care types and age and gender groups. The most likely explanation for this is that no matter what care type, some individuals go on to require longer term care and thus receive more contiguous packages which eventually coinciding with a census date. Those that have zero packages captured by a census truely are short-term users of care. It is impossible, with this data, to account for what proportion of this is due to care no longer being required or due to mortality or to other causes. 
+Individuals that have no packages of home care captured by the census in each year have a considerably shorter total duration of care. This is seen across all care types and age and gender groups. The most likely explanation for this is that no matter what care type, some individuals go on to require longer term care and thus receive more contiguous packages which eventually coinciding with a census date. Those that have zero packages captured by a census truly are short-term users of care. It is impossible, with this data, to account for what proportion of this is due to care no longer being required, to mortality, or to other causes. 
 
-Those without any packages captured by a census are also more likely to have slightly more total hours of home care per week. This is a moderate increase and affects indiviudals receiving "Reablement" type care to a greater extent. The difference for individuals receiving "Care at home (Mainstream)" type packages (the large majority) is equivalent to as little as 5 minutes per day extra care on average.  
+Those without any packages captured by a census are also more likely to have slightly more total hours of home care per week. This is a moderate increase and affects individuals receiving "Reablement" type care to a greater extent. The difference for individuals receiving "Care at home (Mainstream)" type packages (the large majority) is equivalent to, on average, 10 minutes per day extra care.  
 
-For approximately 50% of indiviudals that \emph{do} have at least one package of care captured by a census - the value of total weekly hours of home care that they receive in the census week is absolutely representative. This is because they only receive one package of care during the financial year and are likely receipients of long-term care. The remaining indiviudals receive mutliple packages of care during the financial year or stop receiving care altogether. There are differences in the variation in the net-difference of total hours of home care for these individuals depending on the type of care they receive. Individuals with "Care at home (Mainstream)" type packages (again a majority**how much??**) show mild variation with median values close to zero. Those receiving "Reablement" or "Rapid Response" type packages (**quantify**) are more likely to have negative net difference values. It is possible these are short-term packages of care that started soon before the census and end soon after resulting in negative values.    
+For approximately 50% of individuals that \emph{do} have at least one package of care captured by a census - the value of total weekly hours of home care that they receive in the census week is absolutely representative. This is because they only receive one package of care during the financial year and are likely recipients of long-term care. **Make sure the results show this clearly**
 
-Individuals who have no packages captured by the census during a financial year tend to receive care for much shorter periods of time. This is unsurprising as longer packages of care would be more likely to coincide with the census week. These individuals are also likely to have a higher intensity (measured by total hours per week) of care than indiviudals with at least one package of care  captured by the census. This increase is modest, however, and at the most being equivalent to 18 minutes of care per day for "Reablement" packages and 10 minutes a day overall.  
+The remaining individuals receive multiple packages of care during the financial year or stop receiving care altogether. There are differences in the variation in the net-difference of total hours of home care for these individuals depending on the type of care they receive. Individuals with "Care at home (Mainstream)" type packages (again a majority**how much??**) show mild variation with median values close to zero. Half of these packages in 2014/15 (the year with the widest IQR) see a net difference value between -30 minutes to +40 minutes of care per day.  
 
-More recent years have seen a greater proportion of packages being delivered for Reablement type services at the expense of Care at home (Mainstream) type packages of care. However, reablement services only account for a maximum of 8% of packages captured by the census and 21.5% not captured by the census with much lower proportions in earlier years.
+Those receiving "Reablement" or "Rapid Response" type packages (**quantify**) are more likely to have negative net difference values. It is possible these are short-term packages of care that started soon before the census and end soon after resulting in negative values. The IQR in 2014/15 indicates half of these packages see variations of care between -75 or -90 to +15 or +30 minutes of care per day respectively. 
 
-Coupled with the finding that roughly half of indivudals with "live" care packages during the census week have only a single package of care in the six months pre and post census, usually with a long duration, a picture emerges of two types of "Care at Home (Mainstream)" packages. The first type are long-term packages, sometimes lasting multiple years. The second type have much shorter duration and mirror many of the characteristics of "Reablement" type packages (*but I haven't accounted for multiple packages received by one indivudal*). Whether these packages are misclassified, or if the recent addition of "Reablement" packages as a care type has not yet filtered through to data categorisation is unknown.
+Adding an additional 1, 2, or 3 census weeks in each financial year to the data analysed in this project increases the proportion of individuals that would be surveyed by an average of 13.5%, 20.9%, or 24.2% to 72.5%, 79.9%, or 83.2% respectively. 
 
-Returns to the SCS by local authorities do not distinguish between types of home care but provide a value of total weekly hours of home care only. This analysis shows that variables detailing the weekly hours of homecare received by an indiviudal may disguise differing underlying types of care being delivered. 
+\subsection{Limitations}\label{subsec:renf-discuss-lim}
 
-*Needs para on implications for research - taking into account re-analysis of multi-packages - if duration of care is more similar then can happily say that SCS is a good 60% representative sample of individuals receiving home care and can be dealt with in the same way as any other type of cross-sectional data (with better power than most surveys). If not, then need to quantify the error and suggest that analysis with SCS must take account of this error. Also need to bear in mind that ~50% of those captured by SCS will have variation in the amount of care they receive in the year surrouning the census but there is no way of identfying these individuls with current SCS variables*
+This analysis is limited by the fact that data was obtained from only one local authority area. It is impossible to know if the number of individuals captured or not by the SCS in the Renfrewshire area is indicative of numbers across the country. Given each of the 32 local authorities in Scotland have bespoke methods of delivering and recording social care the findings from this analysis can not be generalised to a national level. However, given the difficulties in obtaining data of this kind, the analysis gives some indication to stakeholders of the validity of the SCS.
 
-This analysis is limited by the fact that data was obtained from only one local authority area. It is impossible to know if the number of individuals captured or not by the SCS in the Renfrewshire area is indicative of numbers across the country. Given each of the 32 local authorities in Scotland have bespoke methods of delivering and recording social care the findings from this analysis can not be generalised to a national level. 
+Furthermore, the method of summarising data into packages of care is subjective and may differ from the method used by Renfrewshire council to complete the SCS. Absolute numbers of individuals receiving home care in each financial year in this analysis are similar to those returned by Renfrewshire council to the SCS overall with some mild discrepancy in later years. Eligibility to be included in the home care census has changed over the years (e.g. "Housing Support" being included as home care and then collected as a separate type of service in later years) and the collection of individual-level data did not begin until 2010/11. Whether this has changed how data is collated at the local level for return to SCS is unknown but may explain differences in counts. 
 
-Furthermore, the method of summarising data into packages of care is subjective and may differ from the method used by Renfrewshire council. There is some comfort in the similarity of results for some years shown in figure \ref{fig:renf-hrs}, however there are notable differences, particularly in later years, suggesting structural differences in methods. The year 2010 was the first in which individual level data was collected by the Scottish Government which may have led to different methods of collating data. Furthermore, changes have been made at varying intervals for what constitutes home care with differing types of care, e.g. Housing Support being included as home care and then collected as a seperate type of service in later years.
 
-Future work using this data should consider the difference in individuals receiving care at different time intervals (e.g. first six months of the year). If the census week were to capture a higher proportion of individuals in a more narrow time-frame then alternative types of statistical analyses, such as time-to-event anlaysis, may be possible using SCS data.  
-**longitudinal analysis**
+\subsection{Implications}\label{subsec:renf-discuss-imp}
+
+The analysis in this chapter suggests the SCS provides a good cross-sectional sample of individuals receiving home care in any given financial year. The proportion of this sample appears to be decreasing in more recent years but still accounts for at least half of all individuals receiving care. 
+
+Increasing the frequency of data collection to four times a year could potentially increase the sample size to approximately 83%. Whether the extra administrative resources associated with this would be too great for both local authority and Scottish Government analytical teams is a matter which would require further consideration. This would certainly result in more short-term packages of care being captured by data collection enhancing the representativeness of the SCS.
+
+The value of total hours of home care returned to the SCS is an accurate cross-sectional value but is not completely indicative of care received throughout a financial year. A majority of individuals have no, or only a modest, variation in the total weekly hours of home care they receive during a financial year. However, a proportion of individuals (**25%??**) have large changes in total hours of homecare and these cannot be indented in SCS data. The main analysis in this thesis, and any other research using the SCS as a data source, cannot infer home care receipt over a year from this value as it risks producing biased results. Collection of start and end dates of all home care packages received in a financial year in the SCS would rectify this problem. 
+
+The analysis of the data from Renfrewshire council has shown there are different patterns in the duration and intensity of home care packages according to the type of care being provided (e.g. between "Care at home (Mainstream)" and "Rapid Response" type packages). The SCS does not collect data on the categorisation of care type and therefore these differences cannot be accounted for in research using the SCS. Adding a standardised classification of home care type to the SCS would allow a richer interpretation of home care users for both official statistical reporting and research purposes. 
+
+\subsection{Future work}\label{subsec:renf-discuss-future}
+
+Future work using this data should consider the difference in individuals receiving care at different time intervals (e.g. first six months of the year). If the census week were to capture a higher proportion of individuals in a more narrow time-frame then alternative types of statistical analyses, such as time-to-event analysis, may be possible using SCS data.  
+The data from Renfrewshire council also offers the opportunity to longitudinally analyse home care use by age, gender, and type of home care groups.  Quantifying any differences in the change over time in the amount of home care used would be of interest to both researchers and local authority providers. 
+
+Each individual in the dataset has data with multiple values of Scottish Index of Multiple Deprivation (SIMD) for different time periods. Future analysis should include this variable with the correct SIMD score added to the time series at the appropriate time period. Accounting for socioeconomic position in all analyses would provide a richer picture of service allocation. Time constraints prevented such analysis in this chapter. 
 
 \section{Conclusion}\label{sec:renf-conc}
 
-Analysis of individual level social care data from Renfrewshire council area suggests that the number of people recorded as receiving home care by the Social Care Survey captures between 52% and 64% of the total number of people that will receive home care during a financial year. This has implications for the types of analysis that can be conducted with SCS in data linkage projects. Those individuals receiving care in the census week have packages of care that are broadly similar in duration and intensity. Some reablement packages of care may be misclassified. 
+Analysis of individual level social care data from Renfrewshire council area suggests that the number of people recorded as receiving home care by the Social Care Survey captures between 52% and 62% of the total number of people that will receive home care during a financial year. Those not captured during a census week are individuals receiving short-term care only. The value of total weekly hours of home care recorded during the census week, whilst an accurate cross-sectional figure, is not an accurate representation of care receipt over the whole financial year for a small proportion of individuals. Collection of additional data, such as start and stop dates for all packages of care and type of home care delivered, would improve the inferences that can be made from the SCS currently.  
 
 
 

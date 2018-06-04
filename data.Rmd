@@ -56,23 +56,19 @@ Health and Social Care Analysis (HSCA) is a division within the Socttish Governm
 
 \section{Data Sources}\label{sec:sources}
 
-Research conducted with administrative data requires a thorough description of databases used [@RN480]. This should include a description of the purpose of the data collection and the methods employed to collect data. This enables appraisal of any  potential biases that may exist within the databases [@RN352; @RN480].
+Research conducted with administrative data requires a thorough description of databases used [@RN480]. This should include a description of the purpose of the data collection and the methods employed to collect data. This enables appraisal of any  potential biases that may exist within the databases [@RN352; @RN480]. There are 4 main sources of data used in the main analyses of this thesis: the Social Care Survey, the Scottish population spine and death records, the Prescribing Information System, and the Unscheduled Care Data Mart. Each of these are described in more detail below. 
 
 Why collected? How collected? Data Quality checks?
 
 \subsection{Social Care Survey}\label{subsec:source-sc}
 
-The Social Care Survey (SCS) is collected annualy by HSCA for the Scottish Government to provide descriptive statistics of the amounts of social care delivered by each of Scotland's 32 local authorities [@RN487]. Results are collated and published annualy by HSCA in the "Social Care Services, Scotland" report [@RN487]. As well as providing an overview of social care services, certain measures captured by the SCS are used in funding formulae to calculate allocation of resources to each local authority (e.g. number of people receiving home care) [@RN450]. 
+The Social Care Survey (SCS) is collected annualy by HSCA for the Scottish Government to provide descriptive statistics of the amounts of social care delivered by each of Scotland's 32 local authorities [@RN487]. Results are collated and published annualy by HSCA in the "Social Care Services, Scotland" report [@RN487]. The SCS reports provide an overview of social care services for the public and policy makers. In addition, certain measures captured by the SCS are used in funding formulae to calculate allocation of resources to each local authority (e.g. number of people receiving home care) [@RN450]. 
 
-All 32 Scottish local authorities collect infomation on social care as part of their management systems [@RN128]. HSCA produce a data specification document outlining the information that should be returned for the social care survey and this is sent to HSCA via a secure web-basesd system called ProcXed. This system supports data validation checks on transfer to improve data accuracy [@RN128]. 
+All 32 Scottish local authorities collect information on social care as part of their management systems [@RN128]. HSCA produce a data specification document outlining the information that should be returned for the social care survey and this is sent to HSCA via a secure web-basesd system called ProcXed. This system supports data validation checks on transfer to improve data accuracy [@RN128]. 
 
-The SCS has been collected in its present form since 2013 as a combination of two previous data collections - the Home Care and the Direct Payments Surveys [@RN128].
+The SCS has been collected in its present form since 2013 as a combination of two previous data collections - the Home Care and the Direct Payments Surveys [@RN128]. Indivudal-level data has been collected since 2010. Some questions have remained constant throughout this period but there have also been some changes in definitions and measures. The most notable change in definition was that of weekly hours of  "Home care services". Before 2013 this value included 24-hour-7-day-a-week and live-in services but these are instead included in the measure of "Housing support services" from 2013 onwards [@RN128]. 
 
 
-
-Some questions have remained constant throughout this period but there have also been some changes in definitions and measures. The most notable change in definition was that of hours of  "Home care services" which pre 2013 included 24-hour-7-day-a-week and live-in services but excludes these from 2013 onwards [@RN128]. These services are included under the measure of "Housing support services" in the more recent SCS [@RN488]. Plots of home care hours in the "Social Care Services, Scotland" report highlight the break in time series [@RN487]. 
-
-Information was collected on an individual basis for each Home Care client receiving home help services, meals services and community alarm / telecare services, as well as for clients receiving Direct Payments
 
 Scheduled and actual hours.
 

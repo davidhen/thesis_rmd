@@ -20,6 +20,8 @@ header-includes:
 - \usepackage[export]{adjustbox}
 - \usepackage{microtype}
 - \usepackage{booktabs} #tables
+- \usepackage{longtable}
+- \usepackage{pdflscape}
 - \usepackage{graphicx} #figures
 - \usepackage{epigraph} #nice quotations
 - \usepackage{pdfpages} #appendices
@@ -32,7 +34,6 @@ header-includes:
 - \colorlet{Blue}{blue} #Sort out an issue with xcolor package(not explicitly loaded here!)
 ---
 
-
 ```{r global_options, include=FALSE}
 knitr::opts_chunk$set(fig.path = 'figures/', echo = FALSE,
                       warning = FALSE, message = FALSE)
@@ -44,9 +45,9 @@ knitr::opts_chunk$set(fig.path = 'figures/', echo = FALSE,
 
 \newpage
 \fancyhf{}
-\fancyhead[CE,CO]{\leftmark}
-\fancyfoot[LE,LO]{\rightmark}
-\fancyfoot[RE,RO]{Page \thepage}
+\fancyhead[CE,CO]{\footnotesize \leftmark}
+\fancyfoot[LE,LO]{\scriptsize \rightmark}
+\fancyfoot[RE,RO]{\scriptsize Page \thepage}
 \renewcommand{\headrulewidth}{0pt}
 
 \FloatBarrier

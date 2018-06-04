@@ -1,0 +1,41 @@
+---
+title: "Wrangle CSV"
+author: "David Henderson"
+date: "23 February 2018"
+output: html_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+# Intro
+
+I'm going to wrangle a table I got as output from the safe haven. I need to create a table listing the number of individuals in each year that have zero or at least one package in the census
+
+##Packages
+
+```{r packages, warning=FALSE, message=FALSE}
+library(tidyverse)
+library(magrittr)
+library(knitr)
+```
+
+##Load
+
+```{r load, message=FALSE}
+cen_table <- read_csv(file = "/Users/hedgi/OneDrive - University of Glasgow/GitHub/thesis_rmd/figures/chapter-renf/12b-table-prop-tab-age.csv")
+cen_table
+```
+
+```{r select}
+cen_table %<>% 
+  select(fin_year, any_census, tot_cen) %>% 
+  distinct %>% 
+  spread(any_census, tot_cen)
+```
+
+```{r save}
+write_csv(cen_table, "/Users/hedgi/OneDrive - University of Glasgow/GitHub/thesis_rmd/figures/chapter-renf/12e_census_count.csv")
+```
+
