@@ -27,15 +27,25 @@ Which variables were used and how summarised and cleaned (i.e. telecare as categ
 
 with reference to chapter \ref{ch:renfrew} and measure of hours of social care
 
+Also detail number of records, number of individuals
+
 \subsection{Prescribing Information Service}\label{subsec:pis-summs}
+
+number of records, number of individuals
+
+describe variables
 
 How PIS data was summarised and measures chosen
 
 \subsection{Demographic, geographic, and deaths information}\label{subsec:nrs-summs}
 
+Number of records, number of individuals
+
 Which Local Authority? Which SIMD data?
 
 \subsection{Unscheduled care measures}\label{subsec:usc-summs}
+
+Number od records, number of individuals
 
 How was usc data wrangled? Which summary measures were chosen?
 

@@ -15,19 +15,19 @@ output: pdf_document
 
 {\bf Multimorbidity and Access to Social Care: exploiting emerging administrative data sources in Scotland}
 
-\vspace{1 cm}
+\vspace{1.5 cm}
 
 \Large
 David Alexander Gunn Henderson \\
 MRes(Health Research), PGcert(Advanced Practice), BSc(Nursing)
 
-\vspace{1 cm}
+\vspace{1.5 cm}
 
 \normalsize
 Submitted in partial fulfilment of the requirements of the degree of \\
 Doctor of Philosophy (PhD)
 
-\vspace{1 cm}
+\vspace{1.5 cm}
 
 \normalsize
 School of Social and Political Sciences \\

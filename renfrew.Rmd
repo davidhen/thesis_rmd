@@ -204,6 +204,7 @@ Figure \ref{fig:renf-hrs} and table \ref{tab:renf-ts-summary} also indicate that
 \subsection{Comparison of individuals with/without any packages in the census}\label{subsec:renf-pack-diff}
 
 Table \ref{tab:renf-cens-indi-count} shows the number of individuals with at least one package captured by the census compared to those that have zero packages during the census week in each financial year. There is very little variation in the proportions in each group over time. 
+**This needs to be a table showing the number of indiviudals with only one package of care in the year and the number with multiple packages and should be in section 4.4.6**
 
 \begin{table}[]
 \centering
