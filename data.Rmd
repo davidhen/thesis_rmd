@@ -78,7 +78,11 @@ The cross-sectional nature of the survey, and in particular the census week vari
 
 \subsection{Population Spine and Death records}
 
-via eDRIS or direct NRS?? - demography and geography also.
+The ‘Research population spine’ is a copy of the National Health Service Central Register (NHSCR) and is controlled by NRS. The spine contains over 9 million records and is updated quarterly. There are very strict policies which govern access to the offline secure server where the spine is stored. 
+
+The NHSCR is used operationally for the purpose of transferring GP records.  Despite the name and the fact it is used for transferring patients records, the population spine does not hold medical records themselves. It contains records of anyone who was born in Scotland, who registers with a GP in Scotland, or who dies in Scotland. Variables included are: forename, middle name, surname, date of birth, gender, postcode, and country of birth. 
+
+This resource is extremely useful for adminstrative data linkage projects. Data sources that don't contain a CHI number (such as the SCS) can be matched to the population spine using determinisitc and probabilistic methods (see section \ref{sec:data-linkage}). This then allows linkage to CHI-based data sources enabling cross-sectoral projects, such as the main analyses in this thesis, to be possible. 
 
 \subsection{Prescribing Information System}
 
@@ -86,15 +90,43 @@ The Prescribing information system (PIS) contains all community prescribed medic
 
 \subsection{Urgent Care Data}
 
-The Urgent Care Data Mart (UCD) is a database collated by ISD for the purpose of understanding a patient journey through emergency and urgent care services [@RN528]. It is a linkage of routine health data from a number of sources: NHS24 telephone triage service, Scottish Ambulance Service (SAS), primary care out-of-hours services (PC OOH), Accident & Emergency (A & E), acute emergency inpatient admissions (both general and mental health), and deaths. Data is available from 2011 with the exception of PC OOH data which is available from 2014. 
+The Urgent Care Data Mart (UCD) is a database collated by ISD for the purpose of understanding a patient journey through emergency and urgent care services [@RN528]. It is a linkage of routine health data from a number of sources controlled by ISD: NHS24 telephone triage service, Scottish Ambulance Service (SAS), primary care out-of-hours services (PC OOH), Accident & Emergency (A & E), acute emergency inpatient admissions (both general and mental health), and deaths. Data is available from 2011 with the exception of PC OOH data which is available from 2014. CHI numbers are available on all records. 
 
 Continous Urgent Care Pathways (CUPs) are calculated that join together records from each of these sources that occur within 24 hrs of each other (or for services occuring within 48hrs of an acute emergency admission)[@RN528]. Details of all variables listed in UCD are available in the background paper published by ISD [-@RN528]. In addition to service use, UCD flags presence of any of 14 long-term health conditions in any of the above datasets and, additionally, any acute admission from 1981 onwards.  
 
 \section{Information Governance}\label{sec:ig}
 
-Use ADRN legal issues book
-Also use SG priniciples for DL
-Data linkage course material also. 
+\subsection{Data processing}\label{subsec:renf-dat-process}
+
+The permissions and linkage of data for this project were completed in advance of the European Union (EU) General Data Protection Regulation (GDPR) coming into effect in May 2018. The information governance was informed by antecendant laws including the Data Protection Act (DPA) (1998). Given the sensitive nature of the data being processed, the measures put into place to safely and securely process data (described below) already conformed with GDPR guidelines. 
+
+Data sharing and processing can be completed without consent of data subjects as long certain criteria, explicitly named in legislation, are met [@RN276].  For the purposes of this thesis, data processing was completed, without consent, in accordance with three legislative paragraphs:
+
+\begin{itemize}[noitemsep]
+\item Schedule 2:(6) of the DPA.
+\begin{quotation} \begin{enumerate} \item The processing is necessary for the purposes of legitimate interests pursued by the data controller or by the third party or parties to whom the data are disclosed, except where the processing is unwarranted in any particular case by reason of prejudice to the rights and freedoms or legitimate interests of the data subject.\end{enumerate} \end{quotation}
+
+\item Schedule 3:(8) of the DPA (emphasis added)
+\begin{quotation} \begin{enumerate}
+\item The processing is necessary for medical purposes and is undertaken by 
+\begin{enumerate}
+\item a health professional, or 
+\item a person who in the circumstances owes a duty of confidentiality which is equivalent to that which would arise if that person were a health professional.
+\end{enumerate}
+\item In this paragraph “medical purposes” includes the purposes of preventative medicine, medical diagnosis, \emph{medical research}, the provision of care and treatment and the management of healthcare services
+\end{enumerate}\end{quotation}
+
+\item Paragraph 9 of the Data Protection (Processing of Personal Data Order 2000(SI 2000 No.417)).
+\begin{quotation} The project has clear and substantial public interest in the information it will provide to inform the delivery of public services. The data processing is necessary to enable this research to take place. The project does not support measures of analysis with respect to any individual. Finally, the project will not cause any substantial damage or distress to any individual. \end{quotation}
+
+\end{itemize}
+
+Information governance for the project was also informed by the "Guiding Principles for Data Linkage" report produced by the Scottish Government [-@RN126]. These guidelines, themselves informed by legislation such as the DPA, highlight the importance of public interest, transparency, and privacy when conducting data linkage projects with publicly held data sets. 
+
+\subsection{Safe Haven environment}\label{subsec:safe-haven}
+
+describe safe haven [@RN276] and ISD website
+
 
 \subsection{Research Approvals Commitee}\label{subsec:rac}
 
@@ -111,10 +143,6 @@ College ethics and waivers
 \subsection{Data sharing agreement}\label{subsec:dsa}
 
 DSA description
-
-\subsection{Safe Haven environment}\label{subsec:safe-haven}
-
-describe safe haven
 
 \section{Timeline}\label{sec:timeline}
 
