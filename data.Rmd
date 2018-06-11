@@ -36,13 +36,13 @@ The Scottish Informatics and Linkage Collaboration (SILC) is an umbrella term fo
 
 \subsection{Urban Big Data Centre}\label{subsec:ubdc}
 
-Funding for this PhD was provided by the Scottish Government and the Economic \& Social Research Council (ESRC). The bid for funding was won by UBDC which is based within the University of Glasgow. UBDC as an organisation is also funded by the ESRC and brings together data scientists and social scientists with research interests relevant to urban living such as; housing, transport, migration, and health [@RN472]. UBDC has six partner universities; Edinburgh, Bristol, Cambridge, Reading, Sheffield, and Illinois-Chicago. 
+Funding for this PhD was provided by the Scottish Government and the Economic & Social Research Council (ESRC). The bid for funding was won by UBDC which is based within the University of Glasgow. UBDC as an organisation is also funded by the ESRC and brings together data scientists and social scientists with research interests relevant to urban living such as; housing, transport, migration, and health [@RN472]. UBDC has six partner universities; Edinburgh, Bristol, Cambridge, Reading, Sheffield, and Illinois-Chicago. 
 
 The linkage project described in this thesis was completed with the assistance of UBDC's controlled data service. This service helps researchers to access personal data that exists in administrative databases [@RN475]. In addition to  a vigorous approval process, access to data is tightly controlled via safe haven IT architecture which monitors use of data and output of analyses to ensure individual anonymity is maintained [@RN475]. UBDC arranges acces to the safe haven environment though liaison with eDRIS, provided by the Information Services Division (ISD) of NHS National Services Scotland (NSS) under the auspices of SILC. A more detailed description of the safe haven is given in section \ref{subsec:safe-haven}. 
 
 \subsection{electronic Data and Research Innovation Service}\label{subsec:edris}
 
-ISD is a subdivision of NHS NSS [@RN324]. NSS is a national NHS board in its own right and works with the other NHS boards, particularly the 14 geographic health boards, to provide centralised services such as; procurement, legal support, IT, and public health intelligence [@RN473]. As a division of NSS, ISD provides, among other things, support for the latter two of these services [@RN324]. This includes administering the large number of databases containing information on health service use in Scotland varying from maternity \& births, to cancer sevices, and unscheduled health care [@RN324].
+ISD is a subdivision of NHS NSS [@RN324]. NSS is a national NHS board in its own right and works with the other NHS boards, particularly the 14 geographic health boards, to provide centralised services such as; procurement, legal support, IT, and public health intelligence [@RN473]. As a division of NSS, ISD provides, among other things, support for the latter two of these services [@RN324]. This includes administering the large number of databases containing information on health service use in Scotland varying from maternity & births, to cancer sevices, and unscheduled health care [@RN324].
 
 eDRIS is part of ISD and provides services under SILC [@RN481]. It is detailed specifically with assisting research using health administrative datasets. Researchers using the eDRIS service have a named research assistant who provides advice on; data sources, study design, the information governance approvals system, access to the safe haven environoment, and review of analysis outputs to ensure disclosive information cannot be inferred [@RN324]. 
 
@@ -98,7 +98,7 @@ Continous Urgent Care Pathways (CUPs) are calculated that join together records 
 
 \subsection{Data processing}\label{subsec:renf-dat-process}
 
-The permissions and linkage of data for this project were completed in advance of the European Union (EU) General Data Protection Regulation (GDPR) coming into effect in May 2018. The information governance was informed by antecendant laws including the Data Protection Act (DPA) (1998). Given the sensitive nature of the data being processed, the measures put into place to safely and securely process data (described below) already conformed with GDPR guidelines. 
+The permissions and linkage of data for this project were completed in advance of the European Union (EU) General Data Protection Regulation (GDPR) coming into effect in May 2018. The information governance was informed by antecendant laws including the Data Protection Act (DPA) (1998). However, as the study period was known to overlap with the implementaion of GDPR, all legal documentation was completed to ensure compliance with the incoming regulation.  
 
 Data sharing and processing can be completed without consent of data subjects as long certain criteria, explicitly named in legislation, are met [@RN276].  For the purposes of this thesis, data processing was completed, without consent, in accordance with three legislative paragraphs:
 
@@ -119,6 +119,20 @@ Data sharing and processing can be completed without consent of data subjects as
 \item Paragraph 9 of the Data Protection (Processing of Personal Data Order 2000(SI 2000 No.417)).
 \begin{quotation} The project has clear and substantial public interest in the information it will provide to inform the delivery of public services. The data processing is necessary to enable this research to take place. The project does not support measures of analysis with respect to any individual. Finally, the project will not cause any substantial damage or distress to any individual. \end{quotation}
 
+\end{itemize}
+
+Lawful processing of data for the purposes of the project is in accordance with a further two legal acts:- 
+
+\begin{itemize}[noitemsep]
+\item Social Work (Scotland) Act 1968.
+\begin{quotation} 8 Research \begin{enumerate}
+\item The Secretary of State may conduct or assist other persons in conducting research into any matter connected with his functions or the functions of local authorities in relation to social welfare, and with the activities of voluntary organisations connected with those functions.
+\item Any local authority may conduct or assist other persons in conducting research into any matter connected with their functions in relation to social welfare.
+\item The Secretary of State and any local authority may make financial assistance available in connection with any research which they may conduct or which they may assist other persons in conducting under the provisions of this section.
+\end{enumerate} \end{quotation}
+\item National Health Service (Scotland) Act 1978
+\begin{quotation} 47 Education and research facilities. (2)Without prejudice to the general powers and duties conferred or imposed on the Secretary of State under the Scottish Board of Health Act 1919, the Secretary of State may conduct, or assist by grants or otherwise any person to conduct, research into any matters relating to the causation, prevention, diagnosis or treatment of illness, or into such other matters relating to the health service as he thinks fit."
+\end{quotation}
 \end{itemize}
 
 Information governance for the project was also informed by the "Guiding Principles for Data Linkage" report produced by the Scottish Government [-@RN126]. These guidelines, themselves informed by legislation such as the DPA, highlight the importance of public interest, transparency, and privacy when conducting data linkage projects with publicly held data sets. 
@@ -143,16 +157,18 @@ The CoSS REC approval letter for the analysis covered in chapter \ref{ch:renfrew
 
 \subsection{Public Benefit and Privacy Panel for Health \& Social Care}\label{subsec:pbpp}
 
-In addition to RAC and College ethical approval, the main thesis project also required clearance from the Public Benefit and Privacy Panel for Health \& Social Care (PBPP). This was beacuse data from NHS sources were being used.  The data for analysis in chapter \ref{ch:renfrew} did not involve any linkage to any NHS data and therefore RAC and ethical approval were sufficient for progress. 
+In addition to RAC and College ethical approval, the main thesis project also required clearance from the Public Benefit and Privacy Panel for Health & Social Care (PBPP). This was beacuse data from NHS sources were being used.  The data for analysis in chapter \ref{ch:renfrew} did not involve any linkage to any NHS data and therefore RAC and ethical approval were sufficient for progress. 
 
 The PBPP acts as a decision making body with delegated responsibility from NHS Scotland Chief Executive Officers and the Registrar General [@RN532]. Using terms of reference and guiding principles, the panel adjudicates whether research projects using administrative data generated by the NHS in Scotland can be used for research purposes. 
 
 The approval letter for the main thesis project is shown in Appendix D
 
 
-\subsection{Data sharing agreement}\label{subsec:dsa}
+\subsection{Data sharing agreements}\label{subsec:dsa}
 
-DSA description - UBDC conrolled data doc. 
+For the purposes of the main linkage project, a three-way data sharing agreement (DSA) between the University of Glasgow, NHS National Services Scotland, and Scottish Ministers (Scottish Government) was signed. This detailed the purpose of data sharing, as well as the transfer, protection, and security of data. The  roles and responsibilites of each organisation in relation to relevant data protection legislation are clearly detailed in the DSA.  
+
+A similar two-way DSA was signed by the University of Glasgow and The Renfrewshire Council for the purposes of data shared for the analysis in chapter \ref{ch:renfrew}. 
 
 \section{Timeline}\label{sec:timeline}
 

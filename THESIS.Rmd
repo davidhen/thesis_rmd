@@ -7,8 +7,8 @@ documentclass: report
 classoption: a4paper,oneside
 bibliography: thesis.bib
 csl: harvard-cite-them-right.csl
-urlcolor: black
-linkcolor: black
+urlcolor: blue
+linkcolor: blue
 fontsize: 12pt
 geometry: top = 1.8cm, bottom = 1.8cm, left = 1.5cm, right = 1.5cm, margin = 2.5cm
 header-includes:
@@ -25,10 +25,11 @@ header-includes:
 - \usepackage{graphicx} #figures
 - \usepackage{epigraph} #nice quotations
 - \usepackage{pdfpages} #appendices
-- \usepackage[inline]{enumitem} #no item sepetate space
+- \usepackage[inline]{enumitem} #no item seperate space
 - \usepackage[flushleft]{threeparttable} #table footer
 - \usepackage{hyperref} #cross-refs and hyperlinks
 - \usepackage[toc,page]{appendix} #appendix in toc
+- \usepackage{acronym}
 - \usepackage[utf8]{inputenc} 
 - \onehalfspacing
 - \colorlet{Blue}{blue} #Sort out an issue with xcolor package(not explicitly loaded here!)
@@ -93,6 +94,14 @@ knitr::opts_chunk$set(fig.path = 'figures/', echo = FALSE,
 
 ```{r child = 'declaration.Rmd'}
 ```
+
+\newpage
+\fancyhead[CO,CE]{Acronyms}
+\addcontentsline{toc}{section}{List of Acronyms}
+\vspace{2cm}
+\section*{\huge{List of Acronyms}}\label{acros}
+\vspace{1cm}
+\input{acro_list}
 
 
 \newpage
