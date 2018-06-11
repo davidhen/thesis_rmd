@@ -49,53 +49,53 @@
 \contentsline {subsection}{\numberline {3.5.1}Data processing}{46}{subsection.3.5.1}
 \contentsline {subsection}{\numberline {3.5.2}Safe Haven environment}{47}{subsection.3.5.2}
 \contentsline {subsection}{\numberline {3.5.3}Research Approvals Commitee}{47}{subsection.3.5.3}
-\contentsline {subsection}{\numberline {3.5.4}Public Benefit and Privacy Panel}{47}{subsection.3.5.4}
-\contentsline {subsection}{\numberline {3.5.5}Ethics}{47}{subsection.3.5.5}
-\contentsline {subsection}{\numberline {3.5.6}Data sharing agreement}{47}{subsection.3.5.6}
-\contentsline {section}{\numberline {3.6}Timeline}{47}{section.3.6}
-\contentsline {chapter}{\numberline {4}Renfrewshire Council Exploratory Project}{48}{chapter.4}
-\contentsline {section}{\numberline {4.1}Introduction}{48}{section.4.1}
-\contentsline {section}{\numberline {4.2}Background}{49}{section.4.2}
-\contentsline {subsection}{\numberline {4.2.1}Research Questions}{50}{subsection.4.2.1}
-\contentsline {section}{\numberline {4.3}Methods}{51}{section.4.3}
-\contentsline {subsection}{\numberline {4.3.1}Project approvals and timeline}{51}{subsection.4.3.1}
-\contentsline {subsection}{\numberline {4.3.2}Data}{51}{subsection.4.3.2}
-\contentsline {subsection}{\numberline {4.3.3}Analysis}{52}{subsection.4.3.3}
-\contentsline {section}{\numberline {4.4}Results}{54}{section.4.4}
-\contentsline {subsection}{\numberline {4.4.1}Descriptive statistics}{54}{subsection.4.4.1}
-\contentsline {subsection}{\numberline {4.4.2}Distribution of individuals receiving home care}{57}{subsection.4.4.2}
-\contentsline {subsection}{\numberline {4.4.3}Comparison of individuals with/without any packages in the census}{58}{subsection.4.4.3}
-\contentsline {subsection}{\numberline {4.4.4}Comparison of package intensity for individuals with/without any packages in the census}{60}{subsection.4.4.4}
-\contentsline {subsection}{\numberline {4.4.5}Comparison of package duration for individuals with/without any packages in the census}{68}{subsection.4.4.5}
-\contentsline {subsection}{\numberline {4.4.6}Variation in care packages captured by census}{75}{subsection.4.4.6}
-\contentsline {subsection}{\numberline {4.4.7}Multi-census}{77}{subsection.4.4.7}
-\contentsline {section}{\numberline {4.5}Discussion}{77}{section.4.5}
-\contentsline {subsection}{\numberline {4.5.1}Findings}{77}{subsection.4.5.1}
-\contentsline {subsection}{\numberline {4.5.2}Limitations}{79}{subsection.4.5.2}
-\contentsline {subsection}{\numberline {4.5.3}Implications}{79}{subsection.4.5.3}
-\contentsline {subsection}{\numberline {4.5.4}Future work}{80}{subsection.4.5.4}
-\contentsline {section}{\numberline {4.6}Conclusion}{80}{section.4.6}
-\contentsline {chapter}{\numberline {5}Methods}{82}{chapter.5}
-\contentsline {section}{\numberline {5.1}Cohort}{82}{section.5.1}
-\contentsline {section}{\numberline {5.2}Linkage process}{82}{section.5.2}
-\contentsline {subsection}{\numberline {5.2.1}Social care linkage}{82}{subsection.5.2.1}
-\contentsline {subsection}{\numberline {5.2.2}Linkage to health sources}{82}{subsection.5.2.2}
-\contentsline {section}{\numberline {5.3}Summary measures}{82}{section.5.3}
-\contentsline {subsection}{\numberline {5.3.1}Social Care Survey}{82}{subsection.5.3.1}
-\contentsline {subsection}{\numberline {5.3.2}Prescribing Information Service}{83}{subsection.5.3.2}
-\contentsline {subsection}{\numberline {5.3.3}Demographic, geographic, and deaths information}{83}{subsection.5.3.3}
-\contentsline {subsection}{\numberline {5.3.4}Unscheduled care measures}{83}{subsection.5.3.4}
-\contentsline {section}{\numberline {5.4}Statistical methods}{83}{section.5.4}
-\contentsline {chapter}{\numberline {6}Results 1}{84}{chapter.6}
-\contentsline {section}{\numberline {6.1}Introduction}{84}{section.6.1}
-\contentsline {section}{\numberline {6.2}Data Linkage}{84}{section.6.2}
-\contentsline {section}{\numberline {6.3}Characteristics of cohort}{84}{section.6.3}
-\contentsline {chapter}{\numberline {7}Results 2}{85}{chapter.7}
-\contentsline {section}{\numberline {7.1}Social care and multimorbidity}{85}{section.7.1}
-\contentsline {section}{\numberline {7.2}Geographic variation in social care}{85}{section.7.2}
-\contentsline {chapter}{\numberline {8}Results 3}{86}{chapter.8}
-\contentsline {section}{\numberline {8.1}Social care, multimorbidity, and unscheduled health care use}{86}{section.8.1}
-\contentsline {chapter}{\numberline {9}Discussion}{87}{chapter.9}
-\contentsline {chapter}{\numberline {10}Conclusion}{88}{chapter.10}
-\contentsline {chapter}{Appendices}{89}{section*.36}
-\contentsline {chapter}{References}{98}{chapter*.40}
+\contentsline {subsection}{\numberline {3.5.4}Ethics}{48}{subsection.3.5.4}
+\contentsline {subsection}{\numberline {3.5.5}Public Benefit and Privacy Panel for Health \& Social Care}{48}{subsection.3.5.5}
+\contentsline {subsection}{\numberline {3.5.6}Data sharing agreement}{48}{subsection.3.5.6}
+\contentsline {section}{\numberline {3.6}Timeline}{48}{section.3.6}
+\contentsline {chapter}{\numberline {4}Renfrewshire Council Exploratory Project}{49}{chapter.4}
+\contentsline {section}{\numberline {4.1}Introduction}{49}{section.4.1}
+\contentsline {section}{\numberline {4.2}Background}{50}{section.4.2}
+\contentsline {subsection}{\numberline {4.2.1}Research Questions}{51}{subsection.4.2.1}
+\contentsline {section}{\numberline {4.3}Methods}{52}{section.4.3}
+\contentsline {subsection}{\numberline {4.3.1}Project approvals and timeline}{52}{subsection.4.3.1}
+\contentsline {subsection}{\numberline {4.3.2}Data}{52}{subsection.4.3.2}
+\contentsline {subsection}{\numberline {4.3.3}Analysis}{53}{subsection.4.3.3}
+\contentsline {section}{\numberline {4.4}Results}{55}{section.4.4}
+\contentsline {subsection}{\numberline {4.4.1}Descriptive statistics}{55}{subsection.4.4.1}
+\contentsline {subsection}{\numberline {4.4.2}Distribution of individuals receiving home care}{58}{subsection.4.4.2}
+\contentsline {subsection}{\numberline {4.4.3}Comparison of individuals with/without any packages in the census}{59}{subsection.4.4.3}
+\contentsline {subsection}{\numberline {4.4.4}Comparison of package intensity for individuals with/without any packages in the census}{61}{subsection.4.4.4}
+\contentsline {subsection}{\numberline {4.4.5}Comparison of package duration for individuals with/without any packages in the census}{69}{subsection.4.4.5}
+\contentsline {subsection}{\numberline {4.4.6}Variation in care packages captured by census}{76}{subsection.4.4.6}
+\contentsline {subsection}{\numberline {4.4.7}Multi-census}{78}{subsection.4.4.7}
+\contentsline {section}{\numberline {4.5}Discussion}{78}{section.4.5}
+\contentsline {subsection}{\numberline {4.5.1}Findings}{78}{subsection.4.5.1}
+\contentsline {subsection}{\numberline {4.5.2}Limitations}{80}{subsection.4.5.2}
+\contentsline {subsection}{\numberline {4.5.3}Implications}{80}{subsection.4.5.3}
+\contentsline {subsection}{\numberline {4.5.4}Future work}{81}{subsection.4.5.4}
+\contentsline {section}{\numberline {4.6}Conclusion}{81}{section.4.6}
+\contentsline {chapter}{\numberline {5}Methods}{83}{chapter.5}
+\contentsline {section}{\numberline {5.1}Cohort}{83}{section.5.1}
+\contentsline {section}{\numberline {5.2}Linkage process}{83}{section.5.2}
+\contentsline {subsection}{\numberline {5.2.1}Social care linkage}{83}{subsection.5.2.1}
+\contentsline {subsection}{\numberline {5.2.2}Linkage to health sources}{83}{subsection.5.2.2}
+\contentsline {section}{\numberline {5.3}Summary measures}{83}{section.5.3}
+\contentsline {subsection}{\numberline {5.3.1}Social Care Survey}{83}{subsection.5.3.1}
+\contentsline {subsection}{\numberline {5.3.2}Prescribing Information Service}{84}{subsection.5.3.2}
+\contentsline {subsection}{\numberline {5.3.3}Demographic, geographic, and deaths information}{84}{subsection.5.3.3}
+\contentsline {subsection}{\numberline {5.3.4}Unscheduled care measures}{84}{subsection.5.3.4}
+\contentsline {section}{\numberline {5.4}Statistical methods}{84}{section.5.4}
+\contentsline {chapter}{\numberline {6}Results 1}{85}{chapter.6}
+\contentsline {section}{\numberline {6.1}Introduction}{85}{section.6.1}
+\contentsline {section}{\numberline {6.2}Data Linkage}{85}{section.6.2}
+\contentsline {section}{\numberline {6.3}Characteristics of cohort}{85}{section.6.3}
+\contentsline {chapter}{\numberline {7}Results 2}{86}{chapter.7}
+\contentsline {section}{\numberline {7.1}Social care and multimorbidity}{86}{section.7.1}
+\contentsline {section}{\numberline {7.2}Geographic variation in social care}{86}{section.7.2}
+\contentsline {chapter}{\numberline {8}Results 3}{87}{chapter.8}
+\contentsline {section}{\numberline {8.1}Social care, multimorbidity, and unscheduled health care use}{87}{section.8.1}
+\contentsline {chapter}{\numberline {9}Discussion}{88}{chapter.9}
+\contentsline {chapter}{\numberline {10}Conclusion}{89}{chapter.10}
+\contentsline {chapter}{Appendices}{90}{section*.36}
+\contentsline {chapter}{References}{106}{chapter*.42}

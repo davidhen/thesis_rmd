@@ -38,7 +38,7 @@ The Scottish Informatics and Linkage Collaboration (SILC) is an umbrella term fo
 
 Funding for this PhD was provided by the Scottish Government and the Economic \& Social Research Council (ESRC). The bid for funding was won by UBDC which is based within the University of Glasgow. UBDC as an organisation is also funded by the ESRC and brings together data scientists and social scientists with research interests relevant to urban living such as; housing, transport, migration, and health [@RN472]. UBDC has six partner universities; Edinburgh, Bristol, Cambridge, Reading, Sheffield, and Illinois-Chicago. 
 
-The linkage project described in this thesis was completed with the assistance of UBDC's controlled data service. This service helps researchers to access personal data that exists in administrative databases [@RN475]. In addition to  a vigorous approval process, access to data is tightly controlled via safe haven IT architecture which monitors use of data and output of analyses to ensure individual anonymity is maintained [@RN475]. UBDC arranges acces to the safe haven environment though liaison with eDRIS, provided by the Information Services Division (ISD) of NHS National Services Scotland (NSS) under the auspices of SILC. 
+The linkage project described in this thesis was completed with the assistance of UBDC's controlled data service. This service helps researchers to access personal data that exists in administrative databases [@RN475]. In addition to  a vigorous approval process, access to data is tightly controlled via safe haven IT architecture which monitors use of data and output of analyses to ensure individual anonymity is maintained [@RN475]. UBDC arranges acces to the safe haven environment though liaison with eDRIS, provided by the Information Services Division (ISD) of NHS National Services Scotland (NSS) under the auspices of SILC. A more detailed description of the safe haven is given in section \ref{subsec:safe-haven}. 
 
 \subsection{electronic Data and Research Innovation Service}\label{subsec:edris}
 
@@ -125,24 +125,34 @@ Information governance for the project was also informed by the "Guiding Princip
 
 \subsection{Safe Haven environment}\label{subsec:safe-haven}
 
-describe safe haven [@RN276] and ISD website
+An integral part of ensuring the security of large, linked administrative data is by holding such data in a safe haven environment. As described in section \ref{subsec:ubdc}, access to data for this thesis was administered via UBDC's controlled data service and further liaison with eDRIS to enable use of the NSS National safe haven. All data shared for the purposes of the thesis was transferred by data controllers to the safe haven by secure file transfer protocol. 
 
+Remote access via Virtual Private Network (VPN) connection was arranged to allow access to the study data in the safe haven. This environment does not enable external access of any kind i.e internet or saving & printing facilities [@RN529]. In order to retrieve output of analyses, work was submitted for statistical disclosure control which was conducted by eDRIS employees. This process ensures that data taken out of the safe haven cannot be used, either on its own or by being combined with other data, to breach the privacy of any individual [@RN529]. A full guide to statistical disclosure control is provided by Lowthian & Ritchie [-@RN530]. 
 
 \subsection{Research Approvals Commitee}\label{subsec:rac}
 
-UBDC RAC process
+In order to utilise UBDC's controlled data service, the data required for analyses in chapter \ref{ch:renfrew} and the main linkage project required separate approval from the UBDC Research Approvals Committee (RAC). A full list of RAC members is available online [@RN475].  This committee is independent of UBDC and approves use of funds and infrastructure in UBDC and includes a lay member of the public [@RN475]. An application to use the controlled data service is judged on its academic merit, public benefit, skill of research team, and alignment with UBDC aims before being approved [@RN531]. 
 
-\subsection{Public Benefit and Privacy Panel}\label{subsec:pbpp}
-
-PBPP Process
+The approval for analysis in chapter \ref{ch:renfrew} is available in Appendix A, whilst the approval for the main linkage project is shown in Appendix C.
 
 \subsection{Ethics}\label{subsec:ethics}
 
-College ethics and waivers
+Ethical approval for all data analysis was sought and gained from the University of Glasgow College of Social Sciences Research Ethics Committee (CoSS REC). A blanket ethical approval, obtained by eDRIS from the NHS East of Scotland REC, covers research that uses NHS Health data, does not involve direct contact with data subjects, has peer-review approval, stores data in the national safe haven, and is conducted by research teams based in the UK [@RN538]. The main linkage project therefore required further approval from CoSS REC to cover the non-health related data (i.e. the Social Care Survey). 
+
+The CoSS REC approval letter for the analysis covered in chapter \ref{ch:renfrew} is shown in appendix B whilst the approval later for the main linkage project is shown in appendix E. 
+
+\subsection{Public Benefit and Privacy Panel for Health \& Social Care}\label{subsec:pbpp}
+
+In addition to RAC and College ethical approval, the main thesis project also required clearance from the Public Benefit and Privacy Panel for Health \& Social Care (PBPP). This was beacuse data from NHS sources were being used.  The data for analysis in chapter \ref{ch:renfrew} did not involve any linkage to any NHS data and therefore RAC and ethical approval were sufficient for progress. 
+
+The PBPP acts as a decision making body with delegated responsibility from NHS Scotland Chief Executive Officers and the Registrar General [@RN532]. Using terms of reference and guiding principles, the panel adjudicates whether research projects using administrative data generated by the NHS in Scotland can be used for research purposes. 
+
+The approval letter for the main thesis project is shown in Appendix D
+
 
 \subsection{Data sharing agreement}\label{subsec:dsa}
 
-DSA description
+DSA description - UBDC conrolled data doc. 
 
 \section{Timeline}\label{sec:timeline}
 

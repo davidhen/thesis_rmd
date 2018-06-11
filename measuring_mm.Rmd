@@ -62,7 +62,7 @@ All statistical analysis was completed using R version 3.3.3 [@RN295]. Two-way c
 
 \begin{figure}
   \centering
-    \includegraphics[width=0.9\textwidth]{figures/sd-corrplot.png}
+    \includegraphics[width=0.9\textwidth]{figures/chapter-lca/sd-corrplot.png}
   \caption{Significant Pairwise Correlations}
   \label{fig:corrplot}
 \end{figure}
@@ -161,7 +161,7 @@ Item-response probabilities for the nine-group model are shown in Figure \ref{fi
 
 \begin{figure}
   \centering
-    \includegraphics[width=0.9\textwidth]{figures/item-response.png}
+    \includegraphics[width=0.9\textwidth]{figures/chapter-lca/item-response.png}
   \caption{Item response probabilities for nine latent group model}
   \label{fig:item-response}
 \end{figure}
@@ -182,7 +182,7 @@ Proportionate size of each of the assigned latent variable groups is shown in Fi
 
 \begin{figure}
   \centering
-    \includegraphics[width=0.9\textwidth]{figures/props.png}
+    \includegraphics[width=0.9\textwidth]{figures/chapter-lca/props.png}
   \caption{Latent Group Proportions}
   \label{fig:group-props}
 \end{figure}
@@ -195,7 +195,7 @@ Each of the Histograms of Age for each of the latent groups shown in Figure \ref
 
 \begin{figure}
   \centering
-    \includegraphics[width=0.9\textwidth]{figures/lg-by-age.png}
+    \includegraphics[width=0.9\textwidth]{figures/chapter-lca/lg-by-age.png}
   \caption{Histograms of Age, by Latent Group}
   \label{fig:lg-by-age}
 \end{figure}
@@ -205,7 +205,7 @@ Figure \ref{fig:lg-by-sex} shows higher proportions of males in the "Physical MM
 
 \begin{figure}
   \centering
-    \includegraphics[width=0.9\textwidth]{figures/lg-by-sex.png}
+    \includegraphics[width=0.9\textwidth]{figures/chapter-lca/lg-by-sex.png}
   \caption{Count of Sec, by Latent Group - with Proportions}
   \label{fig:lg-by-sex}
 \end{figure}
@@ -214,7 +214,7 @@ Figure \ref{fig:lg-by-dep} shows distribution of deprivation across latent group
 
 \begin{figure}
   \centering
-    \includegraphics[width=0.9\textwidth]{figures/lg-by-dep.png}
+    \includegraphics[width=0.9\textwidth]{figures/chapter-lca/lg-by-dep.png}
   \caption{Count of Carstairs Decile, by Latent Group}
   \label{fig:lg-by-dep}
 \end{figure}
