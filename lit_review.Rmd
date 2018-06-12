@@ -16,7 +16,6 @@ Section \ref{sec:mm} describes why multimorbidity is important in the context of
 
 \textbf{Add in paragraph or two outlining literature search strategy}
 
-
 \section{Access to Social Care}\label{sec:access-sc}
 
 \textbf{Add intro paragraph}
@@ -299,7 +298,6 @@ Cuts to services reduce the potential for access to such services. If these cuts
 
 \subsection{Health inequalities}\label{subsec:health-inequals}
 
-
 In the UK, poverty remains the largest predictor of relative ill health and has associations with increased morbidity, multimorbidity, and decreased life expectancy [@RN37]. People living in deprived areas are more likely to engage in unhealthy lifestyle behaviours, experience multimorbidity at a younger age, and live in overcrowded or unsuitable housing [@RN37; @RN311]. 
 
 The influential Marmot review into health inequalities found that those in the most deprived areas of England die, on average, seven years earlier than their most affluent peers [@RN312] with the gap in life expectancy increasing between 1995 and 2008 [@RN313]. Subsequent research by the King’s Fund suggests the gap in life expectancy reduced between the periods 1999-2003 and 2006-2010 [@RN314]. The report warns that this improvement may be due to the spending and policy decisions of the New Labour Government of the early 2000s and that recent austerity measures in the UK may undermine the progress made [@RN314]. Indeed, the most recent analysis released by the Office for National Statistics [-@RN375] suggests the gap in male life expectancy in England is now 9.1 years. In Northern Ireland, the male life expectancy gap is the lowest of all four UK nations, however those in the poorest neighbourhoods die, on average, four years earlier than those in the most affluent areas [@RN375]. In Wales the gap is slightly larger at 4.2 years [@RN375]. There is a gap of seven years in life expectancy at birth in Scottish males - those born in East Dunbartonshire can expect to live to 80.5 years, whereas those in Glasgow City can expect to live 73.4 years [@RN375]. 
@@ -328,6 +326,8 @@ Allocation of resources for social care in Scotland are decided by local authori
 Social theories regarding allocation of resources for public service suggest those with higher socioeconomic position are more likely to benefit from public spending than their less affluent peers. Empirical analysis of;  "The strategy of equality", "The inverse care law", and "middle class capture" all suggest more affluent groups are better at accessing public services. 
 
 There have been significant cuts to local authority budgets across the UK since 2008. Savings have been made whilst trying to protect front-line services but current and future cuts are likely to impact these services. Most local authority spending is on services used by those from lower socioeconomic positions thus cuts will disproportionately affect these people. Little is known about how access to social care differs across socioeconomic and geographic strata. In an age of austerity, the question of whether an inverse \textit{social} care law exists remains unanswered. 
+
+
 
 \section{Health and Social Care Interaction}\label{sec:hsc-interaction}
 
@@ -436,7 +436,8 @@ It would seem intuitive that a large proportion of those receiving social care h
 Levels of multimorbidity in the Scottish population follow a stark socioeconomic profile with those of lower socioeconomic position having higher levels of multiple conditions and more complex care needs which develop 10-15 years earlier than their more affluent peers [@RN33; @RN21]. This inequality in outcome is compounded by the fact that primary care provision in areas of higher socioeconomic disadvantage, ergo areas of higher need, receive the same or less funding as other more affluent areas. This inequity in provision of service demonstrates existence of the inverse care law in primary care services [@RN120; @RN39; @RN148] and has already been discussed in section \ref{subsubsec:theory-resources}. 
 
 It is too early to say if health and social care integration result in better or worse outcomes for people with multimorbidity. However, in order to make that assessment, a fuller understanding of the term "multimorbidity" is required. The rest of this section outlines the academic literature regarding concepts of multimorbidity, how it is defined, how it is measured, and finally epidemiological research.   
-
+ 
+ 
 \subsection{Definitions}\label{subsec:mm-defs}
 
 Despite the increasing importance of multimorbidity on health care systems, there has been some debate internationally in finding an agreed definition of the term or concept [@RN89; @RN95]. Van den Akker et al [-@RN19] first made the distinction between the terms comorbidity and multimorbidity. Comorbidity was originally described by Fenstein [@RN338, pp.467] who stated, "In a patient with a particular index disease, the term co-morbidity refers to any additional co-existing ailment." Van Den Akker et al. [-@RN19, pp.65] used the term multimorbidity to describe, "...any co-occurrence of medical conditions within a person." In this sense, multimorbidity does not rely on the presence of a primary, or index, disease but refers to the overall state of multiple illnesses.  
@@ -492,6 +493,7 @@ In an attempt to standardise conditions to be considered using international dis
 Multimorbidity is most commonly defined as the presence (or co-occurrence) of two or more long-term conditions in an individual. Debate continues as to the type and number of long-term conditions that should be included to provide a meaningful concept for individuals, clinicians and healthcare organisations. The lack of a standard definition is mirrored in the myriad ways of measuring multimorbidity with various counts, indices, and clusters. Despite this, evidence suggests multimorbidity is increasing in prevalence and has a strong socioeconomic pattern. As a result, policy needs to be tailored to account for the complex needs of the increasing numbers of people with multimorbidity.
 
 \textbf{Need to pull multimorbidity together with social care. MM high health care costs and also has an impact on socal care use - see feedback notes. ALSO use NICE guideline on social care for people with MM}
+
 
 \section{Conclusion}\label{sec:lit-review-conclusion}
 

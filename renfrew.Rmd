@@ -98,12 +98,14 @@ Additional variables indicating whether home care packages were "live" at three,
 
 All data cleaning and analysis was conducted using the R language and environment for statistical computing version 3.4.0 [@RN295] with additional software packages: \texttt{dplyr} v0.7.4 [@RN283], \texttt{tidyr} v0.7.2. [@RN524], \texttt{forcats} v0.2.0 [@RN521], \texttt{purrr} v0.2.4 [@RN523], \texttt{lubridate} v1.6.0. [@RN522], \texttt{tibbletime} v0.0.2 [@RN356], \texttt{magrittr} v1.5 [@RN526], \texttt{broom} v0.4.2 [@RN520], \texttt{ggplot2} v2.2.1 [@RN525], and \texttt{ggthemes} v3.5.0 [@RN527] via the Integrated Development Environment RStudio v1.0.143 [@RN498]. Data was held securely in the safe haven environment described in section \ref{subsec:safe-haven} 
 
-
+ 
+ 
 \FloatBarrier
 
 \section{Results}\label{sec:renf-results}
 
 \subsection{Descriptive statistics}\label{subsec:renf-descriptives}
+
 
 After data cleaning, information on 41,002 packages of home care received by 10,130 individuals during the period 2006 to 2016 were included in the analysis. The number of records retained at each stage of the cleaning process is shown in table \ref{tab:renf-cleaning}. Of these packages, 28,775 described actual packages of care. The remainder described place holders for each individual where they were not receiving care, either because of a break in care or because care provision had ended altogether. These 12,227 records showed a value of zero for the total hours of homecare received and in the case of care provision having ended, showed an end date of 28th March 2016.
 
@@ -199,6 +201,7 @@ Figure \ref{fig:renf-hrs} and table \ref{tab:renf-ts-summary} also indicate that
 }
 \end{table}
 
+ 
 
 \FloatBarrier
 \subsection{Comparison of individuals with/without any packages in the census}\label{subsec:renf-pack-diff}
@@ -651,7 +654,8 @@ The remaining individuals see larger negative values for the net difference in t
 Table \ref{tab:renf-multi-census} shows the percentage of the total number of individuals receiving home care in each financial year that would be captured if six-monthly, four monthly, or three-monthly census had been conducted and the increases these would signify. A bi-annual census would have captured an average of 72.5% of individuals that received home care during the study period - an average increase of 13.5% from the census. Tri-annual census collection would have captured an average 79.9% of individuals (average increase of 20.9%) whilst a quarterly census collection would have captured an average 83.2% of individuals (average increase of 24.2%). 
 
 The largest increases are seen in the years where the number of individuals captured by a single census are relatively low compared to other years, in particular 2010/11, 2013/14, and 2015/16. 
-
+ 
+ 
 \section{Discussion}\label{sec:renf-discuss}
 
 \subsection{Findings}\label{subsec:renf-discuss-find}
@@ -678,7 +682,6 @@ This analysis is limited by the fact that data was obtained from only one local 
 
 Furthermore, the method of summarising data into packages of care is subjective and may differ from the method used by Renfrewshire council to complete the SCS. Absolute numbers of individuals receiving home care in each financial year in this analysis are similar to those returned by Renfrewshire council to the SCS overall with some mild discrepancy in later years. Eligibility to be included in the home care census has changed over the years (e.g. "Housing Support" being included as home care and then collected as a separate type of service in later years) and the collection of individual-level data did not begin until 2010/11. Whether this has changed how data is collated at the local level for return to SCS is unknown but may explain differences in counts. 
 
-
 \subsection{Implications}\label{subsec:renf-discuss-imp}
 
 The analysis in this chapter suggests the SCS provides a good cross-sectional sample of individuals receiving home care in any given financial year. The proportion of this sample appears to be decreasing in more recent years but still accounts for at least half of all individuals receiving care. 
@@ -695,7 +698,8 @@ Future work using this data should consider the difference in individuals receiv
 The data from Renfrewshire council also offers the opportunity to longitudinally analyse home care use by age, gender, and type of home care groups.  Quantifying any differences in the change over time in the amount of home care used would be of interest to both researchers and local authority providers. 
 
 Each individual in the dataset has data with multiple values of Scottish Index of Multiple Deprivation (SIMD) for different time periods. Future analysis should include this variable with the correct SIMD score added to the time series at the appropriate time period. Accounting for socioeconomic position in all analyses would provide a richer picture of service allocation. Time constraints prevented such analysis in this chapter. 
-
+ 
+ 
 \section{Conclusion}\label{sec:renf-conc}
 
 Analysis of individual level social care data from Renfrewshire council area suggests that the number of people recorded as receiving home care by the Social Care Survey captures between 52% and 62% of the total number of people that will receive home care during a financial year. Those not captured during a census week are individuals receiving short-term care only. The value of total weekly hours of home care recorded during the census week, whilst an accurate cross-sectional figure, is not an accurate representation of care receipt over the whole financial year for a small proportion of individuals. Collection of additional data, such as start and stop dates for all packages of care and type of home care delivered, would improve the inferences that can be made from the SCS currently.  
