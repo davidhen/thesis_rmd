@@ -6,9 +6,7 @@ output: pdf_document
 
 \section{Introduction}\label{sec:data-intro}
 
-Intro to data linkage
-IG inc infrastructure, approvals, processing, DSAs, and safe haven.
-Data Sources descrip
+This chapter outlines the process of obtaining administrative data suitable to answer the thesis research questions. A brief description of data linkage research and the associated advantages and disadvantages of this approach are first discussed. The following section provides a detailed description of the strict information governance protocols required including: the infrastucture used, the approvals process, and the legal framework enabling the research to take place. Finally, a description of the data sources used in the research is provided.  
 
 \section{Data Linkage}\label{sec:data-linkage}
 
@@ -28,9 +26,9 @@ Scotland is home to some of the best administrative databases in the world [@RN8
 
 \subsection{Introduction}\label{subsec:ig-intro}
 
-Confidentiality of data subjects is an important consideration in any data linkage project. The benefits of administrative data linkage outlined in section \ref{sec:-data-linkage} are dependent on research being conducted in a legally and ethically competent fashion. Whilst full anonymisation would be an effective way to protect data subjects confidentiality, it is almost impossible to achieve this with individual-level data suitable for research purposes [@RN489]. 
+Confidentiality of data subjects is an important consideration in any data linkage project. The benefits of administrative data linkage, outlined in section \ref{sec:data-linkage}, are dependent on research being conducted in a legally and ethically competent fashion. Whilst full anonymisation would be an effective way to protect data subjects confidentiality, it is almost impossible to achieve this with individual-level data suitable for research purposes [@RN489]. 
 
-As an alternative, a process involving robust approvals review, researcher training with associated responsibilites and sanctions, and safe haven settings are used to preserve data subject confidentiality [@RN489].  This section outlines how this process was applied for the purposes of the data linkage completed in this thesis. Firstly, the various organisations that provide the infrastructure that enabled the data linkage to take place a briefly described. An overview of the various approvals and ethical panels is then provided, followed by the legal framework which enabled data processing to take place with a brief description of how confidentiality is maintained during the linkage process. 
+As an alternative, a process involving robust approvals review, researcher training with associated responsibilites and sanctions, and safe haven settings are used to preserve data subject confidentiality [@RN489].  This section outlines how this process was applied for the purposes of the data linkage completed in this thesis. Firstly, the various organisations that provide the infrastructure that enabled the data linkage to take place are briefly described. An overview of the various approvals and ethical panels is then provided, followed by the legal framework which enabled data processing to take place with a brief description of how confidentiality is maintained during the linkage process. 
 
 \subsection{Infrastructure}\label{subsec:infrastructure}
 
@@ -48,17 +46,18 @@ The linkage project described in this thesis was completed with the assistance o
 
 \subsubsection{electronic Data and Research Innovation Service}\label{subsec:edris}
 
-ISD is a subdivision of NHS NSS [@RN324]. NSS is a national NHS board in its own right and works with the other NHS boards, particularly the 14 geographic health boards, to provide centralised services such as; procurement, legal support, IT, and public health intelligence [@RN473]. As a division of NSS, ISD provides, among other things, support for the latter two of these services [@RN324]. This includes administering the large number of databases containing information on health service use in Scotland varying from maternity & births, to cancer sevices, and unscheduled health care [@RN324].
+ISD is a subdivision of NHS NSS [@RN324]. NSS is a national NHS board in its own right and works with the other NHS boards, particularly the 14 geographic health boards, to provide centralised services such as; procurement, legal support, IT, and public health intelligence [@RN473]. As a division of NSS, ISD provides, among other things, support for the latter two of these services [@RN324]. This includes administering the large number of databases containing information on health service use in Scotland varying from maternity & births, to cancer sevices [@RN324]. ISD held databases used in this thesis, the Precribing Information System and Urgent Care Data Mart, are described more fully in sections \ref{subsec:source-pis} and \ref{subsec:source-ucd}.
 
 eDRIS is part of ISD and provides services under SILC [@RN481]. It is detailed specifically with assisting research using health administrative datasets. Researchers using the eDRIS service have a named research assistant who provides advice on; data sources, study design, the information governance approvals system, access to the safe haven environoment, and review of analysis outputs to ensure disclosive information cannot be inferred [@RN324]. 
 
+
 \subsubsection{National Records of Scotland}\label{subsec:nrs}
 
-NRS collects and maintains information about the people of Scotland including births, deaths, and marriages [@RN477]. In addition to producing annual reports and population estimates, NRS provides the indexing service under SILC which enables anonymous linking of administrative databases as a TTP. 
+NRS collects and maintains information about the people of Scotland including births, deaths, and marriages [@RN477]. In addition to producing annual reports and population estimates, NRS provides the indexing service under SILC which enables anonymous linking of administrative databases as a Trusted Third Party. This is made possible using the NHS Central Register (NHSCR) which is held by NRS [@RN541] and described more fully in section \ref{subsec-source-nhscr} .
 
 \subsubsection{Health and Social Care Analysis}\label{subsec:asd}
 
-Health and Social Care Analysis (HSCA) is a division within the Socttish Government that provides statistic, economic, and research evidence to inform policy making in this area [@RN476]. It is one of many Analytical Service Divisions (ASD) that provide analytical support, advice, and briefing to the Government. HSCA creates reports and publications in a number of key areas including; social care, care homes, and mental health and is responsible for collecting and publishing the Social Care Survey (SCS) described in section \ref{sec:sources}
+Health and Social Care Analysis (HSCA) is a division within the Socttish Government that provides statistic, economic, and research evidence to inform policy making in this area [@RN476]. It is one of many Analytical Service Divisions (ASD) that provide analytical support, advice, and briefing to the Government. HSCA creates reports and publications in a number of key areas including; social care, care homes, and mental health and is responsible for collecting and publishing the Social Care Survey (SCS) described in section \ref{subsec:source-sc}.
 
 \subsection{Approvals}\label{subsec:data-approvals}
 
@@ -66,7 +65,7 @@ As described in section \ref{subsec:ig-intro}, one of the ways in which data sub
 
 \subsubsection{Research Approvals Commitee}\label{subsec:rac}
 
-Data linkage for the project was facilitated by UBDC's controlled data service. In order to utilise this service, the data required for analyses required approval from the UBDC Research Approvals Committee (RAC). A full list of RAC members is available online [@RN475].  This committee is independent of UBDC and approves use of funds and infrastructure in UBDC and includes a lay member of the public [@RN475]. An application to use the controlled data service is judged on its academic merit, public benefit, skill of research team, and alignment with UBDC aims before being approved [@RN531]. 
+Data linkage for the project was facilitated by UBDC's controlled data service. In order to utilise this service, the research proposal required approval from the UBDC Research Approvals Committee (RAC). A full list of RAC members is available online [@RN475].  This committee is independent of UBDC and approves use of funds and infrastructure in UBDC and includes a lay member of the public [@RN475]. An application to use the controlled data service is judged on its academic merit, public benefit, skill of research team, and alignment with UBDC aims before being approved [@RN531]. 
 
 The approval for the main linkage project is shown in Appendix C.
 
@@ -78,7 +77,7 @@ The CoSS REC approval letter for the main linkage project is shown in appendix E
 
 \subsubsection{Public Benefit and Privacy Panel for Health \& Social Care}\label{subsec:pbpp}
 
-In addition to RAC and College ethical approval, the main thesis project also required clearance from the Public Benefit and Privacy Panel for Health & Social Care (PBPP). This was beacuse data from NHS sources were being used. The PBPP acts as a decision making body with delegated responsibility from NHS Scotland Chief Executive Officers and the Registrar General [@RN532]. Using terms of reference and guiding principles, the panel adjudicates whether research projects using administrative data generated by the NHS in Scotland can be used for research purposes. The panel ensures that the basis for disclosing data has a clear public benefit and ensures the legal basis for accessing and processing the data is sound. 
+In addition to RAC and College ethical approval, the main thesis project also required clearance from the Public Benefit and Privacy Panel for Health & Social Care (PBPP). This was beacuse data from NHS sources were being used. The PBPP acts as a decision making body with delegated responsibility from NHS Scotland Chief Executive Officers and the Registrar General [@RN532]. Using terms of reference and guiding principles, the panel adjudicates whether research projects using administrative data generated by the NHS in Scotland can be used for research purposes. The panel ensures that the basis for disclosing data has a clear public benefit and ensures the legal frameworkfor accessing and processing data is sound. 
 
 The approval letter for the main thesis project is shown in Appendix D, a fuller description data processing and the legal basis for this is presented in section \ref{subsec:dat-process}.
 
@@ -102,7 +101,7 @@ Data sharing and processing can be completed without consent of data subjects as
 \item a health professional, or 
 \item a person who in the circumstances owes a duty of confidentiality which is equivalent to that which would arise if that person were a health professional.
 \end{enumerate}
-\item In this paragraph “medical purposes” includes the purposes of preventative medicine, medical diagnosis, \emph{medical research}, the provision of care and treatment and the management of healthcare services
+\item In this paragraph “medical purposes” includes the purposes of preventative medicine, medical diagnosis, \emph{medical research}, the provision of care and treatment \emph{and the management of healthcare services}
 \end{enumerate}\end{quotation}
 
 \item Paragraph 9 of the Data Protection (Processing of Personal Data Order 2000(SI 2000 No.417)).
@@ -128,13 +127,12 @@ Information governance for the project was also informed by the "Guiding Princip
 
 In order to preserve anonymity whilst linking administrative data from different agencies, a method known as "linkage using a separation of functions" is employed [@RN279; @RN85]. This process involves the use of a Trusted Third Party (TTP) to process non-anonymised information in order to link more than one dataset together. The TTP receives personal information (e.g. names, addresses and dates-of-birth) from the data controllers of the adminstrative datasets to be used and creates index "keys" to send back to the data controllers to attach to their data [@RN279; @RN85]. The TTP creates a lookup table of index "keys" relevant to each dataset and sends these to a linkage agent. The linkage agent receives data from the data controllers \textit{without} personal information and links them together using the "keys" created by the TTP and makes this available to a researcher in a secure envirnonment [@RN279; @RN85]. This process means the TTP receives lots of personal information but no other information, the researcher has access to information relevant to their study but no personal information, and the data controllers share information about individuals in their datasets without compromising anonymity and without seeing data from each others databases [@RN479].
 
-\subsubsection{Safe Haven environment}\label{subsec:safe-haven}
 
+\subsubsection{Safe Haven environment}\label{subsec:safe-haven}
 
 Another integral part of ensuring the confidentiality of data subjects within large, linked administrative data is by holding such data in a safe haven environment [@RN489]. As described in section \ref{subsec:ubdc}, access to data for this thesis was administered via UBDC's controlled data service and further liaison with eDRIS to enable use of the NSS National safe haven. All data shared for the purposes of the thesis was transferred by data controllers to the safe haven by secure file transfer protocol. 
 
 The safe haven enables secure data storage and access via a Virtual Private Network (VPN) connection with strict access control. This environment does not enable external access of any kind i.e internet or saving & printing facilities [@RN529]. In order to retrieve output of analyses, work was submitted for statistical disclosure control which was conducted by eDRIS employees. This process ensures that data taken out of the safe haven cannot be used, either on its own or by being combined with other data, to breach the privacy of any individual [@RN529; @RN489]. A full guide to statistical disclosure control is provided by Lowthian & Ritchie [-@RN530]. 
-
 
 \subsubsection{Data sharing agreement}\label{subsec:dsa}
 
@@ -145,8 +143,6 @@ For the purposes of the main linkage project, a three-way data sharing agreement
 \subsection{Introduction}\label{subsec:data-sources-intro}
 
 Research conducted with administrative data requires a thorough description of databases used [@RN480]. This should include a description of the purpose of the data collection and the methods employed to collect data. This enables appraisal of any  potential biases that may exist within the databases [@RN352; @RN480]. There are 4 main sources of data used in the main analyses of this thesis: the Social Care Survey, the Scottish population spine and death records, the Prescribing Information System, and the Unscheduled Care Data Mart. Each of these are described in more detail below. 
-
-Why collected? How collected? Data Quality checks?
 
 \subsection{Social Care Survey}\label{subsec:source-sc}
 
@@ -164,21 +160,21 @@ For the value of total weekly hours of home care, HSCA request details on schedu
 
 The cross-sectional nature of the survey, and in particular the census week variables, mean that the SCS only collects a sample of the entire population that receive social care in Scotland in any given financial year. It is unknown how large this sample is. It is also impossible to infer whether the values of total weekly hours of home care delivered to individuals is representative of the care they receive throughout the financial year. In order to gain a better understanding of these issues, an exploratory project, using a richer data set, was conducted as part of this thesis and is reported in chapter \ref{ch:renfrew}. 
 
-\subsection{Population Spine and Death records}
+\subsection{NHS Central Register and Death records}\label{subsec:source-nhscr}
 
-**Need to add in source from NRS webpage**
+The ‘Research population spine’ is a copy of the National Health Service Central Register (NHSCR) and is controlled by NRS [@RN541]. The spine contains over 9 million records and is updated quarterly. There are very strict policies which govern access to the offline secure server where the spine is stored. 
 
-The ‘Research population spine’ is a copy of the National Health Service Central Register (NHSCR) and is controlled by NRS. The spine contains over 9 million records and is updated quarterly. There are very strict policies which govern access to the offline secure server where the spine is stored. 
+The NHSCR is used operationally for the purpose of transferring GP records [@RN541].  Despite the name and the fact it is used for transferring patients records, the population spine does not hold medical records themselves. It contains records of anyone who was born in Scotland, who registers with a GP in Scotland, or who dies in Scotland. Variables included are: forename, middle name, surname, date of birth, gender, postcode, and country of birth. 
 
-The NHSCR is used operationally for the purpose of transferring GP records.  Despite the name and the fact it is used for transferring patients records, the population spine does not hold medical records themselves. It contains records of anyone who was born in Scotland, who registers with a GP in Scotland, or who dies in Scotland. Variables included are: forename, middle name, surname, date of birth, gender, postcode, and country of birth. 
+This resource is extremely useful for adminstrative data linkage projects. Data sources that don't contain a CHI number (such as the SCS) can be matched to the population spine using determinisitc and probabilistic methods (see section \ref{sec:data-linkage}). This then allows linkage to CHI-based data sources enabling cross-sectoral projects, such as the main analyses in this thesis, to be possible.
 
-This resource is extremely useful for adminstrative data linkage projects. Data sources that don't contain a CHI number (such as the SCS) can be matched to the population spine using determinisitc and probabilistic methods (see section \ref{sec:data-linkage}). This then allows linkage to CHI-based data sources enabling cross-sectoral projects, such as the main analyses in this thesis, to be possible. 
+NRS also collates the register of deaths which includes details of every death in Scotland since 1855 [@RN542]. Details on the date of death were requested for all indiviudals in the thesis study cohort. 
 
-\subsection{Prescribing Information System}
+\subsection{Prescribing Information System}\label{subsec:source-pis}
 
 The Prescribing information system (PIS) contains all community prescribed medicines for every individual in Scotland from 2009 onwards. Data is collected to provide payment to community pharmacies for the medicines dispenced to the population. The data base can be linked to health sources via the Community Health Index (CHI) number. A full description of the PIS database and its applicability to research has been published by Alvarez-Madrazo et al [-@RN236]. 
 
-\subsection{Urgent Care Data}
+\subsection{Urgent Care Data}\label{subsec:source-ucd}
 
 The Urgent Care Data Mart (UCD) is a database collated by ISD for the purpose of understanding a patient journey through emergency and urgent care services [@RN528]. It is a linkage of routine health data from a number of sources controlled by ISD: NHS24 telephone triage service, Scottish Ambulance Service (SAS), primary care out-of-hours services (PC OOH), Accident & Emergency (A & E), acute emergency inpatient admissions (both general and mental health), and deaths. Data is available from 2011 with the exception of PC OOH data which is available from 2014. CHI numbers are available on all records. 
 
@@ -187,6 +183,10 @@ Continous Urgent Care Pathways (CUPs) are calculated that join together records 
 
 \section{Timeline}\label{sec:timeline}
 
-Describe timeline of approvals process - major hurdles and barriers.
+Describe timeline of approvals process - major hurdles and barriers. **Maybe in methods??**
+
+\section{Conclusion}\label{sec:data-conclusion}
+
+Brief summary of chapter here
 
 

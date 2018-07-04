@@ -3,6 +3,7 @@ output:
   pdf_document:
     fig_caption: yes
     number_sections: yes
+    latex_engine: xelatex
 documentclass: report
 classoption: a4paper,oneside
 bibliography: thesis.bib
@@ -29,6 +30,8 @@ header-includes:
 - \usepackage[flushleft]{threeparttable} #table footer
 - \usepackage{hyperref} #cross-refs and hyperlinks
 - \usepackage[toc,page]{appendix} #appendix in toc
+#- \usepackage{fontspec} #to specify downloaded open fonts
+#- \setmainfont{Junicode} also needs xelatex engine
 - \usepackage{acronym}
 - \usepackage[utf8]{inputenc} 
 - \onehalfspacing

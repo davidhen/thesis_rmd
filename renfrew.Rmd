@@ -106,6 +106,7 @@ All data cleaning and analysis was conducted using the R language and environmen
 
 \subsection{Descriptive statistics}\label{subsec:renf-descriptives}
 
+**re-write this paragraph describing the time series in a better fashion - also re-check the numbers I don;t think these take account of reinclusion of mental health etc. packages**
 
 After data cleaning, information on 41,002 packages of home care received by 10,130 individuals during the period 2006 to 2016 were included in the analysis. The number of records retained at each stage of the cleaning process is shown in table \ref{tab:renf-cleaning}. Of these packages, 28,775 described actual packages of care. The remainder described place holders for each individual where they were not receiving care, either because of a break in care or because care provision had ended altogether. These 12,227 records showed a value of zero for the total hours of homecare received and in the case of care provision having ended, showed an end date of 28th March 2016.
 
@@ -681,6 +682,8 @@ Adding an additional 1, 2, or 3 census weeks in each financial year to the data 
 This analysis is limited by the fact that data was obtained from only one local authority area. It is impossible to know if the number of individuals captured or not by the SCS in the Renfrewshire area is indicative of numbers across the country. Given each of the 32 local authorities in Scotland have bespoke methods of delivering and recording social care the findings from this analysis can not be generalised to a national level. However, given the difficulties in obtaining data of this kind, the analysis gives some indication to stakeholders of the validity of the SCS.
 
 Furthermore, the method of summarising data into packages of care is subjective and may differ from the method used by Renfrewshire council to complete the SCS. Absolute numbers of individuals receiving home care in each financial year in this analysis are similar to those returned by Renfrewshire council to the SCS overall with some mild discrepancy in later years. Eligibility to be included in the home care census has changed over the years (e.g. "Housing Support" being included as home care and then collected as a separate type of service in later years) and the collection of individual-level data did not begin until 2010/11. Whether this has changed how data is collated at the local level for return to SCS is unknown but may explain differences in counts. 
+
+**Did not account for SEP**
 
 \subsection{Implications}\label{subsec:renf-discuss-imp}
 
