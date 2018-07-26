@@ -1,0 +1,35 @@
+---
+title: "Untitled"
+author: "David Henderson"
+date: "8 July 2018"
+output: html_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+## Convert bibtex file to tibble
+
+```{r convert}
+library(bib2df)
+
+bib <- bib2df("/Users/hedgi/OneDrive - University of Glasgow/GitHub/thesis_rmd/thesis.bib")
+bib
+```
+
+
+```{r plot}
+library(tidyverse)
+```
+
+
+```{r plot_2, fig.width=10}
+bib %>% 
+  ggplot(aes(TYPE)) +
+  geom_bar()
+```
+
+
+
+

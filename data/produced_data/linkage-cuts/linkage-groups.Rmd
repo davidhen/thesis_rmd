@@ -1,0 +1,52 @@
+---
+title: "Linkage groups"
+author: "David Henderson"
+date: "4 July 2018"
+output: 
+  html_document:
+    df_print: paged
+    theme: spacelab
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+#Intro
+
+Create groups of LAs depending on their match rates
+
+##packages
+
+```{r Packages, message=FALSE}
+library(tidyverse)
+library(magrittr)
+library(readxl)
+```
+
+##data
+
+```{r data}
+match_rates <- read_xlsx("/Users/hedgi/OneDrive - University of Glasgow/GitHub/thesis_rmd/data/assets/20170627 Linkage Report - xl.xlsx", 
+                          sheet = 5) %>% 
+  select(c(2, 10))
+
+match_rates$X__8[4] <- match_rates$X__8[3]
+
+match_rates %<>%
+  slice(4:35) %>% 
+  rename(council = "X__2",
+         match_rate = "X__8") %>% 
+  mutate(group = case_when(
+    match_rate >= 76 & match_rate <= 79.99 ~ 1,
+    match_rate >= 80 & match_rate <= 83.99 ~ 2,
+    match_rate >= 84 & match_rate <= 87.99 ~ 3,
+    match_rate >= 88 & match_rate <= 91.99 ~ 4,
+    match_rate >= 92 & match_rate <= 95.99 ~ 5,
+    match_rate >= 96 & match_rate <= 99.99 ~ 6
+  ))
+match_rates$group <- factor(match_rates$group)
+match_rates %>% 
+  filter(group == 6)
+```
+
