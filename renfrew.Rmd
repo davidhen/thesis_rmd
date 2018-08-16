@@ -1,7 +1,5 @@
 ---
-output: 
-  pdf_document:
-    dev: png
+output: pdf_document
 bibliography: thesis.bib
 ---
 
