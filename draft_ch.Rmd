@@ -53,7 +53,7 @@ knitr::opts_chunk$set(fig.path = 'figures/', echo = FALSE,
 \FloatBarrier
 \newpage
 
-```{r child = 'measuring_mm.Rmd'}
+```{r child = 'data.Rmd'}
 ```
 
 #References
