@@ -1,8 +1,0 @@
----
-output: pdf_document
----
-
-Again maybe play about with centering and layout. 
-
-
-How about a nice quotation at the end???

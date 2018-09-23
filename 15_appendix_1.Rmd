@@ -1,0 +1,29 @@
+---
+output: pdf_document
+---
+
+\begin{appendices}
+
+\chapter*{Appendix A. Renfrewshire pilot. UBDC RAC approval}\label{app:a}
+
+\includepdf[pages={-}]{data/assets/renf-rac.pdf}
+
+\chapter*{Appendix B. Renfrewshire pilot. Ethical approval}\label{app:b}
+
+\includepdf[pages={-}]{data/assets/renf-ethics.pdf}
+
+\chapter*{Appendix C. Main linkage RAC approval}\label{app:c}
+
+\includepdf[pages={-}]{data/assets/main-proj-rac.pdf}
+
+\chapter*{Appendix D. Main linkage PBPP approval}\label{app:d}
+
+\includepdf[pages={-}]{data/assets/pbpp.pdf}
+
+\chapter*{Appendix E. Main linkage. Ethical approval}\label{app:e}
+
+\includepdf[pages={-}]{data/assets/college-ethics.pdf}
+
+\end{appendices}
+
+

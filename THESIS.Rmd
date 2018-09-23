@@ -48,7 +48,7 @@ knitr::opts_knit$set(base.dir = 'chapters/')
 
 \pagenumbering{gobble}
 
-```{r child = 'titlepage.Rmd'}
+```{r child = '00_titlepage.Rmd'}
 ```
 
 \newpage
@@ -64,7 +64,7 @@ knitr::opts_knit$set(base.dir = 'chapters/')
 \section*{Abstract}
 \addcontentsline{toc}{section}{Abstract}
 
-```{r child = 'abstract.Rmd'}
+```{r child = '01_abstract.Rmd'}
 ```
 
 \newpage
@@ -88,7 +88,7 @@ knitr::opts_knit$set(base.dir = 'chapters/')
 \renewcommand{\headrulewidth}{0pt}
 \addcontentsline{toc}{section}{Acknowledgements}
 
-```{r child = 'acknowledgements.Rmd'}
+```{r child = '02_acknowledgements.Rmd'}
 ```
 
 \newpage
@@ -97,7 +97,7 @@ knitr::opts_knit$set(base.dir = 'chapters/')
 \renewcommand{\headrulewidth}{0pt}
 \addcontentsline{toc}{section}{Declaration}
 
-```{r child = 'declaration.Rmd'}
+```{r child = '03_declaration.Rmd'}
 ```
 
 \newpage
@@ -106,7 +106,7 @@ knitr::opts_knit$set(base.dir = 'chapters/')
 \vspace{2cm}
 \section*{\huge{List of Acronyms}}\label{acros}
 \vspace{1cm}
-\input{acro_list}
+\input{04_acro_list}
 
 
 \newpage
@@ -114,7 +114,7 @@ knitr::opts_knit$set(base.dir = 'chapters/')
 
 ```{r sans_serif, eval=FALSE}
 #Remove chunk for sanserif font
-\renewcommand{\familydefault}{\sfdefault}
+#\renewcommand{\familydefault}{\sfdefault}
 ```
 
 
@@ -125,62 +125,62 @@ knitr::opts_knit$set(base.dir = 'chapters/')
 \fancyfoot[RE,RO]{\scriptsize Page \thepage}
 \renewcommand{\headrulewidth}{0pt}
 
-```{r child = 'intro.Rmd'}
+```{r child = '05_intro.Rmd'}
 ```
 
 \FloatBarrier
 \newpage
 
 
-```{r child = 'lit_review.Rmd'}
+```{r child = '06_lit_review.Rmd'}
 ```
 
 
 \FloatBarrier
 \newpage
 
-```{r child = 'data.Rmd'}
+```{r child = '07_data.Rmd'}
 ```
 
 \FloatBarrier
 \newpage
 
-```{r child = 'renfrew.Rmd'}
+```{r child = '08_renfrew.Rmd'}
 ```
 
 \FloatBarrier
 \newpage
 
-```{r child = 'methods.Rmd'}
+```{r child = '09_methods.Rmd'}
 ```
 
 \FloatBarrier
 \newpage
 
-```{r child = 'results-1.Rmd'}
+```{r child = '10_results-1.Rmd'}
 ```
 
 \FloatBarrier
 \newpage
 
-```{r child = 'results-2.Rmd'}
+```{r child = '11_results-2.Rmd'}
 ```
 
 \FloatBarrier
 \newpage
-```{r child = 'results-3.Rmd'}
-```
-
-\FloatBarrier
-\newpage
-
-```{r child = 'discussion.Rmd'}
+```{r child = '12_results-3.Rmd'}
 ```
 
 \FloatBarrier
 \newpage
 
-```{r child = 'conclusion.Rmd'}
+```{r child = '13_discussion.Rmd'}
+```
+
+\FloatBarrier
+\newpage
+
+```{r child = '14_conclusion.Rmd'}
 ```
 
 
@@ -188,7 +188,7 @@ knitr::opts_knit$set(base.dir = 'chapters/')
 \newpage
 
 
-```{r child = 'appendix_1.Rmd'}
+```{r child = '15_appendix_1.Rmd'}
 ```
 
 \FloatBarrier

@@ -82,26 +82,30 @@
 \contentsline {subsection}{\numberline {4.5.4}Future work}{85}{subsection.4.5.4}
 \contentsline {section}{\numberline {4.6}Conclusion}{85}{section.4.6}
 \contentsline {chapter}{\numberline {5}Methods}{87}{chapter.5}
-\contentsline {section}{\numberline {5.1}Cohort}{87}{section.5.1}
-\contentsline {section}{\numberline {5.2}Linkage process}{87}{section.5.2}
-\contentsline {subsection}{\numberline {5.2.1}Social care linkage}{87}{subsection.5.2.1}
-\contentsline {subsection}{\numberline {5.2.2}Linkage to health sources}{87}{subsection.5.2.2}
-\contentsline {section}{\numberline {5.3}Summary measures}{89}{section.5.3}
-\contentsline {subsection}{\numberline {5.3.1}Social Care Survey}{89}{subsection.5.3.1}
-\contentsline {subsection}{\numberline {5.3.2}Prescribing Information Service}{89}{subsection.5.3.2}
-\contentsline {subsection}{\numberline {5.3.3}Demographic, geographic, and deaths information}{89}{subsection.5.3.3}
-\contentsline {subsection}{\numberline {5.3.4}Unscheduled care measures}{89}{subsection.5.3.4}
-\contentsline {section}{\numberline {5.4}Statistical methods}{89}{section.5.4}
-\contentsline {chapter}{\numberline {6}Results 1}{90}{chapter.6}
-\contentsline {section}{\numberline {6.1}Introduction}{90}{section.6.1}
-\contentsline {section}{\numberline {6.2}Data Linkage}{90}{section.6.2}
-\contentsline {section}{\numberline {6.3}Characteristics of cohort}{90}{section.6.3}
-\contentsline {chapter}{\numberline {7}Results 2}{91}{chapter.7}
-\contentsline {section}{\numberline {7.1}Social care and multimorbidity}{91}{section.7.1}
-\contentsline {section}{\numberline {7.2}Geographic variation in social care}{91}{section.7.2}
-\contentsline {chapter}{\numberline {8}Results 3}{92}{chapter.8}
-\contentsline {section}{\numberline {8.1}Social care, multimorbidity, and unscheduled health care use}{92}{section.8.1}
-\contentsline {chapter}{\numberline {9}Discussion}{93}{chapter.9}
-\contentsline {chapter}{\numberline {10}Conclusion}{94}{chapter.10}
-\contentsline {chapter}{Appendices}{95}{section*.38}
-\contentsline {chapter}{References}{111}{chapter*.44}
+\contentsline {section}{\numberline {5.1}Making social care data available for linkage}{87}{section.5.1}
+\contentsline {section}{\numberline {5.2}Creating a linked health and social care dataset}{87}{section.5.2}
+\contentsline {subsection}{\numberline {5.2.1}Setting and cohort}{87}{subsection.5.2.1}
+\contentsline {subsection}{\numberline {5.2.2}Demographic, geographic, and deaths information}{89}{subsection.5.2.2}
+\contentsline {subsection}{\numberline {5.2.3}Social Care Survey}{90}{subsection.5.2.3}
+\contentsline {subsection}{\numberline {5.2.4}Prescribing Information Service}{90}{subsection.5.2.4}
+\contentsline {subsection}{\numberline {5.2.5}Unscheduled care measures}{90}{subsection.5.2.5}
+\contentsline {subsection}{\numberline {5.2.6}Joining sources together}{91}{subsection.5.2.6}
+\contentsline {section}{\numberline {5.3}Statistical methods}{91}{section.5.3}
+\contentsline {subsection}{\numberline {5.3.1}Descriptive statistics}{91}{subsection.5.3.1}
+\contentsline {subsection}{\numberline {5.3.2}Research question 1}{91}{subsection.5.3.2}
+\contentsline {subsection}{\numberline {5.3.3}Research question 2}{91}{subsection.5.3.3}
+\contentsline {chapter}{\numberline {6}Results - Descriptive statistics}{92}{chapter.6}
+\contentsline {section}{\numberline {6.1}Introduction}{92}{section.6.1}
+\contentsline {section}{\numberline {6.2}Data Linkage}{92}{section.6.2}
+\contentsline {section}{\numberline {6.3}Descriptive data}{92}{section.6.3}
+\contentsline {subsection}{\numberline {6.3.1}Participants}{92}{subsection.6.3.1}
+\contentsline {subsection}{\numberline {6.3.2}Age and sex }{92}{subsection.6.3.2}
+\contentsline {chapter}{\numberline {7}Results 2}{93}{chapter.7}
+\contentsline {section}{\numberline {7.1}Social care and multimorbidity}{93}{section.7.1}
+\contentsline {section}{\numberline {7.2}Geographic variation in social care}{93}{section.7.2}
+\contentsline {chapter}{\numberline {8}Results 3}{94}{chapter.8}
+\contentsline {section}{\numberline {8.1}Social care, multimorbidity, and unscheduled health care use}{94}{section.8.1}
+\contentsline {chapter}{\numberline {9}Discussion}{95}{chapter.9}
+\contentsline {chapter}{\numberline {10}Conclusion}{96}{chapter.10}
+\contentsline {chapter}{Appendices}{97}{section*.39}
+\contentsline {chapter}{References}{113}{chapter*.45}

@@ -1,0 +1,17 @@
+---
+output: pdf_document
+---
+
+\chapter{Results 2}\label{ch:res-2}
+\section{Social care and multimorbidity}\label{sec:sc-mm}
+
+\begin{itemize}[noitemsep]
+\item Any SC by number of meds
+\item Hrs homecare by number of meds
+\item Telecare by number of meds
+\item etc.
+\end{itemize}
+
+\section{Geographic variation in social care}
+
+Accounting for MM
