@@ -87,8 +87,8 @@
 \contentsline {subsection}{\numberline {5.2.1}Setting and cohort}{87}{subsection.5.2.1}
 \contentsline {subsection}{\numberline {5.2.2}Demographic, geographic, and deaths information}{89}{subsection.5.2.2}
 \contentsline {subsection}{\numberline {5.2.3}Social Care Survey}{90}{subsection.5.2.3}
-\contentsline {subsection}{\numberline {5.2.4}Prescribing Information Service}{90}{subsection.5.2.4}
-\contentsline {subsection}{\numberline {5.2.5}Unscheduled care measures}{90}{subsection.5.2.5}
+\contentsline {subsection}{\numberline {5.2.4}Prescribing Information Service}{91}{subsection.5.2.4}
+\contentsline {subsection}{\numberline {5.2.5}Unscheduled care measures}{91}{subsection.5.2.5}
 \contentsline {subsection}{\numberline {5.2.6}Joining sources together}{91}{subsection.5.2.6}
 \contentsline {section}{\numberline {5.3}Statistical methods}{91}{section.5.3}
 \contentsline {subsection}{\numberline {5.3.1}Descriptive statistics}{91}{subsection.5.3.1}
@@ -107,5 +107,5 @@
 \contentsline {section}{\numberline {8.1}Social care, multimorbidity, and unscheduled health care use}{94}{section.8.1}
 \contentsline {chapter}{\numberline {9}Discussion}{95}{chapter.9}
 \contentsline {chapter}{\numberline {10}Conclusion}{96}{chapter.10}
-\contentsline {chapter}{Appendices}{97}{section*.39}
-\contentsline {chapter}{References}{113}{chapter*.45}
+\contentsline {chapter}{Appendices}{97}{section*.40}
+\contentsline {chapter}{References}{113}{chapter*.46}

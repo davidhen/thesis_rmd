@@ -16,7 +16,7 @@ Describe method of matching SCS to Population Spine
 
 Setting?? Scotland 5 mill, 32 LA, 14 HB etc..
 
-The study cohort included all individuals in Scotland born before 31st March 1951 and alive during the study period 1st April 2011 to 31st March 2016. This identified all those over the age of 65 (and those turning 65 during the study period). Data for the cohort was extracted from the research population spine held by NRS with CHI numbers allowing linkage to other health datasets.
+The cohort included all individuals in Scotland born before 31st March 1951 and alive during the study period 1st April 2011 to 31st March 2016. This identified all those over the age of 65 (and those turning 65 during the study period). Data for the cohort was extracted from the research population spine held by NRS with CHI numbers allowing linkage to other health datasets.
  
 
 \begin{landscape}
@@ -30,7 +30,7 @@ The study cohort included all individuals in Scotland born before 31st March 195
 
 As figure \ref{fig:methods-linkage} shows linkage keys from the extracted cohort were sent by an eDRIS coordinator to various health and social care data sources for extraction of information relating to any of these indivudals in the target data source. Specific variables requested, the time period they were requested over, and cleaning and wrangling of these data sources is described in the following section. 
 
-**Figure needs tidied up and should show datasets in same order as follwoing subsections**
+**Figure needs tidied up and should show datasets in same order as following subsections**
 
 The aim of cleaning and wrangling was to create one row of data for each indivudal for each financial year (1st April - 31st March) of the study period. This format is based on the principals of tidy data [@RN553].  Financial years were chosen as the time period of interest because the social care survey reports home care usage in a census week which is usually at the end of March. As each raw data file provided was in differing formats, this required differing approaches and relied heavily on data manipulation software packages \texttt{tidyr} v0.7.2 [@RN524], \texttt{dplyr} v0.7.4 [@RN283], \texttt{lubridate} v1.6.0 [@RN522], \texttt{stringr} v1.2.0 [@RN554], and \texttt{forcats} v0.2.0 [@RN521] in the R language and environment for statistical computing version 3.4.0 [@RN295] via the Integrated Development Environment RStudio v1.0.143 [@RN498].
 
@@ -64,13 +64,26 @@ As the table indicates some individuals had more than one row of information ind
 
 \subsection{Social Care Survey}\label{subsubsec:scs-summs}
 
-Which years of data
+Data from the Scottish Care Surveys 2010 - 2016 were extracted by a Scotish Government analyst and transferred to the national safe haven in a single file. There were a number of variables indicating the weekly hours of home care (if any) each indiviudal received, whether they were provided by the local authority or and independent orgainsation, and whether these hours indicated the scheduled hours of home care or the actual number of hours delivered. There is some discrepency between local authorities on which value (scheduled, or actual) of home care is returned to the Scottish Government for the SCS. Some authorities return scheduled only, others actual hours only, and yet others return both values. The SCS reports statistics based on the actual hours of home care delivered where available and uses the scheduled value where it is not. This convention was also used for the purposes of this thesis. 
 
-Which variables were used and how summarised and cleaned (i.e. telecare as categorical etc.)
+Many variables requested from the SCS had large amounts of missing data. There were also coding issues with extra values not detailed in metadata for some variables. For this reason, the variable listed in table were excluded from analysis. Table \ref{tab:scs-vars} shows the variables that were included after data cleaning. 
 
-with reference to chapter \ref{ch:renfrew} and measure of hours of social care
+Assessment for duplicated rows indicated 4,357 individuals had more than one row of data for some years of data. Inspection of these additional rows indicated a change in value for some variables (e.g. a flag indicating use of community alarm services postive in one row and negative in another or different values for client group in multiple rows). These additional rows amounted to 1.1% of observations in the SCS. Once joined to other datasets (as described in section \ref{subsec:join-data}), all observations for the years of data where there were duplicates were dropped from the dataset. 
 
-\subsection{Prescribing Information Service}\label{subsubsec:pis-summs}
+\begin{table}[]
+\caption{Social Care Survey file data}
+\label{tab:scs-vars}
+\resizebox{\textwidth}{!}{%
+\begin{tabular}{@{}lllll@{}}
+\toprule
+Number of rows & Number of individuals & Included variables & Derived variables & Dropped variables \\ \midrule
+ &  & \begin{tabular}[c]{@{}l@{}}1. Index (ID)\\ 2. Living alone\\ 3. Community Alarm\\ 4. Other telecare\end{tabular} & \begin{tabular}[c]{@{}l@{}}1. Total weekly hours of homecare\\ 2. Home care hours group (e.g 1-5, 6-10 etc.)\\ 3. Alarm or Telecare flag\end{tabular} & \begin{tabular}[c]{@{}l@{}}1. Client Group\\ 2. Eligibility Category\\ 3. Housing Support\\ 4. Multi Staffing\\ 5. Scheduled Hours\\ 6. Actual Hours\end{tabular} \\ \bottomrule
+\end{tabular}%
+}
+\end{table}
+\FloatBarrier
+
+\subsection{Prescribing Information Service}\label{subsec:pis-summs}
 
 data from 2010 onwards (to allow calc of MM in year previous to SC)
 
@@ -80,15 +93,19 @@ How PIS data was summarised and measures chosen
 
 
 
-\subsection{Unscheduled care measures}\label{subsubsec:usc-summs}
+\subsection{Unscheduled care measures}\label{subsec:usc-summs}
 
 Which years of data (remember OOH from 2014 onwards only)
 
 How was usc data wrangled? Which summary measures were chosen?
 
 
-\subsection{Joining sources together}\label{subsubsec:join-data}
+\subsection{Joining sources together}\label{subsec:join-data}
 
+Dropping rows etc.
+Report final n observations and individuals.
+
+Table of variables. 
 
 \section{Statistical methods}\label{sec:methods-stats}
 
