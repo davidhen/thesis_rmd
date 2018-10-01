@@ -1,0 +1,51 @@
+---
+title: "Tidy dropped meds table"
+author: "David Henderson"
+date: "1 October 2018"
+output: html_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+## Introduction
+
+I am going to tidy up the dropped meds table so it can be included as appendix (or in methods)
+
+## Packages and Load data
+
+```{r packs, message=FALSE, warning=FALS}
+library(tidyverse)
+library(magrittr)
+library(here)
+here()
+dropped <- 
+  read_csv(here("data/produced_data/pis_dropped_meds/pis_dropped_meds.csv"))
+```
+
+
+##Tidy
+
+```{r tidy}
+dropped$bnf_subsec <-  str_trunc(dropped$bnf_subsec, 6, side = "right", ellipsis = "")
+dropped$bnf_subsec <- 
+  str_replace_all(dropped$bnf_subsec, pattern = "(.{2})", "\\1.") %>% 
+  str_sub(.,end = -2)
+
+dropped %<>%
+  select(-n, -pct)
+
+names(dropped) <- c("Medicine Name", "BNF subsection")
+```
+
+##Save
+
+```{r save}
+save(dropped, file = here("data/produced_data/pis_dropped_meds/dropped.rds"))
+write_csv(dropped, path = here("data/produced_data/pis_dropped_meds/dropped.csv"))
+```
+
+
+
+

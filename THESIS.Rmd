@@ -28,7 +28,7 @@ header-includes:
 - \usepackage{epigraph} #nice quotations
 - \usepackage{pdfpages} #appendices
 - \usepackage[inline]{enumitem} #no item seperate space
-- \usepackage[flushleft]{threeparttable} #table footer
+- \usepackage[flushleft]{threeparttable} #table footer 
 - \usepackage{hyperref} #cross-refs and hyperlinks
 - \usepackage[toc,page]{appendix} #appendix in toc
 #- \usepackage{fontspec} #to specify downloaded open fonts

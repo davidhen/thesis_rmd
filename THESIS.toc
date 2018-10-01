@@ -88,24 +88,24 @@
 \contentsline {subsection}{\numberline {5.2.2}Demographic, geographic, and deaths information}{89}{subsection.5.2.2}
 \contentsline {subsection}{\numberline {5.2.3}Social Care Survey}{90}{subsection.5.2.3}
 \contentsline {subsection}{\numberline {5.2.4}Prescribing Information Service}{91}{subsection.5.2.4}
-\contentsline {subsection}{\numberline {5.2.5}Unscheduled care measures}{91}{subsection.5.2.5}
-\contentsline {subsection}{\numberline {5.2.6}Joining sources together}{91}{subsection.5.2.6}
-\contentsline {section}{\numberline {5.3}Statistical methods}{91}{section.5.3}
-\contentsline {subsection}{\numberline {5.3.1}Descriptive statistics}{91}{subsection.5.3.1}
-\contentsline {subsection}{\numberline {5.3.2}Research question 1}{91}{subsection.5.3.2}
-\contentsline {subsection}{\numberline {5.3.3}Research question 2}{91}{subsection.5.3.3}
-\contentsline {chapter}{\numberline {6}Results - Descriptive statistics}{92}{chapter.6}
-\contentsline {section}{\numberline {6.1}Introduction}{92}{section.6.1}
-\contentsline {section}{\numberline {6.2}Data Linkage}{92}{section.6.2}
-\contentsline {section}{\numberline {6.3}Descriptive data}{92}{section.6.3}
-\contentsline {subsection}{\numberline {6.3.1}Participants}{92}{subsection.6.3.1}
-\contentsline {subsection}{\numberline {6.3.2}Age and sex }{92}{subsection.6.3.2}
-\contentsline {chapter}{\numberline {7}Results 2}{93}{chapter.7}
-\contentsline {section}{\numberline {7.1}Social care and multimorbidity}{93}{section.7.1}
-\contentsline {section}{\numberline {7.2}Geographic variation in social care}{93}{section.7.2}
-\contentsline {chapter}{\numberline {8}Results 3}{94}{chapter.8}
-\contentsline {section}{\numberline {8.1}Social care, multimorbidity, and unscheduled health care use}{94}{section.8.1}
-\contentsline {chapter}{\numberline {9}Discussion}{95}{chapter.9}
-\contentsline {chapter}{\numberline {10}Conclusion}{96}{chapter.10}
-\contentsline {chapter}{Appendices}{97}{section*.40}
-\contentsline {chapter}{References}{113}{chapter*.46}
+\contentsline {subsection}{\numberline {5.2.5}Unscheduled care measures}{92}{subsection.5.2.5}
+\contentsline {subsection}{\numberline {5.2.6}Joining sources together}{92}{subsection.5.2.6}
+\contentsline {section}{\numberline {5.3}Statistical methods}{92}{section.5.3}
+\contentsline {subsection}{\numberline {5.3.1}Descriptive statistics}{92}{subsection.5.3.1}
+\contentsline {subsection}{\numberline {5.3.2}Research question 1}{92}{subsection.5.3.2}
+\contentsline {subsection}{\numberline {5.3.3}Research question 2}{92}{subsection.5.3.3}
+\contentsline {chapter}{\numberline {6}Results - Descriptive statistics}{93}{chapter.6}
+\contentsline {section}{\numberline {6.1}Introduction}{93}{section.6.1}
+\contentsline {section}{\numberline {6.2}Data Linkage}{93}{section.6.2}
+\contentsline {section}{\numberline {6.3}Descriptive data}{93}{section.6.3}
+\contentsline {subsection}{\numberline {6.3.1}Participants}{93}{subsection.6.3.1}
+\contentsline {subsection}{\numberline {6.3.2}Age and sex }{93}{subsection.6.3.2}
+\contentsline {chapter}{\numberline {7}Results 2}{94}{chapter.7}
+\contentsline {section}{\numberline {7.1}Social care and multimorbidity}{94}{section.7.1}
+\contentsline {section}{\numberline {7.2}Geographic variation in social care}{94}{section.7.2}
+\contentsline {chapter}{\numberline {8}Results 3}{95}{chapter.8}
+\contentsline {section}{\numberline {8.1}Social care, multimorbidity, and unscheduled health care use}{95}{section.8.1}
+\contentsline {chapter}{\numberline {9}Discussion}{96}{chapter.9}
+\contentsline {chapter}{\numberline {10}Conclusion}{97}{chapter.10}
+\contentsline {chapter}{Appendices}{98}{section*.42}
+\contentsline {chapter}{References}{121}{chapter*.49}
