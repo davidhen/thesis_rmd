@@ -3,7 +3,7 @@
 \contentsline {section}{List of Figures}{vii}{chapter*.4}
 \contentsline {section}{Acknowledgements}{viii}{section*.6}
 \contentsline {section}{Declaration}{ix}{section*.7}
-\contentsline {section}{List of Acronyms}{x}{section*.7}
+\contentsline {section}{List of Abbreviations}{x}{section*.7}
 \contentsline {chapter}{\numberline {1}Introduction}{1}{chapter.1}
 \contentsline {section}{\numberline {1.1}Aims and Objectives}{2}{section.1.1}
 \contentsline {section}{\numberline {1.2}Scientific contribution}{3}{section.1.2}
