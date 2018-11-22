@@ -14,7 +14,7 @@ Describe method of matching SCS to Population Spine
 
 \subsection{Setting and cohort}\label{subsec:setting-cohort}
 
-Scotland has a population of around 5.4 million people. Health care has been delivered via 14 territorial health boards whilst social care falls withing the remit of the 32 local authorities. Since 2016, health and social care services have been integrated and 31 Integrated Joint Boards (IJBs) have been created. 
+Scotland has a population of approximately 5.4 million people. Health care is delivered via 14 territorial health boards whilst social care falls withing the remit of 32 local authorities. Since 2016, health and social care services have been integrated and 31 Integrated Joint Boards (IJBs) have been created. 
 
 The cohort included all individuals in Scotland born before 31st March 1951 and alive during the study period 1st April 2011 to 31st March 2016. This identified all those over the age of 65 (and those turning 65 during the study period). Data for the cohort was extracted from the research population spine held by NRS with CHI numbers allowing linkage to other datasets.
  
@@ -32,7 +32,7 @@ As figure \ref{fig:methods-linkage} shows, linkage keys from the extracted cohor
 
 **Figure needs tidied up and should show datasets in same order as following subsections**
 
-The aim of cleaning and wrangling was to create one row of data for each indivudal for each financial year (1st April - 31st March) of the study period. This format is based on the principals of tidy data [@RN553].  Financial years were chosen as the time period of interest because the social care survey reports home care usage in a census week which is usually at the end of March. As each raw data file provided was in differing formats, this required differing approaches and relied heavily on data manipulation software packages \texttt{tidyr} v0.7.2 [@RN524], \texttt{dplyr} v0.7.4 [@RN283], \texttt{lubridate} v1.6.0 [@RN522], \texttt{stringr} v1.2.0 [@RN554], and \texttt{forcats} v0.2.0 [@RN521] in the R language and environment for statistical computing version 3.4.0 [@RN295] via the Integrated Development Environment RStudio v1.0.143 [@RN498].
+The aim of cleaning and wrangling was to create one row of data for each indivudal for each financial year (1st April - 31st March) of the study period. This format is based on the principals of tidy data [@RN553].  Financial years were chosen as the time period of interest because the social care survey reports home care usage in a census week which is usually at the end of March. As each raw data file provided was in differing formats, this required differing approaches and relied heavily on data manipulation software packages \texttt{tidyr} v0.7.2 [@RN524], \texttt{dplyr} v0.7.4 [@RN283], \texttt{lubridate} v1.6.0 [@RN522], \texttt{stringr} v1.2.0 [@RN554], \texttt{forcats} v0.2.0 [@RN521], \texttt{data.table} v1.10.4 [@RN555], and \texttt{zoo} v1.8-0 [@RN556] in the R language and environment for statistical computing version 3.4.0 [@RN295] via the Integrated Development Environment RStudio v1.0.143 [@RN498].
 
 \FloatBarrier
 
@@ -52,9 +52,9 @@ Number of rows & Number of individuals & Variables \\ \midrule
 }
 \end{table}
 
-Demographic information for all eligible indiviudals identified from the population spine was extracted by the Public Health and Intelligence: Strategic Business Unit at NSS. This was joined with a flag variable indicating if an individual was resident in a care home (from prescribing data) in a single file which was made available in the national safe haven. SIMD decile was assigned as per the most recent version of the area-based measure (2016). The number of observations, individuals, and the differing variables in this raw demographic file are shown in table \ref{tab:demos}. 
+Demographic information for all eligible indiviudals identified from the population spine was extracted by the Public Health and Intelligence: Strategic Business Unit at NSS. This was joined with a flag variable indicating if an individual was resident in a care home (from prescribing data) in a single file which was made available in the national safe haven. SIMD decile was assigned as per the most recent version of the area-based measure (@RN238). The number of observations, individuals, and the differing variables in this raw demographic file are shown in table \ref{tab:demos}. 
 
-As the table indicates some individuals had more than one row of information indicating multiple addresses during the study period (and thus potential multiple values for local, authority, health board, care home flag, and SIMD decile). Financial year time intervals were created for each financial year using the \texttt{lubridate} software package [@RN522]. Dummy variables were then created indicating the age, local authority of residence, health board of residence, and simd decile during each financial year (with null values where not applicable). The variables were then gathered to long format in order to reshape the data to include one row of data per individual per financial year. Where and individual had multiple addresses during one fininacial year, the most recent value for local authority, health board, and SIMD decile was used. This resulted in a dataframe of 7,775,410 observations pertaining to 1,134,445 individuals. 
+As the table indicates some individuals had more than one row of information indicating multiple addresses during the study period (and thus potential multiple values for local, authority, health board, care home flag, and SIMD decile). Financial year time intervals were created for each financial year using the \texttt{lubridate} software package [@RN522]. Dummy variables were then created indicating the age, local authority of residence, health board of residence, and simd decile during each financial year (with null values where not applicable). The variables were then gathered to long format in order to reshape the data to include one row of data per individual per financial year. Where an individual had multiple addresses during one fininacial year, the most recent value for local authority, health board, and SIMD decile was used. This resulted in a dataframe of 7,775,410 observations pertaining to 1,134,445 individuals. 
 
 \FloatBarrier
 
@@ -65,6 +65,8 @@ Data from the Scottish Care Surveys 2010 - 2016 (including separate Home Care Ce
 Many variables requested from the SCS had large amounts of missing data. There were also coding issues with extra values present that had no corresponding description in the provided metadata. Table \ref{tab:scs-vars} lists the variables included and excluded after data cleaning. 
 
 Assessment for duplicated rows indicated 4,357 individuals had more than one row of data for some years of data. Inspection of these additional rows indicated a change in value for some variables (e.g. a flag indicating use of community alarm services postive in one row and negative in another, or different values for client group in multiple rows). These additional rows amounted to 1.1% of observations in the SCS. Once joined to other datasets (as described in section \ref{subsec:join-data}), all observations for the years of data where there were duplicates were dropped from the dataset. 
+
+**Don't forget the 198 rows (129 individuals) with total_hrs > 168!!**
 
 \begin{table}[]
 \caption{Social Care Survey file data}
@@ -83,7 +85,7 @@ Number of rows & Number of individuals & Included variables & Derived variables 
 
 Community prescribing information for all individuals in the cohort were extracted from the Prescribing Information System (PIS) by analysts from ISD. For each quarter of the study period (Quarter 1 2010/11 to Quarter 4 2015/16) a list of medicines prescribed to each indiviudal was extracted and transferred in one file to the national safe haven. This file contained 134,377,877 observations of four variables: The financial year and quarter, the BNF subsection code, The approved name of the medicine, and a count of how many times the medicine was prescribed in the quarter. Coding errors were found in 138,973 observations (wrong number of digits in the BNF subsection or characters found in the count variable) and these were dropped from analysis. 
 
-The count of medicines was based on the BNF classes included in a count of polypharmacy by Guthrie et al [@RN274]. The additional material provided online with this paper included a table of included drugs. This table was ammended to remove BNF subsections 3.9.1, 3.9.2, and 13.9. The latter section includes different forms of shampoos whilst the former 2 sections include preperations for coughs. These were not deemed necessary to be included in overall counts. Two BNF subsections not included in the Guthrie et al table were deemed important to include as testing revealed large numbers of prescriptions included medicines from these sections would have been omitted otherwise. These sections were 2.2.4 (Potassium sparing diuretics with other diuretics) and 2.2.8. (Diuretics with potassium). In total, 198 medicines listed in the BNF were not included and rows with these medicines were removed from the PIS file. A full list of these medicines is shown in Appendix F. Table \ref{tab:dropped-meds} shows the cleaning process. 
+The count of medicines was based on the BNF classes included in a count of polypharmacy by Guthrie et al [-@RN274]. The additional material provided online with this paper included a table of included drugs. This table was ammended to remove BNF subsections 3.9.1, 3.9.2, and 13.9. The latter section includes different forms of shampoos whilst the former 2 sections include preperations for coughs. These were not deemed necessary to be included in overall counts. Two BNF subsections not included in the Guthrie et al table were deemed important to include as testing revealed large numbers of prescriptions included medicines from these sections would have been omitted otherwise. These sections were 2.2.4 (Potassium sparing diuretics with other diuretics) and 2.2.8. (Diuretics with potassium). In total, 198 medicines listed in the BNF were not included and rows with these medicines were removed from the PIS file. A full list of these medicines is shown in Appendix F. Table \ref{tab:dropped-meds} shows the cleaning process. 
 
 \begin{table}[h]
 \centering
@@ -119,7 +121,13 @@ Which years of data (remember OOH from 2014 onwards only)
 
 How was usc data wrangled? Which summary measures were chosen?
 
+\FloatBarrier
+\subsection{Comorbidity scores}\label{subsec:comorb-scores}
 
+How created? short...
+
+
+\FloatBarrier
 \subsection{Joining sources together}\label{subsec:join-data}
 
 Dropping rows etc.

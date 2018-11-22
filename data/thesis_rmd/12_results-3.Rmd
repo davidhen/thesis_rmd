@@ -1,0 +1,14 @@
+---
+output: pdf_document
+---
+
+\chapter{Results 3}\label{ch:res-3}
+
+\section{Social care, multimorbidity, and unscheduled health care use}
+
+\begin{itemize}[noitemsep]
+\item National picture
+\item broken down by LA
+\item broken down by HB
+\end{itemize}
+

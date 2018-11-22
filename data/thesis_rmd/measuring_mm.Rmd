@@ -1,0 +1,260 @@
+---
+output: pdf_document
+---
+
+\chapter{Measuring Multimorbidity}\label{ch:clustering}
+
+\section{Introduction}\label{sec:clust-intro}
+
+As Chapter \ref{ch:lit-review} showed, multimorbidity can be defined as the presence of two or more chronic health conditions within an individual [@RN226]. It is associated with higher mortality [@RN81], increased use of health care [@RN81; @RN22], psychological distress [@RN243], worse quality of life [@RN241; @RN242], and worse functional status [@RN40]. It not only affects older people but has been observed in greater absolute numbers in those under the age of 65 and affects those with lower socioeconomic status disproportionately [@RN33]. As the proportion of older people in the population increases, multimorbidity is expected to affect increasing numbers of people in the future [@RN155; @RN288].  
+
+
+
+Many of the negative outcomes associated with mulitmorbidity are due to the structure of healthcare delivery which tends to concentrate treatment goals towards single diseases [@RN155, @RN290]. As a result healthcare for individuals with multimorbidity can, at best, preferentially treat one disease to the detriment of others or, at worst, cause harm and affect patient safety e.g. through medication interactions [@RN289]. 
+
+Epidemiological research into multimorbidity has tended to count numbers or report proportions of health conditions. There is, however, marked heterogeneity in the population considered and the number of diseases included in measurement. As a result, prevalence rates of multimorbidity have been shown by systematic reviews to vary widely in the general population from 13.1% - 71% [@RN56] and 12.9% - 95.1% [@RN15]. There has been little research into the prevalence of combinations of diseases and non-random, co-occurrence of diseases partly due to the high number of theoretical combinations meaning large samples and complex calculations are required [@RN91; @RN187]. More recent research has applied a variety of statistical techniques to overcome this problem [@RN98].
+
+Identification of non-random co-occurrence of health conditions is important for a number of reasons; a) to gain a better understanding of the complicated nature of multimorbidity, b) to help assess the impact multimorbidity has on health outcomes, c) to help assess the sociodemographic differences in prevalence of multimorbidity which could have implications for health policy and the delivery of health services, and d) unexpected non-random associations could prompt further research into possible causal mechanisms for the association. 
+
+The objective of this chapter was to apply a novel two-way clustering framework to a large dataset based on the Scottish population, The framework aims to identify clusters of the most significant non-random co-occurrence of health conditions and multimorbidity patterns among individuals [@RN72]. The specific aims were to a) Identify non-random associations of health conditions from the dataset, b)identify if meaningful, homogeneous sub-groups of individuals according to groups on non-random conditions can be formed, c) assess the sociodemographic make-up of identified clusters. 
+
+*Add para describing purpose of this chapter to overall thesis*
+
+\section{Background}\label{sec:clust-background}
+
+Previous clustering attempts in the field of multimorbidity have employed a number of different statistical techniques including; factor analysis, cluster analysis, the observed to expected ratio, multiple correspondence analysis [@RN98], principal component analysis, and latent class analysis [@RN109]. Each of these techniques is a variant of latent variable modelling where clusters are deemed unobserved, or latent, variables that can be measured indirectly depending on the values of two or more observed variables [@RN291]. In their systematic review of clustering techniques, Prados-Torres et al [-@RN98] found marked heterogeneity in the numbers of diseases included in analyses, populations studied, and resulting clusters of conditions. The authors recommended that future attempts at clustering should be conducted using large numbers of diseases and in population-based datasets as opposed to sub-groups of populations.  
+
+An important decision in any clustering research is which statistical technique to apply to a given dataset. Collins & Lanza [-@RN291] argue that when the latent variable (cluster) and the observed variables used to identify the latent variable are categorical in nature, Latent Class Analysis (LCA), a version of a finite mixture model, is an appropriate statistical technique to employ. Other techniques such as factor or cluster analysis rely on latent and/or observed variables being continuous in nature [@RN291]. The aim of this chapter is to identify whether homogeneous sub-groups of individuals can be identified from a dataset of diseases represented by binary, categorical data. Such sub-groups would also be categorical in nature suggesting LCA is an appropriate technique to apply.
+
+The limitation to LCA is that as the number of observed variables increases it becomes more difficult for the LCA model to be well identified [@RN291]. This is because the first step of LCA is to create a contingency table of all possible combinations of outcomes. For example, in a simple dataset with two binary Yes/No variables there are $2^{2} = 4$ potential response outcomes;  No/No, Yes/No, No/Yes, and Yes/Yes. In the example of the dataset used in the current chapter with 40 health conditions recorded as binary variables the number of cells in the contingency table will contain $2^{40}$ (over 1 trillion) cells. This makes good model identification highly unlikely. Ideally the ratio of $n/W$ where $n$ denotes the sample size and $W$ denotes the number of potential response outcomes should be as high as possible [@RN291]. When this ratio is very small there are only two options to overcome the problem, "...increase the amount of known information or reduce the amount of unknown information." [@RN291 :93]
+
+In response to the "high-dimensional" problem created when trying to identify latent variables from health datasets with large numbers of diseases,  Ng [-@RN72] proposed a two-way model to identify multimorbidity clusters. The first step of this method is to "clump" diseases in the dataset into statistically correlated groups of conditions thereby reducing the number of variables and therefore the size of contingency table of potential responses. This first step is described in more detail in Ng et al [-@RN225]. The second step of the method then aims to identify latent groups of individuals based on response patterns to these "clumped" groups with a finite mixture model similar to LCA [@RN72]. This technique was applied to an Australian national health survey which contained self-reported responses of the presence of 24 physical and mental health conditions with full results detailed in Ng [-@RN72]. The aim of this chapter is to identify whether this technique is valid in a much larger dataset of administrative health data. 
+
+\section{Methods}\label{sec:clust-methods}
+
+\subsection{Data}\label{subsec:clust-data}
+In Scotland, much multimorbidity research has been informed by the Scottish Programme for Improving Clinical Effectiveness in Primary Care (SPICE-PC) dataset [@RN292; @RN33; @RN159; @RN148]. Diagnostic data from the year 2007 is available on 1,754,133 people in Scotland drawn from 314 general practices. The anonymised dataset has information on the presence of 32 physical and 8 mental health conditions (?? add box with list of diseases??) in addition to age, gender and deprivation index data. Diagnostic data is derived from codes entered into IT systems in General Practices and prescription data. A full description of the 40 included diseases and the methods used to classify them is available as supplementary information in Barnett et al [-@RN33]. The analysis for this chapter was restricted to adults over the age of 18 resulting in n=1,426,196. (10% sample of this so far!!) Ethical approval for secondary analysis of the SPICE-PC dataset using LCA was granted by the Research Ethics Committee of the College of Social Sciences at the University of Glasgow on 29/04/2016. 
+
+\subsection{Analysis}\label{subsec:clust-analysis}
+
+The two-way method proposed by Ng [-@RN72] was applied to the above dataset of 40 health conditions. Firstly groups of conditions that co-occur are identified and then latent groups of individuals are identified using a mixture model approach. To identify the groups of conditions that co-occur the method aims to calculate the significant pairwise multimorbidity between all conditions. The asymmetric Somer's D statistic was used to quantify the degree of random co-morbidity with all pairs of health conditions. Significance of the Somer's D statistic for each pair of conditions was calculated using the Benjamini-Hochberg procedure [@RN293] to control the false discovery rate (FDR) with $\alpha$ = 0.001. Diseases were then clustered into overlapping groups using a "clumping" procedure based on the technique described by Jardin & Robson [-@RN294] and fully described as equation 11 in Ng et al [-@RN225]. The strength of multimorbidity in each cluster was calculated using the average pairwise Somer's D statistics of disease within the group. From these overlapping groups, non-overlapping groups of diseases were created using an amended version of the algorithm specified in Ng [-@RN72]:- 
+
+1. Name the cluster with the highest strength as the first group and then remove its member health conditions in all subsequent clusters with smaller strength. Each member in a cluster must have the condition with which the pairwise concordance statistic is maximum in the same cluster;
+2.  Repeat (1) for the next cluster and name it as a group if it is not ‘singular’ (singular cluster is defined as a cluster consisting of a single health condition);  
+3.  If a group is formed in (2), remove its member health conditions in all subsequent clusters with smaller strength or singular clusters;
+4.  Repeat (2) and (3) until all clusters are visited;
+5.  Put the condition in a singular cluster into a predefined group where more than half of the member conditions are significantly comorbid with the condition;
+6.  Name those remaining singular clusters as a singular group.
+
+A matrix was then created assigning a score to individual observations for each identified non-overlapping group. Scores were assigned as:-   
+
+* 1 for having no diseases within the group
+* 2 for having one of the diseases in the group
+* 3 for having 2 or more diseases within the group. 
+
+In the second part of the analysis a mixture-model of multivariate generalised Bernoulli distributions was applied to the matrix of these scores in order to identify latent groups of individuals according to response patterns to the score matrix. The most appropriate number of latent groups to fit the dataset was determined by the lowest Bayesian Information Criterion (BIC) and substantive theoretical analysis. Models with 3 to 9 latent groups were compared to find best model fit. Each observation was then assigned to the latent group for which the posterior probability was highest. Descriptive analysis of sociodemographic difference in latent group was then employed to identify patterns in groupings. 
+
+All statistical analysis was completed using R version 3.3.3 [@RN295]. Two-way clustering was conducted with amended code provided by Ng[-@RN72]. Data manipulation and visualisation was conducted using tidyverse packages [@RN296] and the corrplot package. 
+
+\section{Results}\label{sec:clust-results}
+
+\subsection{Pairwise correlation}\label{subsec:clust-pwcorr}
+
+\begin{figure}
+  \centering
+    \includegraphics[width=0.9\textwidth]{figures/chapter-lca/sd-corrplot.png}
+  \caption{Significant Pairwise Correlations}
+  \label{fig:corrplot}
+\end{figure}
+
+With $\alpha$ controlled at 0.001, 143 of a possible 780 pairwise correlations proved to be significant. A matrix showing all statistically significant correlations is shown in Figure \ref{fig:corrplot}. The number of expected false positives for 143 pairs is less than 1.  
+
+\subsection{Grouping diseases}\label{subsec:clust-grouping}
+
+Using the "clumping" procedure detailed in Ng [-@RN72], Thirty-eight overlapping groups of conditions were found as shown in Table \ref{tab:overlap}
+
+\begin{table}[]
+  \centering
+  \caption{Overlapping groups of diseases derived from "clumping" procedure}
+  \label{tab:overlap}
+  \resizebox{\textwidth}{!}{%
+    \begin{tabular}{@{}lll@{}}
+    \toprule
+    \textbf{Group} & \textbf{Diseases Included} & \textbf{Strength} \\ \midrule
+    1 & CHD, CKD, AtrialFib, Hypertension, HeartFailure, Rheu-Arthritis, PVD &        0.2833 \\
+    2 & CHD, CKD, AtrialFib, Diabetes, TIA-Stroke, Hypertension, HeartFailure &       0.2806 \\
+    3 & CHD, CKD, Hypertension, HeartFailure, Rheu-Arthritis, Pain & 0.2653 \\
+    4 & CHD, Hypertension, Prostate & 0.2622 \\
+    5 & CHD, CKD, Diabetes, TIA-Stroke, Hypertension, HeartFailure, Pain & 0.259      \\
+    6 & CHD, TIA-Stroke, Hypertension, HeartFailure, Laxat-Constip, Pain & 0.2525     \\
+    7 & Mental-Alcohol, LiverDisease, Depression, Anxiety & 0.2512 \\
+    8 & CHD, Hypertension, HeartFailure, Bronchitis, Pain & 0.2487 \\
+    9 & CHD, CKD, Diabetes, TIA-Stroke, Hypertension, PVD, Pain & 0.2348 \\
+    10 & CHD, CKD, Hypertension, PVD, Rheu-Arthritis, Pain & 0.2331 \\
+    11 & Mental-Alcohol, Mental-Psycho, ViralHepatitis, Depression, Anxiety &         0.2324 \\
+    12 & Mental-Psycho, Depression, Schiz-Bipolar, Anxiety & 0.2304 \\
+    13 & CHD, Hypertension, Diverticular, Laxat-Constip, Pain & 0.2294 \\
+    14 & Depression, Migraine, Pain & 0.2278 \\
+    15 & CKD, ThyroidDisorders, Hypertension, Pain & 0.2262 \\
+    16 & CHD, Blindness, Glaucoma, Hypertension & 0.2236 \\
+    17 & Depression, Dyspepsia, Laxat-Constip, Pain, Anxiety & 0.218 \\
+    18 & MS, Depression, Laxat-Constip, Pain & 0.2178 \\
+    19 & CHD, Diabetes, TIA-Stroke, Blindness, Hypertension, Pain & 0.2171 \\
+    20 & ActiveAsthma, Bronchitis, Bronchiectasis & 0.2166 \\
+    21 & CHD, TIS-Stroke, Blindness, Hypertension, Laxat-Constip, Pain & 0.2138 \\
+    22 & CHD, Hypertension, PVD, Bronchitis, Pain & 0.2114 \\
+    23 & CHD, Dementia, Parkinsons, TIA-Stroke, Hypertension, Laxat-Constip, Pain     & 0.2068 \\
+    24 & Dementia, Parkinsons, Depression, Laxat-Constip, Pain, Anxiety & 0.2068      \\
+    25 & CHD, Dementia, Hypertension, Rheu-Arthritis, Pain & 0.204 \\
+    26 & Diabetes, Hypertension, LiverDisease, Pain & 0.1964 \\
+    27 & Dementia, Mental-Psycho, Depression, Pain, Anxiety & 0.1939 \\
+    28 & Hypertension, Diverticular, Dyspepsia, Laxat-Constip, Pain & 0.1938 \\
+    29 & CHD, Dementia, Parkinsons, Hypertension, Laxat-Constip, Pain, Anxiety &      0.1922 \\
+    30 & Hypertension, Bronchitis, Bronchiectasis, Pain & 0.1917 \\
+    31 & Blindness, HearingLoss, Hypertension & 0.179 \\
+    32 & Dementia, Parkinsons, TIA-Stroke, Depression, Laxat-Constip, Pain & 0.173     \\
+    33 & HearingLoss, Hypertension, Prostate & 0.1729 \\
+    34 & AnyCancer-Last5Yrs, Hypertension, Pain & 0.1707 \\
+    35 & Hypertension, LiverDisease, Dyspepsia, Pain, Anxiety & 0.1593 \\
+    36 & Depression, IBS, Pain & 0.1563 \\
+    37 & CHD, Dementia, Mental-Psycho, Pain, Anxiety & 0.1385 \\
+    38 & Diverticular, IBS, Pain & 0.1226 \\ \bottomrule
+    \end{tabular}%
+  }
+\end{table}
+
+Six diseases; Epilepsy, Learning Disability, Sinusitis, Crohns, Anorexia, Psoriasis/Eczema did not have strong enough pairwise correlations to be included in any of the 38 groups. Thirteen non-overlapping groups were derived from the results of the clumping method using the algorithm described above and named according to the characteristics of the member disease in the groups as shown in Table \ref{tab:no-overlap}.
+
+A further four diseases; Diverticular disease, Prostate, IBS, and Dyspepsia were excluded from the non-overlapping groups. These four conditions did not appear in any groups with the diseases with which they had strongest pairwise correlation, a condition that had to be met in the first stage of the algorithm described above.
+
+\begin{table}[]
+  \centering
+  \caption{Non-overlapping groups of diseases derived from Ng algorithm}
+  \label{tab:no-overlap}
+  \resizebox{\textwidth}{!}{%
+  \begin{tabular}{@{}ll@{}}
+    \toprule
+    \textbf{Disease group name} & \textbf{Diseases included} \\ \midrule
+    \textit{Cardiovascular} & CHD, CKD, AtrialFib, Hypertension, HeartFailure,        Rheu-Arthritis, PVD \\
+    \textit{Diabetes/Stroke} & Diabetes, Stroke \\
+    \textit{Pain/MS} & Laxatives/Constipation, Pain, MS \\
+    \textit{Mental Health/Liver} & Mental/Alcohol, Liver Diseases, Depression,        Anxiety \\
+    \textit{Psychosis} & Mental-Psycho, Viral Hepatitis \\
+    \textit{Sciz/Bipolar} & Sciz-Bipolar \\
+    \textit{Migraine} & Migraine \\
+    \textit{Thyroid} & Thyroid disorders \\
+    \textit{Blindness} & Blindness, Glaucoma \\
+    \textit{Respiratory} & ActiveAsthma, Bronchitis, Bronchiectasis \\
+    \textit{Neurodegenerative} & Dementia, Parkinson's \\
+    \textit{Hearing Loss} & Hearing Loss \\
+    \textit{Cancer} & Any Cancer in Last 5 years \\ \bottomrule
+    \end{tabular}%
+  }
+\end{table}
+
+
+\subsection{Grouping individuals}\label{subsec:clust-clustering}
+
+Individuals were assigned a score depending on the number of diseases they had in each of the non-overlapping groups according to the criteria described above. The finite mixture model of multivariate generalised Bernoulli distributions was then applied to this dataset in order to identify latent groups of individuals depending on their scores for each of the 13 groups, based on presence of 30 diseases. BIC scores suggested the model for nine latent groups had best fit to the data. The nine-group model was compared with the model with second-lowest value of BIC, that for eight latent groups. However, despite offering a more parsimonious solution, the eight-group model did not provide a more substantive theoretical fit to the data. Thus, the nine-group model was deemed best fit and analysed further. 
+
+Item-response probabilities for the nine-group model are shown in Figure \ref{fig:item-response}.
+
+\begin{figure}
+  \centering
+    \includegraphics[width=0.9\textwidth]{figures/chapter-lca/item-response.png}
+  \caption{Item response probabilities for nine latent group model}
+  \label{fig:item-response}
+\end{figure}
+
+Each latent group was labelled according to these item response probabilities as follows;
+
+* Latent Group 1. **Well**. High probabilities of having no diseases in any of the groups. 
+* Latent Group 2. **Cardiovascular only**. Item response in this Latent group have more than 50% chance of having at least 1 condition from the Cardiovascular group. High probabilities of having no diseases in any of the other groups. 
+* Latent Group 3. **Cancer**. Individuals in this group have almost 100% probability of having had cancer in last 5 years. Weak probabilities across some other groups. 
+* Latent Group 4. **Mental Health/Pain**  High probability of having at least one diseases from Pain/MS group and at least one disease from Mental Health/Liver group. 
+* Latent Group 5. **Mental and Physical Multimorbidity** High probabilities of having at least 1 cardiovascular, diabetes/stroke, Pain/MS, and Mental health/Liver disease. This group also has the highest probability across latent groups for having 1 respiratory disease. 
+* Latent Group 6 **Physical Multimorbidity** High probability of a least one cardiovascular disease and one of Diabetes/Stroke.
+* Latent Group 7. **Physical multimorbidity (Strong Cardio)**. Similar to Latent group 6 but individuals in this group are more likely to have 2 or more cardiovascular diseases. 
+* Latent Group 8.  **Dementia with Mental/Physical MM** Individuals in this latent group have almost 100% probability of having dementia or Parkinson's. Also highly likely to have at least one Cardiovascular disease and mildly raised probability of having mental health or psychosis diseases.
+* Latent Group 9. **Mental Health only**. High probability of having a least 1 of the Mental Health/Liver group diseases. Also mildly raised probabilities in the Psychosis and Sciz_Bipolar groups.
+
+Proportionate size of each of the assigned latent variable groups is shown in Figure \ref{fig:group-props}. 
+
+\begin{figure}
+  \centering
+    \includegraphics[width=0.9\textwidth]{figures/chapter-lca/props.png}
+  \caption{Latent Group Proportions}
+  \label{fig:group-props}
+\end{figure}
+
+The "Well" latent group was by far the largest group with almost 70% of individuals within it. The other groups formed much smaller proportions of the data. 
+
+\subsection{Sociodemographic breakdown of latent groups}\label{subsec:clust-ses}
+
+Each of the Histograms of Age for each of the latent groups shown in Figure \ref{fig:lg-by-age} show variation in distribution. The "Well" and "Mental Health only" groups have a much younger age distribution compared to the other groups. The "Dementia" group has a much older distribution. 
+
+\begin{figure}
+  \centering
+    \includegraphics[width=0.9\textwidth]{figures/chapter-lca/lg-by-age.png}
+  \caption{Histograms of Age, by Latent Group}
+  \label{fig:lg-by-age}
+\end{figure}
+
+
+Figure \ref{fig:lg-by-sex} shows higher proportions of males in the "Physical MM" latent group. The "Well" and "Physical MM high Cardio" groups have even splits by gender. All other groups have higher proportions of females.
+
+\begin{figure}
+  \centering
+    \includegraphics[width=0.9\textwidth]{figures/chapter-lca/lg-by-sex.png}
+  \caption{Count of Sec, by Latent Group - with Proportions}
+  \label{fig:lg-by-sex}
+\end{figure}
+
+Figure \ref{fig:lg-by-dep} shows distribution of deprivation across latent groups by Carstairs Decile. There are clear gradients in the "Mental Health & Pain", "Ment/Phys MM", and "Mental Health only" groups with much higher numbers of people in Decile 10 (most deprived) areas.
+
+\begin{figure}
+  \centering
+    \includegraphics[width=0.9\textwidth]{figures/chapter-lca/lg-by-dep.png}
+  \caption{Count of Carstairs Decile, by Latent Group}
+  \label{fig:lg-by-dep}
+\end{figure}
+
+\FloatBarrier
+
+\section{Discussion}\label{sec:clust-discussion}
+
+When proposing the two-way clustering method, Ng [-@RN72] applied the technique to Australian survey data of 24 self-reported diseases from n=8841 respondents. These were "clumped" into nine non-overlapping groups of diseases with four latent groups of individuals being identified by the mixture model. Given the different classification of diseases, the nature of how data were collected, and the different populations, it is unsurprising that results from the present study are markedly different. What is of interest is whether the technique provided a meaningful representation of the data which can be used to improve the understanding of multimorbidity within this population.  
+
+The first step of the two-way clustering technique resulted in 13 non-overlapping groups being formed. As a result of this process, ten of the diseases recorded in the dataset were excluded from the final  groups. Six diseases; Epilepsy, Learning Disability, Sinusitis, Crohns, Anorexia, and Psoriasis/Eczema did not have strong enough pairwise Somer's D correlation statistics with any other disease to be included in the non-overlapping "clumping" procedure. A further four diseases; Diverticular, Prostate, IBS, and Dyspepsia did not appear in any non-overlapping group with the disease with which they had the strongest Somer's D correlation. Identifying which diseases do not co-occur at non-random levels is a particularly interesting finding and adds to the debate about which diseases should be included in any multimorbidity measure.[be explicit – do you think this suggests we shouldn’t count these 10 in any MM measure and, if so, why? -NB]  Of the 40 diseases present in the SPICE-PC dataset, in this analysis, only 30 diseases co-occurred with enough statistical power to be added to non-overlapping disease groups and considered in the mixture model. 
+
+Past research has highlighted associations between; mental health and thyroid problems, mental health and pain, and diseases associated with the metabolic syndrome [@RN98]. As shown in figure 1, there is no pairwise correlation between any mental health diseases and thyroid disorders in the present study. Pain is associated with a large number of conditions, including mental health diseases. Diseases associated with metabolic syndrome such as, hypertension, coronary heart disease, diabetes, stroke, and heart failure all show correlations with each other to varying degrees. Prados-Torres et al [-@RN98] also identified associations between Chronic Obstructive Pulmonary Disease (COPD) and Gastroesophageal reflux disease (GORD) with mental health diseases. No associations with between any respiratory disease and mental health diseases is apparent in figure 1. The SPICE-PC dataset does not record GORD, however Dyspepsia may be considered a similar diagnosis and has pairwise correlations with both Depression and Anxiety.  
+
+The non-overlapping disease groups were named according to the characteristics of the diseases present in each, however many diseases appeared in groups that may not come from similar aetiology. The groups reflect diseases that commonly co-occur and therefore do not always fit into clinically recognisable groups. Individuals are scored as to the number of diseases they have from each group. This results in a loss of some information but the advantage of this method is that it reduces the number of variables in the dataset making the likelihood of identifying a good mixture model much more likely. 
+
+Applying a mixture model of multivariate generalised Bernoulli distributions to these 13 non-overlapping disease groups identified nine latent groups as described above. These groups are clinically recognisable with some showing presence of diseases from only one disease group and others illustrating a more multimorbid population. Clear distinctions between mental and physical disease are made enabling individuals to have diseases from both groups. In their systematic review of clustering studies of multimorbidity, Prados-Torres et al [-@RN98] found that included studies reported between three and twenty diseases clusters. From these they found three most common groups of diseases; cardiovascular, mental health, and musculoskeletal. Latent groups in the current study also contain cardiovascular and mental health elements, although they do not reflect any groups that could be identified as musculoskeletal.
+
+Clear sociodemographic patterns were identified in the latent groups. Those classified as belonging to a latent group with mental health involvement such as; mental health/pain, mental and physical multimorbidity, or mental health only,  were more likely to be female and from lower deprivation deciles. Two similar latent groups; physical multimorbidity and physical multimorbidity high cardiovascular, had clear age differences with the former more likely to have younger male individuals assigned to it. These findings are similar to simple analyses of the same dataset which identified those in the most deprived areas being more likely to develop physical and mental health multimorbidity 10-15 years earlier than their more affluent peers [@RN33].
+
+\subsection{Limitations}\label{subsec:clust-limitations}
+
+The two-step method proposed by Ng [-@RN72] enables reduction of dimensions in datasets with large numbers of disease variables making model good identification of mixture models more likely. This, however, results in a loss of detail making interpretation of results more difficult. Report of the item-response probabilities shown in figure 4 identifies that individuals have a probability of having none, one, or two of the diseases in any group. It is impossible to identify exactly which diseases. Hypertension with 13.4% of individuals is the highest reported disease in the SPICE-PC . To what degree this accounts for individuals having one disease in the cardiovascular group across latent classes is unknown. 
+
+This is particularly a problem as the non-overlapping groups formed by the two-way clustering method do not always follow recognised clinical groupings. For example, Rheumatoid arthritis is found in the cardiovascular group despite being a connective tissue disorder. It is the only disease in the group that does not directly affect the cardiovascular system.  The reason it is found in this group may be due to the association of increased NSAID use with cardiovascular outcomes (ref) resulting in frequent co-occurrence. As some latent groups are classified as "Cardiovascular only", there is a possibility that small numbers of people with only Rheumatoid Arthritis are misclassified. [This is could be down to nomenclature and I maybe need to revisit group names. It does not get rid of the problem that for the group with high probs for the cardio/rheum disease we can't distinguish which disease the individual has]
+
+When clustering individuals, fitting a finite mixture model of multivariate generalised Bernoulli distributions makes the assumption that the indicator variables used to identify latent groups are independent. In a dataset containing medical conditions such as e.g. Hypertension and Coronary Heart Disease, or Atrial Fibrillation and Stroke, this assumption is clearly violated. However, ignoring the independence assumption for multivariate categorical variables often results in better fit than when more complicated techniques are applied to account for non-independence of indicator variables [@RN72; @RN298; @RN297]. 
+
+Results presented here account for 10% of the SPICE-PC dataset due to the heavy computational requirements of fitting the finite mixture model. Confirmation of results on the whole dataset is required. 
+
+\subsection{Future research}\label{subsec:clust-future}
+
+Sociodemographic comparison in the current study was limited to visualisation of histograms. More detailed reports of measures of central tendency and comparison of latent groups with sociodemographic variables such as Carstairs decile with logistic regression is warranted. SPICE-PC data also contains variables on lifestyle factors such as smoking status and alcohol intake. These variables should be included in further comparisons.
+
+A further calculation offered in the two-way clustering technique [@RN72] is the calculation of a multimorbidity score to each latent group and to each individual in the dataset based on their disease profile and posterior probabilities. Such as score would be continuous in nature and would offer the benefit of comparison with sociodemographic variables such Carstairs score or Age. Such comparisons would be amenable to well-recognised regression techniques. 
+
+Part 1 of the two-step method involves reducing the dimensions of the dataset to be amenable to mixture modelling. Using the outcome of this first step, the non-overlapping groups, Ng's technique for clustering individuals should be compared to Latent Class Analysis which is also a suitable technique for the nature of the data [@RN291]. In supplementary material, NG [-@RN72] compared his two-step method with Latent Profile Analysis and found it inferior to the two-step method. Latent Profile Analysis is a mixture model for continuous indicator variables [@RN291] and would not be suitable for the SPICE-PC dataset. 
+
+\section{Conclusion}\label{sec:clust-conclusion}
+
+A novel two-step method for clustering health conditions and individuals was applied to large, population representative, dataset of administrative primary care data. The method found 10 of the 40 conditions in the dataset did not co-occur with other diseases strongly enough to included in further analysis. Thirty conditions were "clumped" into 13 groups of commonly co-occurring conditions and individuals in the dataset were assigned a score depending on the number of disease within each group they had. From this information nine latent groups of individuals were identified with a finite mixture model. These groups reflected varying degrees of physical, mental and physical/mental multimorbidity and showed sociodemographic patterning. 
+
+

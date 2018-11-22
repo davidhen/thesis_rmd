@@ -24,7 +24,11 @@ output: pdf_document
 
 \includepdf[pages={-}]{data/assets/college-ethics.pdf}
 
-\chapter*{Appendix F. Medicines not included in total counts}\label{app:f}
+\chapter*{Appendix E. Data Sharing agreement}\label{app:f}
+
+\includepdf[pages={-}]{data/assets/DSA-signed.pdf}
+
+\chapter*{Appendix G. Medicines not included in total counts}\label{app:g}
 
 \begin{longtable}{@{}lr@{}}
 \toprule

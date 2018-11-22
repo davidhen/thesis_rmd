@@ -88,7 +88,7 @@ The approval letter for the main thesis project is shown in Appendix D, a fuller
 
 The permissions and linkage of data for this project were completed in advance of the European Union (EU) General Data Protection Regulation (GDPR) coming into effect in May 2018. The information governance was informed by antecendant laws including the Data Protection Act (DPA) (1998). However, as the study period was known to overlap with the implementaion of GDPR, all legal documentation was completed to ensure compliance with the incoming regulation.  
 
-Data sharing and processing can be completed without consent of data subjects as long certain criteria, explicitly named in legislation, are met [@RN276].  For the purposes of this thesis, data processing was completed, without consent, in accordance with three legislative paragraphs:
+Data sharing and processing can be completed without consent of data subjects as long certain criteria, explicitly named in legislation, are met [@RN276].  For the purposes of this thesis fair processing of data was completed, without consent, in accordance with three legislative paragraphs:
 
 \begin{itemize}[noitemsep]
 \item Schedule 2:(6) of the DPA.
@@ -136,7 +136,7 @@ The safe haven enables secure data storage and access via a Virtual Private Netw
 
 \subsubsection{Data sharing agreement}\label{subsec:dsa}
 
-For the purposes of the main linkage project, a three-way data sharing agreement (DSA) between the University of Glasgow, NHS National Services Scotland, and Scottish Ministers (Scottish Government) was signed. This detailed the purpose of data sharing, as well as the transfer, protection, and security of data. The  roles and responsibilites of each organisation in relation to relevant data protection legislation are clearly detailed in the DSA.  
+For the purposes of the main linkage project, a three-way data sharing agreement (DSA) between the University of Glasgow, NHS National Services Scotland, and Scottish Ministers (Scottish Government) was signed. This detailed the purpose of data sharing, as well as the transfer, protection, and security of data. The  roles and responsibilites of each organisation in relation to relevant data protection legislation are clearly detailed in the DSA. (include as appendix??)  
 
 \section{Data Sources for Linkage}\label{sec:sources}
 

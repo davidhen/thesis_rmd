@@ -1,0 +1,33 @@
+---
+output: pdf_document
+---
+
+\chapter{Results - Descriptive statistics}\label{ch:results-1}
+
+
+\section{Introduction}\label{sec:social-care-intro}
+
+Link to chapter \ref{ch:intro} and chapter \ref{ch:lit-review} re aims and research questions. Chapter \ref{ch:methods} for methods
+
+\section{Data Linkage}\label{sec:res-linkage}
+
+Percent matches etc. 
+
+\section{Descriptive data}label{results1-descr}
+
+\subsection{Participants}\label{results1-particp}
+
+Long table
+
+\begin{itemize}[noitemsep]
+\item n
+\item Age - mean, median, range IQR.
+\item Sex
+\item Local Authority
+\item SIMD
+\end{itemize}
+
+\subsection{Age and sex }
+
+
+

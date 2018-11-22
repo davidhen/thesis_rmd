@@ -1,0 +1,82 @@
+---
+output: pdf_document
+---
+
+\chapter{Introduction}\label{ch:intro}
+
+**Revist Burchardt et al**
+
+Integration of health and social care became law in Scotland on 1st April 2016. Reflects patterns across the developing world to restructure health services to cope with demands of an ageing population. 
+
+Social Care of increasing policy (and political) importance. Link to healthcare (and demands on health services) becoming increasingly apparent (increase delayed discharge etc).
+
+This, in part, due to long-term conditions now major burden of global disease (replacing infectious diseases). Large proportions of population have multimorbidity (OECD) which has a number of negative outcomes including mortality and health care use.
+
+Association of multimorbidity and social care use is unknown. 
+
+PhD funding from Scottish Government to assess these topics. (2020 vision and other policy link)
+
+Important part of the funding to link administrative data sources in order to identify the benefit of this process. 
+*Measurement of social (or LTC) is improtant for a number of reseons - OECD(2013) page 18, Care co-ordination (integration) is not measured well pp 76, administrative databases potential to help these problems plus ideas for outcome measures pp 76 & 79, pp81 obstacles to data collection (overcome by data linkage in Soctland??*
+
+(Need WHO policy outlines and other suitable high-level policy docs in this section)
+
+
+Many countries, including the United Kingdom (UK), have recently seen policies implemented that aim to integrate the provision of health and social care services [@RN234; @RN362; @RN262]. In addition to reducing variations in the provision of care across geographic areas, these policies hope to save public money by reducing unplanned admissions and delayed discharges from hospital whilst also improving the quality of services for individuals [@RN232; @RN266; @RN406].
+
+The World Health Organisation [-@RN320] cites relative inequalities in improvements of health and life expectancy, within and between countries, as justification for recommended structural change to healthcare [@RN320]. The paradigm shift in the method of service delivery is suggested in response to increasing long-term, chronic conditions forming the major burden of care worldwide. Integrating health and social care services and increasing primary care spend are cited as two potential ways of facilitating this shift in focus [@RN320].
+
+Policies introduced that facilitate integration of services have been implemented despite little evidence to suggest they will have the desired effect [@RN367; @RN369; @RN234; @RN233; @RN321; @RN362; @RN366; @RN260]. The continued drive to integrate services does, however, implicitly acknowledge that health and social care services are linked. How these services interact at the individual level and whether differing levels of provision in each service affects the other is not well understood [@RN361; @RN406].
+
+Until recently many local authorities had attempted to protect front-line services, such as social care, from austerity cuts [@RN117]. However, given continued year-on-year reductions and a further 7.2% cut to local authority spending in 2016/2017 [@RN251], the ability to protect social care from reductions in spend becomes less likely. Decreased local government budgets across the UK and Scotland since 2010 have affected those living in the poorest areas hardest [@RN117; @RN235]. If social care budgets decrease further, the question of whether the most deprived areas will feel these cuts most is of grave importance.
+
+
+
+
+\section{Aims and Objectives}\label{sec:intro-aims-and-obs}
+
+Does an inverse *social* care law exist? i.e. Does the allocation of resources (via funding formulae) to Local Authorities negatively impact on those areas with higher need? 
+
+Furthermore, does access to social care vary across Local Authorities - is there a "postcode lottery" in terms of service provision i.e. does application of eligibility criteria depend on where you live?  
+
+Is multimorbidity status associated with levels of social care provided within *and* across local authorities? What is the best way to measure multimorbidity? Do clustering techniques offer a better understanding of this phenomenon?
+
+Important to understand how access to social care influences health care use and mortality - do those with multimorbidity and social care have different outcomes from those with multimorbidity and no social care?
+
+The thesis has both substantive and methodological aims. Substantively, it aims to contribute to the debate surrounding health and social care integration by looking specifically at a group that are likely to be regular users of both health and social care services, i.e. those with multimorbidity. Methodologically, the thesis aims to contribute to efforts to improve the exploitation of administrative data as a means to analyse public service performance and effectiveness. 
+
+Aims of the project are:- 
+
+\begin{enumerate}[noitemsep]
+\item Describe and compare social inequalities in the use of social care services using linked health and social care data.
+\item Explore the effects of social care use for those with multimorbidity on 
+\begin{enumerate} 
+\item unscheduled health care use and
+\item mortality. 
+\end{enumerate}
+\end{enumerate}
+
+
+
+The objectives of the project are:-
+
+\begin{enumerate}[noitemsep]
+\item To assess how access to social care services varies for people with multimorbidity, especially by socioeconomic status.  
+\item To assess the impacts of social care service use on health service use and health outcomes for people with multimorbidity, where possible exploiting geographic differences in social care as "natural experiments".
+\item To make recommendations for policy on the future of integration of health and social care services based on these results.
+\item To assess tho what extant measures of multimorbidity and of health and social care service use can be operationalised using existing linked health and social care administrative data.
+\item To make recommendations to policy makers on administrative data collections. 
+\end{enumerate}
+
+
+\section{Scientific contribution}\label{sec:intro-contribution}
+
+Explicit description of what thesis adds to knowledge
+
+\section{Conventions}\label{sec:intro-conventions}
+
+Outline definitions
+
+* Social care refers to Adult social care (with link to subsection \ref{subsec:access-sc-defs})
+* Multimorbidity and morbidity burden as opposed to comorbidity (with link to subsection \ref{subsec:mm-defs})
+
