@@ -23,14 +23,12 @@ The cohort included all individuals in Scotland born before 31st March 1951 and 
 \begin{figure}
   \centering
     \caption{Data linkage diagram}
-    \includegraphics{data/produced_data/linkage-diagram/linkage-diagram.pdf}
+    \includegraphics{figures/chapter-methods/linkage_diagram.png}
     \label{fig:methods-linkage}
 \end{figure}
 \end{landscape}
 
-As figure \ref{fig:methods-linkage} shows, linkage keys from the extracted cohort were sent by an eDRIS coordinator to various health and social care data sources for extraction of information relating to any of these indivudals in the target data source. Specific variables requested, the time period they were requested over, and cleaning and wrangling of these data sources is described in the following section. 
-
-**Figure needs tidied up and should show datasets in same order as following subsections**
+As figure \ref{fig:methods-linkage} shows, linkage keys from the extracted cohort were sent by an eDRIS coordinator to various health and social care data sources for extraction of information relating to any of these individuals in the target data source. Specific variables requested, the time period they were requested over, and cleaning and wrangling of these data sources is described in the following section. 
 
 The aim of cleaning and wrangling was to create one row of data for each indivudal for each financial year (1st April - 31st March) of the study period. This format is based on the principals of tidy data [@RN553].  Financial years were chosen as the time period of interest because the social care survey reports home care usage in a census week which is usually at the end of March. As each raw data file provided was in differing formats, this required differing approaches and relied heavily on data manipulation software packages \texttt{tidyr} v0.7.2 [@RN524], \texttt{dplyr} v0.7.4 [@RN283], \texttt{lubridate} v1.6.0 [@RN522], \texttt{stringr} v1.2.0 [@RN554], \texttt{forcats} v0.2.0 [@RN521], \texttt{data.table} v1.10.4 [@RN555], and \texttt{zoo} v1.8-0 [@RN556] in the R language and environment for statistical computing version 3.4.0 [@RN295] via the Integrated Development Environment RStudio v1.0.143 [@RN498].
 
@@ -140,5 +138,12 @@ Table of variables.
 \subsection{Descriptive statistics}\label{descr}
 
 \subsection{Research question 1}\label{stats-rq1}
+
+$$R^{2}_{McFadden} = 1 - \frac {ln(LM_{1})}{ln(LM_{0})} $$
+
+$ln(LM_{1})$ = log likelihood of fitted model
+$ln(LM_{0})$ = log likelihood of null model (intercept only as predictor)
+
+
 
 \subsection{Research question 2}\label{stats-rq2}
