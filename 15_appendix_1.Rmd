@@ -24,7 +24,7 @@ output: pdf_document
 
 \includepdf[pages={-}]{data/assets/college-ethics.pdf}
 
-\chapter*{Appendix E. Data Sharing agreement}\label{app:f}
+\chapter*{Appendix F. Data Sharing agreement}\label{app:f}
 
 \includepdf[pages={-}]{data/assets/DSA-signed.pdf}
 
