@@ -142,17 +142,6 @@ knitr::opts_knit$set(base.dir = 'chapters/')
 ```{r child = '07_data.Rmd'}
 ```
 
-\FloatBarrier
-\newpage
-
-```{r child = '08_renfrew.Rmd'}
-```
-
-\FloatBarrier
-\newpage
-
-```{r child = '09_methods.Rmd'}
-```
 
 \FloatBarrier
 \newpage
@@ -181,6 +170,12 @@ knitr::opts_knit$set(base.dir = 'chapters/')
 \newpage
 
 ```{r child = '14_conclusion.Rmd'}
+```
+
+\FloatBarrier
+\newpage
+
+```{r child = '08_renfrew.Rmd'}
 ```
 
 

@@ -2,16 +2,50 @@
 output: pdf_document
 ---
 
-\chapter{Results 2}\label{ch:res-2}
-\section{Social care and multimorbidity}\label{sec:sc-mm}
+\chapter{Results 2: Social Care and Multimorbidity}\label{ch:res-2}
 
-\begin{itemize}[noitemsep]
-\item Any SC by number of meds
-\item Hrs homecare by number of meds
-\item Telecare by number of meds
-\item etc.
-\end{itemize}
+\section{Introduction}\label{sec:sc-mm}
 
-\section{Geographic variation in social care}
+Include model formula here
 
-Accounting for MM
+\section{Model for councils with link rate greater than 96\%}\label{sec:96plus}
+
+\subsection{Descriptive statistics}\label{subsec:res2-desc}
+
+Table
+
+\subsection{Goodness of fit}\label{subsec:96plus-gof}
+
+Pseudo $R^{2}$ table
+
+\subsection{Average Marginal Effects}\label{subsec:96plus-AME}
+
+Table and plots
+
+\section{Model for councils with link rate between 92\% and 95.9\%}\label{sec:9296}
+
+\subsection{Descriptive statistics}\label{subsec:9296-desc}
+
+Table
+
+\subsection{Goodness of fit}\label{subsec:9296-gof}
+
+Pseudo $R^{2}$ table
+
+\subsection{Average Marginal Effects}\label{subsec:9296-AME}
+
+Table and plots
+
+\section{Model for councils with link rate between 88\% and 91.9\%}\label{sec:8892}
+
+\subsection{Descriptive statistics}\label{subsec:8892-desc}
+
+Table
+
+\subsection{Goodness of fit}\label{subsec:8892-gof}
+
+Pseudo $R^{2}$ table
+
+\subsection{Average Marginal Effects}\label{subsec:8892-AME}
+
+Table and plots

@@ -4,24 +4,23 @@
 \contentsline {table}{\numberline {2.2}{\ignorespaces Seven stage model of candidacy\relax }}{14}{table.caption.12}
 \contentsline {table}{\numberline {2.3}{\ignorespaces Six channels of middle class advantage\relax }}{19}{table.caption.13}
 \addvspace {10\p@ }
-\addvspace {10\p@ }
-\contentsline {table}{\numberline {4.1}{\ignorespaces Definitions of home care types\relax }}{55}{table.caption.15}
-\contentsline {table}{\numberline {4.2}{\ignorespaces Number of records at each stage of data cleaning\relax }}{59}{table.caption.17}
-\contentsline {table}{\numberline {4.3}{\ignorespaces Variation in the number of individuals receiving home care\relax }}{62}{table.caption.24}
-\contentsline {table}{\numberline {4.4}{\ignorespaces Count of individuals with packages captured by census\relax }}{64}{table.caption.25}
-\contentsline {table}{\numberline {4.5}{\ignorespaces Regression models of package intensity\relax }}{67}{table.4.5}
-\contentsline {table}{\numberline {4.6}{\ignorespaces Regression models of package duration\relax }}{74}{table.4.6}
-\contentsline {table}{\numberline {4.7}{\ignorespaces Variation in net difference of total hours of homecare by care type\relax }}{80}{table.caption.32}
-\contentsline {table}{\numberline {4.8}{\ignorespaces Regression models of net difference in total hours of care by home care type\relax }}{81}{table.caption.35}
-\contentsline {table}{\numberline {4.9}{\ignorespaces Proportion of individuals captured by census and hypothetical multi-census in each financial year\relax }}{82}{table.caption.36}
-\addvspace {10\p@ }
-\contentsline {table}{\numberline {5.1}{\ignorespaces Demographic file data\relax }}{89}{table.caption.38}
-\contentsline {table}{\numberline {5.2}{\ignorespaces Social Care Survey file data\relax }}{91}{table.caption.39}
-\contentsline {table}{\numberline {5.3}{\ignorespaces Data cleaning of PIS file\relax }}{91}{table.caption.40}
-\contentsline {table}{\numberline {5.4}{\ignorespaces Description of cleaned PIS file\relax }}{92}{table.caption.41}
-\contentsline {table}{\numberline {5.5}{\ignorespaces Description of cleaned USC file\relax }}{93}{table.caption.42}
+\contentsline {table}{\numberline {3.1}{\ignorespaces Demographic file data\relax }}{54}{table.caption.16}
+\contentsline {table}{\numberline {3.2}{\ignorespaces Social Care Survey file data\relax }}{56}{table.caption.17}
+\contentsline {table}{\numberline {3.3}{\ignorespaces Data cleaning of PIS file\relax }}{56}{table.caption.18}
+\contentsline {table}{\numberline {3.4}{\ignorespaces Description of cleaned PIS file\relax }}{57}{table.caption.19}
+\contentsline {table}{\numberline {3.5}{\ignorespaces Description of cleaned USC file\relax }}{58}{table.caption.20}
 \addvspace {10\p@ }
 \addvspace {10\p@ }
 \addvspace {10\p@ }
 \addvspace {10\p@ }
 \addvspace {10\p@ }
+\addvspace {10\p@ }
+\contentsline {table}{\numberline {9.1}{\ignorespaces Definitions of home care types\relax }}{68}{table.caption.21}
+\contentsline {table}{\numberline {9.2}{\ignorespaces Number of records at each stage of data cleaning\relax }}{72}{table.caption.23}
+\contentsline {table}{\numberline {9.3}{\ignorespaces Variation in the number of individuals receiving home care\relax }}{75}{table.caption.30}
+\contentsline {table}{\numberline {9.4}{\ignorespaces Count of individuals with packages captured by census\relax }}{77}{table.caption.31}
+\contentsline {table}{\numberline {9.5}{\ignorespaces Regression models of package intensity\relax }}{80}{table.9.5}
+\contentsline {table}{\numberline {9.6}{\ignorespaces Regression models of package duration\relax }}{87}{table.9.6}
+\contentsline {table}{\numberline {9.7}{\ignorespaces Variation in net difference of total hours of homecare by care type\relax }}{93}{table.caption.38}
+\contentsline {table}{\numberline {9.8}{\ignorespaces Regression models of net difference in total hours of care by home care type\relax }}{94}{table.caption.41}
+\contentsline {table}{\numberline {9.9}{\ignorespaces Proportion of individuals captured by census and hypothetical multi-census in each financial year\relax }}{95}{table.caption.42}

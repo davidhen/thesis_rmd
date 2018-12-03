@@ -53,7 +53,7 @@ knitr::opts_chunk$set(fig.path = 'figures/', echo = FALSE,
 \FloatBarrier
 \newpage
 
-```{r child = 'data.Rmd'}
+```{r child = '07_data.Rmd'}
 ```
 
 #References
