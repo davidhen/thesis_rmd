@@ -4,12 +4,27 @@ output: pdf_document
 
 \chapter{Discussion}\label{ch:discussion}
 
-The aim of this thesis was 1, 2, 3.
+\section{Main outomes}\label{sec:disc-main-points}
 
-I have found 1, 2, 3.
+* The aim of this thesis was 1, 2, 3.  
+* I have found 1, 2, 3.  
+* This was limited by a, b, c (Need to talk about measures chosen, especially the meds MM measure and how I counted meds, here.)   
+* Compare to past research
+* Implications are d, e, f  
+* Future research should g, h, i
 
-This was limited by a, b, c
+\section{Social Care data}\label{sec:disc-sc-data}
 
-Implications are d, e, f
+Discuss quality and collection of SCS
 
-Future research should g, h, i
+What is good/bad - What have I learned?
+
+\section{Administrative Data Research}\label{sec:disc-admin-data}
+
+Difficulties encountered
+
+* Timeframe!!
+* Safe Haven (software upgrade etc.)
+* Benefits
+
+
