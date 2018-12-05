@@ -43,7 +43,7 @@ The linkage project described in this thesis was completed with the assistance o
 
 \subsubsection{electronic Data and Research Innovation Service}\label{subsec:edris}
 
-ISD is a subdivision of NHS NSS [@RN324]. NSS is a national NHS board in its own right and works with the other NHS boards, particularly the 14 geographic health boards, to provide centralised services such as; procurement, legal support, IT, and public health intelligence [@RN473]. As a division of NSS, ISD provides, among other things, support for the latter two of these services [@RN324]. This includes administering the large number of databases containing information on health service use in Scotland varying from maternity & births, to cancer services [@RN324]. ISD held databases used in this thesis, the Prescribing Information System and Urgent Care Data Mart, are described more fully in sections \ref{subsec:source-pis} and \ref{subsec:source-ucd}.
+ISD is a subdivision of NHS NSS [@RN324]. NSS is a national NHS board in its own right and works with the other NHS boards, particularly the 14 geographic health boards, to provide centralised services such as; procurement, legal support, IT, and public health intelligence [@RN473]. As a division of NSS, ISD provides, among other things, support for the latter two of these services [@RN324]. This includes administering the large number of databases containing information on health service use in Scotland varying from maternity & births, to cancer services [@RN324]. ISD held databases used in this thesis, the Prescribing Information System and Unscheduled Care Data Mart, are described more fully in sections \ref{subsec:source-pis} and \ref{subsec:source-ucd}.
 
 eDRIS is part of ISD and provides services under SILC [@RN481]. It is detailed specifically with assisting research using health administrative datasets. Researchers using the eDRIS service have a named research assistant who provides advice on; data sources, study design, the information governance approvals system, access to the safe haven environment, and review of analysis outputs to ensure disclosive information cannot be inferred [@RN324]. 
 
@@ -172,9 +172,9 @@ NRS also collates the register of deaths which includes details of every death i
 
 The Prescribing information system (PIS) contains all community prescribed medicines for every individual in Scotland from 2009 onwards. Data is collected to provide payment to community pharmacies for the medicines dispensed to the population. The data base can be linked to health sources via the Community Health Index (CHI) number. A full description of the PIS database and its applicability to research has been published by Alvarez-Madrazo et al [-@RN236]. 
 
-\subsection{Urgent Care Data}\label{subsec:source-ucd}
+\subsection{Unscheduled Care Data}\label{subsec:source-ucd}
 
-The Urgent Care Data Mart (UCD) is a database collated by ISD for the purpose of understanding a patient journey through emergency and urgent care services [@RN528]. It is a linkage of routine health data from a number of sources controlled by ISD: NHS24 telephone triage service, Scottish Ambulance Service (SAS), primary care out-of-hours services (PC OOH), Accident & Emergency (A & E), acute emergency inpatient admissions (both general and mental health), and deaths. Data is available from 2011 with the exception of PC OOH data which is available from 2014. CHI numbers are available on all records. 
+The Unscheduled Care Data Mart (UCD) is a database collated by ISD for the purpose of understanding a patient journey through emergency and urgent care services [@RN528]. It is a linkage of routine health data from a number of sources controlled by ISD: NHS24 telephone triage service, Scottish Ambulance Service (SAS), primary care out-of-hours services (PC OOH), Accident & Emergency (A & E), acute emergency inpatient admissions (both general and mental health), and deaths. Data is available from 2011 with the exception of PC OOH data which is available from 2014. CHI numbers are available on all records. 
 
 Continuous Urgent Care Pathways (CUPs) are calculated that join together records from each of these sources that occur within 24 hrs of each other (or for services occurring within 48hrs of an acute emergency admission)[@RN528]. Details of all variables listed in UCD are available in the background paper published by ISD [-@RN528]. In addition to service use, UCD flags presence of any of 14 long-term health conditions in any of the above datasets and, additionally, any acute admission from 1981 onwards.  
 
@@ -354,22 +354,49 @@ For the same reasons that age values were not shown in every year of data, value
 
 A further 1,832,443 observations were then removed from the data frame. These observations were for years of data where indivudals were either: (a) under 65 years of age (the cohort comprised indivudals over 65 or \emph{turning} 65 during the study period), (b) resident in the Clackmannanshire local authority area (linkage rates of the social care survey to the indexing spine were too low to be reliable in this council. (See section \ref{sec:linkage} for details), or (c) contained unscheduled care data for financial year 2017/18 which was well beyond the study period. 
 
-Home care values > 168 described in section \ref{subsubsec:scs-summs}, 
+Exploratory data analysis revealed three data quality issues that required further observartions to be dropped from the data frame. Firstly, as described in section \ref{subsubsec:scs-summs}, 168 observations contained implausible values for weekly hours of home care (>168 hrs). These had not been removed as whilst cleaning the social care file so were dropped here. Secondly, calculating average age for each individual revealed 8,808 observations with a null value. Further inspection of these observations identified each individual had only one observation and had died before their 65th birthday. The inclusion criteria for the cohort stated individuals should be "born before 31st March 1951 and alive during the study period 1st April 2011 to 31st March 2016". This meant, for example, an indivudal born on Christmas day 1949 and dying at age 64 on Christmas day 2013 was extracted as part of the cohort data. These observations were also dropped from the parent data frame. Finally, 23 rows of data were found to have implausible values for SIMD decile. These observations were from individuals living in either the Shetland Islands or Na h-Eileanan Siar which only have datazones in 5 deciles making values outwith these deciles impossible.  
 
+Whilst the study period had been defined as 1st April 2011 to 31st March 2016 some data files contained observations outwith this period. These 1,695,602 observations were maintained for exploratory analysis but were dropped for final analysis. Thus, the final parent dataframe used for all reported analyses contained 4,519,255 observations. 
+
+Derived grouping variables were created for age group (5 year bands), repeat medicines group (4 groups of similar size: 0-2, 3-5, 6-8, and over 9 repeat medicines), and linkage group (grouping councils that had linkage rates (described in section \ref{sec:linkage} within 4% of each other e.g. 96-99.9%, 92-95.9% etc.)
 
 \FloatBarrier
 
 \section{Statistical methods}\label{sec:methods-stats}
 
-\subsection{Descriptive statistics}\label{descr}
-
 \subsection{Research question 1}\label{stats-rq1}
 
+To address the question of how multimorbidity plus sociodemographic and geographic factors influence the utilisation of social care, logistic regression models were fitted seperately to each financial year of data. The dependent variable in these models was receipt of any form of social care, measured by presence or not in the social care survey. Independent variables and interaction terms were added incrementally to assess impact on model fit which was measured by McFadden's pseudo $R^2$ [@RN561] calculated by the formula
+
 $$R^{2}_{McFadden} = 1 - \frac {ln(LM_{1})}{ln(LM_{0})} $$
-$ln(LM_{1})$ = log likelihood of fitted model \newline
-$ln(LM_{0})$ = log likelihood of null model (intercept only as predictor)
+Where:
 
+$ln(LM_{1})$ = log likelihood of the fitted model and:\newline
+$ln(LM_{0})$ = log likelihood of the null model (with intercept only as a predictor).
 
+McFadden's $R^2$ values are not analagous with $R^2$ values calculated from linear models. Instead, values of 0.2 - 0.4 represent an excellent model fit [@RN562,p35; @RN560,p55]. 
+
+The final models included sex, age group, repeat medicines group, SIMD decile of residence, and local authority of residence as independent variables. Interaction terms were fitted between: sex \& age group, age group \& repeat medicines group, SIMD decile \& repeat medicines group, and SIMD decile \& local authority of residence. Exploratory models had revealed a linear effect of SIMD decile on receipt of social care thus, given the complexity of interaction terms and subsequent computational requirement, SIMD was fitted as a continuous term in the final models. As different local authorities had differing linkage rates from the social care survey to the NRS population spine (section \ref{sec:linkage}), seperate models were fitted including councils with similar linkage rates. For the purposes of this thesis, only councils with a high linkage rate of either 92-95.9% or 96-99.9% were included in  models. This meant, overall, two models were fitted seperately to five individual years of data resulting in 10 final models. 
+
+With the exception of SIMD decile, all independent variables were categorical in nature with a number interaction terms fitted as described above. As such, misinterpretation of coefficients in the logisitic regression model (either as odds-ratios or probabilities) was more likely [@RN563; @RN564; @RN565]. Therefore, estimated effects are reported as average partial effects (APEs) described by Mood [-@RN563, p75] with the formula  
+
+$$\frac{1}{n}\sum_{i = 1}^n\beta_{x_1}f(\beta_{x_i})$$
+Where: \newline
+$\beta_{x_1}$ = the log odds-ratio for variable $x_{1}$, \newline
+$\beta_{x_i}$ = the value of the logit for the $i$-th observation, and \newline
+$f(\beta_{x_i})$ = the probability distribution function of the logistic distribution with regard to $\beta_{x_i}$
+
+The effect estimate describes the average marginal effect (AME) at a specific value of $x_1$. Williams [-@RN566,p325] provides an intuitive example of how APEs are calculated and interpreted which has been adapted to reflect the fitted model and uses the "sex" variable as an example here
+
+* Go to the first case. Treat that observation as if they were male regardless of actual sex. Leave other values of independent variables at their observed value. Compute the probability of receiving social care with the fitted model (including interaction terms).
+* Repeat, but change the value of sex to female.
+* The difference in the two probabilities is the partial (marginal) effect for that case.
+* Repeat for every observation in the data.
+* Compute the average of all the partial effects. This gives the APE for being female.
+
+As Williams [-@RN566] observes, this has the effect of comparing hypothetical populations - one female, one male - with the same observed values for other explanatory variables in the model. The only differences between these hypothetical populations is their sex with the estimate describing the differences in the probability of them receiving social care. 
+
+Where categorical variables have more than one value (e.g. age group), the APE describes the average difference in the probability between the observed value and the reference value for that variable (in the case of age group the reference value is 65-69 years of age). Reporting APEs has the advantage that effects can be compared across groups, across samples, and across models [@RN563]. APEs were calculated with standard errors and 95% confidence intervals using the R package \texttt{margins} v.0.3.23 [@RN567]. 
 
 \subsection{Research question 2}\label{stats-rq2}
 
