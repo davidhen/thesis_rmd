@@ -4,24 +4,25 @@
 \contentsline {table}{\numberline {2.2}{\ignorespaces Seven stage model of candidacy\relax }}{14}{table.caption.12}
 \contentsline {table}{\numberline {2.3}{\ignorespaces Six channels of middle class advantage\relax }}{19}{table.caption.13}
 \addvspace {10\p@ }
-\contentsline {table}{\numberline {3.1}{\ignorespaces Demographic file data\relax }}{54}{table.caption.16}
-\contentsline {table}{\numberline {3.2}{\ignorespaces Social Care Survey file data\relax }}{55}{table.caption.17}
-\contentsline {table}{\numberline {3.3}{\ignorespaces Data cleaning of PIS file\relax }}{56}{table.caption.18}
-\contentsline {table}{\numberline {3.4}{\ignorespaces Description of cleaned PIS file\relax }}{57}{table.caption.19}
-\contentsline {table}{\numberline {3.5}{\ignorespaces Description of cleaned USC file\relax }}{57}{table.caption.20}
-\contentsline {table}{\numberline {3.6}{\ignorespaces Joining files together and cleaning process\relax }}{58}{table.caption.21}
+\contentsline {table}{\numberline {3.1}{\ignorespaces Local authority linkage rates to NRS population spine\relax }}{53}{table.caption.15}
+\contentsline {table}{\numberline {3.2}{\ignorespaces Demographic file data\relax }}{56}{table.caption.17}
+\contentsline {table}{\numberline {3.3}{\ignorespaces Social Care Survey file data\relax }}{57}{table.caption.18}
+\contentsline {table}{\numberline {3.4}{\ignorespaces Data cleaning of PIS file\relax }}{58}{table.caption.19}
+\contentsline {table}{\numberline {3.5}{\ignorespaces Description of cleaned PIS file\relax }}{59}{table.caption.20}
+\contentsline {table}{\numberline {3.6}{\ignorespaces Description of cleaned USC file\relax }}{59}{table.caption.21}
+\contentsline {table}{\numberline {3.7}{\ignorespaces Joining files together and cleaning process\relax }}{60}{table.caption.22}
 \addvspace {10\p@ }
 \addvspace {10\p@ }
 \addvspace {10\p@ }
 \addvspace {10\p@ }
 \addvspace {10\p@ }
 \addvspace {10\p@ }
-\contentsline {table}{\numberline {9.1}{\ignorespaces Definitions of home care types\relax }}{72}{table.caption.22}
-\contentsline {table}{\numberline {9.2}{\ignorespaces Number of records at each stage of data cleaning\relax }}{76}{table.caption.24}
-\contentsline {table}{\numberline {9.3}{\ignorespaces Variation in the number of individuals receiving home care\relax }}{79}{table.caption.31}
-\contentsline {table}{\numberline {9.4}{\ignorespaces Count of individuals with packages captured by census\relax }}{81}{table.caption.32}
-\contentsline {table}{\numberline {9.5}{\ignorespaces Regression models of package intensity\relax }}{84}{table.9.5}
-\contentsline {table}{\numberline {9.6}{\ignorespaces Regression models of package duration\relax }}{91}{table.9.6}
-\contentsline {table}{\numberline {9.7}{\ignorespaces Variation in net difference of total hours of homecare by care type\relax }}{97}{table.caption.39}
-\contentsline {table}{\numberline {9.8}{\ignorespaces Regression models of net difference in total hours of care by home care type\relax }}{98}{table.caption.42}
-\contentsline {table}{\numberline {9.9}{\ignorespaces Proportion of individuals captured by census and hypothetical multi-census in each financial year\relax }}{99}{table.caption.43}
+\contentsline {table}{\numberline {9.1}{\ignorespaces Definitions of home care types\relax }}{74}{table.caption.23}
+\contentsline {table}{\numberline {9.2}{\ignorespaces Number of records at each stage of data cleaning\relax }}{78}{table.caption.25}
+\contentsline {table}{\numberline {9.3}{\ignorespaces Variation in the number of individuals receiving home care\relax }}{81}{table.caption.32}
+\contentsline {table}{\numberline {9.4}{\ignorespaces Count of individuals with packages captured by census\relax }}{83}{table.caption.33}
+\contentsline {table}{\numberline {9.5}{\ignorespaces Regression models of package intensity\relax }}{86}{table.9.5}
+\contentsline {table}{\numberline {9.6}{\ignorespaces Regression models of package duration\relax }}{93}{table.9.6}
+\contentsline {table}{\numberline {9.7}{\ignorespaces Variation in net difference of total hours of homecare by care type\relax }}{99}{table.caption.40}
+\contentsline {table}{\numberline {9.8}{\ignorespaces Regression models of net difference in total hours of care by home care type\relax }}{100}{table.caption.43}
+\contentsline {table}{\numberline {9.9}{\ignorespaces Proportion of individuals captured by census and hypothetical multi-census in each financial year\relax }}{101}{table.caption.44}

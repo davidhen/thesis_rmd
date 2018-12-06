@@ -15,7 +15,8 @@ output: pdf_document
 
 \section{Social Care data}\label{sec:disc-sc-data}
 
-Discuss quality and collection of SCS
+Discuss quality and collection of SCS (place this nationally/internationally) 
+Is there good sc data anywhere???
 
 What is good/bad - What have I learned?
 
