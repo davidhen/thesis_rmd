@@ -5,7 +5,7 @@ date: "6 December 2018"
 output: html_document
 ---
 
-```{r timeline, message=FALSE, warning=FALSE, fig.height=4, fig.width=10}
+```{r timeline, message=FALSE, warning=FALSE}
 library(ggplot2)
 library(dplyr)
 library(ggalt)
@@ -21,30 +21,46 @@ data <- tribble( ~start_date, ~event, ~displ,
                 ymd(20160315), "1st year review", -0.5,
                 ymd(20160524), "Ethical Approval", 0.5,
                 ymd(20160712), "RAC approval", 0.3,
-                ymd(20160831), "HSCAD confirms will link SCS", 0.15,
+                ymd(20160831), "HSCAD confirms will match SCS to spine", 0.15,
                 ymd(20170208), "Ethical approval",-0.9,
                 ymd(20170210), "RAC approval", -0.7,
+                ymd(20170315), "2nd year review", 0.05,
                 ymd(20170906), "DSA signed", 0.5,
                 ymd(20170921), "Data available", 0.3,
                 ymd(20180227), "1st draft analysis complete", 0.3,
+                ymd(20180315), "3rd year review", 0.7,
                 ymd(20161118), "RAC submission", -1.1,
                 ymd(20170404), "PBPP submission", -0.5,
                 ymd(20170505), "PBPP approval", -0.3,
+                ymd(20170630), "SCS matched to population spine", -1,
                 ymd(20160429), "RAC submission", 0.7,
                 ymd(20171122), "Health data available", -0.9,
                 ymd(20171213), "DSA signed", -0.7,
-                ymd(20180221), "SCS available", -0.3)
+                ymd(20180221), "SCS available", -0.3,
+                ymd(20180831), "Data cleaning completed", -1,
+                ymd(20181130), "Social Care modelling completed", -0.8,
+                ymd(20181231), "USC modelling completed", -0.6,
+                ymd(20190115), "Analysis completed", 0.5)
 
 
 #Function to shift x-axis to 0 taken from https://stackoverflow.com/questions/39071002/moving-x-or-y-axis-together-with-tick-labels-to-the-middle-of-a-single-ggplot-n
 
 shift_axis <- function(p, xmin, xmax, y=0){
+  
   g <- ggplotGrob(p)
+  
   dummy <- data.frame(y=y)
+  
   ax <- g[["grobs"]][g$layout$name == "axis-b"][[1]]
-  p + annotation_custom(grid::grobTree(ax, vp = grid::viewport(y=1, height=sum(ax$height))), 
-                        ymax=y, ymin=y) +
-    annotate("segment", y = 0, yend = 0, x = xmin, xend = xmax, 
+  
+  p + annotation_custom(
+    grid::grobTree(ax,
+                   vp = grid::viewport(y=1, 
+                                       height=sum(ax$height))), 
+    ymax=y, ymin=y) +
+    annotate("segment",
+             y = 0, yend = 0, 
+             x = xmin, xend = xmax, 
              arrow = arrow(length = unit(0.1, "inches"))) +
     theme(axis.text.x = element_blank(),
           axis.ticks.x = element_blank())
@@ -57,16 +73,22 @@ vjust = ifelse(data$displ > 0, -1, 1.5)
 cond_colour <- 
   case_when(data$start_date == "2015-10-01" | 
               data$start_date == "2016-03-15" |
-              data$start_date == "2016-08-31" ~ "black",
+              data$start_date == "2016-08-31" |
+              data$start_date == "2017-03-15" |
+              data$start_date == "2018-03-15" ~ "black",
             data$start_date == "2017-02-08" |
               data$start_date == "2017-02-10" |
               data$start_date == "2016-11-18" |
               data$start_date == "2017-04-04" | 
               data$start_date == "2017-05-05" |
+              data$start_date == "2017-06-30" |
               data$start_date == "2017-11-22" |
               data$start_date == "2017-12-13" |
-              data$start_date == "2018-02-21" ~ "blue", 
-    TRUE ~ "red")
+              data$start_date == "2018-02-21" |
+              data$start_date == "2018-08-31" |
+              data$start_date == "2018-11-30" |
+              data$start_date == "2018-12-31" ~ "#4477AA", 
+    TRUE ~ "#CC6677")
 
 
 
@@ -74,35 +96,52 @@ cond_colour <-
 #plot
 p1 <- data %>% 
   ggplot(aes(start_date, displ)) +
-  geom_lollipop(point.size = 2, point.colour = cond_colour) +
-  geom_text(aes(x = start_date, y = displ, label = event), data = data,
-            hjust = 0, vjust = vjust, size = 3) +
+  geom_lollipop(point.size = 2, 
+                point.colour = cond_colour) +
+  geom_text(aes(
+    x = start_date,
+    y = displ, 
+    label = event), 
+    data = data,
+    hjust = 0, 
+    vjust = vjust,
+    size = 3) +
   theme(axis.title = element_blank(),
         axis.text.y = element_blank(),
         axis.ticks.y = element_blank(),
         axis.line = element_blank(),
         axis.text.x = element_text(size = 7),
-        panel.grid = element_blank()) +
-  expand_limits(x = c(ymd(20151201), ymd(20190301)), y = c(1.2, -1.2)) +
-  scale_x_date(breaks = scales::pretty_breaks(n = 12))
+        panel.grid = element_blank(),
+        plot.caption = element_text(size = 8)) +
+  expand_limits(x = c(ymd(20151201), ymd(20190701)), 
+                y = c(1.2, -1.2)) +
+  scale_x_date(breaks = scales::date_breaks(width = "3 month"),
+               labels = scales::date_format(format = "%Y-%b")) + 
+  annotate("text",
+           x = ymd(20160201), 
+           y = -1, 
+           label = "Renfrewshire Project", 
+           colour = "#CC6677") +
+  annotate("text", 
+           x = ymd(20160201), 
+           y = -1.2,  
+           label = "Main Project", 
+           colour = "#4477AA") +
+  labs(caption = "RAC = Research Approvals Committee\nPBPP = Public Benefit and Privacy Panel\nDSA = Data Sharing Agreement\nHSCAD = Health & Social Care Analysis Division") 
 
 #and run the function from above
-timeline <- shift_axis(p1, ymd(20151001), ymd(20190401))
-timeline <- timeline + 
-  annotate("text", x = ymd(20160201), y = -1, label = "Renfrewshire Project", colour = "red") +
-  annotate("text", x = ymd(20160201), y = -1.2,   label = "Main Project", colour = "blue")
+timeline <- shift_axis(p1, ymd(20151001), ymd(20190701)) 
 
-timeline +
-  labs(caption = "RAC = Research Approvals Committee\nPBPP = Public Benefit and Privacy Panel\nDSA = Data Sharing Agreement\nHSCAD = Health & Social Care Analysis Division") +
-  theme(plot.caption = element_text(size = 8))
-
-rm(list = c("data", "p1", "timeline", "vjust", "shift_axis", "table", "cond_colour"))
+rm(list = c("data", "p1", "vjust", "shift_axis", "table", "cond_colour"))
 ```
 
 
 
 
-
+```{r plot, fig.height=4, fig.width=10}
+ggplot2::ggsave("/GitHub/thesis_rmd/data/produced_data/methods-chpt/timeline.png",
+               timeline, height = 4, width = 10, dpi = 600)
+```
 
 
 

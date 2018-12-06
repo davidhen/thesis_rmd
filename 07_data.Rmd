@@ -442,7 +442,12 @@ Likely to be the same as above so may not need a seperate section but some addit
 
 \section{Timeline}\label{sec:timeline}
 
-
+\begin{figure}[h]
+  \centering
+    \caption{Timeline of Thesis project}
+    \includegraphics{data/produced_data/methods-chpt/timeline.png}
+    \label{fig:timeline}
+\end{figure}
 
 \section{Conclusion}\label{sec:data-conclusion}
 
