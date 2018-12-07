@@ -18,7 +18,7 @@ library(lubridate)
 data <- tribble( ~start_date, ~event, ~displ,
                 ymd(20151001), "PhD Starts", 0.4,
                 ymd(20160201), "Initial meeting with Renfrewshire", 1,
-                ymd(20160315), "1st year review", -0.5,
+                ymd(20160315), "1st year review", 0.85,
                 ymd(20160524), "Ethical Approval", 0.5,
                 ymd(20160712), "RAC approval", 0.3,
                 ymd(20160831), "HSCAD confirms will match SCS to spine", 0.15,
@@ -37,10 +37,12 @@ data <- tribble( ~start_date, ~event, ~displ,
                 ymd(20171122), "Health data available", -0.9,
                 ymd(20171213), "DSA signed", -0.7,
                 ymd(20180221), "SCS available", -0.3,
+                ymd(20180930), "PhD submission due", 1,
                 ymd(20180831), "Data cleaning completed", -1,
                 ymd(20181130), "Social Care modelling completed", -0.8,
-                ymd(20181231), "USC modelling completed", -0.6,
-                ymd(20190115), "Analysis completed", 0.5)
+                ymd(20181231), "USC modelling completed(!)", -0.6,
+                ymd(20190115), "Analysis completed(!)", 0.5,
+                ymd(20190228), "PhD submitted(!)", 0.3)
 
 
 #Function to shift x-axis to 0 taken from https://stackoverflow.com/questions/39071002/moving-x-or-y-axis-together-with-tick-labels-to-the-middle-of-a-single-ggplot-n
@@ -75,7 +77,9 @@ cond_colour <-
               data$start_date == "2016-03-15" |
               data$start_date == "2016-08-31" |
               data$start_date == "2017-03-15" |
-              data$start_date == "2018-03-15" ~ "black",
+              data$start_date == "2018-03-15" |
+              data$start_date == "2018-09-30" |
+              data$start_date == "2019-02-28" ~ "black",
             data$start_date == "2017-02-08" |
               data$start_date == "2017-02-10" |
               data$start_date == "2016-11-18" |
