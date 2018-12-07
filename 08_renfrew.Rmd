@@ -4,6 +4,7 @@ bibliography: thesis.bib
 ---
 
 \chapter[Renfrewshire Council Exploratory Project]{Renfrewshire Council \\ Exploratory Project}\label{ch:renfrew}
+\thispagestyle{empty}
 
 \section{Introduction}\label{renf-intro}
 
@@ -25,8 +26,6 @@ More recent versions of the SCS collect information on home care (such as person
 
 \begin{table}[]
 \centering
-\caption{Definitions of home care types}
-\label{tab:renf-homecaredefs}
 \resizebox{\textwidth}{!}{%
 \begin{tabular}{@{}ll@{}}
 \toprule
@@ -40,6 +39,8 @@ Housing Support & \\ \midrule
 Overnight Services & \\ \bottomrule
 \end{tabular}%
 }
+\caption{Definitions of home care types}
+\label{tab:renf-homecaredefs}
 \end{table}
 
 \FloatBarrier
@@ -64,8 +65,8 @@ Following academic and ethical approval the process of obtaining a data sharing 
 
 \begin{figure}[h]
   \centering
-    \caption{Timeline of Renfrewshire exploratory project}
     \includegraphics{figures/chapter-renf/renf-timeline.png}
+    \caption{Timeline of Renfrewshire exploratory project}
     \label{fig:ren-timeline}
 \end{figure}
 
@@ -112,8 +113,6 @@ After data cleaning, information on 41,002 packages of home care received by 10,
 
 \begin{table}[h]
 \centering
-\caption{Number of records at each stage of data cleaning}
-\label{tab:renf-cleaning}
 \begin{threeparttable}
 \begin{tabular}{@{}lr@{}}
 \toprule
@@ -127,14 +126,16 @@ Packages of non-zero hours of care & 28,775             \\ \bottomrule
 \item[1] Total number of individuals = 10,310
 \end{tablenotes}
 \end{threeparttable}
+\caption{Number of records at each stage of data cleaning}
+\label{tab:renf-cleaning}
 \end{table}
 
 Mean age of those included in the analysis was 80.8 years and median age was 81. Sixty-four percent of individuals (n = 6,515) were female. Detailed breakdown of age and gender groups is shown in figure \ref{fig:ren-age-gen}. The highest absolute numbers of individuals are found in the 76-85 age group. Statistical disclosure control meant that grouping an additional age group for over 95s was not possible.
 
 \begin{figure}[]
   \centering
-    \caption{Count and proportion of indidividuals receiving home care by age and gender}
     \includegraphics[height = 10cm]{figures/chapter-renf/01-age-gender-ts-subset.png}
+    \caption{Count and proportion of indidividuals receiving home care by age and gender}
     \label{fig:ren-age-gen}
 \end{figure}
 
@@ -142,8 +143,8 @@ Seventy-eight percent of home care packages (n=22,484) were provided for "Care a
 
 \begin{figure}[]
   \centering
-    \caption{Count and proportion of home care type}
     \includegraphics[height = 10cm]{figures/chapter-renf/03-pack-plot}
+    \caption{Count and proportion of home care type}
     \label{fig:ren-type}
 \end{figure}
 
@@ -151,16 +152,16 @@ Almost two-thirds of home care packages in the study period provided care at int
 
 \begin{figure}[]
   \centering
-    \caption{Count of packages of care by intensity}
     \includegraphics[height = 10cm]{figures/chapter-renf/04-hrs-plot-ts-subset.png}
+    \caption{Count of packages of care by intensity}
     \label{fig:ren-hrs}
 \end{figure}
 
 
 \begin{figure}[]
   \centering
-    \caption{Count of packages of care by duration}
     \includegraphics[height = 10cm]{figures/chapter-renf/05-duration-plot.png}
+    \caption{Count of packages of care by duration}
     \label{fig:ren-duration}
 \end{figure}
 
@@ -173,8 +174,8 @@ Table \ref{tab:renf-ts-summary} and figure \ref{fig:renf-hrs} show the variation
 
 \begin{figure}[h]
   \centering
-    \caption{Variation in the number of individuals receiving home care}
     \includegraphics{figures/chapter-renf/06-individual-weekly-variation.png}
+    \caption{Variation in the number of individuals receiving home care}
     \label{fig:renf-hrs}
 \end{figure}
 
@@ -182,8 +183,6 @@ Figure \ref{fig:renf-hrs} and table \ref{tab:renf-ts-summary} also indicate that
 
 \begin{table}[]
 \centering
-\caption{Variation in the number of individuals receiving home care}
-\label{tab:renf-ts-summary}
 \resizebox{\textwidth}{!}{%
 \begin{tabular}{@{}lrrrrrrrrrr@{}}
 \toprule
@@ -200,6 +199,8 @@ Figure \ref{fig:renf-hrs} and table \ref{tab:renf-ts-summary} also indicate that
 \textbf{2015/16} & 1545 & 1609 & 1582.60 & 13.27 & 1580 & 64 & 21 & 2881 & 1392 & 51.68 \\ \bottomrule
 \end{tabular}%
 }
+\caption{Variation in the number of individuals receiving home care}
+\label{tab:renf-ts-summary}
 \end{table}
 
  
@@ -212,8 +213,6 @@ Table \ref{tab:renf-cens-indi-count} shows the number of individuals with at lea
 
 \begin{table}[]
 \centering
-\caption{Count of individuals with packages captured by census}
-\label{tab:renf-cens-indi-count}
 \begin{tabular}{@{}lrr@{}}
 \toprule
 \textbf{Financial Year} & \textbf{\begin{tabular}[c]{@{}r@{}}Individuals with zero\\ packages captured by \\ census (n)\end{tabular}} & \textbf{\begin{tabular}[c]{@{}r@{}}Individuals with at\\ least one package \\ captured by census (n)\end{tabular}} \\ \midrule
@@ -223,6 +222,8 @@ Table \ref{tab:renf-cens-indi-count} shows the number of individuals with at lea
 \textbf{2013/14} & 1080 (41.7\%) & 1513 (58.3\%) \\
 \textbf{2014/15} & 1138 (41.4\%) & 1614 (58.6\%) \\ \bottomrule
 \end{tabular}
+\caption{Count of individuals with packages captured by census}
+\label{tab:renf-cens-indi-count}
 \end{table}
 
 
@@ -231,8 +232,8 @@ As shown in figure \ref{fig:renf-prop-plot-age}, there is very little difference
 
 \begin{figure}[]
   \centering
-    \caption{Proportion of individuals receiving home care}
     \includegraphics{figures/chapter-renf/12a-prop-plot-age.png}
+    \caption{Proportion of individuals receiving home care}
     \label{fig:renf-prop-plot-age}
 \end{figure}
 
@@ -241,8 +242,8 @@ Figure \ref{fig:renf-prop-plot} shows that there are similar proportions of indi
 
 \begin{figure}[]
   \centering
-    \caption{Proportion of individuals receiving home care}
     \includegraphics{figures/chapter-renf/12c-census-prop-plot.png}
+    \caption{Proportion of individuals receiving home care}
     \label{fig:renf-prop-plot}
 \end{figure}
 
@@ -257,9 +258,9 @@ This trend is shown in table \ref{tab:renf-regr-inten} which shows the intercept
 
 \begin{figure}[h]
   \centering
+    \includegraphics{figures/chapter-renf/14-inten.png}
     \caption{Variation in intensity of home care}
     {\scriptsize outlying points removed to avoid disclosure}
-    \includegraphics{figures/chapter-renf/14-inten.png}
     \label{fig:renf-inten}
 \end{figure}
 
@@ -394,9 +395,9 @@ Table \ref{tab:renf-regr-inten} also shows the results of the same linear regres
 
 \begin{figure}[]
   \centering
+    \includegraphics{figures/chapter-renf/16-type-inten.png}
     \caption{Variation in intensity of home care - by type}
     {\scriptsize outlying points removed to avoid disclosure}
-    \includegraphics{figures/chapter-renf/16-type-inten.png}
     \label{fig:renf-intensity-type}
 \end{figure}
 
@@ -409,9 +410,9 @@ Intercept values in table \ref{tab:renf-regr-duration} gradually decrease over t
 
 \begin{figure}[h]
   \centering
+    \includegraphics{figures/chapter-renf/17-duration.png}
     \caption{Variation in duration of home care}
     {\scriptsize outlying points removed to avoid disclosure}
-    \includegraphics{figures/chapter-renf/17-duration.png}
     \label{fig:renf-duration}
 \end{figure}
 
@@ -544,9 +545,9 @@ Intercept values in table \ref{tab:renf-regr-duration} gradually decrease over t
 
 \begin{figure}[]
   \centering
+    \includegraphics{figures/chapter-renf/19-dur-type-plot.png}
     \caption{Variation in duration of home care by care type}
     {\scriptsize outlying points removed to avoid disclosure}
-    \includegraphics{figures/chapter-renf/19-dur-type-plot.png}
     \label{fig:renf-dur-type}
 \end{figure}
 
@@ -562,8 +563,6 @@ The remaining individuals see larger negative values for the net difference in t
 
 \begin{table}[h]
 \centering
-\caption{Variation in net difference of total hours of homecare by care type}
-\label{tab:renf-net-diff}
 \resizebox{\textwidth}{!}{%
 \begin{threeparttable}
 \begin{tabular}{@{}llrrrrrrrr@{}}
@@ -590,21 +589,21 @@ The remaining individuals see larger negative values for the net difference in t
 \end{tablenotes}
 \end{threeparttable}%
 }
+\caption{Variation in net difference of total hours of homecare by care type}
+\label{tab:renf-net-diff}
 \end{table}
 
 
 \begin{figure}[]
   \centering
+    \includegraphics[]{figures/chapter-renf/10-net-diff-plot.png}
     \caption{Variation in net difference of total hours of care by care type}
     {\scriptsize outlying points removed to avoid disclosure}
-    \includegraphics[]{figures/chapter-renf/10-net-diff-plot.png}
     \label{fig:renf-net-diff}
 \end{figure}
 
 \begin{table}[]
 \centering
-\caption{Regression models of net difference in total hours of care by home care type}
-\label{tab:renf-net-diff-regr}
 \begin{tabular}{@{}llrrrr@{}}
 \toprule
 \textbf{\begin{tabular}[c]{@{}l@{}}Financial\\ Year\end{tabular}} & \textbf{} & \textbf{estimate} & \textbf{std.error} & \textbf{statistic} & \textbf{p value} \\ \midrule
@@ -624,6 +623,8 @@ The remaining individuals see larger negative values for the net difference in t
  & Rapid Response & -2.3576 & 0.9476 & -2.4879 & \textless{}0.05 \\
  & Reablement & -3.5078 & 0.6194 & -5.6627 & \textless{}0.05 \\ \bottomrule
 \end{tabular}
+\caption{Regression models of net difference in total hours of care by home care type}
+\label{tab:renf-net-diff-regr}
 \end{table}
 
 
@@ -632,8 +633,6 @@ The remaining individuals see larger negative values for the net difference in t
 
 \begin{table}[h]
 \centering
-\caption{Proportion of individuals captured by census and hypothetical multi-census in each financial year}
-\label{tab:renf-multi-census}
 \resizebox{\textwidth}{!}{%
 \begin{tabular}{@{}lccccc@{}}
 \toprule
@@ -650,6 +649,8 @@ The remaining individuals see larger negative values for the net difference in t
 \textbf{Mean}  & 2418 & 59.0 & 72.5 (13.5) & 79.9 (20.9) & 83.2 (24.2) \\ \bottomrule
 \end{tabular}%
 }
+\caption{Proportion of individuals captured by census and hypothetical multi-census in each financial year}
+\label{tab:renf-multi-census}
 \end{table}
 
 Table \ref{tab:renf-multi-census} shows the percentage of the total number of individuals receiving home care in each financial year that would be captured if six-monthly, four monthly, or three-monthly census had been conducted and the increases these would signify. A bi-annual census would have captured an average of 72.5% of individuals that received home care during the study period - an average increase of 13.5% from the census. Tri-annual census collection would have captured an average 79.9% of individuals (average increase of 20.9%) whilst a quarterly census collection would have captured an average 83.2% of individuals (average increase of 24.2%). 

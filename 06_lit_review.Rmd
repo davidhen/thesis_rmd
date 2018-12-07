@@ -3,7 +3,7 @@ output: pdf_document
 ---
 
 \chapter{Literature Review}\label{ch:lit-review}
-
+\thispagestyle{empty}
 \section{Introduction}\label{sec:lit-review-intro}
 
 This chapter identifies and summarises academic and policy literature relevant to the thesis. Literature regarding a) access to social care, b) health and social care interaction and c) multimorbidity is presented. As the main research is conducted with Scottish data, there is appropriate focus in the structures and policies regarding health and social care in this country. However, this is placed in the wider context of the UK and developed world. 
@@ -85,8 +85,6 @@ In a report for the OECD, Colombo et al [-@RN414] categorised the varying models
 
 \begin{table}[h]
   \centering
-  \caption{Models of social care in OECD countries adapted from Colombo et al (2011)}
-  \label{tab:oecd-soc-care}
   \scalebox{0.7}{
     \begin{threeparttable}
       \begin{tabular}{@{}ll@{}}
@@ -108,6 +106,8 @@ In a report for the OECD, Colombo et al [-@RN414] categorised the varying models
       \end{tablenotes}
   \end{threeparttable}
   }
+  \caption{Models of social care in OECD countries adapted from Colombo et al (2011)}
+  \label{tab:oecd-soc-care}
 \end{table}
 
 Universal models of social care are characterised by; a) a single system being in place for delivery of services, b) nursing \textit{and} personal care are provided for all individuals meeting defined eligibility criteria, and c) some form of charge is levied on service-users [@RN414]. Three subdivisions of universal coverage social care models are identified in this classification. 
@@ -137,9 +137,9 @@ A recent examination of the effects of the 2008 financial crisis on the way soci
 
 \begin{figure}[h]
   \centering
-  \caption{Older recipients of long-term care services as a share of the over 65 population, 2008}
-  \label{fig:oecd-comparison}
     \includegraphics[width=0.8\textwidth]{figures/chapter-lit-review/oecd-comparison.PNG}
+    \caption{Older recipients of long-term care services as a share of the over 65 population, 2008}
+    \label{fig:oecd-comparison}
 \end{figure}
 
 Given the marked variations in how social care is funded and delivered across countries, it may be expected that there are also marked variations in levels of access and utilisation. Colombo et al [-@RN414] produced a chart (shown in figure \ref{fig:oecd-comparison}) derived from OECD data that shows the proportion of over 65s receiving some form of social care across countries for which data is provided. The chart shows that having a universal or mixed system of social care provision (as described above) does not absolutely influence the number of people receiving care. For example, South Korea employs a universal (insurance-based) system and has one of the lowest proportions of older people receiving care, whereas Switzerland has one of the highest whilst employing a mixed system involving some universal and some means-tested benefits. This suggests that allocation of resources and eligibility criteria set within countries, as well as informal care, are likely to be more important in determining access to formal social care than any particular system of care delivery. 
@@ -167,8 +167,6 @@ The theory argues that there are a number of social and cultural factors that co
 
 \begin{table}[h]
 \centering
-\caption{Seven stage model of candidacy}
-\label{tab:candidacy}
 \resizebox{\textwidth}{!}{%
 \begin{tabular}{@{}ll@{}}
 \toprule
@@ -182,6 +180,8 @@ Permeability of services & \begin{tabular}[c]{@{}l@{}}Includes the level of expl
 \begin{tabular}[c]{@{}l@{}}Operating conditions and local \\ production of candidacy\end{tabular} & \begin{tabular}[c]{@{}l@{}}Incorporates factors that influence decision about future service provision \\ (e.g. resources) and the relationship that develops between service users and \\ professionals over a number of encounters\end{tabular} \\ \bottomrule
 \end{tabular}%
 }
+\caption{Seven stage model of candidacy}
+\label{tab:candidacy}
 \end{table}
 
 This is a much broader theory than that of street-level bureaucracy and focusses on the barriers and enablers individuals face/use when accessing services but in other respects it is trying to do the same thing - exploting how front-line interactions shape outcomes. \textit{Do previous authors make this point? Seems obvious for them to have considered how their frameworks relate. Is it true to say that candidacy brings the service user’s subjectivity into the picture (albeit constrained) as well as that of the bureaucrat? - NB} It could be argued that candidacy includes the concept of street-level bureaucracy in the third, fifth, and sixth stages of the model shown in table \ref{tab:candidacy}. "professional decision making" and "offers of and resistance to services" are areas where an interface between a service user and service professional takes place - much like the interactions described by Lipsky. 
@@ -233,8 +233,6 @@ Understanding why there are differences in resource allocation for different typ
 
 \begin{table}[h]
   \centering
-    \caption{Six channels of middle class advantage}
-    \label{tab:gal}
     \resizebox{\textwidth}{!}{%
       \begin{threeparttable}
         \begin{tabular}[t]{ll}
@@ -252,6 +250,8 @@ Understanding why there are differences in resource allocation for different typ
     \end{tablenotes}
 \end{threeparttable}
 }
+\caption{Six channels of middle class advantage}
+\label{tab:gal}
 \end{table}
 
 These six "channels" conceptualise the modes of how and why welfare spending in certain areas appears to benefit more affluent groups. In their study investigating street-cleansing services, Hastings et al [-@RN116] observed the influence of middle class capture and some of the channels of advantage described in table \ref{tab:gal} suggesting the theories of Le Grand [-@RN175], described above, and Tudor-Hart, described below, should not be discounted.

@@ -10,7 +10,7 @@ csl: harvard-cite-them-right.csl
 urlcolor: black
 linkcolor: black
 fontsize: 12pt
-geometry: top = 1.8cm, bottom = 1.8cm, left = 1.5cm, right = 1.5cm, margin = 2.5cm
+geometry: top = 1.8cm, bottom = 1.8cm, left = 4cm, right = 1.5cm
 header-includes:
 - \usepackage[section]{placeins}
 - \usepackage{caption}

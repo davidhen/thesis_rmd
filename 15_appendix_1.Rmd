@@ -5,23 +5,23 @@ output: pdf_document
 \begin{appendices}
 
 \chapter*{Appendix A. Main linkage RAC approval}\label{app:a}
-
+\thispagestyle{empty}
 \includepdf[pages={-}]{data/assets/main-proj-rac.pdf}
 
 \chapter*{Appendix B. Main linkage. Ethical approval}\label{app:b}
-
+\thispagestyle{empty}
 \includepdf[pages={-}]{data/assets/college-ethics.pdf}
 
 \chapter*{Appendix C. Main linkage PBPP approval}\label{app:c}
-
+\thispagestyle{empty}
 \includepdf[pages={-}]{data/assets/pbpp.pdf}
 
 \chapter*{Appendix D. Data Sharing agreement}\label{app:d}
-
+\thispagestyle{empty}
 \includepdf[pages={-}]{data/assets/DSA-signed.pdf}
 
 \chapter*{Appendix E. Medicines not included in total counts}\label{app:e}
-
+\thispagestyle{empty}
 \begin{longtable}{@{}lr@{}}
 \toprule
 Medicine Name & BNF subsection \\* \midrule
@@ -239,11 +239,11 @@ MULTIVITAMINS & 09.10.00 \\* \bottomrule
 \end{longtable}
 
 \chapter*{Appendix F. Renfrewshire pilot. UBDC RAC approval}\label{app:f}
-
+\thispagestyle{empty}
 \includepdf[pages={-}]{data/assets/renf-rac.pdf}
 
 \chapter*{Appendix G. Renfrewshire pilot. Ethical approval}\label{app:g}
-
+\thispagestyle{empty}
 \includepdf[pages={-}]{data/assets/renf-ethics.pdf}
 
 \end{appendices}

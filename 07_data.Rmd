@@ -3,6 +3,7 @@ output: pdf_document
 ---
 
 \chapter{Methods}\label{ch:data}
+\thispagestyle{empty}
 
 This chapter outlines the process of obtaining administrative data suitable to answer the thesis research questions and has seven sections. Firstly, a brief description of administrative data linkage research and its associated advantages and disadvantages are discussed. The following section provides a detailed description of the strict information governance protocols required including: the infrastructure used, the approvals process, and the legal framework enabling the research to take place. Thirdly, a thorough description of the data sources used in analysis is provided outlining their source, reasons for collection, and any known quality issues. In the fourth section, the process of probabilistically matching personal identifiers from the Social Care Survey to a research population spine is described. This process enabled the linkage of social and health care data sources. The fifth section describes how the study cohort was created including the data wrangling procedures necessary to join together data from disparate sources. The penultimate section outlines the statistical methods applied to the data in order to answer the thesis research questions. Finally, An illustrated timeline depicting the major stages of the overall project is displayed with a brief description.  
 
@@ -188,8 +189,6 @@ Of the remaining 31 local authorities, 17 returned date-of-birth data where a di
 Using this approach an overall linkage rate of 91.2% for 31 local authorities (removing Clackmannanshire) was achieved to the population spine. Sensitivity analysis revealed fairly consistent match rates across age, sex, and SIMD deciles. However, there was much more variation in match rates at the local authority level which ranged from 76.7% to 97.9% as shown in table \ref{tab:linkage-rates}. 
 
 \begin{table}[]
-\caption{Local authority linkage rates to NRS population spine}
-\label{tab:linkage-rates}
 \begin{tabular}{lr}
 \hline
 \textbf{Local Authority} & \textbf{\begin{tabular}[c]{@{}r@{}}Linkage rate of SCS records to \\ NRS population spine (\%)\end{tabular}} \\ \hline
@@ -225,6 +224,8 @@ Midlothian & 80.1 \\
 Highland & 79.2 \\
 North Lanarkshire & 76.7 \\ \hline
 \end{tabular}
+\caption{Local authority linkage rates to NRS population spine}
+\label{tab:linkage-rates}
 \end{table}
 
 The variation in linkage rates indicates non-random missing data for SCS data derived from population spine indexes. This makes comparison of receipt of social care across local authority areas complex and a national comparison is not possible. One potential way of creating meaningful comparisons is to create sub-groups  of local authorities by similar match rates and compare receipt of care within these sub-groups. 
@@ -239,10 +240,11 @@ The aim of cleaning and wrangling was to create one row of data for each individ
 
 
 \begin{landscape}
+\thispagestyle{empty}
 \begin{figure}
   \centering
-    \caption{Data linkage diagram}
     \includegraphics{figures/chapter-methods/linkage_diagram.png}
+    \caption{Data linkage diagram}
     \label{fig:methods-linkage}
 \end{figure}
 \end{landscape}
@@ -258,8 +260,6 @@ The number of observations, individuals, and the differing variables in this raw
 
 \begin{table}[h]
 \centering
-\caption{Demographic file data}
-\label{tab:demos}
 \resizebox{\textwidth}{!}{%
 \begin{tabular}{@{}lll@{}}
 \toprule
@@ -267,6 +267,8 @@ Number of rows & Number of individuals & Variables \\ \midrule
 1,348,310 & 1,134,445 & \begin{tabular}[c]{@{}l@{}}Index, year/month of birth, year/month of death\\ Sex, Address start date, Address end date, Care home flag,\\ Previous Local Authority, Current Local Authority, \\ Current Health Board, SIMD decile\end{tabular} \\ \bottomrule
 \end{tabular}%
 }
+\caption{Demographic file data}
+\label{tab:demos}
 \end{table}
 
 As the table indicates, some individuals had more than one row of information indicating multiple addresses during the study period (and thus potential multiple values for local, authority, health board, care home flag, and SIMD decile). To overcome this, financial year time intervals were created using the \texttt{lubridate} R package [@RN522]. Dummy variables were then created indicating the age, local authority of residence, health board of residence, and SIMD decile during each financial year (with null values where not applicable). The variables were then gathered to long format in order to reshape the data to include one row of data per individual per financial year. Where an individual had multiple addresses during one financial year, the most recent value for local authority, health board, and SIMD decile was used. This resulted in a data frame of 7,775,410 observations pertaining to 1,134,445 individuals. 
@@ -285,8 +287,6 @@ Assessment for duplicated rows indicated 4,357 individuals had more than one row
 
 
 \begin{table}[]
-\caption{Social Care Survey file data}
-\label{tab:scs-vars}
 \resizebox{\textwidth}{!}{%
 \begin{tabular}{@{}lllll@{}}
 \toprule
@@ -294,6 +294,8 @@ Number of rows & Number of individuals & Included variables & Derived variables 
 663,809 & 227,345 & \begin{tabular}[c]{@{}l@{}}1. Index (ID)\\ 2. Living alone\\ 3. Community Alarm\\ 4. Other telecare\end{tabular} & \begin{tabular}[c]{@{}l@{}}1. Total weekly hours of home care\\ 2. Home care hours group (e.g 1-5, 6-10 etc.)\\ 3. Alarm or Telecare flag\end{tabular} & \begin{tabular}[c]{@{}l@{}}1. Client Group\\ 2. Eligibility Category\\ 3. Housing Support\\ 4. Multi Staffing\\ 5. Scheduled Hours\\ 6. Actual Hours\end{tabular} \\ \bottomrule
 \end{tabular}%
 }
+\caption{Social Care Survey file data}
+\label{tab:scs-vars}
 \end{table}
 \FloatBarrier
 
@@ -305,8 +307,6 @@ The count of medicines was based on the BNF classes included in a count of polyp
 
 \begin{table}[h]
 \centering
-\caption{Data cleaning of PIS file}
-\label{tab:dropped-meds}
 \begin{tabular}{@{}lll@{}}
 \toprule
 Reasons & Records dropped & Records remaining \\ \midrule
@@ -315,19 +315,21 @@ Coding errors & 138,973 & 134,238,904 \\
 Did not appear in Guthrie et al (2012) table & 1,427,643 & 132,811,261 \\
 BNF sections 3.9.1, 3.9.2, \& 13.9 & 645,900 & 132,165,361 \\ \bottomrule
 \end{tabular}
+\caption{Data cleaning of PIS file}
+\label{tab:dropped-meds}
 \end{table}
 
 A summary measure for each individual was created counting the total number of repeat medicines prescribed in each financial year. To be eligible in the count, a medicine had to be prescribed in at least 2 quarters of each financial year. This meant one-off prescriptions, such as antibiotics for a transient infection, were not included in the overall count. A separate count was conducted for individuals who died in the first quarter of each financial year (and thus unable to have medicines prescribed in two quarters). The total number of unique medicines prescribed in the first quarter was used for these individuals. Each participant could thus have a maximum of 6 observations, one for each financial year. A second count was created totalling the number of chapters of the BNF that each individual had medicines prescribed from as a crude measure of body systems being treated. Table \ref{tab:PIS-clean} shows the total observations and variables in the cleaned PIS file. 
 
 \begin{table}[h]
 \centering
-\caption{Description of cleaned PIS file}
-\label{tab:PIS-clean}
 \begin{tabular}{@{}lll@{}}
 \toprule
 Number or rows & Number of individuals & Variables \\ \midrule
 5,501,820 & 1,066,395 & \begin{tabular}[c]{@{}l@{}}1. Index (id)\\ 2. Financial Year\\ 3. Total medicines (n)\\ 4. Total chapters (n)\end{tabular} \\ \bottomrule
 \end{tabular}
+\caption{Description of cleaned PIS file}
+\label{tab:PIS-clean}
 \end{table}
 
 \FloatBarrier
@@ -338,13 +340,13 @@ Unscheduled care information for all individuals included in the cohort was extr
 In a similar fashion to the wrangling conducted with demographics data, dummy variables were created indicating if each observation occurred within specified financial years during the study period. This enabled data to be reshaped to a long format with individuals having one or multiple rows of data for each financial year. To create one observation per individual per year, data with information on each CUP was nested within a data frame as a list column (described by Wickham & Grolemund [-@RN557, ch.20]). With data in this format, summary measures were derived by applying functions to the list column utilising the \texttt{purrr} R package [@RN523]. Derived information included counts of total USC episodes, acute admissions to hospital, A & E attendances, and total number of long-term conditions identified from admissions and A & E data. The format of the cleaned UCD data frame is described in table \ref{tab:USC-clean}
 
 \begin{table}[h]
-\caption{Description of cleaned USC file}
-\label{tab:USC-clean}
 \begin{tabular}{@{}lll@{}}
 \toprule
 Number of rows & Number of individuals & \multicolumn{1}{c}{Variables} \\ \midrule
 1,951,755 & 845,516 & \begin{tabular}[c]{@{}l@{}}1. Index (id)\\ 2. Year\\ 3. USC episodes (n)\\ 4. Acute admissions (n)\\ 5. A \& E attendances (n)\\ 6. Long-term conditions (n)\end{tabular}\\ \bottomrule
 \end{tabular}
+\caption{Description of cleaned USC file}
+\label{tab:USC-clean}
 \end{table}
 
 Data were available beyond the study period ending 31st March 2016. Records outside this end date were dropped when this file was joined with the other sources of data which is described in the next section. 
@@ -360,8 +362,6 @@ Following cleaning and formatting of each individual file, further wrangling was
 With all study data now in one data frame, further cleaning and tidying was required. This was an iterative process. As initial descriptive and statistical analysis was completed, identification of errors and data quality issues required repetition of the joining process to address these issues. This process is now described with a summary provided in table \ref{tab:joining}.
 
 \begin{table}[h]
-\caption{Joining files together and cleaning process}
-\label{tab:joining}
 \resizebox{\textwidth}{!}{%
 \begin{tabular}{lrr}
 \hline
@@ -380,6 +380,8 @@ Implausible SIMD value & 23 & 6,214,857 \\
 Data from years 2010/11 OR 2016/17 & 1,695,602 & 4,519,255 \\ \hline
 \end{tabular}%
 }
+\caption{Joining files together and cleaning process}
+\label{tab:joining}
 \end{table}
 
 Once all files had been joined together the parent data frame contained 8,094,256 observations. As there were discrepancies over time periods for which data was provided in different files, the calculation of age from the demographic file was not always present for all years of data (e.g. where demographic data was returned for the years 2015-2018 and PIS data was available from 2011-2018). To overcome this, age was recalculated from the pseudo date-of-birth (described in section \ref{subsubsec:nrs-summs}) for all financial years. Where an individual died during a financial year, the age variable was left empty which required additional rows to be added in some cases. 
@@ -444,8 +446,8 @@ Likely to be the same as above so may not need a separate section but some addit
 
 \begin{figure}[h]
   \centering
-    \caption{Timeline of Thesis project}
     \includegraphics{data/produced_data/methods-chpt/timeline.png}
+    \caption{Timeline of Thesis project}
     \label{fig:timeline}
 \end{figure}
 

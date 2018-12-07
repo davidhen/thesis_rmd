@@ -3,31 +3,16 @@ output: pdf_document
 ---
 
 \chapter{Results - Descriptive statistics}\label{ch:results-1}
+\thispagestyle{empty}
 
-
-\section{Introduction}\label{sec:social-care-intro}
-
-Link to chapter \ref{ch:intro} and chapter \ref{ch:lit-review} re aims and research questions. Chapter \ref{ch:methods} for methods
-
-\section{Data Linkage}\label{sec:res-linkage}
-
-Percent matches etc. 
-
-\section{Descriptive data}label{results1-descr}
+\section{Descriptive statistics}label{results1-descr}
 
 \subsection{Participants}\label{results1-particp}
 
-Long table
+Table \ref{tab:results-cohorttab} describes the cohort with regard to important sociodemographic and service use characteristics. In total the cohort consisted of 1,100,668 indivuidals. The table shows how the absolute number of indivudals in the cohort gradually increased by 53,429 over the study period. The percentage of indivudals who died in each year ranged from 4.1% - 4.7%. 
 
-\begin{itemize}[noitemsep]
-\item n
-\item Age - mean, median, range IQR.
-\item Sex
-\item Local Authority
-\item SIMD
-\end{itemize}
 
-\subsection{Age and sex }
+\subsection{Age and sex}
 
 
 

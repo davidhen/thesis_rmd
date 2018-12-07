@@ -3,7 +3,7 @@ output: pdf_document
 ---
 
 \chapter{Methods}\label{ch:methods}
-
+\thispagestyle{empty}
 \section{Making social care data available for linkage}\label{sec:linkage}
 
 Describe method of matching SCS to Population Spine

@@ -3,7 +3,7 @@ output: pdf_document
 ---
 
 \chapter{Results 2: Social Care and Multimorbidity}\label{ch:res-2}
-
+\thispagestyle{empty}
 \section{Introduction}\label{sec:sc-mm}
 
 Include model formula here

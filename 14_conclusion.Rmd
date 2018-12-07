@@ -3,7 +3,7 @@ output: pdf_document
 ---
 
 \chapter{Conclusion}\label{ch:conclusion}
-
+\thispagestyle{empty}
 
 Reccomendations :- 
 \begin{itemize}

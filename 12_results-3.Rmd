@@ -3,7 +3,7 @@ output: pdf_document
 ---
 
 \chapter{Results 3}\label{ch:res-3}
-
+\thispagestyle{empty}
 \section{Social care, multimorbidity, and unscheduled health care use}
 
 \begin{itemize}[noitemsep]

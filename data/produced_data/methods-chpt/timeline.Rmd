@@ -109,14 +109,14 @@ p1 <- data %>%
     data = data,
     hjust = 0, 
     vjust = vjust,
-    size = 3) +
+    size = 3.2) +
   theme(axis.title = element_blank(),
         axis.text.y = element_blank(),
         axis.ticks.y = element_blank(),
         axis.line = element_blank(),
-        axis.text.x = element_text(size = 7),
+        axis.text.x = element_text(size = 8),
         panel.grid = element_blank(),
-        plot.caption = element_text(size = 8)) +
+        plot.caption = element_text(size = 10)) +
   expand_limits(x = c(ymd(20151201), ymd(20190701)), 
                 y = c(1.2, -1.2)) +
   scale_x_date(breaks = scales::date_breaks(width = "3 month"),

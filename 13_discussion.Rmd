@@ -3,7 +3,7 @@ output: pdf_document
 ---
 
 \chapter{Discussion}\label{ch:discussion}
-
+\thispagestyle{empty}
 \section{Main outomes}\label{sec:disc-main-points}
 
 * The aim of this thesis was 1, 2, 3.  

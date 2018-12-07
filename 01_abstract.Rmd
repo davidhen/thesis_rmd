@@ -2,5 +2,7 @@
 output: pdf_document
 ---
 
+\thispagestyle{empty}
+
 Blad de Blah blah blah. I may play about with centering and italicised styles here
 
