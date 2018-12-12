@@ -69,48 +69,48 @@
 \contentsline {section}{\numberline {4.1}Descriptive statistics}{79}{section.4.1}
 \contentsline {subsection}{\numberline {4.1.1}Participants}{79}{subsection.4.1.1}
 \contentsline {subsection}{\numberline {4.1.2}Age and sex}{79}{subsection.4.1.2}
-\contentsline {chapter}{\numberline {5}Results 2: Social Care and Multimorbidity}{80}{chapter.5}
-\contentsline {section}{\numberline {5.1}Introduction}{80}{section.5.1}
-\contentsline {section}{\numberline {5.2}Model for councils with link rate greater than 96\%}{80}{section.5.2}
-\contentsline {subsection}{\numberline {5.2.1}Descriptive statistics}{80}{subsection.5.2.1}
-\contentsline {subsection}{\numberline {5.2.2}Goodness of fit}{80}{subsection.5.2.2}
-\contentsline {subsection}{\numberline {5.2.3}Average Marginal Effects}{80}{subsection.5.2.3}
-\contentsline {section}{\numberline {5.3}Model for councils with link rate between 92\% and 95.9\%}{81}{section.5.3}
-\contentsline {subsection}{\numberline {5.3.1}Descriptive statistics}{81}{subsection.5.3.1}
-\contentsline {subsection}{\numberline {5.3.2}Goodness of fit}{81}{subsection.5.3.2}
-\contentsline {subsection}{\numberline {5.3.3}Average Marginal Effects}{81}{subsection.5.3.3}
-\contentsline {section}{\numberline {5.4}Model for councils with link rate between 88\% and 91.9\%}{81}{section.5.4}
-\contentsline {subsection}{\numberline {5.4.1}Descriptive statistics}{81}{subsection.5.4.1}
-\contentsline {subsection}{\numberline {5.4.2}Goodness of fit}{81}{subsection.5.4.2}
-\contentsline {subsection}{\numberline {5.4.3}Average Marginal Effects}{81}{subsection.5.4.3}
-\contentsline {chapter}{\numberline {6}Results 3}{82}{chapter.6}
-\contentsline {section}{\numberline {6.1}Social care, multimorbidity, and unscheduled health care use}{82}{section.6.1}
-\contentsline {chapter}{\numberline {7}Discussion}{83}{chapter.7}
-\contentsline {section}{\numberline {7.1}Main outomes}{83}{section.7.1}
-\contentsline {section}{\numberline {7.2}Social Care data}{83}{section.7.2}
-\contentsline {section}{\numberline {7.3}Administrative Data Research}{83}{section.7.3}
-\contentsline {chapter}{\numberline {8}Conclusion}{85}{chapter.8}
-\contentsline {chapter}{\numberline {9}Renfrewshire Council Exploratory Project}{86}{chapter.9}
-\contentsline {section}{\numberline {9.1}Introduction}{86}{section.9.1}
-\contentsline {section}{\numberline {9.2}Background}{87}{section.9.2}
-\contentsline {subsection}{\numberline {9.2.1}Research Questions}{88}{subsection.9.2.1}
-\contentsline {section}{\numberline {9.3}Methods}{89}{section.9.3}
-\contentsline {subsection}{\numberline {9.3.1}Project approvals and timeline}{89}{subsection.9.3.1}
-\contentsline {subsection}{\numberline {9.3.2}Data}{89}{subsection.9.3.2}
-\contentsline {subsection}{\numberline {9.3.3}Analysis}{90}{subsection.9.3.3}
-\contentsline {section}{\numberline {9.4}Results}{92}{section.9.4}
-\contentsline {subsection}{\numberline {9.4.1}Descriptive statistics}{92}{subsection.9.4.1}
-\contentsline {subsection}{\numberline {9.4.2}Distribution of individuals receiving home care}{95}{subsection.9.4.2}
-\contentsline {subsection}{\numberline {9.4.3}Comparison of individuals with/without any packages in the census}{96}{subsection.9.4.3}
-\contentsline {subsection}{\numberline {9.4.4}Comparison of package intensity for individuals with/without any packages in the census}{98}{subsection.9.4.4}
-\contentsline {subsection}{\numberline {9.4.5}Comparison of package duration for individuals with/without any packages in the census}{106}{subsection.9.4.5}
-\contentsline {subsection}{\numberline {9.4.6}Variation in care packages captured by census}{113}{subsection.9.4.6}
-\contentsline {subsection}{\numberline {9.4.7}Multi-census}{115}{subsection.9.4.7}
-\contentsline {section}{\numberline {9.5}Discussion}{115}{section.9.5}
-\contentsline {subsection}{\numberline {9.5.1}Findings}{115}{subsection.9.5.1}
-\contentsline {subsection}{\numberline {9.5.2}Limitations}{117}{subsection.9.5.2}
-\contentsline {subsection}{\numberline {9.5.3}Implications}{117}{subsection.9.5.3}
-\contentsline {subsection}{\numberline {9.5.4}Future work}{118}{subsection.9.5.4}
-\contentsline {section}{\numberline {9.6}Conclusion}{118}{section.9.6}
-\contentsline {chapter}{Appendices}{120}{section*.46}
-\contentsline {chapter}{References}{153}{chapter*.54}
+\contentsline {chapter}{\numberline {5}Results 2: Social Care and Multimorbidity}{81}{chapter.5}
+\contentsline {section}{\numberline {5.1}Introduction}{81}{section.5.1}
+\contentsline {section}{\numberline {5.2}Model for councils with link rate greater than 96\%}{81}{section.5.2}
+\contentsline {subsection}{\numberline {5.2.1}Descriptive statistics}{81}{subsection.5.2.1}
+\contentsline {subsection}{\numberline {5.2.2}Goodness of fit}{81}{subsection.5.2.2}
+\contentsline {subsection}{\numberline {5.2.3}Average Marginal Effects}{81}{subsection.5.2.3}
+\contentsline {section}{\numberline {5.3}Model for councils with link rate between 92\% and 95.9\%}{82}{section.5.3}
+\contentsline {subsection}{\numberline {5.3.1}Descriptive statistics}{82}{subsection.5.3.1}
+\contentsline {subsection}{\numberline {5.3.2}Goodness of fit}{82}{subsection.5.3.2}
+\contentsline {subsection}{\numberline {5.3.3}Average Marginal Effects}{82}{subsection.5.3.3}
+\contentsline {section}{\numberline {5.4}Model for councils with link rate between 88\% and 91.9\%}{82}{section.5.4}
+\contentsline {subsection}{\numberline {5.4.1}Descriptive statistics}{82}{subsection.5.4.1}
+\contentsline {subsection}{\numberline {5.4.2}Goodness of fit}{82}{subsection.5.4.2}
+\contentsline {subsection}{\numberline {5.4.3}Average Marginal Effects}{82}{subsection.5.4.3}
+\contentsline {chapter}{\numberline {6}Results 3}{83}{chapter.6}
+\contentsline {section}{\numberline {6.1}Social care, multimorbidity, and unscheduled health care use}{83}{section.6.1}
+\contentsline {chapter}{\numberline {7}Discussion}{84}{chapter.7}
+\contentsline {section}{\numberline {7.1}Main outomes}{84}{section.7.1}
+\contentsline {section}{\numberline {7.2}Social Care data}{84}{section.7.2}
+\contentsline {section}{\numberline {7.3}Administrative Data Research}{84}{section.7.3}
+\contentsline {chapter}{\numberline {8}Conclusion}{86}{chapter.8}
+\contentsline {chapter}{\numberline {9}Renfrewshire Council Exploratory Project}{87}{chapter.9}
+\contentsline {section}{\numberline {9.1}Introduction}{87}{section.9.1}
+\contentsline {section}{\numberline {9.2}Background}{88}{section.9.2}
+\contentsline {subsection}{\numberline {9.2.1}Research Questions}{89}{subsection.9.2.1}
+\contentsline {section}{\numberline {9.3}Methods}{90}{section.9.3}
+\contentsline {subsection}{\numberline {9.3.1}Project approvals and timeline}{90}{subsection.9.3.1}
+\contentsline {subsection}{\numberline {9.3.2}Data}{90}{subsection.9.3.2}
+\contentsline {subsection}{\numberline {9.3.3}Analysis}{91}{subsection.9.3.3}
+\contentsline {section}{\numberline {9.4}Results}{93}{section.9.4}
+\contentsline {subsection}{\numberline {9.4.1}Descriptive statistics}{93}{subsection.9.4.1}
+\contentsline {subsection}{\numberline {9.4.2}Distribution of individuals receiving home care}{96}{subsection.9.4.2}
+\contentsline {subsection}{\numberline {9.4.3}Comparison of individuals with/without any packages in the census}{97}{subsection.9.4.3}
+\contentsline {subsection}{\numberline {9.4.4}Comparison of package intensity for individuals with/without any packages in the census}{99}{subsection.9.4.4}
+\contentsline {subsection}{\numberline {9.4.5}Comparison of package duration for individuals with/without any packages in the census}{107}{subsection.9.4.5}
+\contentsline {subsection}{\numberline {9.4.6}Variation in care packages captured by census}{114}{subsection.9.4.6}
+\contentsline {subsection}{\numberline {9.4.7}Multi-census}{116}{subsection.9.4.7}
+\contentsline {section}{\numberline {9.5}Discussion}{116}{section.9.5}
+\contentsline {subsection}{\numberline {9.5.1}Findings}{116}{subsection.9.5.1}
+\contentsline {subsection}{\numberline {9.5.2}Limitations}{118}{subsection.9.5.2}
+\contentsline {subsection}{\numberline {9.5.3}Implications}{118}{subsection.9.5.3}
+\contentsline {subsection}{\numberline {9.5.4}Future work}{119}{subsection.9.5.4}
+\contentsline {section}{\numberline {9.6}Conclusion}{119}{section.9.6}
+\contentsline {chapter}{Appendices}{121}{section*.49}
+\contentsline {chapter}{References}{154}{chapter*.57}

@@ -11,8 +11,50 @@ output: pdf_document
 
 Table \ref{tab:results-cohorttab} describes the cohort with regard to important sociodemographic and service use characteristics. In total the cohort consisted of 1,100,668 indivuidals. The table shows how the absolute number of indivudals in the cohort gradually increased by 53,429 over the study period. The percentage of indivudals who died in each year ranged from 4.1% - 4.7%. 
 
+\begin{table}[]
+\resizebox{\textwidth}{!}{%
+\begin{threeparttable}
+\begin{tabular}{@{}llrrrrr@{}}
+\toprule
+\textbf{Variable} & \textbf{Value} & \textbf{2011/12} & \textbf{2012/13} & \textbf{2013/14} & \textbf{2014/15} & \textbf{2015/16} \\ \midrule
+\textbf{N in cohort} &  & 870896 & 895100 & 908295 & 920639 & 924325 \\
+\textbf{N died} &  & 35870 (4.1) & 41701 (4.7) & 39348 (4.3) & 42365 (4.6) & 37992 (4.1) \\
+\textbf{Sex} & Male & 382585 (43.9) & 395922 (44.2) & 404480 (44.5) & 412115 (44.8) & 415953 (45.0) \\
+\textbf{} & Female & 488311 (56.1) & 499178 (55.8) & 503815 (55.5) & 508524 (55.2) & 508372 (55.0) \\
+\textbf{Age (years)} & Mean (SD) & 74.8 (7.4) & 74.7 (7.4) & 74.7 (7.4) & 74.7 (7.4) & 74.7 (7.4) \\
+\textbf{Age group (years)} & 65-69 & 256761 (29.5) & 269042 (30.1) & 274946 (30.3) & 278705 (30.3) & 282554 (30.6) \\
+\textbf{} & 70-74 & 206129 (23.7) & 208829 (23.3) & 211466 (23.3) & 214387 (23.3) & 215897 (23.4) \\
+\textbf{} & 75-79 & 170452 (19.6) & 173474 (19.4) & 175400 (19.3) & 176745 (19.2) & 175279 (19.0) \\
+\textbf{} & 80-84 & 124677 (14.3) & 127606 (14.3) & 128500 (14.1) & 130151 (14.1) & 130131 (14.1) \\
+\textbf{} & 85-89 & 73698 (8.5) & 74937 (8.4) & 75990 (8.4) & 77619 (8.4) & 77699 (8.4) \\
+\textbf{} & 90-94 & 30732 (3.5) & 32711 (3.7) & 33710 (3.7) & 34150 (3.7) & 33432 (3.6) \\
+\textbf{} & 95 plus & 8447 (1.0) & 8501 (0.9) & 8283 (0.9) & 8882 (1.0) & 9333 (1.0) \\
+\textbf{N with  \textgreater{}=1 repeat medicine} &  & 775627 (89.1) & 795495 (88.9) & 807924 (88.9) & 818667 (88.9) & 821813 (88.9) \\
+\textbf{N in Social Care Survey} &  & 89769 (10.3) & 99111 (11.1) & 98361 (10.8) & 125619 (13.6) & 125367 (13.6) \\
+\textbf{N receiving home care} &  & 41642 (4.8) & 42149 (4.7) & 42746 (4.7) & 42232 (4.6) & 41172 (4.5) \\
+\textbf{N resident care home} &  & 36513 (4.4) & 33292 (4.0) & 31397 (3.7) & 29089 (3.3) & 28136 (3.2) \\
+\textbf{N with \textgreater{}= 1 USC episode} &  & 259137 (29.8) & 272574 (30.5) & 270872 (29.8) & 289504 (31.4) & 285013 (30.8) \\
+\textbf{N with \textgreater{}=1 hospital admission} &  & 133153 (15.3) & 141868 (15.8) & 141745 (15.6) & 147757 (16.0) & 145741 (15.8) \\
+\textbf{N with \textgreater{}=1 A \& E attendance} &  & 172747 (19.8) & 181728 (20.3) & 184100 (20.3) & 190563 (20.7) & 185736 (20.1) \\ \bottomrule
+\end{tabular}%
+\begin{tablenotes}
+\item All values n(\%) unless otherwise stated
+\end{tablenotes}
+\end{threeparttable}%
+}
+\caption{Charateristics of study population}
+\label{tab:results-cohorttab}
+\end{table}
+
+
 
 \subsection{Age and sex}
 
+\begin{figure}[h]
+  \centering
+    \includegraphics{figures/chapter-results-1/02_age_sex_plot.png}
+    \caption{Age and sex distribution}
+    \label{fig:ren-timeline}
+\end{figure}
 
 
