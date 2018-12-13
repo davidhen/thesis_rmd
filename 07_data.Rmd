@@ -287,6 +287,7 @@ Assessment for duplicated rows indicated 4,357 individuals had more than one row
 
 
 \begin{table}[]
+\centering
 \resizebox{\textwidth}{!}{%
 \begin{tabular}{@{}lllll@{}}
 \toprule
@@ -340,6 +341,7 @@ Unscheduled care information for all individuals included in the cohort was extr
 In a similar fashion to the wrangling conducted with demographics data, dummy variables were created indicating if each observation occurred within specified financial years during the study period. This enabled data to be reshaped to a long format with individuals having one or multiple rows of data for each financial year. To create one observation per individual per year, data with information on each CUP was nested within a data frame as a list column (described by Wickham & Grolemund [-@RN557, ch.20]). With data in this format, summary measures were derived by applying functions to the list column utilising the \texttt{purrr} R package [@RN523]. Derived information included counts of total USC episodes, acute admissions to hospital, A & E attendances, and total number of long-term conditions identified from admissions and A & E data. The format of the cleaned UCD data frame is described in table \ref{tab:USC-clean}
 
 \begin{table}[h]
+\centering
 \begin{tabular}{@{}lll@{}}
 \toprule
 Number of rows & Number of individuals & \multicolumn{1}{c}{Variables} \\ \midrule
@@ -362,6 +364,7 @@ Following cleaning and formatting of each individual file, further wrangling was
 With all study data now in one data frame, further cleaning and tidying was required. This was an iterative process. As initial descriptive and statistical analysis was completed, identification of errors and data quality issues required repetition of the joining process to address these issues. This process is now described with a summary provided in table \ref{tab:joining}.
 
 \begin{table}[h]
+\centering
 \resizebox{\textwidth}{!}{%
 \begin{tabular}{lrr}
 \hline

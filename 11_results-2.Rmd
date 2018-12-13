@@ -2,50 +2,325 @@
 output: pdf_document
 ---
 
-\chapter{Results 2: Social Care and Multimorbidity}\label{ch:res-2}
+\chapter{Results 2: Social Care and Multimorbidity}\label{ch:res2}
 \thispagestyle{empty}
 \section{Introduction}\label{sec:sc-mm}
 
-Include model formula here
 
-\section{Model for councils with link rate greater than 96\%}\label{sec:96plus}
+\section{Overall Descriptive statistics}\label{subsec:res2-desc}
 
-\subsection{Descriptive statistics}\label{subsec:res2-desc}
+\begin{figure}[h]
+  \centering
+    \includegraphics{figures/chapter-results-1/17_age_sex_scs_plot.png}
+    \caption{Percentage of individuals receiving social care by sex at specific ages. 2013/14}
+    \label{fig:res2-age-sex}
+\end{figure}
 
-Table
+
+\begin{figure}[h]
+  \centering
+    \includegraphics{figures/chapter-results-1/18_age_simd_scs_plot.png}
+    \caption{Percentage of indiviudals receiving social care by deprivation at specific ages. 2013/14}
+    \label{fig:res2-simd}
+\end{figure}
+
+\begin{figure}[h]
+  \centering
+    \includegraphics{figures/chapter-results-1/20_age_meds_scs_plot.png}
+    \caption{Percentage of indiviudals receiving social care by repeat medicines group at specific ages. 2013/14}
+    \label{fig:res2-meds-age}
+\end{figure}
+
+\begin{figure}[h]
+  \centering
+    \includegraphics{figures/chapter-results-1/19_meds_scs_plot.png}
+    \caption{Count of repeat medicine groups, by receipt of social care. 2013/14}
+    \label{fig:res2-meds}
+\end{figure}
+
+\FloatBarrier
+
+\section{Models for councils with link rate greater than 96\%}\label{sec:96plus}
+
+\subsection{Descriptive statistics}\label{subsec:res2-model1-desc}
+
+\begin{table}[h]
+\centering
+\resizebox{\textwidth}{!}{%
+\begin{threeparttable}
+\begin{tabular}{@{}llrrrr@{}}
+\toprule
+\textbf{Variable} & \textbf{Value} & \textbf{No Social Care} & \textbf{Social Care} & \textbf{Total} & \textbf{p-value} \\ \midrule
+\textbf{Sex} & Male & 91792 (91.5) & 8538 (8.5) & 100330 & \textless{}0.001 \\
+\textbf{} & Female & 102532 (84.4) & 18901 (15.6) & 121433 &  \\
+\textbf{Age group} & 65-69 & 69238 (96.9) & 2205 (3.1) & 71443 & \textless{}0.001 \\
+\textbf{} & 70-74 & 51808 (94.1) & 3222 (5.9) & 55030 &  \\
+\textbf{} & 75-79 & 38603 (88.8) & 4854 (11.2) & 43457 &  \\
+\textbf{} & 80-84 & 22838 (77.0) & 6822 (23.0) & 29660 &  \\
+\textbf{} & 85-89 & 9114 (59.5) & 6216 (40.5) & 15330 &  \\
+\textbf{} & 90-94 & 2399 (42.0) & 3318 (58.0) & 5717 &  \\
+\textbf{} & 95 plus & 324 (28.8) & 802 (71.2) & 1126 &  \\
+\textbf{\begin{tabular}[c]{@{}l@{}}SIMD \\ (continuous variable)\end{tabular}} & Median (IQR) & 5 (4) & 4 (4) &  & \textless{}0.001 \\
+\textbf{Repeat medicines group} & 0-2 & 56488 (96.7) & 1918 (3.3) & 58406 & \textless{}0.001 \\
+\textbf{} & 03-May & 58323 (91.9) & 5161 (8.1) & 63484 &  \\
+\textbf{} & 06-Aug & 44023 (85.3) & 7614 (14.7) & 51637 &  \\
+\textbf{} & over 9 & 35490 (73.6) & 12746 (26.4) & 48236 &  \\ \bottomrule
+\end{tabular}%
+\begin{tablenotes}
+\item All values n(\%) unless otherwise stated 
+\item \emph{Row}-wise percentages within grouped variables
+\end{tablenotes}
+\end{threeparttable}%
+}
+\caption{Characteristics of those receiving/not reveiving social care for council with linkage rate 96\% - 99.9\%. 2013/14}
+\label{tab:res2-chars1314}
+\end{table}
+
+
+
+\begin{table}[h]
+\centering
+\begin{tabular}{@{}lrrrrr@{}}
+\toprule
+\textbf{Local Authority} & \textbf{2011/12} & \textbf{2012/13} & \textbf{2013/14} & \textbf{2014/15} & \textbf{2015/16} \\ \midrule
+Falkirk & 14.8 & 16 & 15.8 & 16.8 & 16.5 \\
+Angus & 15.8 & 14.7 & 14.1 & 14.6 & 12.8 \\
+East Ayrshire & 13.7 & 13.9 & 14.1 & 14.8 & 14.8 \\
+Inverclyde & 12.7 & 13 & 13 & 14.1 & 17.5 \\
+South Lanarkshire & 12.2 & 11.9 & 12.9 & 13.7 & 13.2 \\
+Stirling & 11.7 & 11.8 & 12.6 & 13.1 & 13.3 \\
+North Ayrshire & 11.3 & 11.6 & 11.9 & 13.8 & 13.4 \\
+Dumfries and Galloway & 9 & 8.7 & 8.1 & 10.6 & 11.3 \\
+Argyll and Bute & 8.7 & 9.1 & 9.6 & 12.1 & 10.8 \\ \bottomrule
+\end{tabular}
+\caption{Percentage of over 65s receiving social care, by local authority}
+\label{tab:res2-la}
+\end{table}
+
+\FloatBarrier
 
 \subsection{Goodness of fit}\label{subsec:96plus-gof}
 
-Pseudo $R^{2}$ table
+\begin{table}[h]
+\centering
+\resizebox{\textwidth}{!}{%
+\begin{tabular}{@{}lrrrrr@{}}
+\toprule
+\textbf{Financial Year} & \textbf{\begin{tabular}[c]{@{}r@{}}McFadden's \\ pseudo $R^{2}$\end{tabular}} & \textbf{Deviance} & \textbf{Log Liklihood} & \textbf{\begin{tabular}[c]{@{}r@{}}Deviance\\ (null model)\end{tabular}} & \textbf{\begin{tabular}[c]{@{}r@{}}Log liklihood\\ (null model)\end{tabular}} \\ \midrule
+\textbf{2011/12} & 0.252 & 116463.376 & -58231.688 & 155736.471 & -77868.236 \\
+\textbf{2012/13} & 0.255 & 119558.387 & -59779.194 & 160465.022 & -80232.511 \\
+\textbf{2013/14} & 0.256 & 123591.938 & -61795.969 & 166009.028 & -83004.514 \\
+\textbf{2014/15} & 0.264 & 133386.433 & -66693.217 & 181158.55 & -90579.275 \\
+\textbf{2015/16} & 0.268 & 133304.348 & -66652.174 & 182135.575 & -91067.788 \\ \bottomrule
+\end{tabular}%
+}
+\caption{Goodness of fit for model applied to each year of data}
+\label{tab:res2-model1-gof}
+\end{table}
 
-\subsection{Average Marginal Effects}\label{subsec:96plus-AME}
+\FloatBarrier
 
-Table and plots
+\subsection{Average Partial Effects}\label{subsec:96plus-AME}
+
+
+\begin{figure}[h]
+  \centering
+    \includegraphics{figures/chapter-results-2/sc_model_22_AME_plot.png}
+    \caption{Average partial effect plot. Local authorites with linkage rate 96\% - 99.9\%}
+    \label{fig:res2-model1-APE}
+\end{figure}
+
+\begin{table}[h]
+\centering
+\begin{threeparttable}
+\begin{tabular}{@{}lrrr@{}}
+\toprule
+\textbf{Variable} & \textbf{\begin{tabular}[c]{@{}r@{}}Average\\ Partial Effecr\end{tabular}} & \textbf{\begin{tabular}[c]{@{}r@{}}Lower 95\%\\ confidence interval\end{tabular}} & \textbf{\begin{tabular}[c]{@{}r@{}}Upper 95\%\\ confidence interval\end{tabular}} \\ \midrule
+Age: 95 Plus & 0.625 & 0.592 & 0.657 \\
+Age: 90-94 & 0.477 & 0.463 & 0.49 \\
+Age: 85-89 & 0.314 & 0.306 & 0.321 \\
+Meds: over 9 & 0.163 & 0.159 & 0.167 \\
+Age: 80-84 & 0.158 & 0.154 & 0.163 \\
+Meds: 6-8 & 0.07 & 0.067 & 0.073 \\
+Age: 75-79 & 0.061 & 0.058 & 0.064 \\
+Female & 0.044 & 0.042 & 0.047 \\
+Meds: 3-5 & 0.032 & 0.029 & 0.035 \\
+Age: 70-74 & 0.022 & 0.019 & 0.024 \\
+Angus & -0.002 & -0.008 & 0.005 \\
+SIMD Decile: & -0.006 & -0.007 & -0.006 \\
+East Ayrshire & -0.021 & -0.027 & -0.015 \\
+Stirling & -0.022 & -0.029 & -0.015 \\
+South Lanarkshire & -0.035 & -0.04 & -0.031 \\
+North Ayrshire & -0.038 & -0.043 & -0.033 \\
+Inverclyde & -0.045 & -0.051 & -0.039 \\
+Argyll and Bute & -0.053 & -0.059 & -0.047 \\
+Dumfries and Galloway & -0.071 & -0.076 & -0.066 \\ \bottomrule
+\end{tabular}
+\begin{tablenotes}
+\item Reference group for age: 65-69
+\item Reference group for meds: 0-2 repeat medicines
+\item Reference group for sex: Male
+\item Reference group for local authority: Falkirk
+\end{tablenotes}
+\end{threeparttable}
+\caption{Average partial effects. 2013/14}
+\label{tab:res2-model1-APE}
+\end{table}
+
+\begin{figure}[h]
+  \centering
+    \includegraphics{figures/chapter-results-2/sc_model_22_AME_time.png}
+    \caption{Average partial effect across models (a)}
+    \label{fig:res2-model1-APE-time}
+\end{figure}
+
+\begin{figure}[h]
+  \centering
+    \includegraphics{figures/chapter-results-2/sc_model_22_AMELA_time.png}
+    \caption{Average partial effect across models (b)}
+    \label{fig:res2-model1-APELA-time}
+\end{figure}
+
+\FloatBarrier
 
 \section{Model for councils with link rate between 92\% and 95.9\%}\label{sec:9296}
 
-\subsection{Descriptive statistics}\label{subsec:9296-desc}
+\subsection{Descriptive statistics}\label{subsec:res2-model2-desc}
 
-Table
+\begin{table}[h]
+\centering
+\resizebox{\textwidth}{!}{%
+\begin{threeparttable}
+\begin{tabular}{@{}llrrrr@{}}
+\toprule
+\textbf{Variable} & \textbf{Value} & \textbf{No Social Care} & \textbf{Social Care} & \textbf{Total} & \textbf{p-value} \\ \midrule
+\textbf{Sex} & Male & 123403 (92.7) & 9767 (7.3) & 133170 & <0.001 \\
+\textbf{} & Female & 149820 (87.2) & 22090 (12.8) & 171910 &  \\
+\textbf{Age group} & 65-69 & 90061 (97.4) & 2439 (2.6) & 92500 & <0.001 \\
+\textbf{} & 70-74 & 67124 (95.2) & 3371 (4.8) & 70495 &  \\
+\textbf{} & 75-79 & 54207 (91.1) & 5292 (8.9) & 59499 &  \\
+\textbf{} & 80-84 & 35853 (82.5) & 7604 (17.5) & 43457 &  \\
+\textbf{} & 85-89 & 17993 (70.1) & 7684 (29.9) & 25677 &  \\
+\textbf{} & 90-94 & 6603 (60.0) & 4400 (40.0) & 11003 &  \\
+\textbf{} & 95 plus & 1382 (56.4) & 1067 (43.6) & 2449 &  \\
+\textbf{\begin{tabular}[c]{@{}l@{}}SIMD\\ (continuous variable)\end{tabular}} & Median (IQR) & 6 (6) & 5 (6) &  & <0.001 \\
+\textbf{Repeat medicines group} & 0-2 & 79000 (97.1) & 2339 (2.9) & 81339 & <0.001 \\
+\textbf{} & 03-May & 79976 (92.7) & 6266 (7.3) & 86242 &  \\
+\textbf{} & 06-Aug & 61183 (87.2) & 8980 (12.8) & 70163 &  \\
+\textbf{} & over 9 & 53064 (78.8) & 14272 (21.2) & 67336 &  \\ \bottomrule
+\end{tabular}%
+\begin{tablenotes}
+\item All values n(\%) unless otherwise stated 
+\item \emph{Row}-wise percentages within grouped variables
+\end{tablenotes}
+\end{threeparttable}%
+}
+\caption{Characteristics of those receiving/not reveiving social care for council with linkage rate 92\% - 95.9\%. 2013/14}
+\label{tab:res2-mod2-chars1314}
+\end{table}
+
+\begin{table}[h]
+\centering
+\resizebox{\textwidth}{!}{%
+\begin{tabular}{@{}lrrrrr@{}}
+\toprule
+\textbf{Local Authority} & \textbf{2011/12} & \textbf{2012/13} & \textbf{2013/14} & \textbf{2014/15} & \textbf{2015/16} \\ \midrule
+Shetland Islands & 18.3 & 18.4 & 17.3 & 15.5 & 16.6 \\
+Glasgow City & 14.3 & 14.7 & 11.9 & 11.4 & 11.8 \\
+Na h-Eileanan Siar & 11.6 & 10.8 & 11.7 & 12.3 & 16.9 \\
+East Renfrewshire & 10.2 & 9.4 & 11.3 & 13.8 & 18.6 \\
+City of Edinburgh & 9.7 & 9.8 & 10.4 & 12.6 & 11.2 \\
+East Dunbartonshire & 9.8 & 10.1 & 9.9 & 11.8 & 12.4 \\
+Fife & 9.3 & 9.6 & 9.4 & 10.9 & 11.3 \\
+Perth and Kinross & 8.5 & 9.4 & 8.7 & 13.9 & 11.3 \\
+South Ayrshire & 8.5 & 8.8 & 8.8 & 10.5 & 12.1 \\ \bottomrule
+\end{tabular}%
+}
+\caption{Percentage of over 65s receiving social care, by local authority}
+\label{tab:res2-mod2-la}
+\end{table}
+
+\FloatBarrier
 
 \subsection{Goodness of fit}\label{subsec:9296-gof}
 
-Pseudo $R^{2}$ table
+\begin{table}[h]
+\centering
+\resizebox{\textwidth}{!}{%
+\begin{tabular}{@{}lrrrrr@{}}
+\toprule
+\textbf{Financial Year} & \textbf{\begin{tabular}[c]{@{}r@{}}McFadden's\\ pseudo $R^{2}$\end{tabular}} & \textbf{Deviance} & \textbf{Log Liklihood} & \textbf{\begin{tabular}[c]{@{}r@{}}Deviance\\ (null model)\end{tabular}} & \textbf{\begin{tabular}[c]{@{}r@{}}Log Liklihood\\ (null model)\end{tabular}} \\ \midrule
+\textbf{2011/12} & 0.195 & 161593.493 & -80796.747 & 200854.348 & -100427.174 \\
+\textbf{2012/13} & 0.199 & 166393.132 & -83196.566 & 207622.681 & -103811.3405 \\
+\textbf{2013/14} & 0.199 & 163548.526 & -81774.263 & 204215.311 & -102107.6555 \\
+\textbf{2014/15} & 0.216 & 177081.266 & -88540.633 & 225815.462 & -112907.731 \\
+\textbf{2015/16} & 0.219 & 178813.735 & -89406.867 & 228954.547 & -114477.2735 \\ \bottomrule
+\end{tabular}%
+}
+\caption{Goodness of fit of model applied to each year of data}
+\label{tab:res2-mod2-gof}
+\end{table}
 
-\subsection{Average Marginal Effects}\label{subsec:9296-AME}
+\FloatBarrier
 
-Table and plots
+\subsection{Average Partial Effects}\label{subsec:9296-AME}
 
-\section{Model for councils with link rate between 88\% and 91.9\%}\label{sec:8892}
+\begin{figure}[h]
+  \centering
+    \includegraphics{figures/chapter-results-2/sc_model_23_AME_plot.png}
+    \caption{Average partial effect plot. Local authorites with linkage rate 92\% - 95.9\%}
+    \label{fig:res2-model2-APE}
+\end{figure}
 
-\subsection{Descriptive statistics}\label{subsec:8892-desc}
+\begin{table}[h]
+\centering
+\begin{threeparttable}
+\begin{tabular}{@{}lrrr@{}}
+\toprule
+\textbf{Variable} & \textbf{\begin{tabular}[c]{@{}r@{}}Average\\ Partial Effect\end{tabular}} & \textbf{\begin{tabular}[c]{@{}r@{}}Lower 95\%\\ confidence interval\end{tabular}} & \textbf{\begin{tabular}[c]{@{}r@{}}Upper 95\%\\ confidence interval\end{tabular}} \\ \midrule
+Age: 95 Plus & 0.401 & 0.378 & 0.424 \\
+Age: 90-94 & 0.33 & 0.32 & 0.34 \\
+Age: 85-89 & 0.228 & 0.223 & 0.234 \\
+Meds: over 9 & 0.127 & 0.123 & 0.13 \\
+Age: 80-84 & 0.119 & 0.115 & 0.122 \\
+Meds: 6-8 & 0.061 & 0.058 & 0.063 \\
+Age: 75-79 & 0.049 & 0.046 & 0.051 \\
+Female & 0.03 & 0.028 & 0.032 \\
+Meds: 3-5 & 0.028 & 0.025 & 0.03 \\
+Age: 70-74 & 0.017 & 0.015 & 0.019 \\
+SIMD Decile: & -0.005 & -0.006 & -0.005 \\
+East Renfrewshire & -0.075 & -0.092 & -0.058 \\
+City of Edinburgh & -0.081 & -0.096 & -0.065 \\
+Na h-Eileanan Siar & -0.083 & -0.1 & -0.066 \\
+East Dunbartonshire & -0.085 & -0.102 & -0.069 \\
+Perth and Kinross & -0.092 & -0.108 & -0.076 \\
+Glasgow City & -0.097 & -0.112 & -0.081 \\
+Fife & -0.099 & -0.115 & -0.084 \\
+South Ayrshire & -0.104 & -0.12 & -0.088 \\ \bottomrule
+\end{tabular}
+\begin{tablenotes}
+\item Reference group for age: 65-69
+\item Reference group for meds: 0-2 repeat medicines
+\item Reference group for sex: Male
+\item Reference group for local authority: Shetland Islands
+\end{tablenotes}
+\end{threeparttable}
+\caption{Average partial effects. 2013/14}
+\label{tab:res2-mod2-APE}
+\end{table}
 
-Table
+\begin{figure}[h]
+  \centering
+    \includegraphics{figures/chapter-results-2/sc_model_23_AME_time.png}
+    \caption{Average partial effect across models (a)}
+    \label{fig:res2-model1-APE-time}
+\end{figure}
 
-\subsection{Goodness of fit}\label{subsec:8892-gof}
+\begin{figure}[h]
+  \centering
+    \includegraphics{figures/chapter-results-2/sc_model_23_AMELA_time.png}
+    \caption{Average partial effect across models (b)}
+    \label{fig:res2-model1-APELA-time}
+\end{figure}
 
-Pseudo $R^{2}$ table
-
-\subsection{Average Marginal Effects}\label{subsec:8892-AME}
-
-Table and plots
+\section{Conclusion}\label{sec-res2-conclusion}

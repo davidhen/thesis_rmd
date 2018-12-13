@@ -2,13 +2,39 @@
 output: pdf_document
 ---
 
-\chapter{Results 3}\label{ch:res-3}
+\chapter{Results 3: Social care, multimorbidity, and unscheduled health care use}\label{ch:res-3}
 \thispagestyle{empty}
-\section{Social care, multimorbidity, and unscheduled health care use}
 
-\begin{itemize}[noitemsep]
-\item National picture
-\item broken down by LA
-\item broken down by HB
-\end{itemize}
+\section{Introduction}\label{sec:res3-intro}
+
+\section{Overall Descriptive statistics}\label{sec;res3-descr}
+
+\begin{figure}[h]
+  \centering
+    \includegraphics{figures/chapter-results-1/13_age_sex_usc_plot.png}
+    \caption{Percentage of individuals using USC by sex at specific ages. 2013/14}
+    \label{fig:res3-age-sex}
+\end{figure}
+
+\begin{figure}[h]
+  \centering
+    \includegraphics{figures/chapter-results-1/14_age_simd_usc.png}
+    \caption{Percentage of individuals using USC by deprivation at specific ages. 2013/14}
+    \label{fig:res3-simd}
+\end{figure}
+
+\begin{figure}[h]
+  \centering
+    \includegraphics{figures/chapter-results-1/16_age_meds_usc_plot.png}
+    \caption{Percentage of indiviudals using USC by repeat medicines group at specific ages. 2013/14}
+    \label{fig:res3-meds-grp}
+\end{figure}
+
+\begin{figure}[h]
+  \centering
+    \includegraphics{figures/chapter-results-1/15_meds_usc_plot.png}
+    \caption{Count of repeat medicine groups, by use of USC. 2013/14}
+    \label{fig:res3-meds}
+\end{figure}
+
 

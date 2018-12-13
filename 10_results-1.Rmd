@@ -5,13 +5,14 @@ output: pdf_document
 \chapter{Results - Descriptive statistics}\label{ch:results-1}
 \thispagestyle{empty}
 
-\section{Descriptive statistics}label{results1-descr}
+\section{Descriptive statistics}label{sec:results1-descr}
 
-\subsection{Participants}\label{results1-particp}
+\subsection{Participants}\label{subsec:results1-particp}
 
-Table \ref{tab:results-cohorttab} describes the cohort with regard to important sociodemographic and service use characteristics. In total the cohort consisted of 1,100,668 indivuidals. The table shows how the absolute number of indivudals in the cohort gradually increased by 53,429 over the study period. The percentage of indivudals who died in each year ranged from 4.1% - 4.7%. 
+Table \ref{tab:results1-cohorttab} describes the cohort with regard to important sociodemographic and service use characteristics. In total the cohort consisted of 1,100,668 indivuidals. The table shows how the absolute number of indivudals in the cohort gradually increased by 53,429 over the study period. The percentage of indivudals who died in each year ranged from 4.1% - 4.7%. 
 
 \begin{table}[]
+\centering
 \resizebox{\textwidth}{!}{%
 \begin{threeparttable}
 \begin{tabular}{@{}llrrrrr@{}}
@@ -30,31 +31,149 @@ Table \ref{tab:results-cohorttab} describes the cohort with regard to important 
 \textbf{} & 90-94 & 30732 (3.5) & 32711 (3.7) & 33710 (3.7) & 34150 (3.7) & 33432 (3.6) \\
 \textbf{} & 95 plus & 8447 (1.0) & 8501 (0.9) & 8283 (0.9) & 8882 (1.0) & 9333 (1.0) \\
 \textbf{N with  \textgreater{}=1 repeat medicine} &  & 775627 (89.1) & 795495 (88.9) & 807924 (88.9) & 818667 (88.9) & 821813 (88.9) \\
-\textbf{N in Social Care Survey} &  & 89769 (10.3) & 99111 (11.1) & 98361 (10.8) & 125619 (13.6) & 125367 (13.6) \\
-\textbf{N receiving home care} &  & 41642 (4.8) & 42149 (4.7) & 42746 (4.7) & 42232 (4.6) & 41172 (4.5) \\
-\textbf{N resident care home} &  & 36513 (4.4) & 33292 (4.0) & 31397 (3.7) & 29089 (3.3) & 28136 (3.2) \\
-\textbf{N with \textgreater{}= 1 USC episode} &  & 259137 (29.8) & 272574 (30.5) & 270872 (29.8) & 289504 (31.4) & 285013 (30.8) \\
-\textbf{N with \textgreater{}=1 hospital admission} &  & 133153 (15.3) & 141868 (15.8) & 141745 (15.6) & 147757 (16.0) & 145741 (15.8) \\
-\textbf{N with \textgreater{}=1 A \& E attendance} &  & 172747 (19.8) & 181728 (20.3) & 184100 (20.3) & 190563 (20.7) & 185736 (20.1) \\ \bottomrule
+\textbf{Receiving social care} &  & 89769 (10.3) & 99111 (11.1) & 98361 (10.8) & 125619 (13.6) & 125367 (13.6) \\
+\textbf{Receiving home care} &  & 41642 (4.8) & 42149 (4.7) & 42746 (4.7) & 42232 (4.6) & 41172 (4.5) \\
+\textbf{Resident in care home} &  & 36513 (4.4) & 33292 (4.0) & 31397 (3.7) & 29089 (3.3) & 28136 (3.2) \\
+\textbf{\textgreater{}= 1 USC episode} &  & 259137 (29.8) & 272574 (30.5) & 270872 (29.8) & 289504 (31.4) & 285013 (30.8) \\
+\textbf{\textgreater{}=1 hospital admission} &  & 133153 (15.3) & 141868 (15.8) & 141745 (15.6) & 147757 (16.0) & 145741 (15.8) \\
+\textbf{\textgreater{}=1 A \& E attendance} &  & 172747 (19.8) & 181728 (20.3) & 184100 (20.3) & 190563 (20.7) & 185736 (20.1) \\ \bottomrule
 \end{tabular}%
 \begin{tablenotes}
-\item All values n(\%) unless otherwise stated
+\item All values n(\%) unless otherwise stated 
+\item \emph{Column}-wise percentages within grouped variables
 \end{tablenotes}
 \end{threeparttable}%
 }
 \caption{Charateristics of study population}
-\label{tab:results-cohorttab}
+\label{tab:results1-cohorttab}
 \end{table}
 
+\FloatBarrier
 
-
-\subsection{Age and sex}
+\subsection{Age and sex}\label{subsec:results1-age-sex}
 
 \begin{figure}[h]
   \centering
     \includegraphics{figures/chapter-results-1/02_age_sex_plot.png}
-    \caption{Age and sex distribution}
-    \label{fig:ren-timeline}
+    \caption{Age and sex distribution. N = 908,295}
+    \label{fig:results1-age-sex}
 \end{figure}
+
+\FloatBarrier
+
+\subsection{Mortality}\label{subsec:results1-mortality}
+
+\begin{figure}[h]
+  \centering
+    \includegraphics{figures/chapter-results-1/03_deaths_plot.png}
+    \caption{Mortality. N = 39,348}
+    \label{fig:results1-mortality}
+\end{figure}
+
+\FloatBarrier
+
+\subsection{Repeat medicine groups}\label{subsec:results1-meds}
+
+\begin{figure}[h]
+  \centering
+    \includegraphics{figures/chapter-results-1/08_pis_group_plot.png}
+    \caption{Distribution of repeat medicines by group (label needs changed)}
+    \label{fig:results1-meds-grp}
+\end{figure}
+
+\FloatBarrier
+
+\subsection{Local authorities}\label{subsec:results1-la}
+
+\begin{figure}[h]
+  \centering
+    \includegraphics{figures/chapter-results-1/04_la_count.png}
+    \caption{Distribution of cohort by local authority. N = 908,295}
+    \label{fig:results1-la}
+\end{figure}
+
+\FloatBarrier
+
+\subsection{Deprivation}\label{subsec:results1-deprivation}
+
+\begin{table}[h]
+\centering
+\resizebox{\textwidth}{!}{%
+\begin{threeparttable}
+\begin{tabular}{@{}llrrrrrr@{}}
+\toprule
+\textbf{Variable} & \textbf{Value} & \textbf{Quintile 1} & \textbf{Quintile 2} & \textbf{Quintile 3} & \textbf{Quintile 4} & \textbf{Quintile 5} & \textbf{Total} \\ \midrule
+\textbf{Mortality} & Died & 8959 (22.8) & 8962 (22.8) & 8349 (21.2) & 7046 (17.9) & 6032 (15.3) & 39348 \\
+\textbf{Sex} & Male & 70907 (17.5) & 83011 (20.5) & 87587 (21.7) & 82626 (20.4) & 80349 (19.9) & 404480 \\
+\textbf{} & Female & 93411 (18.5) & 108326 (21.5) & 107134 (21.3) & 98407 (19.5) & 96537 (19.2) & 503815 \\
+\textbf{Age} & Mean (SD) & 74.7 (7.3) & 74.9 (7.4) & 74.6 (7.4) & 74.5 (7.5) & 74.6 (7.5) &  \\
+\textbf{Age group} & 65-69 & 47882 (17.4) & 55306 (20.1) & 59210 (21.5) & 57137 (20.8) & 55411 (20.2) & 274946 \\
+\textbf{} & 70-74 & 38889 (18.4) & 44234 (20.9) & 45917 (21.7) & 42256 (20.0) & 40170 (19.0) & 211466 \\
+\textbf{} & 75-79 & 32993 (18.8) & 38296 (21.8) & 37087 (21.1) & 33792 (19.3) & 33232 (18.9) & 175400 \\
+\textbf{} & 80-84 & 24116 (18.8) & 28154 (21.9) & 27036 (21.0) & 24593 (19.1) & 24601 (19.1) & 128500 \\
+\textbf{} & 85-89 & 13441 (17.7) & 16486 (21.7) & 16187 (21.3) & 14771 (19.4) & 15105 (19.9) & 75990 \\
+\textbf{} & 90-94 & 5662 (16.8) & 7211 (21.4) & 7453 (22.1) & 6728 (20.0) & 6656 (19.7) & 33710 \\
+\textbf{} & 95 plus & 1335 (16.1) & 1650 (19.9) & 1831 (22.1) & 1756 (21.2) & 1711 (20.7) & 8283 \\
+\textbf{Total repeat medicines} & Mean (SD) & 6.5 (4.4) & 6 (4.2) & 5.4 (4.1) & 5 (3.9) & 4.7 (3.7) &  \\
+\textbf{Medicines group} & 0-2 & 32592 (13.4) & 43087 (17.7) & 53356 (21.9) & 55425 (22.8) & 58939 (24.2) & 243399 \\
+\textbf{} & 3-5 & 40973 (16.0) & 51820 (20.2) & 55585 (21.7) & 53463 (20.9) & 54138 (21.1) & 255979 \\
+\textbf{} & 6-8 & 41104 (19.6) & 47125 (22.5) & 44645 (21.3) & 39402 (18.8) & 36974 (17.7) & 209250 \\
+\textbf{} & over 9 & 49649 (24.9) & 49305 (24.7) & 41135 (20.6) & 32743 (16.4) & 26835 (13.4) & 199667 \\
+\textbf{Receiving social care} &  & 23633 (24.0) & 25467 (25.9) & 20380 (20.7) & 15749 (16.0) & 13132 (13.4) & 98361 \\
+\textbf{Receiving home care} &  & 10206 (23.9) & 11145 (26.1) & 8843 (20.7) & 6920 (16.2) & 5632 (13.2) & 42746 \\
+\textbf{\textgreater{}=1 episode USC} &  & 58410 (21.6) & 61517 (22.7) & 55668 (20.6) & 49048 (18.1) & 46229 (17.1) & 270872 \\
+\textbf{\textgreater{}=1 hospital admission} &  & 32936 (23.2) & 33390 (23.6) & 29349 (20.7) & 24360 (17.2) & 21710 (15.3) & 141745 \\
+\textbf{\textgreater{}=1 A \& E episode} &  & 42587 (23.1) & 43166 (23.4) & 36376 (19.8) & 31184 (16.9) & 30787 (16.7) & 184100 \\ \bottomrule
+\end{tabular}%
+\begin{tablenotes}
+\item All values n(\%) unless otherwise stated 
+\item \emph{Row}-wise percentages within grouped variables
+\end{tablenotes}
+\end{threeparttable}%
+}
+\caption{Charateristics of study population by deprivation quintile 2013/14}
+\label{tab:results1-deprivation}
+\end{table}
+
+\begin{figure}[h]
+  \centering
+    \includegraphics{figures/chapter-results-1/05_simd_la.png}
+    \caption{Distribution of cohort by local authority and SIMD decile (Decile 1 - most deprived)}
+    \label{fig:results1-la}
+\end{figure}
+
+**Age sex simd plot as a line-plot here**
+
+\FloatBarrier
+
+\section{Repeat medicines}\label{sec:results1-mm-meds}
+
+\subsection{Distribution by sex}\label{subsec:results1-meds-sex}
+
+\begin{figure}[h]
+  \centering
+    \includegraphics{figures/chapter-results-1/10_total_meds_hist_2.png}
+    \caption{Repeat medicine distribution, by sex}
+    \label{fig:results1-meds-hist}
+\end{figure}
+
+\subsection{Percentage by age group}\label{subsec:results1-meds-age}
+
+\begin{figure}[h]
+  \centering
+    \includegraphics{figures/chapter-results-1/12_meds_age_count_plot.png}
+    \caption{Repeat medicine proportion by age group}
+    \label{fig:results1-meds-age-grp}
+\end{figure}
+
+\subsection{Percentage by deprivation}\label{subsec:results1-meds-simd}
+
+\begin{figure}[h]
+  \centering
+    \includegraphics{figures/chapter-results-1/11_meds_simd_count_plot.png}
+    \caption{Repeat medicine proportion by SIMD decile}
+    \label{fig:results1-meds-simd}
+\end{figure}
+
 
 

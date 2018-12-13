@@ -1,29 +1,38 @@
 \addvspace {10\p@ }
 \addvspace {10\p@ }
-\contentsline {table}{\numberline {2.1}{\ignorespaces Models of social care in OECD countries adapted from Colombo et al (2011)\relax }}{21}{table.caption.9}
-\contentsline {table}{\numberline {2.2}{\ignorespaces Seven stage model of candidacy\relax }}{26}{table.caption.12}
-\contentsline {table}{\numberline {2.3}{\ignorespaces Six channels of middle class advantage\relax }}{32}{table.caption.13}
+\contentsline {table}{\numberline {2.1}{\ignorespaces Models of social care in OECD countries adapted from Colombo et al (2011)\relax }}{24}{table.caption.9}
+\contentsline {table}{\numberline {2.2}{\ignorespaces Seven stage model of candidacy\relax }}{29}{table.caption.12}
+\contentsline {table}{\numberline {2.3}{\ignorespaces Six channels of middle class advantage\relax }}{35}{table.caption.13}
 \addvspace {10\p@ }
-\contentsline {table}{\numberline {3.1}{\ignorespaces Local authority linkage rates to NRS population spine\relax }}{66}{table.caption.15}
-\contentsline {table}{\numberline {3.2}{\ignorespaces Demographic file data\relax }}{69}{table.caption.17}
-\contentsline {table}{\numberline {3.3}{\ignorespaces Social Care Survey file data\relax }}{70}{table.caption.18}
-\contentsline {table}{\numberline {3.4}{\ignorespaces Data cleaning of PIS file\relax }}{71}{table.caption.19}
-\contentsline {table}{\numberline {3.5}{\ignorespaces Description of cleaned PIS file\relax }}{72}{table.caption.20}
-\contentsline {table}{\numberline {3.6}{\ignorespaces Description of cleaned USC file\relax }}{72}{table.caption.21}
-\contentsline {table}{\numberline {3.7}{\ignorespaces Joining files together and cleaning process\relax }}{73}{table.caption.22}
+\contentsline {table}{\numberline {3.1}{\ignorespaces Local authority linkage rates to NRS population spine\relax }}{69}{table.caption.15}
+\contentsline {table}{\numberline {3.2}{\ignorespaces Demographic file data\relax }}{72}{table.caption.17}
+\contentsline {table}{\numberline {3.3}{\ignorespaces Social Care Survey file data\relax }}{73}{table.caption.18}
+\contentsline {table}{\numberline {3.4}{\ignorespaces Data cleaning of PIS file\relax }}{74}{table.caption.19}
+\contentsline {table}{\numberline {3.5}{\ignorespaces Description of cleaned PIS file\relax }}{75}{table.caption.20}
+\contentsline {table}{\numberline {3.6}{\ignorespaces Description of cleaned USC file\relax }}{75}{table.caption.21}
+\contentsline {table}{\numberline {3.7}{\ignorespaces Joining files together and cleaning process\relax }}{76}{table.caption.22}
 \addvspace {10\p@ }
-\contentsline {table}{\numberline {4.1}{\ignorespaces Charateristics of study population\relax }}{80}{table.caption.24}
+\contentsline {table}{\numberline {4.1}{\ignorespaces Charateristics of study population\relax }}{83}{table.caption.24}
+\contentsline {table}{\numberline {4.2}{\ignorespaces Charateristics of study population by deprivation quintile 2013/14\relax }}{86}{table.caption.30}
+\addvspace {10\p@ }
+\contentsline {table}{\numberline {5.1}{\ignorespaces Characteristics of those receiving/not reveiving social care for council with linkage rate 96\% - 99.9\%. 2013/14\relax }}{93}{table.caption.40}
+\contentsline {table}{\numberline {5.2}{\ignorespaces Percentage of over 65s receiving social care, by local authority\relax }}{93}{table.caption.42}
+\contentsline {table}{\numberline {5.3}{\ignorespaces Goodness of fit for model applied to each year of data\relax }}{94}{table.caption.43}
+\contentsline {table}{\numberline {5.4}{\ignorespaces Average partial effects. 2013/14\relax }}{95}{table.caption.45}
+\contentsline {table}{\numberline {5.5}{\ignorespaces Characteristics of those receiving/not reveiving social care for council with linkage rate 92\% - 95.9\%. 2013/14\relax }}{97}{table.caption.49}
+\contentsline {table}{\numberline {5.6}{\ignorespaces Percentage of over 65s receiving social care, by local authority\relax }}{97}{table.caption.51}
+\contentsline {table}{\numberline {5.7}{\ignorespaces Goodness of fit of model applied to each year of data\relax }}{98}{table.caption.52}
+\contentsline {table}{\numberline {5.8}{\ignorespaces Average partial effects. 2013/14\relax }}{99}{table.caption.54}
 \addvspace {10\p@ }
 \addvspace {10\p@ }
 \addvspace {10\p@ }
 \addvspace {10\p@ }
-\addvspace {10\p@ }
-\contentsline {table}{\numberline {9.1}{\ignorespaces Definitions of home care types\relax }}{89}{table.caption.27}
-\contentsline {table}{\numberline {9.2}{\ignorespaces Number of records at each stage of data cleaning\relax }}{93}{table.caption.29}
-\contentsline {table}{\numberline {9.3}{\ignorespaces Variation in the number of individuals receiving home care\relax }}{96}{table.caption.36}
-\contentsline {table}{\numberline {9.4}{\ignorespaces Count of individuals with packages captured by census\relax }}{98}{table.caption.37}
-\contentsline {table}{\numberline {9.5}{\ignorespaces Regression models of package intensity\relax }}{101}{table.9.5}
-\contentsline {table}{\numberline {9.6}{\ignorespaces Regression models of package duration\relax }}{108}{table.9.6}
-\contentsline {table}{\numberline {9.7}{\ignorespaces Variation in net difference of total hours of homecare by care type\relax }}{114}{table.caption.44}
-\contentsline {table}{\numberline {9.8}{\ignorespaces Regression models of net difference in total hours of care by home care type\relax }}{115}{table.caption.47}
-\contentsline {table}{\numberline {9.9}{\ignorespaces Proportion of individuals captured by census and hypothetical multi-census in each financial year\relax }}{116}{table.caption.48}
+\contentsline {table}{\numberline {9.1}{\ignorespaces Definitions of home care types\relax }}{110}{table.caption.62}
+\contentsline {table}{\numberline {9.2}{\ignorespaces Number of records at each stage of data cleaning\relax }}{114}{table.caption.64}
+\contentsline {table}{\numberline {9.3}{\ignorespaces Variation in the number of individuals receiving home care\relax }}{117}{table.caption.71}
+\contentsline {table}{\numberline {9.4}{\ignorespaces Count of individuals with packages captured by census\relax }}{119}{table.caption.72}
+\contentsline {table}{\numberline {9.5}{\ignorespaces Regression models of package intensity\relax }}{122}{table.9.5}
+\contentsline {table}{\numberline {9.6}{\ignorespaces Regression models of package duration\relax }}{129}{table.9.6}
+\contentsline {table}{\numberline {9.7}{\ignorespaces Variation in net difference of total hours of homecare by care type\relax }}{135}{table.caption.79}
+\contentsline {table}{\numberline {9.8}{\ignorespaces Regression models of net difference in total hours of care by home care type\relax }}{136}{table.caption.82}
+\contentsline {table}{\numberline {9.9}{\ignorespaces Proportion of individuals captured by census and hypothetical multi-census in each financial year\relax }}{137}{table.caption.83}
