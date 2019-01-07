@@ -60,7 +60,7 @@ A more clearly defined concept is that of \textit{personal care} which has been 
 
 **Need a definition of reablement here also** Try http://www.careinfoscotland.scot/topics/care-at-home/
 
-**Maybe an overall description of SCS social care - home care, telecare, equip etc.**
+**Maybe an overall description of SCS social care - home care, telecare, equip etc. see data specification documents and (potentially) IJPDS paper**
 
 Personal care is, however, only one aspect of social care provision and clear definitions of other services provided to individuals are lacking. Nevertheless, the definitions of social (or long-term) care above all highlight services that are required to aid with an individual's functional or cognitive needs.
 

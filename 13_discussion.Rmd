@@ -8,9 +8,9 @@ output: pdf_document
 
 * The aim of this thesis was 1, 2, 3.  
 * I have found 1, 2, 3.  
-* This was limited by a, b, c (Need to talk about measures chosen, especially the meds MM measure and how I counted meds, here.)   
+* This was limited by a, b, c (Need to talk about measures chosen, especially the meds MM measure and how I counted meds, here. Also need to discuss lack of PC data as a major limitation with respect to MM)   
 * Compare to past research
-* Implications are d, e, f  
+* Implications are d, e, f - discuss in light of pro-rich/pro-poor framework  
 * Future research should g, h, i
 
 \section{Social Care data}\label{sec:disc-sc-data}
