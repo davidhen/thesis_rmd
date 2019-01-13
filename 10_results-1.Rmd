@@ -5,7 +5,11 @@ output: pdf_document
 \chapter{Results - Descriptive statistics}\label{ch:results-1}
 \thispagestyle{empty}
 
-\section{Age, sex, and geography}\label{sec:results1-descr}
+This chapter outlines the charateristics of the cohort and distributions of pertinent variables in three sections. The first section contains tabulation and visualisation of counts and percentages of individuals in the cohort overall, by age & sex, by mortality, and by geography. The next section focusses on deprivation. A table with counts and percentages split by SIMD deprivation quintile is provided plus visualisations of the distribution of SIMD deciles by age & sex and local authority. The third section focusses on the proxy measurement of multimorbidity, repeat medicine counts, and its distribution by sociodemographic variables. Where distributions were found to be similar across all years of data a reference year, financial year 2013/14, is used for visualisation purposes. This is the middle year of the study period.  
+
+Descriptive statistics of social care and unscheduled care measures are not presented in this chapter but in chapters \ref{ch:res2} and \ref{ch:res-3} respectively where the focus is on these variables specifically. 
+
+\section{Age, sex, mortality, and geography}\label{sec:results1-descr}
 
 \subsection{Participants}\label{subsec:results1-particp}
 
@@ -162,7 +166,7 @@ The percentage of individuals from the cohort living in each of the SIMD deciles
 \end{figure}
 
 \FloatBarrier
-\section{Repeat medicines}\label{sec:results1-mm-meds}
+\section{Repeat medicines - multimorbidity}\label{sec:results1-mm-meds}
 
 
 \subsection{Distribution by sex}\label{subsec:results1-meds-sex}
@@ -179,8 +183,6 @@ Figure \ref{fig:results1-meds-hist} is a bar chart showing a count of individual
 \FloatBarrier
 \subsection{Percentage by age group}\label{subsec:results1-meds-age}
 
-In figure \ref{fig:results1-meds-age-grp}, the distribution of the percentage of individuals receiving specific counts of repeat medicines is shown with each age group overlayed on the others. The sum of the points in each line equals 100% (or marginally less as outlying values are removed). Approximately 18% of individuals in the 65-69 age group (which makes up over 30% of the cohort - figure \ref{fig:results1-age-sex}) did not receive any repeat medicines in financial year 2013/14 compared to only 5% of 90-94 year olds. Approximately half of 65-69 year olds were prescribed between zero and three repeat medicines with decreasing percentages from four to seventeen repeat medicines seen in the remaining 50%. As age increases, the distribution pattern shifts further to the right with the exception of the oldest age group, over 95s, where the percentage of those receiving between zero and four medicines is higher than in age groups 80-84, 85-89, and 90-94.  
-
 \begin{figure}[h]
   \centering
     \includegraphics{figures/chapter-results-1/12_meds_age_count_plot.png}
@@ -188,10 +190,10 @@ In figure \ref{fig:results1-meds-age-grp}, the distribution of the percentage of
     \label{fig:results1-meds-age-grp}
 \end{figure}
 
+In figure \ref{fig:results1-meds-age-grp}, the distribution of the percentage of individuals receiving specific counts of repeat medicines is shown with each age group overlayed on the others. The sum of the points in each line equals 100% (or marginally less as outlying values are removed). Approximately 18% of individuals in the 65-69 age group (which makes up over 30% of the cohort - figure \ref{fig:results1-age-sex}) did not receive any repeat medicines in financial year 2013/14 compared to only 5% of 90-94 year olds. Approximately half of 65-69 year olds were prescribed between zero and three repeat medicines with decreasing percentages from four to seventeen repeat medicines seen in the remaining 50%. As age increases, the distribution pattern shifts further to the right with the exception of the oldest age group, over 95s, where the percentage of those receiving between zero and four medicines is higher than in age groups 80-84, 85-89, and 90-94. 
+
 \FloatBarrier
 \subsection{Percentage by deprivation}\label{subsec:results1-meds-simd}
-
-The pattern of distribution of the percentage of people receiving specific counts of repeat medicines broken down by SIMD decile is shown in figure \ref{fig:results1-meds-simd}. The trend is clearly linear with an inflection point at six repeat medicines. For counts of 0-5 repeat prescribed medicines there are lower percentages of individuals from SIMD 1 (most deprived) whereas for counts of seven or above there are higher percentages. 
 
 \begin{figure}[h]
   \centering
@@ -200,10 +202,10 @@ The pattern of distribution of the percentage of people receiving specific count
     \label{fig:results1-meds-simd}
 \end{figure}
 
+The pattern of distribution of the percentage of people receiving specific counts of repeat medicines broken down by SIMD decile is shown in figure \ref{fig:results1-meds-simd}. The trend is clearly linear with an inflection point at six repeat medicines. For counts of 0-5 repeat prescribed medicines there are lower percentages of individuals from SIMD 1 (most deprived) whereas for counts of seven or above there are higher percentages. The percentage of those with zero repeat medicines is higher (14%) in the most affluent decile 10 than in the most deprived decile 1 (8%). 
+
 \FloatBarrier
 \subsection{Repeat medicine groups}\label{subsec:results1-meds}
-
-Figure \ref{fig:results1-meds-grp} shows the distribution of the percentage of individuals receiving numbers of repeat medicines within defined groups. Each group contains either slightly more or less than 25% of the total cohort with 0-2 and 3-5 groups being slightly larger. The same pattern is seen across all years of data.
 
 \begin{figure}[h]
   \centering
@@ -211,5 +213,8 @@ Figure \ref{fig:results1-meds-grp} shows the distribution of the percentage of i
     \caption{Distribution of repeat medicines by group (labelling needs changed)}
     \label{fig:results1-meds-grp}
 \end{figure}
+
+Figure \ref{fig:results1-meds-grp} shows the distribution of the percentage of individuals receiving numbers of repeat medicines within defined groups. Each group contains either slightly more or less than 25% of the total cohort with 0-2 and 3-5 groups being slightly larger. The same pattern is seen across all years of data.
+
 \FloatBarrier
 

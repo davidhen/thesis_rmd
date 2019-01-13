@@ -4,8 +4,8 @@ output: pdf_document
 
 \chapter{Results 2: Social Care and Multimorbidity}\label{ch:res2}
 \thispagestyle{empty}
-\section{Introduction}\label{sec:sc-mm}
 
+Introductory paragraph - Mention looking at any form of social care here (basically being in SCS), not home care or telecare specifically. Also reiterate the split in LAs by linkage rates (section \ref{stats-rq1}.)
 
 \section{Overall Descriptive statistics}\label{subsec:res2-desc}
 
@@ -16,6 +16,7 @@ output: pdf_document
     \label{fig:res2-age-sex}
 \end{figure}
 
+Figure \ref{fig:res2-age-sex} shows that as age increases, higher percentages of indiviudals receive social care in financial year 2013/14. This pattern is consistent across all years of data. There is an uneven split by sex. Females have higher percentages of indivudals receiving any form of social care than males at all ages. At age 85, ~20% of males and ~32% of females received any form of social care. The difference between the percentage of males and females receiving care increases as age increases. There is mild reduction of this trend over the age of 90.   
 
 \begin{figure}[h]
   \centering
@@ -23,6 +24,8 @@ output: pdf_document
     \caption{Percentage of indiviudals receiving social care by deprivation at specific ages. 2013/14}
     \label{fig:res2-simd}
 \end{figure}
+
+Figure \ref{fig:res2-simd} also shows the increase in the percentage of individuals receiving any form of social care as age increases. The split by SIMD decile shows that those resident in SIMD decile 1 datazones have higher percentages receiving social care at all ages (with the exception of at age 88 and age 92). There is a clear gradient through deciles to those with highest socioeconomic position, decile 10, who have the lowest percentages at all age (except at over the age of 90 where small numbers introduce wider variation).  
 
 \begin{figure}[h]
   \centering

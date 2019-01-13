@@ -11,7 +11,7 @@ output: pdf_document
 * This was limited by a, b, c (Need to talk about measures chosen, especially the meds MM measure and how I counted meds, here. Also need to discuss lack of PC data as a major limitation with respect to MM)   
 * Compare to past research
 * Implications are d, e, f - discuss in light of pro-rich/pro-poor framework  
-* Future research should g, h, i
+* Future research should g, h, i (1. Link to census. 2.Measure *longitudinal* changes in social care and impact on usc. 3. Break down SCS and USC variables - any difference in home care patterns? What about Admissions and A & E only? 4. Look at e.g. those with over 9 meds and *didn't* get social care/usc. What's the craic with them?)
 
 \section{Social Care data}\label{sec:disc-sc-data}
 
