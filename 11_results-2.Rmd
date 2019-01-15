@@ -25,27 +25,32 @@ Figure \ref{fig:res2-age-sex} shows that as age increases, higher percentages of
     \label{fig:res2-simd}
 \end{figure}
 
-Figure \ref{fig:res2-simd} also shows the increase in the percentage of individuals receiving any form of social care as age increases. The split by SIMD decile shows that those resident in SIMD decile 1 datazones have higher percentages receiving social care at all ages (with the exception of at age 88 and age 92). There is a clear gradient through deciles to those with highest socioeconomic position, decile 10, who have the lowest percentages at all age (except at over the age of 90 where small numbers introduce wider variation).  
+Figure \ref{fig:res2-simd} also shows the increase in the percentage of individuals receiving any form of social care as age increases. The split by SIMD decile shows that those resident in SIMD decile 1 datazones (most deprived) have higher percentages receiving social care at all ages (with the exceptions of ages 88 and 92). There is a clear gradient from decile 1 to decile 10 (most affluent) which has the lowest percentages at all ages (except at over the age of 90 where small numbers introduce wider variation).  
 
 \begin{figure}[h]
   \centering
     \includegraphics{figures/chapter-results-1/20_age_meds_scs_plot.png}
-    \caption{Percentage of indiviudals receiving social care by repeat medicines group at specific ages. 2013/14}
+    \caption{Percentage of indiviudals receiving social care by multimorbidity (repeat medicine) group at specific ages. 2013/14}
     \label{fig:res2-meds-age}
 \end{figure}
 
-\begin{figure}[h]
-  \centering
-    \includegraphics{figures/chapter-results-1/19_meds_scs_plot.png}
-    \caption{Count of repeat medicine groups, by receipt of social care. 2013/14}
-    \label{fig:res2-meds}
-\end{figure}
+A third figure charting the increase in the percentage of individuals receiving any form of social care as age increases in 2013/14 is shown in figure \ref{fig:res2-meds-age}. The split in this figure shows that individuals receiving nine or more medicines have much higher percentages receiving social care at all ages. For example, ~5% of indivudals with 0-2 repeat medicines at age 80 receive some form of social care, whereas ~26% of individuals receiving 9 or more repeat medicines at age 80 are found in the SCS.
+
+
+```{r models_1, eval=FALSE, echo=FALSE}
+###################################################################################################
+```
 
 \FloatBarrier
-
 \section{Models for councils with link rate greater than 96\%}\label{sec:96plus}
 
+This section reports results of logistic regression models detailed in section \ref{stats-rq1}. As that section describes, the cohort was subset to include local authorities with similar levels of linkage to the population spine so that fair comparisons could be made across authorities. In this section nine local authorities are included in the logisitic regression models. Over 96% of the individuals in the SCS from these local authorites were matched to the population spine enabling linkage to other sources (table \ref{tab:linkage-rates}). 
+
+In total, five models are reported - one for each financial year of data. As cohort data was subset to include indiviudals only from the nine local authorites with link rates over 96%, descriptive statistics of this subset are first reported. This is follwed by results of goodness of fit tests applied to each model of data. Model effects are reported as Average Partial Effects (APEs). As with previous results, financial year 2013/14 is used as a reference year where patterns are consistent across all years of data.
+
 \subsection{Descriptive statistics}\label{subsec:res2-model1-desc}
+
+Table \ref{tab:res2-chars1314} shows a breakdown of the cohort in financial year 2013/14. There were a total of 221,763 individuals from the nine included local authority areas in this financial year. A higher perecntage of females (15.6%) compared to males (8.5%) received social care. Only 3.1% of those aged 65-69 received social care whereas 71.2% of those over the age of 95 did so. SIMD was modelled as a continous variable. The median vale of 4 (IQR 4) was lower (more deprived) for those that received social care than for those that did not (Median 5, IQR 4). A small proportion (3.3%) of those in the lowest multimorbidity group (0-2 repeat medicines) received social care whereas over a quarter (26.4%) of those in the highest multimorbidity group received care. 
 
 \begin{table}[h]
 \centering
@@ -70,16 +75,17 @@ Figure \ref{fig:res2-simd} also shows the increase in the percentage of individu
 \textbf{} & over 9 & 35490 (73.6) & 12746 (26.4) & 48236 &  \\ \bottomrule
 \end{tabular}%
 \begin{tablenotes}
+\item Total N used in model = 221,763
 \item All values n(\%) unless otherwise stated 
 \item \emph{Row}-wise percentages within grouped variables
 \end{tablenotes}
 \end{threeparttable}%
 }
-\caption{Characteristics of those receiving/not reveiving social care for council with linkage rate 96\% - 99.9\%. 2013/14}
+\caption{Characteristics of those receiving/not receiving social care for council with linkage rate 96\% - 99.9\%. 2013/14}
 \label{tab:res2-chars1314}
 \end{table}
 
-
+As there was a change in the method of data collection from 2014/15 onwards (described in section \ref{subsec:source-sc}), percentages of indiviudals receiving social care in each local authority is reported across all years of data in table \ref{tab:res2-la}. With the exception of financial year 2011/12, Falkirk council has the highest proportion of individuals receiving care in all years. Whilst percentages of indiviudals receiving care are stable across years in some local authorities, there are noticeable increases in values for others from 2014/15 onwards (particularly in North Ayrshire, Dumfries & Galloway and Argyll & Bute). 
 
 \begin{table}[h]
 \centering
@@ -100,8 +106,9 @@ Argyll and Bute & 8.7 & 9.1 & 9.6 & 12.1 & 10.8 \\ \bottomrule
 \label{tab:res2-la}
 \end{table}
 
-\FloatBarrier
 
+
+\FloatBarrier
 \subsection{Goodness of fit}\label{subsec:96plus-gof}
 
 \begin{table}[h]
@@ -121,8 +128,9 @@ Argyll and Bute & 8.7 & 9.1 & 9.6 & 12.1 & 10.8 \\ \bottomrule
 \label{tab:res2-model1-gof}
 \end{table}
 
-\FloatBarrier
+Table \ref{tab:res2-model1-gof} shows the results of diagnostic tests for the models applied to each financial year of data. McFadden's pseudo $R^2$ statistic ranges from 0.252 for the model applied to 2011/12 to 0.268 for the model applied to 2015/16. This suggests the the model has an excellent fit to all years of data and gets better in more recent years. 
 
+\FloatBarrier
 \subsection{Average Partial Effects}\label{subsec:96plus-AME}
 
 
@@ -133,12 +141,19 @@ Argyll and Bute & 8.7 & 9.1 & 9.6 & 12.1 & 10.8 \\ \bottomrule
     \label{fig:res2-model1-APE}
 \end{figure}
 
+Figure \ref{fig:res2-model1-APE} plots the Average Partial Effects (APEs) of each model. Age has the largest effect with the probability of receiving social care approximately 60% higher for those over 95 compared to those aged 65-69 in all models. Age bands 90-94, 85-89, and 80-84 also show very strong effects (~50%, ~30%, and ~17% higher probability of receiving social care). 
+
+Multimorbidity has a lesser, but still strong, effect on recipt of social care. Those receiving 9 or more repeat medicines are ~17% more likely to receive social care compared to those receiving 0-2 repeat medicines. This is effect is a similar magnitude as the APE of being 80-84 compared to 65-69 years of age. Medicine groups 6-8 and 3-5 have resepctively ~7% and ~3% increased probability of receiving social care compared to those receiving 0-2 medicines. 
+
+Tight CIs dificult to visualise
+
+
 \begin{table}[h]
 \centering
 \begin{threeparttable}
 \begin{tabular}{@{}lrrr@{}}
 \toprule
-\textbf{Variable} & \textbf{\begin{tabular}[c]{@{}r@{}}Average\\ Partial Effecr\end{tabular}} & \textbf{\begin{tabular}[c]{@{}r@{}}Lower 95\%\\ confidence interval\end{tabular}} & \textbf{\begin{tabular}[c]{@{}r@{}}Upper 95\%\\ confidence interval\end{tabular}} \\ \midrule
+\textbf{Variable} & \textbf{\begin{tabular}[c]{@{}r@{}}Average\\ Partial Effect\end{tabular}} & \textbf{\begin{tabular}[c]{@{}r@{}}Lower 95\%\\ confidence interval\end{tabular}} & \textbf{\begin{tabular}[c]{@{}r@{}}Upper 95\%\\ confidence interval\end{tabular}} \\ \midrule
 Age: 95 Plus & 0.625 & 0.592 & 0.657 \\
 Age: 90-94 & 0.477 & 0.463 & 0.49 \\
 Age: 85-89 & 0.314 & 0.306 & 0.321 \\
@@ -184,8 +199,11 @@ Dumfries and Galloway & -0.071 & -0.076 & -0.066 \\ \bottomrule
     \label{fig:res2-model1-APELA-time}
 \end{figure}
 
-\FloatBarrier
+```{r model_2, echo=FALSE, eval=FALSE}
+###################################################################################################
+```
 
+\FloatBarrier
 \section{Model for councils with link rate between 92\% and 95.9\%}\label{sec:9296}
 
 \subsection{Descriptive statistics}\label{subsec:res2-model2-desc}

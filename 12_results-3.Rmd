@@ -30,11 +30,6 @@ output: pdf_document
     \label{fig:res3-meds-grp}
 \end{figure}
 
-\begin{figure}[h]
-  \centering
-    \includegraphics{figures/chapter-results-1/15_meds_usc_plot.png}
-    \caption{Count of repeat medicine groups, by use of USC. 2013/14}
-    \label{fig:res3-meds}
-\end{figure}
+
 
 

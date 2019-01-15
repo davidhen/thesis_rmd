@@ -7,25 +7,56 @@ output: pdf_document
 \section{Main outomes}\label{sec:disc-main-points}
 
 * The aim of this thesis was 1, 2, 3.  
-* I have found 1, 2, 3.  
-* This was limited by a, b, c (Need to talk about measures chosen, especially the meds MM measure and how I counted meds, here. Also need to discuss lack of PC data as a major limitation with respect to MM)   
-* Compare to past research
-* Implications are d, e, f - discuss in light of pro-rich/pro-poor framework  
-* Future research should g, h, i (1. Link to census. 2.Measure *longitudinal* changes in social care and impact on usc. 3. Break down SCS and USC variables - any difference in home care patterns? What about Admissions and A & E only? 4. Look at e.g. those with over 9 meds and *didn't* get social care/usc. What's the craic with them?)
 
-\section{Social Care data}\label{sec:disc-sc-data}
+\section{Findings}
+Go through all results and discuss
+\begin{itemize}[noitemsep]
+\item Descriptives
+\item SC models - Big section
+\begin{itemize}
+\item APEs show effects *after* adjusting for other variables (and interactions)
+\item Age by far the biggest effect  
+\item Female effect fairly small after adjustment for age and MM (compared to descriptives)
+\item Magnitude of effects important. (Note SIMD * 10 = similar effect of going from 65-69 to 75-79 i.e. being deprived ages you by 10 years)
+\item Tight CIs likely reflect large sample size (wider CI for age > 95 small numbers)
+\end{itemize}
+\item USC models - Big section
+\begin{itemize}
+\item Point 1
+\end{itemize}
+\end{itemize}
+
+
+\section{Limitations}
+* This was limited by a, b, c (Need to talk about measures chosen, especially the meds MM measure and how I counted meds, here. Also need to discuss lack of PC data as a major limitation with respect to MM)   
+
+\section{Comparisons to previous research}
+* Compare to past research
+
+\section{Implications}
+\subsection{LA Variation}
+* Implications are d, e, f - discuss in light of pro-rich/pro-poor framework
+* Street-level beurocracy? I doubt it. More likely differing knowlege/skills - failure to learn from other areas
+* Inverse Care Law - no evidence with this research - !But not adjusted - future research
+
+\subsection{Social Care data}\label{sec:disc-sc-data}
 
 Discuss quality and collection of SCS (place this nationally/internationally) 
 Is there good sc data anywhere???
 
 What is good/bad - What have I learned?
 
-\section{Administrative Data Research}\label{sec:disc-admin-data}
+\subsection{Administrative Data Research}\label{sec:disc-admin-data}
 
 Difficulties encountered
 
 * Timeframe!!
 * Safe Haven (software upgrade etc.)
 * Benefits
+
+\section{Future research}
+* Future research should g, h, i (1. Link to census. 2.Measure *longitudinal* changes in social care and impact on usc. 3. Break down SCS and USC variables - any difference in home care patterns? What about Admissions and A & E only? 4. Look at e.g. those with over 9 meds and *didn't* get social care/usc. What's the craic with them?)
+
+
 
 

@@ -5,7 +5,7 @@ output: pdf_document
 \chapter{Results - Descriptive statistics}\label{ch:results-1}
 \thispagestyle{empty}
 
-This chapter outlines the charateristics of the cohort and distributions of pertinent variables in three sections. The first section contains tabulation and visualisation of counts and percentages of individuals in the cohort overall, by age & sex, by mortality, and by geography. The next section focusses on deprivation. A table with counts and percentages split by SIMD deprivation quintile is provided plus visualisations of the distribution of SIMD deciles by age & sex and local authority. The third section focusses on the proxy measurement of multimorbidity, repeat medicine counts, and its distribution by sociodemographic variables. Where distributions were found to be similar across all years of data a reference year, financial year 2013/14, is used for visualisation purposes. This is the middle year of the study period.  
+This chapter outlines the charateristics of the cohort and distributions of pertinent variables in three sections. The first section contains tabulation and visualisation of counts and percentages of individuals in the cohort overall, by age & sex, by mortality, and by geography.  The next section focusses on the proxy measurement of multimorbidity, repeat medicine counts, and its distribution by sociodemographic variables. The final section focusses on deprivation. A table with counts and percentages split by SIMD deprivation quintile is provided plus visualisations of the distribution of SIMD deciles by age & sex and local authority. Where distributions were found to be similar across all years of data a reference year, financial year 2013/14, is used for visualisation purposes. This is the middle year of the study period.  
 
 Descriptive statistics of social care and unscheduled care measures are not presented in this chapter but in chapters \ref{ch:res2} and \ref{ch:res-3} respectively where the focus is on these variables specifically. 
 
@@ -95,6 +95,129 @@ Figure \ref{fig:results1-la} shows the percentage of individuals in the cohort t
     \label{fig:results1-la}
 \end{figure}
 
+```{r MM section, echo=FALSE,eval=FALSE}
+##################################################################################################
+```
+\FloatBarrier
+\section{Multimorbidity - repeat medicine groups}\label{sec:results1-mm-meds}
+\subsection{Distribution by sex}\label{subsec:results1-meds-sex}
+
+Figure \ref{fig:results1-meds-hist} is a bar chart showing a count of individuals receiving specific counts of repeat medicines in financial year 2013/14. The chart shows that the mode of prescribed repeat medicines is actually zero with approximately 100,000 people in the cohort not requiring regular medication. Of the remaining 800,000 (approx.) individuals, the most frequently prescribed number of repeat medicines is four. The coloured areas indicate there are similar patterns for males and females with slightly higher overall counts for females. *This could alternatively be a stacked bar chart?*
+
+\begin{figure}[h]
+  \centering
+    \includegraphics{figures/chapter-results-1/10_total_meds_hist_2.png}
+    \caption{Number of individuals receiving specific counts of repeat medicines. N = 908,295}
+    \label{fig:results1-meds-hist}
+\end{figure}
+
+\FloatBarrier
+\subsection{Percentage by age group}\label{subsec:results1-meds-age}
+
+\begin{figure}[h]
+  \centering
+    \includegraphics{figures/chapter-results-1/12_meds_age_count_plot.png}
+    \caption{Repeat medicine proportion by age group}
+    \label{fig:results1-meds-age-grp}
+\end{figure}
+
+In figure \ref{fig:results1-meds-age-grp}, the distribution of the percentage of individuals receiving specific counts of repeat medicines is shown with each age group overlayed on the others. The sum of the points in each line equals 100% (or marginally less as outlying values are removed). Approximately 18% of individuals in the 65-69 age group (which makes up over 30% of the cohort - figure \ref{fig:results1-age-sex}) did not receive any repeat medicines in financial year 2013/14 compared to only 5% of 90-94 year olds. Approximately half of 65-69 year olds were prescribed between zero and three repeat medicines with decreasing percentages from four to seventeen repeat medicines seen in the remaining 50%. As age increases, the distribution pattern shifts further to the right with the exception of the oldest age group, over 95s, where the percentage of those receiving between zero and four medicines is higher than in age groups 80-84, 85-89, and 90-94. 
+
+\FloatBarrier
+\subsection{Percentage by deprivation}\label{subsec:results1-meds-simd}
+
+\begin{figure}[h]
+  \centering
+    \includegraphics{figures/chapter-results-1/11_meds_simd_count_plot.png}
+    \caption{Repeat medicine proportion by SIMD decile}
+    \label{fig:results1-meds-simd}
+\end{figure}
+
+The pattern of distribution of the percentage of people receiving specific counts of repeat medicines broken down by SIMD decile is shown in figure \ref{fig:results1-meds-simd}. The trend is clearly linear with an inflection point at six repeat medicines. For counts of 0-5 repeat prescribed medicines there are lower percentages of individuals from SIMD 1 (most deprived) whereas for counts of seven or above there are higher percentages. The percentage of those with zero repeat medicines is higher (14%) in the most affluent decile 10 than in the most deprived decile 1 (8%). 
+
+\FloatBarrier
+\subsection{Multimorbidity (repeat medicine) groups}\label{subsec:results1-meds}
+
+\begin{figure}[h]
+  \centering
+    \includegraphics{figures/chapter-results-1/08_pis_group_plot.png}
+    \caption{Distribution of repeat medicines by group (labelling needs changed)}
+    \label{fig:results1-meds-grp}
+\end{figure}
+
+Figure \ref{fig:results1-meds-grp} shows the distribution of the percentage of individuals receiving numbers of repeat medicines within defined groups. Each group contains either slightly more or less than 25% of the total cohort with 0-2 and 3-5 groups being slightly larger. The same pattern is seen across all years of data.
+
+\begin{table}[h]
+\centering
+\resizebox{\textwidth}{!}{%
+\begin{threeparttable}
+\begin{tabular}{@{}llrrrrr@{}}
+\toprule
+\textbf{Variable} & \textbf{Value} & \textbf{\begin{tabular}[c]{@{}r@{}}Repeat meds:\\ 0-2\end{tabular}} & \textbf{\begin{tabular}[c]{@{}r@{}}Repeat meds:\\ 3-5\end{tabular}} & \textbf{\begin{tabular}[c]{@{}r@{}}Repeat meds:\\ 6-8\end{tabular}} & \textbf{\begin{tabular}[c]{@{}r@{}}Repeat meds:\\ 9 and over\end{tabular}} & \textbf{Total} \\ \midrule
+\textbf{Sex} & Male & 114587 (28.3) & 116021 (28.7) & 92542 (22.9) & 81330 (20.1) & 404480 \\
+\textbf{} & Female & 128812 (25.6) & 139958 (27.8) & 116708 (23.2) & 118337 (23.5) & 503815 \\
+\textbf{Age} & Mean (SD) & 71.9 (6.5) & 74.4 (7.3) & 76.2 (7.6) & 76.9 (7.5) &  \\
+\textbf{Age group} & 65-69 & 109385 (39.8) & 79387 (28.9) & 47733 (17.4) & 38441 (14.0) & 274946 \\
+\textbf{} & 70-74 & 60865 (28.8) & 62884 (29.7) & 46143 (21.8) & 41574 (19.7) & 211466 \\
+\textbf{} & 75-79 & 35600 (20.3) & 49618 (28.3) & 45250 (25.8) & 44932 (25.6) & 175400 \\
+\textbf{} & 80-84 & 20506 (16.0) & 34127 (26.6) & 35731 (27.8) & 38136 (29.7) & 128500 \\
+\textbf{} & 85-89 & 10772 (14.2) & 19150 (25.2) & 22039 (29.0) & 24029 (31.6) & 75990 \\
+\textbf{} & 90-94 & 4745 (14.1) & 8582 (25.5) & 9972 (29.6) & 10411 (30.9) & 33710 \\
+\textbf{} & 95 plus & 1526 (18.4) & 2231 (26.9) & 2382 (28.8) & 2144 (25.9) & 8283 \\
+\textbf{SIMD decile} & 1 - most deprived & 15032 (19.1) & 19109 (24.3) & 19726 (25.1) & 24730 (31.5) & 78597 \\
+\textbf{} & 2 & 17560 (20.5) & 21864 (25.5) & 21378 (24.9) & 24919 (29.1) & 85721 \\
+\textbf{} & 3 & 20158 (21.2) & 25362 (26.7) & 23823 (25.0) & 25786 (27.1) & 95129 \\
+\textbf{} & 4 & 22929 (23.8) & 26458 (27.5) & 23302 (24.2) & 23519 (24.4) & 96208 \\
+\textbf{} & 5 & 25318 (26.0) & 27504 (28.3) & 22736 (23.4) & 21673 (22.3) & 97231 \\
+\textbf{} & 6 & 28038 (28.8) & 28081 (28.8) & 21909 (22.5) & 19462 (20.0) & 97490 \\
+\textbf{} & 7 & 28107 (30.4) & 27125 (29.3) & 20247 (21.9) & 17025 (18.4) & 92504 \\
+\textbf{} & 8 & 27318 (30.9) & 26338 (29.8) & 19155 (21.6) & 15718 (17.8) & 88529 \\
+\textbf{} & 9 & 28098 (31.7) & 27041 (30.5) & 18956 (21.4) & 14465 (16.3) & 88560 \\
+\textbf{} & 10 - most affluent & 30841 (34.9) & 27097 (30.7) & 18018 (20.4) & 12370 (14.0) & 88326 \\
+\textbf{Any form of social care} & No Social Care & 235947 (29.1) & 236930 (29.3) & 181564 (22.4) & 155493 (19.2) & 809934 \\
+\textbf{} & Social Care & 7452 (7.6) & 19049 (19.4) & 27686 (28.1) & 44174 (44.9) & 98361 \\
+\textbf{Any USC episode} & No USC & 203026 (31.9) & 195075 (30.6) & 139718 (21.9) & 99604 (15.6) & 637423 \\
+\textbf{} & USC & 40373 (14.9) & 60904 (22.5) & 69532 (25.7) & 100063 (36.9) & 270872 \\ \bottomrule
+\end{tabular}%
+\begin{tablenotes}
+\item All values n(\%) unless otherwise stated 
+\item \emph{Row}-wise percentages within grouped variables
+\end{tablenotes}
+\end{threeparttable}%
+}
+\caption{Cohort 2013/14 by Multimorbidity (repeat medicine) groups \bf{This table needs mortality added!!}}
+\label{tab:res1-mmgroups}
+\end{table}
+
+Table \ref{tab:res1-mmgroups} shows the breakdown of the cohort in financial year 2013/14 by multimorbidity groups. There was a higher percentages (23.2% & 23.5%) of females in the groups with highest repeat medicine counts (6-8 & 9 and over) compared to males (22.9% and 20.1%). The average age of indiviudals in each group rose from 71.9 years in the 0-2 group to 76.9 years in the 9 and over group. The percentage of each age group receiving 0-2 repeat medicines increases as the age group increases. Almost 40% of those aged 65-69 (over 30% of the cohort) were prescribed between 0-2 repeat medicines whereas only 18.4% of those over the age of 95 were in this group. Conversely, Only 14% of those aged 65-69 received 9 or more repeat medicines whereas 25.9% of those over 95 did so. 
+
+The opposite pattern is seen in deprivation status. Just 19% of individuals living in decile 1 received 0-2 repeat medicines whereas over one-third 34.9% of those is decile 10 were in the lowest multimorbidity group. The percentage of individuals in the 0-2 group increased through the deprivation deciles from most deprived to most affluent. Almost a third (31.5%) of those in the most deprived SIMD decile were in the highest multimorbidity group (9 and over repeat medicines) whereas only 14% of the most affluent decile were found in this group - also with a negative linear trend in percentages going through SIMD deciles. 
+
+There is a noticeable relationship between service use and multimorbidity groups. Only 7.6% of those receiving social care and 14.9% of those having at least one unscheduled care episode received between 0-2 repeat medicines. This compared to 44.9% of those receiving social care and 36.9% of those using unscheduled care services who were in the 9 and over repeat medicine group. 
+
+\begin{figure}[h]
+  \centering
+    \includegraphics{figures/chapter-results-1/19_meds_scs_plot.png}
+    \caption{Count of repeat medicine groups, by receipt of social care. 2013/14}
+    \label{fig:res2-meds}
+\end{figure}
+
+Figure \ref{fig:res2-meds} illustrates use of social care by multimorbidity group described in table \ref{tab:res1-mmgroups}. Whilst the overall number of people receiving social care is small in comparison to the whole cohort, the linear trend in numbers receiving care as multimorbidity status increases is obvious.
+
+\begin{figure}[h]
+  \centering
+    \includegraphics{figures/chapter-results-1/15_meds_usc_plot.png}
+    \caption{Count of repeat medicine groups, by use of USC. 2013/14}
+    \label{fig:res3-meds}
+\end{figure}
+
+Figure \ref{fig:res3-meds} illustrates the use of unscheduled care use by multimorbidity group, also described in table \ref{tab:res1-mmgroups}. The trend in increased service use as multimorbidity status increases is also seen here. A larger proportion of the cohort uses unscheduled care services compared to social care. 
+
+
+```{r DEPRIVATION, eval=FALSE, echo=FALSE}
+##################################################################################################
+```
+
 \FloatBarrier
 \section{Deprivation}\label{sec:results1-deprivation}
 
@@ -107,7 +230,7 @@ Figure \ref{fig:results1-la} shows the percentage of individuals in the cohort t
 \begin{threeparttable}
 \begin{tabular}{@{}llrrrrrr@{}}
 \toprule
-\textbf{Variable} & \textbf{Value} & \textbf{Quintile 1} & \textbf{Quintile 2} & \textbf{Quintile 3} & \textbf{Quintile 4} & \textbf{Quintile 5} & \textbf{Total} \\ \midrule
+\textbf{Variable} & \textbf{Value} & \textbf{\begin{tabular}[c]{@{}r@{}}Quintile 1\\ (most deprived) \end{tabular}} & \textbf{Quintile 2} & \textbf{Quintile 3} & \textbf{Quintile 4} & \textbf{\begin{tabular}[c]{@{}r@{}}Quintile 5\\ (most affluent) \end{tabular}} & \textbf{Total} \\ \midrule
 \textbf{Mortality} & Died & 8959 (22.8) & 8962 (22.8) & 8349 (21.2) & 7046 (17.9) & 6032 (15.3) & 39348 \\
 \textbf{Sex} & Male & 70907 (17.5) & 83011 (20.5) & 87587 (21.7) & 82626 (20.4) & 80349 (19.9) & 404480 \\
 \textbf{} & Female & 93411 (18.5) & 108326 (21.5) & 107134 (21.3) & 98407 (19.5) & 96537 (19.2) & 503815 \\
@@ -165,56 +288,4 @@ The percentage of individuals from the cohort living in each of the SIMD deciles
     \label{fig:results1-la}
 \end{figure}
 
-\FloatBarrier
-\section{Repeat medicines - multimorbidity}\label{sec:results1-mm-meds}
-
-
-\subsection{Distribution by sex}\label{subsec:results1-meds-sex}
-
-Figure \ref{fig:results1-meds-hist} is a bar chart showing a count of individuals receiving specific counts of repeat medicines in financial year 2013/14. The chart shows that the mode of prescribed repeat medicines is actually zero with approximately 100,000 people in the cohort not requiring regular medication. Of the remaining 800,000 (approx.) individuals, the most frequently prescribed number of repeat medicines is four. The coloured areas indicate there are similar patterns for males and females with slightly higher overall counts for females. *This could alternatively be a stacked bar chart?*
-
-\begin{figure}[h]
-  \centering
-    \includegraphics{figures/chapter-results-1/10_total_meds_hist_2.png}
-    \caption{Number of individuals receiving specific counts of repeat medicines. N = 908,295}
-    \label{fig:results1-meds-hist}
-\end{figure}
-
-\FloatBarrier
-\subsection{Percentage by age group}\label{subsec:results1-meds-age}
-
-\begin{figure}[h]
-  \centering
-    \includegraphics{figures/chapter-results-1/12_meds_age_count_plot.png}
-    \caption{Repeat medicine proportion by age group}
-    \label{fig:results1-meds-age-grp}
-\end{figure}
-
-In figure \ref{fig:results1-meds-age-grp}, the distribution of the percentage of individuals receiving specific counts of repeat medicines is shown with each age group overlayed on the others. The sum of the points in each line equals 100% (or marginally less as outlying values are removed). Approximately 18% of individuals in the 65-69 age group (which makes up over 30% of the cohort - figure \ref{fig:results1-age-sex}) did not receive any repeat medicines in financial year 2013/14 compared to only 5% of 90-94 year olds. Approximately half of 65-69 year olds were prescribed between zero and three repeat medicines with decreasing percentages from four to seventeen repeat medicines seen in the remaining 50%. As age increases, the distribution pattern shifts further to the right with the exception of the oldest age group, over 95s, where the percentage of those receiving between zero and four medicines is higher than in age groups 80-84, 85-89, and 90-94. 
-
-\FloatBarrier
-\subsection{Percentage by deprivation}\label{subsec:results1-meds-simd}
-
-\begin{figure}[h]
-  \centering
-    \includegraphics{figures/chapter-results-1/11_meds_simd_count_plot.png}
-    \caption{Repeat medicine proportion by SIMD decile}
-    \label{fig:results1-meds-simd}
-\end{figure}
-
-The pattern of distribution of the percentage of people receiving specific counts of repeat medicines broken down by SIMD decile is shown in figure \ref{fig:results1-meds-simd}. The trend is clearly linear with an inflection point at six repeat medicines. For counts of 0-5 repeat prescribed medicines there are lower percentages of individuals from SIMD 1 (most deprived) whereas for counts of seven or above there are higher percentages. The percentage of those with zero repeat medicines is higher (14%) in the most affluent decile 10 than in the most deprived decile 1 (8%). 
-
-\FloatBarrier
-\subsection{Repeat medicine groups}\label{subsec:results1-meds}
-
-\begin{figure}[h]
-  \centering
-    \includegraphics{figures/chapter-results-1/08_pis_group_plot.png}
-    \caption{Distribution of repeat medicines by group (labelling needs changed)}
-    \label{fig:results1-meds-grp}
-\end{figure}
-
-Figure \ref{fig:results1-meds-grp} shows the distribution of the percentage of individuals receiving numbers of repeat medicines within defined groups. Each group contains either slightly more or less than 25% of the total cohort with 0-2 and 3-5 groups being slightly larger. The same pattern is seen across all years of data.
-
-\FloatBarrier
 
