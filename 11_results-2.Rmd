@@ -141,11 +141,9 @@ Table \ref{tab:res2-model1-gof} shows the results of diagnostic tests for the mo
     \label{fig:res2-model1-APE}
 \end{figure}
 
-Figure \ref{fig:res2-model1-APE} plots the Average Partial Effects (APEs) of each model. Age has the largest effect with the probability of receiving social care approximately 60% higher for those over 95 compared to those aged 65-69 in all models. Age bands 90-94, 85-89, and 80-84 also show very strong effects (~50%, ~30%, and ~17% higher probability of receiving social care). 
+Figure \ref{fig:res2-model1-APE} plots the Average Partial Effects (APEs) of each model whilst table \ref{tab:res2-model1-APE} shows the values for the reference year 2013/14 only. Age has the largest positive effect of receiving social care with the probability approximately 60% higher for those over 95 compared to those aged 65-69 in all models (specifically 62.5% in 2013/14). Age bands 90-94, 85-89, and 80-84 also show very strong effects (~50%, ~30%, and ~17% higher probability of receiving social care across all models). 
 
-Multimorbidity has a lesser, but still strong, effect on recipt of social care. Those receiving 9 or more repeat medicines are ~17% more likely to receive social care compared to those receiving 0-2 repeat medicines. This is effect is a similar magnitude as the APE of being 80-84 compared to 65-69 years of age. Medicine groups 6-8 and 3-5 have resepctively ~7% and ~3% increased probability of receiving social care compared to those receiving 0-2 medicines. 
-
-Tight CIs dificult to visualise
+Multimorbidity has a lesser, but still strong, effect on recipt of social care. Those receiving 9 or more repeat medicines are ~17% more likely to receive social care compared to those receiving 0-2 repeat medicines (16.3% in 2013/14). This effect is a similar magnitude as the APE of being 80-84 compared to 65-69 years of age. Medicine groups 6-8 and 3-5 have resepctively ~7% and ~3% increased probability of receiving social care compared to those receiving 0-2 medicines. 
 
 
 \begin{table}[h]
@@ -185,6 +183,14 @@ Dumfries and Galloway & -0.071 & -0.076 & -0.066 \\ \bottomrule
 \label{tab:res2-model1-APE}
 \end{table}
 
+Despite large differences seen in percentages between males and females receiving social care (figure \ref{fig:res2-age-sex} and table \ref{tab:res2-chars1314}), after controlling for other variables the APE of being female compared to male is relatively small (a 4.4% increase in probability in 2013/14).
+
+The APE of SIMD reflects an instantaneous effect rather than change in probability from a reference category. The small value indictates the average decrease in probability moving from one decile to the next. **I think I should plot the APEs by SIMD separately for 2013/14 model as a) it is interpreted differently from the categorical variables and b) will be much easier to explain**. The APE of SIMD in 2013/14 is -0.06. This could be interpreted as a 0.6% decrease in the probability of receiving social care between SIMD deciles (moving from decile 1 to decile 10). Therefore, the direct difference between decile 1 and decile 10 can be estimated at ~6% decreased probability of receiving social care for the most affluent decile. The magnitude of this effect is similar to the APE of being aged 75-79 compared to 65-69.  
+
+After adjusting for all other variables in the model there remains variation in the likelihood of receiving social care across local authorities. In some cases this variation is small (e.g. in 2013/14 there is a 0.2% decrease in the probability of receiving social care in Angus compared to Falkirk) but can also have larger values (e.g. a 7% decrease in probability of receiving social care in Dumfries & Galloway compared to Falkirk). The variations in APEs reflect, to some extent, the differences in percentages of individuals receiving care reported in table \ref{tab:res2-la}. This indicates the other variables in the model (namely:age, sex, multimorbidity, and deprivation) and their interactions do not explain the variation at local authority level.
+
+Although figure \ref{fig:res2-model1-APE} is coded to include errorbars plotting the 95% confidence intervals, the intervals are so small they are obscured by the effect point. As an example, in table \ref{tab:res2-model1-APE}, the largest difference between the lower and upper threshold is 0.065 (for age 95 plus). This likely reflects the large number of observations in each model which has the effect of reducing the standard error estimates. 
+
 \begin{figure}[h]
   \centering
     \includegraphics{figures/chapter-results-2/sc_model_22_AME_time.png}
@@ -192,12 +198,16 @@ Dumfries and Galloway & -0.071 & -0.076 & -0.066 \\ \bottomrule
     \label{fig:res2-model1-APE-time}
 \end{figure}
 
+Figure \ref{fig:res2-model1-APE-time} charts APEs for each value of each variable (excluding local authority) across all models. There are very small increases in the APE from 2014/15 for age groups over the age of 80 and the 9 and over medicine group. All other variables have consistent APE values across models fitted to each year of data.
+
 \begin{figure}[h]
   \centering
     \includegraphics{figures/chapter-results-2/sc_model_22_AMELA_time.png}
     \caption{Average partial effect across models (b)}
     \label{fig:res2-model1-APELA-time}
 \end{figure}
+
+Figure \ref{fig:res2-model1-APELA-time} shows APEs for each councils across all models. Although there appears to be more fluctuation than seen in figure \ref{fig:res2-model1-APE-time} the scale of the y-axis is much reduced in this figure. The largest change is seen in Angus council whose APE shows a steady decline with an approximate 0.05 difference between 2011/12 and 2015/16 values. 
 
 ```{r model_2, echo=FALSE, eval=FALSE}
 ###################################################################################################

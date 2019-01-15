@@ -110,22 +110,22 @@
 \contentsline {subsection}{\numberline {6.2.3}Average Partial Effects}{132}{subsection.6.2.3}
 \contentsline {section}{\numberline {6.3}Model for councils with link rate between 92\% and 95.9\%}{135}{section.6.3}
 \contentsline {subsection}{\numberline {6.3.1}Descriptive statistics}{135}{subsection.6.3.1}
-\contentsline {subsection}{\numberline {6.3.2}Goodness of fit}{135}{subsection.6.3.2}
-\contentsline {subsection}{\numberline {6.3.3}Average Partial Effects}{136}{subsection.6.3.3}
-\contentsline {section}{\numberline {6.4}Conclusion}{136}{section.6.4}
-\contentsline {chapter}{\numberline {7}Results 3: Social care, multimorbidity, and unscheduled health care use}{139}{chapter.7}
-\contentsline {section}{\numberline {7.1}Introduction}{139}{section.7.1}
-\contentsline {section}{\numberline {7.2}Overall Descriptive statistics}{139}{section.7.2}
-\contentsline {chapter}{\numberline {8}Discussion}{141}{chapter.8}
-\contentsline {section}{\numberline {8.1}Main outomes}{141}{section.8.1}
-\contentsline {section}{\numberline {8.2}Findings}{141}{section.8.2}
-\contentsline {section}{\numberline {8.3}Limitations}{142}{section.8.3}
-\contentsline {section}{\numberline {8.4}Comparisons to previous research}{142}{section.8.4}
-\contentsline {section}{\numberline {8.5}Implications}{142}{section.8.5}
-\contentsline {subsection}{\numberline {8.5.1}LA Variation}{142}{subsection.8.5.1}
-\contentsline {subsection}{\numberline {8.5.2}Social Care data}{142}{subsection.8.5.2}
-\contentsline {subsection}{\numberline {8.5.3}Administrative Data Research}{142}{subsection.8.5.3}
-\contentsline {section}{\numberline {8.6}Future research}{143}{section.8.6}
-\contentsline {chapter}{\numberline {9}Conclusion}{144}{chapter.9}
-\contentsline {chapter}{Appendices}{145}{section*.86}
-\contentsline {chapter}{References}{178}{chapter*.94}
+\contentsline {subsection}{\numberline {6.3.2}Goodness of fit}{136}{subsection.6.3.2}
+\contentsline {subsection}{\numberline {6.3.3}Average Partial Effects}{137}{subsection.6.3.3}
+\contentsline {section}{\numberline {6.4}Conclusion}{137}{section.6.4}
+\contentsline {chapter}{\numberline {7}Results 3: Social care, multimorbidity, and unscheduled health care use}{140}{chapter.7}
+\contentsline {section}{\numberline {7.1}Introduction}{140}{section.7.1}
+\contentsline {section}{\numberline {7.2}Overall Descriptive statistics}{140}{section.7.2}
+\contentsline {chapter}{\numberline {8}Discussion}{142}{chapter.8}
+\contentsline {section}{\numberline {8.1}Main outomes}{142}{section.8.1}
+\contentsline {section}{\numberline {8.2}Findings}{142}{section.8.2}
+\contentsline {section}{\numberline {8.3}Limitations}{143}{section.8.3}
+\contentsline {section}{\numberline {8.4}Comparisons to previous research}{143}{section.8.4}
+\contentsline {section}{\numberline {8.5}Implications}{143}{section.8.5}
+\contentsline {subsection}{\numberline {8.5.1}LA Variation}{143}{subsection.8.5.1}
+\contentsline {subsection}{\numberline {8.5.2}Social Care data}{143}{subsection.8.5.2}
+\contentsline {subsection}{\numberline {8.5.3}Administrative Data Research}{143}{subsection.8.5.3}
+\contentsline {section}{\numberline {8.6}Future research}{144}{section.8.6}
+\contentsline {chapter}{\numberline {9}Conclusion}{145}{chapter.9}
+\contentsline {chapter}{Appendices}{146}{section*.86}
+\contentsline {chapter}{References}{179}{chapter*.94}

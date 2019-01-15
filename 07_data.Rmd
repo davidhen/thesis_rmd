@@ -441,7 +441,9 @@ The effect estimate describes the average marginal effect (AME) at a specific va
 
 As Williams [-@RN566] observes, this has the effect of comparing hypothetical populations - one female, one male - with the same observed values for other explanatory variables in the model. The only differences between these hypothetical populations is their sex with the estimate describing the differences in the probability of them receiving social care. 
 
-Where categorical variables have more than one value (e.g. age group), the APE describes the average difference in the probability between the observed value and the reference value for that variable (in the case of age group the reference value is 65-69 years of age). Reporting APEs has the advantage that effects can be compared across groups, across samples, and across models [@RN563]. APEs were calculated with standard errors and 95% confidence intervals using the R package \texttt{margins} v.0.3.23 [@RN567]. 
+Where categorical variables have more than one value (e.g. age group), the APE describes the average difference in the probability between the observed value and the reference value for that variable (in the case of age group the reference value is 65-69 years of age). *Deprivation status was modelled as a continous variable therefore the APE is an instantaneous effect reflecting the slope of the predicted probability curve at the mean value of SIMD. Therefore the value cannot be intepreted directly as a coefficient and a one-step change does not directly increase the value of the probability with the APE. However, it is feasible to suggest* tidy this up
+
+Reporting APEs has the advantage that effects can be compared across groups, across samples, and across models [@RN563]. APEs were calculated with standard errors and 95% confidence intervals using the R package \texttt{margins} v.0.3.23 [@RN567]. 
 
 \subsection{Research question 2}\label{stats-rq2}
 
