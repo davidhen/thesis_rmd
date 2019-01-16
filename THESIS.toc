@@ -93,39 +93,38 @@
 \contentsline {subsection}{\numberline {5.1.2}Age and sex}{118}{subsection.5.1.2}
 \contentsline {subsection}{\numberline {5.1.3}Mortality}{118}{subsection.5.1.3}
 \contentsline {subsection}{\numberline {5.1.4}Local authorities}{119}{subsection.5.1.4}
-\contentsline {section}{\numberline {5.2}Multimorbidity - repeat medicine groups}{121}{section.5.2}
-\contentsline {subsection}{\numberline {5.2.1}Distribution by sex}{121}{subsection.5.2.1}
-\contentsline {subsection}{\numberline {5.2.2}Percentage by age group}{121}{subsection.5.2.2}
-\contentsline {subsection}{\numberline {5.2.3}Percentage by deprivation}{122}{subsection.5.2.3}
-\contentsline {subsection}{\numberline {5.2.4}Multimorbidity (repeat medicine) groups}{123}{subsection.5.2.4}
-\contentsline {section}{\numberline {5.3}Deprivation}{125}{section.5.3}
-\contentsline {subsection}{\numberline {5.3.1}Participants}{125}{subsection.5.3.1}
-\contentsline {subsection}{\numberline {5.3.2}Deprivation by age and sex}{126}{subsection.5.3.2}
-\contentsline {subsection}{\numberline {5.3.3}Deprivation by local authority}{126}{subsection.5.3.3}
-\contentsline {chapter}{\numberline {6}Results 2: Social Care and Multimorbidity}{128}{chapter.6}
-\contentsline {section}{\numberline {6.1}Overall Descriptive statistics}{128}{section.6.1}
-\contentsline {section}{\numberline {6.2}Models for councils with link rate greater than 96\%}{130}{section.6.2}
+\contentsline {section}{\numberline {5.2}Multimorbidity - repeat medicine groups}{120}{section.5.2}
+\contentsline {subsection}{\numberline {5.2.1}Distribution by sex}{120}{subsection.5.2.1}
+\contentsline {subsection}{\numberline {5.2.2}Percentage by age group}{120}{subsection.5.2.2}
+\contentsline {subsection}{\numberline {5.2.3}Percentage by deprivation}{121}{subsection.5.2.3}
+\contentsline {subsection}{\numberline {5.2.4}Multimorbidity (repeat medicine) groups}{122}{subsection.5.2.4}
+\contentsline {section}{\numberline {5.3}Deprivation}{124}{section.5.3}
+\contentsline {subsection}{\numberline {5.3.1}Participants}{124}{subsection.5.3.1}
+\contentsline {subsection}{\numberline {5.3.2}Deprivation by age and sex}{125}{subsection.5.3.2}
+\contentsline {subsection}{\numberline {5.3.3}Deprivation by local authority}{125}{subsection.5.3.3}
+\contentsline {chapter}{\numberline {6}Results 2: Social Care and Multimorbidity}{127}{chapter.6}
+\contentsline {section}{\numberline {6.1}Overall Descriptive statistics}{127}{section.6.1}
+\contentsline {section}{\numberline {6.2}Models for councils with link rate greater than 96\%}{129}{section.6.2}
 \contentsline {subsection}{\numberline {6.2.1}Descriptive statistics}{130}{subsection.6.2.1}
 \contentsline {subsection}{\numberline {6.2.2}Goodness of fit}{131}{subsection.6.2.2}
-\contentsline {subsection}{\numberline {6.2.3}Average Partial Effects}{132}{subsection.6.2.3}
+\contentsline {subsection}{\numberline {6.2.3}Average Partial Effects}{131}{subsection.6.2.3}
 \contentsline {section}{\numberline {6.3}Model for councils with link rate between 92\% and 95.9\%}{135}{section.6.3}
 \contentsline {subsection}{\numberline {6.3.1}Descriptive statistics}{135}{subsection.6.3.1}
 \contentsline {subsection}{\numberline {6.3.2}Goodness of fit}{136}{subsection.6.3.2}
 \contentsline {subsection}{\numberline {6.3.3}Average Partial Effects}{137}{subsection.6.3.3}
-\contentsline {section}{\numberline {6.4}Conclusion}{137}{section.6.4}
-\contentsline {chapter}{\numberline {7}Results 3: Social care, multimorbidity, and unscheduled health care use}{140}{chapter.7}
-\contentsline {section}{\numberline {7.1}Introduction}{140}{section.7.1}
-\contentsline {section}{\numberline {7.2}Overall Descriptive statistics}{140}{section.7.2}
-\contentsline {chapter}{\numberline {8}Discussion}{142}{chapter.8}
-\contentsline {section}{\numberline {8.1}Main outomes}{142}{section.8.1}
-\contentsline {section}{\numberline {8.2}Findings}{142}{section.8.2}
-\contentsline {section}{\numberline {8.3}Limitations}{143}{section.8.3}
-\contentsline {section}{\numberline {8.4}Comparisons to previous research}{143}{section.8.4}
-\contentsline {section}{\numberline {8.5}Implications}{143}{section.8.5}
-\contentsline {subsection}{\numberline {8.5.1}LA Variation}{143}{subsection.8.5.1}
-\contentsline {subsection}{\numberline {8.5.2}Social Care data}{143}{subsection.8.5.2}
-\contentsline {subsection}{\numberline {8.5.3}Administrative Data Research}{143}{subsection.8.5.3}
-\contentsline {section}{\numberline {8.6}Future research}{144}{section.8.6}
-\contentsline {chapter}{\numberline {9}Conclusion}{145}{chapter.9}
-\contentsline {chapter}{Appendices}{146}{section*.86}
-\contentsline {chapter}{References}{179}{chapter*.94}
+\contentsline {chapter}{\numberline {7}Results 3: Social care, multimorbidity, and unscheduled health care use}{141}{chapter.7}
+\contentsline {section}{\numberline {7.1}Introduction}{141}{section.7.1}
+\contentsline {section}{\numberline {7.2}Overall Descriptive statistics}{141}{section.7.2}
+\contentsline {chapter}{\numberline {8}Discussion}{143}{chapter.8}
+\contentsline {section}{\numberline {8.1}Main outomes}{143}{section.8.1}
+\contentsline {section}{\numberline {8.2}Findings}{143}{section.8.2}
+\contentsline {section}{\numberline {8.3}Limitations}{144}{section.8.3}
+\contentsline {section}{\numberline {8.4}Comparisons to previous research}{144}{section.8.4}
+\contentsline {section}{\numberline {8.5}Implications}{144}{section.8.5}
+\contentsline {subsection}{\numberline {8.5.1}LA Variation}{144}{subsection.8.5.1}
+\contentsline {subsection}{\numberline {8.5.2}Social Care data}{144}{subsection.8.5.2}
+\contentsline {subsection}{\numberline {8.5.3}Administrative Data Research}{145}{subsection.8.5.3}
+\contentsline {section}{\numberline {8.6}Future research}{145}{section.8.6}
+\contentsline {chapter}{\numberline {9}Conclusion}{146}{chapter.9}
+\contentsline {chapter}{Appendices}{147}{section*.86}
+\contentsline {chapter}{References}{180}{chapter*.94}

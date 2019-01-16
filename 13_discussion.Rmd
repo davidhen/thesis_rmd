@@ -15,6 +15,8 @@ Go through all results and discuss
 \item SC models - Big section. Combine discussion of both models >96% and 92-96%
 \begin{itemize}
 \item APEs show effects *after* adjusting for other variables (and interactions)
+\item Big differences in overall numbers *and* percentages between models (>96 \& 92-95.9). >96 has smaller numbers for very old and much higher percentage (~70%) receiving care compared to national average (~45%). 
+\item Second group of models include both largest cities...
 \item Age by far the biggest effect  
 \item Female effect fairly small after adjustment for age and MM (compared to descriptives)
 \item Magnitude of effects important. (Note SIMD * 10 = similar effect of going from 65-69 to 75-79 i.e. being deprived ages you by 10 years)

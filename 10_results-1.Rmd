@@ -5,7 +5,7 @@ output: pdf_document
 \chapter{Results - Descriptive statistics}\label{ch:results-1}
 \thispagestyle{empty}
 
-This chapter outlines the charateristics of the cohort and distributions of pertinent variables in three sections. The first section contains tabulation and visualisation of counts and percentages of individuals in the cohort overall, by age & sex, by mortality, and by geography.  The next section focusses on the proxy measurement of multimorbidity, repeat medicine counts, and its distribution by sociodemographic variables. The final section focusses on deprivation. A table with counts and percentages split by SIMD deprivation quintile is provided plus visualisations of the distribution of SIMD deciles by age & sex and local authority. Where distributions were found to be similar across all years of data a reference year, financial year 2013/14, is used for visualisation purposes. This is the middle year of the study period.  
+This chapter outlines the characteristics of the cohort and distributions of pertinent variables in three sections. The first section contains tabulation and visualisation of counts and percentages of individuals in the cohort overall, by age & sex, by mortality, and by geography.  The next section focusses on the proxy measurement of multimorbidity, repeat medicine counts, and its distribution by sociodemographic variables. The final section focusses on deprivation. A table with counts and percentages split by SIMD deprivation quintile is provided plus visualisations of the distribution of SIMD deciles by age & sex and local authority. Where distributions were found to be similar across all years of data a reference year, financial year 2013/14, is used for visualisation purposes. This is the middle year of the study period.  
 
 Descriptive statistics of social care and unscheduled care measures are not presented in this chapter but in chapters \ref{ch:res2} and \ref{ch:res-3} respectively where the focus is on these variables specifically. 
 
@@ -88,7 +88,7 @@ In 2013/14, 39,348 (4.3%) of the cohort died. Figure \ref{fig:results1-mortality
 
 Figure \ref{fig:results1-la} shows the percentage of individuals in the cohort that lived in each local authority area in financial year 2013/14. The largest percentages of individuals are found in Glasgow and Edinburgh city areas, whilst the smallest number are found in the three island local authorities. 
 
-\begin{figure}[]
+\begin{figure}[h]
   \centering
     \includegraphics{figures/chapter-results-1/04_la_count.png}
     \caption{Distribution of cohort by local authority. N = 908,295}
@@ -189,7 +189,7 @@ Figure \ref{fig:results1-meds-grp} shows the distribution of the percentage of i
 \label{tab:res1-mmgroups}
 \end{table}
 
-Table \ref{tab:res1-mmgroups} shows the breakdown of the cohort in financial year 2013/14 by multimorbidity groups. There was a higher percentages (23.2% & 23.5%) of females in the groups with highest repeat medicine counts (6-8 & 9 and over) compared to males (22.9% and 20.1%). The average age of indiviudals in each group rose from 71.9 years in the 0-2 group to 76.9 years in the 9 and over group. The percentage of each age group receiving 0-2 repeat medicines increases as the age group increases. Almost 40% of those aged 65-69 (over 30% of the cohort) were prescribed between 0-2 repeat medicines whereas only 18.4% of those over the age of 95 were in this group. Conversely, Only 14% of those aged 65-69 received 9 or more repeat medicines whereas 25.9% of those over 95 did so. 
+Table \ref{tab:res1-mmgroups} shows the breakdown of the cohort in financial year 2013/14 by multimorbidity groups. There was a higher percentages (23.2% & 23.5%) of females in the groups with highest repeat medicine counts (6-8 & 9 and over) compared to males (22.9% and 20.1%). The average age of individuals in each group rose from 71.9 years in the 0-2 group to 76.9 years in the 9 and over group. The percentage of each age group receiving 0-2 repeat medicines increases as the age group increases. Almost 40% of those aged 65-69 (over 30% of the cohort) were prescribed between 0-2 repeat medicines whereas only 18.4% of those over the age of 95 were in this group. Conversely, Only 14% of those aged 65-69 received 9 or more repeat medicines whereas 25.9% of those over 95 did so. 
 
 The opposite pattern is seen in deprivation status. Just 19% of individuals living in decile 1 received 0-2 repeat medicines whereas over one-third 34.9% of those is decile 10 were in the lowest multimorbidity group. The percentage of individuals in the 0-2 group increased through the deprivation deciles from most deprived to most affluent. Almost a third (31.5%) of those in the most deprived SIMD decile were in the highest multimorbidity group (9 and over repeat medicines) whereas only 14% of the most affluent decile were found in this group - also with a negative linear trend in percentages going through SIMD deciles. 
 
