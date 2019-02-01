@@ -33,6 +33,7 @@ header-includes:
 - \usepackage[toc,page]{appendix} #appendix in toc
 - \usepackage{acronym}
 - \usepackage[utf8]{inputenc} 
+- \usepackage{xcolor}
 - \onehalfspacing
 - \colorlet{Blue}{blue} #Sort out an issue with xcolor package(not explicitly loaded here!)
 ---
