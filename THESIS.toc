@@ -113,18 +113,29 @@
 \contentsline {subsection}{\numberline {6.3.2}Goodness of fit}{138}{subsection.6.3.2}
 \contentsline {subsection}{\numberline {6.3.3}Average Partial Effects}{139}{subsection.6.3.3}
 \contentsline {chapter}{\numberline {7}Results 3: Social care, multimorbidity, and unscheduled health care use}{143}{chapter.7}
-\contentsline {section}{\numberline {7.1}Introduction}{143}{section.7.1}
-\contentsline {section}{\numberline {7.2}Overall Descriptive statistics}{143}{section.7.2}
-\contentsline {chapter}{\numberline {8}Discussion}{145}{chapter.8}
-\contentsline {section}{\numberline {8.1}Main outomes}{145}{section.8.1}
-\contentsline {section}{\numberline {8.2}Findings}{145}{section.8.2}
-\contentsline {section}{\numberline {8.3}Limitations}{146}{section.8.3}
-\contentsline {section}{\numberline {8.4}Comparisons to previous research}{146}{section.8.4}
-\contentsline {section}{\numberline {8.5}Implications}{146}{section.8.5}
-\contentsline {subsection}{\numberline {8.5.1}LA Variation}{146}{subsection.8.5.1}
-\contentsline {subsection}{\numberline {8.5.2}Social Care data}{146}{subsection.8.5.2}
-\contentsline {subsection}{\numberline {8.5.3}Administrative Data Research}{147}{subsection.8.5.3}
-\contentsline {section}{\numberline {8.6}Future research}{147}{section.8.6}
-\contentsline {chapter}{\numberline {9}Conclusion}{148}{chapter.9}
-\contentsline {chapter}{Appendices}{149}{section*.86}
-\contentsline {chapter}{References}{182}{chapter*.94}
+\contentsline {section}{\numberline {7.1}Overall Descriptive statistics}{143}{section.7.1}
+\contentsline {section}{\numberline {7.2}Any form of unscheduled care}{145}{section.7.2}
+\contentsline {subsection}{\numberline {7.2.1}Descriptive statistics}{146}{subsection.7.2.1}
+\contentsline {subsection}{\numberline {7.2.2}Goodness of fit}{146}{subsection.7.2.2}
+\contentsline {subsection}{\numberline {7.2.3}Average Partial Effects}{146}{subsection.7.2.3}
+\contentsline {section}{\numberline {7.3}Acute admission to hospital}{147}{section.7.3}
+\contentsline {subsection}{\numberline {7.3.1}Descriptive statistics}{148}{subsection.7.3.1}
+\contentsline {subsection}{\numberline {7.3.2}Goodness of fit}{148}{subsection.7.3.2}
+\contentsline {subsection}{\numberline {7.3.3}Average Partial Effects}{148}{subsection.7.3.3}
+\contentsline {section}{\numberline {7.4}Attendance at A \& E}{148}{section.7.4}
+\contentsline {subsection}{\numberline {7.4.1}Descriptive statistics}{148}{subsection.7.4.1}
+\contentsline {subsection}{\numberline {7.4.2}Goodness of fit}{148}{subsection.7.4.2}
+\contentsline {subsection}{\numberline {7.4.3}Average Partial Effects}{148}{subsection.7.4.3}
+\contentsline {chapter}{\numberline {8}Discussion}{149}{chapter.8}
+\contentsline {section}{\numberline {8.1}Main outomes}{149}{section.8.1}
+\contentsline {section}{\numberline {8.2}Findings}{149}{section.8.2}
+\contentsline {section}{\numberline {8.3}Limitations}{150}{section.8.3}
+\contentsline {section}{\numberline {8.4}Comparisons to previous research}{150}{section.8.4}
+\contentsline {section}{\numberline {8.5}Implications}{150}{section.8.5}
+\contentsline {subsection}{\numberline {8.5.1}LA Variation}{150}{subsection.8.5.1}
+\contentsline {subsection}{\numberline {8.5.2}Social Care data}{150}{subsection.8.5.2}
+\contentsline {subsection}{\numberline {8.5.3}Administrative Data Research}{151}{subsection.8.5.3}
+\contentsline {section}{\numberline {8.6}Future research}{151}{section.8.6}
+\contentsline {chapter}{\numberline {9}Conclusion}{152}{chapter.9}
+\contentsline {chapter}{Appendices}{153}{section*.86}
+\contentsline {chapter}{References}{186}{chapter*.94}

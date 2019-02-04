@@ -221,7 +221,7 @@ Figure \ref{fig:res2-model1-APELA-time} shows APEs for each councils across all 
 \FloatBarrier
 \section{Model for councils with link rate between 92\% and 95.9\%}\label{sec:9296}
 
-This section is a repetition of the previous section \ref with one main difference. The results are of logistic regression models run with a subset of data including individuals from the nine local authorities where a match rate of between 92% and 95.9% was achieved when linking the SCS to the population spine.
+This section is a repetition of the previous section \ref{stats-rq1} with one main difference. The results are of logistic regression models run with a subset of data including individuals from the nine local authorities where a match rate of between 92% and 95.9% was achieved when linking the SCS to the population spine.
 
 As in the previous section, descriptive statistics of the subset are first reported, followed by goodness-of-fit statistics for each model, and finally model effects reported as APEs. Again, financial year 2013/14 is used as a reference year for tables and plots where patterns are consistent across all years of data.
 

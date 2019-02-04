@@ -5,9 +5,13 @@ output: pdf_document
 \chapter{Results 3: Social care, multimorbidity, and unscheduled health care use}\label{ch:res-3}
 \thispagestyle{empty}
 
-\section{Introduction}\label{sec:res3-intro}
+This chapter reports results of an analysis conducted to answer research question 2 (link to section). As described in section \ref{stats-rq2}, receipt of unscheduled care was measured in three ways: presence of any unscheduled care episode in the unscheduled care data mart (including acute hospital admission, A & E, NHS24, GP OOH, or SAS), and specifically by any admission to hospital or attendance at A & E as outcomes in their own right.  
 
-\section{Overall Descriptive statistics}\label{sec;res3-descr}
+The chapter is split into three sections. The first reports descriptive statistics of receipt of unscheduled care for the whole cohort using financial year 2013/14 as a reference year. Plots showing the relationship between the receipt of unscheduled care and age, sex, deprivation status, and multimorbidity status are provided. 
+
+The remaining sections report results of logistic regression models applied to each year of data for each of the three outcome measures. Contingency tables of each outcome measure by sociodemographic characteristics, model diagnostics in the form of goodness-of-fit tables, and plots depicting Average Partial Effects (APEs) for included independent variables are provided in each of these sections.  
+
+\section{Overall Descriptive statistics}\label{sec:res3-descr}
 
 \begin{figure}[h]
   \centering
@@ -16,6 +20,8 @@ output: pdf_document
     \label{fig:res3-age-sex}
 \end{figure}
 
+Figure \ref{fig:res3-age-sex} shows that as age increases, there are higher percentages of individuals receiving any form of USC in 2013/14. This pattern is consistent across all years of data. Unlike the corresponding plot for social care (figure \ref{fig:res2-age-sex}), there are no major differences in the percentages of males and females using USC. Approximately one in five of those aged 65 used USC in 2013/14, compared to approximately one in three of those aged 80, and over half of those aged 93 and above. 
+
 \begin{figure}[h]
   \centering
     \includegraphics{figures/chapter-results-1/14_age_simd_usc.png}
@@ -23,13 +29,75 @@ output: pdf_document
     \label{fig:res3-simd}
 \end{figure}
 
+Figure \ref{fig:res3-simd} also shows an increase in the percentage of individuals using USC as age increases. As in the previous figure an average of approximately 20% at age 65 and close to 50% of those aged 93 and over used USC. However, this figure demonstrates a gradient in the percentages of individuals using USC at all ages moving from SIMD decile 1 (most deprived) to decile 10 (most affluent). At age 65 approximately 23% of those in decile 1 used USC compared to approximately 18% in decile 10. At age 80 the figures are almost 40% and 28% respectively.  
+
 \begin{figure}[h]
   \centering
     \includegraphics{figures/chapter-results-1/16_age_meds_usc_plot.png}
-    \caption{Percentage of indiviudals using USC by repeat medicines group at specific ages. 2013/14}
+    \caption{Percentage of individuals using USC by repeat medicines group at specific ages. 2013/14}
     \label{fig:res3-meds-grp}
 \end{figure}
 
+The third figure charting the increase in the percentage of individuals using USC as age increases in 2013/14 is presented in figure \ref{fig:res3-meds-grp}. This figure shows a noticeably different pattern to those seen in figures \ref{fig:res3-age-sex} and \ref{fig:res3-simd}. Individuals prescribed nine or more repeat medicines have a much higher than average percentage use of USC at all ages (40% at age 65 and over 60% above the age on 90). Those receiving 6-8 repeat medicines also have slightly higher than average use of USC whilst those in the other two groups have below average use at all ages. 
+
+\FloatBarrier
+\section{Any form of unscheduled care}\label{sec:res3-usc}
+
+This section reports results of logistic regression models detailed in section \ref{stats-rq2}. The outcome variable in these models is receipt of any form of unschduled care (A & E attenfance, acute admission to hospital, NHS24, GP OOH, or SAS) in the six months after the end of each financial year. 
+
+As seen in the previous chapter, a model is reported for each year of data from 2011/12 to 2015/16. The section is split into three subsections: a contingency table of descriptive statistics for the outcome variable is provided, followed by a table reporting goodness-of-fit measures for each model, before a final subsection with tables and plots detailing the APEs of each variable on the outcome. Where trends of results across years are similar, financial year 2013/14 is used as a reference in tables and plots. 
+
+\FloatBarrier
+\subsection{Descriptive statistics}\label{subsec:res3-usc-desc}
+
+Table ref shows a breakdown of the cohort in financial year 2013/14. There were a total of 868,947 individuals included in the model for this financial year. A higher percentage of females (20.4%) compared to males (18.5%) accessed some form of USC. As many as 85.2% of indiviudals who died in the six months after the end of year 2013/14 also used USC in that period. Use of USC increased with age, 13.2% of those aged 65-69 compared to 44% of those age above 95. The median value of 5 (IQR 5) for those that used USC was lower than for those that did not (median 6, IQR 5). Those in the lowest muiltimorbidity group, 0-2 repeat medicines, had a lower percentage (9.9%) of individuals using USC compared to those in the highest group (34.5%). Individuals using social care, USC in the year prior to the outcome period, or living in a care home all had higher percentages of USC use compared to those not using these services (42.5% v 16.7%, 36.4% v 13.3%, and 46.3% v 18.6% respectively).  
+
+\FloatBarrier
+\subsection{Goodness of fit}\label{subsec:res3-usc-gof}
+
+Table ref shows the results of diagnostic tests for the each model. An improvement is seen in values of McFadden's $R^2$ over time although values are lower than seen with social care models (range 0.128 - 0.140). 
+
+\FloatBarrier
+\subsection{Average Partial Effects}\label{subsec:res3-usc-ape}
+
+Figure ref plots the APEs of each model and table ref shows the values of these effects for financial year 2013/14. Dying during the outcome period of interest has the largest positive effect on use of USC. The APE for dying in 2013/14 indicates an increase in the proability of using USC of almost 60% compared to those still alive. Of the remaining variables in the model, previous use of USC, higher multimorbidity, receipt of social care, and increasing age are associated with higher use of USC. 
+
+The difference in probability of using USC for those that had used USC in the year prior to the outcome period was 13.1% in 2013/14, whilst the difference for those who appeared in the 2013/14 SCS was 10.8%. Those with highest levels of multimorbidity (9 or more repeat medicines) had a 12.6% increase in probability of using USC compared to those in the lowest multimorbidity group (0-2 medicines). The APE increased through multimorbidity groups - a 3.1 % increase in probability of USC use for those with 3-5 repeat medicines and a 6.1% increase for those with 6-8 repeat medicines compared to the lowest group were found in 2013/14. A similar trend was seen through age groups where the APE increased from 0.4% (age group 70-74) to 8.9% (age group 95 plus) compared to the reference age group (65-69). Living in a care home also had a positive effect on USC use although this was of a lower magnitude than seen with previous USC use or social care receipt (8.1%). After adjustment for other variables in the model, females were found to have less probability of using USC than males although the magnitude of the effect size was negligible (0.4% decrease in probability in 2013/14). 
+
+SIMD was the only independent variable modelled as a continuous variable. Table ref shows an APE of -0.003 (-0.3%) for 2013/14. As this is an instantaneous effect the conditional effect of SIMD in 2013/14 is plotted in figure ref to aid interpretaion. 
 
 
+The plot shows that after adjusting for other variables in the model, the conditional effect of SIMD varies by only 1.6% across deciles(0.103 (95% CI 0.101-0.107) in decile 1 to 0.087 (95% CI 0.084-0.089) in decile 10). The APE of -0.003 found in table ref indicates the coefficient of the slope of this plot at the average value of SIMD (5.6 SD 2.8). 
+
+Figures ref and ref show an alternative view of APEs over time. These are split into two charts to make visualisation easier. In figure ref effect sizes for previous USC use, social care receipt and multimorbidity groups remain stable across time in different models. The APE for death during the outcome period increases slightly from 2013/14 onwards. 
+
+Figure ref again shows stable APEs for sex, SIMD and lower age groups and slight increases for age groups 85-89 and above. A fluctuation in the APE for care home to 0.08 is recorded in 2013/14 compared to the year before and after where values are approximately 0.05. 
+
+\FloatBarrier
+\section{Acute admission to hospital}\label{sec:res3-adm}
+
+intro
+
+\FloatBarrier
+\subsection{Descriptive statistics}\label{subsec:res3-adm-desc}
+
+\FloatBarrier
+\subsection{Goodness of fit}\label{subsec:res3-adm-gof}
+
+\FloatBarrier
+\subsection{Average Partial Effects}\label{subsec:res3-adm-ape}
+
+\FloatBarrier
+\section{Attendance at A \& E}\label{sec:res3-ed}
+
+intro
+
+\FloatBarrier
+\subsection{Descriptive statistics}\label{subsec:res3-ed-desc}
+
+\FloatBarrier
+\subsection{Goodness of fit}\label{subsec:res3-ed-gof}
+
+\FloatBarrier
+\subsection{Average Partial Effects}\label{subsec:res3-ed-ape}
 
