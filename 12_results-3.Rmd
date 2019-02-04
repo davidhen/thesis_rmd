@@ -50,7 +50,7 @@ As seen in the previous chapter, a model is reported for each year of data from 
 \FloatBarrier
 \subsection{Descriptive statistics}\label{subsec:res3-usc-desc}
 
-Table ref shows a breakdown of the cohort in financial year 2013/14. There were a total of 868,947 individuals included in the model for this financial year. A higher percentage of females (20.4%) compared to males (18.5%) accessed some form of USC. As many as 85.2% of indiviudals who died in the six months after the end of year 2013/14 also used USC in that period. Use of USC increased with age, 13.2% of those aged 65-69 compared to 44% of those age above 95. The median value of 5 (IQR 5) for those that used USC was lower than for those that did not (median 6, IQR 5). Those in the lowest muiltimorbidity group, 0-2 repeat medicines, had a lower percentage (9.9%) of individuals using USC compared to those in the highest group (34.5%). Individuals using social care, USC in the year prior to the outcome period, or living in a care home all had higher percentages of USC use compared to those not using these services (42.5% v 16.7%, 36.4% v 13.3%, and 46.3% v 18.6% respectively).  
+Table ref shows a breakdown of the cohort in financial year 2013/14. There were a total of 868,947 individuals included in the model for this financial year. A higher percentage of females (20.4%) compared to males (18.5%) accessed some form of USC. As many as 85.2% of indiviudals who died in the six months after the end of year 2013/14 also used USC in that period. Use of USC increased with age, 13.2% of those aged 65-69 compared to 44% of those age above 95. The median value for SIMD of 5 (IQR 5) for those that used USC was lower than for those that did not (median 6, IQR 5). Those in the lowest muiltimorbidity group, 0-2 repeat medicines, had a lower percentage (9.9%) of individuals using USC compared to those in the highest group (34.5%). Individuals using social care, USC in the year prior to the outcome period, or living in a care home all had higher percentages of USC use compared to those not using these services (42.5% v 16.7%, 36.4% v 13.3%, and 46.3% v 18.6% respectively).  
 
 \FloatBarrier
 \subsection{Goodness of fit}\label{subsec:res3-usc-gof}
@@ -76,28 +76,67 @@ Figure ref again shows stable APEs for sex, SIMD and lower age groups and slight
 \FloatBarrier
 \section{Acute admission to hospital}\label{sec:res3-adm}
 
-intro
+This section reports results of logistic regression models detailed in section \ref{stats-rq2}. The outcome variable in these models is acute admission to hospital in the six months after the end of each financial year. 
+
+The section follows the same format as presented in the previous section with the outcome variable being the only difference in analyses.  
 
 \FloatBarrier
 \subsection{Descriptive statistics}\label{subsec:res3-adm-desc}
 
+Table ref shows a contingency table of the cohort in 2013/14 with regard to the outcome variable. As seen in the previous section, there were a total of 868,947 individuals included in the model for this financial year. There was little difference between the percentage of males (9.2%) and females (9.1%) that were admitted to hospital during the outcome period. A majority (55%) of those that died during the outcome period were admitted to hospital. An increase in the percentage of individuals being admitted to hospital is seen through age groups from 5.1% of those aged 65-69 to 20% of those aged 90-94 with a slight reduction in those aged over 95 (19.7%). Increases are also seen through multimorbidity groups from 3.6% for those prescribed 0-2 repeat medicines to 18.4% for those prescribed nine or more repeat medicines. Higher percentages of the population using social care (24.1%), unscheduled care in the year prior to the outcome period (18.7%), and those resident in care home (17.1%) had an admission in the outcome period compared to those not using these services (7.3%, 5.6%, and 8.9% respectively). The median value of SIMD (5, IQR 4) was lower than that for those with no admission (6, IQR 5). 
+
 \FloatBarrier
 \subsection{Goodness of fit}\label{subsec:res3-adm-gof}
+
+Table ref shows the results of diagnostic tests for each model. The value of Mcfadden's $R^2$ decreases slightly over time from 0.147 to 0.142. Although values are lower than seen for social care models fitted in the previous chapter, they are slightly higher than found for models using any USC use reported in the previous section. 
 
 \FloatBarrier
 \subsection{Average Partial Effects}\label{subsec:res3-adm-ape}
 
+Figure ref plots the APEs of each variable in each model and table ref shows the values of APEs for financial year 2013/14. As reported in models where any USC use is the outcome variable in the previous section, dying during the outcome period has the largest APE. This magnitude of this effect is, however, lower than seen in the previous section (34.6% increase in probability of admission compared to almost 60% increase in any USC use). High multimorbidity (nine or more repeat prescriptions) has the next highest postive APE, In 2013/14 this group had a 7.7% increase in probability in being admitted to hospital compared to those from the lowest group (0-2 repeat medicines). Those with 6-8 and 3-5 repeat medicines had increases in probability of admission of 3.5% and 1.6% respectively. Use of any form of unscheduled care in the year prior to the outcome period or receipt of social care during the SCS census week was associated with increases in the probability of admission to hospital in 2013/14 of 6.7% compared to those with no prior USC use and 6.0% for those with no social care receipt respectively. The was an incremental increase in APE through age groups from those aged 70-74 (0.7%) to those aged 90-94 (6.0%) compared to those age 65-69. Those aged 95 or above had a lower APE (5.4%) than their immediately younger age group. 
+
+There is a negative effect on admission to hospital for females compared to males with a difference in probability of 1.3%. This effect size is larger than seen in models where any form of USC was the outcome variable (section \ref{subsec:res3-usc-ape}). Living in a care home also had a negative effect on admission to hospital after controlling for other variables in the model. The APE in 2013/14 was -0.011 indicating a 1.1% decrease in the probability of admission to hospital for those living in a care home. This value increases over time and the most recent model shows a 3% decrease in probability of admission. 
+
+Figure ref shows the conditional effect of SIMD on admission to hospital during the six months following financial year 2013/14. As SIMD was modelled as a continuous variable the APE of -0.003 represents the coefficient of the slope in figure ref at the average value of SIMD (5.6, SD 2.8). After adjusting for other variables the conditional effect of SIMD varies by only 1% across deciles (0.034 (95% CI 0.032-0.036) in decile 1 to 0.024(95% CI 0.023-0.025) in decile 10).
+
+Figures ref and ref are alternative plots of APE showing how effects vary across models thorugh time. Two chart are provided to enable easier visualisation. Figure ref shows effect sized of previous USC use, social care receipt, and multimorbidity groups are relatively stable across models. APEs for the flag indicating if an individual died during the outcome period reduce very slightly (by appriximatelty 0.01 or 1% probability) from 2011/12 to 2013/14 an remain stable thereafter. 
+
+Figure ref shows the APE for Care home decreasing across models of more recent periods from a negligible APE in 2011/12 to -0.03 (or 3% reduction in probability) in 2015/16. There are small fluctuations in APE for the oldest two age groups. Otherwise, younger age groups, SIMD, and sex show stable APEs across models.  
+
+
 \FloatBarrier
 \section{Attendance at A \& E}\label{sec:res3-ed}
 
-intro
+This section reports the results of logisitc regression models outlined in section \ref{stats-rq2}. The section follows the same format as the previous two sections. The only diffrerece in the analysis is that the outcome variable indicated any attendance at an Accident & Emergency department in the six months following the end of each financial year. 
 
 \FloatBarrier
 \subsection{Descriptive statistics}\label{subsec:res3-ed-desc}
 
+Table ref is a contingency table showing attendance at A & E broken down by sociodemographic factors. A total of 868,947 indiviudals were included in the model for this financial year. A slighlty higher percentage of females (12.2%) attended A & E compared to males (11.8%). Of individuals who died during the outcome period, 46.6% attended A & E over the same time frame. The percentage of those attending A & E increase with age from 8.4% of those aged 65-69 to 21.6% of those aged 90-94 (and 21.5% aged 95 and over). The median value of SIMD was lower (5, IQR 4) for those that attended A & E than for those that did not (median 6, IQR 5). In multimorbidity groups, the percentage of those attending A & E increased as the number of regular prescribed medicines increased incrementally from 6.2% for those receiving 0-2 medicines to 21.2% of those prescribed nine or more repeat medicines. Twenty-five percent of those receiving social care compared to 10.3% of those that did not attended A & E during the outcome period following the end of 2013/14. Similarly, 22.3% of those that had used any form of USC in the year prior to the outcome period attended an Emergency Department compared 8.2% of those that did not. Finally, 20.8% of those living in a care home compared with 11.7% of those that did not had at least one attendance at A & E during the outcome period following 2013/14.  
+
 \FloatBarrier
 \subsection{Goodness of fit}\label{subsec:res3-ed-gof}
 
+Table ref shows low McFadden's $R^2$ values for all models ranging from 0.081 in the most recent year to 0.087 in 2011/12. 
+
 \FloatBarrier
 \subsection{Average Partial Effects}\label{subsec:res3-ed-ape}
+
+Figure ref shows the APEs for each variable in each model across years whilst table ref shows the exact values for 2013/14 model. As seen in previous models relating to USC, dying during the outcome period had the largest partial effect on attendance at A & E. The increase in probability for attendance for those that died was 24.3% compared to those that were alive at the end of the outcome period. Prior use of USC in the 12 months before the outcome period showed a 8.5% increase in probability compared to those that had not used USC. There was an increase in probability of attending an emergency department for all multimorbidity groups compared to the reference group, 0-2 repeat medicines. These saw an increase in probability of 1.9%, 3.9%, and 8% for the 3-5, 6-8, and 9 plus repeat medicine groups respectively in 2013/14. An incremental increase in APEs for age groups is also seen ranging from 0.5% for the 70-74 group to 4.9% for 90-94 group compared to the 65-69 reference group. Social care had a positive effect on A & E attendance, those present in the 2013/14 SCS had an increased probability of 5.3% compared to those not in the SCS. 
+
+There is a negative effect for females compared to males in all models. However, in these models the effect is negligible (0.7% decrease in probability of attending A & E after 2013/14). Living in a care home also had a negative effect on admission to A & E after adjustment. In the 2013/14 model this effect is negligible (-0.002 or a decrease in probability of 0.2%) but the effect is larger in later models (-0.027 or a 2.7% decrease in probability). 
+
+Figure ref shows the conditional effect of SIMD of attendance at an emergency department in the six months following the end of financial year 2013/14. The APE of -0.004 reflects the coefficient of the slope in figure ref at the mean value of SIMD (5.6, SD 2.8). The conditional effect of SIMD varies by 1.8% across deciles (0.069 (95% CI 0.067-0.071) in decile 1 to 0.051 (95% CI 0.049-0.053) in decile 10). 
+
+Figures ref and ref show APEs for variables charted across models through time. Figure ref shows stable APEs across models for prior use of USC, social care, and multimorbidity groups. There is a very small reduction in the magnitude of APE for death during the outcome period in later models. 
+
+Figure ref shows reduction an increase in the negative value of APE for those living in a care home compared to those that do not in later models. Older age groups show slight fluctuation in APE values over time whilst other age groups, SIMD decile and sex APEs appear steady across models. 
+
+
+
+
+
+
+
+
 

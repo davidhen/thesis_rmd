@@ -15,25 +15,35 @@ Go through all results and discuss
 \item SC models - Big section. Combine discussion of both models >96% and 92-96%
 \begin{itemize}
 \item APEs show effects *after* adjusting for other variables (and interactions)
-\item Big differences in overall numbers *and* percentages between models (>96 \& 92-95.9). >96 has smaller numbers for very old and much higher percentage (~70%) receiving care compared to national average (~45%). 
+\item Big differences in overall numbers *and* percentages between models (>96 \& 92-95.9). >96 has smaller numbers for very old and much higher percentage (\~70%) receiving care compared to national average (\~45%). 
 \item Second group of models include both largest cities...
 \item Age by far the biggest effect  
 \item Female effect fairly small after adjustment for age and MM (compared to descriptives) - Does this warrant splitting by sex before modelling?
 \item Magnitude of effects important. (Note SIMD * 10 = similar effect of going from 65-69 to 75-79 i.e. being deprived ages you by 10 years)
 \item Variation in APE for LAs could be a few things e.g. budget cuts, data, random
-\item Tight CIs likely reflect large sample size (wider CI for age > 95 small numbers)
 \item Bump in APE values for older age groups and high meds related to increase in comm alarm observations from 2014/15 onwards. *note very small effect changes**
 \item Fluctuating APEs for councils to do with baseline level of reference council also fluctuating. Again - *very small changes in APE*
 \end{itemize}
 \item USC models - Big section
 \begin{itemize}
-\item Point 1
+\item Overall smaller magnitude of effects *except* for the deaders. 
+\item Effects magnitude lower for admission and A \& E compared to any USC
+\item Care home positive effect for any USC but *negative* effect for admission and A \& E
+\item Overall poorer fitting models.
+\item Fluctuation in APEs at older ages across models likely reflects smaller numbers *but* compare to SC models...
+\end{itemize}
+\item Overall findings
+\begin{itemize}
+\item Tight CIs likely reflect large sample size (wider CI for age > 95 small numbers)
+\item Difference in $R^2$ for USC likely due to fact SC models are subsets of data rather than whole cohort.
 \end{itemize}
 \end{itemize}
 
 
 \section{Limitations}
-* This was limited by a, b, c (Need to talk about measures chosen, especially the meds MM measure and how I counted meds, here. Also need to discuss lack of PC data as a major limitation with respect to MM)   
+* This was limited by a, b, c (Need to talk about measures chosen, especially the meds MM measure and how I counted meds, here. Also need to discuss lack of PC data as a major limitation with respect to MM)  
+* Social care data
+* No measure for living alone
 
 \section{Comparisons to previous research}
 * Compare to past research
@@ -60,7 +70,11 @@ Difficulties encountered
 * Benefits
 
 \section{Future research}
-* Future research should g, h, i (1. Link to census. 2.Measure *longitudinal* changes in social care and impact on usc. 3. Break down SCS and USC variables - any difference in home care patterns? What about Admissions and A & E only? 4. Look at e.g. those with over 9 meds and *didn't* get social care/usc. What's the craic with them?)
+* Future research should:- 
+* Link to census  
+* Measure *longitudinal* changes in social care and impact on usc  
+* Break down SCS and USC variables - any difference in home care patterns? What about Admissions and A & E only?  
+* Look at e.g. those with over 9 meds and *didn't* get social care/usc. What's the craic with them?)
 
 
 
