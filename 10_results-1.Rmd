@@ -147,24 +147,26 @@ The pattern of distribution of the percentage of people receiving specific count
 
 Figure \ref{fig:results1-meds-grp} shows the distribution of the percentage of individuals receiving numbers of repeat medicines within defined groups. Each group contains either slightly more or less than 25% of the total cohort with 0-2 and 3-5 groups being slightly larger. The same pattern is seen across all years of data.
 
-\begin{table}[h]
+\begin{table}[]
 \centering
 \resizebox{\textwidth}{!}{%
 \begin{threeparttable}
 \begin{tabular}{@{}llrrrrr@{}}
 \toprule
-\textbf{Variable} & \textbf{Value} & \textbf{\begin{tabular}[c]{@{}r@{}}Repeat meds:\\ 0-2\end{tabular}} & \textbf{\begin{tabular}[c]{@{}r@{}}Repeat meds:\\ 3-5\end{tabular}} & \textbf{\begin{tabular}[c]{@{}r@{}}Repeat meds:\\ 6-8\end{tabular}} & \textbf{\begin{tabular}[c]{@{}r@{}}Repeat meds:\\ 9 and over\end{tabular}} & \textbf{Total} \\ \midrule
+\textbf{Variable} & \textbf{Value} & \textbf{\begin{tabular}[c]{@{}r@{}}Repeat Meds:\\ 0-2\end{tabular}} & \textbf{\begin{tabular}[c]{@{}r@{}}Repeat Meds:\\ 3-5\end{tabular}} & \textbf{\begin{tabular}[c]{@{}r@{}}Repeat Meds:\\ 6-8\end{tabular}} & \textbf{\begin{tabular}[c]{@{}r@{}}Repeat Meds:\\ 9 plus\end{tabular}} & \textbf{Total} \\ \midrule
 \textbf{Sex} & Male & 114587 (28.3) & 116021 (28.7) & 92542 (22.9) & 81330 (20.1) & 404480 \\
 \textbf{} & Female & 128812 (25.6) & 139958 (27.8) & 116708 (23.2) & 118337 (23.5) & 503815 \\
+\textbf{Mortality} & Dead & 11033 (28.0) & 9163 (23.3) & 8145 (20.7) & 11007 (28.0) & 39348 \\
+\textbf{} & Alive & 232366 (26.7) & 246816 (28.4) & 201105 (23.1) & 188660 (21.7) & 868947 \\
 \textbf{Age} & Mean (SD) & 71.9 (6.5) & 74.4 (7.3) & 76.2 (7.6) & 76.9 (7.5) &  \\
-\textbf{Age group} & 65-69 & 109385 (39.8) & 79387 (28.9) & 47733 (17.4) & 38441 (14.0) & 274946 \\
+\textbf{Age grop} & 65-69 & 109385 (39.8) & 79387 (28.9) & 47733 (17.4) & 38441 (14.0) & 274946 \\
 \textbf{} & 70-74 & 60865 (28.8) & 62884 (29.7) & 46143 (21.8) & 41574 (19.7) & 211466 \\
 \textbf{} & 75-79 & 35600 (20.3) & 49618 (28.3) & 45250 (25.8) & 44932 (25.6) & 175400 \\
 \textbf{} & 80-84 & 20506 (16.0) & 34127 (26.6) & 35731 (27.8) & 38136 (29.7) & 128500 \\
 \textbf{} & 85-89 & 10772 (14.2) & 19150 (25.2) & 22039 (29.0) & 24029 (31.6) & 75990 \\
 \textbf{} & 90-94 & 4745 (14.1) & 8582 (25.5) & 9972 (29.6) & 10411 (30.9) & 33710 \\
 \textbf{} & 95 plus & 1526 (18.4) & 2231 (26.9) & 2382 (28.8) & 2144 (25.9) & 8283 \\
-\textbf{SIMD decile} & 1 - most deprived & 15032 (19.1) & 19109 (24.3) & 19726 (25.1) & 24730 (31.5) & 78597 \\
+\textbf{SIMD decile} & 1 & 15032 (19.1) & 19109 (24.3) & 19726 (25.1) & 24730 (31.5) & 78597 \\
 \textbf{} & 2 & 17560 (20.5) & 21864 (25.5) & 21378 (24.9) & 24919 (29.1) & 85721 \\
 \textbf{} & 3 & 20158 (21.2) & 25362 (26.7) & 23823 (25.0) & 25786 (27.1) & 95129 \\
 \textbf{} & 4 & 22929 (23.8) & 26458 (27.5) & 23302 (24.2) & 23519 (24.4) & 96208 \\
@@ -173,7 +175,7 @@ Figure \ref{fig:results1-meds-grp} shows the distribution of the percentage of i
 \textbf{} & 7 & 28107 (30.4) & 27125 (29.3) & 20247 (21.9) & 17025 (18.4) & 92504 \\
 \textbf{} & 8 & 27318 (30.9) & 26338 (29.8) & 19155 (21.6) & 15718 (17.8) & 88529 \\
 \textbf{} & 9 & 28098 (31.7) & 27041 (30.5) & 18956 (21.4) & 14465 (16.3) & 88560 \\
-\textbf{} & 10 - most affluent & 30841 (34.9) & 27097 (30.7) & 18018 (20.4) & 12370 (14.0) & 88326 \\
+\textbf{} & 10 & 30841 (34.9) & 27097 (30.7) & 18018 (20.4) & 12370 (14.0) & 88326 \\
 \textbf{Any form of social care} & No Social Care & 235947 (29.1) & 236930 (29.3) & 181564 (22.4) & 155493 (19.2) & 809934 \\
 \textbf{} & Social Care & 7452 (7.6) & 19049 (19.4) & 27686 (28.1) & 44174 (44.9) & 98361 \\
 \textbf{Any USC episode} & No USC & 203026 (31.9) & 195075 (30.6) & 139718 (21.9) & 99604 (15.6) & 637423 \\
@@ -185,9 +187,10 @@ Figure \ref{fig:results1-meds-grp} shows the distribution of the percentage of i
 \end{tablenotes}
 \end{threeparttable}%
 }
-\caption{Cohort 2013/14 by Multimorbidity (repeat medicine) groups \bf{This table needs mortality added!!}}
+\caption{Cohort 2013/14 by Multimorbidity (repeat medicine) groups}
 \label{tab:res1-mmgroups}
 \end{table}
+
 
 Table \ref{tab:res1-mmgroups} shows the breakdown of the cohort in financial year 2013/14 by multimorbidity groups. There was a higher percentages (23.2% & 23.5%) of females in the groups with highest repeat medicine counts (6-8 & 9 and over) compared to males (22.9% and 20.1%). The average age of individuals in each group rose from 71.9 years in the 0-2 group to 76.9 years in the 9 and over group. The percentage of each age group receiving 0-2 repeat medicines increases as the age group increases. Almost 40% of those aged 65-69 (over 30% of the cohort) were prescribed between 0-2 repeat medicines whereas only 18.4% of those over the age of 95 were in this group. Conversely, Only 14% of those aged 65-69 received 9 or more repeat medicines whereas 25.9% of those over 95 did so. 
 
@@ -197,7 +200,7 @@ There is a noticeable relationship between service use and multimorbidity groups
 
 \begin{figure}[h]
   \centering
-    \includegraphics{figures/chapter-results-1/19_meds_scs_plot.png}
+    \includegraphics[width= 0.8\textwidth]{figures/chapter-results-1/19_meds_scs_plot.png}
     \caption{Count of repeat medicine groups, by receipt of social care. 2013/14}
     \label{fig:res2-meds}
 \end{figure}
@@ -206,7 +209,7 @@ Figure \ref{fig:res2-meds} illustrates use of social care by multimorbidity grou
 
 \begin{figure}[h]
   \centering
-    \includegraphics{figures/chapter-results-1/15_meds_usc_plot.png}
+    \includegraphics[width= 0.8\textwidth]{figures/chapter-results-1/15_meds_usc_plot.png}
     \caption{Count of repeat medicine groups, by use of USC. 2013/14}
     \label{fig:res3-meds}
 \end{figure}

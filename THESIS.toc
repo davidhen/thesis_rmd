@@ -98,44 +98,44 @@
 \contentsline {subsection}{\numberline {5.2.2}Percentage by age group}{122}{subsection.5.2.2}
 \contentsline {subsection}{\numberline {5.2.3}Percentage by deprivation}{123}{subsection.5.2.3}
 \contentsline {subsection}{\numberline {5.2.4}Multimorbidity (repeat medicine) groups}{124}{subsection.5.2.4}
-\contentsline {section}{\numberline {5.3}Deprivation}{126}{section.5.3}
-\contentsline {subsection}{\numberline {5.3.1}Participants}{126}{subsection.5.3.1}
-\contentsline {subsection}{\numberline {5.3.2}Deprivation by age and sex}{127}{subsection.5.3.2}
-\contentsline {subsection}{\numberline {5.3.3}Deprivation by local authority}{127}{subsection.5.3.3}
-\contentsline {chapter}{\numberline {6}Results 2: Social Care and Multimorbidity}{129}{chapter.6}
-\contentsline {section}{\numberline {6.1}Overall Descriptive statistics}{129}{section.6.1}
-\contentsline {section}{\numberline {6.2}Models for councils with link rate greater than 96\%}{131}{section.6.2}
-\contentsline {subsection}{\numberline {6.2.1}Descriptive statistics}{132}{subsection.6.2.1}
-\contentsline {subsection}{\numberline {6.2.2}Goodness of fit}{133}{subsection.6.2.2}
-\contentsline {subsection}{\numberline {6.2.3}Average Partial Effects}{133}{subsection.6.2.3}
-\contentsline {section}{\numberline {6.3}Model for councils with link rate between 92\% and 95.9\%}{137}{section.6.3}
-\contentsline {subsection}{\numberline {6.3.1}Descriptive statistics}{137}{subsection.6.3.1}
-\contentsline {subsection}{\numberline {6.3.2}Goodness of fit}{138}{subsection.6.3.2}
-\contentsline {subsection}{\numberline {6.3.3}Average Partial Effects}{139}{subsection.6.3.3}
-\contentsline {chapter}{\numberline {7}Results 3: Social care, multimorbidity, and unscheduled health care use}{143}{chapter.7}
-\contentsline {section}{\numberline {7.1}Overall Descriptive statistics}{143}{section.7.1}
-\contentsline {section}{\numberline {7.2}Any form of unscheduled care}{145}{section.7.2}
-\contentsline {subsection}{\numberline {7.2.1}Descriptive statistics}{146}{subsection.7.2.1}
-\contentsline {subsection}{\numberline {7.2.2}Goodness of fit}{146}{subsection.7.2.2}
-\contentsline {subsection}{\numberline {7.2.3}Average Partial Effects}{146}{subsection.7.2.3}
-\contentsline {section}{\numberline {7.3}Acute admission to hospital}{147}{section.7.3}
-\contentsline {subsection}{\numberline {7.3.1}Descriptive statistics}{147}{subsection.7.3.1}
-\contentsline {subsection}{\numberline {7.3.2}Goodness of fit}{148}{subsection.7.3.2}
-\contentsline {subsection}{\numberline {7.3.3}Average Partial Effects}{148}{subsection.7.3.3}
-\contentsline {section}{\numberline {7.4}Attendance at A \& E}{149}{section.7.4}
-\contentsline {subsection}{\numberline {7.4.1}Descriptive statistics}{149}{subsection.7.4.1}
-\contentsline {subsection}{\numberline {7.4.2}Goodness of fit}{150}{subsection.7.4.2}
-\contentsline {subsection}{\numberline {7.4.3}Average Partial Effects}{150}{subsection.7.4.3}
-\contentsline {chapter}{\numberline {8}Discussion}{152}{chapter.8}
-\contentsline {section}{\numberline {8.1}Main outomes}{152}{section.8.1}
-\contentsline {section}{\numberline {8.2}Findings}{152}{section.8.2}
-\contentsline {section}{\numberline {8.3}Limitations}{153}{section.8.3}
-\contentsline {section}{\numberline {8.4}Comparisons to previous research}{153}{section.8.4}
-\contentsline {section}{\numberline {8.5}Implications}{153}{section.8.5}
-\contentsline {subsection}{\numberline {8.5.1}LA Variation}{153}{subsection.8.5.1}
-\contentsline {subsection}{\numberline {8.5.2}Social Care data}{154}{subsection.8.5.2}
-\contentsline {subsection}{\numberline {8.5.3}Administrative Data Research}{154}{subsection.8.5.3}
-\contentsline {section}{\numberline {8.6}Future research}{154}{section.8.6}
-\contentsline {chapter}{\numberline {9}Conclusion}{155}{chapter.9}
-\contentsline {chapter}{Appendices}{156}{section*.86}
-\contentsline {chapter}{References}{189}{chapter*.94}
+\contentsline {section}{\numberline {5.3}Deprivation}{127}{section.5.3}
+\contentsline {subsection}{\numberline {5.3.1}Participants}{127}{subsection.5.3.1}
+\contentsline {subsection}{\numberline {5.3.2}Deprivation by age and sex}{128}{subsection.5.3.2}
+\contentsline {subsection}{\numberline {5.3.3}Deprivation by local authority}{128}{subsection.5.3.3}
+\contentsline {chapter}{\numberline {6}Results 2: Social Care and Multimorbidity}{130}{chapter.6}
+\contentsline {section}{\numberline {6.1}Overall Descriptive statistics}{130}{section.6.1}
+\contentsline {section}{\numberline {6.2}Models for councils with link rate greater than 96\%}{132}{section.6.2}
+\contentsline {subsection}{\numberline {6.2.1}Descriptive statistics}{133}{subsection.6.2.1}
+\contentsline {subsection}{\numberline {6.2.2}Goodness of fit}{134}{subsection.6.2.2}
+\contentsline {subsection}{\numberline {6.2.3}Average Partial Effects}{134}{subsection.6.2.3}
+\contentsline {section}{\numberline {6.3}Model for councils with link rate between 92\% and 95.9\%}{138}{section.6.3}
+\contentsline {subsection}{\numberline {6.3.1}Descriptive statistics}{138}{subsection.6.3.1}
+\contentsline {subsection}{\numberline {6.3.2}Goodness of fit}{139}{subsection.6.3.2}
+\contentsline {subsection}{\numberline {6.3.3}Average Partial Effects}{140}{subsection.6.3.3}
+\contentsline {chapter}{\numberline {7}Results 3: Social care, multimorbidity, and unscheduled health care use}{144}{chapter.7}
+\contentsline {section}{\numberline {7.1}Overall Descriptive statistics}{144}{section.7.1}
+\contentsline {section}{\numberline {7.2}Any form of unscheduled care}{146}{section.7.2}
+\contentsline {subsection}{\numberline {7.2.1}Descriptive statistics}{147}{subsection.7.2.1}
+\contentsline {subsection}{\numberline {7.2.2}Goodness of fit}{147}{subsection.7.2.2}
+\contentsline {subsection}{\numberline {7.2.3}Average Partial Effects}{149}{subsection.7.2.3}
+\contentsline {section}{\numberline {7.3}Acute admission to hospital}{151}{section.7.3}
+\contentsline {subsection}{\numberline {7.3.1}Descriptive statistics}{151}{subsection.7.3.1}
+\contentsline {subsection}{\numberline {7.3.2}Goodness of fit}{151}{subsection.7.3.2}
+\contentsline {subsection}{\numberline {7.3.3}Average Partial Effects}{152}{subsection.7.3.3}
+\contentsline {section}{\numberline {7.4}Attendance at A \& E}{153}{section.7.4}
+\contentsline {subsection}{\numberline {7.4.1}Descriptive statistics}{153}{subsection.7.4.1}
+\contentsline {subsection}{\numberline {7.4.2}Goodness of fit}{153}{subsection.7.4.2}
+\contentsline {subsection}{\numberline {7.4.3}Average Partial Effects}{154}{subsection.7.4.3}
+\contentsline {chapter}{\numberline {8}Discussion}{155}{chapter.8}
+\contentsline {section}{\numberline {8.1}Main outomes}{155}{section.8.1}
+\contentsline {section}{\numberline {8.2}Findings}{155}{section.8.2}
+\contentsline {section}{\numberline {8.3}Limitations}{156}{section.8.3}
+\contentsline {section}{\numberline {8.4}Comparisons to previous research}{156}{section.8.4}
+\contentsline {section}{\numberline {8.5}Implications}{157}{section.8.5}
+\contentsline {subsection}{\numberline {8.5.1}LA Variation}{157}{subsection.8.5.1}
+\contentsline {subsection}{\numberline {8.5.2}Social Care data}{157}{subsection.8.5.2}
+\contentsline {subsection}{\numberline {8.5.3}Administrative Data Research}{157}{subsection.8.5.3}
+\contentsline {section}{\numberline {8.6}Future research}{157}{section.8.6}
+\contentsline {chapter}{\numberline {9}Conclusion}{158}{chapter.9}
+\contentsline {chapter}{Appendices}{159}{section*.92}
+\contentsline {chapter}{References}{192}{chapter*.100}

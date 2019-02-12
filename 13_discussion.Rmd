@@ -11,6 +11,11 @@ output: pdf_document
 \section{Findings}
 Go through all results and discuss
 \begin{itemize}[noitemsep]
+\item Renfrewshire
+\begin{itemize}[noitemsep]
+\item Brief overview of discussion from chapter
+\item Also discuss implicit finding that finite number of places for social care in Renfrew. Allocation according to \emph{resource} not \emph{need}. 
+\end{itemize}
 \item Descriptives
 \item SC models - Big section. Combine discussion of both models >96% and 92-96%
 \begin{itemize}
@@ -42,7 +47,7 @@ Go through all results and discuss
 
 \section{Limitations}
 * This was limited by a, b, c (Need to talk about measures chosen, especially the meds MM measure and how I counted meds, here. Also need to discuss lack of PC data as a major limitation with respect to MM)  
-* Social care data
+* Social care data - Levels home care steady for me but decreasing in SCS - why is linkage rate steady?
 * No measure for living alone
 
 \section{Comparisons to previous research}
@@ -53,6 +58,7 @@ Go through all results and discuss
 * Implications are d, e, f - discuss in light of pro-rich/pro-poor framework
 * Street-level beurocracy? I doubt it. More likely differing knowlege/skills - failure to learn from other areas
 * Inverse Care Law - no evidence with this research - !But not adjusted - future research
+* As above - allocation according to resource not need in Renfrew
 
 \subsection{Social Care data}\label{sec:disc-sc-data}
 
