@@ -190,7 +190,14 @@ Dumfries and Galloway & -0.071 & -0.076 & -0.066 \\ \bottomrule
 
 Despite large differences seen in percentages between males and females receiving social care (figure \ref{fig:res2-age-sex} and table \ref{tab:res2-chars1314}), after controlling for other variables the APE of being female compared to male is relatively small (a 4.4% increase in probability in 2013/14).
 
-The APE of SIMD reflects an instantaneous effect rather than change in probability from a reference category. The small value indicates the average decrease in probability moving from one decile to the next. **I think I should plot the APEs by SIMD separately for 2013/14 model as a) it is interpreted differently from the categorical variables and b) will be much easier to explain**. The APE of SIMD in 2013/14 is -0.006. This could be interpreted as a 0.6% decrease in the probability of receiving social care between SIMD deciles (moving from decile 1 to decile 10). Therefore, the direct difference between decile 1 and decile 10 can be estimated at ~6% decreased probability of receiving social care for the most affluent decile. The magnitude of this effect is similar to the APE of being aged 75-79 compared to 65-69.  
+\begin{figure}[h]
+  \centering
+    \includegraphics{figures/chapter-results-2/sc_model_22_simd_plot.png}
+    \caption{Conditional effect of simd on receipt of social care}
+    \label{fig:res2-model1-simd}
+\end{figure} 
+
+Figure \ref{fig:res2-model1-simd} shows the conditional effect of SIMD on receipt of social care for individiuals living in local authorities with a 96% - 99.9% match rate of SCS records to the population spine. Because SIMD was modelled as a continous variable the APE of -0.006 shown in table \ref{tab:res2-model1-APE} indicates an instantaneous effect and represents the coefficient of the slope in figure ref\ref{fig:res2-model1-simd} at the average value of SIMD (5.22, SD 2.60). As the low value indicates, after adjustment for other variables in the model, the conditinal effect of SIMD is slight and varies by 1.8% across deciles (0.029 (95%CI 0.025-0.032) in decile 1 to 0.011(95% CI 0.010-0.013) in decile 10).
 
 After adjusting for all other variables in the model there remains variation in the likelihood of receiving social care across local authorities. In some cases this variation is small (e.g. in 2013/14 there is a 0.2% decrease in the probability of receiving social care in Angus compared to Falkirk) but can also have larger values (e.g. a 7% decrease in probability of receiving social care in Dumfries & Galloway compared to Falkirk). The variations in APEs reflect, to some extent, the differences in percentages of individuals receiving care reported in table \ref{tab:res2-la}. This indicates the other variables in the model (namely:age, sex, multimorbidity, and deprivation) and their interactions do not explain the variation at local authority level.
 
@@ -361,7 +368,14 @@ South Ayrshire & -0.104 & -0.12 & -0.088 \\ \bottomrule
 
 Despite large differences seen in percentages between males and females receiving social care (figure \ref{fig:res2-age-sex} and table \ref{tab:res2-mod2-chars1314}), after controlling for other variables the APE of being female compared to male is relatively small (a 3% increase in probability in 2013/14).
 
-**I think I should plot the APEs by SIMD separately for 2013/14 model as a) it is interpreted differently from the categorical variables and b) will be much easier to explain**. The APE of SIMD in 2013/14 is -0.005. As in the previous models, this could be interpreted as a 0.5% decrease in the probability of receiving social care between SIMD deciles (moving from decile 1 to decile 10). Therefore, the direct difference between decile 1 and decile 10 can be estimated at ~5% decreased probability of receiving social care for the most affluent decile. The magnitude of this effect is similar to the APE of being aged 75-79 compared to 65-69.  
+\begin{figure}[h]
+  \centering
+    \includegraphics{figures/chapter-results-2/sc_model_23_simd_plot.png}
+    \caption{Conditional effect of simd on receipt of social care}
+    \label{fig:res2-model2-simd}
+\end{figure} 
+
+Figure \ref{fig:res2-model2-simd} shows the conditional effect of SIMD on receipt of social care. SIMD was modelled as a continous variable, therefore the APE of -0.005 shown in table \ref{tab:res2-mod2-APE} indicates the coefficient of the slope in figure ref\ref{fig:res2-model2-simd} at the average value of SIMD (5.76, SD 3.10). As the low value indicates, after adjustment for other variables in the model, the conditinal effect of SIMD is slight and varies by 1.1% across deciles (0.025 (95%CI 0.023-0.028) in decile 1 to 0.014(95% CI 0.012-0.015) in decile 10).  
 
 In models from earlier years (2011/12 - 2013/14) there is a large difference between the APE of all councils compared to Shetland Islands. However, between the other councils there is much less variation in APEs (e.g in 2013/14 there is a  2.9% difference in the probability of receiving social care between the extremes of East Renfrewshire and South Ayrshire). In later models (2014/15 & 2015/16) the variation in APEs has a more linear trend and ranges by ~10% difference in the probability of receiving social care. 
 

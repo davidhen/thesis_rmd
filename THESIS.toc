@@ -108,15 +108,15 @@
 \contentsline {subsection}{\numberline {6.2.1}Descriptive statistics}{134}{subsection.6.2.1}
 \contentsline {subsection}{\numberline {6.2.2}Goodness of fit}{135}{subsection.6.2.2}
 \contentsline {subsection}{\numberline {6.2.3}Average Partial Effects}{135}{subsection.6.2.3}
-\contentsline {section}{\numberline {6.3}Model for councils with link rate between 92\% and 95.9\%}{139}{section.6.3}
-\contentsline {subsection}{\numberline {6.3.1}Descriptive statistics}{139}{subsection.6.3.1}
-\contentsline {subsection}{\numberline {6.3.2}Goodness of fit}{140}{subsection.6.3.2}
-\contentsline {subsection}{\numberline {6.3.3}Average Partial Effects}{141}{subsection.6.3.3}
-\contentsline {chapter}{\numberline {7}Results 3: Social care, multimorbidity, and unscheduled health care use}{145}{chapter.7}
-\contentsline {section}{\numberline {7.1}Overall Descriptive statistics}{145}{section.7.1}
-\contentsline {section}{\numberline {7.2}Any form of unscheduled care}{147}{section.7.2}
-\contentsline {subsection}{\numberline {7.2.1}Descriptive statistics}{148}{subsection.7.2.1}
-\contentsline {subsection}{\numberline {7.2.2}Goodness of fit}{148}{subsection.7.2.2}
+\contentsline {section}{\numberline {6.3}Model for councils with link rate between 92\% and 95.9\%}{140}{section.6.3}
+\contentsline {subsection}{\numberline {6.3.1}Descriptive statistics}{140}{subsection.6.3.1}
+\contentsline {subsection}{\numberline {6.3.2}Goodness of fit}{141}{subsection.6.3.2}
+\contentsline {subsection}{\numberline {6.3.3}Average Partial Effects}{142}{subsection.6.3.3}
+\contentsline {chapter}{\numberline {7}Results 3: Social care, multimorbidity, and unscheduled health care use}{146}{chapter.7}
+\contentsline {section}{\numberline {7.1}Overall Descriptive statistics}{146}{section.7.1}
+\contentsline {section}{\numberline {7.2}Any form of unscheduled care}{148}{section.7.2}
+\contentsline {subsection}{\numberline {7.2.1}Descriptive statistics}{149}{subsection.7.2.1}
+\contentsline {subsection}{\numberline {7.2.2}Goodness of fit}{149}{subsection.7.2.2}
 \contentsline {subsection}{\numberline {7.2.3}Average Partial Effects}{150}{subsection.7.2.3}
 \contentsline {section}{\numberline {7.3}Acute admission to hospital}{154}{section.7.3}
 \contentsline {subsection}{\numberline {7.3.1}Descriptive statistics}{154}{subsection.7.3.1}
@@ -137,5 +137,5 @@
 \contentsline {subsection}{\numberline {8.5.3}Administrative Data Research}{167}{subsection.8.5.3}
 \contentsline {section}{\numberline {8.6}Future research}{167}{section.8.6}
 \contentsline {chapter}{\numberline {9}Conclusion}{168}{chapter.9}
-\contentsline {chapter}{Appendices}{169}{section*.114}
-\contentsline {chapter}{References}{202}{chapter*.122}
+\contentsline {chapter}{Appendices}{169}{section*.116}
+\contentsline {chapter}{References}{202}{chapter*.124}

@@ -52,7 +52,7 @@ As seen in the previous chapter, a model is reported for each year of data from 
 
 Table \ref{tab:res3-chars1314} shows a breakdown of the cohort in financial year 2013/14. There were a total of 868,947 individuals included in the model for this financial year. A higher percentage of females (20.4%) compared to males (18.5%) accessed some form of USC. As many as 85.2% of individuals who died in the six months after the end of year 2013/14 also used USC in that period. Use of USC increased with age, 13.2% of those aged 65-69 compared to 44% of those age above 95. The median value for SIMD of 5 (IQR 5) for those that used USC was lower than for those that did not (median 6, IQR 5). Those in the lowest multimorbidity group, 0-2 repeat medicines, had a lower percentage (9.9%) of individuals using USC compared to those in the highest group (34.5%). Individuals using social care, USC in the year prior to the outcome period, or living in a care home all had higher percentages of USC use compared to those not using these services (42.5% v 16.7%, 36.4% v 13.3%, and 46.3% v 18.6% respectively).  
 
-\begin{table}[]
+\begin{table}[h]
 \centering
 \resizebox{\textwidth}{!}{%
 \begin{threeparttable}
@@ -96,7 +96,7 @@ Table \ref{tab:res3-chars1314} shows a breakdown of the cohort in financial year
 \FloatBarrier
 \subsection{Goodness of fit}\label{subsec:res3-usc-gof}
 
-\begin{table}[]
+\begin{table}[h]
 \centering
 \resizebox{\textwidth}{!}{%
 \begin{tabular}{@{}lrrrrr@{}}
