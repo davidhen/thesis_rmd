@@ -277,7 +277,14 @@ The largest percentages of individuals receiving social care and unscheduled car
 \FloatBarrier
 \subsection{Deprivation by age and sex}\label{subsec:dep-agesex}
 
-**Age sex simd plot as a line-plot here**...maybe
+\begin{figure}[h]
+  \centering
+    \includegraphics{figures/chapter-results-1/age_sex_simd_plot.png}
+    \caption{Breakdown of population by age group, sex, and SIMD decile (Decile 1 - most deprived)}
+    \label{fig:results1-age_simd}
+\end{figure}
+
+Figure \ref{fig:results1-age_simd} shows that the percentage of the cohort living in SIMD decile 1 areas is below 10% fro both sexes and decreases with age. Males in decile 2 also show lower percentages and a reduction in overall make-up of the cohort at older ages.  
 
 \FloatBarrier
 \subsection{Deprivation by local authority}\label{subsec:dep-la}
