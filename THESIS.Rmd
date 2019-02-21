@@ -33,9 +33,9 @@ header-includes:
 - \usepackage[toc,page]{appendix} #appendix in toc
 - \usepackage{acronym}
 - \usepackage[utf8]{inputenc} 
-- \usepackage{xcolor}
+- \usepackage[table]{xcolor}
 - \onehalfspacing
-- \colorlet{Blue}{blue} #Sort out an issue with xcolor package(not explicitly loaded here!)
+- \colorlet{Blue}{blue} #Sort out an issue with xcolor package
 ---
 
 

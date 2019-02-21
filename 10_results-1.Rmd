@@ -289,13 +289,13 @@ Figure \ref{fig:results1-age_simd} shows that the percentage of the cohort livin
 \FloatBarrier
 \subsection{Deprivation by local authority}\label{subsec:dep-la}
 
-The percentage of individuals from the cohort living in each of the SIMD deciles by local authority area of residence in the financial year 2013/14 is shown in figure \ref{fig:results1-la}. The figure reveals large variation in percentages in each decile according to each local authority. For example approximately one-third of individuals in the City of Edinburgh live in a decile 10 datazone (the most affluent) whilst a similar number live in a decile 1 datazone in the Glasgow City area. Fife and Renfrewshire councils (and to a lesser extent South Ayrshire and South Lanarkshire) show the most even distribution of population across deprivation deciles albeit with slight discrepancies. Island local authority areas do not contain datazones from all 10 deciles and tend to have populations concentrated in the middle of the spectrum (a pattern also present in the Highland council area with smaller percentages seen at the extremes).    
+The percentage of individuals from the cohort living in each of the SIMD deciles by local authority area of residence in the financial year 2013/14 is shown in figure \ref{fig:results1-la-simd}. The figure reveals large variation in percentages in each decile according to each local authority. For example approximately one-third of individuals in the City of Edinburgh live in a decile 10 datazone (the most affluent) whilst a similar number live in a decile 1 datazone in the Glasgow City area. Fife and Renfrewshire councils (and to a lesser extent South Ayrshire and South Lanarkshire) show the most even distribution of population across deprivation deciles albeit with slight discrepancies. Island local authority areas do not contain datazones from all 10 deciles and tend to have populations concentrated in the middle of the spectrum (a pattern also present in the Highland council area with smaller percentages seen at the extremes).    
 
 \begin{figure}[h]
   \centering
     \includegraphics{figures/chapter-results-1/05_simd_la.png}
     \caption{Distribution of cohort by local authority and SIMD decile (Decile 1 - most deprived)}
-    \label{fig:results1-la}
+    \label{fig:results1-la-simd}
 \end{figure}
 
 

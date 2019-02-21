@@ -67,7 +67,10 @@ Is there good sc data anywhere???
 
 What is good/bad - What have I learned?
 
-\subsection{Administrative Data Research}\label{sec:disc-admin-data}
+\subsection{Linked Administrative Data Research}\label{sec:disc-admin-data}
+
+Dsicuss process of obtaining and analysing linked data
+Potentially useful for sg and others
 
 Difficulties encountered
 

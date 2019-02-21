@@ -47,6 +47,8 @@ This section reports results of logistic regression models detailed in section \
 
 As seen in the previous chapter, a model is reported for each year of data from 2011/12 to 2015/16. The section is split into three subsections: a contingency table of descriptive statistics for the outcome variable is provided, followed by a table reporting goodness-of-fit measures for each model, before a final subsection with tables and plots detailing the APEs of each variable on the outcome. Where trends of results across years are similar, financial year 2013/14 is used as a reference in tables and plots. 
 
+**Restate model**
+
 \FloatBarrier
 \subsection{Descriptive statistics}\label{subsec:res3-usc-desc}
 

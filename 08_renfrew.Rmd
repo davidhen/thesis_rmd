@@ -8,7 +8,7 @@ bibliography: thesis.bib
 
 \section{Introduction}\label{renf-intro}
 
-As described in Section \ref{subsec:source-sc}, the Social Care Survey (SCS) is collected annually by the Scottish Government and provides information on the types and amounts of social care delivered to individuals in all 32 Scottish local authorities. This information is collected in two ways depending on which service an individual may receive. The most recent surveys collect data on all individuals who receive a community alarm service, a telecare service, self-directed-support payments, or assistance via a social or support worker at any time during the financial year. Home care, housing support, and meals (hereafter referred to collectively as "home care") data is collected only for individuals receiving these services during a census week - usually including the date 31\textsuperscript{st} March [@RN487]. The cross-sectional nature of the data collected for these second group of services means that the SCS does not identify every individual who receives social care in any given financial year. This has implications for the interpretation of research projects using the SCS and the statistical inferences that can be applied to the data when linked with other sources of information. This chapter estimates the numbers of individuals receiving home care "missed" by the SCS, their demographic make-up, and the type of care they received by analysing complete data from one local authority area. It also identifes how many more individuals receiving home care would be identified by the SCS if a census quarter, rather than cenus week, was implemented.
+As described in Section \ref{subsec:source-sc}, the Social Care Survey (SCS) is collected annually by the Scottish Government and provides information on the types and amounts of social care delivered to individuals in all 32 Scottish local authorities. This information is collected in two ways depending on which service an individual may receive. The most recent surveys collect data on all individuals who receive a community alarm service, a telecare service, self-directed-support payments, or assistance via a social or support worker at any time during the financial year. Home care data is collected only for individuals receiving these services during a census week - usually including the date 31\textsuperscript{st} March [@RN487]. The cross-sectional nature of the data collected for these second group of services means that the SCS does not identify every individual who receives social care in any given financial year. This has implications for the interpretation of research projects using the SCS and the statistical inferences that can be applied to the data when linked with other sources of information. This chapter estimates the numbers of individuals receiving home care "missed" by the SCS, their demographic make-up, and the type of care they received by analysing complete data from one local authority area. It also identifes how many more individuals receiving home care would be identified by the SCS if a census quarter, rather than cenus week, was implemented.
 
 All data relating to home care services from Renfrewshire council was de-identified and transferred securely to a safe haven environment to enable analyses. Information of differing types of home care services were summarised and a weekly time series indicating the amount of service provision in each week was created for the period April 2006-March 2016. 
 
@@ -19,56 +19,66 @@ Implications
 
 \section{Background}\label{sec:renf-background}
 
-Two reasons that individuals may receive home care services but not be captured by the SCS include death before the census week and receipt of short-term home care services. Whilst it is difficult to quantify numbers of people who fall into the former category, this chapter provides some insight into levels of the latter. Given intentions to amalgamate the SCS with administrative resources collected by ISD and move to a quarterly collection of data [@RN500], the exploratory project also aimed to quantify the percentage of all individuals that would be identified by collection of home care data in quarter 4 of each financial year (this quarter is the proposed time period for collection of the 2017/18 census). 
+\begin{figure}[h]
+  \centering
+    \includegraphics[height = 10cm]{figures/chapter-renf/SCS-collection.png}
+    \caption{Time periods for which SCS data is collected}
+    \label{fig:ren-scs-data}
+\end{figure}
 
-As social care data in Scotland has rarely been used for research purposes, this exploratory project also offered the opportunity to assess the format, content, and suitability of the data from a research perspective. Ideally, data would be analysed from a number of local authorities for comparison. However, as described below, acquiring sensitive data of this nature is a lengthy and complicated process, relying heavily on the goodwill of the participating local authority. Despite early intentions to approach multiple local authorities, practical considerations limited the project to data collected from Renfrewshire Council. 
-
-The decision to approach Renfrewshire Council as a potential source of data was due to convenience given previous cooperation between the council and UBDC on other projects. Another local authority was also approached but preliminary discussions suggested that whilst the purpose of proposed research was supported, the council was unlikely to be able to provide sufficient resource to facilitate data sharing. Preliminary meetings with data analysts from Renfrewshire council confirmed that data could be provided to facilitate the proposed research and the formal process of obtaining data using UBDC's controlled data service was instigated in April 2016. 
-
-Despite there only being a single source of data, Renfrewshire Council offers an excellent location in which to explore the receipt of social care given it is fairly representative of Scotland as a whole. It is the 10\textsuperscript{th} largest local authority in Scotland with 3.2\% of the total population of the country. It has a similar proportion of individuals aged over 60 compared to the rest of the country (24.4\% v 24.2\%) [@RN492] and the mortality rate is only slightly higher than recorded for the rest of Scotland (10.9\% v 10.3\%). Some of the most and least deprived datazones in the whole of Scotland are present in Renfrewshire and a spread of urban and rural neighbourhoods [@RN494] (see also figure \ref{fig:results1-la} which indicates a very even spread of individuals over 65 in all ten SIMD deciles). 
-
-In terms of social care, the 2017 SCS [@RN499, supp.charts] shows that the proportion of over 65s receiving home care provided or administered by Renfrewshire Council dipped a little between 2011 and 2015 but has nearly returned to 2010 levels (52.4 per thousand in 2010, 49.4 per thousand in 2017). Historically, this is lower than levels seen across Scotland as a whole, although national levels are now very similar to those seen in Renfrewshire (60.8 per thousand in 2010 to 48.9 per thousand in 2017). Absolute numbers of over 65s receiving home care in Renfrewshire in the 2010 census week was 1526 versus 1614 in the 2017 census [@RN499, supp.charts].
+Figure \ref{fig:ren-scs-data} depicts the differing time periods over which variables are collected by more recent versions of the SCS and the proposed quarterly collection of data for financial year 2017/18. The convention in this chapter is to refer to the data collected during the census week collectively as "Home care". This term can refer to a number of services which are described in table \ref{tab:renf-homecaredefs}
 
 
-**Bit (again) about the data collected in census week then mention split in home care for table**
-
-Home care refers to services received in the home such as personal care or reablement (described in section \ref{subsec:access-sc-defs} and summarised in table \ref{tab:renf-homecaredefs}). 
-
-\begin{table}[]
+\begin{table}[h]
+\rowcolors{2}{white}{gray!25}
 \centering
 \resizebox{\textwidth}{!}{%
 \begin{tabular}{@{}ll@{}}
 \toprule
 \textbf{Type of home care} & \textbf{Definition} \\ \midrule
-Care at Home (Mainstream & \begin{tabular}[c]{@{}l@{}}The aim of care at home is to help vulnerable people of all ages live independently and securely in their\\  own homes by providing personal and housing support services. Care at home services are provided very\\  much on each individual's own circumstances and needs.\end{tabular} \\ \midrule
-Reablement & \begin{tabular}[c]{@{}l@{}}Provides support and encouragement to help keep up or increase the skills and confidence needed \\ to be able to return home after a stay in hospital or after an illness.Most people referred for care at \\ home will receive a reablement service in the first instance to help support and improve independence.\\ Long term services can be provided following reablement if ongoing support is needed.\end{tabular} \\ \midrule
-Rapid Response &  \\ \midrule
-Community Mental Health & \\ \midrule
-Extra Care Housing &  \\ \midrule
-Housing Support & \\ \midrule
-Overnight Services & \\ \bottomrule
+Care at Home (Mainstream) & \begin{tabular}[c]{@{}l@{}}The aim of care at home is to help vulnerable people of all ages live independently and securely in their\\  own homes by providing personal and housing support services. Care at home services are provided very\\  much on each individual's own circumstances and needs.\end{tabular} \\ 
+Reablement & \begin{tabular}[c]{@{}l@{}}Provides support and encouragement to help keep up or increase the skills and confidence needed \\ to be able to return home after a stay in hospital or after an illness.Most people referred for care at \\ home will receive a reablement service in the first instance to help support and improve independence.\\ Long term services can be provided following reablement if ongoing support is needed.\end{tabular} \\ 
+Rapid Response & \begin{tabular}[c]{@{}l@{}}Rapid intervention care at home aimed at preventing hospital admissions ot facilitating hospital discharges\\ while longer term care packages are put in place. \end{tabular} \\ 
+Community Mental Health & \begin{tabular}[c]{@{}l@{}}Care at home service designed to supprt service users of the Community Mental Health team to live\\ independently in the community\end{tabular} \\ 
+Extra Care Housing &  Care at home based on site for tenents of Local Authority extra care housing complexes\\ 
+Housing Support & Care at home services to support service users to maintain tenancies and live independently in the community\\ 
+Overnight Services & \begin{tabular}[c]{@{}l@{}}Care at home provided through the night for service users requiring 24 hour support\\ (overnight defined as between 7pm - 7am)\end{tabular}\\
+Meals Service & Provision of either hot or cold meals to a service user \\ \bottomrule
 \end{tabular}%
 }
 \caption{Definitions of home care types}
 \label{tab:renf-homecaredefs}
 \end{table}
 
+Two reasons that individuals may receive home care services but not be captured by the SCS include death before the census week and receipt of short-term home care services. Whilst it is difficult to quantify numbers of people who fall into the former category, this chapter provides some insight into levels of the latter. Given intentions to amalgamate the SCS with administrative resources collected by ISD and move to a quarterly collection of data [@RN500], the exploratory project also aimed to quantify the percentage of all individuals that would be identified by collection of home care data in quarter 4 of each financial year (this quarter is the proposed time period for collection of the 2017/18 census). 
+
+As social care data in Scotland has rarely been used for research purposes, this exploratory project also offered the opportunity to assess the format, content, and suitability of the data from a research perspective. Ideally, data would be analysed from a number of local authorities for comparison. However, as described below, acquiring sensitive data of this nature is a lengthy and complicated process, relying heavily on the goodwill of the participating local authority. Despite early intentions to approach multiple local authorities, practical considerations limited the project to data collected from Renfrewshire Council. 
+
+The decision to approach Renfrewshire Council as a potential source of data was due to convenience given previous cooperation between the council and UBDC on other projects. Another local authority was also approached but preliminary discussions suggested that whilst the purpose of proposed research was supported, the council was unlikely to be able to provide sufficient resource to facilitate data sharing. Preliminary meetings with data analysts from Renfrewshire council confirmed that data could be provided to facilitate the proposed research and the formal process of obtaining data using UBDC's controlled data service was instigated in April 2016. 
+
+Despite there only being a single source of data, Renfrewshire Council offers an excellent location in which to explore the receipt of social care given it is fairly representative of Scotland as a whole. It is the 10\textsuperscript{th} largest local authority with 3.2\% of the total population of the country. It has a similar proportion of individuals aged over 60 compared to the rest of the country (24.4\% v 24.2\%) [@RN492] and the mortality rate is only slightly higher than recorded for the rest of Scotland (10.9\% v 10.3\%). Some of the most and least deprived datazones in the whole of Scotland as well as a spread of urban and rural neighbourhoods are present in Renfrewshire [@RN494] (see also figure \ref{fig:results1-la} which indicates a very even spread of individuals over 65 in each SIMD decile). 
+
+In terms of social care, the 2017 SCS [@RN499, supp.charts] shows that the proportion of over 65s receiving home care provided or administered by Renfrewshire Council dipped a little between 2011 and 2015 but has nearly returned to 2010 levels (52.4 per thousand in 2010, 49.4 per thousand in 2017). Historically, this is lower than levels seen across Scotland as a whole, although national levels are now very similar to those seen in Renfrewshire (60.8 per thousand in 2010 to 48.9 per thousand in 2017). Absolute numbers of over 65s receiving home care in Renfrewshire in the 2010 census week was 1526 versus 1614 in the 2017 census [@RN499, supp.charts].
+
 \FloatBarrier
 \subsection{Research Questions}\label{subsec:renfrew-qs}
 
 \begin{itemize}[noitemsep]
 \item To what extent does SCS data capture the number of individuals receiving home care across each financial year?
-\item Are there differences in the age and gender of the individuals that are/are not captured by the census?
-\item Is there a difference in the intensity and duration of care provided those that are/are not captured by the census?
-\item For individuals that \emph{do} have packages of care during the census week, is the value of total hours of home care received reflective of the total hours of home care received in the financial year?
-\item What proportion of the total amount of individuals receiving home care would be captured if more than one census was conducted in each financial year?
+\item How much would this increase by if a quarterly, rather than weekly, census was employed?
+\item Are there differences in individuals that are/are not captured by the census?
+\begin{itemize}
+\item by age and gender
+\item by type of care received, or
+\item by the length of time they receive care for?
+\end{itemize}
 \end{itemize}
 
 \section{Methods}\label{sec:renf-methods}
 
 \subsection{Project approvals and timeline}\label{subsec:renf-methods-approvals}
 
-The exploratory project utilised the controlled data service provided by UBDC and therefore required approval from UBDC's Research Approvals Committee (RAC). This process is more fully explained in section \ref{subsec:rac} Approval from RAC was gained on 01/06/2016 (Appendix A). Ethical approval for the study was gained from the University of Glasgow College of Social Sciences Research Ethics Committee on 24/05/2016 (Appendix B).
+The exploratory project utilised the controlled data service provided by UBDC and therefore required approval from UBDC's Research Approvals Committee (RAC). This process is more fully explained in section \ref{subsec:rac} Approval from RAC was gained on 01/06/2016 (Appendix F). Ethical approval for the study was gained from the University of Glasgow College of Social Sciences Research Ethics Committee on 24/05/2016 (Appendix G).
 
 Following academic and ethical approval the process of obtaining a data sharing agreement (DSA) between the University of Glasgow and Renfrewshire council was instigated. This involved the production of an agreement in principle and privacy impact assessment as a basis for the DSA. Production of the DSA involved the input of legal teams from both institutions as well as liaison with data analysts at Renfrewshire council and UBDC. The initial draft was produced by the local authority with amendments from both sides before final completion and signing 06/09/2017. Final transfer of data took place on 21/09/2017. An illustration of this timeline is shown in figure \ref{fig:ren-timeline}
 
@@ -85,15 +95,8 @@ Following academic and ethical approval the process of obtaining a data sharing 
 
 As with all services provided by Renfrewshire council, home care data is collected to ensure efficient management of the service and as evidence of service provision [@RN495]. Recording of individual episodes of care also helps with budgetary management of the service.
 
-For the purposes of analysis distinction is made between \emph{episodes} and \emph{packages} of home care. An episode of care refers to each instance a carer visits a home care client in their own home. A package of care is the collection of repeated episodes an individual routinely receives in a week.  
+Data was provided in the format of one obseration per indiviudal per \emph{episode} of care. Each observation contained variables on: how many days per week and how many hours per day of home care an individual received for each type of care (e.g. mainstream or reablement etc.). In addition, variables indicating the start and end dates of each episode as well as the service provider (e.g. local authority or independent provider) were present. Data was provided for all home care episodes in the Renfrewshire council area between April 2006 and April 2017. Demographic information detailing gender and year of birth was also provided in a seperate file. The provision of year of birth only meant age was calculable from the 1st of January in this year only.
 
-Data provided for the purposes of this exploratory study included anonymised information on; how many days per week, how many hours per day, service provider (e.g. local authority or independent provider), type of care (e.g. mainstream or reablement), start date and end date for every episode of home care delivered to individuals in the Renfrewshire council area between April 2006 and April 2017. Demographic information detailing gender and year of birth was also provided.
-
-As all episodes of home care were delivered over a period of time, data was provided for some episodes where the care was first delivered as early as 2004 or as late as Summer 2017 (e.g. a home care episode starting in December 2005 and running to December 2006 was included in the data transfer). Data detailing information on community alarm and telecare services provided by Renfrewshire council were not analysed as part of this project. 
-
-Analysis focussed on individuals over the age of 65. An unexpectedly large number of individuals (n = 112, 0.01%) had a year of birth recorded as 1900 (compared to n = 68 born between the years 1901 and 1910). A similar phenomenon was reported in the SCS linkage process (described in chapter \ref{ch:methods}) with the deduction that 1900 was a code for missing data. In this analysis these records were omitted. To protect anonymity individual month and day of birth were not shared meaning age was calculable from year of birth only. 
-
-The SCS requests information on the total weekly hours of home care each individual received during the census week. To replicate this information, every episode of care in the exploratory dataset was summarised. For each episode of home care, the number of hours per day was multiplied with days per week to give a weekly total of home care hours for each episode. To identify \emph{packages} of home care, episodes of home care with the same start and end date and of the same home care type, were added together. For example, an individual receiving home care of the type "Care at Home (Mainstream)" with an episode of care lasting 1 hour in the morning for 3 days a week, an episode of care lasting 45 minutes at lunchtime 7 days a week, an evening episode of 30 minutes 7 days a week, and night-time episode of 45 mins 7 days a week, would have a total weekly home care hours count of 17 hours per week for that home care type. Finally, the totals for all types of home care were summed to give an overall weekly total for each individual. 
 
 \subsection{Analysis}\label{subsec:renf-methods-analysis}
 

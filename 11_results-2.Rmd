@@ -53,6 +53,8 @@ This section reports results of logistic regression models detailed in section \
 
 In total, five models are reported - one for each financial year of data. As cohort data was subset, descriptive statistics of this subset are first reported. This is followed by results of goodness of fit tests applied to each model of data. Model effects are reported as Average Partial Effects (APEs). As with previous results, financial year 2013/14 is used as a reference year where patterns are consistent across all years of data.
 
+**Restate model**
+
 \subsection{Descriptive statistics}\label{subsec:res2-model1-desc}
 
 Table \ref{tab:res2-chars1314} shows a breakdown of the cohort in financial year 2013/14. There were a total of 221,763 individuals from the nine included local authority areas in this financial year. A higher percentage of females (15.6%) compared to males (8.5%) received social care. Only 3.1% of those aged 65-69 received social care whereas 71.2% of those over the age of 95 did so. SIMD was modelled as a continuous variable. The median vale of 4 (IQR 4) was lower (more deprived) for those that received social care than for those that did not (Median 5, IQR 4). A small proportion (3.3%) of those in the lowest multimorbidity group (0-2 repeat medicines) received social care whereas over a quarter (26.4%) of those in the highest multimorbidity group received care. 
