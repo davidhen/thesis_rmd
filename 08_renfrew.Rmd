@@ -26,7 +26,7 @@ Implications
     \label{fig:ren-scs-data}
 \end{figure}
 
-Figure \ref{fig:ren-scs-data} depicts the differing time periods over which variables are collected by more recent versions of the SCS and the proposed quarterly collection of data for financial year 2017/18. The convention in this chapter is to refer to the data collected during the census week collectively as "Home care". This term can refer to a number of services which are described in table \ref{tab:renf-homecaredefs}
+Figure \ref{fig:ren-scs-data} depicts the differing time periods over which variables are collected by more recent versions of the SCS and the proposed quarterly collection of data for financial year 2017/18. The convention in this chapter is to refer to the data collected during the census week collectively as "Home care". This term can, however, refer to a number of services which are described in table \ref{tab:renf-homecaredefs}
 
 
 \begin{table}[h]
@@ -58,7 +58,7 @@ The decision to approach Renfrewshire Council as a potential source of data was 
 
 Despite there only being a single source of data, Renfrewshire Council offers an excellent location in which to explore the receipt of social care given it is fairly representative of Scotland as a whole. It is the 10\textsuperscript{th} largest local authority with 3.2\% of the total population of the country. It has a similar proportion of individuals aged over 60 compared to the rest of the country (24.4\% v 24.2\%) [@RN492] and the mortality rate is only slightly higher than recorded for the rest of Scotland (10.9\% v 10.3\%). Some of the most and least deprived datazones in the whole of Scotland as well as a spread of urban and rural neighbourhoods are present in Renfrewshire [@RN494] (see also figure \ref{fig:results1-la} which indicates a very even spread of individuals over 65 in each SIMD decile). 
 
-In terms of social care, the 2017 SCS [@RN499, supp.charts] shows that the proportion of over 65s receiving home care provided or administered by Renfrewshire Council dipped a little between 2011 and 2015 but has nearly returned to 2010 levels (52.4 per thousand in 2010, 49.4 per thousand in 2017). Historically, this is lower than levels seen across Scotland as a whole, although national levels are now very similar to those seen in Renfrewshire (60.8 per thousand in 2010 to 48.9 per thousand in 2017). Absolute numbers of over 65s receiving home care in Renfrewshire in the 2010 census week was 1526 versus 1614 in the 2017 census [@RN499, supp.charts].
+In terms of social care, the 2017 SCS [@RN499, supp.charts] shows that the proportion of over 65s receiving home care provided or administered by Renfrewshire Council reduced between 2011 and 2015 but has nearly returned to 2010 levels (52.4 per thousand in 2010, 49.4 per thousand in 2017). Historically, this is lower than levels seen across Scotland as a whole, although national levels are now very similar to those seen in Renfrewshire (60.8 per thousand in 2010 to 48.9 per thousand in 2017). Absolute numbers of over 65s receiving home care in Renfrewshire in the 2010 census week was 1526 versus 1614 in the 2017 census [@RN499, supp.charts].
 
 \FloatBarrier
 \subsection{Research Questions}\label{subsec:renfrew-qs}
@@ -68,9 +68,10 @@ In terms of social care, the 2017 SCS [@RN499, supp.charts] shows that the propo
 \item How much would this increase by if a quarterly, rather than weekly, census was employed?
 \item Are there differences in individuals that are/are not captured by the census?
 \begin{itemize}
-\item by age and gender
-\item by type of care received, or
-\item by the length of time they receive care for?
+\item by age and gender,
+\item by type of care received,
+\item by the length of time they receive care for, or
+\item by the weekly hours of home care they receive?
 \end{itemize}
 \end{itemize}
 
@@ -95,7 +96,7 @@ Following academic and ethical approval the process of obtaining a data sharing 
 
 As with all services provided by Renfrewshire council, home care data is collected to ensure efficient management of the service and as evidence of service provision [@RN495]. Recording of individual episodes of care also helps with budgetary management of the service.
 
-Data was provided in the format of one obseration per indiviudal per \emph{episode} of care. Each observation contained variables on: how many days per week and how many hours per day of home care an individual received for each type of care (e.g. mainstream or reablement etc.). In addition, variables indicating the start and end dates of each episode as well as the service provider (e.g. local authority or independent provider) were present. Data was provided for all home care episodes in the Renfrewshire council area between April 2006 and April 2017. Demographic information detailing gender and year of birth was also provided in a seperate file. The provision of year of birth only meant age was calculable from the 1st of January in this year only.
+Data was provided in the format of one obseration per indiviudal per \emph{episode} of care. Each observation contained variables on: how many days per week and how many hours per day of home care an individual received for each type of care (e.g. mainstream or reablement etc.). In addition, variables indicating the start and end dates of each episode as well as the service provider (e.g. local authority or independent provider) were present. Data was provided for all home care episodes in the Renfrewshire council area between April 2006 and April 2017. Demographic information detailing gender and year of birth was also provided in a seperate file. The provision of year of birth only meant age was calculable from the 1st of January in the provided year only.
 
 
 \subsection{Analysis}\label{subsec:renf-methods-analysis}
