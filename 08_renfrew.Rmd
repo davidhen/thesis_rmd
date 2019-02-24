@@ -216,7 +216,7 @@ Finally, figure \ref{fig:ren-hc-counts} and table \ref{tab:ren-hc-counts} show t
     \label{fig-ren-age-sex}
 \end{figure}
 
-Overall, there is a similar pattern comparing the age and sex of indiviudals receiving home care that do and do not receive care during the census week. In financial year 2015/16 (figure \ref{fig-ren-age-sex}) higher percentages of females are seen in all age groups regardless of whether individuals had received care during the census week. The percentage of females is higher in age groups over 80 for those receiving care during the census week. However, given the low overall numbers (3106 total for 2015/16), a small change in any age group can change shift these differences. (*Think I need to show graphs from other years in an appendix. There is indeed random variation but I suppose I need to show it OR take the percentage figures out of plot! Pattern would look similar and wouldn't need to explain away the small differences?*).  
+Overall, there is a similar pattern comparing the age and sex of individuals receiving home care that do and do not receive care during the census week. In financial year 2015/16 (figure \ref{fig-ren-age-sex}) higher percentages of females are seen in all age groups regardless of whether individuals had received care during the census week. The percentage of females is higher in age groups over 80 for those receiving care during the census week. However, given the low overall numbers (3106 total for 2015/16), a small change in any age group can change shift these differences. (*Think I need to show graphs from other years in an appendix. There is indeed random variation but I suppose I need to show it OR take the percentage figures out of plot! Pattern would look similar and wouldn't need to explain away the small differences?*).  
 
 \FloatBarrier
 \subsubsection{By type of care}
@@ -228,27 +228,47 @@ Overall, there is a similar pattern comparing the age and sex of indiviudals rec
     \label{fig-ren-types}
 \end{figure}
 
-The introduction and increaasing usage of reablement services over time shown in table \ref{tab:renf-types_hc} can be seen clearly in figure \ref{fig-ren-types}). Notably, from 2013/14 onwards, there are more absolute numbers of individuals who receive this service and are not captured by the SCS census than receive reablement and are included in census counts. As would be expected, there are fewer indiviudals receiving other type of service in the group not captured by the census, but overall proportions of care receipt are broadly similar. 
+The introduction and increasing usage of reablement services over time shown in table \ref{tab:renf-types_hc} can be seen clearly in figure \ref{fig-ren-types}. Notably, from 2013/14 onwards, there are more absolute numbers of individuals who receive this service and are not captured by the SCS census than receive reablement and \emph{are} included in census counts. There are fewer indiviudals receiving other type of service in the group not captured by the census, as would be expected given the counts shown in figure \ref{fig:ren-hc-counts} and table \ref{tab:ren-hc-counts}. Despite this, overall proportions of care receipt are broadly similar. 
 
 \FloatBarrier
 \subsubsection{By duration of care}
 
-1st plot slightly lower median values for out of census (years)
+\begin{figure}[h]
+  \centering
+    \includegraphics{figures/chapter-renf/04_overall_dur_plot.png}
+    \caption{Duration of home care}
+    \label{fig-ren-duration-1}
+\end{figure}
 
-2nd plot - Mainstream and Meals median about 2 years in the census 1.5 years out of it
-           RR and Reablement below a year in both
-           
-3rd plot - Normal distribution of duration for no census individs when measured from start of year
+The median duration of home care for individuals whose care overlaps with the census week in each year is higher than for those whose care does not (figure \ref{fig-ren-duration-1}). The largest difference in median values is approximately 6 months seen in 2010/11. When broken down by care type (figure \ref{fig-ren-duration-2}) median values for Mainstream and Meals services are higher than seen in figure \ref{fig-ren-duration-1} whilst values for Rapid Response and Reablement services are notably lower. Distribution and median values are broadly similar within care types across the groups captured and not captured during the census week of each finaincial year.    
+
+\begin{figure}[h]
+  \centering
+    \includegraphics{figures/chapter-renf/05_type_dur_plot.png}
+    \caption{Duration of home care, by home care type}
+    \label{fig-ren-duration-2}
+\end{figure}
 
 \FloatBarrier
 \subsection{By total weekly hours of care received}
 
-1st plot Median higher in 2011/12 onwards for no cen (5.5 v 4)
+\begin{figure}[h]
+  \centering
+    \includegraphics{figures/chapter-renf/07_overall_hrs_plot.png}
+    \caption{Total weekly hours of home care}
+    \label{fig-ren-hrs-1}
+\end{figure}
 
-2nd plot Reablement no distr - 7 hours bang on in and out census
-         RR same in later years but also some distribution up the way
-         Care at home median fairly stable around 4 hrs/week
- 
+
+With the exception of 2009/10 and 2010/11, the median value of total weekly hours of home care received is lower for the group who received care that overlapped the census week (figure \ref{fig-ren-hrs-1}). The difference between median values in each group is higher from 2011/12 onwards. The increase in usage of Reablement services is a likely cause of this pattern (figure \ref{fig-ren-hrs-2}). From 2012/13 onwards the distribution of weekly hours of care for Reablement services is so tight that no box or whiskers are visible in the plot which shows instead a line at 7 hours in both groups. Other home care types have similar median values across groups. 
+
+\begin{figure}[h]
+  \centering
+    \includegraphics{figures/chapter-renf/08_type_hrs_plot.png}
+    \caption{Total weekly hours of home care, by care type}
+    \label{fig-ren-hrs-2}
+\end{figure}
+
 \FloatBarrier 
 \section{Discussion}\label{sec:renf-discuss}
 
