@@ -6,7 +6,7 @@ output:
     latex_engine: xelatex
     dev: png
 documentclass: report
-classoption: a4paper,oneside
+classoption: a4paper,oneside,table
 bibliography: thesis.bib
 csl: harvard-cite-them-right.csl
 urlcolor: blue
@@ -33,7 +33,7 @@ header-includes:
 - \usepackage[toc,page]{appendix} #appendix in toc
 - \usepackage{acronym}
 - \usepackage[utf8]{inputenc} 
-- \usepackage[table]{xcolor}
+- \usepackage{xcolor}
 - \onehalfspacing
 - \colorlet{Blue}{blue} #Sort out an issue with xcolor package
 ---

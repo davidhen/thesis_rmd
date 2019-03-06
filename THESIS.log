@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.14159265-2.6-0.99999 (TeX Live 2018/W32TeX) (preloaded format=xelatex 2019.2.21)  24 FEB 2019 20:31
+This is XeTeX, Version 3.14159265-2.6-0.99999 (TeX Live 2018/W32TeX) (preloaded format=xelatex 2019.2.21)  6 MAR 2019 14:56
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1478,9 +1478,16 @@ LaTeX Warning: `h' float specifier changed to `ht'.
 [86] [87] [88]
 File: figures/chapter-renf/renf-timeline.png Graphic file (type bmp)
 <figures/chapter-renf/renf-timeline.png>
-[89] [90]
+[89]
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+[90]
 File: figures/chapter-renf/01_weekly_count_plot.png Graphic file (type bmp)
 <figures/chapter-renf/01_weekly_count_plot.png>
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
@@ -1507,7 +1514,12 @@ File: figures/chapter-renf/05_type_dur_plot.png Graphic file (type bmp)
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-[94] [95]
+File: figures/chapter-renf/06_no_cen_dur_plot.png Graphic file (type bmp)
+<figures/chapter-renf/06_no_cen_dur_plot.png>
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+[94] [95] [96]
 File: figures/chapter-renf/07_overall_hrs_plot.png Graphic file (type bmp)
 <figures/chapter-renf/07_overall_hrs_plot.png>
 File: figures/chapter-renf/08_type_hrs_plot.png Graphic file (type bmp)
@@ -1515,9 +1527,9 @@ File: figures/chapter-renf/08_type_hrs_plot.png Graphic file (type bmp)
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-[96
+[97
 
-] [97] [98] [99] [100] [101]
+] [98] [99] [100] [101]
 Chapter 5.
 
 LaTeX Warning: `h' float specifier changed to `ht'.
@@ -1527,7 +1539,7 @@ LaTeX Warning: `h' float specifier changed to `ht'.
 ]
 
 LaTeX Warning: No positions in optional float specifier.
-               Default added (so using `tbp') on input line 4095.
+               Default added (so using `tbp') on input line 4089.
 
 File: figures/chapter-results-1/02_age_sex_plot.png Graphic file (type bmp)
 <figures/chapter-results-1/02_age_sex_plot.png>
@@ -1559,7 +1571,7 @@ LaTeX Warning: `h' float specifier changed to `ht'.
 [107]
 
 LaTeX Warning: No positions in optional float specifier.
-               Default added (so using `tbp') on input line 4227.
+               Default added (so using `tbp') on input line 4221.
 
 [108]
 File: figures/chapter-results-1/19_meds_scs_plot.png Graphic file (type bmp)
@@ -1615,7 +1627,7 @@ File: figures/chapter-results-2/sc_model_22_AME_plot.png Graphic file (type bmp
 LaTeX Warning: `h' float specifier changed to `ht'.
 
 
-Overfull \hbox (14.4783pt too wide) in paragraph at lines 4677--4707
+Overfull \hbox (14.4783pt too wide) in paragraph at lines 4671--4701
  [] 
  []
 
@@ -1632,14 +1644,14 @@ LaTeX Warning: `h' float specifier changed to `ht'.
 [119]
 
 LaTeX Warning: No positions in optional float specifier.
-               Default added (so using `tbp') on input line 4756.
+               Default added (so using `tbp') on input line 4750.
 
 File: figures/chapter-results-2/sc_model_22_AME_time.png Graphic file (type bmp
 )
 <figures/chapter-results-2/sc_model_22_AME_time.png>
 
 LaTeX Warning: No positions in optional float specifier.
-               Default added (so using `tbp') on input line 4769.
+               Default added (so using `tbp') on input line 4763.
 
 File: figures/chapter-results-2/sc_model_22_AMELA_time.png Graphic file (type b
 mp)
@@ -1658,7 +1670,7 @@ File: figures/chapter-results-2/sc_model_23_AME_plot.png Graphic file (type bmp
 LaTeX Warning: `h' float specifier changed to `ht'.
 
 [124]
-Overfull \hbox (0.91829pt too wide) in paragraph at lines 4935--4965
+Overfull \hbox (0.91829pt too wide) in paragraph at lines 4929--4959
  [] 
  []
 
@@ -1811,7 +1823,7 @@ Chapter 8.
 
 
 ]
-Underfull \hbox (badness 10000) in paragraph at lines 5831--5835
+Underfull \hbox (badness 10000) in paragraph at lines 5825--5829
 
  []
 
@@ -1820,7 +1832,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 5897--5899
 
  []
 
-
+[150]
 Underfull \hbox (badness 10000) in paragraph at lines 5899--5901
 
  []
@@ -1830,7 +1842,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 5901--5904
 
  []
 
-[150] [151]
+[151]
 Chapter 9.
 [152
 
@@ -2183,7 +2195,7 @@ Overfull \hbox (97.74261pt too wide) in paragraph at lines 6764--6767
 [][][][][][][][][][][][][][][][][][][][][][][][][][] []
  []
 
-
+[195]
 Underfull \hbox (badness 10000) in paragraph at lines 6804--6808
 [] [] [][] [] [][][][][][][][] [] [][][] [] [][][][][][][][][][][][][][][][][] 
 [] [][][][][] [] [][][][][][][][][][][][][][][][][][][][][][][][][][] [] [][][]
@@ -2197,7 +2209,7 @@ Overfull \hbox (57.99855pt too wide) in paragraph at lines 6804--6808
 [][][][][][][][][][][][][][][]$[][]\TU/lmr/m/n/12 . 
  []
 
-[195] [196]
+[196]
 Underfull \hbox (badness 1661) in paragraph at lines 6878--6881
 []\TU/lmr/m/n/12 Munday, B. (2003) \TU/lmr/m/it/12 European social services: A 
 map of characteristics and
@@ -2244,13 +2256,13 @@ Underfull \hbox (badness 1960) in paragraph at lines 6922--6924
 r/m/n/12 . Report. Available at: [][]$[][][][][] []
  []
 
-
+[197]
 Underfull \hbox (badness 2088) in paragraph at lines 6926--6928
 []\TU/lmr/m/n/12 NRS (2018b) \TU/lmr/m/it/12 Statutory registers of deaths\TU/l
 mr/m/n/12 . Report. Available at: [][]$[][][][][] []
  []
 
-[197]
+
 Underfull \hbox (badness 10000) in paragraph at lines 6939--6942
 [][]$[][][][] [] [] [] [][] [] [][][][][][] [] [][][][][] [] [][][][][][][][][]
  [] [][][][][][] [] [][][][][][][] [] [][][][][][] [] [][][][][][][][][][][][][
@@ -2271,14 +2283,14 @@ Underfull \hbox (badness 10000) in paragraph at lines 6960--6965
 [][][][][][][] []
  []
 
-
+[198]
 Underfull \hbox (badness 10000) in paragraph at lines 6983--6986
 [][][][][][][][][] [] [][][][][][][] [] [][][][][][][] [] [][][][][][][][][] []
  [][][][][] [] [][][][][][][] [] [][][] [] [][][][][][][][] [] [][][] [] [][][]
 [][] []
  []
 
-[198]
+
 Underfull \hbox (badness 10000) in paragraph at lines 6988--6992
 [][] [] [][] [] [][][][][][][][][][][] [] [][][][][][][] [] [][][][][] [] [][][
 ][][][] [] [][] [] [][][][][][][][][] [] [][][][][][][][][][][][][][][] [] [][]
@@ -2347,27 +2359,27 @@ Underfull \hbox (badness 10000) in paragraph at lines 7279--7282
 ] [] [][][][][][][][] [] [][][][][][] [] [][][][] [] [][][][][][][][][][] []
  []
 
-[203]
+[203] [204]
 Package atveryend Info: Empty hook `BeforeClearDocument' on input line 7361.
-[204]
+[205]
 Package atveryend Info: Empty hook `AfterLastShipout' on input line 7361.
 (./THESIS.aux)
 Package atveryend Info: Empty hook `AtVeryEndDocument' on input line 7361.
 Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 7361.
 
 Package rerunfilecheck Info: File `THESIS.out' has not changed.
-(rerunfilecheck)             Checksum: 738E6882D90AEB41861E1EE6010D6BF1.
+(rerunfilecheck)             Checksum: 3F8E05DB0BDCCFF0FA82C31C9CEE0C39.
 
 LaTeX Warning: There were undefined references.
 
  ) 
 Here is how much of TeX's memory you used:
- 29024 strings out of 494921
- 540318 string characters out of 6176112
- 703450 words of memory out of 5000000
- 32495 multiletter control sequences out of 15000+600000
+ 29028 strings out of 494921
+ 540495 string characters out of 6176112
+ 704445 words of memory out of 5000000
+ 32498 multiletter control sequences out of 15000+600000
  561138 words of font info for 78 fonts, out of 8000000 for 9000
  14 hyphenation exceptions out of 8191
  53i,19n,92p,803b,671s stack positions out of 5000i,500n,10000p,200000b,80000s
 
-Output written on THESIS.pdf (204 pages).
+Output written on THESIS.pdf (205 pages).

@@ -373,16 +373,16 @@ With all study data now in one data frame, further cleaning and tidying was requ
  & \multicolumn{1}{l}{Number of rows} & \multicolumn{1}{c}{\begin{tabular}[c]{@{}c@{}}Total number of rows remaining\\ after join/drop\end{tabular}} \\ \hline
 Cleaned demography file & 7,775,410 & 7,775,410 \\
 Cleaned prescribing information file & 5,501,820 & 8,057,604 \\
-Cleaned social care file & 663,809 & 8,072,233 \\
-Cleaned unscheduled care file & 1,951,755 & 8,094,256 \\
-After age and death tidying process &  & 8,115,549 \\
-Duplicates & 14,809 & 8,100,740 \\
-Missing data for Local Authority & 7,435 & 8,056,329 \\
-Age \textless{}65 OR Clackmannanshire OR data for 2017/18 & 1,832,443 & 6,223,886 \\
-Home care hours \textgreater{}168 per week & 198 & 6,223,688 \\
-Died before 65 years of age & 8808 & 6,214,880 \\
-Implausible SIMD value & 23 & 6,214,857 \\
-Data from years 2010/11 OR 2016/17 & 1,695,602 & 4,519,255 \\ \hline
+Cleaned social care file & 611,711 & 8,068,275 \\
+Cleaned unscheduled care file & 1,951,755 & 8,090,967 \\
+After age and death tidying process &  & 8,101,317 \\
+Duplicates & 568 & 8,100,749 \\
+Missing data for Local Authority & 44,380 & 8,056,369 \\
+Age \textless{}65 OR Clackmannanshire OR data for 2017/18 & 1,832,446 & 6,223,923 \\
+Home care hours \textgreater{}168 per week & 198 & 6,223,725 \\
+Died before 65 years of age & 8809 & 6,214,916 \\
+Implausible SIMD value & 23 & 6,214,893 \\
+Data from years 2010/11 OR 2016/17 & 1,695,587 & 4,519,306 \\ \hline
 \end{tabular}%
 }
 \caption{Joining files together and cleaning process}
@@ -393,7 +393,7 @@ Once all files had been joined together the parent data frame contained 8,094,25
 
 As described in section \ref{subsubsec:scs-summs}, Approximately 4000 individuals had duplicated social care information for some years of data. These rows, and other duplicates created by the cleaning process involving age and date-of-death variables, were then dropped.
 
-For the same reasons that age values were not shown in every year of data, values for sex, local authority of residence, health board, and SIMD decile were missing from 50,349 of observations (1.11% of the final cleaned data frame). These observations were filled by carrying the last observation forward. Whilst this would not have affected values for sex, potential error could have be introduced to the other variables. Given the small percentage of affected observations this was deemed acceptable. Despite this, there were still 7,435 records with missing values for local authority. Cross referencing these individual rows with the raw demographics data file revealed the values for local authority in these observations were true missing data (not created by data manipulation). Given the small proportion of records these represented they were dropped from the data frame. 
+For the same reasons that age values were not shown in every year of data, values for sex, local authority of residence, health board, and SIMD decile were missing from 50,284 of observations **(1.11% of the final cleaned data frame)**. These observations were filled by carrying the last observation forward. Whilst this would not have affected values for sex, potential error could have be introduced to the other variables. Given the small percentage of affected observations this was deemed acceptable. Despite this, there were still 7,435 records with missing values for local authority. Cross referencing these individual rows with the raw demographics data file revealed the values for local authority in these observations were true missing data (not created by data manipulation). Given the small proportion of records these represented they were dropped from the data frame. 
 
 A further 1,832,443 observations were then removed from the data frame. These observations were for years of data where individuals were either: (a) under 65 years of age (the cohort comprised individuals over 65 or \emph{turning} 65 during the study period), (b) resident in the Clackmannanshire local authority area (linkage rates of the social care survey to the indexing spine were too low to be reliable in this council. (See section \ref{sec:linkage} for details), or (c) contained unscheduled care data for financial year 2017/18 which was well beyond the study period. 
 
