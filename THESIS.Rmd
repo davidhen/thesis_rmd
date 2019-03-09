@@ -3,14 +3,15 @@ output:
   pdf_document:
     fig_caption: yes
     number_sections: yes
-    latex_engine: xelatex
+    latex_engine: pdflatex
     dev: png
 documentclass: report
 classoption: a4paper,oneside,table
-bibliography: thesis.bib
-csl: harvard-cite-them-right.csl
+citecolor: blue #doesn't work
 urlcolor: blue
 linkcolor: blue
+bibliography: thesis.bib
+csl: harvard-cite-them-right.csl
 fontsize: 12pt
 geometry: top = 1.8cm, bottom = 1.8cm, left = 4cm, right = 1.5cm
 header-includes:
@@ -29,13 +30,12 @@ header-includes:
 - \usepackage{pdfpages} #appendices
 - \usepackage[inline]{enumitem} #no item seperate space
 - \usepackage[flushleft]{threeparttable} #table footer 
-- \usepackage{hyperref} #cross-refs and hyperlinks
 - \usepackage[toc,page]{appendix} #appendix in toc
 - \usepackage{acronym}
 - \usepackage[utf8]{inputenc} 
 - \usepackage{xcolor}
+- \usepackage{hyperref} #cross-refs and hyperlinks
 - \onehalfspacing
-- \colorlet{Blue}{blue} #Sort out an issue with xcolor package
 ---
 
 
@@ -107,6 +107,13 @@ knitr::opts_knit$set(base.dir = 'chapters/')
 \section*{\huge{List of Abbreviations}}\label{acros}
 \vspace{1cm}
 \input{04_acro_list}
+
+\newpage
+\section*{Quote}
+\addcontentsline{toc}{section}{Quote}
+
+```{r child = '04a_reid_quote.Rmd'}
+```
 
 
 \setlength{\parskip}{1em}

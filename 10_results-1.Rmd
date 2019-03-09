@@ -50,7 +50,7 @@ Descriptive statistics of social care and unscheduled care measures are not pres
 \label{tab:results1-cohorttab}
 \end{table}
 
-There were 1,100,675 individuals included within the study across all years with an increase in individuals in each financial year as shown in Table \ref{tab:results1-cohorttab}.  Percentages in each gender group and of those that died were relatively stable across the study period. Age was also relatively stable across all years with almost one-third of the cohort in each year being aged between 65 and 69 years old. Over half were under the age of 75.  
+There were 1,100,675 individuals included within the study across all years with increasing numbers in each financial year as shown in Table \ref{tab:results1-cohorttab}.  Percentages in each gender group and of those that died were relatively stable across the study period. Age was also relatively stable across all years with almost one-third of the cohort in each year being aged between 65 and 69 years old whilst over half were under the age of 75. 
 
 In terms of healthcare, the vast majority of individuals had a least one repeat prescription in any given year, whilst the percentage of individuals using unscheduled care services (including unplanned admissions and A & E attendances) were relatively stable over time. In contrast, the pattern in \emph{absoloute} numbers with a prescription or using health services shows a gradual increase over time shadowing the increase in overall numbers in the cohort in each year.  
 
@@ -62,12 +62,11 @@ Social care services show slightly less stability in terms of numbers and percen
 \begin{figure}[]
   \centering
     \includegraphics{figures/chapter-results-1/02_age_sex_plot.png}
-    \caption{Age and sex distribution. N = 908,295}
+    \caption{Age and sex distribution. N = ?}
     \label{fig:results1-age-sex}
 \end{figure}
 
-Figure \ref{fig:results1-age-sex} shows the breakdown of the study cohort by age and sex in financial year 2013/14 (similar patterns are seen across all years of data). There is a higher percentage of females in each age group with the difference between sexes widening as age increases. Over half of the cohort are under the age of 74 and over a quarter are between the ages of 75 and 84. 
-
+Using financial year 2015/16 as a reference, figure \ref{fig:results1-age-sex} shows the breakdown by age and sex (similar patterns are seen across all years of data). There are more females than males in every age group with the difference between sexes widening as age increases. Over half of the cohort are under the age of 74 and over a quarter are between the ages of 75 and 84. 
 
 \FloatBarrier
 \subsection{Mortality}\label{subsec:results1-mortality}
@@ -79,13 +78,13 @@ Figure \ref{fig:results1-age-sex} shows the breakdown of the study cohort by age
     \label{fig:results1-mortality}
 \end{figure}
 
-In 2013/14, 39,348 (4.3%) of the cohort died. Figure \ref{fig:results1-mortality} shows how these deaths were distributed across age and sex groups (with similar patterns seen in other years). The highest percentage of deaths (almost 22%) occurred in the 80-84 age group with females accounting for slightly more than half of these. The difference in the percentage of deaths between males and females increases from this group in older age groups, whereas higher percentages of men died in age groups below 80-84.
+In 2015/16, ?% (? individuals) of the cohort died. Figure \ref{fig:results1-mortality} shows how these deaths were distributed across age and sex groups (with similar patterns seen in other years). The highest percentage of deaths (almost ?%) occurred in the 80-84 age group with females accounting for slightly more than half of these. The difference in the percentage of deaths between males and females increases from this group in older age groups, whereas higher percentages of men died in age groups below 80-84.
 
 
 \FloatBarrier
 \subsection{Local authorities}\label{subsec:results1-la}
 
-Figure \ref{fig:results1-la} shows the percentage of individuals in the cohort that lived in each local authority area in financial year 2013/14. The largest percentages of individuals are found in Glasgow and Edinburgh city areas, whilst the smallest number are found in the three island local authorities. 
+Figure \ref{fig:results1-la} shows the percentage of individuals in the cohort that lived in each local authority area in financial year 2015/16. The largest percentages of individuals are found in Glasgow and Edinburgh city areas, whilst the smallest number are found in the three island local authorities. This is as expected based on the general population distribution. 
 
 \begin{figure}[h]
   \centering
@@ -98,10 +97,10 @@ Figure \ref{fig:results1-la} shows the percentage of individuals in the cohort t
 ##################################################################################################
 ```
 \FloatBarrier
-\section{Multimorbidity - repeat medicine groups}\label{sec:results1-mm-meds}
+\section{Repeat medicines}\label{sec:results1-mm-meds}
 \subsection{Distribution by sex}\label{subsec:results1-meds-sex}
 
-Figure \ref{fig:results1-meds-hist} is a bar chart showing a count of individuals receiving specific counts of repeat medicines in financial year 2013/14. The chart shows that the mode of prescribed repeat medicines is actually zero with approximately 100,000 people in the cohort not requiring regular medication. Of the remaining 800,000 (approx.) individuals, the most frequently prescribed number of repeat medicines is four. The coloured areas indicate there are similar patterns for males and females with slightly higher overall counts for females. *This could alternatively be a stacked bar chart?*
+The distribution of number of repeat medicines prescribed in 2015/16 reveals the most common value to be zero (figure \ref{fig:results1-meds-hist}). Otherwise, a positively-skewed normal distribution is seen with higher numbers of females receiving every number of repeat medicines. This pattern is repeated across all study years.     
 
 \begin{figure}[h]
   \centering
@@ -111,7 +110,7 @@ Figure \ref{fig:results1-meds-hist} is a bar chart showing a count of individual
 \end{figure}
 
 \FloatBarrier
-\subsection{Percentage by age group}\label{subsec:results1-meds-age}
+\subsection{Percentage by sex, age group, and deprivation}\label{subsec:results1-meds-age}
 
 \begin{figure}[h]
   \centering
@@ -120,10 +119,7 @@ Figure \ref{fig:results1-meds-hist} is a bar chart showing a count of individual
     \label{fig:results1-meds-age-grp}
 \end{figure}
 
-In figure \ref{fig:results1-meds-age-grp}, the distribution of the percentage of individuals receiving specific counts of repeat medicines is shown with each age group overlayed on the others. The sum of the points in each line equals 100% (or marginally less as outlying values are removed). Approximately 18% of individuals in the 65-69 age group (which makes up over 30% of the cohort - figure \ref{fig:results1-age-sex}) did not receive any repeat medicines in financial year 2013/14 compared to only 5% of 90-94 year olds. Approximately half of 65-69 year olds were prescribed between zero and three repeat medicines with decreasing percentages from four to seventeen repeat medicines seen in the remaining 50%. As age increases, the distribution pattern shifts further to the right with the exception of the oldest age group, over 95s, where the percentage of those receiving between zero and four medicines is higher than in age groups 80-84, 85-89, and 90-94. 
-
-\FloatBarrier
-\subsection{Percentage by deprivation}\label{subsec:results1-meds-simd}
+Despite overall numbers for specific counts of medicines being higher for females, the \emph{percentage} of males and females receiving repeat medicines is similar as shown in the left-hand panel of figure \ref{fig:results1-meds-age-grp}. There are, however, differences in the pattern of percentages by age groups and SIMD deciles. The shape of the distribution shifts further to the right for both older age groups and more deprived SIMD deciles. Combining these factors (figure !!) reveals that the differences in deprivation deciles is more pronounced at younger ages and is much less obvious in older age groups where overall numbers are smaller.    
 
 \begin{figure}[h]
   \centering
@@ -131,8 +127,6 @@ In figure \ref{fig:results1-meds-age-grp}, the distribution of the percentage of
     \caption{Repeat medicine proportion by SIMD decile}
     \label{fig:results1-meds-simd}
 \end{figure}
-
-The pattern of distribution of the percentage of people receiving specific counts of repeat medicines broken down by SIMD decile is shown in figure \ref{fig:results1-meds-simd}. The trend is clearly linear with an inflection point at six repeat medicines. For counts of 0-5 repeat prescribed medicines there are lower percentages of individuals from SIMD 1 (most deprived) whereas for counts of seven or above there are higher percentages. The percentage of those with zero repeat medicines is higher (14%) in the most affluent decile 10 than in the most deprived decile 1 (8%). 
 
 \FloatBarrier
 \subsection{Multimorbidity (repeat medicine) groups}\label{subsec:results1-meds}
@@ -144,7 +138,7 @@ The pattern of distribution of the percentage of people receiving specific count
     \label{fig:results1-meds-grp}
 \end{figure}
 
-Figure \ref{fig:results1-meds-grp} shows the distribution of the percentage of individuals receiving numbers of repeat medicines within defined groups. Each group contains either slightly more or less than 25% of the total cohort with 0-2 and 3-5 groups being slightly larger. The same pattern is seen across all years of data.
+Figure \ref{fig:results1-meds-grp} shows the distribution of the percentage of individuals receiving numbers of repeat medicines within defined groups. Each group contains either slightly more or less than 25% of the total cohort with 0-2 and 3-5 groups being slightly larger. The same pattern is seen across all years of data. These groups are used as a proxy measurement of multimorbidity in models reported in chapters \ref{ch:res2} and \ref{ch:res-3}. 
 
 \begin{table}[]
 \centering
@@ -191,30 +185,11 @@ Figure \ref{fig:results1-meds-grp} shows the distribution of the percentage of i
 \end{table}
 
 
-Table \ref{tab:res1-mmgroups} shows the breakdown of the cohort in financial year 2013/14 by multimorbidity groups. There was a higher percentages (23.2% & 23.5%) of females in the groups with highest repeat medicine counts (6-8 & 9 and over) compared to males (22.9% and 20.1%). The average age of individuals in each group rose from 71.9 years in the 0-2 group to 76.9 years in the 9 and over group. The percentage of each age group receiving 0-2 repeat medicines increases as the age group increases. Almost 40% of those aged 65-69 (over 30% of the cohort) were prescribed between 0-2 repeat medicines whereas only 18.4% of those over the age of 95 were in this group. Conversely, Only 14% of those aged 65-69 received 9 or more repeat medicines whereas 25.9% of those over 95 did so. 
+A higher percentage of females are found in the highest multimorbidity group (9+ repeat medicines), whereas a higher percentage of men is found in the two lowest groups(0-2 & 3-5 repeat medicines, table \ref{tab:res1-mmgroups}). The average age of individuals in each multimorbidity group rises with severity from 72 years in the lowest group to 77 years in the highest. Percetntages of indiviudals in the lowest multimorbidity group run from high to low thorugh age groups whilst the opposite is found in the highest multimorbidiy group.   
 
-The opposite pattern is seen in deprivation status. Just 19% of individuals living in decile 1 received 0-2 repeat medicines whereas over one-third 34.9% of those is decile 10 were in the lowest multimorbidity group. The percentage of individuals in the 0-2 group increased through the deprivation deciles from most deprived to most affluent. Almost a third (31.5%) of those in the most deprived SIMD decile were in the highest multimorbidity group (9 and over repeat medicines) whereas only 14% of the most affluent decile were found in this group - also with a negative linear trend in percentages going through SIMD deciles. 
+A stark pattern is seen in deprivation status. Less than one-in-five individuals living in decile 1 received 0-2 repeat medicines whereas almost one-third of those in decile 10 are in this lowest multimorbidity group. The percentage of individuals in the 0-2 group increases in a linear fashion through the deprivation deciles from most deprived to most affluent. Conversely, almost a third (30.8%) of those in the most deprived SIMD decile were in the highest multimorbidity group. Only 13.6% of those in the most affluent decile were found in this group. Again, a (negative) linear trend in percentages going through SIMD deciles is observed. 
 
 There is a noticeable relationship between service use and multimorbidity groups. Only 7.6% of those receiving social care and 14.9% of those having at least one unscheduled care episode received between 0-2 repeat medicines. This compared to 44.9% of those receiving social care and 36.9% of those using unscheduled care services who were in the 9 and over repeat medicine group. 
-
-\begin{figure}[h]
-  \centering
-    \includegraphics[width= 0.8\textwidth]{figures/chapter-results-1/19_meds_scs_plot.png}
-    \caption{Count of repeat medicine groups, by receipt of social care. 2013/14}
-    \label{fig:res2-meds}
-\end{figure}
-
-Figure \ref{fig:res2-meds} illustrates use of social care by multimorbidity group described in table \ref{tab:res1-mmgroups}. Whilst the overall number of people receiving social care is small in comparison to the whole cohort, the linear trend in numbers receiving care as multimorbidity status increases is obvious.
-
-\begin{figure}[h]
-  \centering
-    \includegraphics[width= 0.8\textwidth]{figures/chapter-results-1/15_meds_usc_plot.png}
-    \caption{Count of repeat medicine groups, by use of USC. 2013/14}
-    \label{fig:res3-meds}
-\end{figure}
-
-Figure \ref{fig:res3-meds} illustrates the use of unscheduled care use by multimorbidity group, also described in table \ref{tab:res1-mmgroups}. The trend in increased service use as multimorbidity status increases is also seen here. A larger proportion of the cohort uses unscheduled care services compared to social care. 
-
 
 ```{r DEPRIVATION, eval=FALSE, echo=FALSE}
 ##################################################################################################

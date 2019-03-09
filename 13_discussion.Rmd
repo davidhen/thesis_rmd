@@ -8,6 +8,8 @@ output: pdf_document
 
 * The aim of this thesis was 1, 2, 3.  
 
+**Big point - Health and social care often discussed in terms of lack of social care's effect on delayed discharges etc. BUT, health is a major driver of social care use in the first place. Affirms need for joined up H \& SC services** (maybe not a big point!)
+
 \section{Findings}
 Go through all results and discuss
 \begin{itemize}[noitemsep]
