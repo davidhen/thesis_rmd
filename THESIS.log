@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.19 (TeX Live 2018/W32TeX) (preloaded format=pdflatex 2019.2.21)  9 MAR 2019 11:17
+This is pdfTeX, Version 3.14159265-2.6-1.40.19 (TeX Live 2018/W32TeX) (preloaded format=pdflatex 2019.2.21)  10 MAR 2019 15:59
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -848,7 +848,11 @@ Package xcolor Info: Model `tHsb' substituted by `hsb' on input line 1368.
 Package xcolor Info: Model `HSB' substituted by `hsb' on input line 1369.
 Package xcolor Info: Model `Gray' substituted by `gray' on input line 1370.
 Package xcolor Info: Model `wave' substituted by `hsb' on input line 1371.
-) (./THESIS.aux)
+) (./THESIS.aux
+
+LaTeX Warning: Label `subsec:9296-AME' multiply defined.
+
+)
 \openout1 = `THESIS.aux'.
 
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 149.
@@ -982,7 +986,7 @@ Package caption Info: End \AtBeginDocument code.
 
 pdfTeX warning: pdflatex.exe (file ./figures/title-page/Ghlaschu.pdf): PDF incl
 usion: found PDF version <1.7>, but at most version <1.5> allowed
-<figures/title-page/Ghlaschu.pdf, id=509, 459.96844pt x 168.63pt>
+<figures/title-page/Ghlaschu.pdf, id=517, 459.96844pt x 168.63pt>
 File: figures/title-page/Ghlaschu.pdf Graphic file (type pdf)
 <use figures/title-page/Ghlaschu.pdf>
 Package pdftex.def Info: figures/title-page/Ghlaschu.pdf  used on input line 15
@@ -1078,22 +1082,22 @@ less on input line 218.
 \tf@lof=\write7
 \openout7 = `THESIS.lof'.
 
-[11] [12]
+[11]
 
 Package Fancyhdr Warning: \fancyhead's `E' option without twoside option is use
 less on input line 226.
 
-[13]
+[12]
 
 Package Fancyhdr Warning: \fancyhead's `E' option without twoside option is use
 less on input line 239.
 
-[14]
+[13]
 
 Package Fancyhdr Warning: \fancyhead's `E' option without twoside option is use
 less on input line 255.
 
-(./04_acro_list.tex [15]) [16] [17]
+(./04_acro_list.tex [14]) [15] [16]
 
 Package Fancyhdr Warning: \fancyhead's `E' option without twoside option is use
 less on input line 290.
@@ -1107,31 +1111,31 @@ Package Fancyhdr Warning: \fancyfoot's `E' option without twoside option is use
 less on input line 292.
 
 Chapter 1.
-[18
+[17
 
-] [19] [20]
+] [18] [19]
 LaTeX Font Info:    Try loading font information for TS1+lmr on input line 430.
 
 (c:/Users/hedgi/AppData/Roaming/TinyTeX/texmf-dist/tex/latex/lm/ts1lmr.fd
 File: ts1lmr.fd 2009/10/30 v1.6 Font defs for Latin Modern
-) [21]
+) [20]
 Chapter 2.
-[22
+[21
 
-] [23] [24] [25]
+] [22] [23] [24]
 Overfull \hbox (21.9773pt too wide) in paragraph at lines 647--648
  [][] 
  []
 
-[26]
+[25]
 LaTeX Font Info:    External font `lmex10' loaded for size
 (Font)              <10> on input line 723.
 LaTeX Font Info:    External font `lmex10' loaded for size
 (Font)              <7> on input line 723.
 LaTeX Font Info:    External font `lmex10' loaded for size
 (Font)              <5> on input line 723.
-[27] [28]
-<figures/chapter-lit-review/oecd-comparison.PNG, id=1024, 471.63702pt x 325.591
+[26] [27]
+<figures/chapter-lit-review/oecd-comparison.PNG, id=1021, 471.63702pt x 325.591
 4pt>
 File: figures/chapter-lit-review/oecd-comparison.PNG Graphic file (type png)
 <use figures/chapter-lit-review/oecd-comparison.PNG>
@@ -1140,39 +1144,39 @@ n input line 775.
 (pdftex.def)             Requested size: 352.82011pt x 243.56697pt.
 LaTeX Font Info:    External font `lmex10' loaded for size
 (Font)              <10.95> on input line 800.
-[29 <./figures/chapter-lit-review/oecd-comparison.PNG>] [30] [31] [32] [33] [34
-] [35]
+[28 <./figures/chapter-lit-review/oecd-comparison.PNG>] [29] [30] [31] [32] [33
+] [34]
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-[36] [37] [38] [39] [40] [41] [42] [43] [44] [45] [46] [47] [48] [49] [50] [51]
-[52] [53] [54] [55]
+[35] [36] [37] [38] [39] [40] [41] [42] [43] [44] [45] [46] [47] [48] [49] [50]
+[51] [52] [53] [54]
 
-LaTeX Warning: Reference `ch:clustering' on page 56 undefined on input line 206
+LaTeX Warning: Reference `ch:clustering' on page 55 undefined on input line 206
 1.
 
 
-LaTeX Warning: Reference `ch:methods' on page 56 undefined on input line 2076.
+LaTeX Warning: Reference `ch:methods' on page 55 undefined on input line 2076.
 
 
-LaTeX Warning: Reference `ch:results' on page 56 undefined on input line 2093.
+LaTeX Warning: Reference `ch:results' on page 55 undefined on input line 2093.
 
-[56]
+[55]
 Chapter 3.
-[57
+[56
 
-] [58] [59] [60] [61] [62] [63] [64] [65] [66] [67] [68]
+] [57] [58] [59] [60] [61] [62] [63] [64] [65] [66] [67]
 
 LaTeX Warning: No positions in optional float specifier.
                Default added (so using `tbp') on input line 2655.
 
-[69] [70]
+[68] [69]
 LaTeX Font Info:    Try loading font information for T1+lmtt on input line 2725
 .
 (c:/Users/hedgi/AppData/Roaming/TinyTeX/texmf-dist/tex/latex/lm/t1lmtt.fd
 File: t1lmtt.fd 2009/10/30 v1.6 Font defs for Latin Modern
-) [71]
-<figures/chapter-methods/linkage_diagram.png, id=1267, 963.6pt x 542.025pt>
+) [70]
+<figures/chapter-methods/linkage_diagram.png, id=1264, 963.6pt x 542.025pt>
 File: figures/chapter-methods/linkage_diagram.png Graphic file (type png)
 <use figures/chapter-methods/linkage_diagram.png>
 Package pdftex.def Info: figures/chapter-methods/linkage_diagram.png  used on i
@@ -1181,7 +1185,7 @@ nput line 2739.
 
 LaTeX Warning: Float too large for page by 1.21497pt on input line 2742.
 
-[72 <./figures/chapter-methods/linkage_diagram.png>] [73
+[71 <./figures/chapter-methods/linkage_diagram.png>] [72
 
 
 ]
@@ -1189,11 +1193,11 @@ LaTeX Warning: Float too large for page by 1.21497pt on input line 2742.
 LaTeX Warning: No positions in optional float specifier.
                Default added (so using `tbp') on input line 2841.
 
-[74]
+[73]
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-[75] [76] [77] [78]
+[74] [75] [76] [77]
 
 Package xcolor Warning: Incompatible color definition on input line 3126.
 
@@ -1208,14 +1212,14 @@ Package xcolor Warning: Incompatible color definition on input line 3156.
 
 Package xcolor Warning: Incompatible color definition on input line 3156.
 
-[79]
+[78]
 
 Package xcolor Warning: Incompatible color definition on input line 3156.
 
 
 Package xcolor Warning: Incompatible color definition on input line 3156.
 
-[80] [81]
+[79] [80]
 
 Package xcolor Warning: Incompatible color definition on input line 3277.
 
@@ -1232,14 +1236,14 @@ Overfull \vbox (1.05228pt too high) detected at line 3308
 
 Package xcolor Warning: Incompatible color definition on input line 3308.
 
-[82]
+[81]
 
 Package xcolor Warning: Incompatible color definition on input line 3308.
 
 
 Package xcolor Warning: Incompatible color definition on input line 3308.
 
-<data/produced_data/methods-chpt/timeline.png, id=1341, 722.7pt x 289.08pt>
+<data/produced_data/methods-chpt/timeline.png, id=1338, 722.7pt x 289.08pt>
 File: data/produced_data/methods-chpt/timeline.png Graphic file (type png)
 <use data/produced_data/methods-chpt/timeline.png>
 Package pdftex.def Info: data/produced_data/methods-chpt/timeline.png  used on 
@@ -1248,12 +1252,12 @@ input line 3319.
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-[83] [84 <./data/produced_data/methods-chpt/timeline.png>]
+[82] [83 <./data/produced_data/methods-chpt/timeline.png>]
 Chapter 4.
-[85
+[84
 
 ]
-<figures/chapter-renf/SCS-collection.png, id=1360, 963.6pt x 542.025pt>
+<figures/chapter-renf/SCS-collection.png, id=1356, 963.6pt x 542.025pt>
 File: figures/chapter-renf/SCS-collection.png Graphic file (type png)
 <use figures/chapter-renf/SCS-collection.png>
 Package pdftex.def Info: figures/chapter-renf/SCS-collection.png  used on input
@@ -1262,15 +1266,15 @@ Package pdftex.def Info: figures/chapter-renf/SCS-collection.png  used on input
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-[86 <./figures/chapter-renf/SCS-collection.png>] [87] [88]
-<figures/chapter-renf/renf-timeline.png, id=1379, 1011.78pt x 289.08pt>
+[85 <./figures/chapter-renf/SCS-collection.png>] [86] [87]
+<figures/chapter-renf/renf-timeline.png, id=1376, 1011.78pt x 289.08pt>
 File: figures/chapter-renf/renf-timeline.png Graphic file (type png)
 <use figures/chapter-renf/renf-timeline.png>
 Package pdftex.def Info: figures/chapter-renf/renf-timeline.png  used on input 
 line 3541.
 (pdftex.def)             Requested size: 441.01617pt x 126.00461pt.
-[89 <./figures/chapter-renf/renf-timeline.png>] [90]
-<figures/chapter-renf/01_weekly_count_plot.png, id=1394, 650.43pt x 487.8225pt>
+[88 <./figures/chapter-renf/renf-timeline.png>] [89]
+<figures/chapter-renf/01_weekly_count_plot.png, id=1391, 650.43pt x 487.8225pt>
 
 File: figures/chapter-renf/01_weekly_count_plot.png Graphic file (type png)
 <use figures/chapter-renf/01_weekly_count_plot.png>
@@ -1280,8 +1284,8 @@ Package pdftex.def Info: figures/chapter-renf/01_weekly_count_plot.png  used on
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-[91]
-<figures/chapter-renf/02_age_sex_plot.png, id=1406, 867.24pt x 650.43pt>
+[90]
+<figures/chapter-renf/02_age_sex_plot.png, id=1402, 867.24pt x 650.43pt>
 File: figures/chapter-renf/02_age_sex_plot.png Graphic file (type png)
 <use figures/chapter-renf/02_age_sex_plot.png>
 Package pdftex.def Info: figures/chapter-renf/02_age_sex_plot.png  used on inpu
@@ -1290,8 +1294,8 @@ t line 3745.
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-[92 <./figures/chapter-renf/01_weekly_count_plot.png>]
-<figures/chapter-renf/03_type_plot.png, id=1414, 867.24pt x 650.43pt>
+[91 <./figures/chapter-renf/01_weekly_count_plot.png>]
+<figures/chapter-renf/03_type_plot.png, id=1411, 867.24pt x 650.43pt>
 File: figures/chapter-renf/03_type_plot.png Graphic file (type png)
 <use figures/chapter-renf/03_type_plot.png>
 Package pdftex.def Info: figures/chapter-renf/03_type_plot.png  used on input l
@@ -1300,8 +1304,8 @@ ine 3769.
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-[93 <./figures/chapter-renf/02_age_sex_plot.png>]
-<figures/chapter-renf/04_overall_dur_plot.png, id=1425, 650.43pt x 487.8225pt>
+[92 <./figures/chapter-renf/02_age_sex_plot.png>]
+<figures/chapter-renf/04_overall_dur_plot.png, id=1422, 650.43pt x 487.8225pt>
 File: figures/chapter-renf/04_overall_dur_plot.png Graphic file (type png)
 <use figures/chapter-renf/04_overall_dur_plot.png>
 Package pdftex.def Info: figures/chapter-renf/04_overall_dur_plot.png  used on 
@@ -1310,7 +1314,7 @@ input line 3790.
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-<figures/chapter-renf/05_type_dur_plot.png, id=1429, 867.24pt x 650.43pt>
+<figures/chapter-renf/05_type_dur_plot.png, id=1426, 867.24pt x 650.43pt>
 File: figures/chapter-renf/05_type_dur_plot.png Graphic file (type png)
 <use figures/chapter-renf/05_type_dur_plot.png>
 Package pdftex.def Info: figures/chapter-renf/05_type_dur_plot.png  used on inp
@@ -1319,7 +1323,7 @@ ut line 3808.
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-<figures/chapter-renf/06_no_cen_dur_plot.png, id=1431, 867.24pt x 433.62pt>
+<figures/chapter-renf/06_no_cen_dur_plot.png, id=1428, 867.24pt x 433.62pt>
 File: figures/chapter-renf/06_no_cen_dur_plot.png Graphic file (type png)
 <use figures/chapter-renf/06_no_cen_dur_plot.png>
 Package pdftex.def Info: figures/chapter-renf/06_no_cen_dur_plot.png  used on i
@@ -1328,16 +1332,16 @@ nput line 3825.
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-[94 <./figures/chapter-renf/03_type_plot.png>] [95 <./figures/chapter-renf/04_o
-verall_dur_plot.png> <./figures/chapter-renf/05_type_dur_plot.png>] [96 <./figu
+[93 <./figures/chapter-renf/03_type_plot.png>] [94 <./figures/chapter-renf/04_o
+verall_dur_plot.png> <./figures/chapter-renf/05_type_dur_plot.png>] [95 <./figu
 res/chapter-renf/06_no_cen_dur_plot.png>]
-<figures/chapter-renf/07_overall_hrs_plot.png, id=1449, 650.43pt x 487.8225pt>
+<figures/chapter-renf/07_overall_hrs_plot.png, id=1446, 650.43pt x 487.8225pt>
 File: figures/chapter-renf/07_overall_hrs_plot.png Graphic file (type png)
 <use figures/chapter-renf/07_overall_hrs_plot.png>
 Package pdftex.def Info: figures/chapter-renf/07_overall_hrs_plot.png  used on 
 input line 3835.
 (pdftex.def)             Requested size: 441.02611pt x 330.76958pt.
-<figures/chapter-renf/08_type_hrs_plot.png, id=1452, 867.24pt x 650.43pt>
+<figures/chapter-renf/08_type_hrs_plot.png, id=1449, 867.24pt x 650.43pt>
 File: figures/chapter-renf/08_type_hrs_plot.png Graphic file (type png)
 <use figures/chapter-renf/08_type_hrs_plot.png>
 Package pdftex.def Info: figures/chapter-renf/08_type_hrs_plot.png  used on inp
@@ -1346,45 +1350,45 @@ ut line 3856.
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-[97
+[96
 
- <./figures/chapter-renf/07_overall_hrs_plot.png>] [98 <./figures/chapter-renf/
-08_type_hrs_plot.png>] [99] [100] [101]
+ <./figures/chapter-renf/07_overall_hrs_plot.png>] [97 <./figures/chapter-renf/
+08_type_hrs_plot.png>] [98] [99] [100]
 Chapter 5.
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-[102
+[101
 
 ]
 
 LaTeX Warning: No positions in optional float specifier.
                Default added (so using `tbp') on input line 4101.
 
-<figures/chapter-results-1/02_age_sex_plot.png, id=1485, 650.43pt x 319.1925pt>
+<figures/chapter-results-1/02_age_sex_plot.png, id=1482, 650.43pt x 319.1925pt>
 
 File: figures/chapter-results-1/02_age_sex_plot.png Graphic file (type png)
 <use figures/chapter-results-1/02_age_sex_plot.png>
 Package pdftex.def Info: figures/chapter-results-1/02_age_sex_plot.png  used on
  input line 4103.
 (pdftex.def)             Requested size: 441.02611pt x 216.42947pt.
-[103]
-<figures/chapter-results-1/03_deaths_plot.png, id=1493, 650.43pt x 319.1925pt>
+[102]
+<figures/chapter-results-1/03_deaths_plot.png, id=1489, 650.43pt x 319.1925pt>
 File: figures/chapter-results-1/03_deaths_plot.png Graphic file (type png)
 <use figures/chapter-results-1/03_deaths_plot.png>
 Package pdftex.def Info: figures/chapter-results-1/03_deaths_plot.png  used on 
 input line 4120.
 (pdftex.def)             Requested size: 441.02611pt x 216.42947pt.
-[104 <./figures/chapter-results-1/02_age_sex_plot.png> <./figures/chapter-resul
+[103 <./figures/chapter-results-1/02_age_sex_plot.png> <./figures/chapter-resul
 ts-1/03_deaths_plot.png>]
-<figures/chapter-results-1/04_la_count.png, id=1502, 650.43pt x 650.43pt>
+<figures/chapter-results-1/04_la_count.png, id=1499, 650.43pt x 650.43pt>
 File: figures/chapter-results-1/04_la_count.png Graphic file (type png)
 <use figures/chapter-results-1/04_la_count.png>
 Package pdftex.def Info: figures/chapter-results-1/04_la_count.png  used on inp
 ut line 4146.
 (pdftex.def)             Requested size: 441.02611pt x 441.02611pt.
-[105 <./figures/chapter-results-1/04_la_count.png>]
-<figures/chapter-results-1/10_total_meds_hist_2.png, id=1509, 650.43pt x 325.21
+[104 <./figures/chapter-results-1/04_la_count.png>]
+<figures/chapter-results-1/10_total_meds_hist_2.png, id=1506, 650.43pt x 325.21
 5pt>
 File: figures/chapter-results-1/10_total_meds_hist_2.png Graphic file (type png
 )
@@ -1392,7 +1396,7 @@ File: figures/chapter-results-1/10_total_meds_hist_2.png Graphic file (type png
 Package pdftex.def Info: figures/chapter-results-1/10_total_meds_hist_2.png  us
 ed on input line 4164.
 (pdftex.def)             Requested size: 441.02611pt x 220.51305pt.
-<figures/chapter-results-1/12_meds_age_count_plot.png, id=1510, 650.43pt x 325.
+<figures/chapter-results-1/12_meds_age_count_plot.png, id=1507, 650.43pt x 325.
 215pt>
 File: figures/chapter-results-1/12_meds_age_count_plot.png Graphic file (type p
 ng)
@@ -1403,7 +1407,7 @@ used on input line 4174.
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-<figures/chapter-results-1/11_meds_simd_count_plot.png, id=1512, 650.43pt x 325
+<figures/chapter-results-1/11_meds_simd_count_plot.png, id=1509, 650.43pt x 325
 .215pt>
 File: figures/chapter-results-1/11_meds_simd_count_plot.png Graphic file (type 
 png)
@@ -1414,8 +1418,8 @@ Package pdftex.def Info: figures/chapter-results-1/11_meds_simd_count_plot.png
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-[106 <./figures/chapter-results-1/10_total_meds_hist_2.png>]
-<figures/chapter-results-1/08_pis_group_plot.png, id=1519, 650.43pt x 505.89pt>
+[105 <./figures/chapter-results-1/10_total_meds_hist_2.png>]
+<figures/chapter-results-1/08_pis_group_plot.png, id=1516, 650.43pt x 505.89pt>
 
 File: figures/chapter-results-1/08_pis_group_plot.png Graphic file (type png)
 <use figures/chapter-results-1/08_pis_group_plot.png>
@@ -1429,227 +1433,205 @@ LaTeX Warning: `h' float specifier changed to `ht'.
 LaTeX Warning: No positions in optional float specifier.
                Default added (so using `tbp') on input line 4215.
 
-[107 <./figures/chapter-results-1/12_meds_age_count_plot.png> <./figures/chapte
-r-results-1/11_meds_simd_count_plot.png (PNG copy)>] [108 <./figures/chapter-re
+[106 <./figures/chapter-results-1/12_meds_age_count_plot.png> <./figures/chapte
+r-results-1/11_meds_simd_count_plot.png (PNG copy)>] [107 <./figures/chapter-re
 sults-1/08_pis_group_plot.png>]
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-[109]
-<figures/chapter-results-1/age_sex_simd_plot.png, id=1541, 867.24pt x 505.89pt>
+[108]
+<figures/chapter-results-1/age_sex_simd_plot.png, id=1537, 867.24pt x 505.89pt>
 
 File: figures/chapter-results-1/age_sex_simd_plot.png Graphic file (type png)
 <use figures/chapter-results-1/age_sex_simd_plot.png>
 Package pdftex.def Info: figures/chapter-results-1/age_sex_simd_plot.png  used 
-on input line 4364.
+on input line 4366.
 (pdftex.def)             Requested size: 441.01619pt x 257.25943pt.
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-[110]
-<figures/chapter-results-1/05_simd_la.png, id=1549, 867.24pt x 867.24pt>
+[109]
+<figures/chapter-results-1/05_simd_la.png, id=1546, 867.24pt x 867.24pt>
 File: figures/chapter-results-1/05_simd_la.png Graphic file (type png)
 <use figures/chapter-results-1/05_simd_la.png>
 Package pdftex.def Info: figures/chapter-results-1/05_simd_la.png  used on inpu
-t line 4394.
+t line 4399.
 (pdftex.def)             Requested size: 441.01619pt x 441.01619pt.
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-[111 <./figures/chapter-results-1/age_sex_simd_plot.png>] [112 <./figures/chapt
-er-results-1/05_simd_la.png>]
+[110 <./figures/chapter-results-1/age_sex_simd_plot.png>] [111 <./figures/chapt
+er-results-1/05_simd_la.png>] [112]
 Chapter 6.
-<figures/chapter-results-1/17_age_sex_scs_plot.png, id=1561, 650.43pt x 325.215
-pt>
-File: figures/chapter-results-1/17_age_sex_scs_plot.png Graphic file (type png)
-
-<use figures/chapter-results-1/17_age_sex_scs_plot.png>
-Package pdftex.def Info: figures/chapter-results-1/17_age_sex_scs_plot.png  use
-d on input line 4432.
-(pdftex.def)             Requested size: 441.02611pt x 220.51305pt.
-
-LaTeX Warning: `h' float specifier changed to `ht'.
-
 [113
 
-]
-<figures/chapter-results-1/18_age_simd_scs_plot.png, id=1567, 650.43pt x 325.21
-5pt>
-File: figures/chapter-results-1/18_age_simd_scs_plot.png Graphic file (type png
-)
-<use figures/chapter-results-1/18_age_simd_scs_plot.png>
-Package pdftex.def Info: figures/chapter-results-1/18_age_simd_scs_plot.png  us
-ed on input line 4449.
-(pdftex.def)             Requested size: 441.02611pt x 220.51305pt.
-<figures/chapter-results-1/20_age_meds_scs_plot.png, id=1569, 650.43pt x 325.21
-5pt>
-File: figures/chapter-results-1/20_age_meds_scs_plot.png Graphic file (type png
-)
-<use figures/chapter-results-1/20_age_meds_scs_plot.png>
-Package pdftex.def Info: figures/chapter-results-1/20_age_meds_scs_plot.png  us
-ed on input line 4465.
-(pdftex.def)             Requested size: 441.02611pt x 220.51305pt.
-
-LaTeX Warning: `h' float specifier changed to `ht'.
-
-[114 <./figures/chapter-results-1/17_age_sex_scs_plot.png> <./figures/chapter-r
-esults-1/18_age_simd_scs_plot.png (PNG copy)>] [115 <./figures/chapter-results-
-1/20_age_meds_scs_plot.png>]
-
-LaTeX Warning: `h' float specifier changed to `ht'.
-
-[116]
-<figures/chapter-results-2/sc_model_22_AME_plot.png, id=1592, 867.24pt x 722.7p
+] [114]
+<figures/chapter-results-2/sc_model_22_AME_plot.png, id=1575, 867.24pt x 722.7p
 t>
 File: figures/chapter-results-2/sc_model_22_AME_plot.png Graphic file (type png
 )
 <use figures/chapter-results-2/sc_model_22_AME_plot.png>
 Package pdftex.def Info: figures/chapter-results-2/sc_model_22_AME_plot.png  us
-ed on input line 4608.
+ed on input line 4582.
 (pdftex.def)             Requested size: 441.01619pt x 367.51347pt.
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
 
-Overfull \hbox (14.39575pt too wide) in paragraph at lines 4635--4665
+Overfull \hbox (14.39575pt too wide) in paragraph at lines 4609--4639
  [] 
  []
 
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-[117]
-<figures/chapter-results-2/sc_model_22_simd_plot.png, id=1601, 650.43pt x 505.8
+
+LaTeX Warning: Reference `fig:res2-age-sex' on page 115 undefined on input line
+ 4644.
+
+<figures/chapter-results-2/sc_model_22_simd_plot.png, id=1579, 650.43pt x 505.8
 9pt>
 File: figures/chapter-results-2/sc_model_22_simd_plot.png Graphic file (type pn
 g)
 <use figures/chapter-results-2/sc_model_22_simd_plot.png>
 Package pdftex.def Info: figures/chapter-results-2/sc_model_22_simd_plot.png  u
-sed on input line 4677.
+sed on input line 4651.
 (pdftex.def)             Requested size: 441.02611pt x 343.0203pt.
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-[118 <./figures/chapter-results-2/sc_model_22_AME_plot.png>]
+[115] [116 <./figures/chapter-results-2/sc_model_22_AME_plot.png>]
 
 LaTeX Warning: No positions in optional float specifier.
-               Default added (so using `tbp') on input line 4714.
+               Default added (so using `tbp') on input line 4688.
 
-<figures/chapter-results-2/sc_model_22_AME_time.png, id=1613, 867.24pt x 505.89
+<figures/chapter-results-2/sc_model_22_AME_time.png, id=1596, 867.24pt x 505.89
 pt>
 File: figures/chapter-results-2/sc_model_22_AME_time.png Graphic file (type png
 )
 <use figures/chapter-results-2/sc_model_22_AME_time.png>
 Package pdftex.def Info: figures/chapter-results-2/sc_model_22_AME_time.png  us
-ed on input line 4716.
+ed on input line 4690.
 (pdftex.def)             Requested size: 441.01619pt x 257.25943pt.
 
 LaTeX Warning: No positions in optional float specifier.
-               Default added (so using `tbp') on input line 4727.
+               Default added (so using `tbp') on input line 4701.
 
-<figures/chapter-results-2/sc_model_22_AMELA_time.png, id=1615, 867.24pt x 505.
+<figures/chapter-results-2/sc_model_22_AMELA_time.png, id=1598, 867.24pt x 505.
 89pt>
 File: figures/chapter-results-2/sc_model_22_AMELA_time.png Graphic file (type p
 ng)
 <use figures/chapter-results-2/sc_model_22_AMELA_time.png>
 Package pdftex.def Info: figures/chapter-results-2/sc_model_22_AMELA_time.png  
-used on input line 4729.
+used on input line 4703.
 (pdftex.def)             Requested size: 441.01619pt x 257.25943pt.
-[119] [120 <./figures/chapter-results-2/sc_model_22_simd_plot.png> <./figures/c
-hapter-results-2/sc_model_22_AME_time.png (PNG copy)>] [121 <./figures/chapter-
+[117] [118 <./figures/chapter-results-2/sc_model_22_simd_plot.png> <./figures/c
+hapter-results-2/sc_model_22_AME_time.png (PNG copy)>] [119 <./figures/chapter-
 results-2/sc_model_22_AMELA_time.png (PNG copy)>]
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-[122
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+[120
 
 ]
-<figures/chapter-results-2/sc_model_23_AME_plot.png, id=1644, 867.24pt x 722.7p
+<figures/chapter-results-2/sc_model_23_AME_plot.png, id=1625, 867.24pt x 722.7p
 t>
 File: figures/chapter-results-2/sc_model_23_AME_plot.png Graphic file (type png
 )
 <use figures/chapter-results-2/sc_model_23_AME_plot.png>
 Package pdftex.def Info: figures/chapter-results-2/sc_model_23_AME_plot.png  us
-ed on input line 4866.
+ed on input line 4841.
 (pdftex.def)             Requested size: 441.01619pt x 367.51347pt.
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-[123]
-Overfull \hbox (0.8334pt too wide) in paragraph at lines 4893--4923
+[121]
+Overfull \hbox (0.8334pt too wide) in paragraph at lines 4868--4898
  [] 
  []
 
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-<figures/chapter-results-2/sc_model_23_simd_plot.png, id=1653, 650.43pt x 505.8
+
+LaTeX Warning: Reference `fig:res2-age-sex' on page 122 undefined on input line
+ 4903.
+
+<figures/chapter-results-2/sc_model_23_simd_plot.png, id=1635, 650.43pt x 505.8
 9pt>
 File: figures/chapter-results-2/sc_model_23_simd_plot.png Graphic file (type pn
 g)
 <use figures/chapter-results-2/sc_model_23_simd_plot.png>
 Package pdftex.def Info: figures/chapter-results-2/sc_model_23_simd_plot.png  u
-sed on input line 4935.
+sed on input line 4910.
 (pdftex.def)             Requested size: 441.02611pt x 343.0203pt.
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-[124 <./figures/chapter-results-2/sc_model_23_AME_plot.png>]
-<figures/chapter-results-2/sc_model_23_AME_time.png, id=1662, 867.24pt x 505.89
+[122 <./figures/chapter-results-2/sc_model_23_AME_plot.png>]
+<figures/chapter-results-2/sc_model_23_AME_time.png, id=1644, 867.24pt x 505.89
 pt>
 File: figures/chapter-results-2/sc_model_23_AME_time.png Graphic file (type png
 )
 <use figures/chapter-results-2/sc_model_23_AME_time.png>
 Package pdftex.def Info: figures/chapter-results-2/sc_model_23_AME_time.png  us
-ed on input line 4966.
+ed on input line 4941.
 (pdftex.def)             Requested size: 441.01619pt x 257.25943pt.
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-[125]
-<figures/chapter-results-2/sc_model_23_AMELA_time.png, id=1669, 867.24pt x 505.
+[123]
+<figures/chapter-results-2/sc_model_23_AMELA_time.png, id=1651, 867.24pt x 505.
 89pt>
 File: figures/chapter-results-2/sc_model_23_AMELA_time.png Graphic file (type p
 ng)
 <use figures/chapter-results-2/sc_model_23_AMELA_time.png>
 Package pdftex.def Info: figures/chapter-results-2/sc_model_23_AMELA_time.png  
-used on input line 4982.
+used on input line 4957.
 (pdftex.def)             Requested size: 441.01619pt x 257.25943pt.
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-[126 <./figures/chapter-results-2/sc_model_23_simd_plot.png>] [127 <./figures/c
+[124 <./figures/chapter-results-2/sc_model_23_simd_plot.png>] [125 <./figures/c
 hapter-results-2/sc_model_23_AME_time.png (PNG copy)> <./figures/chapter-result
-s-2/sc_model_23_AMELA_time.png (PNG copy)>]
+s-2/sc_model_23_AMELA_time.png (PNG copy)>] [126
+
+]
 Chapter 7.
-<figures/chapter-results-1/13_age_sex_usc_plot.png, id=1683, 650.43pt x 325.215
+<figures/chapter-results-1/13_age_sex_usc_plot.png, id=1669, 650.43pt x 325.215
 pt>
 File: figures/chapter-results-1/13_age_sex_usc_plot.png Graphic file (type png)
 
 <use figures/chapter-results-1/13_age_sex_usc_plot.png>
 Package pdftex.def Info: figures/chapter-results-1/13_age_sex_usc_plot.png  use
-d on input line 5032.
+d on input line 5033.
 (pdftex.def)             Requested size: 441.02611pt x 220.51305pt.
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-[128
 
+LaTeX Warning: Reference `fig:res2-age-sex' on page 127 undefined on input line
+ 5041.
+
+[127
 
 ]
-<figures/chapter-results-1/14_age_simd_usc.png, id=1690, 650.43pt x 325.215pt>
+<figures/chapter-results-1/14_age_simd_usc.png, id=1676, 650.43pt x 325.215pt>
 File: figures/chapter-results-1/14_age_simd_usc.png Graphic file (type png)
 <use figures/chapter-results-1/14_age_simd_usc.png>
 Package pdftex.def Info: figures/chapter-results-1/14_age_simd_usc.png  used on
- input line 5048.
+ input line 5049.
 (pdftex.def)             Requested size: 441.02611pt x 220.51305pt.
-<figures/chapter-results-1/16_age_meds_usc_plot.png, id=1692, 650.43pt x 325.21
+<figures/chapter-results-1/16_age_meds_usc_plot.png, id=1678, 650.43pt x 325.21
 5pt>
 File: figures/chapter-results-1/16_age_meds_usc_plot.png Graphic file (type png
 )
 <use figures/chapter-results-1/16_age_meds_usc_plot.png>
 Package pdftex.def Info: figures/chapter-results-1/16_age_meds_usc_plot.png  us
-ed on input line 5065.
+ed on input line 5066.
 (pdftex.def)             Requested size: 441.02611pt x 220.51305pt.
 
 LaTeX Warning: `h' float specifier changed to `ht'.
@@ -1660,125 +1642,125 @@ Make it at least 22.48878pt.
 We now make it that large for the rest of the document.
 This may cause the page layout to be inconsistent, however.
 
-[129 <./figures/chapter-results-1/13_age_sex_usc_plot.png> <./figures/chapter-r
-esults-1/14_age_simd_usc.png (PNG copy)>] [130 <./figures/chapter-results-1/16_
+[128 <./figures/chapter-results-1/13_age_sex_usc_plot.png> <./figures/chapter-r
+esults-1/14_age_simd_usc.png (PNG copy)>] [129 <./figures/chapter-results-1/16_
 age_meds_usc_plot.png>]
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-[131]
-<figures/chapter-results-3/usc_model_4_AME_plot.png, id=1714, 867.24pt x 722.7p
+[130]
+<figures/chapter-results-3/usc_model_4_AME_plot.png, id=1700, 867.24pt x 722.7p
 t>
 File: figures/chapter-results-3/usc_model_4_AME_plot.png Graphic file (type png
 )
 <use figures/chapter-results-3/usc_model_4_AME_plot.png>
 Package pdftex.def Info: figures/chapter-results-3/usc_model_4_AME_plot.png  us
-ed on input line 5190.
+ed on input line 5191.
 (pdftex.def)             Requested size: 441.01619pt x 367.51347pt.
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-[132 <./figures/chapter-results-3/usc_model_4_AME_plot.png>]
-<figures/chapter-results-3/usc_model_4_simd_plot.png, id=1724, 650.43pt x 505.8
+[131 <./figures/chapter-results-3/usc_model_4_AME_plot.png>]
+<figures/chapter-results-3/usc_model_4_simd_plot.png, id=1710, 650.43pt x 505.8
 9pt>
 File: figures/chapter-results-3/usc_model_4_simd_plot.png Graphic file (type pn
 g)
 <use figures/chapter-results-3/usc_model_4_simd_plot.png>
 Package pdftex.def Info: figures/chapter-results-3/usc_model_4_simd_plot.png  u
-sed on input line 5263.
+sed on input line 5264.
 (pdftex.def)             Requested size: 441.02611pt x 343.0203pt.
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-[133]
-<figures/chapter-results-3/usc_model_4_AME_time_b.png, id=1736, 867.24pt x 505.
+[132]
+<figures/chapter-results-3/usc_model_4_AME_time_b.png, id=1720, 867.24pt x 505.
 89pt>
 File: figures/chapter-results-3/usc_model_4_AME_time_b.png Graphic file (type p
 ng)
 <use figures/chapter-results-3/usc_model_4_AME_time_b.png>
 Package pdftex.def Info: figures/chapter-results-3/usc_model_4_AME_time_b.png  
-used on input line 5290.
+used on input line 5291.
 (pdftex.def)             Requested size: 441.01619pt x 257.25943pt.
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-<figures/chapter-results-3/usc_model_4_AME_time_a.png, id=1737, 867.24pt x 505.
+<figures/chapter-results-3/usc_model_4_AME_time_a.png, id=1721, 867.24pt x 505.
 89pt>
 File: figures/chapter-results-3/usc_model_4_AME_time_a.png Graphic file (type p
 ng)
 <use figures/chapter-results-3/usc_model_4_AME_time_a.png>
 Package pdftex.def Info: figures/chapter-results-3/usc_model_4_AME_time_a.png  
-used on input line 5297.
+used on input line 5298.
 (pdftex.def)             Requested size: 441.01619pt x 257.25943pt.
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-[134 <./figures/chapter-results-3/usc_model_4_simd_plot.png>] [135 <./figures/c
+[133 <./figures/chapter-results-3/usc_model_4_simd_plot.png>] [134 <./figures/c
 hapter-results-3/usc_model_4_AME_time_b.png> <./figures/chapter-results-3/usc_m
-odel_4_AME_time_a.png (PNG copy)>] [136
+odel_4_AME_time_a.png (PNG copy)>] [135
 
 ]
-<figures/chapter-results-3/adm_model_1_AME_plot.png, id=1756, 867.24pt x 722.7p
+<figures/chapter-results-3/adm_model_1_AME_plot.png, id=1742, 867.24pt x 722.7p
 t>
 File: figures/chapter-results-3/adm_model_1_AME_plot.png Graphic file (type png
 )
 <use figures/chapter-results-3/adm_model_1_AME_plot.png>
 Package pdftex.def Info: figures/chapter-results-3/adm_model_1_AME_plot.png  us
-ed on input line 5409.
+ed on input line 5410.
 (pdftex.def)             Requested size: 441.01619pt x 367.51347pt.
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-[137]
+[136]
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-<figures/chapter-results-3/adm_model_1_simd_plot.png, id=1765, 650.43pt x 505.8
+<figures/chapter-results-3/adm_model_1_simd_plot.png, id=1751, 650.43pt x 505.8
 9pt>
 File: figures/chapter-results-3/adm_model_1_simd_plot.png Graphic file (type pn
 g)
 <use figures/chapter-results-3/adm_model_1_simd_plot.png>
 Package pdftex.def Info: figures/chapter-results-3/adm_model_1_simd_plot.png  u
-sed on input line 5489.
+sed on input line 5490.
 (pdftex.def)             Requested size: 441.02611pt x 343.0203pt.
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-[138 <./figures/chapter-results-3/adm_model_1_AME_plot.png>]
-<figures/chapter-results-3/adm_model_1_AME_time_a.png, id=1775, 867.24pt x 505.
+[137 <./figures/chapter-results-3/adm_model_1_AME_plot.png>]
+<figures/chapter-results-3/adm_model_1_AME_time_a.png, id=1761, 867.24pt x 505.
 89pt>
 File: figures/chapter-results-3/adm_model_1_AME_time_a.png Graphic file (type p
 ng)
 <use figures/chapter-results-3/adm_model_1_AME_time_a.png>
 Package pdftex.def Info: figures/chapter-results-3/adm_model_1_AME_time_a.png  
-used on input line 5511.
+used on input line 5512.
 (pdftex.def)             Requested size: 441.01619pt x 257.25943pt.
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-<figures/chapter-results-3/adm_model_1_AME_time_b.png, id=1776, 867.24pt x 505.
+<figures/chapter-results-3/adm_model_1_AME_time_b.png, id=1762, 867.24pt x 505.
 89pt>
 File: figures/chapter-results-3/adm_model_1_AME_time_b.png Graphic file (type p
 ng)
 <use figures/chapter-results-3/adm_model_1_AME_time_b.png>
 Package pdftex.def Info: figures/chapter-results-3/adm_model_1_AME_time_b.png  
-used on input line 5518.
+used on input line 5519.
 (pdftex.def)             Requested size: 441.01619pt x 257.25943pt.
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-[139] [140 <./figures/chapter-results-3/adm_model_1_simd_plot.png> <./figures/c
-hapter-results-3/adm_model_1_AME_time_a.png>] [141 <./figures/chapter-results-3
-/adm_model_1_AME_time_b.png (PNG copy)>] [142
+[138] [139 <./figures/chapter-results-3/adm_model_1_simd_plot.png> <./figures/c
+hapter-results-3/adm_model_1_AME_time_a.png>] [140 <./figures/chapter-results-3
+/adm_model_1_AME_time_b.png (PNG copy)>] [141
 
 ]
-<figures/chapter-results-3/ed_model_1_AME_plot.png, id=1801, 867.24pt x 722.7pt
+<figures/chapter-results-3/ed_model_1_AME_plot.png, id=1787, 867.24pt x 722.7pt
 >
 File: figures/chapter-results-3/ed_model_1_AME_plot.png Graphic file (type png)
 
 <use figures/chapter-results-3/ed_model_1_AME_plot.png>
 Package pdftex.def Info: figures/chapter-results-3/ed_model_1_AME_plot.png  use
-d on input line 5626.
+d on input line 5627.
 (pdftex.def)             Requested size: 441.01619pt x 367.51347pt.
 
 LaTeX Warning: `h' float specifier changed to `ht'.
@@ -1786,83 +1768,83 @@ LaTeX Warning: `h' float specifier changed to `ht'.
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-[143]
-<figures/chapter-results-3/ed_model_1_simd_plot.png, id=1809, 650.43pt x 505.89
+[142]
+<figures/chapter-results-3/ed_model_1_simd_plot.png, id=1795, 650.43pt x 505.89
 pt>
 File: figures/chapter-results-3/ed_model_1_simd_plot.png Graphic file (type png
 )
 <use figures/chapter-results-3/ed_model_1_simd_plot.png>
 Package pdftex.def Info: figures/chapter-results-3/ed_model_1_simd_plot.png  us
-ed on input line 5701.
+ed on input line 5702.
 (pdftex.def)             Requested size: 441.02611pt x 343.0203pt.
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-<figures/chapter-results-3/ed_model_1_AME_time_a.png, id=1814, 867.24pt x 505.8
+<figures/chapter-results-3/ed_model_1_AME_time_a.png, id=1800, 867.24pt x 505.8
 9pt>
 File: figures/chapter-results-3/ed_model_1_AME_time_a.png Graphic file (type pn
 g)
 <use figures/chapter-results-3/ed_model_1_AME_time_a.png>
 Package pdftex.def Info: figures/chapter-results-3/ed_model_1_AME_time_a.png  u
-sed on input line 5721.
+sed on input line 5722.
 (pdftex.def)             Requested size: 441.01619pt x 257.25943pt.
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-<figures/chapter-results-3/ed_model_1_AME_time_b.png, id=1815, 867.24pt x 505.8
+<figures/chapter-results-3/ed_model_1_AME_time_b.png, id=1801, 867.24pt x 505.8
 9pt>
 File: figures/chapter-results-3/ed_model_1_AME_time_b.png Graphic file (type pn
 g)
 <use figures/chapter-results-3/ed_model_1_AME_time_b.png>
 Package pdftex.def Info: figures/chapter-results-3/ed_model_1_AME_time_b.png  u
-sed on input line 5728.
+sed on input line 5729.
 (pdftex.def)             Requested size: 441.01619pt x 257.25943pt.
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-[144 <./figures/chapter-results-3/ed_model_1_AME_plot.png>] [145 <./figures/cha
-pter-results-3/ed_model_1_simd_plot.png>] [146 <./figures/chapter-results-3/ed_
+[143 <./figures/chapter-results-3/ed_model_1_AME_plot.png>] [144 <./figures/cha
+pter-results-3/ed_model_1_simd_plot.png>] [145 <./figures/chapter-results-3/ed_
 model_1_AME_time_a.png> <./figures/chapter-results-3/ed_model_1_AME_time_b.png 
 (PNG copy)>]
 Chapter 8.
-[147
+[146
 
 
 ]
-Underfull \hbox (badness 10000) in paragraph at lines 5794--5798
+Underfull \hbox (badness 10000) in paragraph at lines 5795--5799
+
+ []
+
+[147]
+Underfull \hbox (badness 10000) in paragraph at lines 5867--5869
 
  []
 
 [148]
-Underfull \hbox (badness 10000) in paragraph at lines 5866--5868
+Underfull \hbox (badness 10000) in paragraph at lines 5869--5871
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 5871--5874
 
  []
 
 [149]
-Underfull \hbox (badness 10000) in paragraph at lines 5868--5870
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 5870--5873
-
- []
-
-[150]
 Chapter 9.
-[151
+[150
 
-] [152
+] [151
 
 
 ]
 
 pdfTeX warning: pdflatex.exe (file ./data/assets/main-proj-rac.pdf): PDF inclus
 ion: found PDF version <1.7>, but at most version <1.5> allowed
-<data/assets/main-proj-rac.pdf, id=1859, 597.55246pt x 845.07724pt>
+<data/assets/main-proj-rac.pdf, id=1845, 597.55246pt x 845.07724pt>
 File: data/assets/main-proj-rac.pdf Graphic file (type pdf)
 <use data/assets/main-proj-rac.pdf>
-Package pdftex.def Info: data/assets/main-proj-rac.pdf  used on input line 5900
+Package pdftex.def Info: data/assets/main-proj-rac.pdf  used on input line 5901
 .
 (pdftex.def)             Requested size: 441.02393pt x 623.70973pt.
 
@@ -1871,7 +1853,7 @@ pdfTeX warning: pdflatex.exe (file ./data/assets/main-proj-rac.pdf): PDF inclus
 ion: found PDF version <1.7>, but at most version <1.5> allowed
 File: data/assets/main-proj-rac.pdf Graphic file (type pdf)
 <use data/assets/main-proj-rac.pdf>
-Package pdftex.def Info: data/assets/main-proj-rac.pdf  used on input line 5900
+Package pdftex.def Info: data/assets/main-proj-rac.pdf  used on input line 5901
 .
 (pdftex.def)             Requested size: 441.02393pt x 623.70973pt.
 
@@ -1882,84 +1864,84 @@ ion: found PDF version <1.7>, but at most version <1.5> allowed
 
 pdfTeX warning: pdflatex.exe (file ./data/assets/main-proj-rac.pdf): PDF inclus
 ion: found PDF version <1.7>, but at most version <1.5> allowed
-<data/assets/main-proj-rac.pdf, id=1862, page=1, 597.55246pt x 845.07724pt>
+<data/assets/main-proj-rac.pdf, id=1848, page=1, 597.55246pt x 845.07724pt>
 File: data/assets/main-proj-rac.pdf Graphic file (type pdf)
 <use data/assets/main-proj-rac.pdf, page 1>
 Package pdftex.def Info: data/assets/main-proj-rac.pdf , page1 used on input li
-ne 5900.
+ne 5901.
 (pdftex.def)             Requested size: 597.551pt x 845.07518pt.
 File: data/assets/main-proj-rac.pdf Graphic file (type pdf)
 <use data/assets/main-proj-rac.pdf, page 1>
 Package pdftex.def Info: data/assets/main-proj-rac.pdf , page1 used on input li
-ne 5900.
+ne 5901.
 (pdftex.def)             Requested size: 597.57834pt x 845.11386pt.
-[153
+[152
 
 ]
 File: data/assets/main-proj-rac.pdf Graphic file (type pdf)
 <use data/assets/main-proj-rac.pdf, page 1>
 Package pdftex.def Info: data/assets/main-proj-rac.pdf , page1 used on input li
-ne 5900.
+ne 5901.
 (pdftex.def)             Requested size: 597.57834pt x 845.11386pt.
 File: data/assets/main-proj-rac.pdf Graphic file (type pdf)
 <use data/assets/main-proj-rac.pdf, page 1>
 Package pdftex.def Info: data/assets/main-proj-rac.pdf , page1 used on input li
-ne 5900.
+ne 5901.
 (pdftex.def)             Requested size: 597.57834pt x 845.11386pt.
 File: data/assets/main-proj-rac.pdf Graphic file (type pdf)
 <use data/assets/main-proj-rac.pdf, page 1>
 Package pdftex.def Info: data/assets/main-proj-rac.pdf , page1 used on input li
-ne 5900.
+ne 5901.
+(pdftex.def)             Requested size: 597.57834pt x 845.11386pt.
+[153 <./data/assets/main-proj-rac.pdf>]
+
+pdfTeX warning: pdflatex.exe (file ./data/assets/main-proj-rac.pdf): PDF inclus
+ion: found PDF version <1.7>, but at most version <1.5> allowed
+<data/assets/main-proj-rac.pdf, id=1933, page=2, 597.55246pt x 845.07724pt>
+File: data/assets/main-proj-rac.pdf Graphic file (type pdf)
+<use data/assets/main-proj-rac.pdf, page 2>
+Package pdftex.def Info: data/assets/main-proj-rac.pdf , page2 used on input li
+ne 5901.
+(pdftex.def)             Requested size: 597.57834pt x 845.11386pt.
+File: data/assets/main-proj-rac.pdf Graphic file (type pdf)
+<use data/assets/main-proj-rac.pdf, page 2>
+Package pdftex.def Info: data/assets/main-proj-rac.pdf , page2 used on input li
+ne 5901.
+(pdftex.def)             Requested size: 597.57834pt x 845.11386pt.
+File: data/assets/main-proj-rac.pdf Graphic file (type pdf)
+<use data/assets/main-proj-rac.pdf, page 2>
+Package pdftex.def Info: data/assets/main-proj-rac.pdf , page2 used on input li
+ne 5901.
 (pdftex.def)             Requested size: 597.57834pt x 845.11386pt.
 [154 <./data/assets/main-proj-rac.pdf>]
 
 pdfTeX warning: pdflatex.exe (file ./data/assets/main-proj-rac.pdf): PDF inclus
 ion: found PDF version <1.7>, but at most version <1.5> allowed
-<data/assets/main-proj-rac.pdf, id=1947, page=2, 597.55246pt x 845.07724pt>
+<data/assets/main-proj-rac.pdf, id=1954, page=3, 597.55246pt x 845.07724pt>
 File: data/assets/main-proj-rac.pdf Graphic file (type pdf)
-<use data/assets/main-proj-rac.pdf, page 2>
-Package pdftex.def Info: data/assets/main-proj-rac.pdf , page2 used on input li
-ne 5900.
+<use data/assets/main-proj-rac.pdf, page 3>
+Package pdftex.def Info: data/assets/main-proj-rac.pdf , page3 used on input li
+ne 5901.
 (pdftex.def)             Requested size: 597.57834pt x 845.11386pt.
 File: data/assets/main-proj-rac.pdf Graphic file (type pdf)
-<use data/assets/main-proj-rac.pdf, page 2>
-Package pdftex.def Info: data/assets/main-proj-rac.pdf , page2 used on input li
-ne 5900.
+<use data/assets/main-proj-rac.pdf, page 3>
+Package pdftex.def Info: data/assets/main-proj-rac.pdf , page3 used on input li
+ne 5901.
 (pdftex.def)             Requested size: 597.57834pt x 845.11386pt.
 File: data/assets/main-proj-rac.pdf Graphic file (type pdf)
-<use data/assets/main-proj-rac.pdf, page 2>
-Package pdftex.def Info: data/assets/main-proj-rac.pdf , page2 used on input li
-ne 5900.
+<use data/assets/main-proj-rac.pdf, page 3>
+Package pdftex.def Info: data/assets/main-proj-rac.pdf , page3 used on input li
+ne 5901.
 (pdftex.def)             Requested size: 597.57834pt x 845.11386pt.
 [155 <./data/assets/main-proj-rac.pdf>]
 
-pdfTeX warning: pdflatex.exe (file ./data/assets/main-proj-rac.pdf): PDF inclus
-ion: found PDF version <1.7>, but at most version <1.5> allowed
-<data/assets/main-proj-rac.pdf, id=1969, page=3, 597.55246pt x 845.07724pt>
-File: data/assets/main-proj-rac.pdf Graphic file (type pdf)
-<use data/assets/main-proj-rac.pdf, page 3>
-Package pdftex.def Info: data/assets/main-proj-rac.pdf , page3 used on input li
-ne 5900.
-(pdftex.def)             Requested size: 597.57834pt x 845.11386pt.
-File: data/assets/main-proj-rac.pdf Graphic file (type pdf)
-<use data/assets/main-proj-rac.pdf, page 3>
-Package pdftex.def Info: data/assets/main-proj-rac.pdf , page3 used on input li
-ne 5900.
-(pdftex.def)             Requested size: 597.57834pt x 845.11386pt.
-File: data/assets/main-proj-rac.pdf Graphic file (type pdf)
-<use data/assets/main-proj-rac.pdf, page 3>
-Package pdftex.def Info: data/assets/main-proj-rac.pdf , page3 used on input li
-ne 5900.
-(pdftex.def)             Requested size: 597.57834pt x 845.11386pt.
-[156 <./data/assets/main-proj-rac.pdf>]
-
 pdfTeX warning: pdflatex.exe (file ./data/assets/college-ethics.pdf): PDF inclu
 sion: found PDF version <1.7>, but at most version <1.5> allowed
-<data/assets/college-ethics.pdf, id=1982, 597.55246pt x 845.07724pt>
+<data/assets/college-ethics.pdf, id=1968, 597.55246pt x 845.07724pt>
 File: data/assets/college-ethics.pdf Graphic file (type pdf)
 <use data/assets/college-ethics.pdf>
 Package pdftex.def Info: data/assets/college-ethics.pdf  used on input line 590
-4.
+5.
 (pdftex.def)             Requested size: 441.02393pt x 623.70973pt.
 
 
@@ -1968,7 +1950,7 @@ sion: found PDF version <1.7>, but at most version <1.5> allowed
 File: data/assets/college-ethics.pdf Graphic file (type pdf)
 <use data/assets/college-ethics.pdf>
 Package pdftex.def Info: data/assets/college-ethics.pdf  used on input line 590
-4.
+5.
 (pdftex.def)             Requested size: 441.02393pt x 623.70973pt.
 
 
@@ -1978,271 +1960,276 @@ sion: found PDF version <1.7>, but at most version <1.5> allowed
 
 pdfTeX warning: pdflatex.exe (file ./data/assets/college-ethics.pdf): PDF inclu
 sion: found PDF version <1.7>, but at most version <1.5> allowed
-<data/assets/college-ethics.pdf, id=1985, page=1, 597.55246pt x 845.07724pt>
+<data/assets/college-ethics.pdf, id=1971, page=1, 597.55246pt x 845.07724pt>
 File: data/assets/college-ethics.pdf Graphic file (type pdf)
 <use data/assets/college-ethics.pdf, page 1>
 Package pdftex.def Info: data/assets/college-ethics.pdf , page1 used on input l
-ine 5904.
+ine 5905.
 (pdftex.def)             Requested size: 597.551pt x 845.07518pt.
 File: data/assets/college-ethics.pdf Graphic file (type pdf)
 <use data/assets/college-ethics.pdf, page 1>
 Package pdftex.def Info: data/assets/college-ethics.pdf , page1 used on input l
-ine 5904.
+ine 5905.
 (pdftex.def)             Requested size: 597.57834pt x 845.11386pt.
-[157
+[156
 
 ]
 File: data/assets/college-ethics.pdf Graphic file (type pdf)
 <use data/assets/college-ethics.pdf, page 1>
 Package pdftex.def Info: data/assets/college-ethics.pdf , page1 used on input l
-ine 5904.
+ine 5905.
 (pdftex.def)             Requested size: 597.57834pt x 845.11386pt.
 File: data/assets/college-ethics.pdf Graphic file (type pdf)
 <use data/assets/college-ethics.pdf, page 1>
 Package pdftex.def Info: data/assets/college-ethics.pdf , page1 used on input l
-ine 5904.
+ine 5905.
 (pdftex.def)             Requested size: 597.57834pt x 845.11386pt.
 File: data/assets/college-ethics.pdf Graphic file (type pdf)
 <use data/assets/college-ethics.pdf, page 1>
 Package pdftex.def Info: data/assets/college-ethics.pdf , page1 used on input l
-ine 5904.
+ine 5905.
 (pdftex.def)             Requested size: 597.57834pt x 845.11386pt.
-[158 <./data/assets/college-ethics.pdf>]
-<data/assets/pbpp.pdf, id=2055, 597.55246pt x 845.07718pt>
+[157 <./data/assets/college-ethics.pdf>]
+<data/assets/pbpp.pdf, id=2041, 597.55246pt x 845.07718pt>
 File: data/assets/pbpp.pdf Graphic file (type pdf)
 <use data/assets/pbpp.pdf>
-Package pdftex.def Info: data/assets/pbpp.pdf  used on input line 5908.
+Package pdftex.def Info: data/assets/pbpp.pdf  used on input line 5909.
 (pdftex.def)             Requested size: 441.02393pt x 623.70969pt.
 File: data/assets/pbpp.pdf Graphic file (type pdf)
 <use data/assets/pbpp.pdf>
-Package pdftex.def Info: data/assets/pbpp.pdf  used on input line 5908.
+Package pdftex.def Info: data/assets/pbpp.pdf  used on input line 5909.
 (pdftex.def)             Requested size: 441.02393pt x 623.70969pt.
-<data/assets/pbpp.pdf, id=2058, page=1, 597.55246pt x 845.07718pt>
+<data/assets/pbpp.pdf, id=2044, page=1, 597.55246pt x 845.07718pt>
 File: data/assets/pbpp.pdf Graphic file (type pdf)
 <use data/assets/pbpp.pdf, page 1>
-Package pdftex.def Info: data/assets/pbpp.pdf , page1 used on input line 5908.
+Package pdftex.def Info: data/assets/pbpp.pdf , page1 used on input line 5909.
 (pdftex.def)             Requested size: 597.551pt x 845.07512pt.
 File: data/assets/pbpp.pdf Graphic file (type pdf)
 <use data/assets/pbpp.pdf, page 1>
-Package pdftex.def Info: data/assets/pbpp.pdf , page1 used on input line 5908.
+Package pdftex.def Info: data/assets/pbpp.pdf , page1 used on input line 5909.
 (pdftex.def)             Requested size: 597.57834pt x 845.1138pt.
-[159
+[158
 
 ]
 File: data/assets/pbpp.pdf Graphic file (type pdf)
 <use data/assets/pbpp.pdf, page 1>
-Package pdftex.def Info: data/assets/pbpp.pdf , page1 used on input line 5908.
+Package pdftex.def Info: data/assets/pbpp.pdf , page1 used on input line 5909.
 (pdftex.def)             Requested size: 597.57834pt x 845.1138pt.
 File: data/assets/pbpp.pdf Graphic file (type pdf)
 <use data/assets/pbpp.pdf, page 1>
-Package pdftex.def Info: data/assets/pbpp.pdf , page1 used on input line 5908.
+Package pdftex.def Info: data/assets/pbpp.pdf , page1 used on input line 5909.
 (pdftex.def)             Requested size: 597.57834pt x 845.1138pt.
 File: data/assets/pbpp.pdf Graphic file (type pdf)
 <use data/assets/pbpp.pdf, page 1>
-Package pdftex.def Info: data/assets/pbpp.pdf , page1 used on input line 5908.
+Package pdftex.def Info: data/assets/pbpp.pdf , page1 used on input line 5909.
 (pdftex.def)             Requested size: 597.57834pt x 845.1138pt.
-[160 <./data/assets/pbpp.pdf>]
-<data/assets/DSA-signed.pdf, id=2089, 586.19pt x 848.16875pt>
+[159 <./data/assets/pbpp.pdf>]
+<data/assets/DSA-signed.pdf, id=2075, 586.19pt x 848.16875pt>
 File: data/assets/DSA-signed.pdf Graphic file (type pdf)
 <use data/assets/DSA-signed.pdf>
-Package pdftex.def Info: data/assets/DSA-signed.pdf  used on input line 5912.
+Package pdftex.def Info: data/assets/DSA-signed.pdf  used on input line 5913.
 (pdftex.def)             Requested size: 441.00993pt x 638.10512pt.
 File: data/assets/DSA-signed.pdf Graphic file (type pdf)
 <use data/assets/DSA-signed.pdf>
-Package pdftex.def Info: data/assets/DSA-signed.pdf  used on input line 5912.
+Package pdftex.def Info: data/assets/DSA-signed.pdf  used on input line 5913.
 (pdftex.def)             Requested size: 441.00993pt x 638.10512pt.
-<data/assets/DSA-signed.pdf, id=2092, page=1, 586.19pt x 848.16875pt>
+<data/assets/DSA-signed.pdf, id=2078, page=1, 586.19pt x 848.16875pt>
 File: data/assets/DSA-signed.pdf Graphic file (type pdf)
 <use data/assets/DSA-signed.pdf, page 1>
 Package pdftex.def Info: data/assets/DSA-signed.pdf , page1 used on input line 
-5912.
+5913.
 (pdftex.def)             Requested size: 586.18857pt x 848.16667pt.
 File: data/assets/DSA-signed.pdf Graphic file (type pdf)
 <use data/assets/DSA-signed.pdf, page 1>
 Package pdftex.def Info: data/assets/DSA-signed.pdf , page1 used on input line 
-5912.
+5913.
 (pdftex.def)             Requested size: 584.14026pt x 845.20294pt.
-[161
+[160
 
 ]
 File: data/assets/DSA-signed.pdf Graphic file (type pdf)
 <use data/assets/DSA-signed.pdf, page 1>
 Package pdftex.def Info: data/assets/DSA-signed.pdf , page1 used on input line 
-5912.
+5913.
 (pdftex.def)             Requested size: 584.14026pt x 845.20294pt.
 File: data/assets/DSA-signed.pdf Graphic file (type pdf)
 <use data/assets/DSA-signed.pdf, page 1>
 Package pdftex.def Info: data/assets/DSA-signed.pdf , page1 used on input line 
-5912.
+5913.
 (pdftex.def)             Requested size: 584.14026pt x 845.20294pt.
 File: data/assets/DSA-signed.pdf Graphic file (type pdf)
 <use data/assets/DSA-signed.pdf, page 1>
 Package pdftex.def Info: data/assets/DSA-signed.pdf , page1 used on input line 
-5912.
+5913.
+(pdftex.def)             Requested size: 584.14026pt x 845.20294pt.
+[161 <./data/assets/DSA-signed.pdf>]
+<data/assets/DSA-signed.pdf, id=2109, page=2, 586.19pt x 848.16875pt>
+File: data/assets/DSA-signed.pdf Graphic file (type pdf)
+<use data/assets/DSA-signed.pdf, page 2>
+Package pdftex.def Info: data/assets/DSA-signed.pdf , page2 used on input line 
+5913.
+(pdftex.def)             Requested size: 584.14026pt x 845.20294pt.
+File: data/assets/DSA-signed.pdf Graphic file (type pdf)
+<use data/assets/DSA-signed.pdf, page 2>
+Package pdftex.def Info: data/assets/DSA-signed.pdf , page2 used on input line 
+5913.
+(pdftex.def)             Requested size: 584.14026pt x 845.20294pt.
+File: data/assets/DSA-signed.pdf Graphic file (type pdf)
+<use data/assets/DSA-signed.pdf, page 2>
+Package pdftex.def Info: data/assets/DSA-signed.pdf , page2 used on input line 
+5913.
 (pdftex.def)             Requested size: 584.14026pt x 845.20294pt.
 [162 <./data/assets/DSA-signed.pdf>]
-<data/assets/DSA-signed.pdf, id=2123, page=2, 586.19pt x 848.16875pt>
+<data/assets/DSA-signed.pdf, id=2115, page=3, 587.19376pt x 849.1725pt>
 File: data/assets/DSA-signed.pdf Graphic file (type pdf)
-<use data/assets/DSA-signed.pdf, page 2>
-Package pdftex.def Info: data/assets/DSA-signed.pdf , page2 used on input line 
-5912.
-(pdftex.def)             Requested size: 584.14026pt x 845.20294pt.
+<use data/assets/DSA-signed.pdf, page 3>
+Package pdftex.def Info: data/assets/DSA-signed.pdf , page3 used on input line 
+5913.
+(pdftex.def)             Requested size: 585.1405pt x 846.20319pt.
 File: data/assets/DSA-signed.pdf Graphic file (type pdf)
-<use data/assets/DSA-signed.pdf, page 2>
-Package pdftex.def Info: data/assets/DSA-signed.pdf , page2 used on input line 
-5912.
-(pdftex.def)             Requested size: 584.14026pt x 845.20294pt.
+<use data/assets/DSA-signed.pdf, page 3>
+Package pdftex.def Info: data/assets/DSA-signed.pdf , page3 used on input line 
+5913.
+(pdftex.def)             Requested size: 585.1405pt x 846.20319pt.
 File: data/assets/DSA-signed.pdf Graphic file (type pdf)
-<use data/assets/DSA-signed.pdf, page 2>
-Package pdftex.def Info: data/assets/DSA-signed.pdf , page2 used on input line 
-5912.
-(pdftex.def)             Requested size: 584.14026pt x 845.20294pt.
+<use data/assets/DSA-signed.pdf, page 3>
+Package pdftex.def Info: data/assets/DSA-signed.pdf , page3 used on input line 
+5913.
+(pdftex.def)             Requested size: 585.1405pt x 846.20319pt.
 [163 <./data/assets/DSA-signed.pdf>]
-<data/assets/DSA-signed.pdf, id=2130, page=3, 587.19376pt x 849.1725pt>
+<data/assets/DSA-signed.pdf, id=2122, page=4, 586.19pt x 848.16875pt>
 File: data/assets/DSA-signed.pdf Graphic file (type pdf)
-<use data/assets/DSA-signed.pdf, page 3>
-Package pdftex.def Info: data/assets/DSA-signed.pdf , page3 used on input line 
-5912.
-(pdftex.def)             Requested size: 585.1405pt x 846.20319pt.
+<use data/assets/DSA-signed.pdf, page 4>
+Package pdftex.def Info: data/assets/DSA-signed.pdf , page4 used on input line 
+5913.
+(pdftex.def)             Requested size: 584.14026pt x 845.20294pt.
 File: data/assets/DSA-signed.pdf Graphic file (type pdf)
-<use data/assets/DSA-signed.pdf, page 3>
-Package pdftex.def Info: data/assets/DSA-signed.pdf , page3 used on input line 
-5912.
-(pdftex.def)             Requested size: 585.1405pt x 846.20319pt.
+<use data/assets/DSA-signed.pdf, page 4>
+Package pdftex.def Info: data/assets/DSA-signed.pdf , page4 used on input line 
+5913.
+(pdftex.def)             Requested size: 584.14026pt x 845.20294pt.
 File: data/assets/DSA-signed.pdf Graphic file (type pdf)
-<use data/assets/DSA-signed.pdf, page 3>
-Package pdftex.def Info: data/assets/DSA-signed.pdf , page3 used on input line 
-5912.
-(pdftex.def)             Requested size: 585.1405pt x 846.20319pt.
+<use data/assets/DSA-signed.pdf, page 4>
+Package pdftex.def Info: data/assets/DSA-signed.pdf , page4 used on input line 
+5913.
+(pdftex.def)             Requested size: 584.14026pt x 845.20294pt.
 [164 <./data/assets/DSA-signed.pdf>]
-<data/assets/DSA-signed.pdf, id=2136, page=4, 586.19pt x 848.16875pt>
+<data/assets/DSA-signed.pdf, id=2128, page=5, 592.2125pt x 852.18375pt>
 File: data/assets/DSA-signed.pdf Graphic file (type pdf)
-<use data/assets/DSA-signed.pdf, page 4>
-Package pdftex.def Info: data/assets/DSA-signed.pdf , page4 used on input line 
-5912.
-(pdftex.def)             Requested size: 584.14026pt x 845.20294pt.
+<use data/assets/DSA-signed.pdf, page 5>
+Package pdftex.def Info: data/assets/DSA-signed.pdf , page5 used on input line 
+5913.
+(pdftex.def)             Requested size: 590.1417pt x 849.2039pt.
 File: data/assets/DSA-signed.pdf Graphic file (type pdf)
-<use data/assets/DSA-signed.pdf, page 4>
-Package pdftex.def Info: data/assets/DSA-signed.pdf , page4 used on input line 
-5912.
-(pdftex.def)             Requested size: 584.14026pt x 845.20294pt.
+<use data/assets/DSA-signed.pdf, page 5>
+Package pdftex.def Info: data/assets/DSA-signed.pdf , page5 used on input line 
+5913.
+(pdftex.def)             Requested size: 590.1417pt x 849.2039pt.
 File: data/assets/DSA-signed.pdf Graphic file (type pdf)
-<use data/assets/DSA-signed.pdf, page 4>
-Package pdftex.def Info: data/assets/DSA-signed.pdf , page4 used on input line 
-5912.
-(pdftex.def)             Requested size: 584.14026pt x 845.20294pt.
+<use data/assets/DSA-signed.pdf, page 5>
+Package pdftex.def Info: data/assets/DSA-signed.pdf , page5 used on input line 
+5913.
+(pdftex.def)             Requested size: 590.1417pt x 849.2039pt.
 [165 <./data/assets/DSA-signed.pdf>]
-<data/assets/DSA-signed.pdf, id=2142, page=5, 592.2125pt x 852.18375pt>
+<data/assets/DSA-signed.pdf, id=2134, page=6, 590.205pt x 851.18pt>
 File: data/assets/DSA-signed.pdf Graphic file (type pdf)
-<use data/assets/DSA-signed.pdf, page 5>
-Package pdftex.def Info: data/assets/DSA-signed.pdf , page5 used on input line 
-5912.
-(pdftex.def)             Requested size: 590.1417pt x 849.2039pt.
+<use data/assets/DSA-signed.pdf, page 6>
+Package pdftex.def Info: data/assets/DSA-signed.pdf , page6 used on input line 
+5913.
+(pdftex.def)             Requested size: 588.14122pt x 848.20366pt.
 File: data/assets/DSA-signed.pdf Graphic file (type pdf)
-<use data/assets/DSA-signed.pdf, page 5>
-Package pdftex.def Info: data/assets/DSA-signed.pdf , page5 used on input line 
-5912.
-(pdftex.def)             Requested size: 590.1417pt x 849.2039pt.
+<use data/assets/DSA-signed.pdf, page 6>
+Package pdftex.def Info: data/assets/DSA-signed.pdf , page6 used on input line 
+5913.
+(pdftex.def)             Requested size: 588.14122pt x 848.20366pt.
 File: data/assets/DSA-signed.pdf Graphic file (type pdf)
-<use data/assets/DSA-signed.pdf, page 5>
-Package pdftex.def Info: data/assets/DSA-signed.pdf , page5 used on input line 
-5912.
-(pdftex.def)             Requested size: 590.1417pt x 849.2039pt.
+<use data/assets/DSA-signed.pdf, page 6>
+Package pdftex.def Info: data/assets/DSA-signed.pdf , page6 used on input line 
+5913.
+(pdftex.def)             Requested size: 588.14122pt x 848.20366pt.
 [166 <./data/assets/DSA-signed.pdf>]
-<data/assets/DSA-signed.pdf, id=2148, page=6, 590.205pt x 851.18pt>
+<data/assets/DSA-signed.pdf, id=2140, page=7, 586.19pt x 848.16875pt>
 File: data/assets/DSA-signed.pdf Graphic file (type pdf)
-<use data/assets/DSA-signed.pdf, page 6>
-Package pdftex.def Info: data/assets/DSA-signed.pdf , page6 used on input line 
-5912.
-(pdftex.def)             Requested size: 588.14122pt x 848.20366pt.
+<use data/assets/DSA-signed.pdf, page 7>
+Package pdftex.def Info: data/assets/DSA-signed.pdf , page7 used on input line 
+5913.
+(pdftex.def)             Requested size: 584.14026pt x 845.20294pt.
 File: data/assets/DSA-signed.pdf Graphic file (type pdf)
-<use data/assets/DSA-signed.pdf, page 6>
-Package pdftex.def Info: data/assets/DSA-signed.pdf , page6 used on input line 
-5912.
-(pdftex.def)             Requested size: 588.14122pt x 848.20366pt.
+<use data/assets/DSA-signed.pdf, page 7>
+Package pdftex.def Info: data/assets/DSA-signed.pdf , page7 used on input line 
+5913.
+(pdftex.def)             Requested size: 584.14026pt x 845.20294pt.
 File: data/assets/DSA-signed.pdf Graphic file (type pdf)
-<use data/assets/DSA-signed.pdf, page 6>
-Package pdftex.def Info: data/assets/DSA-signed.pdf , page6 used on input line 
-5912.
-(pdftex.def)             Requested size: 588.14122pt x 848.20366pt.
+<use data/assets/DSA-signed.pdf, page 7>
+Package pdftex.def Info: data/assets/DSA-signed.pdf , page7 used on input line 
+5913.
+(pdftex.def)             Requested size: 584.14026pt x 845.20294pt.
 [167 <./data/assets/DSA-signed.pdf>]
-<data/assets/DSA-signed.pdf, id=2154, page=7, 586.19pt x 848.16875pt>
+<data/assets/DSA-signed.pdf, id=2146, page=8, 596.2275pt x 855.195pt>
 File: data/assets/DSA-signed.pdf Graphic file (type pdf)
-<use data/assets/DSA-signed.pdf, page 7>
-Package pdftex.def Info: data/assets/DSA-signed.pdf , page7 used on input line 
-5912.
-(pdftex.def)             Requested size: 584.14026pt x 845.20294pt.
+<use data/assets/DSA-signed.pdf, page 8>
+Package pdftex.def Info: data/assets/DSA-signed.pdf , page8 used on input line 
+5913.
+(pdftex.def)             Requested size: 594.14267pt x 852.20465pt.
 File: data/assets/DSA-signed.pdf Graphic file (type pdf)
-<use data/assets/DSA-signed.pdf, page 7>
-Package pdftex.def Info: data/assets/DSA-signed.pdf , page7 used on input line 
-5912.
-(pdftex.def)             Requested size: 584.14026pt x 845.20294pt.
+<use data/assets/DSA-signed.pdf, page 8>
+Package pdftex.def Info: data/assets/DSA-signed.pdf , page8 used on input line 
+5913.
+(pdftex.def)             Requested size: 594.14267pt x 852.20465pt.
 File: data/assets/DSA-signed.pdf Graphic file (type pdf)
-<use data/assets/DSA-signed.pdf, page 7>
-Package pdftex.def Info: data/assets/DSA-signed.pdf , page7 used on input line 
-5912.
-(pdftex.def)             Requested size: 584.14026pt x 845.20294pt.
+<use data/assets/DSA-signed.pdf, page 8>
+Package pdftex.def Info: data/assets/DSA-signed.pdf , page8 used on input line 
+5913.
+(pdftex.def)             Requested size: 594.14267pt x 852.20465pt.
 [168 <./data/assets/DSA-signed.pdf>]
-<data/assets/DSA-signed.pdf, id=2160, page=8, 596.2275pt x 855.195pt>
+<data/assets/DSA-signed.pdf, id=2152, page=9, 590.205pt x 851.18pt>
 File: data/assets/DSA-signed.pdf Graphic file (type pdf)
-<use data/assets/DSA-signed.pdf, page 8>
-Package pdftex.def Info: data/assets/DSA-signed.pdf , page8 used on input line 
-5912.
-(pdftex.def)             Requested size: 594.14267pt x 852.20465pt.
+<use data/assets/DSA-signed.pdf, page 9>
+Package pdftex.def Info: data/assets/DSA-signed.pdf , page9 used on input line 
+5913.
+(pdftex.def)             Requested size: 588.14122pt x 848.20366pt.
 File: data/assets/DSA-signed.pdf Graphic file (type pdf)
-<use data/assets/DSA-signed.pdf, page 8>
-Package pdftex.def Info: data/assets/DSA-signed.pdf , page8 used on input line 
-5912.
-(pdftex.def)             Requested size: 594.14267pt x 852.20465pt.
+<use data/assets/DSA-signed.pdf, page 9>
+Package pdftex.def Info: data/assets/DSA-signed.pdf , page9 used on input line 
+5913.
+(pdftex.def)             Requested size: 588.14122pt x 848.20366pt.
 File: data/assets/DSA-signed.pdf Graphic file (type pdf)
-<use data/assets/DSA-signed.pdf, page 8>
-Package pdftex.def Info: data/assets/DSA-signed.pdf , page8 used on input line 
-5912.
-(pdftex.def)             Requested size: 594.14267pt x 852.20465pt.
+<use data/assets/DSA-signed.pdf, page 9>
+Package pdftex.def Info: data/assets/DSA-signed.pdf , page9 used on input line 
+5913.
+(pdftex.def)             Requested size: 588.14122pt x 848.20366pt.
 [169 <./data/assets/DSA-signed.pdf>]
-<data/assets/DSA-signed.pdf, id=2167, page=9, 590.205pt x 851.18pt>
-File: data/assets/DSA-signed.pdf Graphic file (type pdf)
-<use data/assets/DSA-signed.pdf, page 9>
-Package pdftex.def Info: data/assets/DSA-signed.pdf , page9 used on input line 
-5912.
-(pdftex.def)             Requested size: 588.14122pt x 848.20366pt.
-File: data/assets/DSA-signed.pdf Graphic file (type pdf)
-<use data/assets/DSA-signed.pdf, page 9>
-Package pdftex.def Info: data/assets/DSA-signed.pdf , page9 used on input line 
-5912.
-(pdftex.def)             Requested size: 588.14122pt x 848.20366pt.
-File: data/assets/DSA-signed.pdf Graphic file (type pdf)
-<use data/assets/DSA-signed.pdf, page 9>
-Package pdftex.def Info: data/assets/DSA-signed.pdf , page9 used on input line 
-5912.
-(pdftex.def)             Requested size: 588.14122pt x 848.20366pt.
-[170 <./data/assets/DSA-signed.pdf>]
-<data/assets/DSA-signed.pdf, id=2173, page=10, 590.205pt x 851.18pt>
+<data/assets/DSA-signed.pdf, id=2159, page=10, 590.205pt x 851.18pt>
 File: data/assets/DSA-signed.pdf Graphic file (type pdf)
 <use data/assets/DSA-signed.pdf, page 10>
 Package pdftex.def Info: data/assets/DSA-signed.pdf , page10 used on input line
- 5912.
+ 5913.
 (pdftex.def)             Requested size: 588.14122pt x 848.20366pt.
 File: data/assets/DSA-signed.pdf Graphic file (type pdf)
 <use data/assets/DSA-signed.pdf, page 10>
 Package pdftex.def Info: data/assets/DSA-signed.pdf , page10 used on input line
- 5912.
+ 5913.
 (pdftex.def)             Requested size: 588.14122pt x 848.20366pt.
 File: data/assets/DSA-signed.pdf Graphic file (type pdf)
 <use data/assets/DSA-signed.pdf, page 10>
 Package pdftex.def Info: data/assets/DSA-signed.pdf , page10 used on input line
- 5912.
+ 5913.
 (pdftex.def)             Requested size: 588.14122pt x 848.20366pt.
-[171 <./data/assets/DSA-signed.pdf>] [172
+[170 <./data/assets/DSA-signed.pdf>] [171
 
-] [173] [174] [175] [176] [177]
+] [172] [173] [174] [175]
+
+Package longtable Warning: Column widths have changed
+(longtable)                in table 1 on input line 6131.
+
+[176]
 
 pdfTeX warning: pdflatex.exe (file ./data/assets/renf-rac.pdf): PDF inclusion: 
 found PDF version <1.7>, but at most version <1.5> allowed
-<data/assets/renf-rac.pdf, id=2206, 597.55246pt x 845.07724pt>
+<data/assets/renf-rac.pdf, id=2192, 597.55246pt x 845.07724pt>
 File: data/assets/renf-rac.pdf Graphic file (type pdf)
 <use data/assets/renf-rac.pdf>
-Package pdftex.def Info: data/assets/renf-rac.pdf  used on input line 6134.
+Package pdftex.def Info: data/assets/renf-rac.pdf  used on input line 6135.
 (pdftex.def)             Requested size: 441.02393pt x 623.70973pt.
 
 
@@ -2250,7 +2237,7 @@ pdfTeX warning: pdflatex.exe (file ./data/assets/renf-rac.pdf): PDF inclusion:
 found PDF version <1.7>, but at most version <1.5> allowed
 File: data/assets/renf-rac.pdf Graphic file (type pdf)
 <use data/assets/renf-rac.pdf>
-Package pdftex.def Info: data/assets/renf-rac.pdf  used on input line 6134.
+Package pdftex.def Info: data/assets/renf-rac.pdf  used on input line 6135.
 (pdftex.def)             Requested size: 441.02393pt x 623.70973pt.
 
 
@@ -2260,103 +2247,103 @@ found PDF version <1.7>, but at most version <1.5> allowed
 
 pdfTeX warning: pdflatex.exe (file ./data/assets/renf-rac.pdf): PDF inclusion: 
 found PDF version <1.7>, but at most version <1.5> allowed
-<data/assets/renf-rac.pdf, id=2209, page=1, 597.55246pt x 845.07724pt>
+<data/assets/renf-rac.pdf, id=2195, page=1, 597.55246pt x 845.07724pt>
 File: data/assets/renf-rac.pdf Graphic file (type pdf)
 <use data/assets/renf-rac.pdf, page 1>
 Package pdftex.def Info: data/assets/renf-rac.pdf , page1 used on input line 61
-34.
+35.
 (pdftex.def)             Requested size: 597.551pt x 845.07518pt.
 File: data/assets/renf-rac.pdf Graphic file (type pdf)
 <use data/assets/renf-rac.pdf, page 1>
 Package pdftex.def Info: data/assets/renf-rac.pdf , page1 used on input line 61
-34.
+35.
 (pdftex.def)             Requested size: 597.57834pt x 845.11386pt.
-[178
+[177
 
 ]
 File: data/assets/renf-rac.pdf Graphic file (type pdf)
 <use data/assets/renf-rac.pdf, page 1>
 Package pdftex.def Info: data/assets/renf-rac.pdf , page1 used on input line 61
-34.
+35.
 (pdftex.def)             Requested size: 597.57834pt x 845.11386pt.
 File: data/assets/renf-rac.pdf Graphic file (type pdf)
 <use data/assets/renf-rac.pdf, page 1>
 Package pdftex.def Info: data/assets/renf-rac.pdf , page1 used on input line 61
-34.
+35.
 (pdftex.def)             Requested size: 597.57834pt x 845.11386pt.
 File: data/assets/renf-rac.pdf Graphic file (type pdf)
 <use data/assets/renf-rac.pdf, page 1>
 Package pdftex.def Info: data/assets/renf-rac.pdf , page1 used on input line 61
-34.
+35.
+(pdftex.def)             Requested size: 597.57834pt x 845.11386pt.
+[178 <./data/assets/renf-rac.pdf>]
+
+pdfTeX warning: pdflatex.exe (file ./data/assets/renf-rac.pdf): PDF inclusion: 
+found PDF version <1.7>, but at most version <1.5> allowed
+<data/assets/renf-rac.pdf, id=2281, page=2, 597.55246pt x 845.07724pt>
+File: data/assets/renf-rac.pdf Graphic file (type pdf)
+<use data/assets/renf-rac.pdf, page 2>
+Package pdftex.def Info: data/assets/renf-rac.pdf , page2 used on input line 61
+35.
+(pdftex.def)             Requested size: 597.57834pt x 845.11386pt.
+File: data/assets/renf-rac.pdf Graphic file (type pdf)
+<use data/assets/renf-rac.pdf, page 2>
+Package pdftex.def Info: data/assets/renf-rac.pdf , page2 used on input line 61
+35.
+(pdftex.def)             Requested size: 597.57834pt x 845.11386pt.
+File: data/assets/renf-rac.pdf Graphic file (type pdf)
+<use data/assets/renf-rac.pdf, page 2>
+Package pdftex.def Info: data/assets/renf-rac.pdf , page2 used on input line 61
+35.
 (pdftex.def)             Requested size: 597.57834pt x 845.11386pt.
 [179 <./data/assets/renf-rac.pdf>]
 
 pdfTeX warning: pdflatex.exe (file ./data/assets/renf-rac.pdf): PDF inclusion: 
 found PDF version <1.7>, but at most version <1.5> allowed
-<data/assets/renf-rac.pdf, id=2295, page=2, 597.55246pt x 845.07724pt>
+<data/assets/renf-rac.pdf, id=2302, page=3, 597.55246pt x 845.07724pt>
 File: data/assets/renf-rac.pdf Graphic file (type pdf)
-<use data/assets/renf-rac.pdf, page 2>
-Package pdftex.def Info: data/assets/renf-rac.pdf , page2 used on input line 61
-34.
+<use data/assets/renf-rac.pdf, page 3>
+Package pdftex.def Info: data/assets/renf-rac.pdf , page3 used on input line 61
+35.
 (pdftex.def)             Requested size: 597.57834pt x 845.11386pt.
 File: data/assets/renf-rac.pdf Graphic file (type pdf)
-<use data/assets/renf-rac.pdf, page 2>
-Package pdftex.def Info: data/assets/renf-rac.pdf , page2 used on input line 61
-34.
+<use data/assets/renf-rac.pdf, page 3>
+Package pdftex.def Info: data/assets/renf-rac.pdf , page3 used on input line 61
+35.
 (pdftex.def)             Requested size: 597.57834pt x 845.11386pt.
 File: data/assets/renf-rac.pdf Graphic file (type pdf)
-<use data/assets/renf-rac.pdf, page 2>
-Package pdftex.def Info: data/assets/renf-rac.pdf , page2 used on input line 61
-34.
+<use data/assets/renf-rac.pdf, page 3>
+Package pdftex.def Info: data/assets/renf-rac.pdf , page3 used on input line 61
+35.
 (pdftex.def)             Requested size: 597.57834pt x 845.11386pt.
 [180 <./data/assets/renf-rac.pdf>]
 
 pdfTeX warning: pdflatex.exe (file ./data/assets/renf-rac.pdf): PDF inclusion: 
 found PDF version <1.7>, but at most version <1.5> allowed
-<data/assets/renf-rac.pdf, id=2316, page=3, 597.55246pt x 845.07724pt>
+<data/assets/renf-rac.pdf, id=2307, page=4, 597.55246pt x 845.07724pt>
 File: data/assets/renf-rac.pdf Graphic file (type pdf)
-<use data/assets/renf-rac.pdf, page 3>
-Package pdftex.def Info: data/assets/renf-rac.pdf , page3 used on input line 61
-34.
+<use data/assets/renf-rac.pdf, page 4>
+Package pdftex.def Info: data/assets/renf-rac.pdf , page4 used on input line 61
+35.
 (pdftex.def)             Requested size: 597.57834pt x 845.11386pt.
 File: data/assets/renf-rac.pdf Graphic file (type pdf)
-<use data/assets/renf-rac.pdf, page 3>
-Package pdftex.def Info: data/assets/renf-rac.pdf , page3 used on input line 61
-34.
+<use data/assets/renf-rac.pdf, page 4>
+Package pdftex.def Info: data/assets/renf-rac.pdf , page4 used on input line 61
+35.
 (pdftex.def)             Requested size: 597.57834pt x 845.11386pt.
 File: data/assets/renf-rac.pdf Graphic file (type pdf)
-<use data/assets/renf-rac.pdf, page 3>
-Package pdftex.def Info: data/assets/renf-rac.pdf , page3 used on input line 61
-34.
+<use data/assets/renf-rac.pdf, page 4>
+Package pdftex.def Info: data/assets/renf-rac.pdf , page4 used on input line 61
+35.
 (pdftex.def)             Requested size: 597.57834pt x 845.11386pt.
 [181 <./data/assets/renf-rac.pdf>]
 
-pdfTeX warning: pdflatex.exe (file ./data/assets/renf-rac.pdf): PDF inclusion: 
-found PDF version <1.7>, but at most version <1.5> allowed
-<data/assets/renf-rac.pdf, id=2322, page=4, 597.55246pt x 845.07724pt>
-File: data/assets/renf-rac.pdf Graphic file (type pdf)
-<use data/assets/renf-rac.pdf, page 4>
-Package pdftex.def Info: data/assets/renf-rac.pdf , page4 used on input line 61
-34.
-(pdftex.def)             Requested size: 597.57834pt x 845.11386pt.
-File: data/assets/renf-rac.pdf Graphic file (type pdf)
-<use data/assets/renf-rac.pdf, page 4>
-Package pdftex.def Info: data/assets/renf-rac.pdf , page4 used on input line 61
-34.
-(pdftex.def)             Requested size: 597.57834pt x 845.11386pt.
-File: data/assets/renf-rac.pdf Graphic file (type pdf)
-<use data/assets/renf-rac.pdf, page 4>
-Package pdftex.def Info: data/assets/renf-rac.pdf , page4 used on input line 61
-34.
-(pdftex.def)             Requested size: 597.57834pt x 845.11386pt.
-[182 <./data/assets/renf-rac.pdf>]
-
 pdfTeX warning: pdflatex.exe (file ./data/assets/renf-ethics.pdf): PDF inclusio
 n: found PDF version <1.7>, but at most version <1.5> allowed
-<data/assets/renf-ethics.pdf, id=2327, 597.55246pt x 845.07724pt>
+<data/assets/renf-ethics.pdf, id=2313, 597.55246pt x 845.07724pt>
 File: data/assets/renf-ethics.pdf Graphic file (type pdf)
 <use data/assets/renf-ethics.pdf>
-Package pdftex.def Info: data/assets/renf-ethics.pdf  used on input line 6138.
+Package pdftex.def Info: data/assets/renf-ethics.pdf  used on input line 6139.
 (pdftex.def)             Requested size: 441.02393pt x 623.70973pt.
 
 
@@ -2364,7 +2351,7 @@ pdfTeX warning: pdflatex.exe (file ./data/assets/renf-ethics.pdf): PDF inclusio
 n: found PDF version <1.7>, but at most version <1.5> allowed
 File: data/assets/renf-ethics.pdf Graphic file (type pdf)
 <use data/assets/renf-ethics.pdf>
-Package pdftex.def Info: data/assets/renf-ethics.pdf  used on input line 6138.
+Package pdftex.def Info: data/assets/renf-ethics.pdf  used on input line 6139.
 (pdftex.def)             Requested size: 441.02393pt x 623.70973pt.
 
 
@@ -2374,296 +2361,302 @@ n: found PDF version <1.7>, but at most version <1.5> allowed
 
 pdfTeX warning: pdflatex.exe (file ./data/assets/renf-ethics.pdf): PDF inclusio
 n: found PDF version <1.7>, but at most version <1.5> allowed
-<data/assets/renf-ethics.pdf, id=2330, page=1, 597.55246pt x 845.07724pt>
+<data/assets/renf-ethics.pdf, id=2316, page=1, 597.55246pt x 845.07724pt>
 File: data/assets/renf-ethics.pdf Graphic file (type pdf)
 <use data/assets/renf-ethics.pdf, page 1>
 Package pdftex.def Info: data/assets/renf-ethics.pdf , page1 used on input line
- 6138.
+ 6139.
 (pdftex.def)             Requested size: 597.551pt x 845.07518pt.
 File: data/assets/renf-ethics.pdf Graphic file (type pdf)
 <use data/assets/renf-ethics.pdf, page 1>
 Package pdftex.def Info: data/assets/renf-ethics.pdf , page1 used on input line
- 6138.
+ 6139.
 (pdftex.def)             Requested size: 597.57834pt x 845.11386pt.
-[183
+[182
 
 ]
 File: data/assets/renf-ethics.pdf Graphic file (type pdf)
 <use data/assets/renf-ethics.pdf, page 1>
 Package pdftex.def Info: data/assets/renf-ethics.pdf , page1 used on input line
- 6138.
+ 6139.
 (pdftex.def)             Requested size: 597.57834pt x 845.11386pt.
 File: data/assets/renf-ethics.pdf Graphic file (type pdf)
 <use data/assets/renf-ethics.pdf, page 1>
 Package pdftex.def Info: data/assets/renf-ethics.pdf , page1 used on input line
- 6138.
+ 6139.
 (pdftex.def)             Requested size: 597.57834pt x 845.11386pt.
 File: data/assets/renf-ethics.pdf Graphic file (type pdf)
 <use data/assets/renf-ethics.pdf, page 1>
 Package pdftex.def Info: data/assets/renf-ethics.pdf , page1 used on input line
- 6138.
+ 6139.
 (pdftex.def)             Requested size: 597.57834pt x 845.11386pt.
-[184 <./data/assets/renf-ethics.pdf>] [185
+[183 <./data/assets/renf-ethics.pdf>] [184
 
 
 ]
-Underfull \hbox (badness 10000) in paragraph at lines 6209--6212
+Underfull \hbox (badness 10000) in paragraph at lines 6210--6213
 [][]$\T1/lmr/m/n/12 (+20) http : / / www . audit-[]scotland . gov . uk / upload
 s / docs / report / 2015 / nr _ 151203 _ health _
  []
 
-[186]
-Overfull \hbox (67.27142pt too wide) in paragraph at lines 6316--6319
+[185]
+Overfull \hbox (67.27142pt too wide) in paragraph at lines 6317--6320
 [][]$\T1/lmr/m/n/12 (-20) https : / / www . gov . uk / government / publication
 s / in-[]depth-[]review-[]of-[]the-[]general-[]practitioner-[]workforce$[][]. 
  []
 
-[187] [188]
-Underfull \hbox (badness 1609) in paragraph at lines 6421--6425
+[186] [187]
+Underfull \hbox (badness 1609) in paragraph at lines 6422--6426
 []\T1/lmr/m/n/12 (+20) Evans, T. (2010) `Pro-fes-sion-als, man-agers and dis-cr
 e-tion: Cri-tiquing street-
  []
 
 
-Underfull \hbox (badness 2302) in paragraph at lines 6421--6425
+Underfull \hbox (badness 2302) in paragraph at lines 6422--6426
 \T1/lmr/m/n/12 (+20) level bu-reau-cracy', \T1/lmr/m/it/12 (+20) The British Jo
 ur-nal of So-cial Work\T1/lmr/m/n/12 (+20) , 41(2), pp. 368--
  []
 
 
-Underfull \hbox (badness 2020) in paragraph at lines 6421--6425
+Underfull \hbox (badness 2020) in paragraph at lines 6422--6426
 \T1/lmr/m/n/12 (+20) 386. Avail-able at: [][]$https : / / academic . oup . com 
 / bjsw / article / 41 / 2 / 368 / 1625696 /
  []
 
-[189]
-Underfull \hbox (badness 1062) in paragraph at lines 6474--6478
+[188]
+Underfull \hbox (badness 1062) in paragraph at lines 6475--6479
 []\T1/lmr/m/n/12 (+20) Gannon, M. \T1/lmr/m/it/12 (+20) et al. \T1/lmr/m/n/12 (
 +20) (2016) \T1/lmr/m/it/12 (+20) Fi-nan-cial scrutiny unit brief-ing: The so-c
 ial im-
  []
 
 
-Underfull \hbox (badness 1546) in paragraph at lines 6474--6478
+Underfull \hbox (badness 1546) in paragraph at lines 6475--6479
 \T1/lmr/m/it/12 (+20) pact of the 2016-17 lo-cal gov-er-ment bud-get\T1/lmr/m/n
 /12 (+20) . Re-port. Avail-able at: [][]$http :
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 6474--6478
+Underfull \hbox (badness 10000) in paragraph at lines 6475--6479
 \T1/lmr/m/n/12 (+20) / / www . parliament . scot / ResearchBrie^^\ngsAndFactshe
 ets / S5 / SB _ 16-[]84 _ The _
  []
 
-[190]
-Overfull \hbox (85.71878pt too wide) in paragraph at lines 6521--6524
+[189]
+Overfull \hbox (85.71878pt too wide) in paragraph at lines 6522--6525
 \T1/lmr/m/n/12 (-20) ^^\les / ^^\eld / ^^\eld _ publication _ ^^\le / integrate
 d-[]care-[]in-[]northern-[]ireland-[]scotland-[]and-[]wales-[]kingsfund-[]jul13
  .
  []
 
-[191]
-Overfull \hbox (348.28114pt too wide) in paragraph at lines 6587--6589
+[190]
+Overfull \hbox (348.28114pt too wide) in paragraph at lines 6588--6590
 []\T1/lmr/m/n/12 (-20) House-of-Commons (2017) \T1/lmr/m/it/12 (-20) Adult so-c
 ial care\T1/lmr/m/n/12 (-20) . Re-port. Avail-able at: [][]https://www.publicat
 ions.parliament.uk/pa/cm201617/cmselect/cmcomloc/1103/1103.pdf[][]. 
  []
 
 
-Underfull \hbox (badness 1337) in paragraph at lines 6596--6602
+Underfull \hbox (badness 1337) in paragraph at lines 6597--6603
 \T1/lmr/m/n/12 (+20) den for use in pri-mary care and com-mu-nity set-tings: A 
 sys-tem-atic re-view
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 6596--6602
+Underfull \hbox (badness 10000) in paragraph at lines 6597--6603
 \T1/lmr/m/n/12 (+20) at: [][]http://www.ncbi.nlm.nih.gov/pmc/articles/PMC331513
 9/pdf/0100134.pdf
  []
 
 
-Underfull \hbox (badness 2521) in paragraph at lines 6619--6621
+Underfull \hbox (badness 2521) in paragraph at lines 6620--6622
 []\T1/lmr/m/n/12 (+20) ISD (2010b) \T1/lmr/m/it/12 (+20) In-for-ma-tion ser-vic
 es di-vi-sion\T1/lmr/m/n/12 (+20) . Re-port. Avail-able at: [][]$http :
  []
 
 
-Underfull \hbox (badness 2913) in paragraph at lines 6628--6631
+Underfull \hbox (badness 2913) in paragraph at lines 6629--6632
 []\T1/lmr/m/n/12 (+20) ISD (2017a) \T1/lmr/m/it/12 (+20) Re-vised source so-cia
 l care dataset. def-i-ni-tions and record-ing
  []
 
 
-Underfull \hbox (badness 1902) in paragraph at lines 6628--6631
+Underfull \hbox (badness 1902) in paragraph at lines 6629--6632
 \T1/lmr/m/it/12 (+20) guid-ance. (draft nov 2017 ver-sion 1.4)\T1/lmr/m/n/12 (+
 20) . Re-port. Avail-able at: [][]$http : / /
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 6628--6631
+Underfull \hbox (badness 10000) in paragraph at lines 6629--6632
 \T1/lmr/m/n/12 (+20) www . isdscotland . org / Health-[]Topics / Health-[]and-[
 ]Social-[]Community-[]Care / docs /
  []
 
-[192] [193]
-Underfull \hbox (badness 1960) in paragraph at lines 6733--6736
+[191] [192]
+Underfull \hbox (badness 1960) in paragraph at lines 6734--6737
 []\T1/lmr/m/n/12 (+20) Macintyre, S. (1997) `The black re-port and be-yond what
  are the is-sues?',
  []
 
 
-Underfull \hbox (badness 2035) in paragraph at lines 6733--6736
+Underfull \hbox (badness 2035) in paragraph at lines 6734--6737
 \T1/lmr/m/it/12 (+20) So-cial sci-ence and medicine\T1/lmr/m/n/12 (+20) , 44(6)
 , pp. 723--745. Avail-able at: [][]$http : / /
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 6733--6736
+Underfull \hbox (badness 10000) in paragraph at lines 6734--6737
 \T1/lmr/m/n/12 (+20) ac . els-[]cdn . com / S0277953696001839 / 1-[]s2 . 0-[]S0
 277953696001839-[]main . pdf ? _tid =
  []
 
 
-Overfull \hbox (53.53674pt too wide) in paragraph at lines 6733--6736
+Overfull \hbox (53.53674pt too wide) in paragraph at lines 6734--6737
 \T1/lmr/m/n/12 (-20) aea008c0-[]0fb8-[]11e7-[]bfeb-[]00000aacb361 & acdnat = 14
 90267333 _ 5da96aa30db817930caf1e5222f0f3d9$[][]. 
  []
 
-[194]
-Underfull \hbox (badness 10000) in paragraph at lines 6773--6777
+[193]
+Underfull \hbox (badness 10000) in paragraph at lines 6774--6778
 \T1/lmr/m/n/12 (+20) / / ac . els-[]cdn . com / S1568163711000249 / 1-[]s2 . 0-
 []S1568163711000249-[]main . pdf ? _tid =
  []
 
 
-Overfull \hbox (47.80347pt too wide) in paragraph at lines 6773--6777
+Overfull \hbox (47.80347pt too wide) in paragraph at lines 6774--6778
 \T1/lmr/m/n/12 (-20) 229^^[4b2-[]65e5-[]11e5-[]91c1-[]00000aab0f02 & acdnat = 1
 443447230 _ e0ed43a6740c2eaed9ed7fc6f34cc679$[][]. 
  []
 
-[195]
-Underfull \hbox (badness 1609) in paragraph at lines 6847--6850
+[194]
+Underfull \hbox (badness 1609) in paragraph at lines 6848--6851
 []\T1/lmr/m/n/12 (+20) Munday, B. (2003) \T1/lmr/m/it/12 (+20) Eu-ro-pean so-ci
 al ser-vices: A map of char-ac-ter-is-tics and
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 6847--6850
+Underfull \hbox (badness 10000) in paragraph at lines 6848--6851
 \T1/lmr/m/n/12 (+20) Formation _ Services / documents / Additional / C-[]Commun
 ity _ services _ for _ persons _
  []
 
 
-Overfull \hbox (194.70862pt too wide) in paragraph at lines 6852--6856
+Overfull \hbox (194.70862pt too wide) in paragraph at lines 6853--6857
 \T1/lmr/m/n/12 (-20) quE2fKGhcJAAAAAA : 2JQiLy31Ni2tIQFler0c268rjAZgNUWzah-[]ad
 AiZmn1rmqmxMPhRpMrR4nzQnFLCEkGbBY5YSWHO$[][]. 
  []
 
 
-Overfull \hbox (2.0453pt too wide) in paragraph at lines 6858--6862
+Overfull \hbox (2.0453pt too wide) in paragraph at lines 6859--6863
 \T1/lmr/m/n/12 (-20) tackling-[]inequalities-[]in-[]life-[]expectancy-[]in-[]ar
 eas-[]with-[]the-[]worst-[]health-[]and-[]deprivation/$[][]. 
  []
 
 
-Underfull \hbox (badness 2617) in paragraph at lines 6888--6891
+Underfull \hbox (badness 2617) in paragraph at lines 6889--6892
 \T1/lmr/m/n/12 (+20) able at: [][]$https : / / www . nrscotland . gov . uk / ^^
 \les / statistics / council-[]area-[]data-[]sheets /
  []
 
-[196]
-Underfull \hbox (badness 10000) in paragraph at lines 6914--6917
+[195]
+Underfull \hbox (badness 10000) in paragraph at lines 6915--6918
 [][]$\T1/lmr/m/n/12 (+7) ^^\le : / / /C : /Users / hedgi / Downloads / Health %
  20state % 20life % 20expectancies ,[] %20UK %
  []
 
 
-Underfull \hbox (badness 1163) in paragraph at lines 6919--6923
+Underfull \hbox (badness 1163) in paragraph at lines 6920--6924
 \T1/lmr/m/n/12 (+20) Avail-able at: [][]$http : / / www . phrp . com . au / iss
 ues / september-[]2015-[]volume-[]25-[]issue-[]4 /
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 6935--6940
+Underfull \hbox (badness 10000) in paragraph at lines 6936--6941
 \T1/lmr/m/n/12 (+12) 1-[]s2 . 0-[]S0895435604000812-[]main . pdf ? _tid = 20def
 0d8-[]6db5-[]11e5-[]9bd1-[]00000aacb35f &
  []
 
 
-Overfull \hbox (0.18646pt too wide) in paragraph at lines 6958--6961
+Overfull \hbox (0.18646pt too wide) in paragraph at lines 6959--6962
 \T1/lmr/m/n/12 (+20) Resources / Housing / Support _ materials / Other _ report
 s _ and _ guidance / The _ state _
  []
 
-[197]
-Underfull \hbox (badness 10000) in paragraph at lines 6963--6967
+[196]
+Underfull \hbox (badness 10000) in paragraph at lines 6964--6968
 \T1/lmr/m/n/12 (+20) ac . uk / wp-[]content / uploads / ^^\nal _ report _ -[] _
  assessing _ socio-[]economic _ inequalities _
  []
 
 
-Overfull \hbox (84.30167pt too wide) in paragraph at lines 6994--6997
+Overfull \hbox (84.30167pt too wide) in paragraph at lines 6995--6998
 \T1/lmr/m/n/12 (-20) Community _ Assessment / 2014 / commission-[]background-[]
 paper-[]social-[]care-[]health-[]system-[]other-[]countries .
  []
 
-[198]
-Underfull \hbox (badness 2326) in paragraph at lines 7056--7059
+[197]
+Underfull \hbox (badness 2326) in paragraph at lines 7057--7060
 \T1/lmr/m/n/12 (+20) Avail-able at: [][]$http : / / www . gov . scot / Topics /
  Government / local-[]government / 17999 /
  []
 
 
-Overfull \hbox (12.96886pt too wide) in paragraph at lines 7076--7079
+Overfull \hbox (12.96886pt too wide) in paragraph at lines 7077--7080
 \T1/lmr/m/n/12 (-20) able at: [][]$http : / / www . gov . scot / Topics / Healt
 h / Policy / Adult-[]Health-[]SocialCare-[]Integration /
  []
 
-[199]
-Overfull \hbox (49.09377pt too wide) in paragraph at lines 7106--7109
+[198]
+Overfull \hbox (49.09377pt too wide) in paragraph at lines 7107--7110
 \T1/lmr/m/n/12 (-20) Re-port. Avail-able at: [][]$http : / / www . gov . scot /
  Topics / Health / Policy / Health-[]Social-[]Care-[]Integration$[][]. 
  []
 
 
-Underfull \hbox (badness 1062) in paragraph at lines 7150--7152
+Underfull \hbox (badness 1062) in paragraph at lines 7151--7153
 []\T1/lmr/m/n/12 (+20) SILC (2017a) \T1/lmr/m/it/12 (+20) Data link-age safe-gu
 ards\T1/lmr/m/n/12 (+20) . Re-port. Avail-able at: [][]$http : / / www .
  []
 
-[200]
-Overfull \hbox (204.16707pt too wide) in paragraph at lines 7204--7207
+[199]
+Overfull \hbox (204.16707pt too wide) in paragraph at lines 7205--7208
 \T1/lmr/m/n/12 (-20) Re-port. Avail-able at: [][]$http : / / ubdc . ac . uk / m
 edia / 1445 / ubdc-[]controlled-[]data-[]services-[]guide-[]for-[]researchers-[
 ]v5p1-[]01-[]february-[]2017 .
  []
 
-[201]
-Underfull \hbox (badness 10000) in paragraph at lines 7254--7257
+[200]
+Underfull \hbox (badness 10000) in paragraph at lines 7255--7258
 \T1/lmr/m/n/12 (+20) 20Integration % 20Across % 20Health % 20and % 20Social % 2
 0Care % 20-[] % 20Research %
  []
 
-[202] [203]
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 7336.
-[204]
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 7336.
+[201] [202]
+
+Package longtable Warning: Table widths have changed. Rerun LaTeX.
+
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 7337.
+[203]
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 7337.
 (./THESIS.aux)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 7336.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 7336.
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 7337.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 7337.
 
 Package rerunfilecheck Info: File `THESIS.out' has not changed.
-(rerunfilecheck)             Checksum: 064C41A3B9EB0200220D279F4DC2E8AE;21748.
+(rerunfilecheck)             Checksum: CFC49321A96E78584375C7CF349E664E;21996.
 
 LaTeX Warning: There were undefined references.
 
-Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 7336.
+
+LaTeX Warning: There were multiply-defined labels.
+
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 7337.
  ) 
 Here is how much of TeX's memory you used:
- 18637 strings out of 494562
- 289737 string characters out of 6176064
- 421219 words of memory out of 5000000
- 21036 multiletter control sequences out of 15000+600000
+ 18625 strings out of 494562
+ 289066 string characters out of 6176064
+ 419935 words of memory out of 5000000
+ 21026 multiletter control sequences out of 15000+600000
  89423 words of font info for 170 fonts, out of 8000000 for 9000
  14 hyphenation exceptions out of 8191
  41i,19n,77p,769b,680s stack positions out of 5000i,500n,10000p,200000b,80000s
@@ -2695,10 +2688,10 @@ c:/Users/hedgi/AppData/Roaming/TinyTeX/texmf-dist/fonts/type1/public/lm/lmtk10.
 pfb><c:/Users/hedgi/AppData/Roaming/TinyTeX/texmf-dist/fonts/type1/public/lm/lm
 tt12.pfb><c:/Users/hedgi/AppData/Roaming/TinyTeX/texmf-dist/fonts/type1/public/
 lm/lmtti10.pfb>
-Output written on THESIS.pdf (204 pages, 13973279 bytes).
+Output written on THESIS.pdf (203 pages, 13464248 bytes).
 PDF statistics:
- 3257 PDF objects out of 3580 (max. 8388607)
- 2786 compressed objects within 28 object streams
- 749 named destinations out of 1000 (max. 500000)
- 19876 words of extra memory for PDF output out of 20736 (max. 10000000)
+ 3243 PDF objects out of 3580 (max. 8388607)
+ 2778 compressed objects within 28 object streams
+ 747 named destinations out of 1000 (max. 500000)
+ 19877 words of extra memory for PDF output out of 20736 (max. 10000000)
 

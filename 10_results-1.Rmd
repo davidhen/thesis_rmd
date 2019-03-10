@@ -2,7 +2,7 @@
 output: pdf_document
 ---
 
-\chapter{Results - Descriptive statistics}\label{ch:results-1}
+\chapter{Results 1 - Descriptive statistics}\label{ch:results-1}
 \thispagestyle{empty}
 
 This chapter outlines the characteristics of the cohort and distributions of pertinent variables in three sections. The first section contains tabulation and visualisation of counts and percentages of individuals in the cohort overall, by age & sex, by mortality, and by geography.  The next section focusses on the proxy measurement of multimorbidity, repeat medicine counts, and its distribution by sociodemographic variables. The final section focusses on deprivation. A table with counts and percentages split by SIMD deprivation quintile is provided plus visualisations of the distribution of SIMD deciles by age & sex and local authority. Where distributions were found to be similar across all years of data a reference year, financial year 2013/14, is used for visualisation purposes. This is the middle year of the study period. 
@@ -240,13 +240,13 @@ There is a noticeable relationship between service use and multimorbidity groups
 \label{tab:results1-deprivation}
 \end{table}
 
-Table \ref{tab:results1-deprivation} shows the characteristics of the cohort broken down by SIMD deprivation quintiles in financial year 2013/14. Quintile 1 indicated individuals living in the most deprived 20% of Scottish datazones and quintile 5 the most affluent. Of the 39,348 deaths in 2013/14, a higher percentage (22.8%) are found in quintiles 1 & 2. Only 15.3% of deaths were recorded for individuals living in the most affluent 20% of datazones. 
+Breaking the cohort down by deprivation quintile reveals that there were fewer males and females in quintile one compared to other quintiles in 2015/16 (table \ref{tab:results1-deprivation}). There was, however, a higher percentage of deaths in this quintile than would be seen if deaths were distributed equally across the population - where a value of 20% would be expected. This pattern is also present for quintiles two and three. Only 15.7% of individuals resident in quintile 5 datazones died in 2015/16. 
 
-Overall there were smaller absolute numbers of individuals living in quintile 1 datazones than in other quintiles. This pattern was present for both Males (17.5%) and Females (18.5%) and across all age groups. The average age of participants (between 74 and 75 years old) was similar across all deprivation quintiles. 
+There is little difference in average age across deprivation quintiles. Nevertheless, taking into account the lower overall numbers in quintile one, there are noticeabley lower percentages of individuals in the 90-94 and 95 and over age groups compared to other quintiles.
 
-There was a smaller average number of repeat medicines prescribed to those in quintile 5 (4.7, SD 3.7) compared to those in quintile 1 (6.5, SD 4.4). A positive linear trend is observable in the numbers and percentages receiving 0-2 repeat medicines from quintile 1 (32,592, 13.4%) to quintile 5 (58,939, 24.2%). The opposite (i.e. a negative linear trend) is observed for numbers and percentages of those receiving over 9 repeat medicines from quintile 1 (49,649, 24.9%) to quintile 5 (26,835, 13.4%). 
+Individuals resident in quintile five datazones were more likely to receive less repeat medicines with lower mean values compared to other quintiles. A positive linear pattern is observable in the numbers and percentages receiving 0-2 repeat medicines from quintile 1 (31,564, 12.6%) to quintile 5 (62,339, 24.9%). The opposite (i.e. a negative linear trend) is observed for numbers and percentages of those receiving over 9 repeat medicines from quintile 1 (49,766, 24.7%) to quintile 5 (27,443, 13.6%). 
 
-The largest percentages of individuals receiving social care and unscheduled care services were found in SIMD quintile 2 with decreasing proportions to quintile 5. Levels of social care and unscheduled care use were higher in quintile 1 compared to quintile 3 although still less than seen in quintile 2. 
+In terms of service use, the largest percentage of individuals receiving any form of social care was found in quintile two with decreasing percentages to quintile five. Specifically looking at home care, percentages in quintile one and two are similarly high compared to other quintiles. A similar pattern is present for any unscheduled care use, and specifically for unplanned hospital admissions and A & E attendances.  
 
 \FloatBarrier
 \subsection{Deprivation by age and sex}\label{subsec:dep-agesex}
@@ -258,12 +258,12 @@ The largest percentages of individuals receiving social care and unscheduled car
     \label{fig:results1-age_simd}
 \end{figure}
 
-Figure \ref{fig:results1-age_simd} shows that the percentage of the cohort living in SIMD decile 1 areas is below 10% fro both sexes and decreases with age. Males in decile 2 also show lower percentages and a reduction in overall make-up of the cohort at older ages.  
+An even distribution of indivduals by age, sex, and SIMD decile would show 10% of indiviudals in each decile at each age group for each sex. Figure \ref{fig:results1-age_simd} reveals that, particularly for males, the percentage of the cohort resident in SIMD decile 1 areas is below 10% and decreases with age. Males in decile 2 also show lower percentages and a reduction in overall make-up of the cohort at older ages.  
 
 \FloatBarrier
 \subsection{Deprivation by local authority}\label{subsec:dep-la}
 
-The percentage of individuals from the cohort living in each of the SIMD deciles by local authority area of residence in the financial year 2013/14 is shown in figure \ref{fig:results1-la-simd}. The figure reveals large variation in percentages in each decile according to each local authority. For example approximately one-third of individuals in the City of Edinburgh live in a decile 10 datazone (the most affluent) whilst a similar number live in a decile 1 datazone in the Glasgow City area. Fife and Renfrewshire councils (and to a lesser extent South Ayrshire and South Lanarkshire) show the most even distribution of population across deprivation deciles albeit with slight discrepancies. Island local authority areas do not contain datazones from all 10 deciles and tend to have populations concentrated in the middle of the spectrum (a pattern also present in the Highland council area with smaller percentages seen at the extremes).    
+The percentage of individuals from the cohort living in each of the SIMD deciles by local authority area of residence in the financial year 2015/16 is shown in figure \ref{fig:results1-la-simd}. The figure reveals large variation in percentages in each decile according to each local authority. For example approximately one-third of individuals in the City of Edinburgh live in a decile 10 datazone (the most affluent) whilst a similar number live in a decile 1 datazone in the Glasgow City area. Fife and Renfrewshire councils (and to a lesser extent South Ayrshire and South Lanarkshire) show the most even distribution of population across deprivation deciles albeit with slight discrepancies. Island local authority areas do not contain datazones from all 10 deciles and tend to have populations concentrated in the middle of the spectrum (a pattern also present in the Highland council area with smaller percentages seen at the extremes).    
 
 \begin{figure}[h]
   \centering
@@ -271,5 +271,20 @@ The percentage of individuals from the cohort living in each of the SIMD deciles
     \caption{Distribution of cohort by local authority and SIMD decile (Decile 1 - most deprived)}
     \label{fig:results1-la-simd}
 \end{figure}
+
+\FloatBarrier
+\section{Social Care}\label{sec:res1-sc}
+
+
+Figure ?? illustrates that age is a significant contributing factor to the receipt of any form of social care with the percentage of the population receiving care increasing rapidly from age 65 to 95 regardless of sex, deprivation status or repeat medicine group. Despite this, there are noticeable differences within each of these groups with females, those in more deprived SIMD deciles, and those with higher multimorbidity status (measured by medicine group) showing higher percentages of individuals receiving social care at all ages. Looking across groups reveals a higher percentage of individuals prescribed nine or more repeat medicines receive care than any other group at all but the oldest ages.   
+
+The difference between the percentage of females and males receiving social care at all ages is evident in both SIMD deciles one and ten (figure ??) suggesting deprivation status does not account for the difference in sex. This is also true for medicine groups with increasing percentages seen for both deciles from low to high medicine groups.  
+
+\FloatBarrier
+\section{Unplanned hospital admission}\label{sec:res1-adm}
+
+Age is also an important driver in the percentage of individuals having at least one unplanned hospital admission (figure ??), although this is to a lesser extent than seen for social care. In contrast to social care receipt there is relatively little difference between sexes on unplanned admission. Similarly to social care, however, there are marked variations within deprivation and multimorbidty groups. Again, those in more deprived areas and with higher repeat medicine counts being more likely to have an unplanned admission at all ages.
+
+The percentage of indiviudals in deciles one and ten with a hospital admission is broadly similar when split by sex (figure ??), although there is a marginally higher rate of men with an admission seen in ages 80 and under in decile 10. Multimorbidity has an effect across SIMD deciles with higher percentages of unplanned admission in both deciles one and ten as the number of repeat medicines increases. The gap between deciles one and ten also increses through low to high medicine groups.  
 
 
