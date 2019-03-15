@@ -245,7 +245,7 @@ The aim of cleaning and wrangling was to create one row of data for each individ
 \thispagestyle{empty}
 \begin{figure}
   \centering
-    \includegraphics{figures/chapter-methods/linkage_diagram.png}
+    \includegraphics{figures/chapter-methods/linkage_diagram.pdf}
     \caption{Data linkage diagram}
     \label{fig:methods-linkage}
 \end{figure}

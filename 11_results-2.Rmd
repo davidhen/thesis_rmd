@@ -81,6 +81,13 @@ Argyll and Bute & 8.7 & 9.1 & 9.6 & 12.1 & 10.8 \\ \bottomrule
 \FloatBarrier
 \subsection{Model results}\label{subsec:96plus-results}
  
+\begin{figure}[h]
+  \centering
+    \includegraphics{figures/chapter-results-2/sc_model_25_or_plot.pdf}
+    \caption{Social care model 1 - odds ratios}
+    \label{fig:res2-model1-APE}
+\end{figure} 
+ 
 OR plot
 
 Link to table in appendix
@@ -90,7 +97,7 @@ Link to table in appendix
 
 \begin{figure}[h]
   \centering
-    \includegraphics{figures/chapter-results-2/sc_model_22_AME_plot.png}
+    \includegraphics{figures/chapter-results-2/sc_model_25_AME_plot.pdf}
     \caption{Average partial effect plot. Local authorities with linkage rate 96\% - 99.9\%}
     \label{fig:res2-model1-APE}
 \end{figure}
@@ -139,7 +146,7 @@ Despite large differences seen in percentages between males and females receivin
 
 \begin{figure}[h]
   \centering
-    \includegraphics{figures/chapter-results-2/sc_model_22_simd_plot.png}
+    \includegraphics{figures/chapter-results-2/sc_model_25_simd_plot.pdf}
     \caption{Conditional effect of simd on receipt of social care}
     \label{fig:res2-model1-simd}
 \end{figure} 
@@ -152,19 +159,12 @@ Although figure \ref{fig:res2-model1-APE} is coded to include error bars plottin
 
 \begin{figure}[]
   \centering
-    \includegraphics{figures/chapter-results-2/sc_model_22_AME_time.png}
+    \includegraphics{figures/chapter-results-2/sc_model_25_council_APE_plot.pdf}
     \caption{Average partial effect across models (a)}
     \label{fig:res2-model1-APE-time}
 \end{figure}
 
 Figure \ref{fig:res2-model1-APE-time} charts APEs for each value of each variable (excluding local authority) across all models. There are very small increases in the APE from 2014/15 for age groups over the age of 80 and the 9 and over medicine group. All other variables have consistent APE values across models fitted to each year of data.
-
-\begin{figure}[]
-  \centering
-    \includegraphics{figures/chapter-results-2/sc_model_22_AMELA_time.png}
-    \caption{Average partial effect across models (b)}
-    \label{fig:res2-model1-APELA-time}
-\end{figure}
 
 Figure \ref{fig:res2-model1-APELA-time} shows APEs for each councils across all models. Although there appears to be more fluctuation than seen in figure \ref{fig:res2-model1-APE-time} the scale of the y-axis is much reduced in this figure. The largest change is seen in Angus council whose APE shows a steady decline with an approximate 0.05 difference between 2011/12 and 2015/16 values.
 
@@ -269,7 +269,7 @@ As there was a change in the method of data collection from 2014/15 onwards (des
 
 \begin{figure}[h]
   \centering
-    \includegraphics{figures/chapter-results-2/sc_model_23_AME_plot.png}
+    \includegraphics{figures/chapter-results-2/sc_model_24_AME_plot.pdf}
     \caption{Average partial effect plot. Local authorities with linkage rate 92\% - 95.9\%}
     \label{fig:res2-model2-APE}
 \end{figure}
@@ -318,12 +318,6 @@ South Ayrshire & -0.104 & -0.12 & -0.088 \\ \bottomrule
 
 Despite large differences seen in percentages between males and females receiving social care (figure \ref{fig:res2-age-sex} and table \ref{tab:res2-mod2-chars1314}), after controlling for other variables the APE of being female compared to male is relatively small (a 3% increase in probability in 2013/14).
 
-\begin{figure}[h]
-  \centering
-    \includegraphics{figures/chapter-results-2/sc_model_23_simd_plot.png}
-    \caption{Conditional effect of simd on receipt of social care}
-    \label{fig:res2-model2-simd}
-\end{figure} 
 
 Figure \ref{fig:res2-model2-simd} shows the conditional effect of SIMD on receipt of social care. SIMD was modelled as a continous variable, therefore the APE of -0.005 shown in table \ref{tab:res2-mod2-APE} indicates the coefficient of the slope in figure ref\ref{fig:res2-model2-simd} at the average value of SIMD (5.76, SD 3.10). As the low value indicates, after adjustment for other variables in the model, the conditinal effect of SIMD is slight and varies by 1.1% across deciles (0.025 (95%CI 0.023-0.028) in decile 1 to 0.014(95% CI 0.012-0.015) in decile 10).  
 
@@ -333,19 +327,13 @@ As in previous models, confidence intervals are very tight and difficult to visu
 
 \begin{figure}[h]
   \centering
-    \includegraphics{figures/chapter-results-2/sc_model_23_AME_time.png}
+    \includegraphics{figures/chapter-results-2/sc_model_24_council_APE_plot.pdf}
     \caption{Average partial effect across models (a)}
     \label{fig:res2-model2-APE-time}
 \end{figure}
 
 Figure \ref{fig:res2-model2-APE-time} charts APEs for each value of each variable (excluding local authority) across all models. There are increases in the APE from 2014/15 for age groups over the age of 80 and the 9 and over medicine group. This is more marked for older age groups. For example there is a ~8% increase in probability of receiving social care for over 95s from 2014/15 onwards. All other variables have consistent APE values across models fitted to each year of data.
 
-\begin{figure}[h]
-  \centering
-    \includegraphics{figures/chapter-results-2/sc_model_23_AMELA_time.png}
-    \caption{Average partial effect across models (b)}
-    \label{fig:res2-model2-APELA-time}
-\end{figure}
 
 Figure \ref{fig:res2-model2-APELA-time} shows APEs for each council across all models. The most notable trend is the decrease in APEs across all councils in 2014/14 compared to Shetland Islands. This size of this decrease is larger in some councils (e.g. Perth & Kinross ~ 0.07) compared to others (e.g. Glasgow City ~ 0.02). Again the difference in scale compared to figure \ref{fig:res2-model2-APE-time} should be noted. The relative size of the differences in APE is small in comparison to, for example, the difference between the APE of being 95 plus in 2013/14 and 2014/15 seen in the previous figure. 
 

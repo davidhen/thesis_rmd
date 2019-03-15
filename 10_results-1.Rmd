@@ -59,7 +59,7 @@ Social care services show slightly less stability in terms of numbers and percen
 
 \begin{figure}[]
   \centering
-    \includegraphics{figures/chapter-results-1/02_age_sex_plot.png}
+    \includegraphics{figures/chapter-results-1/02_age_sex_plot.pdf}
     \caption{Age and sex distribution. N = 924,323}
     \label{fig:results1-age-sex}
 \end{figure}
@@ -71,7 +71,7 @@ Using financial year 2015/16 as a reference, figure \ref{fig:results1-age-sex} s
 
 \begin{figure}[h]
   \centering
-    \includegraphics{figures/chapter-results-1/03_deaths_plot.png}
+    \includegraphics{figures/chapter-results-1/03_deaths_plot.pdf}
     \caption{Mortality. N = 37,992}
     \label{fig:results1-mortality}
 \end{figure}
@@ -86,7 +86,7 @@ Figure \ref{fig:results1-la} shows the percentage of individuals in the cohort t
 
 \begin{figure}[h]
   \centering
-    \includegraphics{figures/chapter-results-1/04_la_count.png}
+    \includegraphics{figures/chapter-results-1/04_la_count.pdf}
     \caption{Distribution of cohort by local authority. N = 924,323}
     \label{fig:results1-la}
 \end{figure}
@@ -102,7 +102,7 @@ The distribution of number of repeat medicines prescribed in 2015/16 reveals the
 
 \begin{figure}[h]
   \centering
-    \includegraphics{figures/chapter-results-1/10_total_meds_hist_2.png}
+    \includegraphics{figures/chapter-results-1/10_total_meds_hist_2.pdf}
     \caption{Number of individuals receiving specific counts of repeat medicines. N = 908,295}
     \label{fig:results1-meds-hist}
 \end{figure}
@@ -112,18 +112,18 @@ The distribution of number of repeat medicines prescribed in 2015/16 reveals the
 
 \begin{figure}[h]
   \centering
-    \includegraphics{figures/chapter-results-1/12_meds_age_count_plot.png}
-    \caption{Repeat medicine proportion by age group}
+    \includegraphics{figures/chapter-results-1/combined_meds_plot.pdf}
+    \caption{Percetnage of individuals receiving repeat medicines}
     \label{fig:results1-meds-age-grp}
 \end{figure}
 
-Despite overall numbers for specific counts of medicines being higher for females, the \emph{percentage} of males and females receiving repeat medicines is similar as shown in the left-hand panel of figure \ref{fig:results1-meds-age-grp} **fig needs changed**. There are, however, differences in the pattern of percentages by age groups and SIMD deciles. The shape of the distribution shifts further to the right for both older age groups and more deprived SIMD deciles. Combining these factors (figure !!) reveals that the differences in deprivation deciles is more pronounced at younger ages and is much less obvious in older age groups where overall numbers are smaller.    
+Despite overall numbers for specific counts of medicines being higher for females, the \emph{percentage} of males and females receiving repeat medicines is similar as shown in the left-hand panel of figure \ref{fig:results1-meds-age-grp}. There are, however, differences in the pattern of percentages by age groups and SIMD deciles. The shape of the distribution shifts further to the right for both older age groups and more deprived SIMD deciles. Combining these factors (figure \ref{fig:results1-meds-simd-age}) reveals that the differences in deprivation deciles is more pronounced at younger ages and is much less obvious in older age groups where overall numbers are smaller.    
 
 \begin{figure}[h]
   \centering
-    \includegraphics{figures/chapter-results-1/11_meds_simd_count_plot.png}
-    \caption{Repeat medicine proportion by SIMD decile}
-    \label{fig:results1-meds-simd}
+    \includegraphics{figures/chapter-results-1/meds_simd_age_plot.pdf}
+    \caption{Repeat medicines by age group and SIMD decile}
+    \label{fig:results1-meds-simd-age}
 \end{figure}
 
 \FloatBarrier
@@ -131,7 +131,7 @@ Despite overall numbers for specific counts of medicines being higher for female
 
 \begin{figure}[h]
   \centering
-    \includegraphics{figures/chapter-results-1/08_pis_group_plot.png}
+    \includegraphics{figures/chapter-results-1/08_pis_group_plot.pdf}
     \caption{Distribution of repeat medicines by group (labelling needs changed)}
     \label{fig:results1-meds-grp}
 \end{figure}
@@ -254,7 +254,7 @@ In terms of service use, the largest percentage of individuals receiving social 
 
 \begin{figure}[h]
   \centering
-    \includegraphics{figures/chapter-results-1/06_age_sex_simd_plot.png}
+    \includegraphics{figures/chapter-results-1/06_age_sex_simd_plot.pdf}
     \caption{Breakdown of population by age group, sex, and SIMD decile}
     \label{fig:results1-age_simd}
 \end{figure}
@@ -268,7 +268,7 @@ The percentage of individuals from the cohort living in each of the SIMD deciles
 
 \begin{figure}[h]
   \centering
-    \includegraphics{figures/chapter-results-1/05_simd_la.png}
+    \includegraphics{figures/chapter-results-1/05_simd_la.pdf}
     \caption{Distribution of cohort by local authority and SIMD decile (Decile 1 - most deprived)}
     \label{fig:results1-la-simd}
 \end{figure}
@@ -278,28 +278,30 @@ The percentage of individuals from the cohort living in each of the SIMD deciles
 
 \begin{figure}[h]
   \centering
-    \includegraphics{figures/chapter-results-1/13_comb_3.png}
+    \includegraphics{figures/chapter-results-1/13_comb_3.pdf}
     \caption{Receipt of social care (a)}
     \label{fig:results1-sc-demos}
 \end{figure}
 
 Figure \ref{fig:results1-sc-demos} illustrates that age is a significant contributing factor to the receipt of any form of social care with the percentage of the population receiving care increasing rapidly from age 65 to 95 regardless of sex, deprivation status or repeat medicine group. Despite this, there are noticeable differences within each of these groups with females, those in more deprived SIMD deciles, and those with higher multimorbidity status (measured by medicine group) showing higher percentages of individuals receiving social care at all ages. Looking across groups reveals a higher percentage of individuals prescribed nine or more repeat medicines receive care than any other group at all but the oldest ages.   
 
-The difference between the percentage of females and males receiving social care at all ages is evident in both SIMD deciles one and ten (figure \ref{fig:results1-sc-simd-split}) suggesting deprivation status does not account for the difference in sex. This is also true for medicine groups with increasing percentages seen for both deciles from low to high medicine groups.  
+The difference between the percentage of females and males receiving social care at all    
 
 \begin{figure}[h]
   \centering
-    \includegraphics{figures/chapter-results-1/13_comb_4.png}
+    \includegraphics{figures/chapter-results-1/13_comb_4.pdf}
     \caption{Receipt of social care (b)}
     \label{fig:results1-sc-simd-split}
 \end{figure}
+
+ages is evident in both SIMD deciles one and ten (figure \ref{fig:results1-sc-simd-split}) suggesting deprivation status does not account for the difference in sex. This is also true for medicine groups with increasing percentages seen for both deciles from low to high medicine groups.
 
 \FloatBarrier
 \section{Unplanned hospital admission}\label{sec:res1-adm}
 
 \begin{figure}[h]
   \centering
-    \includegraphics{figures/chapter-results-1/13_comb_1.png}
+    \includegraphics{figures/chapter-results-1/13_comb_1.pdf}
     \caption{Unplanned hospital admission (a)}
     \label{fig:results1-adm-demos}
 \end{figure}
@@ -310,7 +312,7 @@ The percentage of individuals in deciles one and ten with a hospital admission i
 
 \begin{figure}[h]
   \centering
-    \includegraphics{figures/chapter-results-1/13_comb_2.png}
+    \includegraphics{figures/chapter-results-1/13_comb_2.pdf}
     \caption{Unplanned hospital admission (b)}
     \label{fig:results1-adm-simd-split}
 \end{figure}

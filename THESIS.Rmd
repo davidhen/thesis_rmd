@@ -3,7 +3,7 @@ output:
   pdf_document:
     fig_caption: yes
     number_sections: yes
-    latex_engine: pdflatex
+    latex_engine: xelatex
     dev: png
 documentclass: report
 classoption: a4paper,oneside,table

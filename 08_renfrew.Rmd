@@ -20,7 +20,7 @@ Over the study period, between 57.3% and 62.8% of all individuals receiving home
 
 \begin{figure}[h]
   \centering
-    \includegraphics[height = 10cm]{figures/chapter-renf/SCS-collection.png}
+    \includegraphics[height = 10cm]{figures/chapter-renf/SCS-collection.pdf}
     \caption{Time periods for which SCS data is collected}
     \label{fig:ren-scs-data}
 \end{figure}
@@ -85,7 +85,7 @@ Following academic and ethical approval the process of obtaining a data sharing 
 
 \begin{figure}[h]
   \centering
-    \includegraphics{figures/chapter-renf/renf-timeline.png}
+    \includegraphics{figures/chapter-renf/renf-timeline.pdf}
     \caption{Timeline of Renfrewshire exploratory project}
     \label{fig:ren-timeline}
 \end{figure}
@@ -171,7 +171,7 @@ Approximately 60% of all individuals receiving home care in each financial year 
 
 \begin{figure}[h]
   \centering
-    \includegraphics{figures/chapter-renf/01_weekly_count_plot.png}
+    \includegraphics{figures/chapter-renf/01_weekly_count_plot.pdf}
     \caption{Counts of individuals receiving home care}
     \label{fig:ren-hc-counts}
 \end{figure}
@@ -208,7 +208,7 @@ Finally, figure \ref{fig:ren-hc-counts} and table \ref{tab:ren-hc-counts} show t
 
 \begin{figure}[h]
   \centering
-    \includegraphics{figures/chapter-renf/02_age_sex_plot.png}
+    \includegraphics{figures/chapter-renf/02_age_sex_plot.pdf}
     \caption{Age and sex groups receiving home care}
     \label{fig:ren-age-sex}
 \end{figure}
@@ -220,7 +220,7 @@ Overall, there is a similar pattern comparing the age and sex of individuals rec
 
 \begin{figure}[h]
   \centering
-    \includegraphics{figures/chapter-renf/03_type_plot.png}
+    \includegraphics{figures/chapter-renf/03_type_plot.pdf}
     \caption{Types of home care}
     \label{fig:ren-types}
 \end{figure}
@@ -232,7 +232,7 @@ The introduction and increasing usage of reablement services over time shown in 
 
 \begin{figure}[h]
   \centering
-    \includegraphics{figures/chapter-renf/04_overall_dur_plot.png}
+    \includegraphics{figures/chapter-renf/04_overall_dur_plot.pdf}
     \caption{Duration of home care}
     \label{fig:ren-duration-1}
 \end{figure}
@@ -241,7 +241,7 @@ The median duration of home care for individuals whose care overlaps with the ce
 
 \begin{figure}[h]
   \centering
-    \includegraphics{figures/chapter-renf/05_type_dur_plot.png}
+    \includegraphics{figures/chapter-renf/05_type_dur_plot.pdf}
     \caption{Duration of home care, by home care type}
     \label{fig:ren-duration-2}
 \end{figure}
@@ -250,7 +250,7 @@ Subsetting the data to consider only those missing from the census in each finan
 
 \begin{figure}[h]
   \centering
-    \includegraphics{figures/chapter-renf/06_no_cen_dur_plot.png}
+    \includegraphics{figures/chapter-renf/06_no_cen_dur_plot.pdf}
     \caption{Duration of home care within financial years, by home care type}
     \label{fig:ren-duration-3}
 \end{figure}
@@ -260,7 +260,7 @@ Subsetting the data to consider only those missing from the census in each finan
 
 \begin{figure}[h]
   \centering
-    \includegraphics{figures/chapter-renf/07_overall_hrs_plot.png}
+    \includegraphics{figures/chapter-renf/07_overall_hrs_plot.pdf}
     \caption{Total weekly hours of home care}
     \label{fig:ren-hrs-1}
 \end{figure}
@@ -270,7 +270,7 @@ Figure \ref{fig:ren-hrs-1} plots the distribution of mean total weekly hours of 
 
 \begin{figure}[h]
   \centering
-    \includegraphics{figures/chapter-renf/08_type_hrs_plot.png}
+    \includegraphics{figures/chapter-renf/08_type_hrs_plot.pdf}
     \caption{Total weekly hours of home care, by care type}
     \label{fig:ren-hrs-2}
 \end{figure}
