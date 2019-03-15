@@ -39,8 +39,8 @@ This chapter outlines the characteristics of the cohort by providing descriptive
 \textbf{\textgreater{}=1 A \& E attendance} &  & 172754 (19.8) & 181732 (20.3) & 184101 (20.3) & 190588 (20.7) & 185767 (20.1) \\ \bottomrule
 \end{tabular}%
 \begin{tablenotes}
-\item All values n(\%) unless otherwise stated 
-\item \emph{Column}-wise percentages within grouped variables
+\item \footnotesize{All values n(\%) unless otherwise stated}
+\item \footnotesize{\emph{Column}-wise percentages within grouped variables}
 \end{tablenotes}
 \end{threeparttable}%
 }
@@ -157,7 +157,7 @@ Figure \ref{fig:results1-meds-grp} shows the distribution of the percentage of i
 \textbf{} & 85-89 & 10337 (13.3) & 19841 (25.5) & 22793 (29.3) & 24723 (31.8) & 77694 \\
 \textbf{} & 90-94 & 4479 (13.4) & 8612 (25.8) & 10033 (30.0) & 10304 (30.8) & 33428 \\
 \textbf{} & 95 plus & 1423 (15.3) & 2591 (27.8) & 2714 (29.1) & 2601 (27.9) & 9329 \\
-\textbf{SIMD Decile} & 1 & 14317 (18.6) & 18460 (24.0) & 19313 (25.1) & 24980 (32.4) & 77070 \\
+\textbf{SIMD Decile} & 1 - most deprived & 14317 (18.6) & 18460 (24.0) & 19313 (25.1) & 24980 (32.4) & 77070 \\
 \textbf{} & 2 & 17247 (20.2) & 21936 (25.7) & 21373 (25.0) & 24786 (29.0) & 85342 \\
 \textbf{} & 3 & 20252 (21.3) & 25209 (26.6) & 23726 (25.0) & 25734 (27.1) & 94921 \\
 \textbf{} & 4 & 23053 (23.9) & 26627 (27.7) & 23088 (24.0) & 23532 (24.4) & 96300 \\
@@ -166,16 +166,16 @@ Figure \ref{fig:results1-meds-grp} shows the distribution of the percentage of i
 \textbf{} & 7 & 29569 (30.9) & 27851 (29.1) & 20850 (21.8) & 17415 (18.2) & 95685 \\
 \textbf{} & 8 & 28977 (31.3) & 27783 (30.0) & 19723 (21.3) & 15981 (17.3) & 92464 \\
 \textbf{} & 9 & 30020 (32.3) & 28256 (30.4) & 19781 (21.3) & 15005 (16.1) & 93062 \\
-\textbf{} & 10 & 32319 (35.5) & 28176 (30.9) & 18216 (20.0) & 12438 (13.6) & 91149 \\
+\textbf{} & 10 - most affluent & 32319 (35.5) & 28176 (30.9) & 18216 (20.0) & 12438 (13.6) & 91149 \\
 \textbf{Any form of Social Care} & No Social Care & 241929 (29.6) & 240595 (29.5) & 181094 (22.2) & 153264 (18.8) & 816882 \\
 \textbf{} & Social Care & 8440 (7.9) & 20594 (19.2) & 30026 (27.9) & 48381 (45.0) & 107441 \\
 \textbf{Any USC episode} & No USC & 209153 (32.7) & 196097 (30.7) & 137476 (21.5) & 96538 (15.1) & 639264 \\
 \textbf{} & USC & 41216 (14.5) & 65092 (22.8) & 73644 (25.8) & 105107 (36.9) & 285059 \\ \bottomrule
 \end{tabular}%
 \begin{tablenotes}
-\item All values n(\%) unless otherwise stated 
-\item \emph{Row}-wise percentages within grouped variables
-\item USC = Unscheduled care
+\item \footnotesize{All values n(\%) unless otherwise stated} 
+\item \footnotesize{\emph{Row}-wise percentages within grouped variables}
+\item \footnotesize{USC = Unscheduled care}
 \end{tablenotes}
 \end{threeparttable}%
 }
@@ -231,9 +231,9 @@ There is a noticeable relationship between service use and multimorbidity groups
 \textbf{\textgreater{}= 1 A \& E attendance} &  & 41212 (22.2) & 42645 (23.0) & 37409 (20.1) & 32794 (17.7) & 31707 (17.1) & 185767 \\ \bottomrule
 \end{tabular}%
 \begin{tablenotes}
-\item All values n(\%) unless otherwise stated 
-\item \emph{Row}-wise percentages within grouped variables
-\item USC = Unscheduled care
+\item \footnotesize{All values n(\%) unless otherwise stated} 
+\item \footnotesize{\emph{Row}-wise percentages within grouped variables}
+\item \footnotesize{USC = Unscheduled care}
 \end{tablenotes}
 \end{threeparttable}%
 }

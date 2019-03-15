@@ -163,11 +163,6 @@ knitr::opts_knit$set(base.dir = 'chapters/')
 
 \FloatBarrier
 \newpage
-```{r child = '12_results-3.Rmd'}
-```
-
-\FloatBarrier
-\newpage
 
 ```{r child = '13_discussion.Rmd'}
 ```
