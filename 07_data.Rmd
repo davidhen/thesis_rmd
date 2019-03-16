@@ -65,13 +65,10 @@ As described above, one of the ways in which data subject confidentiality is mai
 
 Data linkage for the project was facilitated by UBDC's controlled data service. In order to utilise this service, the research proposal required approval from the UBDC Research Approvals Committee (RAC). A full list of RAC members is available on-line [@RN475].  This committee is independent of UBDC and approves use of funds and infrastructure in UBDC and includes a lay member of the public [@RN475]. An application to use the controlled data service is judged on its academic merit, public benefit, skill of research team, and alignment with UBDC aims before being approved [@RN531]. 
 
-The approval for the main linkage project is shown in Appendix A.
 
 \subsubsection{Ethics}\label{subsec:ethics}
 
 Ethical approval for data analysis was sought and gained from the University of Glasgow College of Social Sciences Research Ethics Committee (CoSS REC). A blanket ethical approval, obtained by eDRIS from the NHS East of Scotland REC, covers research that uses NHS Health data, does not involve direct contact with data subjects, has peer-review approval, stores data in the national safe haven, and is conducted by research teams based in the UK [@RN538]. The main linkage project therefore only required further approval from CoSS REC to cover the non-health related data (i.e. the Social Care Survey). 
-
-The CoSS REC approval letter for the main linkage project is shown in appendix B. 
 
 \subsubsection{Public Benefit and Privacy Panel for Health \& Social Care}\label{subsec:pbpp}
 
@@ -79,7 +76,7 @@ In addition to RAC and College ethical approval, the main thesis project also re
 
 **Add short para on data management: archive and destruction**
 
-The approval letter for the main thesis project is shown in Appendix C. A full description of data processing including its legal basis is presented in section \ref{subsec:dat-process}.
+The approval letter for the main thesis project is shown in Appendix A. A full description of data processing including its legal basis is presented in section \ref{subsec:dat-process}.
 
 
 \subsection{Data processing}\label{subsec:dat-process}
@@ -136,7 +133,7 @@ The safe haven enables secure data storage and access via a Virtual Private Netw
 
 \subsubsection{Data sharing agreement}\label{subsec:dsa}
 
-For the purposes of the main linkage project, a three-way data sharing agreement (DSA) between the University of Glasgow, NHS National Services Scotland, and Scottish Ministers (Scottish Government) was signed. This detailed the purpose of data sharing, as well as the transfer, protection, and security of data. The  roles and responsibilities of each organisation in relation to relevant data protection legislation are clearly detailed in the DSA which is shown in Appendix D.  
+For the purposes of the main linkage project, a three-way data sharing agreement (DSA) between the University of Glasgow, NHS National Services Scotland, and Scottish Ministers (Scottish Government) was signed. This detailed the purpose of data sharing, as well as the transfer, protection, and security of data. The  roles and responsibilities of each organisation in relation to relevant data protection legislation are clearly detailed in the DSA.  
 
 
 \section{Data Sources for Linkage}\label{sec:sources}
@@ -306,7 +303,7 @@ Number of rows & Number of individuals & Included variables & Derived variables 
 
 Community prescribing information for all individuals in the cohort were extracted from the Prescribing Information System (PIS) by analysts from ISD. For each quarter of the study period (Quarter 1 2010/11 to Quarter 4 2015/16) a list of medicines prescribed to each individual was extracted and transferred in one file to the national safe haven. This file contained 134,377,877 observations of four variables: The financial year and quarter, the BNF subsection code, The approved name of the medicine, and a count of how many times the medicine was prescribed in the quarter. Coding errors were found in 138,973 observations (wrong number of digits in the BNF subsection or characters found in the count variable) and these were dropped from analysis. 
 
-The count of medicines was based on the BNF classes included in a count of polypharmacy by Guthrie et al [-@RN274]. The additional material provided on-line with this paper included a table of included drugs. This table was amended to remove BNF subsections 3.9.1, 3.9.2, and 13.9. The latter section includes different forms of shampoos whilst the former 2 sections include preparations for coughs. These were not deemed necessary to be included in overall counts. Two BNF subsections not included in the Guthrie et al table were deemed important to include as testing revealed large numbers of prescriptions included medicines from these sections would have been omitted otherwise. These sections were 2.2.4 (Potassium sparing diuretics with other diuretics) and 2.2.8. (Diuretics with potassium). In total, 198 medicines listed in the BNF were not included and rows with these medicines were removed from the PIS file. A full list of these medicines is shown in Appendix E. Table \ref{tab:dropped-meds} shows the cleaning process. 
+The count of medicines was based on the BNF classes included in a count of polypharmacy by Guthrie et al [-@RN274]. The additional material provided on-line with this paper included a table of included drugs. This table was amended to remove BNF subsections 3.9.1, 3.9.2, and 13.9. The latter section includes different forms of shampoos whilst the former 2 sections include preparations for coughs. These were not deemed necessary to be included in overall counts. Two BNF subsections not included in the Guthrie et al table were deemed important to include as testing revealed large numbers of prescriptions included medicines from these sections would have been omitted otherwise. These sections were 2.2.4 (Potassium sparing diuretics with other diuretics) and 2.2.8. (Diuretics with potassium). In total, 198 medicines listed in the BNF were not included and rows with these medicines were removed from the PIS file. A full list of these medicines is shown in Appendix B. Table \ref{tab:dropped-meds} shows the cleaning process. 
 
 \begin{table}[h]
 \centering

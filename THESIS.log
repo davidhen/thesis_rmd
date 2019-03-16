@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.14159265-2.6-0.99999 (TeX Live 2018/W32TeX) (preloaded format=xelatex 2019.2.21)  15 MAR 2019 18:58
+This is XeTeX, Version 3.14159265-2.6-0.99999 (TeX Live 2018/W32TeX) (preloaded format=xelatex 2019.2.21)  16 MAR 2019 21:14
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1123,9 +1123,6 @@ Package xcolor Info: Model `Gray' substituted by `gray' on input line 1370.
 Package xcolor Info: Model `wave' substituted by `hsb' on input line 1371.
 ) (./THESIS.aux
 
-LaTeX Warning: Label `fig:res2-model1-APE' multiply defined.
-
-
 LaTeX Warning: Label `fig:res3-adm-APE' multiply defined.
 
 )
@@ -1412,13 +1409,13 @@ Chapter 3.
 ] [57] [58] [59] [60] [61] [62] [63] [64] [65] [66] [67]
 
 LaTeX Warning: No positions in optional float specifier.
-               Default added (so using `tbp') on input line 2655.
+               Default added (so using `tbp') on input line 2650.
 
 [68] [69] [70]
 File: figures/chapter-methods/linkage_diagram.pdf Graphic file (type pdf)
 <use figures/chapter-methods/linkage_diagram.pdf>
 
-LaTeX Warning: Float too large for page by 1.2247pt on input line 2742.
+LaTeX Warning: Float too large for page by 1.2247pt on input line 2737.
 
 [71] [72
 
@@ -1426,53 +1423,53 @@ LaTeX Warning: Float too large for page by 1.2247pt on input line 2742.
 ]
 
 LaTeX Warning: No positions in optional float specifier.
-               Default added (so using `tbp') on input line 2841.
+               Default added (so using `tbp') on input line 2836.
 
 [73] [74] [75] [76] [77]
 
-Package xcolor Warning: Incompatible color definition on input line 3126.
+Package xcolor Warning: Incompatible color definition on input line 3121.
 
 LaTeX Font Info:    Font shape `TU/lmtt/bx/n' in size <12> not available
-(Font)              Font shape `TU/lmtt/b/n' tried instead on input line 3129.
+(Font)              Font shape `TU/lmtt/b/n' tried instead on input line 3124.
 
-Package xcolor Warning: Incompatible color definition on input line 3156.
-
-
-Package xcolor Warning: Incompatible color definition on input line 3156.
+Package xcolor Warning: Incompatible color definition on input line 3151.
 
 
-Package xcolor Warning: Incompatible color definition on input line 3156.
+Package xcolor Warning: Incompatible color definition on input line 3151.
+
+
+Package xcolor Warning: Incompatible color definition on input line 3151.
 
 [78]
 
-Package xcolor Warning: Incompatible color definition on input line 3156.
+Package xcolor Warning: Incompatible color definition on input line 3151.
 
 
-Package xcolor Warning: Incompatible color definition on input line 3156.
+Package xcolor Warning: Incompatible color definition on input line 3151.
 
 [79] [80]
 
-Package xcolor Warning: Incompatible color definition on input line 3277.
+Package xcolor Warning: Incompatible color definition on input line 3272.
 
 
-Package xcolor Warning: Incompatible color definition on input line 3308.
+Package xcolor Warning: Incompatible color definition on input line 3303.
 
 
-Package xcolor Warning: Incompatible color definition on input line 3308.
+Package xcolor Warning: Incompatible color definition on input line 3303.
 
 
-Overfull \vbox (2.68433pt too high) detected at line 3308
+Overfull \vbox (2.68433pt too high) detected at line 3303
  []
 
 
-Package xcolor Warning: Incompatible color definition on input line 3308.
+Package xcolor Warning: Incompatible color definition on input line 3303.
 
 [81]
 
-Package xcolor Warning: Incompatible color definition on input line 3308.
+Package xcolor Warning: Incompatible color definition on input line 3303.
 
 
-Package xcolor Warning: Incompatible color definition on input line 3308.
+Package xcolor Warning: Incompatible color definition on input line 3303.
 
 File: data/produced_data/methods-chpt/timeline.png Graphic file (type bmp)
 <data/produced_data/methods-chpt/timeline.png>
@@ -1553,7 +1550,7 @@ LaTeX Warning: `h' float specifier changed to `ht'.
 ]
 
 LaTeX Warning: No positions in optional float specifier.
-               Default added (so using `tbp') on input line 4094.
+               Default added (so using `tbp') on input line 4088.
 
 File: figures/chapter-results-1/02_age_sex_plot.pdf Graphic file (type pdf)
 <use figures/chapter-results-1/02_age_sex_plot.pdf>
@@ -1591,11 +1588,11 @@ File: figures/chapter-results-1/08_pis_group_plot.pdf Graphic file (type pdf)
 LaTeX Warning: `h' float specifier changed to `ht'.
 
 
-LaTeX Warning: Reference `ch:res-3' on page 107 undefined on input line 4206.
+LaTeX Warning: Reference `ch:res-3' on page 107 undefined on input line 4200.
 
 
 LaTeX Warning: No positions in optional float specifier.
-               Default added (so using `tbp') on input line 4208.
+               Default added (so using `tbp') on input line 4202.
 
 [107] [108]
 
@@ -1640,11 +1637,19 @@ Chapter 6.
 
 ]
 
+Package xcolor Warning: Incompatible color definition on input line 4508.
+
+
+Package xcolor Warning: Incompatible color definition on input line 4518.
+
+
+Package xcolor Warning: Incompatible color definition on input line 4518.
+
+
 LaTeX Warning: `h' float specifier changed to `ht'.
 
 
-LaTeX Warning: No positions in optional float specifier.
-               Default added (so using `tbp') on input line 4595.
+LaTeX Warning: `h' float specifier changed to `ht'.
 
 [117] [118]
 File: figures/chapter-results-2/sc_model_25_or_plot.pdf Graphic file (type pdf)
@@ -1659,43 +1664,36 @@ LaTeX Warning: `h' float specifier changed to `ht'.
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
+[119
 
-LaTeX Warning: Reference `fig:res2-age-sex' on page 119 undefined on input line
- 4696.
-
-
-LaTeX Warning: Reference `tab:res2-chars1314' on page 119 undefined on input li
-ne 4697.
-
+] [120]
 
 LaTeX Warning: No positions in optional float specifier.
-               Default added (so using `tbp') on input line 4701.
+               Default added (so using `tbp') on input line 4742.
 
 File: figures/chapter-results-2/sc_model_25_council_APE_plot.pdf Graphic file (
 type pdf)
 <use figures/chapter-results-2/sc_model_25_council_APE_plot.pdf>
-[119
-
-] [120]
 File: figures/chapter-results-2/sc_model_25_simd_plot.pdf Graphic file (type pd
 f)
 <use figures/chapter-results-2/sc_model_25_simd_plot.pdf>
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
+[121]
 
-LaTeX Warning: Reference `fig:res2-model1-APELA-time' on page 121 undefined on 
-input line 4753.
+LaTeX Warning: Reference `fig:res2-model1-APELA-time' on page 122 undefined on 
+input line 4782.
 
-[121] [122]
+[122]
 
 LaTeX Warning: Reference `tab:res2-mod2-chars1314' on page 123 undefined on inp
-ut line 4802.
+ut line 4831.
 
 [123]
 
 LaTeX Warning: No positions in optional float specifier.
-               Default added (so using `tbp') on input line 4814.
+               Default added (so using `tbp') on input line 4843.
 
 File: figures/chapter-results-2/sc_model_24_AME_plot.pdf Graphic file (type pdf
 )
@@ -1705,28 +1703,28 @@ LaTeX Warning: `h' float specifier changed to `ht'.
 
 
 LaTeX Warning: Reference `tab:res2-mod2-APE' on page 124 undefined on input lin
-e 4857.
+e 4886.
 
 [124]
 
 LaTeX Warning: Reference `fig:res2-age-sex' on page 125 undefined on input line
- 4876.
+ 4905.
 
 
 LaTeX Warning: Reference `tab:res2-mod2-chars1314' on page 125 undefined on inp
-ut line 4877.
+ut line 4906.
 
 
 LaTeX Warning: Reference `fig:res2-model2-simd' on page 125 undefined on input 
-line 4881.
+line 4910.
 
 
 LaTeX Warning: Reference `tab:res2-mod2-APE' on page 125 undefined on input lin
-e 4883.
+e 4912.
 
 
 LaTeX Warning: Reference `fig:res2-model2-simd' on page 125 undefined on input 
-line 4885.
+line 4914.
 
 [125]
 File: figures/chapter-results-2/sc_model_24_council_APE_plot.pdf Graphic file (
@@ -1734,11 +1732,11 @@ type pdf)
 <use figures/chapter-results-2/sc_model_24_council_APE_plot.pdf>
 
 LaTeX Warning: Reference `fig:res2-model2-APELA-time' on page 126 undefined on 
-input line 4921.
+input line 4950.
 
 
 LaTeX Warning: No positions in optional float specifier.
-               Default added (so using `tbp') on input line 4932.
+               Default added (so using `tbp') on input line 4961.
 
 [126]
 
@@ -1763,7 +1761,7 @@ LaTeX Warning: `h' float specifier changed to `ht'.
 
 
 LaTeX Warning: Reference `subsec:res3-usc-ape' on page 129 undefined on input l
-ine 5114.
+ine 5143.
 
 File: figures/chapter-results-3/adm_model_3_simd_plot.pdf Graphic file (type pd
 f)
@@ -1773,7 +1771,7 @@ LaTeX Warning: `h' float specifier changed to `ht'.
 
 
 LaTeX Warning: No positions in optional float specifier.
-               Default added (so using `tbp') on input line 5137.
+               Default added (so using `tbp') on input line 5166.
 
 [129] [130] [131] [132]
 Chapter 7.
@@ -1781,22 +1779,22 @@ Chapter 7.
 
 
 ]
-Underfull \hbox (badness 10000) in paragraph at lines 5222--5226
+Underfull \hbox (badness 10000) in paragraph at lines 5251--5255
 
  []
 
 [134] [135]
-Underfull \hbox (badness 10000) in paragraph at lines 5294--5296
+Underfull \hbox (badness 10000) in paragraph at lines 5323--5325
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 5296--5298
+Underfull \hbox (badness 10000) in paragraph at lines 5325--5327
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 5298--5301
+Underfull \hbox (badness 10000) in paragraph at lines 5327--5330
 
  []
 
@@ -1808,337 +1806,172 @@ Chapter 8.
 
 
 ]
-File: data/assets/main-proj-rac.pdf Graphic file (type pdf)
-<use data/assets/main-proj-rac.pdf>
-File: data/assets/main-proj-rac.pdf Graphic file (type pdf)
-<use data/assets/main-proj-rac.pdf>
-File: data/assets/main-proj-rac.pdf Graphic file (type pdf)
-<use data/assets/main-proj-rac.pdf, page 1>
-File: data/assets/main-proj-rac.pdf Graphic file (type pdf)
-<use data/assets/main-proj-rac.pdf, page 1>
+File: data/assets/pbpp.pdf Graphic file (type pdf)
+<use data/assets/pbpp.pdf>
+File: data/assets/pbpp.pdf Graphic file (type pdf)
+<use data/assets/pbpp.pdf>
+File: data/assets/pbpp.pdf Graphic file (type pdf)
+<use data/assets/pbpp.pdf, page 1>
+File: data/assets/pbpp.pdf Graphic file (type pdf)
+<use data/assets/pbpp.pdf, page 1>
 [139
 
 ]
-File: data/assets/main-proj-rac.pdf Graphic file (type pdf)
-<use data/assets/main-proj-rac.pdf, page 1>
-File: data/assets/main-proj-rac.pdf Graphic file (type pdf)
-<use data/assets/main-proj-rac.pdf, page 1>
-File: data/assets/main-proj-rac.pdf Graphic file (type pdf)
-<use data/assets/main-proj-rac.pdf, page 1>
-[140]
-File: data/assets/main-proj-rac.pdf Graphic file (type pdf)
-<use data/assets/main-proj-rac.pdf, page 2>
-File: data/assets/main-proj-rac.pdf Graphic file (type pdf)
-<use data/assets/main-proj-rac.pdf, page 2>
-File: data/assets/main-proj-rac.pdf Graphic file (type pdf)
-<use data/assets/main-proj-rac.pdf, page 2>
-[141]
-File: data/assets/main-proj-rac.pdf Graphic file (type pdf)
-<use data/assets/main-proj-rac.pdf, page 3>
-File: data/assets/main-proj-rac.pdf Graphic file (type pdf)
-<use data/assets/main-proj-rac.pdf, page 3>
-File: data/assets/main-proj-rac.pdf Graphic file (type pdf)
-<use data/assets/main-proj-rac.pdf, page 3>
-[142]
-File: data/assets/college-ethics.pdf Graphic file (type pdf)
-<use data/assets/college-ethics.pdf>
-File: data/assets/college-ethics.pdf Graphic file (type pdf)
-<use data/assets/college-ethics.pdf>
-File: data/assets/college-ethics.pdf Graphic file (type pdf)
-<use data/assets/college-ethics.pdf, page 1>
-File: data/assets/college-ethics.pdf Graphic file (type pdf)
-<use data/assets/college-ethics.pdf, page 1>
-[143
+File: data/assets/pbpp.pdf Graphic file (type pdf)
+<use data/assets/pbpp.pdf, page 1>
+File: data/assets/pbpp.pdf Graphic file (type pdf)
+<use data/assets/pbpp.pdf, page 1>
+File: data/assets/pbpp.pdf Graphic file (type pdf)
+<use data/assets/pbpp.pdf, page 1>
+[140] [141
 
-]
-File: data/assets/college-ethics.pdf Graphic file (type pdf)
-<use data/assets/college-ethics.pdf, page 1>
-File: data/assets/college-ethics.pdf Graphic file (type pdf)
-<use data/assets/college-ethics.pdf, page 1>
-File: data/assets/college-ethics.pdf Graphic file (type pdf)
-<use data/assets/college-ethics.pdf, page 1>
-[144]
-File: data/assets/pbpp.pdf Graphic file (type pdf)
-<use data/assets/pbpp.pdf>
-File: data/assets/pbpp.pdf Graphic file (type pdf)
-<use data/assets/pbpp.pdf>
-File: data/assets/pbpp.pdf Graphic file (type pdf)
-<use data/assets/pbpp.pdf, page 1>
-File: data/assets/pbpp.pdf Graphic file (type pdf)
-<use data/assets/pbpp.pdf, page 1>
-[145
+] [142] [143] [144] [145]
 
-]
-File: data/assets/pbpp.pdf Graphic file (type pdf)
-<use data/assets/pbpp.pdf, page 1>
-File: data/assets/pbpp.pdf Graphic file (type pdf)
-<use data/assets/pbpp.pdf, page 1>
-File: data/assets/pbpp.pdf Graphic file (type pdf)
-<use data/assets/pbpp.pdf, page 1>
+Package longtable Warning: Column widths have changed
+(longtable)                in table 1 on input line 5578.
+
 [146]
-File: data/assets/DSA-signed.pdf Graphic file (type pdf)
-<use data/assets/DSA-signed.pdf>
-File: data/assets/DSA-signed.pdf Graphic file (type pdf)
-<use data/assets/DSA-signed.pdf>
-File: data/assets/DSA-signed.pdf Graphic file (type pdf)
-<use data/assets/DSA-signed.pdf, page 1>
-File: data/assets/DSA-signed.pdf Graphic file (type pdf)
-<use data/assets/DSA-signed.pdf, page 1>
+File: data/assets/renf-ethics.pdf Graphic file (type pdf)
+<use data/assets/renf-ethics.pdf>
+File: data/assets/renf-ethics.pdf Graphic file (type pdf)
+<use data/assets/renf-ethics.pdf>
+File: data/assets/renf-ethics.pdf Graphic file (type pdf)
+<use data/assets/renf-ethics.pdf, page 1>
+File: data/assets/renf-ethics.pdf Graphic file (type pdf)
+<use data/assets/renf-ethics.pdf, page 1>
 [147
 
 ]
-File: data/assets/DSA-signed.pdf Graphic file (type pdf)
-<use data/assets/DSA-signed.pdf, page 1>
-File: data/assets/DSA-signed.pdf Graphic file (type pdf)
-<use data/assets/DSA-signed.pdf, page 1>
-File: data/assets/DSA-signed.pdf Graphic file (type pdf)
-<use data/assets/DSA-signed.pdf, page 1>
-[148]
-File: data/assets/DSA-signed.pdf Graphic file (type pdf)
-<use data/assets/DSA-signed.pdf, page 2>
-File: data/assets/DSA-signed.pdf Graphic file (type pdf)
-<use data/assets/DSA-signed.pdf, page 2>
-File: data/assets/DSA-signed.pdf Graphic file (type pdf)
-<use data/assets/DSA-signed.pdf, page 2>
-[149]
-File: data/assets/DSA-signed.pdf Graphic file (type pdf)
-<use data/assets/DSA-signed.pdf, page 3>
-File: data/assets/DSA-signed.pdf Graphic file (type pdf)
-<use data/assets/DSA-signed.pdf, page 3>
-File: data/assets/DSA-signed.pdf Graphic file (type pdf)
-<use data/assets/DSA-signed.pdf, page 3>
-[150]
-File: data/assets/DSA-signed.pdf Graphic file (type pdf)
-<use data/assets/DSA-signed.pdf, page 4>
-File: data/assets/DSA-signed.pdf Graphic file (type pdf)
-<use data/assets/DSA-signed.pdf, page 4>
-File: data/assets/DSA-signed.pdf Graphic file (type pdf)
-<use data/assets/DSA-signed.pdf, page 4>
-[151]
-File: data/assets/DSA-signed.pdf Graphic file (type pdf)
-<use data/assets/DSA-signed.pdf, page 5>
-File: data/assets/DSA-signed.pdf Graphic file (type pdf)
-<use data/assets/DSA-signed.pdf, page 5>
-File: data/assets/DSA-signed.pdf Graphic file (type pdf)
-<use data/assets/DSA-signed.pdf, page 5>
-[152]
-File: data/assets/DSA-signed.pdf Graphic file (type pdf)
-<use data/assets/DSA-signed.pdf, page 6>
-File: data/assets/DSA-signed.pdf Graphic file (type pdf)
-<use data/assets/DSA-signed.pdf, page 6>
-File: data/assets/DSA-signed.pdf Graphic file (type pdf)
-<use data/assets/DSA-signed.pdf, page 6>
-[153]
-File: data/assets/DSA-signed.pdf Graphic file (type pdf)
-<use data/assets/DSA-signed.pdf, page 7>
-File: data/assets/DSA-signed.pdf Graphic file (type pdf)
-<use data/assets/DSA-signed.pdf, page 7>
-File: data/assets/DSA-signed.pdf Graphic file (type pdf)
-<use data/assets/DSA-signed.pdf, page 7>
-[154]
-File: data/assets/DSA-signed.pdf Graphic file (type pdf)
-<use data/assets/DSA-signed.pdf, page 8>
-File: data/assets/DSA-signed.pdf Graphic file (type pdf)
-<use data/assets/DSA-signed.pdf, page 8>
-File: data/assets/DSA-signed.pdf Graphic file (type pdf)
-<use data/assets/DSA-signed.pdf, page 8>
-[155]
-File: data/assets/DSA-signed.pdf Graphic file (type pdf)
-<use data/assets/DSA-signed.pdf, page 9>
-File: data/assets/DSA-signed.pdf Graphic file (type pdf)
-<use data/assets/DSA-signed.pdf, page 9>
-File: data/assets/DSA-signed.pdf Graphic file (type pdf)
-<use data/assets/DSA-signed.pdf, page 9>
-[156]
-File: data/assets/DSA-signed.pdf Graphic file (type pdf)
-<use data/assets/DSA-signed.pdf, page 10>
-File: data/assets/DSA-signed.pdf Graphic file (type pdf)
-<use data/assets/DSA-signed.pdf, page 10>
-File: data/assets/DSA-signed.pdf Graphic file (type pdf)
-<use data/assets/DSA-signed.pdf, page 10>
-[157] [158
-
-] [159] [160] [161] [162]
-
-Package longtable Warning: Column widths have changed
-(longtable)                in table 1 on input line 5558.
-
-[163]
-File: data/assets/renf-rac.pdf Graphic file (type pdf)
-<use data/assets/renf-rac.pdf>
-File: data/assets/renf-rac.pdf Graphic file (type pdf)
-<use data/assets/renf-rac.pdf>
-File: data/assets/renf-rac.pdf Graphic file (type pdf)
-<use data/assets/renf-rac.pdf, page 1>
-File: data/assets/renf-rac.pdf Graphic file (type pdf)
-<use data/assets/renf-rac.pdf, page 1>
-[164
-
-]
-File: data/assets/renf-rac.pdf Graphic file (type pdf)
-<use data/assets/renf-rac.pdf, page 1>
-File: data/assets/renf-rac.pdf Graphic file (type pdf)
-<use data/assets/renf-rac.pdf, page 1>
-File: data/assets/renf-rac.pdf Graphic file (type pdf)
-<use data/assets/renf-rac.pdf, page 1>
-[165]
-File: data/assets/renf-rac.pdf Graphic file (type pdf)
-<use data/assets/renf-rac.pdf, page 2>
-File: data/assets/renf-rac.pdf Graphic file (type pdf)
-<use data/assets/renf-rac.pdf, page 2>
-File: data/assets/renf-rac.pdf Graphic file (type pdf)
-<use data/assets/renf-rac.pdf, page 2>
-[166]
-File: data/assets/renf-rac.pdf Graphic file (type pdf)
-<use data/assets/renf-rac.pdf, page 3>
-File: data/assets/renf-rac.pdf Graphic file (type pdf)
-<use data/assets/renf-rac.pdf, page 3>
-File: data/assets/renf-rac.pdf Graphic file (type pdf)
-<use data/assets/renf-rac.pdf, page 3>
-[167]
-File: data/assets/renf-rac.pdf Graphic file (type pdf)
-<use data/assets/renf-rac.pdf, page 4>
-File: data/assets/renf-rac.pdf Graphic file (type pdf)
-<use data/assets/renf-rac.pdf, page 4>
-File: data/assets/renf-rac.pdf Graphic file (type pdf)
-<use data/assets/renf-rac.pdf, page 4>
-[168]
-File: data/assets/renf-ethics.pdf Graphic file (type pdf)
-<use data/assets/renf-ethics.pdf>
-File: data/assets/renf-ethics.pdf Graphic file (type pdf)
-<use data/assets/renf-ethics.pdf>
-File: data/assets/renf-ethics.pdf Graphic file (type pdf)
-<use data/assets/renf-ethics.pdf, page 1>
-File: data/assets/renf-ethics.pdf Graphic file (type pdf)
-<use data/assets/renf-ethics.pdf, page 1>
-[169
-
-]
 File: data/assets/renf-ethics.pdf Graphic file (type pdf)
 <use data/assets/renf-ethics.pdf, page 1>
 File: data/assets/renf-ethics.pdf Graphic file (type pdf)
 <use data/assets/renf-ethics.pdf, page 1>
 File: data/assets/renf-ethics.pdf Graphic file (type pdf)
 <use data/assets/renf-ethics.pdf, page 1>
-[170] [171
+[148] [149
+
+] [150
+
+] [151] [152] [153
+
 
 
 ]
-Underfull \hbox (badness 10000) in paragraph at lines 5637--5640
+Underfull \hbox (badness 10000) in paragraph at lines 5735--5738
 [][]$[][][][] [] [] [] [][][] [] [][][][][][][][][][][][][][][] [] [][][] [] []
 [] [] [][][][][][][] [] [][][][] [] [][][][][][] [] [][][][] [] [][] [] [][][][
 ][][] [] [][][][][][] []
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 5642--5645
+Underfull \hbox (badness 10000) in paragraph at lines 5740--5743
 \TU/lmr/m/n/12 Available at: [][]$[][][][] [] [] [] [][][] [] [][][][][][][][][
 ][][][][][][] [] [][][] [] [][] [] [][][][][][][] [] [][][][] [] [][][][][][] [
 ] [][][][] [] [][] []
  []
 
-[172]
-Underfull \hbox (badness 1460) in paragraph at lines 5717--5720
+[154]
+Underfull \hbox (badness 1460) in paragraph at lines 5815--5818
 \TU/lmr/m/it/12 ternational comparisons\TU/lmr/m/n/12 . Report. Available at: [
 ][]$[][][][] [] [] [] [][][] [] [][][][][][][][][][] [] [][][][] []
  []
 
 
-Overfull \hbox (97.96254pt too wide) in paragraph at lines 5744--5747
+Overfull \hbox (97.96254pt too wide) in paragraph at lines 5842--5845
 \TU/lmr/m/n/12 at: [][]$[][][][][] [] [] [] [][][] [] [][][] [] [][] [] [][][][
 ][][][][][][] [] [][][][][][][][][][][][] [] [][][][][][][][][][][][][][][][][]
 [][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][
 ][][][]$[][]. 
  []
 
-[173] [174]
-Underfull \hbox (badness 2460) in paragraph at lines 5849--5853
+[155] [156]
+Underfull \hbox (badness 2460) in paragraph at lines 5947--5951
 []\TU/lmr/m/n/12 Evans, T. (2010) ‘Professionals, managers and discretion: Crit
 iquing street-
  []
 
 
-Underfull \hbox (badness 2521) in paragraph at lines 5849--5853
+Underfull \hbox (badness 2521) in paragraph at lines 5947--5951
 \TU/lmr/m/n/12 level bureaucracy’, \TU/lmr/m/it/12 The British Journal of Socia
 l Work\TU/lmr/m/n/12 , 41(2), pp. 368–
  []
 
 
-Underfull \hbox (badness 3872) in paragraph at lines 5849--5853
+Underfull \hbox (badness 3872) in paragraph at lines 5947--5951
 \TU/lmr/m/n/12 386. Available at: [][]$[][][][][] [] [] [] [][][][][][][][] [] 
 [][][] [] [][][] [] [][][][] [] [][][][][][][] [] [][] [] [] [] [][][] [] [][][
 ][][][][] []
  []
 
 
-Underfull \hbox (badness 1092) in paragraph at lines 5872--5876
+Underfull \hbox (badness 1092) in paragraph at lines 5970--5974
 \TU/lmr/m/n/12 Available at: [][]$[][][][] [] [] [] [][][][][][][][][][][][][] 
 [] [][][][][] [] [][][] [] [][][] [] [][] [] [][][][] [] [] [] [][][][][][][][]
 [][] [] [][][][] [] [][][][][] [] [] []
  []
 
-[175]
-Underfull \hbox (badness 1122) in paragraph at lines 5902--5906
+[157]
+Underfull \hbox (badness 1122) in paragraph at lines 6000--6004
 []\TU/lmr/m/n/12 Gannon, M. \TU/lmr/m/it/12 et al. \TU/lmr/m/n/12 (2016) \TU/lm
 r/m/it/12 Financial scrutiny unit briefing: The social im-
  []
 
 
-Underfull \hbox (badness 1655) in paragraph at lines 5902--5906
+Underfull \hbox (badness 1655) in paragraph at lines 6000--6004
 \TU/lmr/m/it/12 pact of the 2016-17 local goverment budget\TU/lmr/m/n/12 . Repo
 rt. Available at: [][]$[][][][] []
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 5902--5906
+Underfull \hbox (badness 10000) in paragraph at lines 6000--6004
 [] [] [][][] [] [][][][][][][][][][] [] [][][][] [] [][][][][][][][][][][][][][
 ][][][][][][][][][][][][][][][][] [] [][] [] [][] [] [][][][][][] [] [][][] [] 
 [][][][][][] []
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 5936--5940
+Underfull \hbox (badness 10000) in paragraph at lines 6034--6038
 \TU/lmr/m/n/12 at: [][]$[][][][] [] [] [] [][][][][][][][][][][] [] [][][][][][
 ][][][][][][][] [] [][][] [] [][][][][][][][] [] [][] [] [][][][] [] [][][][][]
 [][][][][][][][][][][][][][][] []
  []
 
-[176]
-Overfull \hbox (97.73459pt too wide) in paragraph at lines 5949--5952
+[158]
+Overfull \hbox (97.73459pt too wide) in paragraph at lines 6047--6050
 [][][][][] [] [][][][][] [] [][][][][] [] [][][][][][][][][][][] [] [][][][] []
  [][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][]
 [][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][
 ] []
  []
 
-[177]
-Overfull \hbox (363.71303pt too wide) in paragraph at lines 6015--6017
+[159]
+Overfull \hbox (363.71303pt too wide) in paragraph at lines 6113--6115
 []\TU/lmr/m/n/12 House-of-Commons (2017) \TU/lmr/m/it/12 Adult social care\TU/l
 mr/m/n/12 . Report. Available at: [][]https://www.publications.parliament.uk/pa
 /cm201617/cmselect/cmcomloc/1103/1103.pdf[][]. 
  []
 
 
-Underfull \hbox (badness 2837) in paragraph at lines 6019--6022
+Underfull \hbox (badness 2837) in paragraph at lines 6117--6120
 \TU/lmr/m/n/12 Available at: [][]$[][][][][] [] [] [] [][][] [] [][][][][][][][
 ][] [] [][][] [] [][] [] [][][][][] [] [][][][][] [] [][] [] [][][][][] [] [][]
 [][][] [] [][][][][][][][][][][] []
  []
 
 
-Underfull \hbox (badness 1888) in paragraph at lines 6024--6030
+Underfull \hbox (badness 1888) in paragraph at lines 6122--6128
 \TU/lmr/m/n/12 den for use in primary care and community settings: A systematic
  review
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 6024--6030
+Underfull \hbox (badness 10000) in paragraph at lines 6122--6128
 \TU/lmr/m/n/12 at: [][]http://www.ncbi.nlm.nih.gov/pmc/articles/PMC3315139/pdf/
 0100134.pdf
  []
 
 
-Overfull \hbox (153.17456pt too wide) in paragraph at lines 6056--6059
+Overfull \hbox (153.17456pt too wide) in paragraph at lines 6154--6157
 [][][][][][][][][][][][][][] [] [][][][][][][][][][][][][][][][][][][][][][][][
 ][][][][][][][][][][][][] [] [][][][] [] [][][][][][][][][][][][][][][][][][][]
 [][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][
@@ -2146,195 +1979,195 @@ Overfull \hbox (153.17456pt too wide) in paragraph at lines 6056--6059
  []
 
 
-Underfull \hbox (badness 1082) in paragraph at lines 6066--6070
+Underfull \hbox (badness 1082) in paragraph at lines 6164--6168
 []\TU/lmr/m/n/12 Islam, M. M. \TU/lmr/m/it/12 et al. \TU/lmr/m/n/12 (2014) ‘Mul
 timorbidity and comorbidity of chronic dis-
  []
 
-[178] [179]
-Overfull \hbox (97.74261pt too wide) in paragraph at lines 6161--6164
+[160] [161]
+Overfull \hbox (97.74261pt too wide) in paragraph at lines 6259--6262
 [][][][][][][][][][][][][][][][][] [] [][][][][] [] [][][][][][][][][][][][][][
 ][][][][][][][][][][][][] [] [][][] [] [][][][] [] [][][][][][][][][][][][][][]
 [][][][][][][][][][][][][][][][][][][][][][][][][][] []
  []
 
-[180]
-Underfull \hbox (badness 10000) in paragraph at lines 6201--6205
+[162]
+Underfull \hbox (badness 10000) in paragraph at lines 6299--6303
 [] [] [][] [] [][][][][][][][] [] [][][] [] [][][][][][][][][][][][][][][][][] 
 [] [][][][][] [] [][][][][][][][][][][][][][][][][][][][][][][][][][] [] [][][]
  [] [][][][] []
  []
 
 
-Overfull \hbox (57.99855pt too wide) in paragraph at lines 6201--6205
+Overfull \hbox (57.99855pt too wide) in paragraph at lines 6299--6303
 [][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][
 ] [] [][][][][][] [] [][][][][][][][][][] [] [][][][][][][][][][][][][][][][][]
 [][][][][][][][][][][][][][][]$[][]\TU/lmr/m/n/12 . 
  []
 
-[181]
-Underfull \hbox (badness 1661) in paragraph at lines 6275--6278
+[163]
+Underfull \hbox (badness 1661) in paragraph at lines 6373--6376
 []\TU/lmr/m/n/12 Munday, B. (2003) \TU/lmr/m/it/12 European social services: A 
 map of characteristics and
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 6275--6278
+Underfull \hbox (badness 10000) in paragraph at lines 6373--6376
 [][][][][][][][][] [] [][][][][][][][] [] [][][][][][][][][] [] [][][][][][][][
 ][][] [] [][][][][][][][][][][][] [] [][][][][][][][] [] [][][] [] [][][][][][]
 [] []
  []
 
 
-Underfull \hbox (badness 1122) in paragraph at lines 6280--6284
+Underfull \hbox (badness 1122) in paragraph at lines 6378--6382
 \TU/lmr/m/n/12 at: [][]$[][][][][] [] [] [] [][][][][][][][] [] [][][][][][][] 
 [] [][][] [] [][][] [] [][][][] [] [][] [] [][][][] [] [][][][][][][][][][][][]
 [][][][] [] [][][][] [] [][][][][] []
  []
 
 
-Overfull \hbox (209.12642pt too wide) in paragraph at lines 6280--6284
+Overfull \hbox (209.12642pt too wide) in paragraph at lines 6378--6382
 [][][][][][][][][][][][][][][][] [] [][][][][][][][][][][][][][][][][][][][][][
 ][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][]
 [][][][][][][][][][][][][][][][]$[][]\TU/lmr/m/n/12 . 
  []
 
 
-Overfull \hbox (12.01852pt too wide) in paragraph at lines 6286--6290
+Overfull \hbox (12.01852pt too wide) in paragraph at lines 6384--6388
 [][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][
 ][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][]
 [][][][][][][][][][][][][][][][][][][][][]$[][]\TU/lmr/m/n/12 . 
  []
 
 
-Underfull \hbox (badness 7326) in paragraph at lines 6316--6319
+Underfull \hbox (badness 7326) in paragraph at lines 6414--6417
 \TU/lmr/m/n/12 able at: [][]$[][][][][] [] [] [] [][][] [] [][][][][][][][][][]
  [] [][][] [] [][] [] [][][][][] [] [][][][][][][][][][] [] [][][][][][][][][][
 ][][][][][][][][][][][][][][][][][] []
  []
 
 
-Underfull \hbox (badness 1960) in paragraph at lines 6325--6327
+Underfull \hbox (badness 1960) in paragraph at lines 6423--6425
 []\TU/lmr/m/n/12 NRS (2018a) \TU/lmr/m/it/12 NHS central register (nhscr)\TU/lm
 r/m/n/12 . Report. Available at: [][]$[][][][][] []
  []
 
-[182]
-Underfull \hbox (badness 2088) in paragraph at lines 6329--6331
+[164]
+Underfull \hbox (badness 2088) in paragraph at lines 6427--6429
 []\TU/lmr/m/n/12 NRS (2018b) \TU/lmr/m/it/12 Statutory registers of deaths\TU/l
 mr/m/n/12 . Report. Available at: [][]$[][][][][] []
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 6342--6345
+Underfull \hbox (badness 10000) in paragraph at lines 6440--6443
 [][]$[][][][] [] [] [] [][] [] [][][][][][] [] [][][][][] [] [][][][][][][][][]
  [] [][][][][][] [] [][][][][][][] [] [][][][][][] [] [][][][][][][][][][][][][
 ][] [][] [][][][][] []
  []
 
 
-Underfull \hbox (badness 4505) in paragraph at lines 6347--6351
+Underfull \hbox (badness 4505) in paragraph at lines 6445--6449
 \TU/lmr/m/n/12 Available at: [][]$[][][][] [] [] [] [][][] [] [][][][] [] [][][
 ] [] [][] [] [][][][][][] [] [][][][][][][][][][][][][][][][][][][][][][][][][]
 [][][][][][][][][][][][] []
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 6363--6368
+Underfull \hbox (badness 10000) in paragraph at lines 6461--6466
 [][][][][] [] [][][][][][][][][][][][][][][][][][][][][][][][][][] [] [][][] []
  [][][][] [] [][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][]
 [][][][][][][] []
  []
 
-[183]
-Underfull \hbox (badness 10000) in paragraph at lines 6386--6389
+[165]
+Underfull \hbox (badness 10000) in paragraph at lines 6484--6487
 [][][][][][][][][] [] [][][][][][][] [] [][][][][][][] [] [][][][][][][][][] []
  [][][][][] [] [][][][][][][] [] [][][] [] [][][][][][][][] [] [][][] [] [][][]
 [][] []
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 6391--6395
+Underfull \hbox (badness 10000) in paragraph at lines 6489--6493
 [][] [] [][] [] [][][][][][][][][][][] [] [][][][][][][] [] [][][][][] [] [][][
 ][][][] [] [][] [] [][][][][][][][][] [] [][][][][][][][][][][][][][][] [] [][]
 [][][][][][][][][][] []
  []
 
 
-Underfull \hbox (badness 1888) in paragraph at lines 6417--6420
+Underfull \hbox (badness 1888) in paragraph at lines 6515--6518
 \TU/lmr/m/n/12 at: [][]$[][][][] [] [] [] [][][] [] [][][][][][][][][][][][] []
  [][][] [] [][] [] [][][][][] [] [][][][] [] [][][][][][][][][][][][][][][][][]
 [][][][][][][][][][] [] [][][] []
  []
 
 
-Overfull \hbox (95.68658pt too wide) in paragraph at lines 6422--6425
+Overfull \hbox (95.68658pt too wide) in paragraph at lines 6520--6523
 [][][][][][][][][] [] [][][][][][][][][][] [] [][][][] [] [][][][][][][][][][][
 ][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][]
 [][][][][][][][][][][][][][][][][][][][][][][][][][][] []
  []
 
-[184]
-Underfull \hbox (badness 5050) in paragraph at lines 6484--6487
+[166]
+Underfull \hbox (badness 5050) in paragraph at lines 6582--6585
 \TU/lmr/m/n/12 Available at: [][]$[][][][] [] [] [] [][][] [] [][][] [] [][][][
 ] [] [][][][][][] [] [][][][][][][][][][] [] [][][][][][][][][][][][][][][][][]
  [] [][][][][] []
  []
 
 
-Overfull \hbox (49.52652pt too wide) in paragraph at lines 6504--6507
+Overfull \hbox (49.52652pt too wide) in paragraph at lines 6602--6605
 \TU/lmr/m/n/12 Available at: [][]$[][][][] [] [] [] [][][] [] [][][] [] [][][][
 ] [] [][][][][][] [] [][][][][][] [] [][][][][][] [] [][][][][][][][][][][][][]
 [][][][][][][][][][][][][][][][][][][][][][][][][] []
  []
 
-[185]
-Overfull \hbox (60.93187pt too wide) in paragraph at lines 6534--6537
+[167]
+Overfull \hbox (60.93187pt too wide) in paragraph at lines 6632--6635
 \TU/lmr/m/n/12 Report. Available at: [][]$[][][][] [] [] [] [][][] [] [][][] []
  [][][][] [] [][][][][][] [] [][][][][][] [] [][][][][][] [] [][][][][][][][][]
 [][][][][][][][][][][][][][][][][][][][][][][][]$[][]. 
  []
 
 
-Underfull \hbox (badness 1389) in paragraph at lines 6578--6580
+Underfull \hbox (badness 1389) in paragraph at lines 6676--6678
 []\TU/lmr/m/n/12 SILC (2017a) \TU/lmr/m/it/12 Data linkage safeguards\TU/lmr/m/
 n/12 . Report. Available at: [][]$[][][][] [] [] [] [][][] []
  []
 
-[186]
-Underfull \hbox (badness 1132) in paragraph at lines 6626--6630
+[168]
+Underfull \hbox (badness 1132) in paragraph at lines 6724--6728
 \TU/lmr/m/n/12 Available at: [][]$[][][][] [] [] [] [][][] [] [][][][][][][][][
 ][][] [] [][][] [] [][][] [] [][][][] [] [][] [] [][][][] [] [][][][][][][][] [
 ] [][][][] [] [][][][][][] []
  []
 
 
-Overfull \hbox (217.50395pt too wide) in paragraph at lines 6632--6635
+Overfull \hbox (217.50395pt too wide) in paragraph at lines 6730--6733
 \TU/lmr/m/n/12 Report. Available at: [][]$[][][][] [] [] [] [][][][] [] [][] []
  [][] [] [][][][][] [] [][][][] [] [][][][][][][][][][][][][][][][][][][][][][]
 [][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][
 ][][][][][][][][][][][][][][][][][][][][][] []
  []
 
-[187]
-Underfull \hbox (badness 10000) in paragraph at lines 6682--6685
+[169]
+Underfull \hbox (badness 10000) in paragraph at lines 6780--6783
 [][][][][][][][][][][][][] [] [][][][][][][][] [] [][][][][][][][] [] [][][][][
 ] [] [][][][][][][][] [] [][][][][][] [] [][][][] [] [][][][][][][][][][] []
  []
 
-[188] [189]
+[170] [171]
 
 Package longtable Warning: Table widths have changed. Rerun LaTeX.
 
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 6764.
-[190]
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 6764.
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 6862.
+[172]
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 6862.
 (./THESIS.aux)
-Package atveryend Info: Empty hook `AtVeryEndDocument' on input line 6764.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 6764.
+Package atveryend Info: Empty hook `AtVeryEndDocument' on input line 6862.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 6862.
 
 Package rerunfilecheck Info: File `THESIS.out' has not changed.
-(rerunfilecheck)             Checksum: 4E7A658FC526F09D560914A5630E9A1C.
+(rerunfilecheck)             Checksum: B64B18D1ED8AE147072E7A31A01D352F.
 
 LaTeX Warning: There were undefined references.
 
@@ -2343,12 +2176,12 @@ LaTeX Warning: There were multiply-defined labels.
 
  ) 
 Here is how much of TeX's memory you used:
- 28935 strings out of 494921
- 537555 string characters out of 6176112
- 708524 words of memory out of 5000000
- 32422 multiletter control sequences out of 15000+600000
+ 28879 strings out of 494921
+ 535439 string characters out of 6176112
+ 708493 words of memory out of 5000000
+ 32374 multiletter control sequences out of 15000+600000
  561146 words of font info for 79 fonts, out of 8000000 for 9000
  14 hyphenation exceptions out of 8191
- 53i,19n,92p,803b,671s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 53i,19n,92p,803b,587s stack positions out of 5000i,500n,10000p,200000b,80000s
 
-Output written on THESIS.pdf (190 pages).
+Output written on THESIS.pdf (172 pages).

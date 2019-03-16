@@ -25,9 +25,9 @@ Go through all results and discuss
 \item Big differences in overall numbers *and* percentages between models (>96 \& 92-95.9). >96 has smaller numbers for very old and much higher percentage (approx 70\%) receiving care compared to national average (approx 45\%). 
 \item Second group of models include both largest cities...
 \item Age by far the biggest effect  
-\item Female effect fairly small after adjustment for age and MM (compared to descriptives) - Does this warrant splitting by sex before modelling?
+\item Female effect fairly small after adjustment for age and MM (compared to descriptives) - Does this warrant splitting by sex before modelling? *Wrong 4 percent is quite big actually*
 \item Magnitude of effects important. (Note SIMD * 10 = similar effect of going from 65-69 to 75-79 i.e. being deprived ages you by 10 years)
-\item Variation in APE for LAs could be a few things e.g. budget cuts, data, random
+\item Variation in APE for LAs could be a few things e.g. budget cuts, data, random. APEs follow percentages to some degree but see e.g. Inverclyde in 2015/16. higher percentage but negative effect. Suggests model adjusting well. 
 \item Bump in APE values for older age groups and high meds related to increase in comm alarm observations from 2014/15 onwards. *note very small effect changes**
 \item Fluctuating APEs for councils to do with baseline level of reference council also fluctuating. Again - *very small changes in APE*
 \end{itemize}
