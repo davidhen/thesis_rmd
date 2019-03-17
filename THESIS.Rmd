@@ -32,6 +32,7 @@ header-includes:
 - \usepackage[flushleft]{threeparttable} #table footer 
 - \usepackage[toc,page]{appendix} #appendix in toc
 - \usepackage{acronym}
+- \usepackage{float} # [H] argument for floats
 - \usepackage[utf8]{inputenc} 
 - \usepackage{xcolor}
 - \usepackage{hyperref} #cross-refs and hyperlinks

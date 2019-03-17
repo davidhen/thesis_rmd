@@ -241,7 +241,7 @@ MULTIVITAMINS & 09.10.00 \\* \bottomrule
 
 \begin{landscape}
 \begin{longtable}[c]{@{}lrrrrrrr@{}}
-\caption{Social care models. Subset 1. Model results}
+\caption{Social care models. Subset 1. Model results 2015/16}
 \label{append-tab-2} \\
 \toprule
 Term & estimate & std.error & statistic & p.value & odds\_ratio & conf\_int\_low & conf\_int\_high \\* \midrule
@@ -316,7 +316,178 @@ simd:councilArgyll and Bute & 0.013 & 0.016 & 0.818 & 0.414 & 1.013 & 0.982 & 1.
 \end{longtable}
 \end{landscape}
 
+\begin{figure}[h]
+  \centering
+    \includegraphics{figures/chapter-results-2/sc_model_25_simd_plot.pdf}
+    \caption{Subset 1. Conditional effect of simd on receipt of social care}
+    \label{fig:res2-model1-simd}
+\end{figure}
+
+\begin{figure}[h]
+  \caption{Subset 2. Odds ratios. 2015/16}
+  \label{fig:res2-model2-or}
+  \centering
+    \includegraphics{figures/chapter-results-2/sc_model_24_or_plot.pdf}
+\end{figure}
 
 
+\begin{landscape}
+\begin{longtable}{@{}lrrrrrrr@{}}
+\caption{Social care models. Subset 2. Model results 2015/16}
+\label{append-tab-3} \\
+\toprule
+term & estimate & std.error & statistic & p.value & odds\_ratio & conf\_int\_low & conf\_int\_high \\* \midrule
+\endfirsthead
+%
+\multicolumn{8}{c}%
+{{\bfseries Table \thetable\ continued from previous page}} \\
+\toprule
+term & estimate & std.error & statistic & p.value & odds\_ratio & conf\_int\_low & conf\_int\_high \\* \midrule
+\endhead
+%
+\bottomrule
+\endfoot
+%
+\endlastfoot
+%
+(Intercept) & -4.072 & 0.303 & -13.448 & \textless{}0.001 & 0.017 & 0.009 & 0.031 \\
+Female & 0.185 & 0.041 & 4.539 & \textless{}0.001 & 1.203 & 1.111 & 1.303 \\
+Age: 70-74 & 0.535 & 0.091 & 5.908 & \textless{}0.001 & 1.708 & 1.43 & 2.04 \\
+Age: 75-79 & 1.226 & 0.086 & 14.24 & \textless{}0.001 & 3.407 & 2.878 & 4.033 \\
+Age: 80-84 & 1.911 & 0.084 & 22.747 & \textless{}0.001 & 6.76 & 5.734 & 7.971 \\
+Age: 85-89 & 2.883 & 0.084 & 34.285 & \textless{}0.001 & 17.872 & 15.156 & 21.074 \\
+Age: 90-94 & 3.684 & 0.097 & 37.808 & \textless{}0.001 & 39.824 & 32.9 & 48.206 \\
+Age: 95 Plus & 4.536 & 0.146 & 31.075 & \textless{}0.001 & 93.359 & 70.129 & 124.286 \\
+SIMD Decile: & -0.052 & 0.046 & -1.145 & 0.252 & 0.949 & 0.868 & 1.038 \\
+Meds: 3-5 & 0.576 & 0.089 & 6.452 & \textless{}0.001 & 1.78 & 1.494 & 2.12 \\
+Meds: 6-8 & 1.254 & 0.085 & 14.719 & \textless{}0.001 & 3.506 & 2.967 & 4.143 \\
+Meds: 9+ & 2.073 & 0.079 & 26.096 & \textless{}0.001 & 7.948 & 6.802 & 9.286 \\
+councilGlasgow City & -0.37 & 0.294 & -1.259 & 0.208 & 0.69 & 0.388 & 1.229 \\
+councilNa h-Eileanan Siar & 0.171 & 0.373 & 0.457 & 0.648 & 1.186 & 0.571 & 2.465 \\
+councilEast Renfrewshire & -0.195 & 0.306 & -0.637 & 0.524 & 0.823 & 0.451 & 1.5 \\
+councilCity of Edinburgh & 0.016 & 0.295 & 0.055 & 0.956 & 1.016 & 0.57 & 1.813 \\
+councilEast Dunbartonshire & -0.583 & 0.305 & -1.911 & 0.056 & 0.558 & 0.307 & 1.015 \\
+councilFife & -0.057 & 0.295 & -0.192 & 0.848 & 0.945 & 0.53 & 1.684 \\
+councilPerth and Kinross & 0.078 & 0.302 & 0.26 & 0.795 & 1.082 & 0.599 & 1.953 \\
+councilSouth Ayrshire & -0.723 & 0.299 & -2.417 & 0.016 & 0.485 & 0.27 & 0.872 \\
+Female:age\_grp70-74 & 0.035 & 0.055 & 0.639 & 0.523 & 1.035 & 0.93 & 1.152 \\
+Female:age\_grp75-79 & 0.243 & 0.052 & 4.709 & \textless{}0.001 & 1.275 & 1.152 & 1.411 \\
+Female:age\_grp80-84 & 0.372 & 0.049 & 7.528 & \textless{}0.001 & 1.451 & 1.317 & 1.598 \\
+Female:age\_grp85-89 & 0.434 & 0.051 & 8.455 & \textless{}0.001 & 1.543 & 1.395 & 1.706 \\
+Female:age\_grp90-94 & 0.15 & 0.06 & 2.496 & 0.013 & 1.162 & 1.033 & 1.308 \\
+Female:age\_grp95 Plus & -0.054 & 0.101 & -0.536 & 0.592 & 0.948 & 0.778 & 1.154 \\
+SIMD Decile: :meds\_grp3-5 & 0.043 & 0.009 & 4.906 & \textless{}0.001 & 1.044 & 1.026 & 1.062 \\
+SIMD Decile: :meds\_grp6-8 & 0.062 & 0.008 & 7.355 & \textless{}0.001 & 1.063 & 1.046 & 1.081 \\
+SIMD Decile: :meds\_grp9+ & 0.079 & 0.008 & 9.739 & \textless{}0.001 & 1.082 & 1.065 & 1.099 \\
+Age: 70-74:meds\_grp3-5 & -0.11 & 0.106 & -1.04 & 0.298 & 0.896 & 0.728 & 1.102 \\
+Age: 75-79:meds\_grp3-5 & -0.291 & 0.1 & -2.926 & 0.003 & 0.747 & 0.615 & 0.908 \\
+Age: 80-84:meds\_grp3-5 & -0.161 & 0.096 & -1.677 & 0.094 & 0.851 & 0.706 & 1.028 \\
+Age: 85-89:meds\_grp3-5 & -0.359 & 0.096 & -3.759 & \textless{}0.001 & 0.698 & 0.579 & 0.842 \\
+Age: 90-94:meds\_grp3-5 & -0.239 & 0.109 & -2.198 & 0.028 & 0.788 & 0.637 & 0.974 \\
+Age: 95 Plus:meds\_grp3-5 & -0.691 & 0.154 & -4.495 & \textless{}0.001 & 0.501 & 0.371 & 0.677 \\
+Age: 70-74:meds\_grp6-8 & -0.167 & 0.101 & -1.655 & 0.098 & 0.846 & 0.694 & 1.031 \\
+Age: 75-79:meds\_grp6-8 & -0.5 & 0.095 & -5.251 & \textless{}0.001 & 0.607 & 0.504 & 0.731 \\
+Age: 80-84:meds\_grp6-8 & -0.469 & 0.092 & -5.1 & \textless{}0.001 & 0.626 & 0.523 & 0.749 \\
+Age: 85-89:meds\_grp6-8 & -0.761 & 0.092 & -8.297 & \textless{}0.001 & 0.467 & 0.39 & 0.559 \\
+Age: 90-94:meds\_grp6-8 & -0.815 & 0.105 & -7.773 & \textless{}0.001 & 0.443 & 0.36 & 0.544 \\
+Age: 95 Plus:meds\_grp6-8 & -1.226 & 0.15 & -8.16 & \textless{}0.001 & 0.293 & 0.219 & 0.394 \\
+Age: 70-74:meds\_grp9+ & -0.197 & 0.094 & -2.095 & 0.036 & 0.821 & 0.683 & 0.987 \\
+Age: 75-79:meds\_grp9+ & -0.63 & 0.089 & -7.106 & \textless{}0.001 & 0.532 & 0.447 & 0.634 \\
+Age: 80-84:meds\_grp9+ & -0.78 & 0.086 & -9.021 & \textless{}0.001 & 0.458 & 0.387 & 0.543 \\
+Age: 85-89:meds\_grp9+ & -1.232 & 0.087 & -14.208 & \textless{}0.001 & 0.292 & 0.246 & 0.346 \\
+Age: 90-94:meds\_grp9+ & -1.527 & 0.101 & -15.195 & \textless{}0.001 & 0.217 & 0.178 & 0.264 \\
+Age: 95 Plus:meds\_grp9+ & -2.169 & 0.147 & -14.791 & \textless{}0.001 & 0.114 & 0.086 & 0.152 \\
+simd:councilGlasgow City & -0.056 & 0.045 & -1.233 & 0.218 & 0.946 & 0.865 & 1.034 \\
+simd:councilNa h-Eileanan Siar & -0.058 & 0.064 & -0.903 & 0.366 & 0.944 & 0.833 & 1.07 \\
+simd:councilEast Renfrewshire & -0.024 & 0.046 & -0.513 & 0.608 & 0.977 & 0.892 & 1.069 \\
+simd:councilCity of Edinburgh & -0.114 & 0.045 & -2.511 & 0.012 & 0.893 & 0.817 & 0.975 \\
+simd:councilEast Dunbartonshire & -0.046 & 0.046 & -0.988 & 0.323 & 0.955 & 0.872 & 1.046 \\
+simd:councilFife & -0.077 & 0.045 & -1.708 & 0.088 & 0.925 & 0.847 & 1.011 \\
+simd:councilPerth and Kinross & -0.098 & 0.046 & -2.126 & 0.034 & 0.907 & 0.828 & 0.992 \\
+simd:councilSouth Ayrshire & -0.032 & 0.046 & -0.687 & 0.492 & 0.969 & 0.885 & 1.06 \\* \bottomrule
+\end{longtable}
+\end{landscape}
 
+\begin{figure}[h]
+  \centering
+    \includegraphics{figures/chapter-results-3/adm_model_3_or_plot.pdf}
+    \caption{Unplanned hospital admission. Odds ratios 2015/16}
+    \label{fig:res3-adm-OR}
+\end{figure}
 
+\begin{landscape}
+\begin{longtable}{@{}lrrrrrrr@{}}
+\caption{Unplanned hospital admission. Model results 2015/16}
+\label{app-tab4}\\
+\toprule
+term & estimate & std.error & statistic & p.value & odds\_ratio & conf\_int\_low & conf\_int\_high \\* \midrule
+\endfirsthead
+%
+\multicolumn{8}{c}%
+{{\bfseries Table \thetable\ continued from previous page}} \\
+\toprule
+term & estimate & std.error & statistic & p.value & odds\_ratio & conf\_int\_low & conf\_int\_high \\* \midrule
+\endhead
+%
+\bottomrule
+\endfoot
+%
+\endlastfoot
+%
+(Intercept) & -3.404 & 0.031 & -109.039 & \textless{}0.001 & 0.033 & 0.031 & 0.035 \\
+Female & -0.22 & 0.018 & -12.522 & \textless{}0.001 & 0.802 & 0.775 & 0.83 \\
+Age: 70-74 & 0.2 & 0.033 & 6.132 & \textless{}0.001 & 1.222 & 1.146 & 1.303 \\
+Age: 75-79 & 0.531 & 0.035 & 15.215 & \textless{}0.001 & 1.7 & 1.588 & 1.82 \\
+Age: 80-84 & 0.832 & 0.039 & 21.489 & \textless{}0.001 & 2.299 & 2.131 & 2.48 \\
+Age: 85-89 & 1.156 & 0.046 & 25.394 & \textless{}0.001 & 3.179 & 2.907 & 3.476 \\
+Age: 90-94 & 1.537 & 0.062 & 24.894 & \textless{}0.001 & 4.649 & 4.119 & 5.247 \\
+Age: 95 Plus & 1.312 & 0.117 & 11.191 & \textless{}0.001 & 3.715 & 2.952 & 4.676 \\
+SIMD Decile: & -0.057 & 0.004 & -14.156 & \textless{}0.001 & 0.945 & 0.937 & 0.952 \\
+Meds: 3-5 & 0.298 & 0.039 & 7.685 & \textless{}0.001 & 1.347 & 1.248 & 1.453 \\
+Meds: 6-8 & 0.689 & 0.038 & 18.2 & \textless{}0.001 & 1.992 & 1.849 & 2.145 \\
+Meds: 9+ & 1.292 & 0.035 & 36.427 & \textless{}0.001 & 3.641 & 3.397 & 3.903 \\
+Social Care & 0.865 & 0.03 & 28.526 & \textless{}0.001 & 2.375 & 2.238 & 2.52 \\
+USC & 0.885 & 0.008 & 107.661 & \textless{}0.001 & 2.423 & 2.384 & 2.462 \\
+Care Home & -0.111 & 0.018 & -6.06 & \textless{}0.001 & 0.895 & 0.864 & 0.928 \\
+Female:age\_grp70-74 & 0.05 & 0.025 & 2.001 & 0.045 & 1.051 & 1.001 & 1.104 \\
+Female:age\_grp75-79 & 0.03 & 0.025 & 1.221 & 0.222 & 1.031 & 0.982 & 1.082 \\
+Female:age\_grp80-84 & 0.01 & 0.025 & 0.387 & 0.699 & 1.01 & 0.961 & 1.061 \\
+Female:age\_grp85-89 & 0.015 & 0.028 & 0.525 & 0.599 & 1.015 & 0.961 & 1.072 \\
+Female:age\_grp90-94 & -0.074 & 0.037 & -1.984 & 0.047 & 0.929 & 0.863 & 0.999 \\
+Female:age\_grp95 Plus & -0.041 & 0.072 & -0.566 & 0.571 & 0.96 & 0.833 & 1.106 \\
+SIMD Decile: :meds\_grp3-5 & 0.016 & 0.005 & 3.224 & 0.001 & 1.016 & 1.006 & 1.026 \\
+SIMD Decile: :meds\_grp6-8 & 0.022 & 0.005 & 4.646 & \textless{}0.001 & 1.023 & 1.013 & 1.033 \\
+SIMD Decile: :meds\_grp9+ & 0.02 & 0.005 & 4.261 & \textless{}0.001 & 1.02 & 1.011 & 1.029 \\
+Age: 70-74:meds\_grp3-5 & -0.051 & 0.04 & -1.257 & 0.209 & 0.951 & 0.879 & 1.029 \\
+Age: 75-79:meds\_grp3-5 & -0.107 & 0.042 & -2.555 & 0.011 & 0.898 & 0.827 & 0.975 \\
+Age: 80-84:meds\_grp3-5 & -0.164 & 0.046 & -3.589 & \textless{}0.001 & 0.849 & 0.776 & 0.928 \\
+Age: 85-89:meds\_grp3-5 & -0.151 & 0.052 & -2.911 & 0.004 & 0.86 & 0.777 & 0.952 \\
+Age: 90-94:meds\_grp3-5 & -0.268 & 0.068 & -3.955 & \textless{}0.001 & 0.765 & 0.67 & 0.874 \\
+Age: 95 Plus:meds\_grp3-5 & -0.231 & 0.119 & -1.953 & 0.051 & 0.793 & 0.629 & 1.001 \\
+Age: 70-74:meds\_grp6-8 & -0.137 & 0.04 & -3.411 & 0.001 & 0.872 & 0.806 & 0.943 \\
+Age: 75-79:meds\_grp6-8 & -0.229 & 0.041 & -5.549 & \textless{}0.001 & 0.795 & 0.733 & 0.862 \\
+Age: 80-84:meds\_grp6-8 & -0.274 & 0.044 & -6.171 & \textless{}0.001 & 0.76 & 0.697 & 0.83 \\
+Age: 85-89:meds\_grp6-8 & -0.383 & 0.051 & -7.583 & \textless{}0.001 & 0.682 & 0.617 & 0.753 \\
+Age: 90-94:meds\_grp6-8 & -0.626 & 0.066 & -9.488 & \textless{}0.001 & 0.535 & 0.47 & 0.609 \\
+Age: 95 Plus:meds\_grp6-8 & -0.535 & 0.115 & -4.636 & \textless{}0.001 & 0.586 & 0.467 & 0.734 \\
+Age: 70-74:meds\_grp9+ & -0.123 & 0.038 & -3.281 & 0.001 & 0.884 & 0.821 & 0.952 \\
+Age: 75-79:meds\_grp9+ & -0.331 & 0.039 & -8.461 & \textless{}0.001 & 0.718 & 0.665 & 0.776 \\
+Age: 80-84:meds\_grp9+ & -0.463 & 0.042 & -10.915 & \textless{}0.001 & 0.629 & 0.579 & 0.684 \\
+Age: 85-89:meds\_grp9+ & -0.688 & 0.049 & -14.103 & \textless{}0.001 & 0.503 & 0.457 & 0.553 \\
+Age: 90-94:meds\_grp9+ & -0.962 & 0.064 & -14.984 & \textless{}0.001 & 0.382 & 0.337 & 0.434 \\
+Age: 95 Plus:meds\_grp9+ & -0.929 & 0.113 & -8.196 & \textless{}0.001 & 0.395 & 0.316 & 0.493 \\
+Age: 70-74:scs\_flagsocial Care & -0.077 & 0.04 & -1.927 & 0.054 & 0.926 & 0.855 & 1.001 \\
+Age: 75-79:scs\_flagsocial Care & -0.125 & 0.037 & -3.369 & 0.001 & 0.882 & 0.82 & 0.949 \\
+Age: 80-84:scs\_flagsocial Care & -0.265 & 0.036 & -7.372 & \textless{}0.001 & 0.767 & 0.715 & 0.823 \\
+Age: 85-89:scs\_flagsocial Care & -0.361 & 0.037 & -9.713 & \textless{}0.001 & 0.697 & 0.648 & 0.75 \\
+Age: 90-94:scs\_flagsocial Care & -0.36 & 0.044 & -8.229 & \textless{}0.001 & 0.698 & 0.64 & 0.76 \\
+Age: 95 plus:scs\_flagSocial Care & -0.15 & 0.07 & -2.154 & 0.031 & 0.861 & 0.751 & 0.987 \\* \bottomrule
+\end{longtable}
+\end{landscape}
+
+\begin{figure}[h]
+  \centering
+    \includegraphics{figures/chapter-results-3/adm_model_3_simd_plot.pdf}
+    \caption{Conditional effect of SIMD on any unplanned hospital admission}
+    \label{fig:res3-adm-simd}
+\end{figure}

@@ -1,0 +1,151 @@
+---
+title: "Create plot for SC model percentages"
+author: "David Henderson"
+date: "17 March 2019"
+output: html_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+#Intro
+
+Each sc model has a table with the percentage of individuals receiving social care in each local authority over time. I want to create a plot of this table. 
+
+##Packages
+
+```{r libs, message=FALSE}
+library(tidyverse)
+library(magrittr)
+library(ggthemes)
+library(ggrepel)
+library(here)
+here()
+theme_set(theme_minimal(base_size = 16))
+```
+
+##Data
+
+I have downloaded the csv from the html document `62_social_care_model_25` in the folder "thesis_rmd/figures/chapter-results-2".
+
+```{r load, message=FALSE}
+sc_25 <- read_csv(here("data/assets/sc_model_25_tab_2.csv"))
+```
+
+#Tidy and plot
+
+First thing is to change the values in the table so that they reflect the difference in the percentage of over 65s receiving social care in each council area. I then drop Falkirk and plot the the results. This plot can be used to compare against the partial effects after accounting for age, sex, multimorbidity status etc.  
+
+```{r tidy_up, fig.width=10.67, fig.height=8}
+sc_25 %>%
+  select(-X1) %>% 
+  mutate(`2011/12` = `2011/12` - first(`2011/12`),
+         `2012/13` = `2012/13` - first(`2012/13`),
+         `2013/14` = `2013/14` - first(`2013/14`),
+         `2014/15` = `2014/15` - first(`2014/15`),
+         `2015/16` = `2015/16` - first(`2015/16`)) %>% 
+  gather(year, pct, `2011/12`:`2015/16`) %>% 
+  arrange(council) %>% 
+  mutate(label = if_else(year == max(year),
+                         council, NA_character_)) %>% 
+  filter(council != "Falkirk") %>% 
+  ggplot(aes(year, pct,
+             group = council,
+             colour = council)) +
+  geom_point(size = 2) +
+  geom_path() +
+  geom_hline(yintercept = 0, colour = "#555555") +
+  geom_vline(xintercept = 3.5, linetype = "longdash", colour = "grey30") +
+  geom_label_repel(aes(label = label), nudge_x = 2) +
+  geom_label(aes(x = "2011/12", y = -0.001),
+             label = "Reference group: Falkirk",
+             colour = "#555555",
+             hjust = 0) +
+  geom_text(aes(3.55, y = 0.9),
+            label = "Change in data collection after 2013/14",
+            colour = "#AAAAAA",
+            hjust = 0) +
+  scale_colour_ptol(guide = "none") +
+  scale_y_continuous(limits = c(-8, 1.5),
+                     breaks = scales::pretty_breaks()) +
+  scale_x_discrete(expand = expand_scale(add = c(0.1, 0.9))) +
+  labs(x = "",
+       y = "% difference from Falkirk council, by year",
+       title = "Percentage difference in over 65s receiving social care",
+       subtitle = "compared to Falkirk council") -> sc_25_pct_plot
+sc_25_pct_plot
+  
+```
+
+#Save
+
+```{r save_1}
+ggsave(here("figures/chapter-results-2/sc_25_pct_plot.png"),
+       width = 10.67, height = 8, dpi = 600)
+```
+
+#SC model_24
+
+Now repeat for the model with lower linkage rates
+
+##Data
+
+I have downloaded the csv from the html document `61_social_care_model_24` in the folder "thesis_rmd/figures/chapter-results-2".
+
+```{r load, message=FALSE}
+sc_24 <- read_csv(here("data/assets/sc_model_24_tab_2.csv"))
+```
+
+#Tidy and plot
+
+First thing is to change the values in the table so that they reflect the difference in the percentage of over 65s receiving social care in each council area. I then drop Falkirk and plot the the results. This plot can be used to compare against the partial effects after accounting for age, sex, multimorbidity status etc.  
+
+```{r tidy_up, fig.width=10.67, fig.height=8}
+sc_24 %>%
+  select(-X1) %>% 
+  mutate(`2011/12` = `2011/12` - first(`2011/12`),
+         `2012/13` = `2012/13` - first(`2012/13`),
+         `2013/14` = `2013/14` - first(`2013/14`),
+         `2014/15` = `2014/15` - first(`2014/15`),
+         `2015/16` = `2015/16` - first(`2015/16`)) %>% 
+  gather(year, pct, `2011/12`:`2015/16`) %>% 
+  arrange(council) %>% 
+  mutate(label = if_else(year == max(year),
+                         council, NA_character_)) %>% 
+  filter(council != "Shetland Islands") %>% 
+  ggplot(aes(year, pct,
+             group = council,
+             colour = council)) +
+  geom_point(size = 2) +
+  geom_path() +
+  geom_hline(yintercept = 0, colour = "#555555") +
+  geom_vline(xintercept = 3.5, linetype = "longdash", colour = "grey30") +
+  geom_label_repel(aes(label = label), nudge_x = 2) +
+  geom_label(aes(x = "2011/12", y = -0.001),
+             label = "Reference group: Shetland Islands",
+             colour = "#555555",
+             hjust = 0) +
+  geom_text(aes(3.55, y = 0.9),
+            label = "Change in data collection after 2013/14",
+            colour = "#AAAAAA",
+            hjust = 0) +
+  scale_colour_ptol(guide = "none") +
+  scale_y_continuous(limits = c(-12, 1.5),
+                     breaks = scales::pretty_breaks()) +
+  scale_x_discrete(expand = expand_scale(add = c(0.1, 0.9))) +
+  labs(x = "",
+       y = "% difference from Shetland council, by year",
+       title = "Percentage difference in over 65s receiving social care",
+       subtitle = "compared to Shetland Islands council") -> sc_24_pct_plot
+sc_24_pct_plot
+  
+```
+
+#Save
+
+```{r save_1}
+ggsave(here("figures/chapter-results-2/sc_24_pct_plot.png"),
+       width = 10.67, height = 8, dpi = 600)
+```
+
