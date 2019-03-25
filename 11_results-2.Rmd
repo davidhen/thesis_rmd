@@ -278,8 +278,8 @@ The R code for the model fitted to the second subset was identical to that repor
 \textbf{} & 9 & 34987 (92.1) & 3015 (7.9) & 38002 &  \\
 \textbf{} & 10 & 45598 (92.8) & 3542 (7.2) & 49140 &  \\
 \textbf{Repeat medicines group} & 0-2 & 82052 (97.3) & 2259 (2.7) & 84311 & \textless{}0.001 \\
-\textbf{} & 03-May & 81945 (93.1) & 6084 (6.9) & 88029 &  \\
-\textbf{} & 06-Aug & 61694 (87.2) & 9094 (12.8) & 70788 &  \\
+\textbf{} & 3-5 & 81945 (93.1) & 6084 (6.9) & 88029 &  \\
+\textbf{} & 6-8 & 61694 (87.2) & 9094 (12.8) & 70788 &  \\
 \textbf{} & 9+ & 53151 (78.3) & 14725 (21.7) & 67876 &  \\
 \textbf{Local Authority} & Shetland Islands & 3393 (86.1) & 548 (13.9) & 3941 & \textless{}0.001 \\
 \textbf{} & Glasgow City & 67579 (88.4) & 8853 (11.6) & 76432 &  \\

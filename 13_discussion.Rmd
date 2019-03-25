@@ -4,91 +4,113 @@ output: pdf_document
 
 \chapter{Discussion}\label{ch:discussion}
 \thispagestyle{empty}
-\section{Main outomes}\label{sec:disc-main-points}
 
-* The aim of this thesis was 1, 2, 3.  
+\section{Key Findings}
 
-**Big point - Health and social care often discussed in terms of lack of social care's effect on delayed discharges etc. BUT, health is a major driver of social care use in the first place. Affirms need for joined up H \& SC services** (maybe not a big point!)
-
-\section{Findings}
-Go through all results and discuss
+\subsection{Multimorbidity and access to social care}
 \begin{itemize}[noitemsep]
-\item Renfrewshire
+\item There *is* an inverse care law
+\item Multimorbidity influences receipt of social care
+\item ..though age is the biggest factor - likely due to frailty??
+\item APEs show effects *after* adjusting for other variables (and interactions) important to discuss what they mean and how i can compare across models. 
+\item Lower rates of receipt in subset 2, but APEs similar across subsets. Edin and Glas in subset 2
+\item Female effect 4\% diff in probability - more likely to live alone?
+\item Magnitude of effects important. 9+ meds == 80-84 ages. i.e. high multimorbidity same effect as aging 15-20 years
+\item Fluctuating APEs for councils to do with baseline level of reference council also fluctuating. Again - *very small changes in APE*
+\end{itemize}
+
+\subsection{Renfrewshire}
 \begin{itemize}[noitemsep]
 \item Brief overview of discussion from chapter
 \item Also discuss implicit finding that finite number of places for social care in Renfrew. Allocation according to \emph{resource} not \emph{need}. 
 \end{itemize}
-\item Descriptives
-\item SC models - Big section. Combine discussion of both models >96% and 92-96%
-\begin{itemize}
-\item APEs show effects *after* adjusting for other variables (and interactions)
-\item Big differences in overall numbers *and* percentages between models (>96 \& 92-95.9). >96 has smaller numbers for very old and much higher percentage (approx 70\%) receiving care compared to national average (approx 45\%). 
-\item Second group of models include both largest cities...
-\item Age by far the biggest effect  
-\item Female effect fairly small after adjustment for age and MM (compared to descriptives) - Does this warrant splitting by sex before modelling? *Wrong 4 percent is quite big actually*
-\item Magnitude of effects important. (Note SIMD * 10 = similar effect of going from 65-69 to 75-79 i.e. being deprived ages you by 10 years)
-\item Variation in APE for LAs could be a few things e.g. budget cuts, data, random. APEs follow percentages to some degree but see e.g. Inverclyde in 2015/16. higher percentage but negative effect. Suggests model adjusting well. 
-\item Bump in APE values for older age groups and high meds related to increase in comm alarm observations from 2014/15 onwards. *note very small effect changes**
-\item Fluctuating APEs for councils to do with baseline level of reference council also fluctuating. Again - *very small changes in APE*
-\end{itemize}
-\item USC models - Big section
-\begin{itemize}
-\item Overall smaller magnitude of effects *except* for the deaders. 
-\item Effects magnitude lower for admission and A \& E compared to any USC
-\item Care home positive effect for any USC but *negative* effect for admission and A \& E
+
+\subsection{Unplanned hospital admission}
+
+\begin{itemize}[noitemsep]
+\item Overall smaller magnitude of effects
+\item High MM largest magnitude effect. Linear effect through groups
+\item Age not as big a driver as SC
+\item SC + USC drive admission. Likely means people with high needs use large amounts of \emph{all} services. 
 \item Overall poorer fitting models.
-\item Fluctuation in APEs at older ages across models likely reflects smaller numbers *but* compare to SC models...
-\end{itemize}
-\item Overall findings
-\begin{itemize}
-\item Tight CIs likely reflect large sample size (wider CI for age > 95 small numbers)
-\item Difference in $R^2$ for USC likely due to fact SC models are subsets of data rather than whole cohort.
-\end{itemize}
 \end{itemize}
 
+\subsection{Descriptives}
 
-\section{Limitations}
-* This was limited by a, b, c (Need to talk about measures chosen, especially the meds MM measure and how I counted meds, here. Also need to discuss lack of PC data as a major limitation with respect to MM)  
-* Social care data - Levels home care steady for me but decreasing in SCS - why is linkage rate steady?
-* No measure for living alone
-* Census week for home care. Compare difference in any care and home care from tab 1 descriptives. Approx 60% (2013/14) of other care (mainly alarms) also use home care. Rough estimate of error. 
-
-\section{Comparisons to previous research}
-* Compare to past research
-
-\section{Implications}
-\subsection{LA Variation}
-* Implications are d, e, f - discuss in light of pro-rich/pro-poor framework
-* Street-level beurocracy? I doubt it. More likely differing knowlege/skills - failure to learn from other areas
-* Inverse Care Law - no evidence with this research - !But not adjusted - future research
-* As above - allocation according to resource not need in Renfrew
+\begin{itemize}[noitemsep]
+\item Medicines decent measure of MM. Clear effects on SC and admissions
+\item SIMD effect of MM reduces with age
+\end{itemize}
 
 \subsection{Social Care data}\label{sec:disc-sc-data}
 
-Discuss quality and collection of SCS (place this nationally/internationally) 
-Is there good sc data anywhere???
-
-What is good/bad - What have I learned?
-
-Consider quantifying home care \emph{plus} alarm/telecare users
+\begin{itemize}[noitemsep]
+\item Discuss quality and collection of SCS (place this nationally/internationally). Is there good sc data anywhere???
+\item What is good/bad - What have I learned?
+\item Consider quantifying home care \emph{plus} alarm/telecare users
+\end{itemize}
 
 \subsection{Linked Administrative Data Research}\label{sec:disc-admin-data}
 
-Dsicuss process of obtaining and analysing linked data
-Potentially useful for sg and others
+\begin{itemize}[noitemsep]
+\item Discuss process of obtaining and analysing linked data. Potentially useful for sg and others
+\item Timeframe!! Probabaly not a good idea to try this for a PhD given timelines
+\item Safe Haven. SDC and software upgrades
+\item Suprevisors need to get used to appraising work *in* safe haven. 600 + outputs SDC. Also means format of how to appraise needs agreed. html??
+\item Good things???
+\item Point to move to re-use data rather than obtain-and-destroy approach
+\end{itemize}
 
-Difficulties encountered
+\section{Comparisons to previous research}
+\begin{itemize}[noitemsep]
+\item ICL - nothing in SC so far?? Namecheck PC stuff
+\item Bardsley and SR of H \& SC studies
+\item Kent economic paper
+\item MM stuff
+\end{itemize}
 
-* Timeframe!!
-* Safe Haven (software upgrade etc.)
-* Benefits
+\section{Strengths and Limitations}
 
-\section{Future research}
-* Future research should:- 
-* Link to census  
-* Measure *longitudinal* changes in social care and impact on usc  
-* Break down SCS and USC variables - any difference in home care patterns? What about Admissions and A & E only?  
-* Look at e.g. those with over 9 meds and *didn't* get social care/usc. What's the craic with them?)
+\subsection{Strengths}
+\begin{itemize}[noitemsep]
+\item Large, population sized linkage
+\item Marginal effects
+\end{itemize}
+
+\subsection{Limitations}
+\begin{itemize}[noitemsep]
+\item Census week for home care. Compare 2013/14 and later years in table 5.1
+\item Linkage of SCS not consistent - difficult to make broad comparisons. Attempted to offset by subsetting. Home care stable though falling in SCS - why?
+\item No measure for living alone
+\item MM measure not validated - limited due to lack of access to PC data
+\end{itemize}
+
+
+\section{Implications}
+
+\subsection{LA Variation}
+
+\begin{itemize}[noitemsep]
+\item ICL important for National and Local Govt in light of policy to reduce inequalities
+\end{itemize}
+
+\section{Recommended future actions and research}
+
+\subsection{Future research}
+\begin{itemize}[noitemsep]
+\item Measure \emph{Longitudinal} changes in social care and impact on admission/usc
+\item Break down SC data - home care/telecare influence on outcomes
+\item Utilise USC data better - include A \& E, NHS24 etc etc
+\item Check post-doc list
+\item Further investigate medicines as measure of MM
+\end{itemize}
+
+\subsection{A good title}
+\begin{itemize}[noitemsep]
+\item Broaden timeframe of SCS collection
+\item Support LAs to provide either CHI or easily provide all ID data for linkage
+\item Better access to Primary Care data for MM research
+\end{itemize}
 
 
 

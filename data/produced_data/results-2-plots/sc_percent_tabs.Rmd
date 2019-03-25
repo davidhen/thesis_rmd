@@ -20,6 +20,7 @@ library(tidyverse)
 library(magrittr)
 library(ggthemes)
 library(ggrepel)
+library(ggforce)
 library(here)
 here()
 theme_set(theme_minimal(base_size = 16))
@@ -29,9 +30,11 @@ theme_set(theme_minimal(base_size = 16))
 
 I have downloaded the csv from the html document `62_social_care_model_25` in the folder "thesis_rmd/figures/chapter-results-2".
 
-```{r load, message=FALSE}
+```{r load, message=FALSE, fig.width = 5.25, fig.height = 7}
 sc_25 <- read_csv(here("data/assets/sc_model_25_tab_2.csv"))
+simd <- read_csv(here("data/assets/simd_la.csv")) 
 ```
+
 
 #Tidy and plot
 
@@ -97,6 +100,47 @@ I have downloaded the csv from the html document `61_social_care_model_24` in th
 sc_24 <- read_csv(here("data/assets/sc_model_24_tab_2.csv"))
 ```
 
+#Alternative plot
+
+```{r sc, fig.width=9, fig.height=6.75}
+sc_25 %>%
+  select(council, `2015/16`) %>% 
+  rename(pct = `2015/16`) %>% 
+  filter(council != "Falkirk") %>% 
+  mutate(ape = c(-0.016, -0.01, -0.012, -0.033, -0.01, -0.029,
+                 -0.05, -0.041)) %>%
+  left_join(., simd) %>% 
+  ggplot(aes(simd_wt, ape, colour = council)) +
+  geom_point() +
+  geom_label_repel(aes(label = council), 
+                   nudge_x = 0.01) +
+  scale_colour_ptol(guide = "none") +
+  scale_y_continuous(limits = c(-0.08, 0)) +
+  scale_x_continuous(limits = c(0, 15)) +
+  labs(x = "weighted average simd %",
+       y = "Average Partial Effect of receiving social care",
+       title = "Comparison of percentage vs partial effect receiving social care",
+       subtitle = "2015/16") 
+```
+
+
+```{r av_simd, fig.width=9, fig.height=6.75}
+simd %>%  
+  group_by(council) %>% 
+  mutate(wt_pct = (simd * frq),
+         simd_wt = round(sum(wt_pct/55)*100,3)) %>% 
+  select(council, simd_wt) %>% 
+  distinct(council, .keep_all = TRUE) %>% 
+  arrange(-simd_wt) -> simd
+simd %>% 
+  ggplot(aes(reorder(council, simd_wt), simd_wt)) +
+  geom_col() +
+  coord_flip() +
+  labs(x = "")
+```
+
+
+
 #Tidy and plot
 
 First thing is to change the values in the table so that they reflect the difference in the percentage of over 65s receiving social care in each council area. I then drop Falkirk and plot the the results. This plot can be used to compare against the partial effects after accounting for age, sex, multimorbidity status etc.  
@@ -148,4 +192,7 @@ sc_24_pct_plot
 ggsave(here("figures/chapter-results-2/sc_24_pct_plot.png"),
        width = 10.67, height = 8, dpi = 600)
 ```
+
+
+
 

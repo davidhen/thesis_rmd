@@ -1,0 +1,297 @@
+,council,simd,n,frq
+1,Aberdeen City,1,192,0.006
+2,Aberdeen City,2,2069,0.062
+3,Aberdeen City,3,3545,0.107
+4,Aberdeen City,4,3567,0.107
+5,Aberdeen City,5,2802,0.084
+6,Aberdeen City,6,2456,0.074
+7,Aberdeen City,7,2635,0.079
+8,Aberdeen City,8,2754,0.083
+9,Aberdeen City,9,3801,0.114
+10,Aberdeen City,10,9397,0.283
+11,Aberdeenshire,1,88,0.002
+12,Aberdeenshire,2,599,0.014
+13,Aberdeenshire,3,1204,0.029
+14,Aberdeenshire,4,2745,0.066
+15,Aberdeenshire,5,3860,0.093
+16,Aberdeenshire,6,5811,0.14
+17,Aberdeenshire,7,5743,0.138
+18,Aberdeenshire,8,9419,0.227
+19,Aberdeenshire,9,6820,0.164
+20,Aberdeenshire,10,5268,0.127
+21,Angus,1,181,0.008
+22,Angus,2,1103,0.046
+23,Angus,3,1654,0.069
+24,Angus,4,2051,0.085
+25,Angus,5,3014,0.125
+26,Angus,6,4685,0.194
+27,Angus,7,2742,0.114
+28,Angus,8,4075,0.169
+29,Angus,9,3652,0.152
+30,Angus,10,937,0.039
+31,Argyll and Bute,1,401,0.021
+32,Argyll and Bute,2,824,0.043
+33,Argyll and Bute,3,1947,0.102
+34,Argyll and Bute,4,1465,0.077
+35,Argyll and Bute,5,2894,0.151
+36,Argyll and Bute,6,5437,0.284
+37,Argyll and Bute,7,2944,0.154
+38,Argyll and Bute,8,1842,0.096
+39,Argyll and Bute,9,887,0.046
+40,Argyll and Bute,10,498,0.026
+41,City of Edinburgh,1,3400,0.047
+42,City of Edinburgh,2,5463,0.076
+43,City of Edinburgh,3,4647,0.065
+44,City of Edinburgh,4,5001,0.07
+45,City of Edinburgh,5,4406,0.062
+46,City of Edinburgh,6,3680,0.051
+47,City of Edinburgh,7,4762,0.066
+48,City of Edinburgh,8,6353,0.089
+49,City of Edinburgh,9,9609,0.134
+50,City of Edinburgh,10,24298,0.339
+51,Dumfries and Galloway,1,1196,0.034
+52,Dumfries and Galloway,2,848,0.024
+53,Dumfries and Galloway,3,2851,0.081
+54,Dumfries and Galloway,4,6725,0.192
+55,Dumfries and Galloway,5,5817,0.166
+56,Dumfries and Galloway,6,7949,0.227
+57,Dumfries and Galloway,7,4206,0.12
+58,Dumfries and Galloway,8,2332,0.067
+59,Dumfries and Galloway,9,1571,0.045
+60,Dumfries and Galloway,10,1561,0.045
+61,Dundee City,1,4632,0.181
+62,Dundee City,2,3291,0.129
+63,Dundee City,3,3442,0.135
+64,Dundee City,4,1929,0.075
+65,Dundee City,5,1573,0.061
+66,Dundee City,6,2066,0.081
+67,Dundee City,7,1733,0.068
+68,Dundee City,8,2153,0.084
+69,Dundee City,9,3018,0.118
+70,Dundee City,10,1743,0.068
+71,East Ayrshire,1,2018,0.088
+72,East Ayrshire,2,4984,0.217
+73,East Ayrshire,3,3429,0.149
+74,East Ayrshire,4,3137,0.137
+75,East Ayrshire,5,2601,0.113
+76,East Ayrshire,6,1503,0.065
+77,East Ayrshire,7,1469,0.064
+78,East Ayrshire,8,1362,0.059
+79,East Ayrshire,9,1681,0.073
+80,East Ayrshire,10,790,0.034
+81,East Dunbartonshire,1,94,0.005
+82,East Dunbartonshire,2,657,0.032
+83,East Dunbartonshire,3,1873,0.091
+84,East Dunbartonshire,4,1484,0.072
+85,East Dunbartonshire,5,526,0.026
+86,East Dunbartonshire,6,556,0.027
+87,East Dunbartonshire,7,1944,0.094
+88,East Dunbartonshire,8,1850,0.09
+89,East Dunbartonshire,9,5589,0.272
+90,East Dunbartonshire,10,6002,0.292
+91,East Lothian,2,597,0.032
+92,East Lothian,3,2176,0.116
+93,East Lothian,4,3171,0.169
+94,East Lothian,5,1747,0.093
+95,East Lothian,6,2689,0.143
+96,East Lothian,7,2736,0.146
+97,East Lothian,8,2482,0.132
+98,East Lothian,9,865,0.046
+99,East Lothian,10,2321,0.124
+100,East Renfrewshire,1,107,0.007
+101,East Renfrewshire,2,731,0.044
+102,East Renfrewshire,3,240,0.015
+103,East Renfrewshire,4,1065,0.065
+104,East Renfrewshire,5,989,0.06
+105,East Renfrewshire,6,1083,0.066
+106,East Renfrewshire,7,872,0.053
+107,East Renfrewshire,8,1566,0.095
+108,East Renfrewshire,9,3698,0.225
+109,East Renfrewshire,10,6109,0.371
+110,Falkirk,1,1367,0.051
+111,Falkirk,2,2621,0.097
+112,Falkirk,3,4969,0.184
+113,Falkirk,4,3484,0.129
+114,Falkirk,5,3416,0.127
+115,Falkirk,6,1992,0.074
+116,Falkirk,7,2731,0.101
+117,Falkirk,8,2374,0.088
+118,Falkirk,9,2599,0.096
+119,Falkirk,10,1416,0.053
+120,Fife,1,4678,0.069
+121,Fife,2,7867,0.115
+122,Fife,3,7628,0.112
+123,Fife,4,7117,0.104
+124,Fife,5,8878,0.13
+125,Fife,6,6730,0.099
+126,Fife,7,5774,0.085
+127,Fife,8,6319,0.093
+128,Fife,9,8089,0.119
+129,Fife,10,5176,0.076
+130,Glasgow City,1,28830,0.352
+131,Glasgow City,2,13677,0.167
+132,Glasgow City,3,8546,0.104
+133,Glasgow City,4,6531,0.08
+134,Glasgow City,5,4693,0.057
+135,Glasgow City,6,4924,0.06
+136,Glasgow City,7,3324,0.041
+137,Glasgow City,8,4494,0.055
+138,Glasgow City,9,4168,0.051
+139,Glasgow City,10,2827,0.034
+140,Highland,1,626,0.015
+141,Highland,2,1599,0.037
+142,Highland,3,2763,0.065
+143,Highland,4,5587,0.131
+144,Highland,5,6918,0.162
+145,Highland,6,7577,0.178
+146,Highland,7,8086,0.19
+147,Highland,8,5628,0.132
+148,Highland,9,2585,0.061
+149,Highland,10,1291,0.03
+150,Inverclyde,1,4027,0.26
+151,Inverclyde,2,2419,0.156
+152,Inverclyde,3,1300,0.084
+153,Inverclyde,4,591,0.038
+154,Inverclyde,5,928,0.06
+155,Inverclyde,6,1664,0.107
+156,Inverclyde,7,1218,0.079
+157,Inverclyde,8,1125,0.073
+158,Inverclyde,9,1857,0.12
+159,Inverclyde,10,354,0.023
+160,Midlothian,1,252,0.016
+161,Midlothian,2,1143,0.075
+162,Midlothian,3,2909,0.19
+163,Midlothian,4,2769,0.181
+164,Midlothian,5,890,0.058
+165,Midlothian,6,2962,0.193
+166,Midlothian,7,1134,0.074
+167,Midlothian,8,1224,0.08
+168,Midlothian,9,511,0.033
+169,Midlothian,10,1516,0.099
+170,Moray,2,107,0.006
+171,Moray,3,1156,0.067
+172,Moray,4,1283,0.074
+173,Moray,5,2352,0.136
+174,Moray,6,2809,0.162
+175,Moray,7,4878,0.281
+176,Moray,8,1909,0.11
+177,Moray,9,2028,0.117
+178,Moray,10,818,0.047
+179,Na h-Eileanan Siar,3,286,0.051
+180,Na h-Eileanan Siar,4,1059,0.188
+181,Na h-Eileanan Siar,5,2574,0.456
+182,Na h-Eileanan Siar,6,1429,0.253
+183,Na h-Eileanan Siar,7,299,0.053
+184,North Ayrshire,1,4563,0.167
+185,North Ayrshire,2,5252,0.192
+186,North Ayrshire,3,3029,0.111
+187,North Ayrshire,4,2257,0.083
+188,North Ayrshire,5,2301,0.084
+189,North Ayrshire,6,2247,0.082
+190,North Ayrshire,7,2695,0.099
+191,North Ayrshire,8,2127,0.078
+192,North Ayrshire,9,2301,0.084
+193,North Ayrshire,10,565,0.021
+194,North Lanarkshire,1,7426,0.143
+195,North Lanarkshire,2,9774,0.188
+196,North Lanarkshire,3,9375,0.181
+197,North Lanarkshire,4,7498,0.144
+198,North Lanarkshire,5,5065,0.098
+199,North Lanarkshire,6,4165,0.08
+200,North Lanarkshire,7,3334,0.064
+201,North Lanarkshire,8,1886,0.036
+202,North Lanarkshire,9,3078,0.059
+203,North Lanarkshire,10,310,0.006
+204,Orkney Islands,3,148,0.035
+205,Orkney Islands,4,508,0.119
+206,Orkney Islands,5,696,0.164
+207,Orkney Islands,6,736,0.173
+208,Orkney Islands,7,1134,0.266
+209,Orkney Islands,8,791,0.186
+210,Orkney Islands,9,118,0.028
+211,Orkney Islands,10,125,0.029
+212,Perth and Kinross,1,473,0.016
+213,Perth and Kinross,2,572,0.019
+214,Perth and Kinross,3,1317,0.044
+215,Perth and Kinross,4,1391,0.047
+216,Perth and Kinross,5,3344,0.113
+217,Perth and Kinross,6,4313,0.145
+218,Perth and Kinross,7,5754,0.194
+219,Perth and Kinross,8,6170,0.208
+220,Perth and Kinross,9,3382,0.114
+221,Perth and Kinross,10,2970,0.1
+222,Renfrewshire,1,3767,0.124
+223,Renfrewshire,2,4039,0.133
+224,Renfrewshire,3,3425,0.113
+225,Renfrewshire,4,3206,0.106
+226,Renfrewshire,5,2859,0.094
+227,Renfrewshire,6,2839,0.094
+228,Renfrewshire,7,1477,0.049
+229,Renfrewshire,8,3779,0.124
+230,Renfrewshire,9,3283,0.108
+231,Renfrewshire,10,1689,0.056
+232,Scottish Borders,1,212,0.009
+233,Scottish Borders,2,832,0.034
+234,Scottish Borders,3,1878,0.077
+235,Scottish Borders,4,2214,0.091
+236,Scottish Borders,5,4817,0.197
+237,Scottish Borders,6,3506,0.143
+238,Scottish Borders,7,6815,0.279
+239,Scottish Borders,8,2178,0.089
+240,Scottish Borders,9,1151,0.047
+241,Scottish Borders,10,842,0.034
+242,Shetland Islands,4,127,0.032
+243,Shetland Islands,5,1035,0.26
+244,Shetland Islands,6,480,0.121
+245,Shetland Islands,7,1623,0.408
+246,Shetland Islands,8,717,0.18
+247,South Ayrshire,1,1472,0.059
+248,South Ayrshire,2,1993,0.08
+249,South Ayrshire,3,2679,0.107
+250,South Ayrshire,4,4161,0.167
+251,South Ayrshire,5,3041,0.122
+252,South Ayrshire,6,1915,0.077
+253,South Ayrshire,7,1474,0.059
+254,South Ayrshire,8,2070,0.083
+255,South Ayrshire,9,3611,0.145
+256,South Ayrshire,10,2563,0.103
+257,South Lanarkshire,1,5134,0.094
+258,South Lanarkshire,2,5607,0.103
+259,South Lanarkshire,3,8575,0.157
+260,South Lanarkshire,4,7609,0.139
+261,South Lanarkshire,5,6851,0.126
+262,South Lanarkshire,6,4762,0.087
+263,South Lanarkshire,7,4206,0.077
+264,South Lanarkshire,8,4542,0.083
+265,South Lanarkshire,9,5123,0.094
+266,South Lanarkshire,10,2149,0.039
+267,Stirling,1,645,0.041
+268,Stirling,2,1206,0.077
+269,Stirling,3,647,0.042
+270,Stirling,4,1786,0.115
+271,Stirling,5,1058,0.068
+272,Stirling,6,1640,0.105
+273,Stirling,7,1410,0.091
+274,Stirling,8,2535,0.163
+275,Stirling,9,1565,0.101
+276,Stirling,10,3075,0.198
+277,West Dunbartonshire,1,1502,0.114
+278,West Dunbartonshire,2,2896,0.22
+279,West Dunbartonshire,3,2414,0.184
+280,West Dunbartonshire,4,1852,0.141
+281,West Dunbartonshire,5,1319,0.1
+282,West Dunbartonshire,6,834,0.063
+283,West Dunbartonshire,7,1309,0.1
+284,West Dunbartonshire,8,701,0.053
+285,West Dunbartonshire,9,169,0.013
+286,West Dunbartonshire,10,140,0.011
+287,West Lothian,1,1314,0.052
+288,West Lothian,2,2950,0.116
+289,West Lothian,3,5076,0.2
+290,West Lothian,4,2839,0.112
+291,West Lothian,5,3965,0.156
+292,West Lothian,6,2051,0.081
+293,West Lothian,7,2044,0.081
+294,West Lothian,8,1774,0.07
+295,West Lothian,9,1753,0.069
+296,West Lothian,10,1579,0.062

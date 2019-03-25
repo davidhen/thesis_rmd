@@ -109,15 +109,8 @@ knitr::opts_knit$set(base.dir = 'chapters/')
 \vspace{1cm}
 \input{04_acro_list}
 
-\newpage
-\section*{Quote}
-\addcontentsline{toc}{section}{Quote}
-
-```{r child = '04a_reid_quote.Rmd'}
-```
-
-
 \setlength{\parskip}{1em}
+
 \newpage
 
 \newpage
