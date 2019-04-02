@@ -4,7 +4,6 @@ output:
     fig_caption: yes
     number_sections: yes
     latex_engine: xelatex
-    dev: png
 documentclass: report
 classoption: a4paper,oneside,table
 citecolor: blue #doesn't work

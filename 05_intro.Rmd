@@ -4,25 +4,89 @@ output: pdf_document
 
 \chapter{Introduction}\label{ch:intro}
 \thispagestyle{empty}
-**Revist Burchardt et al**
 
-Integration of health and social care became law in Scotland on 1st April 2016. Reflects patterns across the developing world to restructure health services to cope with demands of an ageing population. 
+\section{Context}\label{sec:intro-context}
 
-Social Care of increasing policy (and political) importance. Link to healthcare (and demands on health services) becoming increasingly apparent (increase delayed discharge etc).
+Worldwide demographic changes where increases in life expectancy have been driven by better health programmes and treatments has resulted in a growing proportion of the population being over the age of 60 [@RN570; @RN537]. Accompanying this growth is an increase in the prevalence of health conditions most likely to occur in middle-aged and older adults and also the presence of two or more chronic health conditions in one individual - the broadest definition of multimorbidity [@RN570; @RN537; @RN576; @RN93; @RN226]. These changes are seen across the world in both developed and developing nations where non-communicable diseases have replaced communicable diseases as the major burden of healthcare and contributing to two-thirds of all deaths [@RN570; @RN537; @RN288; @RN160]. The increasing prevalence of multimorbidity has profound impacts for policymakers and research. 
 
-This, in part, due to long-term conditions now major burden of global disease (replacing infectious diseases). Large proportions of population have multimorbidity (OECD) which has a number of negative outcomes including mortality and health care use.
-
-Association of multimorbidity and social care use is unknown. 
-
-PhD funding from Scottish Government to assess these topics. (2020 vision and other policy link)
-
-Important part of the funding to link administrative data sources in order to identify the benefit of this process. 
-*Measurement of social (or LTC) is improtant for a number of reseons - OECD(2013) page 18, Care co-ordination (integration) is not measured well pp 76, administrative databases potential to help these problems plus ideas for outcome measures pp 76 & 79, pp81 obstacles to data collection (overcome by data linkage in Soctland??*
-
-(Need WHO policy outlines and other suitable high-level policy docs in this section)
+Policymakers in developed countries have to identify ways of financing care where demand is increasing (due to older populations and increased multimorbidity), but supply is decreasing (due to the impacts of budgetary restraint following the financial crash of 2008)[]. Simultaneously,
 
 
-Many countries, including the United Kingdom (UK), have recently seen policies implemented that aim to integrate the provision of health and social care services \href{RN234} [@RN234; @RN362; @RN262]. In addition to reducing variations in the provision of care across geographic areas, these policies hope to save public money by reducing unplanned admissions and delayed discharges from hospital whilst also improving the quality of services for individuals [@RN232; @RN266; @RN406].
+Providers - Shift to PC, specialist v generalist
+
+Regardless of how it is defined, there is widespread recognition that multimorbidity is a growing problem worldwide with some evidence suggesting there are disproportionate effects for women and those of lower socioeconomic position [@RN570; @RN15; @RN33]. Although the association between multimorbidity and increasing age is well documented [@RN570; @RN155], a large proportion of younger, working age adults also have multiple chronic conditions [@RN403; @RN615]. In one landmark study, the absoloute number of people with multimorbidity under the age of 65 was higher than for those over 65 [@RN33]. 
+
+Health services, health research, and health guidelines are predominantly designed around single diseases [@RN570; @RN155; @RN403]. Clinical guidelines are often based on the results of Randomised Controlled Trials (RCTs) which often exclude those of older age, and those with multimorbidity. The absence of these groups in trials of treatments means  [@RN616; @RN617].  evidence leaving those with multimorbidity being treated by multiple health practitioners with the risk of  receiving multiple treatments from multiple specialities at risk of conflicting treatments
+
+Individuals - treatment burden. Outcomes
+
+One notable omission in literature \emph{and} guidelines is effect on social care. Most position papers concentrate on \emph{health} services. What about SC?? NICE guideline
+
+\begin{itemize}[noitemsep]
+  \item MM
+  \begin{itemize}[noitemsep]
+    \item 1 OECD and high level dosuments
+    \item 2
+    \item 3
+    \item ..but no idea of effect on Social Care
+  \end{itemize}
+  \item SC
+  \begin{itemize}[noitemsep]
+    \item SC delivered differently around the world
+    \item Funding issues
+    \item Revist Burchardt et al
+  \end{itemize}
+  \item MM + SC
+    \begin{itemize}[noitemsep]
+    \item Important as increasing imp/explicit understanding of interaction
+    \item Policies reflect this, WHO etc.
+    \item Legislated in Scotland
+    \item Effect of SC on hospital admission
+    \item Evidence is sparce/poor
+  \end{itemize}
+  \item Data Linkage
+    \begin{itemize}[noitemsep]
+    \item Offers potential to empirically investigate cross-sectoral questions
+    \item Measurement of social (or LTC) is important for a number of reseons - OECD(2013) page 18, Care co-ordination (integration) is not measured well pp 76, administrative databases potential to help these problems plus ideas for outcome measures pp 76 \& 79, pp81 obstacles to data collection (overcome by data linkage in Soctland)
+    \item SG funding for PhD explicitly to do this 2020 vision + policy
+  \end{itemize}
+\end{itemize}
+
+
+\section{Aims}\label{sec:intro-aims}
+
+\begin{itemize}[noitemsep]
+\item Identify best resource of sc data and assess suitability for research
+\item Create a linked dataset that can be used to answer questions relevant to the provision of health and social care services 
+\item Describe the relationship between MM and SC
+\item Describe the relationship between SC use and unplanned hospital admission
+\end{itemize}
+
+\section{Objectives}\label{sec:intro-objs}
+
+\begin{itemize}[noitemsep]
+\item Identify SC data sources by liaison with relevant stakeholders
+\item Identify best HC data sources suitable to achieve aims
+\item Assess to what extent measures of multimorbidity and health \& social care service use can be operationalised using existing health and social care administrative data.
+\item Obtain governance approval for data linkage
+\item Clean and analyse linked data in accordance with aims and RQs
+\item Make recommendations to policy makers on administrative data collections.
+\end{itemize}
+
+\section{Scientific contribution}\label{sec:intro-contrib}
+
+\begin{itemize}[noitemsep]
+\item First description of the relationship between SC and MM (in UK)
+\item First \emph{national} level study looking at SC and unplanned hosp admission
+\end{itemize}
+
+
+\section{Thesis structure}\label{sec:lit-review-structure}
+
+
+**Below old stuff**
+
+Many countries, including the United Kingdom (UK), have recently seen policies implemented that aim to integrate the provision of health and social care services [@RN234; @RN362; @RN262]. In addition to reducing variations in the provision of care across geographic areas, these policies hope to save public money by reducing unplanned admissions and delayed discharges from hospital whilst also improving the quality of services for individuals [@RN232; @RN266; @RN406].
 
 The World Health Organisation [-@RN320] cites relative inequalities in improvements of health and life expectancy, within and between countries, as justification for recommended structural change to healthcare [@RN320]. The paradigm shift in the method of service delivery is suggested in response to increasing long-term, chronic conditions forming the major burden of care worldwide. Integrating health and social care services and increasing primary care spend are cited as two potential ways of facilitating this shift in focus [@RN320].
 
@@ -30,53 +94,6 @@ Policies introduced that facilitate integration of services have been implemente
 
 Until recently many local authorities had attempted to protect front-line services, such as social care, from austerity cuts [@RN117]. However, given continued year-on-year reductions and a further 7.2% cut to local authority spending in 2016/2017 [@RN251], the ability to protect social care from reductions in spend becomes less likely. Decreased local government budgets across the UK and Scotland since 2010 have affected those living in the poorest areas hardest [@RN117; @RN235]. If social care budgets decrease further, the question of whether the most deprived areas will feel these cuts most is of grave importance.
 
+**Ends**
 
-
-
-\section{Aims and Objectives}\label{sec:intro-aims-and-obs}
-
-Does an inverse *social* care law exist? i.e. Does the allocation of resources (via funding formulae) to Local Authorities negatively impact on those areas with higher need? 
-
-Furthermore, does access to social care vary across Local Authorities - is there a "postcode lottery" in terms of service provision i.e. does application of eligibility criteria depend on where you live?  
-
-Is multimorbidity status associated with levels of social care provided within *and* across local authorities? What is the best way to measure multimorbidity? Do clustering techniques offer a better understanding of this phenomenon?
-
-Important to understand how access to social care influences health care use and mortality - do those with multimorbidity and social care have different outcomes from those with multimorbidity and no social care?
-
-The thesis has both substantive and methodological aims. Substantively, it aims to contribute to the debate surrounding health and social care integration by looking specifically at a group that are likely to be regular users of both health and social care services, i.e. those with multimorbidity. Methodologically, the thesis aims to contribute to efforts to improve the exploitation of administrative data as a means to analyse public service performance and effectiveness. 
-
-Aims of the project are:- 
-
-\begin{enumerate}[noitemsep]
-\item Describe and compare social inequalities in the use of social care services using linked health and social care data.
-\item Explore the effects of social care use for those with multimorbidity on 
-\begin{enumerate} 
-\item unscheduled health care use and
-\item mortality. 
-\end{enumerate}
-\end{enumerate}
-
-
-
-The objectives of the project are:-
-
-\begin{enumerate}[noitemsep]
-\item To assess how access to social care services varies for people with multimorbidity, especially by socioeconomic status.  
-\item To assess the impacts of social care service use on health service use and health outcomes for people with multimorbidity, where possible exploiting geographic differences in social care as "natural experiments".
-\item To make recommendations for policy on the future of integration of health and social care services based on these results.
-\item To assess tho what extant measures of multimorbidity and of health and social care service use can be operationalised using existing linked health and social care administrative data.
-\item To make recommendations to policy makers on administrative data collections. 
-\end{enumerate}
-
-
-\section{Scientific contribution}\label{sec:intro-contribution}
-
-Explicit description of what thesis adds to knowledge
-
-\section{Conventions}\label{sec:intro-conventions}
-
-Outline definitions
-
-* Social care refers to Adult social care (with link to subsection \ref{subsec:access-sc-defs})
-* Multimorbidity and morbidity burden as opposed to comorbidity (with link to subsection \ref{subsec:mm-defs})
 

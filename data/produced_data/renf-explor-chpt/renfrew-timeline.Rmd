@@ -9,9 +9,9 @@ output: html_document
 library(ggplot2)
 library(dplyr)
 library(ggalt)
-library(cowplot)
 library(tibble)
 library(lubridate)
+theme_set(theme_minimal(base_size = 16))
 
 #Create data to plot
 data <- tribble( ~start_date, ~event, ~displ,
@@ -24,8 +24,9 @@ data <- tribble( ~start_date, ~event, ~displ,
                 ymd(20170403), "1st draft DSA received", -0.5,
                 ymd(20170601), "2nd draft DSA received", 0.5,
                 ymd(20170906), "DSA signed", 0.3,
-                ymd(20170921), "Data transferred", -0.5,
-                ymd(20180528), "Analysis complete", 0.5)
+                ymd(20170921), "Data transferred", -0.25,
+                ymd(20180528), "Initial analysis complete", 0.5,
+                ymd(20190228), "Final analysis complete", 0.25)
 
 
 #Function to shift x-axis to 0 taken from https://stackoverflow.com/questions/39071002/moving-x-or-y-axis-together-with-tick-labels-to-the-middle-of-a-single-ggplot-n
@@ -57,16 +58,18 @@ p1 <- data %>%
         axis.ticks.y = element_blank(),
         axis.line = element_blank(),
         axis.text.x = element_text(size = 11),
-        plot.caption = element_text(size = 12, colour = "#808080")) +
-  expand_limits(x = c(ymd(20151201), ymd(20181001)), y = c(1.2, -0.6)) +
-  scale_x_date(breaks = scales::pretty_breaks(n = 10)) +
+        plot.caption = element_text(size = 12, colour = "#808080"),
+        panel.grid = element_blank()) +
+  expand_limits(x = c(ymd(20160101), ymd(20190901)), y = c(1.2, -0.6)) +
+  scale_x_date(breaks = scales::date_breaks("3 month"),
+               labels = scales::date_format(format = "%b-%Y")) +
   labs(caption = "UBDC = Urban Big Data Centre\nRAC = Research Approvals Committee\nDSA = Data Sharing Agreement")
 
 #and run the function from above
-timeline <- shift_axis(p1, ymd(20151201), ymd(20180901))
+timeline <- shift_axis(p1, ymd(20160101), ymd(20190901))
 timeline
-ggsave("/Users/hedgi/OneDrive - University of Glasgow/GitHub/thesis_rmd/figures/chapter-renf/renf-timeline.png", timeline, height = 4, width = 14,
-       dpi = 600)
+ggsave("/GitHub/thesis_rmd/figures/chapter-renf/renf-timeline.png", 
+       timeline, height = 4, width = 14, dpi = 600)
 rm(list = c("data", "p1", "timeline", "vjust", "shift_axis"))
 ```
 

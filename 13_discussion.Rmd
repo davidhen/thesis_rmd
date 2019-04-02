@@ -7,10 +7,9 @@ output: pdf_document
 
 \section{Key Findings}
 
-\subsection{Multimorbidity and access to social care}
+\subsection{Multimorbidity and social care}
 \begin{itemize}[noitemsep]
-\item There *is* an inverse care law
-\item Multimorbidity influences receipt of social care
+\item Multimorbidity influences receipt of social care. 
 \item ..though age is the biggest factor - likely due to frailty??
 \item APEs show effects *after* adjusting for other variables (and interactions) important to discuss what they mean and how i can compare across models. 
 \item Lower rates of receipt in subset 2, but APEs similar across subsets. Edin and Glas in subset 2
@@ -32,7 +31,7 @@ output: pdf_document
 \item High MM largest magnitude effect. Linear effect through groups
 \item Age not as big a driver as SC
 \item SC + USC drive admission. Likely means people with high needs use large amounts of \emph{all} services. 
-\item Overall poorer fitting models.
+\item Link to "intensification" of SC in lit review. Numbers now so small, can't assess if protective effect for those with less need.
 \end{itemize}
 
 \subsection{Descriptives}
@@ -79,10 +78,11 @@ output: pdf_document
 
 \subsection{Limitations}
 \begin{itemize}[noitemsep]
+\item Not really assessed Access to social care (mention time constraint?)
 \item Census week for home care. Compare 2013/14 and later years in table 5.1
 \item Linkage of SCS not consistent - difficult to make broad comparisons. Attempted to offset by subsetting. Home care stable though falling in SCS - why?
 \item No measure for living alone
-\item MM measure not validated - limited due to lack of access to PC data
+\item MM measure not validated - limited due to lack of access to PC data, Also means cannot address important MM questions as laid by AMS e.g. "Which clusters result in the greatest healthcare utilisation and greatest cost?"
 \end{itemize}
 
 
@@ -91,7 +91,10 @@ output: pdf_document
 \subsection{LA Variation}
 
 \begin{itemize}[noitemsep]
-\item ICL important for National and Local Govt in light of policy to reduce inequalities
+\item MM effect on SC raises important message for policymakers. 
+\item Strong argument for universal PC is that it improves access and therefore chance to prevent ill health etc [@RN599, 7]. (although ICL still present)
+\item Social care is not universal therefore has poorer access therefore any hope of preventative care is unlikely
+\item *If* care was broadend - would need an accurate measure of *need* How should this be defined? How should care be allocted due to it?
 \end{itemize}
 
 \section{Recommended future actions and research}
