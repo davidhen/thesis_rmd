@@ -7,7 +7,7 @@ output: pdf_document
 
 \section{Context}\label{sec:intro-context}
 
-Worldwide demographic changes where increases in life expectancy have been driven by better health programmes and treatments has resulted in a growing proportion of the population being over the age of 60 [@RN570; @RN537]. Accompanying this growth is an increase in the prevalence of health conditions most likely to occur in middle-aged and older adults and also the presence of two or more chronic health conditions in one individual - the broadest definition of multimorbidity [@RN570; @RN537; @RN576; @RN93; @RN226]. These changes are seen across the world in both developed and developing nations where non-communicable diseases have replaced communicable diseases as the major burden of healthcare and contributing to two-thirds of all deaths [@RN570; @RN537; @RN288; @RN160]. The increasing prevalence of multimorbidity has profound impacts for policymakers and research. 
+Worldwide demographic changes where increases in life expectancy have been driven by better health programmes and treatments has resulted in a growing proportion of the population being over the age of 60 [@RN570; @RN537]. Accompanying this growth is an increase in the prevalence of health conditions most likely to occur in middle-aged and older adults and also the presence of two or more chronic health conditions in one individual - the broadest definition of multimorbidity [@RN570; @RN537; @RN576; @RN93; @RN226]. These changes are seen across the world in both high-income and low-to-middle-income countries where non-communicable diseases have replaced communicable diseases as the major burden of healthcare and contributing to two-thirds of all deaths [@RN570; @RN537; @RN288; @RN160]. The increasing prevalence of multimorbidity has profound impacts for policymakers and research. 
 
 Policymakers in developed countries have to identify ways of financing care where demand is increasing (due to older populations and increased multimorbidity), but supply is decreasing (due to the impacts of budgetary restraint following the financial crash of 2008)[]. Simultaneously,
 
@@ -15,6 +15,8 @@ Need to add [@RN155]
 
 
 Providers - Shift to PC, specialist v generalist
+
+Levels of multimorbidity in the Scottish population follow a stark socioeconomic profile with those of lower socioeconomic position having higher levels of multiple conditions and more complex care needs which develop 10-15 years earlier than their more affluent peers [@RN33; @RN21]. This inequality in outcome is compounded by the fact that primary care provision in areas of higher socioeconomic disadvantage, ergo areas of higher need, receive the same or less funding as other more affluent areas. This inequity in provision of service demonstrates existence of the inverse care law in primary care services [@RN120; @RN39; @RN148] and has already been discussed in section \ref{subsubsec:theory-resources}.
 
 Regardless of how it is defined, there is widespread recognition that multimorbidity is a growing problem worldwide with some evidence suggesting there are disproportionate effects for women and those of lower socioeconomic position [@RN570; @RN15; @RN33]. Although the association between multimorbidity and increasing age is well documented [@RN570; @RN155], a large proportion of younger, working age adults also have multiple chronic conditions [@RN403; @RN615]. In one landmark study, the absoloute number of people with multimorbidity under the age of 65 was higher than for those over 65 [@RN33]. 
 
@@ -29,7 +31,7 @@ One notable omission in literature \emph{and} guidelines is effect on social car
   \begin{itemize}[noitemsep]
     \item 1 OECD and high level dosuments
     \item 2
-    \item 3
+    \item 3 Health inequality
     \item ..but no idea of effect on Social Care
   \end{itemize}
   \item SC
@@ -74,6 +76,23 @@ One notable omission in literature \emph{and} guidelines is effect on social car
 \item Clean and analyse linked data in accordance with aims and RQs
 \item Make recommendations to policy makers on administrative data collections.
 \end{itemize}
+
+\section{Research questions}\label{sec:intro-rq}
+
+These broad issues inform the background of this thesis. Funding for the PhD was provided by the Scottish Government with the specific intention of exploring the possibilities of linking routinely held health and social care data to address these issues. Based on the aims and objectives described in chapter \ref{ch:intro} and the literature reviewed in this chapter the following research questions have been formulated:- 
+
+In people over the age of 65 in Scotland:
+
+1. 
+\begin{enumerate}[noitemsep]
+\item What are the socioeconomic, demographic, and geographic patterns in the use of social care? \item Is there an association between multimorbidity status and the amount and type of social care use over time? Does this vary by the patterns described in 1(a)?  
+\end{enumerate}
+2. 
+\begin{enumerate}[noitemsep]
+\item Is there an association in the use of social care services, multimorbidity status and unscheduled health care use?
+\item Do multimorbidity status and social care use predict mortality?
+\end{enumerate}
+ 
 
 \section{Scientific contribution}\label{sec:intro-contrib}
 

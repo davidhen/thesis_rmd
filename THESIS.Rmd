@@ -101,7 +101,7 @@ knitr::opts_knit$set(base.dir = 'chapters/')
 ```
 
 \newpage
-\fancyhead[CO,CE]{Abbreviations}
+\fancyhead[CO,CE]{List of Abbreviations}
 \addcontentsline{toc}{section}{List of Abbreviations}
 \vspace{2cm}
 \section*{\huge{List of Abbreviations}}\label{acros}
