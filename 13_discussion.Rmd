@@ -105,7 +105,7 @@ output: pdf_document
 \item Break down SC data - home care/telecare influence on outcomes
 \item Utilise USC data better - include A \& E, NHS24 etc etc
 \item Check post-doc list
-\item Further investigate medicines as measure of MM
+\item Further investigate medicines as measure of MM - try chapter counts [@RN228] or continuous rather than categorical
 \end{itemize}
 
 \subsection{A good title}
