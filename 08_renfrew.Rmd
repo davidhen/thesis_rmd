@@ -171,20 +171,20 @@ There were 10,437 individuals included in the time series over the whole study p
 \begin{tabular}{@{}lrrrrrrrrrr@{}}
 \toprule
  & \textbf{2006/07} & \textbf{2007/08} & \textbf{2008/09} & \textbf{2009/10} & \textbf{2010/11} & \textbf{2011/12} & \textbf{2012/13} & \textbf{2013/14} & \textbf{2014/15} & \textbf{2015/16} \\ \midrule
-\textbf{Records} & 77554 & 79627 & 82765 & 83752 & 77734 & 69618 & 73287 & 82874 & 87071 & 91870 \\
-\textbf{N} & 2435 & 2486 & 2577 & 2577 & 2323 & 2262 & 2537 & 2799 & 2962 & 3106 \\
-\textbf{Mainstream} & 2383 & 2367 & 2329 & 2278 & 2047 & 1757 & 1762 & 1998 & 2164 & 2244 \\
-\textbf{Meals Service} & 0 & 331 & 958 & 958 & 900 & 857 & 846 & 923 & 985 & 1017 \\
-\textbf{Reablement} & 0 & \textless{}30 & \textless{}30 & \textless{}30 & \textless{}30 & 344 & 930 & 871 & 895 & 930 \\
-\textbf{Rapid Response} & 131 & 267 & 134 & 148 & \textless{}30 & 181 & 254 & 197 & 182 & 123 \\
-\textbf{Extra Care Housing} & 0 & \textless{}30 & 73 & 102 & 101 & 100 & 110 & 101 & 120 & 118 \\
-\textbf{Housing Support} & \textless{}30 & \textless{}30 & \textless{}30 & \textless{}30 & \textless{}30 & \textless{}30 & \textless{}30 & \textless{}30 & \textless{}30 & \textless{}30 \\
-\textbf{Overnight Services} & 31 & 43 & 49 & 54 & 38 & 69 & 89 & 96 & 59 & 54 \\
-\textbf{Mental Health} & \textless{}30 & \textless{}30 & \textless{}30 & \textless{}30 & \textless{}30 & \textless{}30 & \textless{}30 & \textless{}30 & \textless{}30 & \textless{}30 \\ \bottomrule
+\textbf{Records (n)} & 77554 & 79627 & 82765 & 83752 & 77734 & 69618 & 73287 & 82874 & 87071 & 91870 \\
+\textbf{N (n)} & 2435 & 2486 & 2577 & 2577 & 2323 & 2262 & 2537 & 2799 & 2962 & 3106 \\
+\textbf{Mainstream} & 98 & 95 & 90 & 88 & 88 & 78 & 69 & 71 & 73 & 72 \\
+\textbf{Meals Service} & 0 & 13 & 37 & 37 & 39 & 38 & 33 & 33 & 33 & 33 \\
+\textbf{Reablement} & 0 & 0 & 0 & 0 & 1 & 15 & 37 & 31 & 30 & 30 \\
+\textbf{Rapid Response} & 5 & 11 & 5 & 6 & 0 & 8 & 10 & 7 & 6 & 4 \\
+\textbf{Extra Care Housing} & 0 & 1 & 3 & 4 & 4 & 4 & 4 & 4 & 4 & 4 \\
+\textbf{Housing Support} & 1 & 1 & 1 & 1 & \textless{}1 & \textless{}1 & \textless{}1 & \textless{}1 & \textless{}1 & \textless{}1 \\
+\textbf{Overnight Services} & 1 & 2 & 2 & 2 & 2 & 3 & 4 & 3 & 2 & 2 \\
+\textbf{Mental Health} & \textless{}1 & \textless{}1 & \textless{}1 & \textless{}1 & \textless{}1 & \textless{}1 & \textless{}1 & \textless{}1 & \textless{}1 & \textless{}1 \\ \bottomrule
 \end{tabular}%
 \begin{tablenotes}
 \item Individuals can receive more than one service in any year
-\item Small numbers suppressed to prevent individual disclosure
+\item All values rounded to nearest percent unless otherwise denoted
 \end{tablenotes}
 \end{threeparttable}%
 }
@@ -233,10 +233,24 @@ Finally, figure \ref{fig:ren-hc-counts} and table \ref{tab:ren-hc-counts} show t
 \FloatBarrier
 \subsection{Total care provided}\label{sec:prop-care}
 
-Whilst the percentage of individuals captured by the census varied from 57% to 62%, the share of all home care provided these individuals received (calculated by the sum of total hours of home care per week and number of meals per week multiplied by the number of weeks of care) varied from 71% to 78% (figure *FIG*). This value peaked in 2009/10 and has gradullay reduced since then. 
+\begin{figure}[h]
+  \centering
+    \includegraphics{figures/chapter-renf/01_total_care.pdf}
+    \caption{Share of all home care received by indiviudals}
+    \label{fig:renf-totalcare}
+\end{figure}
+
+Whilst the percentage of individuals captured by the census varied from 57% to 62%, the share of all home care provided these individuals received (calculated by the sum of total hours of home care per week and number of meals per week multiplied by the number of weeks of care) varied from 71% to 78% (figure \ref{fig:renf-totalcare}). This value peaked in 2009/10 and has gradually reduced since then. 
 
 
-If the home care data had been collected from quarter 4 in each year, this value would have risen to between 84% and 88% (figure *FIG*). 
+\begin{figure}[h]
+  \centering
+    \includegraphics{figures/chapter-renf/01a_total_q4_care.pdf}
+    \caption{Share of all home care received by indiviudals - notional one quarter census}
+    \label{fig:ren-totalq4care}
+\end{figure}
+
+If the home care data had been collected from quarter 4 in each year, this value would have risen to between 84% and 88% (figure \ref{fig:ren-totalq4care}). 
 
 
 \FloatBarrier
@@ -246,7 +260,7 @@ If the home care data had been collected from quarter 4 in each year, this value
 
 \begin{figure}[h]
   \centering
-    \includegraphics{figures/chapter-renf/02_age_sex_plot.pdf}
+    \includegraphics{figures/chapter-renf/02_age_sex.pdf}
     \caption{Age and sex groups receiving home care}
     \label{fig:ren-age-sex}
 \end{figure}
@@ -270,7 +284,7 @@ The introduction and increasing usage of reablement services over time shown in 
 
 \begin{figure}[h]
   \centering
-    \includegraphics{figures/chapter-renf/04_overall_dur_plot.pdf}
+    \includegraphics{figures/chapter-renf/04_dur_1.pdf}
     \caption{Duration of home care}
     \label{fig:ren-duration-1}
 \end{figure}

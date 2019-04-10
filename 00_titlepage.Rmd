@@ -15,7 +15,7 @@ output: pdf_document
 
 \Huge
 
-{\bf Multimorbidity and Access to Social Care: exploiting emerging administrative data sources in Scotland}
+{\bf Multimorbidity and Social Care: exploiting emerging administrative data sources in Scotland}
 
 \vspace{1.5 cm}
 
