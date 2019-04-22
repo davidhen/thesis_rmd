@@ -26,6 +26,12 @@ Individuals - treatment burden. Outcomes
 
 One notable omission in literature \emph{and} guidelines is effect on social care. Most position papers concentrate on \emph{health} services. What about SC?? NICE guideline
 
+*edit this*
+
+Internationally, provision of social care has become one of the most important issues for policy makers in recent years [@RN406; @RN250] \textit{Context, Trump, Korea, ISIS etc). Some of the key principles of health and social care integration legislation in Scotland are aimed at improving care for those with multiple long-term health conditions - also known as multimorbidity [@RN266; @RN251]. In Scotland, approximately two-thirds of individuals receiving social care services are over the age of 65 [@RN128] whilst approximately two-thirds of all those over the age of 65 have multimorbidity [@RN33]. 
+
+It would seem intuitive that a large proportion of those receiving social care have multimorbidity. However, no single data source exists that allows this comparison to be made. Nevertheless, guidelines exist for healthcare professionals to assist in assessing the social care needs of older people with multiple long term conditions [@RN150]. Multimorbidity is associated with a number of negative outcomes including increased health care usage [@RN226]. Whether multimorbidity increases use of social care services is unknown but this could have an important role in informing policy decisions regarding social care provision.
+
 \begin{itemize}[noitemsep]
   \item MM
   \begin{itemize}[noitemsep]
