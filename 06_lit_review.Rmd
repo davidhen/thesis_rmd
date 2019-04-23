@@ -137,11 +137,11 @@ There are four ways in which social care can be provided to those in need; infor
 
 There is wide consensus that lower birth rates and higher proportions of older people mean that a gap has emerged in the number of adult children able to provide informal care to their parents [@RN342; @RN343; @RN344; @RN346; @RN345; @RN414]. Traditionally, informal care was provided by women. As gender equality improves, more women are employed in non-domestic settings which has reduced the pool of informal social care available [@RN342]. Anttonen [-@RN342] also cites changes in societal attitudes from "familism" to "individualism" as having an impact on informal care resources. These combined factors mean that informal care services are no longer as readily available and formal care mechanisms are increasingly required to provide social care. Pressures on these services has seen increased discussion and comparison of models of care across Europe over the last 20 years [@RN347; @RN348; @RN346; @RN349].
 
-These issues are particularly salient given financial constraints in public funding following the financial crash of 2008. [@RN250; @RN343; @RN535]. In countries where a large proporion of services are provided from the public purse, austerity measures have resulted in cuts in the number of people receiving social care [@RN250; @RN343; @RN173]. There is little research detailing the impact this has had on those no longer receiving formal care services although increases in delayed discharges from hospital in the UK are one outcome the cuts are thought to contribute to [@RN250]. 
+These issues are particularly salient given financial constraints in public funding following the financial crash of 2008. [@RN250; @RN343; @RN535]. In countries where a large proporion of services are provided from the public purse, austerity measures have resulted in cuts in the number of people receiving social care [@RN250; @RN343; @RN173]. Indeed social care provision in England covers only the poorest of individuals with the highest care needs [@RN630]. There is little research detailing the impact this has had on those no longer receiving formal care services although increases in delayed discharges from hospital in the UK are one outcome the cuts are thought to contribute to [@RN250]. 
 
 IN the UK there is an important difference between social care and health care funding and access. Health care is universally provided free at the point of need by the NHS. Social care is commissioned by local, rather than central, government and is means and needs-tested [@RN173; @RN250], although there are many areas where the services overlap [@RN510]. These arrangements are poorly understood by the public, many of whom only find out they are required to pay for social care at the moment they first need it [@RN250; @RN535]. 
 
-Some argue that social care has been relegated in terms of policy importance because is not directly provided by national government [@RN173]. The most recent UK government social care green paper has been delayed on numerous occasions [ref] which may indicate political apprehension in addressing the difficult decisions that are required in order to find a funding solution for social care [@RN535]. This may be due to the negative effect on electoral success encountered by political parties willing to discuss these difficulties at the 2010 and 2017 general elections [@RN535]. Nevertheless, state intervention of some kind is the only way of addressing the gap between supply and demand as private insurers are unwilling to enter the social care market due to the unpredictability of risk [@RN409; @RN535]. 
+Some argue that social care has been relegated in terms of policy importance because is not directly provided by national government [@RN173]. The most recent UK government social care green paper has been delayed on numerous occasions [@RN632] which may indicate political apprehension in addressing the difficult decisions that are required in order to find a funding solution for social care [@RN535; @RN630]. This may be due to the negative effect on electoral success encountered by political parties willing to discuss these difficulties at the 2010 and 2017 general elections [@RN535]. Nevertheless, state intervention of some kind is the only way of addressing the gap between supply and demand as private insurers are unwilling to enter the social care market due to the unpredictability of risk [@RN409; @RN535; @RN630]. 
 
 In 2002 the reccomendations of a Royal Commission on long term care for older people [@RN629] were ignored by the UK government. Scotland was the only part of the UK to implement the policy of free personal care for those over the age of 65 - regardless of means [@RN591]. The policy, which is still subject to a needs-test, has more recently been extended to all adults [@RN628]. Although the removal of a means-test for free personal eases some of the financial burden for users, access to care still regulated through the needs-test. Overall numbers of individuals in Scotland receiving social care continues to fall suggesting eligibility criteria for receiving care are tightening. Moreover, free personal care does not remove the most expensive outlay in terms of social care - namely the high costs of residential care [@RN591].    
 
@@ -149,19 +149,17 @@ This section reviews literature on these broad issues in more depth in five sect
 
 \subsection{Definitions}\label{subsec:access-sc-defs}
 
-There is no internationally (or nationally) accepted definition of social care. Indeed, the difference between what is social care and what is health care has no clear line of demarcation resulting in local variation in provision of services [@RN371]. The Organisation for Economic Co-operation and Development (OECD) and the European Union (EU) jointly published a report on Long Term Care (LTC) for older people discussing much of what may be described in the UK as social care. In the report, LTC is defined as,
+This section identifies the different ways social care has been defined in literature in the UK and internationally. Further definitions relevant to the thesis, particularly in relation to social care subservices provided in Scotland are also discussed. 
 
-\begin{quotation}
-"... a range of services required by persons with a reduced degree of functional capacity, physical or cognitive, and who are consequently dependent for an extended period of time on help with basic activities of daily living (ADL). This "personal care" component is frequently provided in combination with help with basic medical services such as "nursing care" (wound dressing, pain management, medication, health monitoring), as well as prevention, rehabilitation or palliative care. Long-term care services can also be combined with lower level care related to “domestic help” or help with instrumental activities of daily living (IADL)." 
-\end{quotation} [@RN406, pp38]
+\subsubsection{Social Care}\label{subsubsec:sc-def}
 
-A recent NICE guideline [-@RN150] addressing social care needs for older people with multiple chronic conditions used a definition provided in the UK Health and Social Care Act [-@RN149]:-
+There is no internationally (or nationally) accepted definition of social care. Indeed, the difference between what is social care and what is health care has no clear line of demarcation resulting in local variation in provision of services [@RN371]. A recent NICE guideline [-@RN150] addressing social care needs for older people with multiple chronic conditions used a definition provided in the UK Health and Social Care Act [-@RN149]:-
 \begin{quotation}
 	““Adult social care”—
-	(a) includes all forms of personal care and other practical assistance provided for individuals who, by reason of age, illness, disability, pregnancy, childbirth, dependence on alcohol or drugs, or any other similar circumstances, are in need of such care or other assistance, but 
-	(b) does not include anything provided by an establishment or agency for which Her Majesty’s Chief Inspector of Education, Children’s Services and Skills is the registration authority under section 5 of the Care Standards Act 2000.”
+	... includes all forms of personal care and other practical assistance provided for individuals who, by reason of age, illness, disability, pregnancy, childbirth, dependence on alcohol or drugs, or any other similar circumstances, are in need of such care or other assistance, ...”
 	(The Health and Social Care Act  2012 c7, Part 3, Chapter 1, Section 65, Subsection 4)
-\end{quotation}  
+\end{quotation} 
+
 The NICE guideline [-@RN150] advises that social care planning for people with multimorbidity should include holistic assessment of biopsychosocial factors including sexual, spiritual, cultural, and communication needs. It should also consider access to leisure and social activities whilst incorporating issues regarding mobility and transport. Specifically, the guideline cites; self-care, taking medicines, learning, volunteering, maintaining a home, financial management, employment, socialising with friends and hobbies as activities that all patients should be able to take part in should they wish to and social care assessment should assess the ability of the individual to achieve this.
 
 A more succinct definition of social care is used in a report to the Minister for Care Services at the UK Department of Health, :- 
@@ -173,7 +171,52 @@ Huxley et al. [-@RN153] are critical of this service-based definition and argue 
 
 This view is reflected in an aspirational constitution for social care published by an independent, cross-party think-tank [@RN136]. The authors argue that all citizens should have an equal ability to live and control a full and active life. Where this is not possible the state should have a duty to provide the necessary help, in whatever form that is required, to individuals who require it.
 
-A more clearly defined concept is that of \textit{personal care} which has been provided for free in Scotland since 2002. The legislation introduced by the then Scottish Executive necessitated a clear definition and constitutes six dimensions [@RN373, pp.256]. 
+These definitions benefit from being somewhat succinct but fail to articulate the range of interdisciplinary services that are sometimes required for social care users. Two further definitions, provided in international reports, go some way to addressing this shortfall. The OECD and the EU jointly published a report on long term care for older people discussing much of what may be described in the UK as social care. In the report, long term care is defined as,
+
+\begin{quotation}
+"... a range of services required by persons with a reduced degree of functional capacity, physical or cognitive, and who are consequently dependent for an extended period of time on help with basic activities of daily living (ADL). This "personal care" component is frequently provided in combination with help with basic medical services such as "nursing care" (wound dressing, pain management, medication, health monitoring), as well as prevention, rehabilitation or palliative care. Long-term care services can also be combined with lower level care related to “domestic help” or help with instrumental activities of daily living (IADL)." 
+\end{quotation} [@RN406, pp38]
+
+The second definition provided by Colombo et al[-@RN414] classifies social care as:- 
+
+\begin{enumerate}[noitemsep, label={\alph*)}]
+\item a group of services such as; skilled nursing care, social work, personal care, medical equipment \& technologies, and therapies. Delivered by,   
+\item a range of  professionals such as; nurses, low-skilled carers, or allied health professionals. In,  
+\item various locations such as; at home, in an institution, or via community care.
+\end{enumerate}
+
+Both this and the previous OECD/EU definition clearly capture the broad range of services that can be associated with social care that are only partially provided in other definitions. They acknowledge that social care can include a number of components including personal, nursing care and help with other domestic activities and implicitly identify that social care can include components of \emph{health} care. The latter definition also articulates the variety of settings where this can take place and the provides examples of the differing professional capacities of individuals that may provide care. These additional references result in a more complete (and still succinct) definition and will be used for the purposes of this thesis (although the use of the term "low-skilled" to describe carers is contentious).  
+
+Whilst it is common in Europe to  describe "Long-term care" in relation to these services, this thesis will refer to "social care" as this is the most commonly used term in the UK. Furthermore, unless stated otherwise, reference to social care in this thesis will be with regard to care received by adults over the age of 65.
+
+\subsubsection{Scottish subservice definitions}\label{subsubsec:scot-subserv}
+
+The Social Care Survey (SCS) is collected annully by the Scottish Government to provide statistics of the type and amounts of social care delivered by each of Scotland's 32 local authorities [@RN487]. The SCS is used for empirical analysis in later chapters of this thesis and a description of its collection is provided in section \ref{subsec:source-sc}. However, whilst many of the subservices of social care delivered by local authorites are self-explanatory (e.g. shopping or laundry), some subservices require a fuller explanation which are provided here. 
+
+The term "home care" can refer to a number of services delivered to individuals in their own home [@RN517] which are described in table \ref{tab:methods-homecaredefs}. 
+
+\begin{table}[h]
+\rowcolors{2}{white}{gray!25}
+\centering
+\resizebox{\textwidth}{!}{%
+\begin{tabular}{@{}ll@{}}
+\toprule
+\textbf{Type of home care} & \textbf{Definition} \\ \midrule
+Care at Home (Mainstream) & \begin{tabular}[c]{@{}l@{}}The aim of care at home is to help vulnerable people of all ages live independently and securely in their\\  own homes by providing personal and housing support services. Care at home services are provided very\\  much on each individual's own circumstances and needs.\end{tabular} \\ 
+Reablement & \begin{tabular}[c]{@{}l@{}}Provides support and encouragement to help keep up or increase the skills and confidence needed \\ to be able to return home after a stay in hospital or after an illness.Most people referred for care at \\ home will receive a reablement service in the first instance to help support and improve independence.\\ Long term services can be provided following reablement if ongoing support is needed.\end{tabular} \\ 
+Rapid Response & \begin{tabular}[c]{@{}l@{}}Rapid intervention care at home aimed at preventing hospital admissions or facilitating hospital discharges\\ while longer term care packages are put in place. \end{tabular} \\ 
+Community Mental Health & \begin{tabular}[c]{@{}l@{}}Care at home service designed to support service users of the Community Mental Health team to live\\ independently in the community\end{tabular} \\ 
+Extra Care Housing &  Care at home based on site for tenants of Local Authority extra care housing complexes\\ 
+Housing Support & Care at home services to support service users to maintain tenancies and live independently in the community\\ 
+Overnight Services & \begin{tabular}[c]{@{}l@{}}Care at home provided through the night for service users requiring 24 hour support\\ (overnight defined as between 7pm - 7am)\end{tabular}\\
+Meals Service & Provision of either hot or cold meals to a service user \\ \bottomrule
+\end{tabular}%
+}
+\caption{Definitions of home care types}
+\label{tab:methods-homecaredefs}
+\end{table}
+
+The SCS also identifies individuals who are specifically receiving "personal care". As previously discussed in section \ref{subsec:sc-context}, personal care is provided for free in Scotland but not in the rest of the UK. Given this variation, accurately defining personal care is important. The legislation implementing free personal care introduced by the then Scottish Executive articulated a clear definition which constitutes six dimensions and is used to identify eligibility for receipt of free care[@RN373, pp.256]. 
 \begin{itemize}[noitemsep]
 \item personal hygiene: washing etc.  
 \item personal assistance: help with dressings, prostheses etc.  
@@ -183,27 +226,14 @@ A more clearly defined concept is that of \textit{personal care} which has been 
 \item simple treatments: help with medicines, creams, oxygen therapy etc. 
 \end{itemize}
 
-**Need a definition of reablement here also** Try http://www.careinfoscotland.scot/topics/care-at-home/
+Other services the SCS collects data on are receipt of "community alarm" and "other telecare services" [@RN487]. Individuals are defined as reciving a community alarm if they are \begin{quotation} "A person in receipt of a technology package which consists of a communication hub (either an individual home hub unit or part of a communal system e.g. the alarm system within sheltered housing), and a button/pull chord/pendant which transfers an alert/alarm/data to a monitoring centre or individual responder." \end{quotation}
 
-**Maybe an overall description of SCS social care - home care, telecare, equip etc. see data specification documents and (potentially) IJPDS paper**
+Whereas an indiviudal is defined as receiving telecare is they are \begin{quotation} "A person in receipt of a technology package which goes over the basic community alarm package..., and includes any other sensors or monitoring equipment e.g. (not an exhaustive list): linked pill dispensers, linked smoke detectors, linked key safes, bogus caller buttons and door entry systems, property exit sensors, [or] extreme temperature, flood, falls, [or] movement detectors." \end{quotation} [@RN487,30]
 
-Personal care is, however, only one aspect of social care provision and clear definitions of other services provided to individuals are lacking. Nevertheless, the definitions of social (or long-term) care above all highlight services that are required to aid with an individual's functional or cognitive needs.
+The final service requiring specific definition is that of "self-directed support" (SDS). This service was introduced in Scotland in 2013 to provide eligible social care users with more choice in how they received their care via four options: a) by choosing and arranging their own support and managing the budget to do so as a direct payment, b) by choosing the type of support they received and delegating the local authority or other organisation to arrange the care and manage the budget, c) by delegating the local authority to choose and arrange the support, or d) a mixture of each of the previous options [@RN419]. Notably, the recent Audit Scotland report into SDS [-@RN419] identified very small numbers of indiviudals have been offered or taken up any of these options. 
 
-A final definition provided by Colombo et al[-@RN414] will be used for the purposes of this thesis:- 
-
-\begin{enumerate}[noitemsep, label={\alph*)}]
-\item a group of services such as; skilled nursing care, social work, personal care, medical equipment \& technologies, and therapies. Delivered by,   
-\item a range of  professionals such as; nurses, low-skilled carers, or allied health professionals. In,  
-\item various locations such as; at home, in an institution, or via community care.
-\end{enumerate}
-
-  
-This definition clearly captures the broad range of services that can be associated with social care that are only partially provided in other definitions. It acknowledges that social care can include a number of components including personal, nursing care and help with other domestic activities, and articulates the variety of settings where this can take place. Whilst it is common in Europe to  describe "Long-term care" in relation to these services, this thesis will refer to "social care" as this is the most commonly used term in the UK. Furthermore, unless stated otherwise, reference to social care in this thesis will be with regard to care received by adults over the age of 65. 
-
-\textbf{Add a paragraph with synthesis and critical appraisal of definitions - perhaps before last definition to provide a justification for why it was chosen}
 
 \subsection{International models of social care}\label{subsec:access-sc-models}
-
 
 In a report for the OECD, Colombo et al [-@RN414] categorised the varying models of social care into three main groups with subdivisions as shown in Table \ref{tab:oecd-soc-care}. 
 

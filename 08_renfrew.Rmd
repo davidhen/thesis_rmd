@@ -23,7 +23,7 @@ All data relating to home care services from Renfrewshire council were de-identi
     \label{fig:ren-scs-data}
 \end{figure}
 
-Figure \ref{fig:ren-scs-data} depicts the differing time periods over which variables are collected by more recent versions of the SCS and the proposed one quarter collection of data for financial year 2017/18. The convention in this chapter is to refer to the data collected during the census week collectively as "Home care". This term can, however, refer to a number of services which are described in table \ref{tab:renf-homecaredefs}
+Figure \ref{fig:ren-scs-data} depicts the differing time periods over which variables are collected by more recent versions of the SCS and the proposed one quarter collection of data for financial year 2017/18. The convention in this chapter is to refer to the data collected during the census week collectively as "Home care". This term can, however, refer to a number of services previously described in chapter \ref{ch:lit-review} (table \ref{tab:methods-homecaredefs}) and reprinted in table \ref{tab:renf-homecaredefs}.
 
 
 \begin{table}[h]

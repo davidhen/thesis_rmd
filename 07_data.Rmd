@@ -16,8 +16,6 @@ As an alternative, a process involving robust approvals review, researcher train
 
 \subsection{Infrastructure}\label{subsec:infrastructure}
 
-\epigraph{The key test for an acronym is to ask whether it helps or hurts communication.}{\textit{Elon Musk}}
-
 \subsubsection{Scottish Informatics and Linkage Collaboration}\label{subsec:silc}
 
 The Scottish Informatics and Linkage Collaboration (SILC) is an umbrella term for a number of support services that are available to individuals wishing to conduct research using linked administrative data [@RN478]. Services include computing resources (provided by the University of Edinburgh), research and project coordination advice (provided by the electronic Data Research and Innovation Service (eDRIS)), and an indexing service (provided by the National Records of Scotland (NRS)) [@RN478]. SILC currently has three partner institutions; the Administrative Data Research Centres (ADRC), the Farr Institute, and the Urban Big Data Centre (UBDC) [@RN478].
