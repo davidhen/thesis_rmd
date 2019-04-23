@@ -235,7 +235,7 @@ The final service requiring specific definition is that of "self-directed suppor
 
 \subsection{International models of social care}\label{subsec:access-sc-models}
 
-In a report for the OECD, Colombo et al [-@RN414] categorised the varying models of social care into three main groups with subdivisions as shown in Table \ref{tab:oecd-soc-care}. 
+In a report for the OECD, Colombo et al [-@RN414] categorised the varying models of social care employed internationally into three main groups with subdivisions as shown in Table \ref{tab:oecd-soc-care}. 
 
 \begin{table}[h]
   \centering
@@ -260,7 +260,7 @@ In a report for the OECD, Colombo et al [-@RN414] categorised the varying models
       \end{tablenotes}
   \end{threeparttable}
   }
-  \caption{Models of social care in OECD countries \\ adapted from Colombo et al (2011)}
+  \caption{Models of social care in OECD countries adapted from Colombo et al (2011)}
   \label{tab:oecd-soc-care}
 \end{table}
 
@@ -272,9 +272,9 @@ In contrast to universal models described above where a single system is in plac
 
 Parallel universal schemes provide social care via two or more sectors (e.g. nursing care via health provider and personal care from a non-healthcare source as seen in Scotland) [@RN414]. Major differences exist between countries in how this is delivered in practice with varying degrees of coverage. Income related universal benefits provide needs-based universal coverage of social care but benefits received vary according to income [@RN414]. France provides a good example of this system where cash benefits are need \textit{and} income based - benefits are paid at six levels of dependency, those with higher incomes are paid proportionally less and top-up care costs themselves [@RN414; @RN420]. The final subdivision of mixed social care models has some universal entitlements provided alongside means-tested services e.g. free provision of nursing care with means-testing for personal care. 
 
-Colombo et al [-@RN414] include Spain and Greece in this final subdivision of mixed social care models but note these countries have formal care systems that are much less developed than elsewhere in the OECD. Sometimes referred to as the Mediterranean model, informal care from family and other sources constitutes the main form of social care in these countries [@RN348; @RN346; @RN349]. As this role is traditionally carried out by women, the Mediterranean model has attracted criticism from a feminist perspective [@RN346].
+Colombo et al [-@RN414] include Spain and Greece in this final subdivision of mixed social care models but note these countries have formal care systems that are much less developed than elsewhere in the OECD. Sometimes referred to as the Mediterranean model, informal care from family and other sources constitutes the main form of social care in these countries [@RN348; @RN346; @RN349; @RN423]. As this role is traditionally carried out by women, the Mediterranean model has attracted criticism from a feminist perspective [@RN346].
 
-The final model in Colombo et al's [-@RN414] classification of social care in OECD countries is the means-tested safety net model (Table \ref{tab:oecd-soc-care}). In this model only those below a pre-determined threshold are entitled to state-provided social care. Despite the free provision of health care and some non-means-tested benefits, England is included in this category in the report. Presumably this is due to the fact that state support in a residential home in England is provided only after an individual has depleted both income \textit{and} assets below a threshold [@RN414], a system not seen in other countries \footnote{A cap of approximately £72,000 total contribution was to be introduced in 2016 (Eleftheriades et al., 2013)} [@RN420].
+The final model in Colombo et al's [-@RN414] classification of social care in OECD countries is the means-tested safety net model (Table \ref{tab:oecd-soc-care}). In this model only those below a pre-determined threshold are entitled to state-provided social care. Despite the free provision of health care and some non-means-tested benefits, England is included in this category in the report. Presumably this is due to the fact that state support in a residential home in England is provided only after an individual has depleted both income \textit{and} assets below a threshold [@RN414], a system not seen in other countries [@RN420]. A cap of £72,000 total contribution was to be introduced in 2016 following the reccomendations of the Dilnot Commision [@RN407; @RN636], however this plan was subsequently dropped by the UK government in 2017 [@RN485; @RN633].
 
 Of the three models of social care described in this section, universal systems can be seen as having a number of advantages over the other two [@RN414; @RN420]. Sharing the burden of social care provision among the entire population, either via general taxation or mandatory insurance schemes, results in a reliable, predictable source of finance enabling states to plan more effectively [@RN414; @RN420; @RN413]. Mixed systems of social care can still result in considerable costs for those that require care, whereas the costs to individuals in the means-tested system can be "catastrophic" [@RN414, pp240]. The means-tested system can also be perceived as unfair for those that need to sell assets (such as a house) to pay for care, particularly when there is variation in eligibility criteria within countries [@RN414; @RN420; @RN421; @RN407; @RN413]. A particular advantage of a universal social care system is that it, 
 \begin{quotation} 
@@ -285,9 +285,7 @@ Given the pressures on state budgets and the desire to adequately fund care serv
 
 Disadvantages of universal systems are that they are generally more expensive to the state than other models of social care and can reduce the amount of informal care provided by relatives for elderly family [@RN414; @RN407]. The comprehensiveness of coverage can be over-burdensome for the state with a number of countries recently having to cut service or increase user-contributions to compensate for increasing demand [@RN345; @RN421; @RN407; @RN413]. 
 
-\textit{Need to mention typology does not cover quality or quantity of care}.
-
-A recent examination of the effects of the 2008 financial crisis on the way social care is delivered across Europe suggests that the distinctions between social care models is beginning to blur [@RN343]. There is evidence those with more comprehensive coverage are reducing levels of care whilst those with less coverage are increasing provision [@RN414]. 
+A recent examination of the effects of the 2008 financial crisis on the way social care is delivered across Europe suggests that the distinctions between social care models is beginning to blur [@RN343]. There is evidence those with more comprehensive coverage are reducing levels of care whilst those with less coverage are increasing provision [@RN414; @RN423]. 
 
 \begin{figure}[h]
   \centering

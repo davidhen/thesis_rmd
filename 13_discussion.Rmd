@@ -62,10 +62,10 @@ output: pdf_document
 
 \section{Comparisons to previous research}
 \begin{itemize}[noitemsep]
-\item ICL - nothing in SC so far?? Namecheck PC stuff
 \item Bardsley and SR of H \& SC studies
 \item Kent economic paper
 \item MM stuff
+\item medicine counts as MM - Brilleman and Salisbury
 \end{itemize}
 
 \section{Strengths and Limitations}
