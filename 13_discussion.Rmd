@@ -11,6 +11,7 @@ output: pdf_document
 \begin{itemize}[noitemsep]
 \item Multimorbidity influences receipt of social care. 
 \item ..though age is the biggest factor - likely due to frailty??
+\item What about most deprived? less likely to make it to old age and lower disability-free life expectancy - does this point to unmet need?
 \item APEs show effects *after* adjusting for other variables (and interactions) important to discuss what they mean and how i can compare across models. 
 \item Lower rates of receipt in subset 2, but APEs similar across subsets. Edin and Glas in subset 2
 \item Female effect 4\% diff in probability - more likely to live alone?

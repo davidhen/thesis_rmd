@@ -103,7 +103,7 @@ The distribution of number of repeat medicines prescribed in 2015/16 reveals the
 \begin{figure}[h]
   \centering
     \includegraphics{figures/chapter-results-1/10_total_meds_hist_2.pdf}
-    \caption{Number of individuals receiving specific counts of repeat medicines. N = 908,295}
+    \caption{Number of individuals receiving specific counts of repeat medicines. N = 924,323}
     \label{fig:results1-meds-hist}
 \end{figure}
 
@@ -179,7 +179,7 @@ Figure \ref{fig:results1-meds-grp} shows the distribution of the percentage of i
 \end{tablenotes}
 \end{threeparttable}%
 }
-\caption{Cohort 2013/14 by Multimorbidity (repeat medicine) groups}
+\caption{Cohort 2015/16 by Multimorbidity (repeat medicine) groups. N = 924,323}
 \label{tab:res1-mmgroups}
 \end{table}
 
@@ -237,7 +237,7 @@ There is a noticeable relationship between service use and multimorbidity groups
 \end{tablenotes}
 \end{threeparttable}%
 }
-\caption{Characteristics of study population by deprivation quintile 2013/14. N = 908,295}
+\caption{Characteristics of study population by deprivation quintile 2015/16. N = 924,323}
 \label{tab:results1-deprivation}
 \end{table}
 
