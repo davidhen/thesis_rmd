@@ -110,11 +110,6 @@ knitr::opts_knit$set(base.dir = 'chapters/')
 
 \setlength{\parskip}{1em}
 
-\newcommand{\secsubhead}[1]{{\Large #1 \vspace{2ex}}}
-\newcommand{\subsecsubhead}[1]{{\large #1 \vspace{2ex}}}
-
-\newpage
-
 \newpage
 \fancyhf{}
 \fancyhead[CE,CO]{\footnotesize \leftmark}

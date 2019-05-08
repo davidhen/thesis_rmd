@@ -10,7 +10,7 @@ classoption: a4paper,oneside,table
 citecolor: blue #doesn't work
 urlcolor: blue
 linkcolor: blue
-bibliography: thesis.bib
+bibliography: references.bib
 csl: harvard-cite-them-right.csl
 fontsize: 12pt
 geometry: top = 1.8cm, bottom = 1.8cm, left = 4cm, right = 1.5cm
@@ -57,7 +57,7 @@ knitr::opts_knit$set(base.dir = 'chapters/')
 \renewcommand{\headrulewidth}{0pt}
 
 
-```{r child = 'measuring_mm.Rmd'}
+```{r child = '06_lit_review.Rmd'}
 ```
 
 #References

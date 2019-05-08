@@ -4,7 +4,15 @@ output: pdf_document
 
 \thispagestyle{empty}
 
-Again maybe play about with centering and layout. 
+I am endebted to my PhD supervisors, Professors Nick Bailey, Colin McCowan, and Stewart Mercer for their continued support and encouragement throughout the long, and occasionally tortuous, process of completing this thesis. It has really been a pleasure learning from, and working with, a team with diverse but complimentary backgrounds. 
 
+Adminstrative data research is reliant on many organisations and the indiviudals who work for them, sometimes without any contact with the research team at all. I am aware there will be many people whom I have never met ,nor heard of, who had a part enabling this project - a thanks to all such indiviudals at: The Urban Big Data Centre, eDRIS, NHS National Services Scotland, ADRC-S, National Records of Scotland, the Scottish Government, and the University of Glasgow. 
 
-How about a nice quotation at the end???
+Of course, there are indiviudals who play a very important part and had a very \emph{hands-on} relationship with this project.  I would like pay particular tribute to Dr Mirjam Allik (previously of UBDC) and Amy Tilbrook (eDRIS/UBDC/ADRC-S). Mirjam's guidance made the successful navigation of the complex approvals process required for research of this nature possible. Amy's work in co-ordinating the data linkage process, despite many setbacks, went a long way to ensuring this project did not fail. Furthermore being the first eyes on all of my (many!) outputs during the statistical disclosure control process also proved to be the first sanity check on these analyses - thanks for catching my mistakes Amy! People that understand the nuts and bolts of data linkage projects (and the realities of what can and cannot be achieved) are the unsung heroes of these projects - so once again a special thank you to you both. 
+
+This is one of the first projects to utilise the Social Care Survey in a research context. This would not have been possible without the help and support of Julie Rintoul and Ellen Lynch at the Health and Social Care anlaysis division at the Scottish Government. I would also like to thank Dave Clark who undertook the indexing of the survey to the NRS population spine - without this piece of work the thesis would look very different indeed!
+
+Completing this thesis from home in the Highlands would not have been possible without the generosity and hospitality of Mrs Lena Ramage for my trips to Glasgow - Tapadh leibh a'ghraidh!  
+
+Finally, I would like to thank my children, Seumas and Catherine, and my wife, Shona. 
+

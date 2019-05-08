@@ -65,6 +65,8 @@ It would seem intuitive that a large proportion of those receiving social care h
 
 \section{Aims}\label{sec:intro-aims}
 
+Need to add in exploratory in nature. 
+
 \begin{itemize}[noitemsep]
 \item Identify best resource of sc data and assess suitability for research
 \item Create a linked dataset that can be used to answer questions relevant to the provision of health and social care services 
