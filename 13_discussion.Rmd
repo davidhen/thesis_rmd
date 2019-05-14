@@ -5,27 +5,41 @@ output: pdf_document
 \chapter{Discussion}\label{ch:discussion}
 \thispagestyle{empty}
 
-\section{Key Findings}
+Key findings and implications, Strengths and Limitations, Comparisons to previous research, Recommendations.
 
-\subsection{Multimorbidity and social care}
-\begin{itemize}[noitemsep]
-\item Multimorbidity influences receipt of social care. 
-\item ..though age is the biggest factor - likely due to frailty??
-\item What about most deprived? less likely to make it to old age and lower disability-free life expectancy - does this point to unmet need?
-\item APEs show effects *after* adjusting for other variables (and interactions) important to discuss what they mean and how i can compare across models. 
-\item Lower rates of receipt in subset 2, but APEs similar across subsets. Edin and Glas in subset 2
-\item Female effect 4\% diff in probability - more likely to live alone?
-\item Magnitude of effects important. 9+ meds == 80-84 ages. i.e. high multimorbidity same effect as aging 15-20 years
-\item Fluctuating APEs for councils to do with baseline level of reference council also fluctuating. Again - *very small changes in APE*
-\end{itemize}
+\section{Key Findings and Implications}\label{sec:key-finds}
 
-\subsection{Renfrewshire}
-\begin{itemize}[noitemsep]
-\item Brief overview of discussion from chapter
-\item Also discuss implicit finding that finite number of places for social care in Renfrew. Allocation according to \emph{resource} not \emph{need}. 
-\end{itemize}
+Given the broad scope of the research covered in the thesis, key findings and their implications are discussed in ? subsections. 
 
-\subsection{Unplanned hospital admission}
+\subsection{Patterns in receipt of social care}\label{subsec:mm-sc-kfinds}
+
+This analyses of patterns of social care use in Scotland is novel given its linkage of health and social care resources and has a number of findings and implications. The first set of models presented in chapter \ref{ch:res2} investigated the factors associated with receipt of social care. One important aspect was to identify if a relationship between multimorbidity and social care existed as this had been identified as a gap in existing empirical knowledge. The results indicate that such a relationship does indeed exist and that the effect of this relationship grows as the severity of multimorbidity (measured by grouped repeat medicine counts) increases. The change in probability of receiving social care for those in the highest multimorbidity group (prescribed nine-or-more repeat medicines) compared to those in the lowest group (prescribed 0-2 medicines) is approximately 15%. This change is approximately 6.5% and 3% for the 6-8 and 3-5 repeat medicine groups respectively.  
+
+These results are broadly consistent across models applied to differing financial years of data. Subset 2 (including individuals from nine local authorities with a linkage rate of 92%-95.9%) showed slightly lower values of partial effects for all age, sex, and multimorbidity groups group compared to subset 1. This may be due to the larger size of subset 2 which included approximately 77,000 more individuals overall and less uncertainty for the lower numbers in smaller groups. Nevertheless, overall patterns are similar across both subsets. 
+
+The use of partial (or marginal) effects to interpret logistic regression models allows comparison of effect sizes across variables and models after adjustment for all included independent variables [@RN563]. In both subsets of data, models across all years showed the partial effect of being in the highest multimorbid group compared to the lowest was of similar magnitude to that of being aged 80-84 compared to being aged 65-69. In other words, after adjustment for age, sex, and sociodemographic variables, being in the highest multimorbidity group is equivalent to being 10-15 years older than the baseline age group. 
+
+The identification of the relationship between multimorbidity and social care use is important both for health clinicians and policy makers. High levels of multimorbidity have the potential to indicate need for social care which should be a consideration when assessing this patient group. Given the increasing prevelance of multimorbidty and the reduction in funding for social care (discussed in chapter \ref{ch:lit-review}), urgent consideration of social care provision and funding by policy-makers is warranted. 
+
+This argument has further support given that social care receipt also has, unsurprisingly, an association with age. Given demographic trends, the demand for social care services is only likely to increase. Indeed, the only other measurements with higher magnitude of partial effects than the highest multimorbidity group were those related to higher age groups, particularly the three age groups in which those over 85 belonged to: 85-89, 90-94, and 95 plus, although strong effects are seen for all age groups over 75. The magnitude of effects for these groups were particularly high indicating that, after adjustment for other model variables, being in these age groups was associated with approximately 29%, 42%, and 47% increased probability of receiving social care compared to those in the 65-69 age group respectively (again slightly lower effects were seen in subset 2). Standard errors were higher, and their associated 95% confidence intervals wider, for the two highest age groups than seen for other variables reflecting the lower overall numbers in these groups. Nevertheless, social care receipt has a strong relationship in age groups over 80 years which is likely to reflect higher levels of frailty. 
+
+The effect of socioeconomic position, as measured by SIMD decile of residence, is negligible after adjusting for other variables in the models of both subsets. This is an important finding and suggests that the higher rates of social care receipt for those living in lower SIMD deciles shown in tables \ref{tab:res2-chars1516} and \ref{tab:res2-2-chars1516} are attenuated after adjustment for age, multimorbidity, sex, and local authority of residence. The likely reason for this can be discerned from the pattern shown in figure \textbf{NEW FIGURE}. This shows that social care receipt is concentrated on sick, predominantly female, indiviudals over the age of 75. However, apart from those with severest multimorbidity, the rate of care received in each group is more evenly spread across deprivation deciles in these higher age groups- resulting in the small partial effect of SIMD decile in the models. This effect can be more easily discerend in figure \textbf{NEW FIGURE} where rates of care \emph{within} each age/sex group are visualised.
+
+More about deprivation....The evidence that it is age and multimorbidity, rather than deprivation, that explains receipt of social care for older age groups is useful. There remain, however, questions about non-provision of care to those with high need in lower age groups. 
+
+Both tables \ref{tab:res2-chars1516} and \ref{tab:res2-2-chars1516} show higher percentages of females receiving social care compared to males whilst figure ref shows this pattern is consistent across all ages. Depsite this, the APE for being female is relatively small in models - 4% and 3.2% increased probability in subset 1 and 2 respectively. This suggests multimorbidity status attenuates some, but not all, of the higher rates of social care received by females - a pattern also visible in figure \textbf{NEW FIGURE}. The remaining gap between sexes in social care receipt could potentially be explained by there being higher rates of females that live alone - an important variable missing from the dataset. 
+
+Variation at local authority level is also present. The differences in the probability of receiving social care of 6.2% between Na h-Eileanan Siar and South Ayshire in subset 2 (table \ref{tab:res2-model2-APE}) is comparable to the difference in probability between the second-highest multimorbidity group (6-8 repeat medicines) and it's reference group (0-2 repeat medicines). However, it must be noted this was the largest inter-council difference in subset 2 (the corresponding difference in subset 1 was 5%) and many APEs for councils were broadly similar. Given the variation in linkage rates across local authority areas, and the lack of multi-level modelling in analysis, robust conclusions about the effect of local authority of residence and receipt of social care cannot be drawn at present.  
+
+ 
+
+SIMD not so evident at higher ages but is in lower age groups. 
+
+Implications
+
+Evidence that young, sick, and poor, are relatively high users of services. Despite lower overall numbers receiving care in younger age groups, it is notable that a high percentage of care delivered to these groups is focussed on those with high multimorbidity living in the most deprived areas.
+
+\subsection{Patterns in unplanned hospital admissions}
 
 \begin{itemize}[noitemsep]
 \item Overall smaller magnitude of effects
@@ -35,9 +49,25 @@ output: pdf_document
 \item Link to "intensification" of SC in lit review. Numbers now so small, can't assess if protective effect for those with less need.
 \end{itemize}
 
-\subsection{Descriptives}
+
+
+\subsection{Health and social care integration}
+
+The analyses also adds to evidence that social care provision is focussed on individuals with highest needs, described as "intensification" in chapter \ref{ch:lit-rv}, and visualised most clearly in figures \textbf{NEW FIGURE} and \textbf{NEW FIGURE}. When compared etc etc 
+
+No mm = no social care (Or admissions) adds to debate on preventative and cohesive services in other mm literature.
 
 \begin{itemize}[noitemsep]
+\item MM effect on SC raises important message for policymakers. 
+\item Strong argument for universal PC is that it improves access and therefore chance to prevent ill health etc [@RN599, 7]. (although ICL still present)
+\item Social care is not universal therefore has poorer access therefore any hope of preventative care is unlikely
+\item *If* care was broadend - would need an accurate measure of *need* How should this be defined? How should care be allocted due to it?
+\end{itemize}
+\subsection{Renfrewshire}
+\begin{itemize}[noitemsep]
+\item Brief overview of discussion from chapter
+\item Also discuss implicit finding that finite number of places for social care in Renfrew. Allocation according to \emph{resource} not \emph{need}. 
+\item heatmaps show distribution of users of social care and admission are different. Important if social care is seen as preventer of admission.
 \item Medicines decent measure of MM. Clear effects on SC and admissions
 \item SIMD effect of MM reduces with age
 \end{itemize}
@@ -67,6 +97,8 @@ output: pdf_document
 \item Kent economic paper
 \item MM stuff
 \item medicine counts as MM - Brilleman and Salisbury
+\item Narrowing of gap in medicines as age increases mirrors Barnett figure 2
+\item Prescription counts similar to Guthrie and McCowan
 \end{itemize}
 
 \section{Strengths and Limitations}
@@ -84,18 +116,6 @@ output: pdf_document
 \item Linkage of SCS not consistent - difficult to make broad comparisons. Attempted to offset by subsetting. Home care stable though falling in SCS - why?
 \item No measure for living alone
 \item MM measure not validated - limited due to lack of access to PC data, Also means cannot address important MM questions as laid by AMS e.g. "Which clusters result in the greatest healthcare utilisation and greatest cost?"
-\end{itemize}
-
-
-\section{Implications}
-
-\subsection{LA Variation}
-
-\begin{itemize}[noitemsep]
-\item MM effect on SC raises important message for policymakers. 
-\item Strong argument for universal PC is that it improves access and therefore chance to prevent ill health etc [@RN599, 7]. (although ICL still present)
-\item Social care is not universal therefore has poorer access therefore any hope of preventative care is unlikely
-\item *If* care was broadend - would need an accurate measure of *need* How should this be defined? How should care be allocted due to it?
 \end{itemize}
 
 \section{Recommended future actions and research}

@@ -93,12 +93,12 @@ In people over the age of 65 in Scotland:
 
 1. 
 \begin{enumerate}[noitemsep]
-\item What are the socioeconomic, demographic, and geographic patterns in the use of social care? \item Is there an association between multimorbidity status and the amount and type of social care use over time? Does this vary by the patterns described in 1(a)?  
+\item What are the socioeconomic, demographic, and geographic patterns in the use of social care? 
+\item Is there an association between multimorbidity status and social care use? Does this vary by the patterns described in 1(a)?  
 \end{enumerate}
 2. 
 \begin{enumerate}[noitemsep]
-\item Is there an association in the use of social care services, multimorbidity status and unscheduled health care use?
-\item Do multimorbidity status and social care use predict mortality?
+\item Is there an association in the use of social care services, multimorbidity status and unplanned admission to hospital?
 \end{enumerate}
  
 
@@ -108,6 +108,11 @@ In people over the age of 65 in Scotland:
 \item First description of the relationship between SC and MM (in UK)
 \item First \emph{national} level study looking at SC and unplanned hosp admission
 \end{itemize}
+
+\subsection{Academic outputs}
+
+List publications and other outputs
+
 
 
 \section{Thesis structure}\label{sec:lit-review-structure}

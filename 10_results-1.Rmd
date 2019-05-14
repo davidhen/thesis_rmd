@@ -221,8 +221,8 @@ There is a noticeable relationship between service use and multimorbidity groups
 \textbf{} & 95 plus & 1489 (16.0) & 1829 (19.6) & 2082 (22.3) & 1928 (20.7) & 2001 (21.4) & 9329 \\
 \textbf{Total repeat medicines} & Mean (SD) & 6.6 (4.4) & 6 (4.2) & 5.4 (4.1) & 5 (3.9) & 4.6 (3.7) &  \\
 \textbf{Medicines group} & 0-2 & 31564 (12.6) & 43305 (17.3) & 54615 (21.8) & 58546 (23.4) & 62339 (24.9) & 250369 \\
-\textbf{} & 03-May & 40396 (15.5) & 51836 (19.8) & 56891 (21.8) & 55634 (21.3) & 56432 (21.6) & 261189 \\
-\textbf{} & 06-Aug & 40686 (19.3) & 46814 (22.2) & 45050 (21.3) & 40573 (19.2) & 37997 (18.0) & 211120 \\
+\textbf{} & 3-5 & 40396 (15.5) & 51836 (19.8) & 56891 (21.8) & 55634 (21.3) & 56432 (21.6) & 261189 \\
+\textbf{} & 6-8 & 40686 (19.3) & 46814 (22.2) & 45050 (21.3) & 40573 (19.2) & 37997 (18.0) & 211120 \\
 \textbf{} & 9+ & 49766 (24.7) & 49266 (24.4) & 41774 (20.7) & 33396 (16.6) & 27443 (13.6) & 201645 \\
 \textbf{Receiving social care} &  & 24848 (23.1) & 27209 (25.3) & 22531 (21.0) & 18033 (16.8) & 14820 (13.8) & 107441 \\
 \textbf{Receiving home care} &  & 10063 (24.4) & 10482 (25.5) & 8504 (20.7) & 6694 (16.3) & 5429 (13.2) & 41172 \\
@@ -243,7 +243,7 @@ There is a noticeable relationship between service use and multimorbidity groups
 
 Breaking the cohort down by deprivation quintile reveals that there were fewer males and females in quintile one compared to other quintiles in 2015/16 (table \ref{tab:results1-deprivation}). There was, however, a higher percentage of deaths in this quintile than would be seen if deaths were distributed equally across the population - where a value of 20% would be expected. This pattern is also present for quintiles two and three. Only 15.7% of individuals resident in quintile 5 datazones died in 2015/16. 
 
-There is little difference in average age across deprivation quintiles. Nevertheless, taking into account the lower overall numbers in quintile one, there are noticeably lower percentages of individuals in the 90-94 and 95 and over age groups compared to other quintiles.
+There is little difference in average age across deprivation quintiles. Nevertheless, taking into account the lower overall numbers in quintile one, there are noticeably lower percentages of individuals in the 90-94 and 95 and over age groups compared to other quintiles. 
 
 Individuals resident in quintile five datazones were more likely to receive less repeat medicines with lower mean values compared to other quintiles. A positive linear pattern is observable in the numbers and percentages receiving 0-2 repeat medicines from quintile 1 (31,564, 12.6%) to quintile 5 (62,339, 24.9%). The opposite (i.e. a negative linear trend) is observed for numbers and percentages of those receiving over 9 repeat medicines from quintile 1 (49,766, 24.7%) to quintile 5 (27,443, 13.6%). 
 

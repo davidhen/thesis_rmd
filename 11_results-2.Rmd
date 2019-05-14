@@ -11,7 +11,7 @@ In people over the age of 65 in Scotland:
 
 1. 
 \begin{enumerate}[noitemsep]
-\item What are the socioeconomic, demographic, and geographic patterns in the use of social care? \item Is there an association between multimorbidity status and the amount and type of social care use over time? Does this vary by the patterns described in 1(a)?  
+\item What are the socioeconomic, demographic, and geographic patterns in the use of social care? \item Is there an association between multimorbidity status and social care use? Does this vary by the patterns described in 1(a)?  
 \end{enumerate}
 2. 
 \begin{enumerate}[noitemsep]
@@ -191,25 +191,13 @@ Multimorbidity also has a strong positive effect on receipt of social care, alth
 
 After controlling for other variables in the model females have an increased probability of receiving care of ~4% compared to males for all models (exactly 4% in 2015/16). SIMD decile was modelled as a continuous variable. The APE of -0.006 in 2015/16 (table \ref{tab:res2-model1-APE}) indicates the coefficient of the slope at the average value of SIMD (5.2, SD 2.6). The small value of this slope suggests SIMD decile had little effect on the receipt of social care. This can be seen in the conditional effect of SIMD shown in figure \ref{fig:res2-model1-simd} in Appendix D.
 
-With the exception of higher age groups where numbers are small, local authorities display more variation in APEs across models than other variables. This is more easily visualised in figure \ref{fig:res2-model1-APE-time} which shows that the difference in APEs across councils is fairly stable and shows some narrowing in 2015/16. 
-
-Comparing the APEs shown in figure \ref{fig:res2-model1-APE-time} to the difference in overall percentage of individuals receiving social care (figure \ref{fig:res2-model1-pct-diff}, adapted from table \ref{tab:res2-la}) shows that after controlling for age, sex, deprivation status, and multimorbidity status, APEs for some councils are less than would be expected. 
-
-For example, Inverclyde and South Lanarkshire councils have a higher percentage of individuals receiving social care compared to Stirling council (with the exception of 2015/16 where Stirling has a  marginally higher percentage than South Lanarkshire, table \ref{tab:res2-la} and figure \ref{fig:res2-model1-pct-diff}). However, APEs (figure \ref{fig:res2-model1-APE-time}) suggest the probability of receiving social care in Inverclyde and South Lanarkshire is lower than Stirling in all models. Similarly, despite having higher overall percentages of individuals receiving social care, APEs for East Ayrshire are almost identical to those of Stirling. Conversely, the difference between the APE for Angus council and the reference value in Falkirk council is negligible in 2012/13 to 2014/15 despite there being a higher percentage of individuals in Falkirk receiving care.
+With the exception of higher age groups where numbers are small, local authorities display more variation in APEs across models than other variables over time. This is more easily visualised in figure \ref{fig:res2-model1-APE-time} which shows that the difference in APEs \emph{within} councils is fairly stable and shows some narrowing \emph{between} councils in 2015/16. Controlling for age, sex, deprivation, and multimorbidity attenuates some of the variations seen in table \ref{tab:res2-la} with the largest difference in probabilty across all nine included local authorities being 5% (comparing Dumfries & Galloway to the reference group: Falkirk).
 
 \begin{figure}[]
   \centering
     \includegraphics{figures/chapter-results-2/sc_model_25_council_APE_plot.pdf}
     \caption{Subset 1. Local authority APE across models}
     \label{fig:res2-model1-APE-time}
-\end{figure}
-
-
-\begin{figure}[]
-  \centering
-    \includegraphics{figures/chapter-results-2/sc_25_pct_plot.pdf}
-    \caption{Subset 1. \% difference in over 65s receiving social care}
-    \label{fig:res2-model1-pct-diff}
 \end{figure}
 
 
@@ -298,7 +286,7 @@ The R code for the model fitted to the second subset was identical to that repor
 \end{tablenotes}
 \end{threeparttable}%
 }
-\caption{Subset 1. Characteristics of those receiving/not receiving social care. 2015/16}
+\caption{Subset 2. Characteristics of those receiving/not receiving social care. 2015/16}
 \label{tab:res2-2-chars1516}
 \end{table}
 
@@ -341,11 +329,49 @@ Odds ratios for indiviudal values show similar patterns, but lower values, to th
     \label{fig:res2-model2-APE}
 \end{figure}
 
-Broadly similar values for APEs are found for sociodemographic and multimorbidity group variables in subset 2 as were found in subset 1 (figure \ref{fig:res2-model2-APE}). The only slight exceptions were for the oldest two age groups and the highest multimorbidity group where APEs were slightly less and 85-89 age group where the APE was slightly higher compared to subset 1. 
+Broadly similar patterns APEs are found for sociodemographic and multimorbidity group variables in subset 2 as were found in subset 1 (figure \ref{fig:res2-model2-APE}) although these are of lower magnitude throughout. The only slight exceptions were for the oldest two age groups and the highest multimorbidity group where APEs were slightly less and 85-89 age group where the APE was slightly higher compared to subset 1. 
 
-More variation is seen across years for council areas than was evident with subset 1 and noticeably larger confidence intervals can be seen in figure \ref{fig:res2-model2-APE}. Once again, comparison of overall percentages of individuals receiving social care (table \ref{tab:res2-mod2-la} and figure \ref{fig:res2-model2-pct-diff}) with APE values over time (figure \ref{fig:res2-model2-APE}) suggests some council areas have lower APEs than may be expected. 
+\begin{table}[]
+\centering
+\resizebox{\textwidth}{!}{%
+\begin{threeparttable}
+\begin{tabular}{@{}lrrrrr@{}}
+\toprule
+\textbf{Variable} & \textbf{\begin{tabular}[c]{@{}r@{}}Average Partial\\ Effect\end{tabular}} & \textbf{\begin{tabular}[c]{@{}r@{}}Standard\\ Error\end{tabular}} & \textbf{p-value} & \textbf{\begin{tabular}[c]{@{}r@{}}Lower 95\%\\ CI\end{tabular}} & \textbf{\begin{tabular}[c]{@{}r@{}}Upper 95\%\\ CI\end{tabular}} \\ \midrule
+Age: 95 Plus & 0.415 & 0.011 & 0 & 0.394 & 0.437 \\
+Age: 90-94 & 0.333 & 0.005 & 0 & 0.323 & 0.343 \\
+Age: 85-89 & 0.22 & 0.003 & 0 & 0.214 & 0.225 \\
+Meds: 9+ & 0.133 & 0.002 & 0 & 0.129 & 0.136 \\
+Age: 80-84 & 0.112 & 0.002 & 0 & 0.109 & 0.116 \\
+Meds: 6-8 & 0.062 & 0.001 & 0 & 0.059 & 0.065 \\
+Age: 75-79 & 0.044 & 0.001 & 0 & 0.041 & 0.046 \\
+Female & 0.032 & 0.001 & 0 & 0.03 & 0.034 \\
+Meds: 3-5 & 0.027 & 0.001 & 0 & 0.024 & 0.029 \\
+Age: 70-74 & 0.015 & 0.001 & 0 & 0.013 & 0.018 \\
+SIMD Decile: & -0.005 & 0 & 0 & -0.005 & -0.004 \\
+Na h-Eileanan Siar & -0.014 & 0.008 & 0.074 & -0.03 & 0.001 \\
+East Renfrewshire & -0.032 & 0.008 & 0 & -0.047 & -0.017 \\
+Perth and Kinross & -0.042 & 0.007 & 0 & -0.056 & -0.028 \\
+Fife & -0.044 & 0.007 & 0 & -0.058 & -0.031 \\
+City of Edinburgh & -0.053 & 0.007 & 0 & -0.067 & -0.04 \\
+Glasgow City & -0.06 & 0.007 & 0 & -0.074 & -0.047 \\
+East Dunbartonshire & -0.072 & 0.007 & 0 & -0.086 & -0.057 \\
+South Ayrshire & -0.076 & 0.007 & 0 & -0.089 & -0.062 \\ \bottomrule
+\end{tabular}
+\begin{tablenotes}
+\item \footnotesize{Reference group for age: 65-69}
+\item \footnotesize{Reference group for meds: 0-2 repeat medicines}
+\item \footnotesize{Reference group for local authority: Shetland Islands}
+\end{tablenotes}
+\end{threeparttable}%
+}
+\caption{Subset 2. Average partial effects. 2015/16}
+\label{tab:res2-model2-APE}
+\end{table}
 
-The table and figures reveal that from 2011/12 to 2014/15 Glasgow City council has a higher percentage of individuals receiving social care than Na h-Eileanan Siar, East Renfrewshire, Fife, Perth & Kinross, and City of Edinburgh councils. However, the APEs in figure \ref{fig:res2-model2-APE-time} show that after adjusting for all other variables in the model, there is a decreased probability of receiving social care in the Glasgow City area compared to these other councils. This pattern in repeated in 2015/16 with the exception that higher percentages of individuals receive care in Na h-Eileanan Siar and East Renfrewshire in this year. 
+More variation is seen across years for council areas than was evident with subset 1 and noticeably larger confidence intervals can be seen in figure \ref{fig:res2-model2-APE}. 
+The gradual increase in APEs reflects the large reduction in the percentage of individuals receiving care over time in the reference group (Shetland Islands) from a high starting point. This makes comparison to the reference group less informative. However, APEs can still be interpreted between other values (councils) in the variable. Excluding the referecnce group, there is little variation in APEs \emph(between) and \emph{within} councils, although there is some widening across councils in the most recent year of data. The difference in probability of receiving social care between Na h-Eileanan Siar and South Ayrshire is 6.2% in 2015/16. 
+
 Table \ref{tab:res2-mod2-gof} shows the results of diagnostic tests for the models applied to each financial year of data. McFadden's pseudo $R^2$ statistic ranges from 0.196 for the model applied to 2011/12 to 0.209 for the model applied to 2015/16. The models applied to the most recent two years of data have an excellent fit, whereas the previous three models are only marginally below the threshold of 0.2 generally regarded as representing an excellent fit.
 
 \begin{figure}[H]
@@ -355,12 +381,6 @@ Table \ref{tab:res2-mod2-gof} shows the results of diagnostic tests for the mode
     \label{fig:res2-model2-APE-time}
 \end{figure}
 
-\begin{figure}[H]
-  \centering
-    \includegraphics{figures/chapter-results-2/sc_24_pct_plot.pdf}
-    \caption{Subset 1. \% difference in over 65s receiving social care}
-    \label{fig:res2-model2-pct-diff}
-\end{figure}
 
 \begin{table}[h]
 \centering
