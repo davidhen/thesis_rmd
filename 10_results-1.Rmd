@@ -279,22 +279,31 @@ The percentage of individuals from the cohort living in each of the SIMD deciles
 \begin{figure}[h]
   \centering
     \includegraphics{figures/chapter-results-1/13_comb_3.pdf}
-    \caption{Receipt of social care (a)}
+    \caption{Receipt of social care}
     \label{fig:results1-sc-demos}
 \end{figure}
 
 Figure \ref{fig:results1-sc-demos} illustrates that age is a significant contributing factor to the receipt of any form of social care with the percentage of the population receiving care increasing rapidly from age 65 to 95 regardless of sex, deprivation status or repeat medicine group. Despite this, there are noticeable differences within each of these groups with females, those in more deprived SIMD deciles, and those with higher multimorbidity status (measured by medicine group) showing higher percentages of individuals receiving social care at all ages. Looking across groups reveals a higher percentage of individuals prescribed nine or more repeat medicines receive care than any other group at all but the oldest ages.   
 
-The difference between the percentage of females and males receiving social care at all    
+\begin{figure}[h]
+  \centering
+    \includegraphics{figures/chapter-results-1/heatmap_1.pdf}
+    \caption{Sociodemographic distribution of social care 2015/16}
+    \label{fig:results1-heatmap-1}
+\end{figure}
+
+These differences are also seen in figure \ref{fig:results1-heatmap-1} which is a heatmap that allows the distribution of social care in 2015/16 to be visualised across four variables: age group, sex, SIMD decile and repeat medicine group. There are 560 tiles in the heatmap - each representing an age/sex/deprivation/multimorbidity group and shaded according to percentage of all individuals receiving social care are in the group.
+
+The lighter shades in the figure show those in the lowest multimorbidity group receive very little social care across all age, sex, and multimorbidity groups. The peak of the distribution of care receipt is in age groups 75-79, 80-84, and 85-89. Females in the poorest deprivation deciles and highest multimorbidty groups are the groups with highest percentages of social care use. In all but the highest multimorbidity groups the variation in social care receipt is small across SIMD deciles. For those receiving nine or more repeat medicines, social care receipt is higher in more deprived SIMD deciles with a negative linear pattern to higher deciles. 
+
+This pattern is more visible when the heatmap is redrawn to show the percentage of individuals receiving social care in deprivation/multimorbidity groups \emph{within} age/sex groups as shown in figure \ref{fig:results1-heatmap-2}. Again, the gradient of receipt of social care is negative from decile 1 to decile 10 for those in the highest multimorbidity group and more pronounced at younger ages. Other multimorbidity groups show less variation in the percentage of social care received across deprivation deciles. 
 
 \begin{figure}[h]
   \centering
-    \includegraphics{figures/chapter-results-1/13_comb_4.pdf}
-    \caption{Receipt of social care (b)}
-    \label{fig:results1-sc-simd-split}
+    \includegraphics{figures/chapter-results-1/heatmap_2.pdf}
+    \caption{Sociodemogrpahic distribution of social care \emph{within} age sex groups. 2015/16}
+    \label{fig:results1-heatmap-2}
 \end{figure}
-
-ages is evident in both SIMD deciles one and ten (figure \ref{fig:results1-sc-simd-split}) suggesting deprivation status does not account for the difference in sex. This is also true for medicine groups with increasing percentages seen for both deciles from low to high medicine groups.
 
 \FloatBarrier
 \section{Unplanned hospital admission}\label{sec:res1-adm}
@@ -302,7 +311,7 @@ ages is evident in both SIMD deciles one and ten (figure \ref{fig:results1-sc-si
 \begin{figure}[h]
   \centering
     \includegraphics{figures/chapter-results-1/13_comb_1.pdf}
-    \caption{Unplanned hospital admission (a)}
+    \caption{Unplanned hospital admission}
     \label{fig:results1-adm-demos}
 \end{figure}
 
@@ -312,7 +321,17 @@ The percentage of individuals in deciles one and ten with a hospital admission i
 
 \begin{figure}[h]
   \centering
-    \includegraphics{figures/chapter-results-1/13_comb_2.pdf}
-    \caption{Unplanned hospital admission (b)}
-    \label{fig:results1-adm-simd-split}
+    \includegraphics{figures/chapter-results-1/heatmap_3.pdf}
+    \caption{Sociodemographic distribution of individuals with at least one unplanned hospital admission. 2015/16}
+    \label{fig:results1-heatmap-3}
 \end{figure}
+
+The percentage of individuals in deciles one and ten with a hospital admission is broadly similar when split by sex (figure \ref{fig:results1-adm-simd-split}), although there is a marginally higher rate of men with an admission seen in ages 80 and under in decile 10. Multimorbidity has an effect across SIMD deciles with higher percentages of unplanned admission in both deciles one and ten as the number of repeat medicines increases. The gap between deciles one and ten also increases through low to high medicine groups.
+
+\begin{figure}[h]
+  \centering
+    \includegraphics{figures/chapter-results-1/heatmap_4.pdf}
+    \caption{Sociodemogrpahic distribution of indiviudals with at least one unplanned hospital admissions \emph{within} age sex groups. 2015/16}
+    \label{fig:results1-heatmap-4}
+\end{figure}
+
