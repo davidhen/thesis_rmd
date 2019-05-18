@@ -478,7 +478,7 @@ In 2015/16, 886,331 individuals were included in the model representing 95.9% of
 \FloatBarrier
 \subsection{Model results}
 
-Figure \ref{fig:res3-adm-OR} and table \ref{app-tab4} in Appendix D show odds ratios for individual variables in model fitted to data for 2015/16. 
+Figure \ref{fig:res3-adm-OR} and table \ref{app-tab4} in Appendix D show odds ratios for individual variables in model fitted to data for 2015/16. As with previous models and explained in section \ref{}, APEs are used for the main stubstantive interpretation of models.   
 
 The APEs for models with unplanned admission to hospital as dependent variable are much lower in magnitude for all variables (figure \ref{fig:res3-adm-APE} and table \ref{tab:res3-adm-ape1516}) compared with models fitted in sections \ref{subsec:96plus-results} and \ref{subsec:9296-AME} where social care was the dependent variable. 
 
@@ -521,7 +521,7 @@ The APEs for models with unplanned admission to hospital as dependent variable a
 \label{tab:res3-adm-ape1516}
 \end{table}
 
-High multimorbididty, measured by prescription of 9 or more repeat medicines, has the largest magnitude of APE in the unplanned hospital admission model in all years (an 8.3% increased probability of having an unplanned admission compared to those with 0-2 repeat medicines in 2015/16, table \ref{tab:res3-adm-ape1516}). Other multimorbidity groups also show increases in probability of admission compared to the reference value with a linear increase from low-to-high multimorbidity. 
+High multimorbididty, measured by prescription of 9 or more repeat medicines, has the largest magnitude of APE in the unplanned hospital admission model in all years (an 8.3% increased probability of having an unplanned admission compared to those with 0-2 repeat medicines in 2015/16, table \ref{tab:res3-adm-ape1516}). Other multimorbidity groups also show increasing probability of admission compared to the reference value with as severity increases. 
 
 In terms of other service use, having any USC episode in the previous financial year is associated with a ~7.5% increase in probability compared to those with no previous USC use. Similarly, receipt of social care measured in the SCS is associated with a ~6.5% increase in the probability of having an unplanned hospital admission compared to those with no social care. There is a split in the direction of the effect of living in a care home after 2013/14. After this year being in a care home is associated with a decrease in the probability of unplanned admission of almost 1% whilst in previous years the probability had increased by almost 1%. 
 
