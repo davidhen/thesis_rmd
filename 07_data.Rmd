@@ -9,7 +9,6 @@ This chapter outlines the process of obtaining administrative data suitable to a
 
 \section{Information Governance}\label{sec:ig}
 
-
 Confidentiality of data subjects is an important consideration in any data linkage project. The benefits of administrative data linkage, outlined in section \ref{sec:data-linkage}, are dependent on research being conducted in a legally and ethically competent fashion. Whilst full anonymisation would be an effective way to protect data subjects confidentiality, it is almost impossible to achieve this with individual-level data suitable for research purposes [@RN489]. 
 
 As an alternative, a process involving robust approvals review, researcher training with associated responsibilities and sanctions, and safe haven settings are used to preserve data subject confidentiality [@RN489].  This section outlines how this process was applied for the purposes of the data linkage completed in this thesis. Firstly, the various organisations that provide the infrastructure that enabled the data linkage to take place are briefly described. An overview of the various approvals and ethical panels is then provided, followed by the legal framework which enabled data processing to take place with a brief description of how confidentiality is maintained during the linkage process. 

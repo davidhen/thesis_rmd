@@ -33,46 +33,48 @@ In summary, the analysis indicates that social care receipt is driven primarily 
 
 \subsection{Patterns in unplanned hospital admissions}
 
-Descriptive statistics (section \ref{sec:res1-adm}) and models (section \ref{sec:res3-usc}) analysing factors associated with unplanned hospital admission in the six months after the end of each financial year reveal a relationship between multimorbidity and admission. Average Partial Effects increase with severity of multimorbidity, a pattern easily discernable from the change in colour by multimorbidity group in figure \ref{fig:results1-heatmap-3} and the more naive visualisation in figure \ref{fig:results1-adm-demos}. The magnitude of multimorbidity APEs, as for all variables, are much lower than seen in social care models. For example, compared with being in the lowest multimorbidity group, being in the highest multimorbidity group (9 plus repeat medicines) increases the probability of unplanned admission by between 8% and 9% across models.
+Descriptive statistics (section \ref{sec:res1-adm}) and models (section \ref{sec:res3-usc}) analysing factors associated with unplanned hospital admission in the six months after the end of each financial year reveal a relationship between multimorbidity and admission. Average Partial Effects increase with severity of multimorbidity, a pattern easily discernable from the change in colour by multimorbidity group in figure \ref{fig:results1-heatmap-3} and the more naive visualisation in figure \ref{fig:results1-adm-demos}. 
 
-The increase in probability of admission of 6%-7% and 7%-8% for those that received social care or had previously used any form of unscheduled care (unplanned admission, A & E, GP OOH, NHS24 or Ambulance service) respectively, indicates those with hospital admissions are more likely to be high users of all health and social care services - although there is one interesting exception. The direction of effect on unplanned hospital admission for those living in a care home changes from 2014/15 onwards. In models fitted to earlier financial years, living in a care home has a small (<1%) increase in probablity of unplanned admission. Models fitted to data from 2014/15 and 2015/16 show a decreased probability of admission of almost 2%. It is difficult to ascertain the cause of this change although the obvious temporal difference does raise concerns about data collection methods.     
+The magnitude of multimorbidity APEs, as for all variables, are much lower than seen in social care models. For example, compared with being in the lowest multimorbidity group (0-2 repeat medicines), being in the highest multimorbidity group (9 plus repeat medicines) increases the probability of unplanned admission by between 8% and 9% across models (compared to 13% - 15% increased probability of receiving social care). Nevertheless, multimorbidity is shown to have an important relationship with unplanned hospital admission.  
 
-An increase in APEs is also seen through age groups with a noticeable larger gap in APEs between the 75-79 and 80-84 age groups and the 80-84 and 85-89 age groups. Age group 90-94 has an overall higher magnitude of APE than the 95 plus age group although larger confidence intervals, which overlap in all years, are present suggesting there is little difference in APE over the age of 90.  
+The increase in probability of admission of 6%-7% and 7%-8% for those that received social care or had previously used any form of unscheduled care (unplanned admission, A & E, GP OOH, NHS24 or Ambulance service) respectively, indicates those with hospital admissions are more likely to be high users of all health and social care services. This is an important finding indicating a cohort of very sick individuals interact with services in both health and social care services and may account for a large proportion of service demand.
+
+One area where this may not be the case is for those that live in care homes although findings varied across models. The direction of effect on unplanned hospital admission for those living in a care home changes from 2014/15 onwards. In models fitted to earlier financial years, living in a care home has a small (<1%) increase in probablity of unplanned admission. Models fitted to data from 2014/15 and 2015/16 show a decreased probability of admission of almost 2%. It is difficult to ascertain the cause of this change. The obvious temporal difference could have a number of explanations including policy change or, more likely, change in data collection methods.     
+
+An increase in APEs is also seen through age groups although this is not a linear pattern. The oldest age group (95 plus) has a lower APE point estimate than the next oldest (90-94) although larger confidence intervals, which overlap in all years, are present suggesting there is little difference in APE over the age of 90.   
 
 The models fitted to identify factors associated with unplanned hospital admissions had a poor fit as measured by McFadden's pseudo $R^{2}$ in all years and, therefore, caution is required when interpreting results. There is the possibility that other unmeasured factors could improve model fit. It also notable that the magnitude of APEs are considerably smaller than seen for social care models suggesting more complex factors associated with unplanned hospital admission may exist.  
 
-\subsection{Health and social care integration}
+In summary, age and multimorbidity are shown to have relationships with unplanned hospital admission. Those that receive social care and those that have used unscheduled health care services in the financial year prior to the exposure period also have a higher probability of unplanned hospital admission. Caution is required in interpreting these results given the poorer fit to data found with logisitc regression models. 
 
-The analyses also adds to evidence that social care provision is focussed on individuals with highest needs, described as "intensification" in chapter \ref{ch:lit-rv}, and visualised most clearly in figures \textbf{NEW FIGURE} and \textbf{NEW FIGURE}. When compared etc etc 
+\subsection{Health and social care interaction}
 
-No mm = no social care (Or admissions) adds to debate on preventative and cohesive services in other mm literature.
+Although two different models were conducted in analysis, comparison of results (and descriptive statistics) presents cogent arguments to the debate on the interaction between health and social care services. 
 
-\begin{itemize}[noitemsep]
-\item MM effect on SC raises important message for policymakers. 
-\item Link to "intensification" of SC in lit review. Numbers now so small, can't assess if protective effect for those with less need.
-\item Strong argument for universal PC is that it improves access and therefore chance to prevent ill health etc [@RN599, 7]. (although ICL still present)
-\item Social care is not universal therefore has poorer access therefore any hope of preventative care is unlikely
-\item *If* care was broadend - would need an accurate measure of *need* How should this be defined? How should care be allocted due to it?
-\end{itemize}
+Perhaps the most important comparison is between the heatmaps showing the overall distribution of social care and unplanned hospital admission presented in figures \ref{fig:results1-heatmap-1} and \ref{fig:results1-heatmap-3}. As previously discussed the former highlights the "intensification" of social care services focussed on, particularly female, highly multimorbid groups of lower socioeconomic position. Comparison to the latter figure shows the distribution of unplanned admission to hospital, whilst also affecting predominantely low SIMD decile residents with high multimorbidity, has a wider distribution affecting more males and younger age groups. If, as the policy of health and socal care integration explicitly aims to achieve, social care provision is to reduce the number of unplanned hospital admissions, then the distribution of the receipt of care will need to broaden to groups other than those over 80.
+
+Given the strong effects increasing multimorbidity has on receipt of both social care and unplanned hospital admission (visible in heatmaps and model results), the results of analysis add weight to the many calls for a focus on preventative public health measures to attenuate the need for services. Compared to the highest multimorbidity group, those receiving 6-8 or 3-5 repeat medicines had much lower rates of unplanned admission and social care use. Those, even at older ages, in the lowest multimorbidity group (receiving 0-2 repeat medicines) had very little use of either service. Preventative measures that reduce the proportion of the population in the highest multimorbidity group could have a big impact on demand for health and social care services. 
+
+Relevant to both these arguments is discussion regarding primary care (e.g. WHO [-@RN599] and section \ref{subsec:litrv-mm-context}) where universal coverage, despite issues with the inverse care law, is generally regarded as the most appropriate way of improving access to service in order to deliver effective (and preventative) care for those with multimorbidity. Whether universal coverage of social care could have the same effect, and potentially mitigate the need for unplanned admission, is a matter of debate. However, the current means-and-needs tested model of social care provision in the UK is unlikely to help in this regard. With a link established between multimorbidity and social care use, identifying interactions between primary care and social care use is now an important potential research avenue requiring exploration. 
 
 
+\subsection{Social care data}\label{sec:disc-sc-data}
 
-\subsection{Renfrewshire}
-\begin{itemize}[noitemsep]
-\item Brief overview of discussion from chapter
-\item Also discuss implicit finding that finite number of places for social care in Renfrew. Allocation according to \emph{resource} not \emph{need}. 
-\item heatmaps show distribution of users of social care and admission are different. Important if social care is seen as preventer of admission.
-\item Medicines decent measure of MM. Clear effects on SC and admissions
-\item SIMD effect of MM reduces with age
-\end{itemize}
+The first aim of the PhD was to identify what Scottish social care data sources existed that could be linked to health data and asses their suitablility for research purposes. The SCS was identified as the most suitable source to assess social care outcomes at a \emph{national} level however, as with many forms of routine adminsitrative data, a number of limitations exist. The cross sectoral nature of some parts of the data collection limits the types of statistical analysis that can be applied with it. For example, if start and end dates of social care receipt were recorded at the individual level, time-to-event (survival) analysis could provide more robust findings on factors influencing receipt of social care. As such simplar methods, such as logisitc regression used in chapter \ref{ch:res2}, are more suited to the nature of the SCS. 
 
-\subsection{Social Care data}\label{sec:disc-sc-data}
+As discussed in more detail in chapter \ref{ch:renfrew}, however, there remains the issue of how well the \emph{home} care aspect of the SCS represents the total number of individuals receiving care in any financial year. Using presence or not in the SCS as a binary measure of receipt of social care, such as analyses in chapter \ref{ch:res2}, misclassifies some individuals by indicating they have not received care when in fact they would have done. As the discussion in chapter \ref{ch:renfrew} identifies, the ~60% of individuals that the SCS would have identified as receiving home care in the Renfrewshire area is likely to be an underestimate of the coverage of total social care for the models in chapter \ref{ch:res2} for two reasons. 
 
-\begin{itemize}[noitemsep]
-\item Discuss quality and collection of SCS (place this nationally/internationally). Is there good sc data anywhere???
-\item What is good/bad - What have I learned?
-\item Consider quantifying home care \emph{plus} alarm/telecare users
-\end{itemize}
+Firstly, the analysis in chapter \ref{ch:renfrew} could not account for mortality and therefore overall proportions include those that died in the financial year prior to the census date. These individuals were omitted from analysis in chapter \ref{ch:res2}, therefore a higher proportion of individuals that survived to the census date will be classified correctly. 
+
+Secondly, the Renfrewshire analysis did not estimate the proportion of individuals who received home care \emph{and} telecare services. The extended data collection procedures applied to the SCS from financial year 2013/14 onwards meant details of community alarm and telecare users \emph{at any time in the financial year} were included in the SCS. An unknown proportion of these individuals, already included in the SCS, will also receive home care services at times not overlapping the census week. In chapter \ref{ch:renfrew} such individuals will have been counted as having being "missed" by the census when in fact, due to their receipt of a telecare or alarm service, were indeed captured.
+
+Despite these limitations, the main finding of chapter \ref{ch:refnrew} indicates a potential minimum coverage of the SCS. A further finding suggests that individuals who receive social care and whose data are not collected by the SCS are more likely to be recipients of shorter-term care. These individuals are often in receipt of "Reablement" type services which are intentionally short lived. A flag for reablement was not available for the data linked for the PhD but will be collected as part of future SCS collections. Coupled with the likely underestimate of coverage discussed above, this finding suggests using the SCS as an indicator of receipt of social care is likely to capture a large majority of individuals receiving long-term care.
+
+Whilst this is welcoming, further issues remain with use of the SCS that limit the types of analyses that can be conducted. The lack of consistent recording of a CHI number in SCS collection meant probabilistic matching methods based on name, date-of-birth, gender, and postcode were required in order to create indexes that could then link the SCS to health records (more fully explained in section \ref{sec:linkage}). Whilst this matching process produced good overall results (91% match rate nationally) and rates were consistent across age, gender, and deprivation groups, there was large variation in match rates at the local authority level (76.7% - 98.5% for 31 of 32 local authorities). In effect, these variations introduce missing data not at random and make comparison in rates of care across local authorities problematic. Analysis in chapter \ref{ch:res2} attempted to overcome this problem by creating two subsets of data including local authorities with above average match rates. Whilst this allows some appraisal of variations in receipt of care at the local authority level, gaining a national picture remains elusive.  
+
+Although these issues are important, and analyses must take account of the limitations, the SCS remains an important resource in international terms. Social care data for research is recognised to be of poorer quality than health related data and often very difficult to link health records in many countries [@RN406]. Where linkages have been able to be made, inclusion of measures of home-based social care are less frequent [@RN610]. This means that, regardless of the limitations described above, the linked health and social care dataset created for analysis in this PhD is an important resource for research as it addresses both of these issues. 
+
+One final (incidental) finding that can be inferred from the analysis of social care data in the Renfrewshire area, reported in chapter \ref{ch:renfrew}, adds to the debate surrounding eligibility and allocation of social care. As argued by Sharkey (2006, p.10) (quoted at the beginning of section \ref{subsubsec:eligibility-uk}), eligibility criteria can be seen as a form of rationing where "...``need" is equated with ``resources available"." Figure \ref{fig:ren-hc-counts} shows that, whilst year-to-year variations are discernable, the weekly variation in the number of individuals receiving home care is remarkably stable. The deduction that a finite number of home care spaces are available at any given time, and that termination of one individual's care must occur before another's can start, seems credible. Whilst this may have been intuitively known previously, figure \ref{fig:ren-hc-counts} provides some empirical evidence to the debate. 
 
 \subsection{Linked Administrative Data Research}\label{sec:disc-admin-data}
 
@@ -85,9 +87,10 @@ No mm = no social care (Or admissions) adds to debate on preventative and cohesi
 \item Point to move to re-use data rather than obtain-and-destroy approach
 \end{itemize}
 
-\section{Comparisons to previous research}
+\section{Comparisons to Previous Research}
 \begin{itemize}[noitemsep]
 \item Bardsley and SR of H \& SC studies (inc care home and jenni's stuff)
+\item Condelius...
 \item Kent economic paper
 \item MM stuff
 \item medicine counts as MM - Brilleman and Salisbury
@@ -110,20 +113,24 @@ No mm = no social care (Or admissions) adds to debate on preventative and cohesi
 \item Linkage of SCS not consistent - difficult to make broad comparisons. Attempted to offset by subsetting. Home care stable though falling in SCS - why?
 \item Not really assessed Access to social care (mention time constraint?)
 \item No measure for living alone
+\item No measure for frailty - likely explanation for distro sc in higher age groups.
 \item MM measure not validated - limited due to lack of access to PC data, Also means cannot address important MM questions as laid by AMS e.g. "Which clusters result in the greatest healthcare utilisation and greatest cost?"
 \end{itemize}
 
-\section{Recommended future actions and research}
+A final, methadological, finding is that using grouped repeat medicines count as a proxy measure for multimorbidity produced consistent results across both social care and unplanned admission models. Indeed non-reported models with any unscheduled care and A & E attendance as dependent variable showed similar results. Formal validation of the predictive properties of the measure was not conducted
+
+\section{Recommended Future Actions and Research}
 
 \subsection{Future research}
 \begin{itemize}[noitemsep]
 \item Measure \emph{Longitudinal} changes in social care and impact on admission/usc
 \item Break down SC data - home care/telecare influence on outcomes
 \item consider futher linkage - look for better measure of living arrangements (alone - census?)
-\item include USC as independent variable in SC outcome given SC influence on SC
+\item include USC/admission as independent variable in SC outcome given SC influence on SC
 \item Utilise USC data better - include A \& E, NHS24 etc etc
 \item Check post-doc list
 \item Mortality
+\item Interaction between Primary care and social care.
 \item Further investigate medicines as measure of MM - try chapter counts [@RN228] or continuous rather than categorical OR USE DISEASE DATA FROM USC
 \end{itemize}
 
@@ -131,6 +138,7 @@ No mm = no social care (Or admissions) adds to debate on preventative and cohesi
 \begin{itemize}[noitemsep]
 \item Broaden timeframe of SCS collection
 \item Support LAs to provide either CHI or easily provide all ID data for linkage
+\item Better categorisation of social care users - Reablement and Mainstream likely very different types of users and 
 \item Better access to Primary Care data for MM research
 \end{itemize}
 
