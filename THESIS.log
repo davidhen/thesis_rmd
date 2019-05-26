@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.14159265-2.6-0.99999 (TeX Live 2018/W32TeX) (preloaded format=xelatex 2019.2.21)  23 MAY 2019 16:22
+This is XeTeX, Version 3.14159265-2.6-0.99999 (TeX Live 2018/W32TeX) (preloaded format=xelatex 2019.2.21)  26 MAY 2019 16:53
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1428,51 +1428,31 @@ LaTeX Warning: Float too large for page by 1.2247pt on input line 3350.
 LaTeX Warning: No positions in optional float specifier.
                Default added (so using `tbp') on input line 3449.
 
-[88] [89] [90] [91] [92]
+[88] [89]
 
-Package xcolor Warning: Incompatible color definition on input line 3734.
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+[90] [91] [92] [93]
+
+Package xcolor Warning: Incompatible color definition on input line 3740.
 
 LaTeX Font Info:    Font shape `TU/lmtt/bx/n' in size <12> not available
-(Font)              Font shape `TU/lmtt/b/n' tried instead on input line 3737.
+(Font)              Font shape `TU/lmtt/b/n' tried instead on input line 3743.
 
-Package xcolor Warning: Incompatible color definition on input line 3764.
-
-
-Package xcolor Warning: Incompatible color definition on input line 3764.
+Package xcolor Warning: Incompatible color definition on input line 3770.
 
 
-Package xcolor Warning: Incompatible color definition on input line 3764.
+Package xcolor Warning: Incompatible color definition on input line 3770.
 
-[93]
+[94] [95] [96]
 
-Package xcolor Warning: Incompatible color definition on input line 3764.
-
-
-Package xcolor Warning: Incompatible color definition on input line 3764.
-
-[94] [95]
-
-Package xcolor Warning: Incompatible color definition on input line 3884.
+Package xcolor Warning: Incompatible color definition on input line 3890.
 
 
-Package xcolor Warning: Incompatible color definition on input line 3915.
+Package xcolor Warning: Incompatible color definition on input line 3921.
 
 
-Package xcolor Warning: Incompatible color definition on input line 3915.
-
-
-Overfull \vbox (2.68433pt too high) detected at line 3915
- []
-
-
-Package xcolor Warning: Incompatible color definition on input line 3915.
-
-[96]
-
-Package xcolor Warning: Incompatible color definition on input line 3915.
-
-
-Package xcolor Warning: Incompatible color definition on input line 3915.
+Package xcolor Warning: Incompatible color definition on input line 3921.
 
 File: data/produced_data/methods-chpt/timeline.png Graphic file (type bmp)
 <data/produced_data/methods-chpt/timeline.png>
@@ -1547,11 +1527,11 @@ LaTeX Warning: `h' float specifier changed to `ht'.
 ] [113] [114] [115] [116]
 Chapter 5.
 LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <10> on input line 4737.
+(Font)              <10> on input line 4743.
 LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <7> on input line 4737.
+(Font)              <7> on input line 4743.
 LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <5> on input line 4737.
+(Font)              <5> on input line 4743.
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
@@ -1560,7 +1540,7 @@ LaTeX Warning: `h' float specifier changed to `ht'.
 ]
 
 LaTeX Warning: No positions in optional float specifier.
-               Default added (so using `tbp') on input line 4769.
+               Default added (so using `tbp') on input line 4775.
 
 File: figures/chapter-results-1/02_age_sex_plot.pdf Graphic file (type pdf)
 <use figures/chapter-results-1/02_age_sex_plot.pdf>
@@ -1598,11 +1578,11 @@ File: figures/chapter-results-1/08_pis_group_plot.pdf Graphic file (type pdf)
 LaTeX Warning: `h' float specifier changed to `ht'.
 
 
-LaTeX Warning: Reference `ch:res-3' on page 123 undefined on input line 4881.
+LaTeX Warning: Reference `ch:res-3' on page 123 undefined on input line 4887.
 
 
 LaTeX Warning: No positions in optional float specifier.
-               Default added (so using `tbp') on input line 4883.
+               Default added (so using `tbp') on input line 4889.
 
 [123] [124]
 
@@ -1639,13 +1619,13 @@ Chapter 6.
 
 ]
 
-Package xcolor Warning: Incompatible color definition on input line 5240.
+Package xcolor Warning: Incompatible color definition on input line 5246.
 
 
-Package xcolor Warning: Incompatible color definition on input line 5250.
+Package xcolor Warning: Incompatible color definition on input line 5256.
 
 
-Package xcolor Warning: Incompatible color definition on input line 5250.
+Package xcolor Warning: Incompatible color definition on input line 5256.
 
 
 LaTeX Warning: `h' float specifier changed to `ht'.
@@ -1673,7 +1653,7 @@ LaTeX Warning: `h' float specifier changed to `ht'.
 [135] [136]
 
 LaTeX Warning: No positions in optional float specifier.
-               Default added (so using `tbp') on input line 5486.
+               Default added (so using `tbp') on input line 5492.
 
 File: figures/chapter-results-2/sc_model_25_council_APE_plot.pdf Graphic file (
 type pdf)
@@ -1699,7 +1679,7 @@ LaTeX Warning: `h' float specifier changed to `ht'.
 
 
 LaTeX Warning: No positions in optional float specifier.
-               Default added (so using `tbp') on input line 5669.
+               Default added (so using `tbp') on input line 5675.
 
 [142]
 File: figures/chapter-results-2/sc_model_24_council_APE_plot.pdf Graphic file (
@@ -1711,21 +1691,18 @@ LaTeX Warning: `h' float specifier changed to `ht'.
 
 [144]
 
-Package xcolor Warning: Incompatible color definition on input line 5772.
+Package xcolor Warning: Incompatible color definition on input line 5778.
 
 
-Package xcolor Warning: Incompatible color definition on input line 5784.
+Package xcolor Warning: Incompatible color definition on input line 5790.
 
 
-Package xcolor Warning: Incompatible color definition on input line 5784.
+Package xcolor Warning: Incompatible color definition on input line 5790.
 
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
 [145]
-
-LaTeX Warning: Reference `' on page 146 undefined on input line 5863.
-
 File: figures/chapter-results-3/adm_model_3_AME_plot.pdf Graphic file (type pdf
 )
 <use figures/chapter-results-3/adm_model_3_AME_plot.pdf>
@@ -1737,16 +1714,11 @@ LaTeX Warning: `h' float specifier changed to `ht'.
 Chapter 7.
 [149
 
-] [150] [151] [152] [153]
-
-LaTeX Warning: Reference `ch:refnrew' on page 154 undefined on input line 6273.
-
-
-[154] [155] [156] [157]
+] [150] [151] [152] [153] [154] [155] [156] [157] [158] [159] [160]
 Chapter 8.
-[158
+[161
 
-] [159
+] [162
 
 
 ]
@@ -1758,7 +1730,7 @@ File: data/assets/pbpp.pdf Graphic file (type pdf)
 <use data/assets/pbpp.pdf, page 1>
 File: data/assets/pbpp.pdf Graphic file (type pdf)
 <use data/assets/pbpp.pdf, page 1>
-[160
+[163
 
 ]
 File: data/assets/pbpp.pdf Graphic file (type pdf)
@@ -1767,9 +1739,9 @@ File: data/assets/pbpp.pdf Graphic file (type pdf)
 <use data/assets/pbpp.pdf, page 1>
 File: data/assets/pbpp.pdf Graphic file (type pdf)
 <use data/assets/pbpp.pdf, page 1>
-[161] [162
+[164] [165
 
-] [163] [164] [165] [166] [167]
+] [166] [167] [168] [169] [170]
 File: data/assets/renf-ethics.pdf Graphic file (type pdf)
 <use data/assets/renf-ethics.pdf>
 File: data/assets/renf-ethics.pdf Graphic file (type pdf)
@@ -1778,7 +1750,7 @@ File: data/assets/renf-ethics.pdf Graphic file (type pdf)
 <use data/assets/renf-ethics.pdf, page 1>
 File: data/assets/renf-ethics.pdf Graphic file (type pdf)
 <use data/assets/renf-ethics.pdf, page 1>
-[168
+[171
 
 ]
 File: data/assets/renf-ethics.pdf Graphic file (type pdf)
@@ -1787,11 +1759,11 @@ File: data/assets/renf-ethics.pdf Graphic file (type pdf)
 <use data/assets/renf-ethics.pdf, page 1>
 File: data/assets/renf-ethics.pdf Graphic file (type pdf)
 <use data/assets/renf-ethics.pdf, page 1>
-[169] [170
+[172] [173
 
-] [171
+] [174
 
-] [172] [173]
+] [175] [176]
 File: figures/chapter-results-2/sc_model_25_simd_plot.pdf Graphic file (type pd
 f)
 <use figures/chapter-results-2/sc_model_25_simd_plot.pdf>
@@ -1801,56 +1773,56 @@ File: figures/chapter-results-2/sc_model_24_or_plot.pdf Graphic file (type pdf)
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-[174
+[177
 
-] [175] [176
+] [178] [179
 
-] [177] [178]
+] [180] [181]
 File: figures/chapter-results-3/adm_model_3_or_plot.pdf Graphic file (type pdf)
 
 <use figures/chapter-results-3/adm_model_3_or_plot.pdf>
-[179
+[182
 
-] [180
+] [183
 
-] [181] [182]
+] [184] [185]
 File: figures/chapter-results-3/adm_model_3_simd_plot.pdf Graphic file (type pd
 f)
 <use figures/chapter-results-3/adm_model_3_simd_plot.pdf>
-[183
+[186
 
 ]
-Underfull \hbox (badness 1931) in paragraph at lines 6917--6920
+Underfull \hbox (badness 1931) in paragraph at lines 7071--7074
 []\TU/lmr/m/n/12 Acheson, D. and Barker, D. (1998) \TU/lmr/m/it/12 Independent 
 inquiry into inequalities in
  []
 
 
-Underfull \hbox (badness 1910) in paragraph at lines 6917--6920
+Underfull \hbox (badness 1910) in paragraph at lines 7071--7074
 \TU/lmr/m/it/12 health\TU/lmr/m/n/12 . Report. Available at: [][]$[][][][][] []
  [] [] [][][] [] [][][] [] [][] [] [][][][][][][][][][] [] [][][][][][][][][][]
 [][] []
  []
 
-[184
+[187
 
 
 ]
-Underfull \hbox (badness 10000) in paragraph at lines 6996--6999
+Underfull \hbox (badness 10000) in paragraph at lines 7150--7153
 [][]$[][][][] [] [] [] [][][] [] [][][][][][][][][][][][][][][] [] [][][] [] []
 [] [] [][][][][][][] [] [][][][] [] [][][][][][] [] [][][][] [] [][] [] [][][][
 ][][] [] [][][][][][] []
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 7001--7004
+Underfull \hbox (badness 10000) in paragraph at lines 7155--7158
 \TU/lmr/m/n/12 Available at: [][]$[][][][] [] [] [] [][][] [] [][][][][][][][][
 ][][][][][][] [] [][][] [] [][] [] [][][][][][][] [] [][][][] [] [][][][][][] [
 ] [][][][] [] [][] []
  []
 
 
-Overfull \hbox (123.3066pt too wide) in paragraph at lines 7021--7024
+Overfull \hbox (123.3066pt too wide) in paragraph at lines 7175--7178
 \TU/lmr/m/n/12 Available at: [][]$[][][][] [] [] [] [][][] [] [][][][][][][][][
 ][][][][][][] [] [][][] [] [][] [] [][][][][][] [] [][][][][][][][][][][][][][]
 [][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][
@@ -1858,67 +1830,67 @@ Overfull \hbox (123.3066pt too wide) in paragraph at lines 7021--7024
  []
 
 
-Overfull \hbox (93.33063pt too wide) in paragraph at lines 7026--7030
+Overfull \hbox (93.33063pt too wide) in paragraph at lines 7180--7184
 [][][] [] [][] [] [][][][][][] [] [][][][][][][][][][][][][][][][][][][][][][][
 ][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][]
 [][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][
 ][][][]$[][]\TU/lmr/m/n/12 . 
  []
 
-[185]
-Underfull \hbox (badness 1810) in paragraph at lines 7088--7091
+[188]
+Underfull \hbox (badness 1810) in paragraph at lines 7250--7253
 []\TU/lmr/m/n/12 BMA (2014) \TU/lmr/m/it/12 What is social care, and how can he
 alth services better inte-
  []
 
 
-Underfull \hbox (badness 1259) in paragraph at lines 7088--7091
+Underfull \hbox (badness 1259) in paragraph at lines 7250--7253
 \TU/lmr/m/it/12 grate with it? \TU/lmr/m/n/12 Report. Available at: [][]$[][][]
 [] [] [] [] [][] [] [][][][][][] [] [][][][][][][][] [] [][][][][][][][][] []
  []
 
-
-Overfull \hbox (38.24255pt too wide) in paragraph at lines 7093--7097
+[189]
+Overfull \hbox (38.24255pt too wide) in paragraph at lines 7255--7259
 [][][][][][][] [] [][][][][] [] [][][][][][][][] [] [][][][][][][][][][][][][][
 ][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][]
 [][][][][][][][][][][][][][][][][][][][][][][][][][][][][] []
  []
 
-[186]
-Underfull \hbox (badness 3965) in paragraph at lines 7099--7103
+
+Underfull \hbox (badness 3965) in paragraph at lines 7261--7265
 \TU/lmr/m/n/12 Available at: [][]$[][][][][] [] [] [] [][][] [] [][][][][][][][
 ][] [] [][][] [] [][][][] [] [][][][][][][][] [] [][][][][][][][][][][][][][][]
 [][][][][][][][][][][][][] []
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 7099--7103
+Underfull \hbox (badness 10000) in paragraph at lines 7261--7265
 [][][][][][][] [] [][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][
 ][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][]
 [][][][][][][][][][][] []
  []
 
 
-Underfull \hbox (badness 1173) in paragraph at lines 7121--7126
+Underfull \hbox (badness 1173) in paragraph at lines 7283--7288
 []\TU/lmr/m/n/12 Brimblecombe, N., Pickard, L. and King, D. \TU/lmr/m/it/12 et 
 al. \TU/lmr/m/n/12 (2018) ‘Barriers to re-
  []
 
 
-Underfull \hbox (badness 1152) in paragraph at lines 7121--7126
+Underfull \hbox (badness 1152) in paragraph at lines 7283--7288
 \TU/lmr/m/n/12 ceipt of social care services for working carers and the people 
 they care for
  []
 
 
-Underfull \hbox (badness 1803) in paragraph at lines 7121--7126
+Underfull \hbox (badness 1803) in paragraph at lines 7283--7288
 \TU/lmr/m/n/12 able at: [][]$[][][][][] [] [] [] [][][] [] [][][][][][][][][] [
 ] [][][] [] [][][][] [] [][][][][][][][] [] [][][][][][][][][][][][][][][][][][
 ][][][][][][][][][] [] [][][][][][][] []
  []
 
 
-Overfull \hbox (131.16261pt too wide) in paragraph at lines 7121--7126
+Overfull \hbox (131.16261pt too wide) in paragraph at lines 7283--7288
 [][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][
 ][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][]
 [][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][
@@ -1926,409 +1898,409 @@ Overfull \hbox (131.16261pt too wide) in paragraph at lines 7121--7126
  []
 
 
-Overfull \hbox (182.06268pt too wide) in paragraph at lines 7128--7132
+Overfull \hbox (182.06268pt too wide) in paragraph at lines 7290--7294
 [][][][][][][][][][][][][][][][][][][][][][][][][][][] [] [][][][][][][] [] [][
 ][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][]
 [][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][
 ][][][][][][][][][][][][][][][] []
  []
 
-
-Underfull \hbox (badness 1460) in paragraph at lines 7140--7143
+[190]
+Underfull \hbox (badness 1460) in paragraph at lines 7302--7305
 \TU/lmr/m/it/12 ternational comparisons\TU/lmr/m/n/12 . Report. Available at: [
 ][]$[][][][] [] [] [] [][][] [] [][][][][][][][][][] [] [][][][] []
  []
 
-[187]
-Underfull \hbox (badness 1406) in paragraph at lines 7155--7158
+
+Underfull \hbox (badness 1406) in paragraph at lines 7324--7327
 []\TU/lmr/m/n/12 Care, D. of H. and Social (2019) \TU/lmr/m/it/12 Social care -
  charging for care and sup-
  []
 
 
-Underfull \hbox (badness 3209) in paragraph at lines 7155--7158
+Underfull \hbox (badness 3209) in paragraph at lines 7324--7327
 \TU/lmr/m/it/12 port\TU/lmr/m/n/12 . Report. Available at: [][]$[][][][][] [] [
 ] [] [][][] [] [][][] [] [][] [] [][][][][][][][][][] [] [][][][][][][][][][][]
 [] []
  []
 
 
-Overfull \hbox (97.96254pt too wide) in paragraph at lines 7165--7168
+Overfull \hbox (97.96254pt too wide) in paragraph at lines 7334--7337
 \TU/lmr/m/n/12 at: [][]$[][][][][] [] [] [] [][][] [] [][][] [] [][] [] [][][][
 ][][][][][][] [] [][][][][][][][][][][][] [] [][][][][][][][][][][][][][][][][]
 [][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][
 ][][][]$[][]. 
  []
 
-[188]
-Underfull \hbox (badness 2486) in paragraph at lines 7247--7251
+[191]
+Underfull \hbox (badness 2486) in paragraph at lines 7416--7420
 []\TU/lmr/m/n/12 Dilnot, A. (2011) \TU/lmr/m/it/12 Fairer care funding: The rep
 ort of the commission on
  []
 
 
-Underfull \hbox (badness 1552) in paragraph at lines 7247--7251
+Underfull \hbox (badness 1552) in paragraph at lines 7416--7420
 \TU/lmr/m/it/12 funding of care and support\TU/lmr/m/n/12 . The Stationery Offi
 ce. Available at: [][]$[][][][][] []
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 7247--7251
+Underfull \hbox (badness 10000) in paragraph at lines 7416--7420
 [] [] [][][][][][][][][][] [] [][][][][][][][][][][][][][][][] [] [][][] [] [][
 ] [] [][][][][][][][][][][][][][] [] [][][][][] [] [] [] [][][] [] [][] [] [][]
  [] [][][] []
  []
 
-[189]
-Underfull \hbox (badness 2460) in paragraph at lines 7302--7306
+[192]
+Underfull \hbox (badness 2460) in paragraph at lines 7471--7475
 []\TU/lmr/m/n/12 Evans, T. (2010) ‘Professionals, managers and discretion: Crit
 iquing street-
  []
 
 
-Underfull \hbox (badness 2521) in paragraph at lines 7302--7306
+Underfull \hbox (badness 2521) in paragraph at lines 7471--7475
 \TU/lmr/m/n/12 level bureaucracy’, \TU/lmr/m/it/12 The British Journal of Socia
 l Work\TU/lmr/m/n/12 , 41(2), pp. 368–
  []
 
 
-Underfull \hbox (badness 3872) in paragraph at lines 7302--7306
+Underfull \hbox (badness 3872) in paragraph at lines 7471--7475
 \TU/lmr/m/n/12 386. Available at: [][]$[][][][][] [] [] [] [][][][][][][][] [] 
 [][][] [] [][][] [] [][][][] [] [][][][][][][] [] [][] [] [] [] [][][] [] [][][
 ][][][][] []
  []
 
-
-Underfull \hbox (badness 1092) in paragraph at lines 7325--7329
+[193]
+Underfull \hbox (badness 1092) in paragraph at lines 7494--7498
 \TU/lmr/m/n/12 Available at: [][]$[][][][] [] [] [] [][][][][][][][][][][][][] 
 [] [][][][][] [] [][][] [] [][][] [] [][] [] [][][][] [] [] [] [][][][][][][][]
 [][] [] [][][][] [] [][][][][] [] [] []
  []
 
-[190]
-Overfull \hbox (56.09456pt too wide) in paragraph at lines 7377--7381
+[194]
+Overfull \hbox (56.09456pt too wide) in paragraph at lines 7546--7550
 [][][][][][][][][] [] [][][] [] [][][][][][][][][] [] [][][][] [] [][] [] [] []
  [][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][]
 [][][][][][][][][][][][][][][][][][][][][][][][][][] []
  []
 
-[191]
-Underfull \hbox (badness 1389) in paragraph at lines 7388--7392
+
+Underfull \hbox (badness 1389) in paragraph at lines 7557--7561
 \TU/lmr/m/n/12 sequences of comorbidity: A review’, \TU/lmr/m/it/12 Journal of 
 clinical epidemiology\TU/lmr/m/n/12 , 54(7),
  []
 
 
-Underfull \hbox (badness 3029) in paragraph at lines 7388--7392
+Underfull \hbox (badness 3029) in paragraph at lines 7557--7561
 \TU/lmr/m/n/12 pp. 661–674. Available at: [][]$[][][][] [] [] [] [][] [] [][][]
 [][][][][] [] [][][] [] [][][][][][][][][][][][][][][][][] [] [][][][][] []
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 7388--7392
+Underfull \hbox (badness 10000) in paragraph at lines 7557--7561
 [][][][][][][][][][][][][][][][][][][][][][][][][][] [] [][][] [] [][][][] [] [
 ][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][]
  []
  []
 
-
-Underfull \hbox (badness 1888) in paragraph at lines 7433--7436
+[195]
+Underfull \hbox (badness 1888) in paragraph at lines 7602--7605
 []\TU/lmr/m/n/12 Ham, C. (2019) ‘The future of social care’, \TU/lmr/m/it/12 BM
 J\TU/lmr/m/n/12 , 364:1252. Available at:
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 7433--7436
+Underfull \hbox (badness 10000) in paragraph at lines 7602--7605
 [][]$[][][][][] [] [] [] [][][] [] [][][] [] [][][] [] [][][][][][][] [] [][][]
  [] [][][] [] [][][][] [] [][][][][][][] [] [][][][][] [] [][][][][][][][][][][
 ][] []
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 7433--7436
+Underfull \hbox (badness 10000) in paragraph at lines 7602--7605
 [][][][][][][][][][] [] [][][][][][][][][][][][][][][][][][][][][][][][][][][][
 ][][][][][][][][][][][][][][][][] [] [][][] [] [][][] [] [][][] [] [][] []
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 7438--7442
+Underfull \hbox (badness 10000) in paragraph at lines 7607--7611
 \TU/lmr/m/n/12 at: [][]$[][][][][] [] [] [] [][][] [] [][][][][][][][][] [] [][
 ][] [] [][] [] [][][][][] [] [][][][][][][] [] [][][][][] [] [][][][][] [] [][]
 [][][] [] [][][][][][][][][][][] [] [][][][] []
  []
 
-[192] [193]
-Overfull \hbox (363.71303pt too wide) in paragraph at lines 7521--7523
+[196]
+Overfull \hbox (363.71303pt too wide) in paragraph at lines 7690--7692
 []\TU/lmr/m/n/12 House-of-Commons (2017) \TU/lmr/m/it/12 Adult social care\TU/l
 mr/m/n/12 . Report. Available at: [][]https://www.publications.parliament.uk/pa
 /cm201617/cmselect/cmcomloc/1103/1103.pdf[][]. 
  []
 
 
-Overfull \hbox (15.7305pt too wide) in paragraph at lines 7548--7550
+Overfull \hbox (15.7305pt too wide) in paragraph at lines 7717--7719
 [][][][][][][][][] [] [][][] [] [][] [] [][][][][] [] [][][][][] [] [][] [] [][
 ][][][] [] [][][][][] [] [][][][][][][][][][][] [] [][][][][][][] [] [][][][][]
 [][][][][][][][][][][][][][][][][][][] []
  []
 
-
-Overfull \hbox (153.17456pt too wide) in paragraph at lines 7566--7569
+[197]
+Overfull \hbox (153.17456pt too wide) in paragraph at lines 7735--7738
 [][][][][][][][][][][][][][] [] [][][][][][][][][][][][][][][][][][][][][][][][
 ][][][][][][][][][][][][] [] [][][][] [] [][][][][][][][][][][][][][][][][][][]
 [][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][
 ][] []
  []
 
-[194] [195]
-Overfull \hbox (97.74261pt too wide) in paragraph at lines 7680--7683
+[198]
+Overfull \hbox (97.74261pt too wide) in paragraph at lines 7849--7852
 [][][][][][][][][][][][][][][][][] [] [][][][][] [] [][][][][][][][][][][][][][
 ][][][][][][][][][][][][] [] [][][] [] [][][][] [] [][][][][][][][][][][][][][]
 [][][][][][][][][][][][][][][][][][][][][][][][][][] []
  []
 
-[196]
-Underfull \hbox (badness 1742) in paragraph at lines 7721--7725
+[199]
+Underfull \hbox (badness 1742) in paragraph at lines 7890--7894
 \TU/lmr/m/n/12 timorbidity: A systematic review of the literature’, \TU/lmr/m/i
 t/12 Ageing research reviews\TU/lmr/m/n/12 ,
  []
 
 
-Underfull \hbox (badness 1137) in paragraph at lines 7721--7725
+Underfull \hbox (badness 1137) in paragraph at lines 7890--7894
 \TU/lmr/m/n/12 10(4), pp. 430–439. Available at: [][]$[][][][] [] [] [] [][] []
  [][][][][][][][] [] [][][] [] [][][][][][][][][][][][][][][][][] []
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 7721--7725
+Underfull \hbox (badness 10000) in paragraph at lines 7890--7894
 [][][][][] [] [][][][][][][][][][][][][][][][][][][][][][][][][][] [] [][][] []
  [][][][] [] [][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][]
 [][][][][][][] []
  []
 
 
-Underfull \hbox (badness 2237) in paragraph at lines 7727--7730
+Underfull \hbox (badness 2237) in paragraph at lines 7896--7899
 []\TU/lmr/m/n/12 Marmot, M. (2005) ‘Social determinants of health inequalities’
 , \TU/lmr/m/it/12 The Lancet\TU/lmr/m/n/12 ,
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 7727--7730
+Underfull \hbox (badness 10000) in paragraph at lines 7896--7899
 [][][][][] [] [][][][][][][][][][][][][][][][][][][][][][][][][][] [] [][][] []
  [][][][] [] [][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][]
 [][][][][][][] []
  []
 
-
-Overfull \hbox (16.75853pt too wide) in paragraph at lines 7741--7745
+[200]
+Overfull \hbox (16.75853pt too wide) in paragraph at lines 7910--7914
 [] [] [][][] [] [][][][][][][][][][][][][][][][][][][][][][][] [] [][][] [] [][
 ][][][][][][] [] [][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][]
 [][][][][][][][][][][][][][][][][][][]$[][]\TU/lmr/m/n/12 . 
  []
 
-[197]
-Underfull \hbox (badness 10000) in paragraph at lines 7765--7769
+
+Underfull \hbox (badness 10000) in paragraph at lines 7934--7938
 \TU/lmr/m/n/12 able at: [][]$[][][][] [] [] [] [][] [] [][][][][][][][][] [] []
 [][] [] [][][][][][][][] [] [][][] [] [][][][][][][][][] [] [][][][][][][][] []
  [][][] []
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 7765--7769
+Underfull \hbox (badness 10000) in paragraph at lines 7934--7938
 [][][] [] [][][][][] [] [][][] [] [][][][][][][] [] [][][] [] [][][][][][][][][
 ][][][][][] [] [][][][][][][][][][][][][][][][][][][][] []
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 7765--7769
+Underfull \hbox (badness 10000) in paragraph at lines 7934--7938
 [][][][][][][] [] [][][][][][][][][][] [] [][][][][][][][][] [] [][][][][][][][
 ][][][][][][][][][][][][][][][][][] [] [][][] [] [][] []
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 7765--7769
+Underfull \hbox (badness 10000) in paragraph at lines 7934--7938
 [][][][][][][][][][][][][][][][][][][][][][][][][][][][][][] [] [][][][][][] []
  [][] [] [][][][][][][][][][] [] [][][][][] [] [][][] [] [][][][][] [] [][][] [
 ]
  []
 
-[198]
-Underfull \hbox (badness 1661) in paragraph at lines 7831--7834
+[201]
+Underfull \hbox (badness 1661) in paragraph at lines 8000--8003
 []\TU/lmr/m/n/12 Munday, B. (2003) \TU/lmr/m/it/12 European social services: A 
 map of characteristics and
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 7831--7834
+Underfull \hbox (badness 10000) in paragraph at lines 8000--8003
 [][][][][][][][][] [] [][][][][][][][] [] [][][][][][][][][] [] [][][][][][][][
 ][][] [] [][][][][][][][][][][][] [] [][][][][][][][] [] [][][] [] [][][][][][]
 [] []
  []
 
 
-Underfull \hbox (badness 1122) in paragraph at lines 7836--7840
+Underfull \hbox (badness 1122) in paragraph at lines 8005--8009
 \TU/lmr/m/n/12 at: [][]$[][][][][] [] [] [] [][][][][][][][] [] [][][][][][][] 
 [] [][][] [] [][][] [] [][][][] [] [][] [] [][][][] [] [][][][][][][][][][][][]
 [][][][] [] [][][][] [] [][][][][] []
  []
 
 
-Overfull \hbox (209.12642pt too wide) in paragraph at lines 7836--7840
+Overfull \hbox (209.12642pt too wide) in paragraph at lines 8005--8009
 [][][][][][][][][][][][][][][][] [] [][][][][][][][][][][][][][][][][][][][][][
 ][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][]
 [][][][][][][][][][][][][][][][]$[][]\TU/lmr/m/n/12 . 
  []
 
-[199]
-Underfull \hbox (badness 7326) in paragraph at lines 7885--7888
+[202]
+Underfull \hbox (badness 7326) in paragraph at lines 8054--8057
 \TU/lmr/m/n/12 able at: [][]$[][][][][] [] [] [] [][][] [] [][][][][][][][][][]
  [] [][][] [] [][] [] [][][][][] [] [][][][][][][][][][] [] [][][][][][][][][][
 ][][][][][][][][][][][][][][][][][] []
  []
 
 
-Underfull \hbox (badness 1960) in paragraph at lines 7894--7896
+Underfull \hbox (badness 1960) in paragraph at lines 8063--8065
 []\TU/lmr/m/n/12 NRS (2018a) \TU/lmr/m/it/12 NHS central register (nhscr)\TU/lm
 r/m/n/12 . Report. Available at: [][]$[][][][][] []
  []
 
 
-Underfull \hbox (badness 2088) in paragraph at lines 7898--7900
+Underfull \hbox (badness 2088) in paragraph at lines 8067--8069
 []\TU/lmr/m/n/12 NRS (2018b) \TU/lmr/m/it/12 Statutory registers of deaths\TU/l
 mr/m/n/12 . Report. Available at: [][]$[][][][][] []
  []
 
-
-Underfull \hbox (badness 10000) in paragraph at lines 7927--7930
+[203]
+Underfull \hbox (badness 10000) in paragraph at lines 8096--8099
 \TU/lmr/m/n/12 at: [][]$[][][][][] [] [] [] [][][] [] [][][] [] [][][] [] [][] 
 [] [][][][][][][][][][][][][][][][][][][][][][][][][][][][] [] [][][][][][][][]
 [][][][][][][][][][][] []
  []
 
 
-Underfull \hbox (badness 4505) in paragraph at lines 7932--7936
+Underfull \hbox (badness 4505) in paragraph at lines 8101--8105
 \TU/lmr/m/n/12 Available at: [][]$[][][][] [] [] [] [][][] [] [][][][] [] [][][
 ] [] [][] [] [][][][][][] [] [][][][][][][][][][][][][][][][][][][][][][][][][]
 [][][][][][][][][][][][] []
  []
 
-[200]
-Underfull \hbox (badness 10000) in paragraph at lines 7955--7960
+
+Underfull \hbox (badness 10000) in paragraph at lines 8124--8129
 [] [] [][] [] [][][][][][][][] [] [][][] [] [][][][][][][][][][][][][][][][][] 
 [] [][][][][] [] [][][][][][][][][][][][][][][][][][][][][][][][][][] [] [][][]
  [] [][][][] []
  []
 
 
-Overfull \hbox (67.46654pt too wide) in paragraph at lines 7955--7960
+Overfull \hbox (67.46654pt too wide) in paragraph at lines 8124--8129
 [][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][
 ] [] [][][][][][] [] [][][][][][][][][][] [] [][][][][][][][][][][][][][][][][]
 [][][][][][][][][][][][][][][]$[][]\TU/lmr/m/n/12 . 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 7984--7987
+Underfull \hbox (badness 10000) in paragraph at lines 8153--8156
 [][][][][][][][][] [] [][][][][][][] [] [][][][][][][] [] [][][][][][][][][] []
  [][][][][] [] [][][][][][][] [] [][][] [] [][][][][][][][] [] [][][] [] [][][]
 [][] []
  []
 
-[201]
-Underfull \hbox (badness 1888) in paragraph at lines 8009--8012
+[204]
+Underfull \hbox (badness 1888) in paragraph at lines 8178--8181
 \TU/lmr/m/n/12 at: [][]$[][][][] [] [] [] [][][] [] [][][][][][][][][][][][] []
  [][][] [] [][] [] [][][][][] [] [][][][] [] [][][][][][][][][][][][][][][][][]
 [][][][][][][][][][] [] [][][] []
  []
 
 
-Overfull \hbox (95.68658pt too wide) in paragraph at lines 8021--8024
+Overfull \hbox (95.68658pt too wide) in paragraph at lines 8190--8193
 [][][][][][][][][] [] [][][][][][][][][][] [] [][][][] [] [][][][][][][][][][][
 ][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][]
 [][][][][][][][][][][][][][][][][][][][][][][][][][][] []
  []
 
-[202]
-Underfull \hbox (badness 5050) in paragraph at lines 8092--8095
+[205]
+Underfull \hbox (badness 5050) in paragraph at lines 8261--8264
 \TU/lmr/m/n/12 Available at: [][]$[][][][] [] [] [] [][][] [] [][][] [] [][][][
 ] [] [][][][][][] [] [][][][][][][][][][] [] [][][][][][][][][][][][][][][][][]
  [] [][][][][] []
  []
 
-
-Overfull \hbox (49.52652pt too wide) in paragraph at lines 8112--8115
+[206]
+Overfull \hbox (49.52652pt too wide) in paragraph at lines 8281--8284
 \TU/lmr/m/n/12 Available at: [][]$[][][][] [] [] [] [][][] [] [][][] [] [][][][
 ] [] [][][][][][] [] [][][][][][] [] [][][][][][] [] [][][][][][][][][][][][][]
 [][][][][][][][][][][][][][][][][][][][][][][][][] []
  []
 
-[203]
-Overfull \hbox (60.93187pt too wide) in paragraph at lines 8142--8145
+
+Overfull \hbox (60.93187pt too wide) in paragraph at lines 8311--8314
 \TU/lmr/m/n/12 Report. Available at: [][]$[][][][] [] [] [] [][][] [] [][][] []
  [][][][] [] [][][][][][] [] [][][][][][] [] [][][][][][] [] [][][][][][][][][]
 [][][][][][][][][][][][][][][][][][][][][][][][]$[][]. 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 8170--8173
+Underfull \hbox (badness 10000) in paragraph at lines 8339--8342
 [][][][][][][][][][][][][][][][][][][][][] [] [][][][][][][] [] [][][][][][][][
 ][][][][][][][][][][][] [] [][][][][][][][][][][][][][][][][][][][][][][][][][]
 [][][] []
  []
 
-
-Underfull \hbox (badness 1389) in paragraph at lines 8197--8199
+[207]
+Underfull \hbox (badness 1389) in paragraph at lines 8366--8368
 []\TU/lmr/m/n/12 SILC (2017a) \TU/lmr/m/it/12 Data linkage safeguards\TU/lmr/m/
 n/12 . Report. Available at: [][]$[][][][] [] [] [] [][][] []
  []
 
-[204]
-Underfull \hbox (badness 10000) in paragraph at lines 8254--8258
+[208]
+Underfull \hbox (badness 10000) in paragraph at lines 8423--8427
 [][]$[][][][][] [] [] [] [][][][][][][][][][] [] [][][][][][][][][][][][][][][]
 [] [] [][][] [] [][] [] [][][][][][][][][][][][][][] [] [][][][] [] [] [] [][][
 ] [] [][][][][][][] []
  []
 
-[205]
-Underfull \hbox (badness 10000) in paragraph at lines 8282--8286
+
+Underfull \hbox (badness 10000) in paragraph at lines 8451--8455
 [][]$[][][][][] [] [] [] [][][] [] [][][][][][][][][] [] [][][] [] [][] [] [][]
 [][][] [] [][][][][][][] [] [][][][][] [] [][][][][][][][] [] [][][] [] [][] []
  [][] [] [][][][] [] [][][] []
  []
 
 
-Underfull \hbox (badness 1132) in paragraph at lines 8299--8303
+Underfull \hbox (badness 1132) in paragraph at lines 8468--8472
 \TU/lmr/m/n/12 Available at: [][]$[][][][] [] [] [] [][][] [] [][][][][][][][][
 ][][] [] [][][] [] [][][] [] [][][][] [] [][] [] [][][][] [] [][][][][][][][] [
 ] [][][][] [] [][][][][][] []
  []
 
-
-Overfull \hbox (217.50395pt too wide) in paragraph at lines 8305--8308
+[209]
+Overfull \hbox (217.50395pt too wide) in paragraph at lines 8474--8477
 \TU/lmr/m/n/12 Report. Available at: [][]$[][][][] [] [] [] [][][][] [] [][] []
  [][] [] [][][][][] [] [][][][] [] [][][][][][][][][][][][][][][][][][][][][][]
 [][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][
 ][][][][][][][][][][][][][][][][][][][][][] []
  []
 
-[206]
-Underfull \hbox (badness 1048) in paragraph at lines 8385--8389
+[210]
+Underfull \hbox (badness 1048) in paragraph at lines 8554--8558
 \TU/lmr/m/it/12 tion across health and social care: Evidence review\TU/lmr/m/n/
 12 . Report. Available at:
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 8385--8389
+Underfull \hbox (badness 10000) in paragraph at lines 8554--8558
 [][]$[][][][][] [] [] [] [][][] [] [][][][] [] [][] [] [][] [] [][][] [] [][][]
  [] [][][][][][][][][] [] [][][][][][][][][][][][][] [] [][][][][][][][] [] [][
 ][][][][][][] []
  []
 
-[207] [208]
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 8508.
-[209]
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 8508.
+[211] [212]
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 8677.
+[213]
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 8677.
 (./THESIS.aux)
-Package atveryend Info: Empty hook `AtVeryEndDocument' on input line 8508.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 8508.
+Package atveryend Info: Empty hook `AtVeryEndDocument' on input line 8677.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 8677.
 
 Package rerunfilecheck Info: File `THESIS.out' has not changed.
 (rerunfilecheck)             Checksum: 7F28DD9DA51A7EE85DB40A708E968FC7.
@@ -2337,12 +2309,12 @@ LaTeX Warning: There were undefined references.
 
  ) 
 Here is how much of TeX's memory you used:
- 28974 strings out of 494921
- 537227 string characters out of 6176112
- 713953 words of memory out of 5000000
- 32460 multiletter control sequences out of 15000+600000
+ 28973 strings out of 494921
+ 537230 string characters out of 6176112
+ 714030 words of memory out of 5000000
+ 32459 multiletter control sequences out of 15000+600000
  561146 words of font info for 79 fonts, out of 8000000 for 9000
  14 hyphenation exceptions out of 8191
  53i,19n,92p,803b,587s stack positions out of 5000i,500n,10000p,200000b,80000s
 
-Output written on THESIS.pdf (209 pages).
+Output written on THESIS.pdf (213 pages).

@@ -113,7 +113,7 @@ The distribution of number of repeat medicines prescribed in 2015/16 reveals the
 \begin{figure}[h]
   \centering
     \includegraphics{figures/chapter-results-1/combined_meds_plot.pdf}
-    \caption{Percetnage of individuals receiving repeat medicines}
+    \caption{Percentage of individuals receiving repeat medicines}
     \label{fig:results1-meds-age-grp}
 \end{figure}
 

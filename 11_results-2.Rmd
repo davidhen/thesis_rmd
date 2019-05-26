@@ -477,7 +477,7 @@ In 2015/16, 886,331 individuals were included in the model representing 95.9% of
 \FloatBarrier
 \subsection{Model results}
 
-Figure \ref{fig:res3-adm-OR} and table \ref{app-tab4} in Appendix D show odds ratios for individual variables in model fitted to data for 2015/16. As with previous models and explained in section \ref{}, APEs are used for the main stubstantive interpretation of models.   
+Figure \ref{fig:res3-adm-OR} and table \ref{app-tab4} in Appendix D show odds ratios for individual variables in model fitted to data for 2015/16. As with previous models and explained in section \ref{sec:methods-stats}, APEs are used for the main stubstantive interpretation of models.   
 
 The APEs for models with unplanned admission to hospital as dependent variable are much lower in magnitude for all variables (figure \ref{fig:res3-adm-APE} and table \ref{tab:res3-adm-ape1516}) compared with models fitted in sections \ref{subsec:96plus-results} and \ref{subsec:9296-AME} where social care was the dependent variable. 
 
