@@ -7,7 +7,7 @@ output: pdf_document
 
 Key findings and implications, Strengths and Limitations, Comparisons to previous research, Recommendations.
 
-\section{Key Findings and Implications}\label{sec:key-finds}
+\section{Key Findings in Context}\label{sec:key-finds}
 
 Given the broad scope of the research covered in the thesis, key findings and their implications are discussed in ? subsections. 
 
@@ -33,7 +33,7 @@ In summary, the analysis indicates that social care receipt is driven primarily 
 
 \subsection{Patterns in unplanned hospital admissions}\label{sec:dsicuss-adm}
 
-Descriptive statistics (section \ref{sec:res1-adm}) and models (section \ref{sec:res3-usc}) analysing factors associated with unplanned hospital admission in the six months after the end of each financial year reveal a relationship between multimorbidity and admission. Average Partial Effects increase with severity of multimorbidity, a pattern easily discernable from the change in colour by multimorbidity group in figure \ref{fig:results1-heatmap-3} and the more naive visualisation in figure \ref{fig:results1-adm-demos}. 
+Descriptive statistics (section \ref{sec:res1-adm}) and models (section \ref{sec:res3-usc}) analysing factors associated with unplanned hospital admission in the six months after the end of each financial year reveal a relationship between a number of variables and admission. Average Partial Effects increase with severity of multimorbidity, a pattern easily discernable from the change in colour by multimorbidity group in figure \ref{fig:results1-heatmap-3} and the more naive visualisation in figure \ref{fig:results1-adm-demos}. 
 
 The magnitude of multimorbidity APEs, as for all variables, are much lower than seen in social care models. For example, compared with being in the lowest multimorbidity group (0-2 repeat medicines), being in the highest multimorbidity group (9 plus repeat medicines) increases the probability of unplanned admission by between 8% and 9% across models (compared to 13% - 15% increased probability of receiving social care). Nevertheless, multimorbidity is shown to have an important relationship with unplanned hospital admission.  
 
@@ -53,7 +53,7 @@ Although two different models were conducted in analysis, comparison of results 
 
 Perhaps the most important comparison is between the heatmaps showing the overall distribution of social care and unplanned hospital admission presented in figures \ref{fig:results1-heatmap-1} and \ref{fig:results1-heatmap-3}. As previously discussed the former highlights the "intensification" of social care services focussed on, particularly female, highly multimorbid groups of lower socioeconomic position. Comparison to the latter figure shows the distribution of unplanned admission to hospital, whilst also affecting predominantely low SIMD decile residents with high multimorbidity, has a wider distribution affecting more males and younger age groups. If, as the policy of health and socal care integration explicitly aims to achieve, social care provision is to reduce the number of unplanned hospital admissions, then the distribution of the receipt of care will need to broaden to groups other than those over 80.
 
-There is, however, no evidence from the analysis that suggests receipt of social care can have a preventative effect on unplanned hospital admission. Nevertheless, as discussed in section \ref{sec:dsicuss-adm}, "intensification" may have resulted in social care acting as a proxy for multimorbidity in models. The effect of widening social care provision on unplanned hospital admission, therefore, may be desirable but remains a matter of conjecture. 
+There is, however, no evidence from the analysis that suggests receipt of social care can have a preventative effect on unplanned hospital admission. Indeed, those receiving social care have a higher probability of an unplanned admission than those that do not. Nevertheless, as discussed in section \ref{sec:dsicuss-adm}, "intensification" of services in recent years means that those with anything below the highest of needs are unlikely to receive social care. The effect of social care receipt could have on their outcomes remains a matter of conjecture. 
 
 A further argument regarding health and social care interaction raised in the analysis related to preventative measures. Given the strong effects increasing multimorbidity has on receipt of both social care and unplanned hospital admission (visible in heatmaps and model results), the results of analysis add weight to the many calls for a focus on preventative public health measures to attenuate the need for services. Compared to the highest multimorbidity group, those receiving 6-8 or 3-5 repeat medicines had much lower rates of unplanned admission and social care use. Those, even at older ages, in the lowest multimorbidity group (receiving 0-2 repeat medicines) had very little use of either service. Preventative measures that reduce the proportion of the population in the highest multimorbidity group could have a big impact on demand for health and social care services. 
 
@@ -76,7 +76,7 @@ Whilst this is welcoming, further issues remain with use of the SCS that limit t
 
 Although these issues are important, and analyses must take account of the limitations, the SCS remains an important resource in international terms. Social care data for research is recognised to be of poorer quality than health related data and often very difficult to link health records in many countries [@RN406]. Where linkages have been able to be made, inclusion of measures of home-based social care are less frequent [@RN610]. This means that, regardless of the limitations described above, the linked health and social care dataset created for analysis in this PhD is an important resource for research as it addresses both of these issues. 
 
-One final (incidental) finding that can be inferred from the analysis of social care data in the Renfrewshire area, reported in chapter \ref{ch:renfrew}, adds to the debate surrounding eligibility and allocation of social care. As argued by Sharkey (2006, p.10) (quoted at the beginning of section \ref{subsubsec:eligibility-uk}), eligibility criteria can be seen as a form of rationing where "...``need" is equated with ``resources available"." Figure \ref{fig:ren-hc-counts} shows that, whilst year-to-year variations are discernable, the weekly variation in the number of individuals receiving home care is remarkably stable. The deduction that a finite number of home care spaces are available at any given time, and that termination of one individual's care must occur before another's can start, seems credible. Whilst this may have been intuitively known previously, figure \ref{fig:ren-hc-counts} provides some empirical evidence to the debate. 
+One final (incidental) finding that can be inferred from the analysis of social care data in the Renfrewshire area, reported in chapter \ref{ch:renfrew}, adds to the debate surrounding eligibility and allocation of social care. As argued by Sharkey (2006, p.10) (quoted at the beginning of section \ref{subsubsec:eligibility-uk}), eligibility criteria can be seen as a form of rationing where "..."need" is equated with ``resources available"." Figure \ref{fig:ren-hc-counts} shows that, whilst year-to-year variations are discernable, the weekly variation in the number of individuals receiving home care is remarkably stable. The deduction that a finite number of home care spaces are available at any given time, and that termination of one individual's care must occur before another's can start, seems credible. Whilst this may have been intuitively known previously, figure \ref{fig:ren-hc-counts} provides some empirical evidence to the debate. 
 
 \subsection{Linked Administrative Data Research}\label{sec:disc-admin-data}
 
@@ -98,11 +98,15 @@ A final point, particularly for those conducting analysis, is to be aware of the
 
 \section{Comparisons to Previous Research}
 
-This is the first study, to the author's knowledge, that has aimed specifically identified relationships between multimorbidity and requirement for social care. Much previous research has focussed on the the effect social care has as an explanatory variable on other outcomes - usually in a secondary care setting. Whilst multimorbidity may also be included as an explanatory variable in these studies e.g. [@RN30], the relationship between them is not explored. The positive, increasing effect of multimorbidity status on both social care receipt and unplanned hospital admission found in this thesis (and by Codelius \emph{et al.}[-@RN30]) may indicate that, rather than the services having an effect on each other, underlying multimorbidity status is the common driver for the use of both services.
+This is the first study, to the author's knowledge, that has aimed specifically identified relationships between multimorbidity and requirement for social care. Much previous research has focussed on the the effect social care has as an explanatory variable on other outcomes - usually in a secondary care setting. Whilst multimorbidity may also be included as an explanatory variable in these studies e.g. [@RN30], the relationship between them is not explored. The positive, increasing effect of multimorbidity status on both social care receipt and unplanned hospital admission found in this thesis (and by Codelius \emph{et al.}[-@RN30]) indicates that it is a common driver for the use of both services.
 
-Receiving home-based social care (as measured by presence in the SCS) increases the probability of having an unplanned hospital admission. The lack of use of home-based care as an independent variable in similar research had been indentified as a gap in knowledge by Spiers \emph{et al.} [-@RN610] in their systematic review. Contrary to the overall findings of that review, the relationship suggests social care has no prevantative effect on unplanned admission. However, as discussed previously, given the "intensification" of social care services receipt of care may simply act as a proxy for multimorbidity or high levels of service need - wider provision of social care services to those with less intense needs may have effect on admissions. 
+The lack of use of home-based care as an independent variable in research focussing on secondary care outcomes had been indentified as a gap in knowledge by Spiers \emph{et al.} [-@RN610] in their systematic review. Analysis in chapter \ref{ch:res2} addresses this ommision. Contrary to the overall findings of the systematic review, the analysis suggests social care has no prevantative effect on unplanned admission, indeed receipt of social care carried an increased probability of admission. This is likely due to the requirement for a high level of need to be deemed eligible to receive social care. 
 
-In accordance with the systemtatic review [@RN610], however, models in chapter \ref{ch:res2} indicated, for later years, that living in a care home had some protective effect on unplanned hospital admission. As mentioned in previous discussion, this finding should be treated with some caution. The reliability of the care home flag in CHI datasets has been shown to lack sensitivity and as such may underestimate the number of care home residents [@RN642]. Furthermore, there is no obvious reason why the direction of the effect on unplanned admission changes from 2014/15 onwards. Overall numbers in the cohort with a postive value for the care home flag decreased by over 8000 from 2011/12 to 2015/16 (table \ref{tab:results1-cohorttab}). This is a gradual decrease, however, and unlikely to be the cause of effect change. 
+This finding supports those of other studies that linked social care data at the individual level [@RN183; @RN30]. Both these studies also found those in receipt of social care utilised a higher proportion of secondary care services. The large, population nature of the cohort in this thesis addresses the limitations of these studies which each included data from only four local authority areas and could potentially be unrepresentative of wider populations. The models fitted to each financial year of data in section \ref{sec:res3-usc} included an average of 864,500 (to the nearest 500) individuals from 31 of Scotland's 32 local authorities. As such, the data is nationally representative across all sociodemographic factors. 
+
+Models in section \ref{sec:res3-usc} indicated, for later years, that those living in a care home had a lower probability of an unplanned hospital admission than those that were not. As mentioned in previous discussion, this finding should be treated with some caution. The reliability of the care home flag in CHI datasets has been shown to lack sensitivity and as such may underestimate the number of care home residents [@RN642]. Furthermore, there is no obvious reason why the direction of the effect on unplanned admission changes from 2014/15 onwards. Overall numbers in the cohort with a postive value for the care home flag decreased by over 8000 from 2011/12 to 2015/16 (table \ref{tab:results1-cohorttab}). This is a gradual decrease, however, and unlikely to be the cause of effect change
+
+Both Spiers \emph{et al.} [-@RN610] and Bardsley \emph{et al.} [-@RN183] reported findings regarding the effect of being resident in a care homes on secondary care outcomes. The former found, by pooling results from studies using aggregate data, that an increase in the availability of care home beds was associated with fewer admissions, delayed discharges, and reduced length of stay. The latter found that those resident in a care home were less likely to have a hospital admission than those receiving intense levels of home care. Spiers \emph{et al.} [-@RN610] rightly identify the challenges of heterogeneity in data applied to the methodological approach they employed. Of their 12 included studies, only three were used to pool estimates on outcomes related to care homes. Bardsley \emph{et al.} [-@RN183], and analysis in section \ref{sec:res3-usc}, omitted individuals who died in the year prior to the study period of interest. Those in the final year of life are likely to have at least one hospital admission [@RN645] which could affect results of models where these individuals are omitted. As such, conclusions can not be accurately drawn regarding the effect of care home admission on secondary care outcomes.    
 
 The use of a count of prescriptions as a proxy measurement of multimorbidity (as discussed in section \ref{subsec:mm-measures}) has been previously shown to be a good predictor of health care use [@RN228; @RN247; @RN78]. The use of grouped repeat medicine counts in chapter \ref{ch:res2} show marked changes in partial effects in the receipt of social care and unplanned admission across groups. This adds to the argument that a count of medicines can act as useful proxy where disease data is unavailable. 
 
@@ -112,14 +116,29 @@ Of course, the specific method of how prescriptions are counted could have an ef
 \section{Strengths and Limitations}
 
 \subsection{Strengths}
-\begin{itemize}[noitemsep]
-\item Large, population sized linkage
-\item Marginal effects
-\item Major part of ADRC bid
-\end{itemize}
+
+The study is the first, in a UK setting, to link health data to social care records at a national level. The main strength of the research carried out is in the size of dataset created to answer the designated research questions. By creating a non-selective study population of all individuals over the age of 65 in Scotland during the study period (~1.1 million individuals), and linking their data from a number of different health and social care sources, a comprehensive description of this group has been provided. It is the first study to specifically investigate the relationship between multimorbidity and social care use. As such, the findings offer important insights for clinicians and policy-makers alike. 
+
+The use of individual-level data is another important strength of this research. Previous studies investigating the interaction between health and social care services relied on aggregate statistics, often at local authority or higher level, to estimate outcomes. These studies are unable to account for individual characteristics that can have an important role in such interactions. 
+
+The handful of previous cross-sectoral studies that have used individual-level data have been limited to using social care data from no more than a handful of local authorities at a time e.g. [@RN183; @RN30]. The large resource in this PhD, despite the limitations discussed in the next section and section \ref{sec:disc-sc-data}, mean concerns of sampling bias or external validity seen in these studies is eradicated. 
+
+The quality of the dataset created for the thesis is demonstrated in its inclusion as part of the Administrative Data Research Centre for Scotland's successful phase 2 funding bid to the Economic and Social Research Council. The bid outlined areas where, pending required approvals, future research utilising this data could be conducted. *Can I mention post-doc post here?* 
+
+Whilst the proportion of individuals receiving home care that were captured by the SCS was previously unknown, analysis in chapter \ref{ch:renfrew} has provided the first estimation of this value. Despite limitations in the data available from Renfrewshire council, the finding that those missing from the census are likely to be in receipt of short-term care is important. This validation of the SCS enables results of analysis with the linked dataset to be interpreted with more confidence than if it had not been done.
+
+In terms of analysis, the use of Average Partial Effects as a means of interpreting logisitic regression models allows comparison of effect magnitudes between variables within models and across models. These comparisons offer valuable insights that could not be considered by reporting odds-ratios or variable probabilities alone. This method also enables coefficients for interaction effects to be included in predicting probabilities (and variable marginal effects) without incurring the problems (discussed in section \ref{sec:methods-stats}) of misinterpreting the coefficients themselves. 
 
 \subsection{Limitations}
+
+
+
+
+
 \begin{itemize}[noitemsep]
+\item Non-systematic lit review
+\item Observational data - usual limitations. 
+\item mortality likely to increase hosp admission.
 \item Census week for home care. Compare 2013/14 and later years in table 5.1. ?6o per cent of all social care. Plus loss to linkage - missing half of all individuals?
 \item 91\% overall match rate = 9\% misclassification
 \item Linkage of SCS not consistent - difficult to make broad comparisons. Attempted to offset by subsetting. Home care stable though falling in SCS - why?
@@ -127,12 +146,14 @@ Of course, the specific method of how prescriptions are counted could have an ef
 \item Not really assessed Access to social care (mention time constraint?)
 \item No measure for living alone
 \item No measure for frailty - likely explanation for distro sc in higher age groups.
-\item MM measure not validated - limited due to lack of access to PC data, Also means cannot address important MM questions as laid by AMS e.g. "Which clusters result in the greatest healthcare utilisation and greatest cost?"
+\item MM measure not validated (but Brilleman, Perkins, and Wallace) - limited due to lack of access to PC data, Also means cannot address important MM questions as laid by AMS e.g. "Which clusters result in the greatest healthcare utilisation and greatest cost?" 
 \end{itemize}
 
 A final, methadological, finding is that using grouped repeat medicines count as a proxy measure for multimorbidity produced consistent results across both social care and unplanned admission models. Indeed non-reported models with any unscheduled care and A & E attendance as dependent variable showed similar results. Formal validation of the predictive properties of the measure was not conducted
 
 \section{Recommended Future Actions and Research}
+
+Much of the focus on creating the set. Results offer only a glimpse of potential lined of enquiry. 
 
 \subsection{Future research}
 \begin{itemize}[noitemsep]
@@ -145,6 +166,7 @@ A final, methadological, finding is that using grouped repeat medicines count as
 \item Mortality
 \item Interaction between Primary care and social care.
 \item Further investigate medicines as measure of MM - try chapter counts [@RN228] or continuous rather than categorical OR USE DISEASE DATA FROM USC
+\item Calculate parital effects at repesentative values (although computational overhead would need to be considered given size of cohort)
 \end{itemize}
 
 \subsection{A good title}
