@@ -96,7 +96,7 @@ A further efficiency saving in terms of SDC could be achieved through improved p
 
 A final point, particularly for those conducting analysis, is to be aware of the software being used and the way in which it is updated within the safe haven. Analysis for this thesis was predominantly conducted using the R language for statistical programming. This software is exceptionally versatile and benefits from constant development via an open source community of programmers. However, without internet access, updating packages to preferred versions can be cumbersome. This process has changed, and greatly improved, over the lifetime of the PhD with a total CRAN mirror now being updated on an almost monthly basis but researchers need to be aware of the limitations of this approach. 
 
-\section{Comparisons to Previous Research}
+\section{Comparisons to Previous Research}\label{sec:discuss-comparisons}
 
 This is the first study, to the author's knowledge, that has aimed specifically identified relationships between multimorbidity and requirement for social care. Much previous research has focussed on the the effect social care has as an explanatory variable on other outcomes - usually in a secondary care setting. Whilst multimorbidity may also be included as an explanatory variable in these studies e.g. [@RN30], the relationship between them is not explored. The positive, increasing effect of multimorbidity status on both social care receipt and unplanned hospital admission found in this thesis (and by Codelius \emph{et al.}[-@RN30]) indicates that it is a common driver for the use of both services.
 
@@ -129,52 +129,54 @@ Whilst the proportion of individuals receiving home care that were captured by t
 
 In terms of analysis, the use of Average Partial Effects as a means of interpreting logisitic regression models allows comparison of effect magnitudes between variables within models and across models. These comparisons offer valuable insights that could not be considered by reporting odds-ratios or variable probabilities alone. This method also enables coefficients for interaction effects to be included in predicting probabilities (and variable marginal effects) without incurring the problems (discussed in section \ref{sec:methods-stats}) of misinterpreting the coefficients themselves. 
 
-\subsection{Limitations}
+\subsection{Limitations}\label{sec:discuss-limits}
 
+A number of limitations to this research have already been discussed, particularly in sections \ref{sec:disc-sc-data} and \ref{sec:discuss-comparisons}. However, there remain other general limitations which will be further explored in this section. 
 
+All analyses carried out in this thesis are conducted using observational data. As such, only associations between variables are found and no causal inferences can be made from results. It is also possible, as with all observational research, that unobserved confounding variables could have an important role to play in outcome effects.
 
+Of these, the lack of a measure of living arrangements is most regrettable. Those living alone are more likely to require formal social care, indeed officially reported statistics from the SCS suggets 55% of those over 65 receiving home care live alone [@RN487]. Inclusion of this measurement in statistical models could, therefore, potentially account for further variation in receipt of care. This figure, however, is based on approximately 60% of SCS respondents, data was missing for the remainder. Coupled with added attrition in the linkage process and the likelihood of missingness not at random (i.e. some local authorities not returning this data at all), this available measurement was not of sufficient quality to confidently include in analyses. Potential solutions would involve expanding the data linkage to include UK census data which includes a measure of home circumstances. This would, however, involve significant ammendments to approved permissions granted by PBPP.  
 
+The research presented in the thesis exclusively focusses on \emph{formal} social care provided by the state. The provision of \emph{informal} social care (by family and friends) has a major role to play in debates regarding health and social care service use. By its very nature, informal care remains particularly difficult to capture in administrative records that can be linked to any great degree. As such inclusion in projects such as this PhD remain elusive. This is also true of privately arranged social care. The ability of more affluent individuals to purchase social care has potential to influence unplanned hospital care although administrative records of such care are unlikely to exist.
 
-\begin{itemize}[noitemsep]
-\item Non-systematic lit review
-\item Observational data - usual limitations. 
-\item mortality likely to increase hosp admission.
-\item Census week for home care. Compare 2013/14 and later years in table 5.1. ?6o per cent of all social care. Plus loss to linkage - missing half of all individuals?
-\item 91\% overall match rate = 9\% misclassification
-\item Linkage of SCS not consistent - difficult to make broad comparisons. Attempted to offset by subsetting. Home care stable though falling in SCS - why?
-\item Potential for repeated measures?
-\item Not really assessed Access to social care (mention time constraint?)
-\item No measure for living alone
-\item No measure for frailty - likely explanation for distro sc in higher age groups.
-\item MM measure not validated (but Brilleman, Perkins, and Wallace) - limited due to lack of access to PC data, Also means cannot address important MM questions as laid by AMS e.g. "Which clusters result in the greatest healthcare utilisation and greatest cost?" 
-\end{itemize}
+Another unobserved measure that could be useful in this area is one of \emph{frailty} or \emph{need}. The associations found between multimorbidity and service use in analyses could potentially be explained, partially at least, by individual levels of frailty or need. The defintion of frailty remains a matter of some debate [@RN646] (much in the same way as the definition of multimorbidity discussed in chapter \ref{ch:lit-review}), and the terms are often used synonomously. No standardised measure of frailty is collected in administrative data at a national level in Scotland. A measure of need, The indicator of Relative Need (ioRN2) score [@RN647], was developed in Scotland would be a very useful measurement in this regard. However, the lack of mandatory assessment means few local authorities return data with an ioRN2 score to the SCS. Early analysis of PhD data showed over 90% of records had a missing value for ioRN2 score and the variable was therefore dropped from analysis. 
 
-A final, methadological, finding is that using grouped repeat medicines count as a proxy measure for multimorbidity produced consistent results across both social care and unplanned admission models. Indeed non-reported models with any unscheduled care and A & E attendance as dependent variable showed similar results. Formal validation of the predictive properties of the measure was not conducted
+Further limitations include the statistical analysis employed to find results. The delivery of data for the linkage project was completed in February 2018. Given the size of each dataset (e.g. social care, demographics, prescriptions etc.) and the complexity of wrangling data into a suitable format, the time available for data exploration and analysis was limited within the life-time of the PhD. Results presented provide an excellent description of the linked data and identify important variables and relationships regarding stated research questions. This analysis provides an excellent platform for further understanding. It did not, however, take advantage of the longitudinal nature of the data. Despite social care data being of a cross sectional nature, repeated measures for individuals are available. Start and stop dates for all episodes of unscheduled care are avaialable. Time-to-event analysis is but one potential method that could be applied to this data to provide more robust results, particularly regarding unplanned admission where logistic regression models had a poor fit to the data. 
 
-\section{Recommended Future Actions and Research}
+A final limitation includes the possibility of important literature from chapter \ref{ch:lit-review}. The nature of the thesis, and the broad topics relevant to the aims and objectives, meant a systematic review of literature was not appropriate. Much of the debate and information relevant to the research, particularly in the case of social care, was to be found in grey literature that would not be identified by traditional academic database searching. For other subjects where academic literature was more important, e.g. multimorbidity and administrative data linkage, emphasis was place on systematic reviews and publications by independent organisations with expertise in the specific area to idenitify the most relevant literature. Nevertheless, literature relevant to overall arguments may have been missed. 
 
-Much of the focus on creating the set. Results offer only a glimpse of potential lined of enquiry. 
+\section{Recommendations}
 
 \subsection{Future research}
+
+As discussed in section \ref{sec:discuss-limits}, creation of the linked data consumed a large part of the time available during the PhD. The results presented in chapters \ref{ch:results-1} and \ref{ch:res2}, whilst providing a detailed description of the data, offer only a glimpse of potential lines of enquiry that could be followed using this data. The most pertinent of these, related to the aims and objectives of the thesis, are discussd in this section. 
+
+The first of these, examination of longitudinal changes in social care and unscheduled care use, has already been discussed in section \ref{sec:discuss-limits}. The size and depth of data available provides an excellent platform to provide a more in-depth understanding of the provision and factors influencing receipt of social care as well as its interactions with unscheduled health care. 
+
+These effects may be better understood by further utilising the granularity of social care data. A simple yes/no measure of receipt was used in analysis in chapters \ref{ch:results-1} and \ref{ch:res2}. Variables are avaialable detailing the weekly hours of home care received and whether an individual received a community alarm or other telecare service. Both these measures may have interesting effects on outcomes that remain unexplored. 
+
+There remains much data from the unscheduled care data mart which requires exploration. Unplanned hospital admission was studied for this project. Data on attendance at A & E, GP out-of-hours service, NHS24 use, and ambulance service use is also available and myriad insights relating to the interaction of these services with each other, demographics, multimorbidity, and social care are under-investigated.
+
+Another important factor, related to both social care and USC, is mortality. Death records are also included in the linkage cohort. There has been a recent increase in interest regarding outcomes for individuals in their last months of life e.g. hospital use [@RN648;@RN645], out-of-hours primary care [@RN649], and medication use [@RN650]. All of these topics could be investigated further with the PhD dataset which would also have the benefit of a larger cohort and a wider set of explanatory variables to choose from than seen in any one of these studies, including aspects relating to social care which are absent from all.   
+
+Whilst variations in the linkage rate at the local authority level of SCS records to the CHI population spine is problematic, results found in this thesis warrant further investigation. The difference in probabilities of receiving care across council areas with similar linkage rates raises questions regarding eligibility criteria and the inverse care law. Understanding whether these variations are due to data quality, natural variation, or unfairness in the system is of vital importantance to policy debates.
+
+
+
+
 \begin{itemize}[noitemsep]
-\item Measure \emph{Longitudinal} changes in social care and impact on admission/usc
-\item Break down SC data - home care/telecare influence on outcomes
+\item Further investigate medicines as measure of MM - try chapter counts [@RN228] or continuous rather than categorical OR USE DISEASE DATA FROM USC for Marjorie's work.
 \item consider futher linkage - look for better measure of living arrangements (alone - census?)
-\item include USC/admission as independent variable in SC outcome given SC influence on SC
-\item Utilise USC data better - include A \& E, NHS24 etc etc
-\item Check post-doc list
-\item Mortality
-\item Interaction between Primary care and social care.
-\item Further investigate medicines as measure of MM - try chapter counts [@RN228] or continuous rather than categorical OR USE DISEASE DATA FROM USC
-\item Calculate parital effects at repesentative values (although computational overhead would need to be considered given size of cohort)
 \end{itemize}
 
-\subsection{A good title}
+\subsection{Data}
 \begin{itemize}[noitemsep]
 \item Broaden timeframe of SCS collection
 \item Support LAs to provide either CHI or easily provide all ID data for linkage
 \item Better categorisation of social care users - Reablement and Mainstream likely very different types of users and 
+\item ioRN2
 \item Better access to Primary Care data for MM research
+\item Interaction between Primary care and social care.
 \end{itemize}
 
 
