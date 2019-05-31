@@ -6,9 +6,9 @@ output:
     latex_engine: xelatex
 documentclass: report
 classoption: a4paper,oneside,table
-citecolor: blue #doesn't work
-urlcolor: blue
-linkcolor: blue
+citecolor: black #doesn't work
+urlcolor: black
+linkcolor: black
 bibliography: references.bib
 csl: harvard-cite-them-right.csl
 fontsize: 12pt

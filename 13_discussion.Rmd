@@ -5,11 +5,11 @@ output: pdf_document
 \chapter{Discussion}\label{ch:discussion}
 \thispagestyle{empty}
 
-Key findings and implications, Strengths and Limitations, Comparisons to previous research, Recommendations.
+This chapter discusses key findings from the thesis and places them in context. Given the broad nature of analyses, these are discussed in separate subsections. A section comparing findings to previous research is then presented before a section outlining the general strenghts and limitations of the thesis. The final section outlines recommendations for future research. 
 
 \section{Key Findings in Context}\label{sec:key-finds}
 
-Given the broad scope of the research covered in the thesis, key findings and their implications are discussed in ? subsections. 
+This section is split into five subsections detailing key findings from analyses and the PhD research in general: a) Patterns in receipt of social care, b) Patterns in unplanned hospital admissions, c) Health and social care interaction, d) social care data, and e) Linked admnistrative data research.
 
 \subsection{Patterns in receipt of social care}\label{subsec:mm-sc-kfinds}
 
@@ -78,7 +78,7 @@ Although these issues are important, and analyses must take account of the limit
 
 One final (incidental) finding that can be inferred from the analysis of social care data in the Renfrewshire area, reported in chapter \ref{ch:renfrew}, adds to the debate surrounding eligibility and allocation of social care. As argued by Sharkey (2006, p.10) (quoted at the beginning of section \ref{subsubsec:eligibility-uk}), eligibility criteria can be seen as a form of rationing where "..."need" is equated with ``resources available"." Figure \ref{fig:ren-hc-counts} shows that, whilst year-to-year variations are discernable, the weekly variation in the number of individuals receiving home care is remarkably stable. The deduction that a finite number of home care spaces are available at any given time, and that termination of one individual's care must occur before another's can start, seems credible. Whilst this may have been intuitively known previously, figure \ref{fig:ren-hc-counts} provides some empirical evidence to the debate. 
 
-\subsection{Linked Administrative Data Research}\label{sec:disc-admin-data}
+\subsection{Linked administrative data research}\label{sec:disc-admin-data}
 
 As cross-sectoral data linkages remain a novel methodology for PhD research, a number of issues relevant to the process of obtaining a linked dataset are worthy of discussion to inform future funders or researchers who wish to comission or undertake similar projects.
 
@@ -137,7 +137,7 @@ All analyses carried out in this thesis are conducted using observational data. 
 
 Of these, the lack of a measure of living arrangements is most regrettable. Those living alone are more likely to require formal social care, indeed officially reported statistics from the SCS suggets 55% of those over 65 receiving home care live alone [@RN487]. Inclusion of this measurement in statistical models could, therefore, potentially account for further variation in receipt of care. This figure, however, is based on approximately 60% of SCS respondents, data was missing for the remainder. Coupled with added attrition in the linkage process and the likelihood of missingness not at random (i.e. some local authorities not returning this data at all), this available measurement was not of sufficient quality to confidently include in analyses. Potential solutions would involve expanding the data linkage to include UK census data which includes a measure of home circumstances. This would, however, involve significant ammendments to approved permissions granted by PBPP.  
 
-The research presented in the thesis exclusively focusses on \emph{formal} social care provided by the state. The provision of \emph{informal} social care (by family and friends) has a major role to play in debates regarding health and social care service use. By its very nature, informal care remains particularly difficult to capture in administrative records that can be linked to any great degree. As such inclusion in projects such as this PhD remain elusive. This is also true of privately arranged social care. The ability of more affluent individuals to purchase social care has potential to influence unplanned hospital care although administrative records of such care are unlikely to exist.
+The research presented in the thesis exclusively focusses on \emph{formal} social care provided by the state. The provision of \emph{informal} social care (by family and friends) has a major role to play in debates regarding health and social care service use. By its very nature, informal care remains particularly difficult to capture in administrative records (again the UK census offers potential). As such inclusion in projects such as this PhD remain elusive. This is also true of privately arranged social care. The ability of more affluent individuals to purchase social care has potential to influence unplanned hospital care although administrative records of such care are unlikely to exist.
 
 Another unobserved measure that could be useful in this area is one of \emph{frailty} or \emph{need}. The associations found between multimorbidity and service use in analyses could potentially be explained, partially at least, by individual levels of frailty or need. The defintion of frailty remains a matter of some debate [@RN646] (much in the same way as the definition of multimorbidity discussed in chapter \ref{ch:lit-review}), and the terms are often used synonomously. No standardised measure of frailty is collected in administrative data at a national level in Scotland. A measure of need, The indicator of Relative Need (ioRN2) score [@RN647], was developed in Scotland would be a very useful measurement in this regard. However, the lack of mandatory assessment means few local authorities return data with an ioRN2 score to the SCS. Early analysis of PhD data showed over 90% of records had a missing value for ioRN2 score and the variable was therefore dropped from analysis. 
 
@@ -145,39 +145,23 @@ Further limitations include the statistical analysis employed to find results. T
 
 A final limitation includes the possibility of important literature from chapter \ref{ch:lit-review}. The nature of the thesis, and the broad topics relevant to the aims and objectives, meant a systematic review of literature was not appropriate. Much of the debate and information relevant to the research, particularly in the case of social care, was to be found in grey literature that would not be identified by traditional academic database searching. For other subjects where academic literature was more important, e.g. multimorbidity and administrative data linkage, emphasis was place on systematic reviews and publications by independent organisations with expertise in the specific area to idenitify the most relevant literature. Nevertheless, literature relevant to overall arguments may have been missed. 
 
-\section{Recommendations}
+\section{Recommendations for future research}
 
-\subsection{Future research}
+As discussed in section \ref{sec:discuss-limits}, creation of the linked data consumed a large part of the time available during the PhD. The results presented in chapters \ref{ch:results-1} and \ref{ch:res2}, whilst providing a detailed description of the data, offer only a glimpse of potential lines of enquiry that could be followed using this resource. The most pertinent of these, related to the aims and objectives of the thesis, are discussd in this section. 
 
-As discussed in section \ref{sec:discuss-limits}, creation of the linked data consumed a large part of the time available during the PhD. The results presented in chapters \ref{ch:results-1} and \ref{ch:res2}, whilst providing a detailed description of the data, offer only a glimpse of potential lines of enquiry that could be followed using this data. The most pertinent of these, related to the aims and objectives of the thesis, are discussd in this section. 
+The first, examination of longitudinal changes in social care and unscheduled care use, has already been discussed in section \ref{sec:discuss-limits}. The size and depth of data available provides an excellent platform to provide a more in-depth understanding of the provision and factors influencing receipt of social care as well as its interactions with unscheduled health care. Future analyses should take advantage of the depth of infomation available.  
 
-The first of these, examination of longitudinal changes in social care and unscheduled care use, has already been discussed in section \ref{sec:discuss-limits}. The size and depth of data available provides an excellent platform to provide a more in-depth understanding of the provision and factors influencing receipt of social care as well as its interactions with unscheduled health care. 
+Better understanding may also be found by further utilising the granularity of social care data. A simple yes/no measure of receipt was used in analysis in chapters \ref{ch:results-1} and \ref{ch:res2}. Variables measuring intensity of home care (via a value of weekly hours of home care received) and whether an individual received a community alarm or other telecare service are available. Both these measures may have interesting effects on outcomes that remain unexplored. 
 
-These effects may be better understood by further utilising the granularity of social care data. A simple yes/no measure of receipt was used in analysis in chapters \ref{ch:results-1} and \ref{ch:res2}. Variables are avaialable detailing the weekly hours of home care received and whether an individual received a community alarm or other telecare service. Both these measures may have interesting effects on outcomes that remain unexplored. 
-
-There remains much data from the unscheduled care data mart which requires exploration. Unplanned hospital admission was studied for this project. Data on attendance at A & E, GP out-of-hours service, NHS24 use, and ambulance service use is also available and myriad insights relating to the interaction of these services with each other, demographics, multimorbidity, and social care are under-investigated.
+There remains more data within the unscheduled care data mart that has not been investigated. Unplanned hospital admission was studied for this project but data on attendance at A & E, GP out-of-hours service, NHS24 use, and ambulance service use is also available. Myriad insights relating to the interaction of these services with each other, demographics, multimorbidity, and social care are possible.
 
 Another important factor, related to both social care and USC, is mortality. Death records are also included in the linkage cohort. There has been a recent increase in interest regarding outcomes for individuals in their last months of life e.g. hospital use [@RN648;@RN645], out-of-hours primary care [@RN649], and medication use [@RN650]. All of these topics could be investigated further with the PhD dataset which would also have the benefit of a larger cohort and a wider set of explanatory variables to choose from than seen in any one of these studies, including aspects relating to social care which are absent from all.   
 
 Whilst variations in the linkage rate at the local authority level of SCS records to the CHI population spine is problematic, results found in this thesis warrant further investigation. The difference in probabilities of receiving care across council areas with similar linkage rates raises questions regarding eligibility criteria and the inverse care law. Understanding whether these variations are due to data quality, natural variation, or unfairness in the system is of vital importantance to policy debates.
 
+Future research should also employ other methods of measuring multimorbidity. Alternative measures such as a count of the number of chapters of the BNF (as a proxy for body systems) an individual has prescriptions from, or modelling the count of repeat medicines as a continuous, rather than categorical, variable may add to the understanding of relationships with outcomes. Where research only involves indiviudals who used USC, disease data in the form of ICD-10 codes is available. These can be used to created comorbidity scores from indices described in section \ref{subsec:mm-measures} and could be cross-referenced with medicine counts. 
 
-
-
-\begin{itemize}[noitemsep]
-\item Further investigate medicines as measure of MM - try chapter counts [@RN228] or continuous rather than categorical OR USE DISEASE DATA FROM USC for Marjorie's work.
-\item consider futher linkage - look for better measure of living arrangements (alone - census?)
-\end{itemize}
-
-\subsection{Data}
-\begin{itemize}[noitemsep]
-\item Broaden timeframe of SCS collection
-\item Support LAs to provide either CHI or easily provide all ID data for linkage
-\item Better categorisation of social care users - Reablement and Mainstream likely very different types of users and 
-\item ioRN2
-\item Better access to Primary Care data for MM research
-\item Interaction between Primary care and social care.
-\end{itemize}
+Finally, linkage to other data sources should be considered. UK census data contains variables that could greatly add to understanding in the areas covered by this thesis e.g. by identifying individuals who lived alone or had an informal carer. The potential to link to primary care data should also be explored. Interactions between primary care and social care use remain largely unknown in a research context. This is an impotant area to explore given the findings from this thesis of the relatioship between multimorbidity and social care. Data from GP surgeries offers a more comprehensive ability to measure multimorbidity than is available from current data collections and could greatly improve understanding in this field. 
 
 
 

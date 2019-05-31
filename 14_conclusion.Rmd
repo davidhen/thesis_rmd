@@ -5,10 +5,19 @@ output: pdf_document
 \chapter{Conclusion}\label{ch:conclusion}
 \thispagestyle{empty}
 
-Reccomendations :- 
-\begin{itemize}
-\item Standardised score reflecting need/frailty/vulnerability required to accurately assess access to care (OECD pp181)
-\item disaggregate SCS a little - distinguishing reablement and intermediate care from LTC important!
-\item Measure outcomes relevent to social care (falls etc OECD 2013 pp59) OR link to outcome data e.g. preventable admission data, hip fracture data??
-\item Consider other forms of admin data to help with this e.g. Attendance Allowance?? - Problem being coverage
-\end{itemize}
+Something like....
+
+
+This PhD aimed to blah blah
+
+SCS was idenitified as most appropriate SC resource and a large, linked health and social care dataset was created. 
+
+Validation of the social care aspect was conducted via a second side-project which found (Renfrew)
+
+Mulitmorbidity, along with age, was shown to have a strong relationship with receipt of social care. This has not been empirically shown before. 
+
+Increasing severity of multimorbidity and social care use were shown to be associated with increased probabilities of unplanned hospital admission, although models showed a poorer fit to data. 
+
+Further research is required to more accurately describe variations in the level of social care at the local authority level. 
+
+2 pages max.
