@@ -295,14 +295,14 @@ These differences are also seen in figure \ref{fig:results1-heatmap-1} which is 
 \end{figure}
 
 
-The lighter shades in the figure show those in the lowest multimorbidity group receive very little social care across all age, sex, and deprivation groups. The peak of the distribution of care receipt is in age groups 75-79, 80-84, and 85-89. Females in the poorest deprivation deciles and highest multimorbidty groups are the groups with highest percentages of social care use. In all but the highest multimorbidity groups the variation in social care receipt is small across SIMD deciles. For those receiving nine or more repeat medicines, social care receipt is higher in more deprived SIMD deciles with a negative linear pattern to higher deciles. 
+The lighter shades in the figure show those in the lowest multimorbidity group receive very little social care across all age, sex, and deprivation groups. The peak of the distribution of care receipt is in age groups 75-79, 80-84, and 85-89. Females in the poorest deprivation deciles and highest multimorbidity groups are the groups with highest percentages of social care use. In all but the highest multimorbidity groups the variation in social care receipt is small across SIMD deciles. For those receiving nine or more repeat medicines, social care receipt is higher in more deprived SIMD deciles with a negative linear pattern to higher deciles. 
 
 This pattern is more visible when the heatmap is redrawn to show the percentage of individuals receiving social care in deprivation/multimorbidity groups \emph{within} age/sex groups as shown in figure \ref{fig:results1-heatmap-2}. Again, the gradient of receipt of social care is negative from decile 1 to decile 10 for those in the highest multimorbidity group and more pronounced at younger ages. Other multimorbidity groups show less variation in the percentage of social care received across deprivation deciles. 
 
 \begin{figure}[h]
   \centering
     \includegraphics{figures/chapter-results-1/heatmap_2.pdf}
-    \caption{Sociodemogrpahic distribution of social care \emph{within} age sex groups. 2015/16}
+    \caption{Sociodemographic distribution of social care \emph{within} age sex groups. 2015/16}
     \label{fig:results1-heatmap-2}
 \end{figure}
 
@@ -331,7 +331,7 @@ This can be more easily visualised in figure \ref{fig:results1-heatmap-3} which 
 \begin{figure}[h]
   \centering
     \includegraphics{figures/chapter-results-1/heatmap_4.pdf}
-    \caption{Sociodemogrpahic distribution of indiviudals with at least one unplanned hospital admissions \emph{within} age sex groups. 2015/16}
+    \caption{Sociodemographic distribution of individuals with at least one unplanned hospital admissions \emph{within} age sex groups. 2015/16}
     \label{fig:results1-heatmap-4}
 \end{figure}
 

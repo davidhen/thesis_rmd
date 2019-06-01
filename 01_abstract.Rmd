@@ -4,5 +4,16 @@ output: pdf_document
 
 \thispagestyle{empty}
 
-Blad de Blah blah blah. I may play about with centering and italicised styles here
+**Draft only maybe better as Background, Methods, Findings, Conclusion**
 
+Multimorbidity, the presence of two or more long-term health conditions, is increasing in prevalence worldwide. This is due to increasing life expectancy and a greater proportion of the population living to older ages although prevalence is also high in those aged below 65. Multimorbidity is associated with a number of negative outcomes including increased mortality, lower quality-of-life, and lower functional status. Unsuprisingly, it is also associated with greater use of health services. Little is known, however, about its asssociation with social care use.
+
+For the same demographic reasons there is increasing demand for formal social care services. This comes at a time where supply is being limited in an era of fiscal restraint. New models of care, including in Scotland the formal integration of health and social care services, aim to prevent unecessary and expensive secondary care use. In order to achieve this, a process of shifting the balance of care from secondary care to primary care and community services is envisaged. There is little empirical evidence of the effect social care has on health services. A deeper understanding, therefore, of how health and social care services interact is of high importance to policymakers and clinicians alike. 
+
+This thesis describes the linkage of routinely held, adminstrative health and social care records in order to investigate these themes. A cohort of over 1.1 million people over the age of 65 in Scotland between the years 2011/12 and 2015/16 was created detailing information on sociodemographics, prescribed medicines, unscheduled health care use, and social care use. 
+
+Social care data has rarely been used in this way for research purposes. As such analysis of the \emph{quality} and \emph{reliability} of the data used features prominently.
+
+Findings of analyses show that there is indeed an association between multimorbidity and social care receipt and that the probability of receiving social care increases with severity of multimorbidity. After adjustment for multimorbidity status, the higher rates of social care receipt seen in more deprived areas is attenuated. Furthermore, empirical evidence of the "intensification" of social care services for those with only the highest needs is described. Those receiving social care are also shown to have an increased probability of having an unplanned hospital admission than those that do not.
+
+*Given low page count better add a word count at the bottom here.*

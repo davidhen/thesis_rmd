@@ -4,17 +4,26 @@ output: pdf_document
 
 \thispagestyle{empty}
 
+```{r acks, eval=FALSE, echo=FALSE}
 I am endebted to my PhD supervisors, Professors Nick Bailey, Colin McCowan, and Stewart Mercer for their continued support and encouragement throughout the long, and occasionally tortuous, process of completing this thesis. It has really been a pleasure learning from, and working with, a team with diverse but complimentary backgrounds. 
 
-Adminstrative data research is reliant on many organisations and the indiviudals who work for them, sometimes without any contact with the research team at all. I am aware there will be many people whom I have never met ,nor heard of, who had a part enabling this project - a thanks to all such indiviudals at: The Urban Big Data Centre, eDRIS, NHS National Services Scotland, ADRC-S, National Records of Scotland, the Scottish Government, and the University of Glasgow. 
+I would also like to thank Dr Iain Atherton, for making me aware of this PhD opportunity in the first place, and then for his support and encouragement throughout the process. 
 
-Of course, there are indiviudals who play a very important part and had a very \emph{hands-on} relationship with this project.  I would like pay particular tribute to Dr Mirjam Allik (previously of UBDC) and Amy Tilbrook (eDRIS/UBDC/ADRC-S). Mirjam's guidance made the successful navigation of the complex approvals process required for research of this nature possible. Amy's work in co-ordinating the data linkage process, despite many setbacks, went a long way to ensuring this project did not fail. Furthermore being the first eyes on all of my (many!) outputs during the statistical disclosure control process also proved to be the first sanity check on these analyses - thanks for catching my mistakes Amy! People that understand the nuts and bolts of data linkage projects (and the realities of what can and cannot be achieved) are the unsung heroes of these projects - so once again a special thank you to you both. 
+Adminstrative data research is reliant on many organisations and the indiviudals who work for them, sometimes without any contact with the research team at all. I am aware there will be many people whom I have never met, nor heard of, who had a part in enabling this project to happen - a thanks to all such indiviudals at: The Urban Big Data Centre, eDRIS, NHS National Services Scotland, ADRC-S, National Records of Scotland, the Scottish Government, and the University of Glasgow. 
+
+Of course, there are indiviudals who play a very important part and had a very \emph{hands-on} relationship with the project.  I would like pay particular tribute to Dr Mirjam Allik (previously of UBDC) and Amy Tilbrook (eDRIS/UBDC/ADRC-S). 
+
+Mirjam's guidance made the successful navigation of the complex approvals process required for research of this nature possible. Amy's work in co-ordinating the data linkage process, despite many setbacks, went a long way to ensuring this project did not fail. Furthermore, through the statistical disclosure control process of my (many!) research outputs, Amy proved to be the first sanity check on the analyses - thanks for catching my mistakes! People that understand the nuts and bolts of data linkage projects (and the realities of what can and cannot be achieved) are the unsung heroes of this brach of research - so once again a special thank you to you both. 
 
 This is one of the first projects to utilise the Social Care Survey in a research context. This would not have been possible without the help and support of Julie Rintoul and Ellen Lynch at the Health and Social Care anlaysis division at the Scottish Government. I would also like to thank Dave Clark who undertook the indexing of the survey to the NRS population spine - without this piece of work the thesis would look very different indeed!
 
-R community
+One of the pleasures of the PhD process has been learning to code using open source software R via RStudio. Worldwide, academics and developers spend countless hours adding and improving the tens of thousands of packages of software available for use with R. In the best cases detailed documentation or vignettes are also supplied making the learning process markedly easier. This work is then shared for all to use - free of charge. The list of individuals who contributed their own time to develop the many packages I have used for analysis and reporting of this PhD likely runs to hundreds, if not thousands. For this, I'd like to thank the R community, without whose tools I would never have managed the complex data manipulation required to complete the project.
+
+Formal processes have, however, also helped me on the road to academia. I was fortunate to earn an Early Career Clinical Fellowship offered by NHS Education for Scotland in 2012. This fellowship paid for my Masters education, granted me backfill time-off from my busy job as a nurse, and supported me to grow personally and professionally. To say the fellowship (and the MRes course at the Universtiy of Stirling it enabled me to complete) had life-changing effects would be an understatement. I'd therefore like to say thank-you to Ann Rae and all at ECCF for their support in setting me on a different road. 
 
 Completing this thesis from home in the Highlands would not have been possible without the generosity and hospitality of Mrs Lena Ramage for my trips to Glasgow - Tapadh leibh a'ghraidh!  
 
-Finally, I would like to thank my children, Seumas and Catherine, and my wife, Shona. 
+Finally, I would like to thank my children, Seumas and Catherine, and especially my wife, Shona. It's been a long time since I first said I thought I might like to go to Uni! Life has been a roller-coaster since then, but I would certainly have fallen off the tracks without you. Gus an dèan am bas a'sgarradh.
+```
+ 
 

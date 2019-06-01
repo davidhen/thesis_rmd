@@ -41,7 +41,7 @@ glm(scs_flag ~           #Flag for social care as dependent variable
     data = thesis)       #identify which data to use
 ```
 
-R automtically fits all included variables individually before adding interaction terms.  
+R automatically fits all included variables individually before adding interaction terms.  
 
 \subsection{Descriptive statistics}\label{subsec:res2-model1-desc}
 
@@ -98,7 +98,7 @@ R automtically fits all included variables individually before adding interactio
 
 There were 234,392 individuals included included in the model for 2015/16 (table \ref{tab:res2-chars1516}) which accounts for 25.4% of the overall cohort in that year. There are similar numbers included in models for other years. Proportions of females/males, age groups, SIMD decile, and repeat medicine groups are broadly similar to the overall cohort as reported in chapter \ref{ch:results-1}. 
 
-Table \ref{tab:res2-chars1516} shows females represented a much higher percentages of those that received socical care (68.6% v 31.4%) despite only representing 54.8% of the overall subset. Almost 50% of those that received social care were between the ages of 80 and 89 despite these age groups representing 21.2% of the subset. Although indiviudals living in SIMD deciles 1 and 10 are underrepresented in the subset (7.8% and 4.9%), the percentage receiving social care in more deprived SIMD deciles is higher than in the most affluent. Increasing multimorbidity, measured by repeat medicine group, also shows increasing rates of social care receipt - most obviously seen where individuals receiving nine or more repeat medicines accounted for 46.9% of all those receiving social care despite representing only 22.1% of the subset. Falkirk, East Ayrshire, and Inverclyde local authorities have higher rates of social care than their relative size in the subset. The converse is true for Dumfries and Galloway and Argyll and Bute council areas. Statistically significant results are found for all variables with Chi-squared tests for differences within groups. 
+Table \ref{tab:res2-chars1516} shows females represented a much higher percentages of those that received social care (68.6% v 31.4%) despite only representing 54.8% of the overall subset. Almost 50% of those that received social care were between the ages of 80 and 89 despite these age groups representing 21.2% of the subset. Although individuals living in SIMD deciles 1 and 10 are under-represented in the subset (7.8% and 4.9%), the percentage receiving social care in more deprived SIMD deciles is higher than in the most affluent. Increasing multimorbidity, measured by repeat medicine group, also shows increasing rates of social care receipt - most obviously seen where individuals receiving nine or more repeat medicines accounted for 46.9% of all those receiving social care despite representing only 22.1% of the subset. Falkirk, East Ayrshire, and Inverclyde local authorities have higher rates of social care than their relative size in the subset. The converse is true for Dumfries and Galloway and Argyll and Bute council areas. Statistically significant results are found for all variables with Chi-squared tests for differences within groups. 
 
 \begin{table}[h]
 \centering
@@ -122,7 +122,7 @@ Table \ref{tab:res2-chars1516} shows females represented a much higher percentag
 \label{tab:res2-la}
 \end{table}
 
-The rate of social care receipt \emph{within} local authority areas, unlike other variables in the models, can fluctuate over time as shown in table \ref{tab:res2-la}. There is no discernable pattern across council areas, some show gradual decreases over time, others gradual increases, whilst others fluctuate in both directions. Generally, all councils saw an increase in the percentage of those receiving care from 2014/15 onwards reflecting the change in data collection to include individuals receiving community alarm or telecare services at any time in the financial year. However, this increase was not sustained in all areas: Falkirk, Angus, and South Lanarkshire showing reductions in 2015/16 compared to the previous year.  
+The rate of social care receipt \emph{within} local authority areas, unlike other variables in the models, can fluctuate over time as shown in table \ref{tab:res2-la}. There is no discernible pattern across council areas, some show gradual decreases over time, others gradual increases, whilst others fluctuate in both directions. Generally, all councils saw an increase in the percentage of those receiving care from 2014/15 onwards reflecting the change in data collection to include individuals receiving community alarm or telecare services at any time in the financial year. However, this increase was not sustained in all areas: Falkirk, Angus, and South Lanarkshire showing reductions in 2015/16 compared to the previous year.  
 
 
 \subsection{Model results}\label{subsec:96plus-results}
@@ -136,9 +136,9 @@ Odds ratios for age groups and repeat medicine groups in the fitted model (for 2
     \label{fig:res2-subset1-OR}
 \end{figure} 
 
-Given the difficulties in interpretation of interaction terms in logisitic regression models (discussed in section \ref{sec:methods-stats}), these are not shown in figure \ref{fig:res2-subset1-OR}. Tabulation of full model results for 2015/16 are available in table \ref{append-tab-2} in Appendix D. 
+Given the difficulties in interpretation of interaction terms in logistic regression models (discussed in section \ref{sec:methods-stats}), these are not shown in figure \ref{fig:res2-subset1-OR}. Tabulation of full model results for 2015/16 are available in table \ref{append-tab-2} in Appendix D. 
 
-In order to aid interpetation of the magnitude of influence each variable has on the receipt of social care, Average Partial Effects (APEs) were calculated. These are discussed fully in section \ref{sec:methods-stats}. In short, APEs indicate the marginal effect of each value of a variable on the outcome taking into account all other variables and interactions. 
+In order to aid interpretation of the magnitude of influence each variable has on the receipt of social care, Average Partial Effects (APEs) were calculated. These are discussed fully in section \ref{sec:methods-stats}. In short, APEs indicate the marginal effect of each value of a variable on the outcome taking into account all other variables and interactions. 
 
 \begin{figure}[h]
   \centering
@@ -192,7 +192,7 @@ Multimorbidity also has a strong positive effect on receipt of social care, alth
 
 After controlling for other variables in the model females have an increased probability of receiving care of ~4% compared to males for all models (exactly 4% in 2015/16). SIMD decile was modelled as a continuous variable. The APE of -0.006 in 2015/16 (table \ref{tab:res2-model1-APE}) indicates the coefficient of the slope at the average value of SIMD (5.2, SD 2.6). The small value of this slope suggests SIMD decile had little effect on the receipt of social care. This can be seen in the conditional effect of SIMD shown in figure \ref{fig:res2-model1-simd} in Appendix D.
 
-With the exception of higher age groups where numbers are small, local authorities display more variation in APEs across models than other variables over time. This is more easily visualised in figure \ref{fig:res2-model1-APE-time} which shows that the difference in APEs \emph{within} councils is fairly stable and shows some narrowing \emph{between} councils in 2015/16. Controlling for age, sex, deprivation, and multimorbidity attenuates some of the variations seen in table \ref{tab:res2-la} with the largest difference in probabilty across all nine included local authorities being 5% (comparing Dumfries & Galloway to the reference group: Falkirk).
+With the exception of higher age groups where numbers are small, local authorities display more variation in APEs across models than other variables over time. This is more easily visualised in figure \ref{fig:res2-model1-APE-time} which shows that the difference in APEs \emph{within} councils is fairly stable and shows some narrowing \emph{between} councils in 2015/16. Controlling for age, sex, deprivation, and multimorbidity attenuates some of the variations seen in table \ref{tab:res2-la} with the largest difference in probability across all nine included local authorities being 5% (comparing Dumfries & Galloway to the reference group: Falkirk).
 
 \begin{figure}[]
   \centering
@@ -233,7 +233,7 @@ Table \ref{tab:res2-model1-gof} shows the results of diagnostic tests for the mo
 
 In this section results of logistic regression models applied to the subset of individuals in local authorities where a match rate between 92% and 95.9% was achieved when linking the SCS to the population spine. Nine local authorities are included in the models: Shetland Islands, Glasgow City, Na h-Eilenanan Siar, East Renfrewshire, City of Edinburgh, East Dunbartonshire, Fife, Perth & Kinross, and South Ayrshire. 
 
-In a similar fashion as the previous section, five models are reported - one for each financial year of data and where results are broadly consistent across years, 2015/16 is used as a reference year to convey results. Results here are restricted to show differences with the models fitted in the previous secion.  
+In a similar fashion as the previous section, five models are reported - one for each financial year of data and where results are broadly consistent across years, 2015/16 is used as a reference year to convey results. Results here are restricted to show differences with the models fitted in the previous section.  
 
 The R code for the model fitted to the second subset was identical to that reported in the previous section, the underlying subset of data being the only change. 
 
@@ -320,7 +320,7 @@ In a similar fashion as seen in subset 1, the rate of social care \emph{within} 
 \FloatBarrier
 \subsection{Model results}\label{subsec:9296-AME}
 
-Odds ratios for indiviudal values show similar patterns, but lower values, to those found in subset 1. A full table of model results for subset 2 (2015/16) can be found in figure \ref{fig:res2-model2-or} and table \ref{append-tab-3} in Appendix D. 
+Odds ratios for individual values show similar patterns, but lower values, to those found in subset 1. A full table of model results for subset 2 (2015/16) can be found in figure \ref{fig:res2-model2-or} and table \ref{append-tab-3} in Appendix D. 
 
 \begin{figure}[h]
   \centering
@@ -370,7 +370,7 @@ South Ayrshire & -0.076 & 0.007 & 0 & -0.089 & -0.062 \\ \bottomrule
 \end{table}
 
 More variation is seen across years for council areas than was evident with subset 1 and noticeably larger confidence intervals can be seen in figure \ref{fig:res2-model2-APE}. 
-The gradual increase in APEs reflects the large reduction in the percentage of individuals receiving care over time in the reference group (Shetland Islands) from a high starting point. This makes comparison to the reference group less informative. However, APEs can still be interpreted between other values (councils) in the variable. Excluding the referecnce group, there is little variation in APEs \emph(between) and \emph{within} councils, although there is some widening across councils in the most recent year of data. The difference in probability of receiving social care between Na h-Eileanan Siar and South Ayrshire is 6.2% in 2015/16. 
+The gradual increase in APEs reflects the large reduction in the percentage of individuals receiving care over time in the reference group (Shetland Islands) from a high starting point. This makes comparison to the reference group less informative. However, APEs can still be interpreted between other values (councils) in the variable. Excluding the reference group, there is little variation in APEs \emph(between) and \emph{within} councils, although there is some widening across councils in the most recent year of data. The difference in probability of receiving social care between Na h-Eileanan Siar and South Ayrshire is 6.2% in 2015/16. 
 
 Table \ref{tab:res2-mod2-gof} shows the results of diagnostic tests for the models applied to each financial year of data. McFadden's pseudo $R^2$ statistic ranges from 0.196 for the model applied to 2011/12 to 0.209 for the model applied to 2015/16. The models applied to the most recent two years of data have an excellent fit, whereas the previous three models are only marginally below the threshold of 0.2 generally regarded as representing an excellent fit.
 
@@ -472,12 +472,12 @@ glm(adm_six ~            #Flag for unplanned hospital admission
 \label{tab:res3adm-chars1516}
 \end{table}
 
-In 2015/16, 886,331 individuals were included in the model representing 95.9% of the cohort in that year (table \ref{tab:res3adm-chars1516}) with only those that died during the financial year being omitted from models. As such the sociodemographic make up is representative of the overall cohort. Chi-squared testing reveals no statistically significant difference between the numbers of females and males with an unplanned admission (54.8% v 45.2%). There are however, statistically significant diffrences in all other groups. Older, more deprived, and individuals with higher multimorbidity have higher rates of unplanned hospital admission compared to the relative size of the cohort they represent. For example those aged 80-84 represent 13.8% of the cohort but account for 20% of all unplanned admissions. Similarly, those prescribed nine or more repeat medicines represent 21.4% of the cohort but 43.6% of all unplanned admissions. Other variables of interest included those in receipt of social care (11.3%), and those with an episode of USC in the previous year (28.2%), who accounted for 29.8% and 56.5% of unplanned admissions respectively. Those resident in a care home also had a slightly higher rate of unplanned admission compared to the relative amount of the cohort they represented (5.7% v 3.2%). 
+In 2015/16, 886,331 individuals were included in the model representing 95.9% of the cohort in that year (table \ref{tab:res3adm-chars1516}) with only those that died during the financial year being omitted from models. As such the sociodemographic make up is representative of the overall cohort. Chi-squared testing reveals no statistically significant difference between the numbers of females and males with an unplanned admission (54.8% v 45.2%). There are however, statistically significant differences in all other groups. Older, more deprived, and individuals with higher multimorbidity have higher rates of unplanned hospital admission compared to the relative size of the cohort they represent. For example those aged 80-84 represent 13.8% of the cohort but account for 20% of all unplanned admissions. Similarly, those prescribed nine or more repeat medicines represent 21.4% of the cohort but 43.6% of all unplanned admissions. Other variables of interest included those in receipt of social care (11.3%), and those with an episode of USC in the previous year (28.2%), who accounted for 29.8% and 56.5% of unplanned admissions respectively. Those resident in a care home also had a slightly higher rate of unplanned admission compared to the relative amount of the cohort they represented (5.7% v 3.2%). 
 
 \FloatBarrier
 \subsection{Model results}
 
-Figure \ref{fig:res3-adm-OR} and table \ref{app-tab4} in Appendix D show odds ratios for individual variables in model fitted to data for 2015/16. As with previous models and explained in section \ref{sec:methods-stats}, APEs are used for the main stubstantive interpretation of models.   
+Figure \ref{fig:res3-adm-OR} and table \ref{app-tab4} in Appendix D show odds ratios for individual variables in model fitted to data for 2015/16. As with previous models and explained in section \ref{sec:methods-stats}, APEs are used for the main substantive interpretation of models.   
 
 The APEs for models with unplanned admission to hospital as dependent variable are much lower in magnitude for all variables (figure \ref{fig:res3-adm-APE} and table \ref{tab:res3-adm-ape1516}) compared with models fitted in sections \ref{subsec:96plus-results} and \ref{subsec:9296-AME} where social care was the dependent variable. 
 
@@ -520,7 +520,7 @@ The APEs for models with unplanned admission to hospital as dependent variable a
 \label{tab:res3-adm-ape1516}
 \end{table}
 
-High multimorbididty, measured by prescription of 9 or more repeat medicines, has the largest magnitude of APE in the unplanned hospital admission model in all years (an 8.3% increased probability of having an unplanned admission compared to those with 0-2 repeat medicines in 2015/16, table \ref{tab:res3-adm-ape1516}). Other multimorbidity groups also show increasing probability of admission compared to the reference value with as severity increases. 
+High multimorbidity, measured by prescription of 9 or more repeat medicines, has the largest magnitude of APE in the unplanned hospital admission model in all years (an 8.3% increased probability of having an unplanned admission compared to those with 0-2 repeat medicines in 2015/16, table \ref{tab:res3-adm-ape1516}). Other multimorbidity groups also show increasing probability of admission compared to the reference value with as severity increases. 
 
 In terms of other service use, having any USC episode in the previous financial year is associated with a ~7.5% increase in probability compared to those with no previous USC use. Similarly, receipt of social care measured in the SCS is associated with a ~6.5% increase in the probability of having an unplanned hospital admission compared to those with no social care. There is a split in the direction of the effect of living in a care home after 2013/14. After this year being in a care home is associated with a decrease in the probability of unplanned admission of almost 1% whilst in previous years the probability had increased by almost 1%. 
 
@@ -528,7 +528,7 @@ Higher age groups are also associated with higher APEs compared to other variabl
 
 Despite no statistically significant difference in the number of males and females with an unplanned admission in descriptive table \ref{tab:res3adm-chars1516}, modelling reveals that females are almost 2% less likely to have an admission after adjusting for other variables (1.6% in 2015/16). 
 
-SIMD decile, again fitted as a continous variable, has a very small effect on hospital admission after accounting for other variables. The coefficient of the slope at the average value of SIMD (5.6, SD 2.8) is -0.003 (table \ref{tab:res3-adm-ape1516}) indicating a very flat line which can be viewed in figure \ref{fig:res3-adm-simd} in Appendix D
+SIMD decile, again fitted as a continuous variable, has a very small effect on hospital admission after accounting for other variables. The coefficient of the slope at the average value of SIMD (5.6, SD 2.8) is -0.003 (table \ref{tab:res3-adm-ape1516}) indicating a very flat line which can be viewed in figure \ref{fig:res3-adm-simd} in Appendix D
 
 \begin{table}[h]
 \centering
@@ -536,7 +536,7 @@ SIMD decile, again fitted as a continous variable, has a very small effect on ho
 \begin{tabular}{@{}lrrrrrrrrr@{}}
 \toprule
  & \multicolumn{1}{l}{} & \multicolumn{3}{c}{Fitted model} & \multicolumn{3}{c}{Null model} & \multicolumn{1}{l}{} & \multicolumn{1}{l}{} \\ \cmidrule(lr){3-5}\cmidrule(lr){6-8}
-\textbf{\begin{tabular}[c]{@{}l@{}}Financial\\ Year\end{tabular}} & \textbf{\begin{tabular}[c]{@{}r@{}}McFadden's\\ pseudo ${R^2}$\end{tabular}} & \textbf{Deviance} & \textbf{\begin{tabular}[c]{@{}r@{}}Log\\ Likelihood\end{tabular}} & \textbf{\begin{tabular}[c]{@{}r@{}}Degrees\\ of freedom\end{tabular}} & \textbf{Deviance} & \textbf{\begin{tabular}[c]{@{}r@{}}Log\\ Likelihood\end{tabular}} & \textbf{\begin{tabular}[c]{@{}r@{}}Degrees\\ of freedome\end{tabular}} & \textbf{AIC} & \textbf{BIC} \\ \midrule
+\textbf{\begin{tabular}[c]{@{}l@{}}Financial\\ Year\end{tabular}} & \textbf{\begin{tabular}[c]{@{}r@{}}McFadden's\\ pseudo ${R^2}$\end{tabular}} & \textbf{Deviance} & \textbf{\begin{tabular}[c]{@{}r@{}}Log\\ Likelihood\end{tabular}} & \textbf{\begin{tabular}[c]{@{}r@{}}Degrees\\ of freedom\end{tabular}} & \textbf{Deviance} & \textbf{\begin{tabular}[c]{@{}r@{}}Log\\ Likelihood\end{tabular}} & \textbf{\begin{tabular}[c]{@{}r@{}}Degrees\\ of freedom\end{tabular}} & \textbf{AIC} & \textbf{BIC} \\ \midrule
 \textbf{2011/12} & 0.113 & 447862.4 & -223931.2 & 821187.0 & 504865.0 & -252432.5 & 821234.0 & 447958.4 & 448516.1 \\
 \textbf{2012/13} & 0.112 & 454527.8 & -227263.9 & 841129.0 & 512028.3 & -256014.2 & 841176.0 & 454623.8 & 455182.7 \\
 \textbf{2013/14} & 0.114 & 466492.6 & -233246.3 & 858910.0 & 526463.8 & -263231.9 & 858957.0 & 466588.6 & 467148.4 \\
