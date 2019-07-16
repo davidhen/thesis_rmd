@@ -5,9 +5,17 @@ output: pdf_document
 \chapter{Results 1 - Descriptive statistics}\label{ch:results-1}
 \thispagestyle{empty}
 
-This chapter outlines the characteristics of the cohort by providing descriptive statistics of pertinent variables in five sections. The first section concentrates on characteristics by age & sex, by mortality, and by geography.  The next section focusses on the proxy measurement of multimorbidity, repeat medicine counts, and its distribution by sociodemographic variables. The third section focusses on deprivation, the fourth on receipt of any form of social care, and the final section characterises unplanned admissions to hospital. Where distributions were found to be similar across all years of data a reference year, financial year 2015/16 - the most recent of the study period, is used for visualisation/tabulation purposes.
+This chapter switches focus to the main linkage project described in Chapter \ref{ch:data} and provides some answers to the first half of the first research question: 
+\begin{enumerate}[noitemsep]
+\item 
+\begin{enumerate}[noitemsep]
+\item What are the socioeconomic and demographic patterns in the use of social care?
+\end{enumerate}
+\end{enumerate}
 
-\section{Age, sex, mortality, and geography}\label{sec:results1-descr}
+Chapter \ref{ch:res2} completes the answer to research question 1(a) (as well as the other research questions). This chapter outlines the characteristics of the created health and social care cohort by providing descriptive statistics of pertinent variables in five sections. The first section concentrates on characteristics by age & sex, by mortality, and by local authority area.  The next section focusses on the proxy measurement of multimorbidity, repeat medicine counts, and its distribution by sociodemographic variables. The third section focusses on deprivation, the fourth on receipt of any form of social care, and the final section characterises unplanned admissions to hospital. In all but the first and fourth sections, the distribution of the receipt of social care by the main variable of interest is included; the fourth section specifically investigates social care receipt. Where distributions were found to be similar across all years of data a reference year, financial year 2015/16 - the most recent of the study period, is used for visualisation/tabulation purposes.
+
+\section{Age, sex, mortality, and local authorities}\label{sec:results1-descr}
 
 \subsection{Participants}\label{subsec:results1-particp}
 
@@ -17,12 +25,19 @@ This chapter outlines the characteristics of the cohort by providing descriptive
 \begin{threeparttable}
 \begin{tabular}{@{}llrrrrr@{}}
 \toprule
-\textbf{Variable} & \textbf{Value} & \textbf{2011/12} & \textbf{2012/13} & \textbf{2013/14} & \textbf{2014/15} & \textbf{2015/16} \\ \midrule
-\textbf{N in cohort} &  & 870923 & 895113 & 908300 & 920647 & 924323 \\
+\textbf{Variable} & \textbf{Value} & 
+\textbf{\begin{tabular}[c]{@{}r@{}}2011/12:\\ (n=870293)\end{tabular}} & 
+\textbf{\begin{tabular}[c]{@{}r@{}}2012/13:\\ (n=895113)\end{tabular}} & 
+\textbf{\begin{tabular}[c]{@{}r@{}}2013/14:\\ (n=908300)\end{tabular}} & 
+\textbf{\begin{tabular}[c]{@{}r@{}}2014/15:\\ (n=920647)\end{tabular}} &
+\textbf{\begin{tabular}[c]{@{}r@{}}2015/16:\\ (n=924323)\end{tabular}} \\ \midrule
 \textbf{N died} &  & 35874 (4.1) & 41702 (4.7) & 39346 (4.3) & 42365 (4.6) & 37992 (4.1) \\
+{} & & & & & & \\
 \textbf{Sex} & Male & 382598 (43.9) & 395927 (44.2) & 404478 (44.5) & 412128 (44.8) & 415968 (45.0) \\
 \textbf{} & Female & 488325 (56.1) & 499186 (55.8) & 503822 (55.5) & 508519 (55.2) & 508355 (55.0) \\
+{} & & & & & & \\
 \textbf{Age (years)} & Mean (SD) & 74.8 (7.4) & 74.7 (7.4) & 74.7 (7.4) & 74.7 (7.4) & 74.7 (7.4) \\
+{} & & & & & & \\
 \textbf{Age group (years)} & 65-69 & 256764 (29.5) & 269044 (30.1) & 274946 (30.3) & 278708 (30.3) & 282563 (30.6) \\
 \textbf{} & 70-74 & 206133 (23.7) & 208831 (23.3) & 211466 (23.3) & 214391 (23.3) & 215895 (23.4) \\
 \textbf{} & 75-79 & 170455 (19.6) & 173475 (19.4) & 175402 (19.3) & 176749 (19.2) & 175279 (19.0) \\
@@ -30,13 +45,12 @@ This chapter outlines the characteristics of the cohort by providing descriptive
 \textbf{} & 85-89 & 73705 (8.5) & 74938 (8.4) & 75992 (8.4) & 77620 (8.4) & 77694 (8.4) \\
 \textbf{} & 90-94 & 30737 (3.5) & 32712 (3.7) & 33711 (3.7) & 34149 (3.7) & 33428 (3.6) \\
 \textbf{} & 95 plus & 8449 (1.0) & 8505 (1.0) & 8283 (0.9) & 8881 (1.0) & 9329 (1.0) \\
+{} & & & & & & \\
 \textbf{N with  \textgreater{}=1 repeat medicine} &  & 775647 (89.1) & 795502 (88.9) & 807927 (88.9) & 818717 (88.9) & 821862 (88.9) \\
+\textbf{N with \textgreater{}=1 hospital admission} &  & 133158 (15.3) & 141873 (15.8) & 141746 (15.6) & 147779 (16.1) & 145770 (15.8) \\
+{} & & & & & & \\
 \textbf{Receiving social care} &  & 88036 (10.1) & 95827 (10.7) & 95128 (10.1) & 106242 (11.1) & 107441 (11.6) \\
-\textbf{Receiving home care} &  & 41642 (4.8) & 42149 (4.7) & 42746 (4.7) & 42232 (4.6) & 41172 (4.5) \\
-\textbf{Resident in care home} &  & 36514 (4.4) & 33293 (4.0) & 31397 (3.7) & 29107 (3.3) & 28156 (3.2) \\
-\textbf{\textgreater{}= 1 USC episode} &  & 259147 (29.8) & 272580 (30.5) & 270874 (29.8) & 289539 (31.4) & 285059 (30.8) \\
-\textbf{\textgreater{}=1 hospital admission} &  & 133158 (15.3) & 141873 (15.8) & 141746 (15.6) & 147779 (16.1) & 145770 (15.8) \\
-\textbf{\textgreater{}=1 A \& E attendance} &  & 172754 (19.8) & 181732 (20.3) & 184101 (20.3) & 190588 (20.7) & 185767 (20.1) \\ \bottomrule
+\textbf{Resident in care home} &  & 36514 (4.4) & 33293 (4.0) & 31397 (3.7) & 29107 (3.3) & 28156 (3.2) \\ \bottomrule
 \end{tabular}%
 \begin{tablenotes}
 \item \footnotesize{All values n(\%) unless otherwise stated}
@@ -50,9 +64,9 @@ This chapter outlines the characteristics of the cohort by providing descriptive
 
 There were 1,100,675 individuals included within the study across all years with increasing numbers in each financial year as shown in Table \ref{tab:results1-cohorttab}.  Percentages in each gender group and of those that died were relatively stable across the study period. Age was also relatively stable across all years with almost one-third of the cohort in each year being aged between 65 and 69 years old whilst over half were under the age of 75. 
 
-In terms of healthcare, the vast majority of individuals had a least one repeat prescription in any given year, whilst the percentage of individuals using unscheduled care services (including unplanned admissions and A & E attendances) were relatively stable over time. In contrast, the pattern in \emph{absolute} numbers with a prescription or using health services shows a gradual increase over time shadowing the increase in overall numbers in the cohort in each year.  
+In terms of healthcare, the vast majority of individuals had a least one repeat prescription in any given year, whilst the percentage of individuals with at least one unplanned admission to hospital was relatively stable over time. In contrast, the pattern in \emph{absolute} numbers with a prescription or unplanned admission shows a gradual increase over time shadowing the increase in overall numbers in the cohort in each year.  
 
-Social care services show slightly less stability in terms of numbers and percentages of individuals receiving care. A jump of approximately 10,000 people receiving any form of social care is found between financial years 2013/14 and 2014/15. This pattern is not observed for those receiving home care services where absolute numbers are relatively stable across the study period. Conversely, the number flagged as living in a care home shows a gradual decrease over time.   
+Social care services show slightly less stability in terms of numbers and percentages of individuals receiving care. A jump of approximately 10,000 people receiving any form of social care is found between financial years 2013/14 and 2014/15 reflecting a change in data collection methods in the SCS. Conversely, the number flagged as living in a care home shows a gradual decrease over time.   
 
 \FloatBarrier
 \subsection{Age and sex}\label{subsec:results1-age-sex}
@@ -60,11 +74,11 @@ Social care services show slightly less stability in terms of numbers and percen
 \begin{figure}[]
   \centering
     \includegraphics{figures/chapter-results-1/02_age_sex_plot.pdf}
-    \caption{Age and sex distribution. N = 924,323}
+    \caption{Age and sex distribution}
     \label{fig:results1-age-sex}
 \end{figure}
 
-Using financial year 2015/16 as a reference, figure \ref{fig:results1-age-sex} shows the breakdown by age and sex (similar patterns are seen across all years of data). There are more females than males in every age group with the difference between sexes widening as age increases. Over half of the cohort are under the age of 74 and over a quarter are between the ages of 75 and 84. 
+Using financial year 2015/16 as a reference, Figure \ref{fig:results1-age-sex} shows the breakdown by age and sex (similar patterns are seen across all years of data). There are more females than males in every age group with the difference between sexes widening as age increases. Over half of the cohort are under the age of 74 and over a quarter are between the ages of 75 and 84. 
 
 \FloatBarrier
 \subsection{Mortality}\label{subsec:results1-mortality}
@@ -72,11 +86,11 @@ Using financial year 2015/16 as a reference, figure \ref{fig:results1-age-sex} s
 \begin{figure}[h]
   \centering
     \includegraphics{figures/chapter-results-1/03_deaths_plot.pdf}
-    \caption{Mortality. N = 37,992}
+    \caption{Mortality}
     \label{fig:results1-mortality}
 \end{figure}
 
-In 2015/16, 4.1% of the cohort died (37,992 individuals). Figure \ref{fig:results1-mortality} shows how these deaths were distributed across age and sex groups (with similar patterns seen in other years). The highest percentages of deaths (approximately 20%) occurred in the 80-84 and 85-89 age groups with females accounting for over half of these. The difference in the percentage of deaths between males and females increases from the 80-84 age groups to older age groups, whereas higher percentages of men died in age groups below 80-84.
+In 2015/16, 4.1% of the cohort died (37,992 individuals) within that year. Figure \ref{fig:results1-mortality} shows how these deaths were distributed across age and sex groups (with similar patterns seen in other years). The highest percentages of deaths (approximately 20%) occurred in the 80-84 and 85-89 age groups with females accounting for over half of these. The difference in the percentage of deaths between males and females increases from the 80-84 age groups to older age groups, whereas higher percentages of men died in age groups below 80-84.
 
 
 \FloatBarrier
@@ -87,7 +101,7 @@ Figure \ref{fig:results1-la} shows the percentage of individuals in the cohort t
 \begin{figure}[h]
   \centering
     \includegraphics{figures/chapter-results-1/04_la_count.pdf}
-    \caption{Distribution of cohort by local authority. N = 924,323}
+    \caption{Distribution of cohort by local authority}
     \label{fig:results1-la}
 \end{figure}
 
@@ -98,33 +112,41 @@ Figure \ref{fig:results1-la} shows the percentage of individuals in the cohort t
 \section{Repeat medicines}\label{sec:results1-mm-meds}
 \subsection{Distribution by sex}\label{subsec:results1-meds-sex}
 
-The distribution of number of repeat medicines prescribed in 2015/16 reveals the most common value to be zero (figure \ref{fig:results1-meds-hist}). Otherwise, a positively-skewed normal distribution is seen with higher numbers of females receiving every number of repeat medicines. This pattern is repeated across all study years.     
+The distribution of number of repeat medicines prescribed in 2015/16 reveals the most common value to be zero (Figure \ref{fig:results1-meds-hist}). Otherwise, a positively-skewed normal distribution is seen with higher numbers of females receiving every number of repeat medicines. This pattern is repeated across all study years.     
 
 \begin{figure}[h]
   \centering
     \includegraphics{figures/chapter-results-1/10_total_meds_hist_2.pdf}
-    \caption{Number of individuals receiving specific counts of repeat medicines. N = 924,323}
+    \caption{Number of individuals receiving specific counts of repeat medicines}
     \label{fig:results1-meds-hist}
 \end{figure}
 
 \FloatBarrier
 \subsection{Percentage by sex, age group, and deprivation}\label{subsec:results1-meds-age}
 
+Despite overall numbers for specific counts of medicines being higher for females, the \emph{percentage} of males and females receiving repeat medicines is similar as shown in the left-hand panel of Figure \ref{fig:results1-meds-age-grp}. There are, however, differences in the pattern of percentages by age groups and SIMD deciles. The shape of the distribution shifts further to the right for both older age groups and more deprived SIMD deciles. Combining these factors (Figure \ref{fig:results1-meds-simd-age}) reveals that the differences in deprivation deciles is more pronounced at younger ages and is much less obvious in older age groups where overall numbers are smaller.
+
+\begin{landscape}
+\thispagestyle{empty}
 \begin{figure}[h]
   \centering
     \includegraphics{figures/chapter-results-1/combined_meds_plot.pdf}
     \caption{Percentage of individuals receiving repeat medicines}
     \label{fig:results1-meds-age-grp}
 \end{figure}
+\end{landscape}
 
-Despite overall numbers for specific counts of medicines being higher for females, the \emph{percentage} of males and females receiving repeat medicines is similar as shown in the left-hand panel of figure \ref{fig:results1-meds-age-grp}. There are, however, differences in the pattern of percentages by age groups and SIMD deciles. The shape of the distribution shifts further to the right for both older age groups and more deprived SIMD deciles. Combining these factors (figure \ref{fig:results1-meds-simd-age}) reveals that the differences in deprivation deciles is more pronounced at younger ages and is much less obvious in older age groups where overall numbers are smaller.    
+  
 
+\begin{landscape}
+\thispagestyle{empty}
 \begin{figure}[h]
   \centering
     \includegraphics{figures/chapter-results-1/meds_simd_age_plot.pdf}
-    \caption{Repeat medicines by age group and SIMD decile}
+    \caption{Repeat medicines by age group and deprivation decile}
     \label{fig:results1-meds-simd-age}
 \end{figure}
+\end{landscape}
 
 \FloatBarrier
 \subsection{Multimorbidity (repeat medicine) groups}\label{subsec:results1-meds}
@@ -132,63 +154,70 @@ Despite overall numbers for specific counts of medicines being higher for female
 \begin{figure}[h]
   \centering
     \includegraphics{figures/chapter-results-1/08_pis_group_plot.pdf}
-    \caption{Distribution of repeat medicines by group (labelling needs changed)}
+    \caption{Distribution of repeat medicines by group}
     \label{fig:results1-meds-grp}
 \end{figure}
 
-Figure \ref{fig:results1-meds-grp} shows the distribution of the percentage of individuals receiving numbers of repeat medicines within defined groups. Each group contains either slightly more or less than 25% of the total cohort with 0-2 and 3-5 groups being slightly larger. The same pattern is seen across all years of data. These groups are used as a proxy measurement of multimorbidity in models reported in chapters \ref{ch:res2} and \ref{ch:res-3}. 
+Figure \ref{fig:results1-meds-grp} shows the distribution of the percentage of individuals receiving numbers of repeat medicines within defined groups. Each group contains either slightly more or less than 25% of the total cohort with 0-2 and 3-5 groups being slightly larger. The same pattern is seen across all years of data. These groups are used as a proxy measurement of multimorbidity in models reported in Chapter \ref{ch:res2}.
 
 \begin{table}[]
 \centering
 \resizebox{\textwidth}{!}{%
 \begin{threeparttable}
-\begin{tabular}{@{}llrrrrr@{}}
+\begin{tabular}{@{}llrrrrrr@{}}
 \toprule
-\textbf{Variable} & \textbf{Value} & \textbf{\begin{tabular}[c]{@{}r@{}}Repeat Meds:\\ 0-2\end{tabular}} & \textbf{\begin{tabular}[c]{@{}r@{}}Repeat Meds:\\ 3-5\end{tabular}} & \textbf{\begin{tabular}[c]{@{}r@{}}Repeat Meds:\\ 6-8\end{tabular}} & \textbf{\begin{tabular}[c]{@{}r@{}}Repeat Meds:\\ 9+\end{tabular}} & \textbf{Total} \\ \midrule
-\textbf{Sex} & Male & 117562 (28.3) & 119689 (28.8) & 94790 (22.8) & 83927 (20.2) & 415968 \\
-\textbf{} & Female & 132807 (26.1) & 141500 (27.8) & 116330 (22.9) & 117718 (23.2) & 508355 \\
-\textbf{Mortality} & Dead & 8326 (21.9) & 9182 (24.2) & 8657 (22.8) & 11827 (31.1) & 37992 \\
-\textbf{} & Alive & 242043 (27.3) & 252007 (28.4) & 202463 (22.8) & 189818 (21.4) & 886331 \\
-\textbf{Age} & Mean (SD) & 72 (6.3) & 74.4 (7.2) & 76.3 (7.6) & 77 (7.5) &  \\
-\textbf{Age group} & 65-69 & 113437 (40.1) & 81178 (28.7) & 48460 (17.2) & 39488 (14.0) & 282563 \\
-\textbf{} & 70-74 & 63704 (29.5) & 64409 (29.8) & 46413 (21.5) & 41369 (19.2) & 215895 \\
-\textbf{} & 75-79 & 36591 (20.9) & 50161 (28.6) & 44150 (25.2) & 44377 (25.3) & 175279 \\
-\textbf{} & 80-84 & 20398 (15.7) & 34397 (26.4) & 36557 (28.1) & 38783 (29.8) & 130135 \\
-\textbf{} & 85-89 & 10337 (13.3) & 19841 (25.5) & 22793 (29.3) & 24723 (31.8) & 77694 \\
-\textbf{} & 90-94 & 4479 (13.4) & 8612 (25.8) & 10033 (30.0) & 10304 (30.8) & 33428 \\
-\textbf{} & 95 plus & 1423 (15.3) & 2591 (27.8) & 2714 (29.1) & 2601 (27.9) & 9329 \\
-\textbf{SIMD Decile} & 1 - most deprived & 14317 (18.6) & 18460 (24.0) & 19313 (25.1) & 24980 (32.4) & 77070 \\
-\textbf{} & 2 & 17247 (20.2) & 21936 (25.7) & 21373 (25.0) & 24786 (29.0) & 85342 \\
-\textbf{} & 3 & 20252 (21.3) & 25209 (26.6) & 23726 (25.0) & 25734 (27.1) & 94921 \\
-\textbf{} & 4 & 23053 (23.9) & 26627 (27.7) & 23088 (24.0) & 23532 (24.4) & 96300 \\
-\textbf{} & 5 & 25748 (26.1) & 27977 (28.4) & 22904 (23.3) & 21834 (22.2) & 98463 \\
-\textbf{} & 6 & 28867 (28.9) & 28914 (29.0) & 22146 (22.2) & 19940 (20.0) & 99867 \\
-\textbf{} & 7 & 29569 (30.9) & 27851 (29.1) & 20850 (21.8) & 17415 (18.2) & 95685 \\
-\textbf{} & 8 & 28977 (31.3) & 27783 (30.0) & 19723 (21.3) & 15981 (17.3) & 92464 \\
-\textbf{} & 9 & 30020 (32.3) & 28256 (30.4) & 19781 (21.3) & 15005 (16.1) & 93062 \\
-\textbf{} & 10 - most affluent & 32319 (35.5) & 28176 (30.9) & 18216 (20.0) & 12438 (13.6) & 91149 \\
-\textbf{Any form of Social Care} & No Social Care & 241929 (29.6) & 240595 (29.5) & 181094 (22.2) & 153264 (18.8) & 816882 \\
-\textbf{} & Social Care & 8440 (7.9) & 20594 (19.2) & 30026 (27.9) & 48381 (45.0) & 107441 \\
-\textbf{Any USC episode} & No USC & 209153 (32.7) & 196097 (30.7) & 137476 (21.5) & 96538 (15.1) & 639264 \\
-\textbf{} & USC & 41216 (14.5) & 65092 (22.8) & 73644 (25.8) & 105107 (36.9) & 285059 \\ \bottomrule
+\textbf{Variable} & \textbf{Value} & \textbf{\begin{tabular}[c]{@{}r@{}}Repeat Meds:\\ 0-2\\  (n=250369)\end{tabular}} & \textbf{\begin{tabular}[c]{@{}r@{}}Repeat Meds:\\ 3-5\\ (n=261189) \end{tabular}} & \textbf{\begin{tabular}[c]{@{}r@{}}Repeat Meds:\\ 6-8\\ (n=211120)\end{tabular}} & \textbf{\begin{tabular}[c]{@{}r@{}}Repeat Meds:\\ 9+\\ (n=201645)\end{tabular}} & \textbf{\begin{tabular}[c]{@{}r@{}}Overall\\ (n=924323)\end{tabular}} &
+\textbf{p-value} \\ \midrule
+\textbf{Sex} & Male & 117562 (47.0) & 119689 (45.8) & 94790 (44.9) & 83927 (41.6) & 415968 (45.0) & \textless 0.01 \\
+\textbf{} & Female & 132807 (53.0) & 141500 (54.2) & 116330 (55.1) & 117718 (58.4) & 508355 (55.0) & \\
+{} & & & & & & & \\
+\textbf{Mortality} & Died & 8326 (3.3) & 9182 (3.5) & 8657 (4.1) & 11827 (5.9) & 37992 (4.1) & \textless 0.01 \\
+\textbf{} & Survived & 242043 (96.7) & 252007 (96.5) & 202463 (95.9) & 189818 (94.1) & 886331 (95.9) & \\
+{} & & & & & & & \\
+\textbf{Age} & Median (IQR) & 70 (8) & 73 (11) & 75 (11) & 76 (11) & 73 (11) & \textless 0.01\\
+{} & & & & & & & \\
+\textbf{Age group} & 65-69 & 113437 (45.3) & 81178 (31.1) & 48460 (23.0) & 39488 (19.6) & 282563 (30.6) & \textless 0.01 \\
+\textbf{} & 70-74 & 63704 (25.4) & 64409 (24.7) & 46413 (22.0) & 41369 (20.5) & 215895 (23.4) & \\
+\textbf{} & 75-79 & 36591 (14.6) & 50161 (19.2) & 44150 (20.9) & 44377 (22.0) & 175279 (19.0) & \\
+\textbf{} & 80-84 & 20398 (8.1) & 34397 (13.2) & 36557 (17.3) & 38783 (19.2) & 130135 (14.1) & \\
+\textbf{} & 85-89 & 10337 (4.1) & 19841 (7.6) & 22793 (10.8) & 24723 (12.3) & 77694 (8.4) & \\
+\textbf{} & 90-94 & 4479 (1.8) & 8612 (3.3) & 10033 (4.8) & 10304 (5.1) & 33428 (3.6) & \\
+\textbf{} & 95 plus & 1423 (0.6) & 2591 (1.0) & 2714 (1.3) & 2601 (1.3) & 9329 (1.0) & \\
+{} & & & & & & & \\
+\textbf{SIMD Decile} & 1 - most deprived & 14317 (5.7) & 18460 (7.1) & 19313 (9.1) & 24980 (12.4) & 77070 (8.3) & \textless 0.01 \\
+\textbf{} & 2 & 17247 (6.9) & 21936 (8.4) & 21373 (10.1) & 24786 (12.3) & 85342 (8.3) & \\
+\textbf{} & 3 & 20252 (8.1) & 25209 (9.7) & 23726 (11.2) & 25734 (12.8) & 94921 (10.3) & \\
+\textbf{} & 4 & 23053 (9.2) & 26627 (10.2) & 23088 (10.9) & 23532 (11.7) & 96300 (10.4) & \\
+\textbf{} & 5 & 25748 (10.3) & 27977 (10.7) & 22904 (10.8) & 21834 (10.8) & 98463 (10.7) & \\
+\textbf{} & 6 & 28867 (11.5) & 28914 (11.1) & 22146 (10.5) & 19940 (9.9) & 99867 (10.8) & \\
+\textbf{} & 7 & 29569 (11.8) & 27851 (10.7) & 20850 (9.9) & 17415 (8.6) & 95685 (10.4) & \\
+\textbf{} & 8 & 28977 (11.6) & 27783 (10.6) & 19723 (9.3) & 15981 (7.9) & 92464 (10.0) & \\
+\textbf{} & 9 & 30020 (12.0) & 28256 (10.8) & 19781 (9.4) & 15005 (7.4) & 93062 (10.1) & \\
+\textbf{} & 10 - most affluent & 32319 (12.9) & 28176 (10.8) & 18216 (8.6) & 12438 (6.2) & 91149 (9.9) & \\
+{} & & & & & & & \\
+\textbf{Any form of Social Care} & No Social Care & 241929 (96.6) & 240595 (92.1) & 181094 (85.8) & 153264 (76.0) & 816882 (88.4) & \textless 0.01 \\
+\textbf{} & Social Care & 8440 (3.4) & 20594 (7.9) & 30026 (14.2) & 48381 (24.0) & 107441 (11.6) & \\
+{} & & & & & & & \\
+\textbf{Any unplanned admission} & No admission & 234399 (93.6) & 232855 (89.2) & 173683 (82.3) & 137616 (68.2) & 778553 (84.2) & \textless 0.01 \\
+\textbf{} & \textgreater{}=1 admission & 15970 (6.4) & 28334 (10.8) & 37437 (17.7) & 64029 (31.8) & 145770 (15.8) & \\ \bottomrule
 \end{tabular}%
 \begin{tablenotes}
 \item \footnotesize{All values n(\%) unless otherwise stated} 
-\item \footnotesize{\emph{Row}-wise percentages within grouped variables}
-\item \footnotesize{USC = Unscheduled care}
+\item \footnotesize{\emph{Column}-wise percentages within grouped variables}
+\item \footnotesize{Chi-squared test for categorical variables}
+\item \footnotesize{Kruskal-Wallis test for continuous variables}
 \end{tablenotes}
 \end{threeparttable}%
 }
-\caption{Cohort 2015/16 by Multimorbidity (repeat medicine) groups. N = 924,323}
+\caption{Characteristics of study population by repeat medicine group. 2015/16}
 \label{tab:res1-mmgroups}
 \end{table}
 
+A higher percentage of females are found in the highest multimorbidity group (9+ repeat medicines) compared to the overall percentage of females in the cohort, whereas a higher percentage of men is found in the lowest group (0-2 repeat medicines) compared to the overall percentage of males (Table \ref{tab:res1-mmgroups}). The median age of individuals in each multimorbidity group rises with severity from 70 years in the lowest group to 76 years in the highest. In younger age groups, the percentage of individuals in lower medicine groups (0-2, 3-5) is higher than found in the overall population whilst the percentage in higher medicine groups (6-8, 9+) is lower. The converse is true in older age groups. Hypothesis testing indicates the differences between these variables across medicine groups is statistically significant.    
 
-A higher percentage of females are found in the highest multimorbidity group (9+ repeat medicines), whereas a higher percentage of men is found in the two lowest groups(0-2 & 3-5 repeat medicines, table \ref{tab:res1-mmgroups}). The average age of individuals in each multimorbidity group rises with severity from 72 years in the lowest group to 77 years in the highest. Percentages of individuals in the lowest multimorbidity group run from high to low through age groups whilst the opposite is found in the highest multimorbidity group.   
+There is also a statistically significant difference in SIMD deciles across medicine groups. Whilst 8.3% of the cohort in 2015/16 lived in the most-deprived SIMD Decile 1 areas, only 5.7% of those receiving 0-2 medicines come from the same group. Conversely, 12.4% of those prescribed 9+ medicines lived in a SIMD Decile 1 area. In contrast, those living in the most-affluent SIMD Decile 10 areas accounted for 9.9% of the overall cohort. The corresponding figures for 0-2 and 9+ groups are 12.9% and 6.2% respectively. 
 
-A stark pattern is seen in deprivation status. Less than one-in-five individuals living in decile 1 received 0-2 repeat medicines whereas almost one-third of those in decile 10 are in this lowest multimorbidity group. The percentage of individuals in the 0-2 group increases in a linear fashion through the deprivation deciles from most deprived to most affluent. Conversely, almost a third (30.8%) of those in the most deprived SIMD decile were in the highest multimorbidity group. Only 13.6% of those in the most affluent decile were found in this group. Again, a (negative) linear trend in percentages going through SIMD deciles is observed. 
-
-There is a noticeable relationship between service use and multimorbidity groups. Only 7.6% of those receiving social care and 14.9% of those having at least one unscheduled care episode received between 0-2 repeat medicines. This compared to 44.9% of those receiving social care and 36.9% of those using unscheduled care services who were in the 9 and over repeat medicine group. 
+There is a noticeable relationship between service use and multimorbidity groups. Of those prescribed 0-2 repeat medicines, 3.4% were in receipt of social care compared to 24.0% of those prescribed 9+ medicines. The overall percentage receiving social care is 11.6%. Similarly, 6.4% of those in medicine group 0-2 had an unplanned admission to hospital compared to 31.8% of those prescribed 9+ medicines. Overall, 15.8% of the cohort had an unplanned hospital admission in 2015/16. Again, hypothesis tests show the differences within these variables are statistically significant. 
 
 ```{r DEPRIVATION, eval=FALSE, echo=FALSE}
 ##################################################################################################
@@ -200,54 +229,71 @@ There is a noticeable relationship between service use and multimorbidity groups
 
 \subsection{Participants}\label{subsec:dep-parps}
 
-\begin{table}[h]
-\centering
-\resizebox{\textwidth}{!}{%
+Breaking the cohort in 2015/16 down by deprivation decile shows statistically significant differences in all variables (Table \ref{tab:results1-deprivation}). The absolute number of males and females in Deciles 1 (most deprived) and 2 was lower than seen in other deciles. The percentage of those living in Decile 1 areas and male was less than seen in the overall cohort whilst the percentage of females was higher. The converse was true in Decile 10 (most affluent). There was a higher percentage of deaths in Deciles 1-3 (5.4%, 4.9%, and 4.8%) compared to the overall cohort where 4.1% of people died. Only 3.1% of individuals resident in Decile 10 datazones died in 2015/16.  
+
+\begin{landscape}
+\thispagestyle{empty}
+\begin{table}
+\tiny
 \begin{threeparttable}
-\begin{tabular}{@{}llrrrrrr@{}}
+\begin{tabular}{@{}llrrrrrrrrrrrr@{}}
 \toprule
-\textbf{Variable} & \textbf{Value} & \textbf{\begin{tabular}[c]{@{}r@{}}Quintile 1\\ (most deprived)\end{tabular}} & \textbf{Quintile 2} & \textbf{Quintile 3} & \textbf{Quintile 4} & \textbf{\begin{tabular}[c]{@{}r@{}}Quintile 5\\ (most affluent)\end{tabular}} & \textbf{Total} \\ \midrule
-\textbf{Sex} & Male & 71081 (17.1) & 83977 (20.2) & 89996 (21.6) & 86628 (20.8) & 84286 (20.3) & 415968 \\
-\textbf{} & Female & 91331 (18.0) & 107244 (21.1) & 108334 (21.3) & 101521 (20.0) & 99925 (19.7) & 508355 \\
-\textbf{Mortality} & Died & 8398 (22.1) & 8688 (22.9) & 8099 (21.3) & 6848 (18.0) & 5959 (15.7) & 37992 \\
-\textbf{} & Alive & 154014 (17.4) & 182533 (20.6) & 190231 (21.5) & 181301 (20.5) & 178252 (20.1) & 886331 \\
-\textbf{Age} & Mean (SD) & 74.7 (7.3) & 74.9 (7.4) & 74.7 (7.4) & 74.6 (7.4) & 74.7 (7.5) &  \\
-\textbf{Age group} & 65-69 & 48977 (17.3) & 56371 (19.9) & 60557 (21.4) & 59224 (21.0) & 57434 (20.3) & 282563 \\
-\textbf{} & 70-74 & 37526 (17.4) & 44042 (20.4) & 46823 (21.7) & 44840 (20.8) & 42664 (19.8) & 215895 \\
-\textbf{} & 75-79 & 31883 (18.2) & 37192 (21.2) & 37658 (21.5) & 34598 (19.7) & 33948 (19.4) & 175279 \\
-\textbf{} & 80-84 & 23666 (18.2) & 28274 (21.7) & 27279 (21.0) & 25350 (19.5) & 25566 (19.6) & 130135 \\
-\textbf{} & 85-89 & 13338 (17.2) & 16545 (21.3) & 16579 (21.3) & 15570 (20.0) & 15662 (20.2) & 77694 \\
-\textbf{} & 90-94 & 5533 (16.6) & 6968 (20.8) & 7352 (22.0) & 6639 (19.9) & 6936 (20.7) & 33428 \\
-\textbf{} & 95 plus & 1489 (16.0) & 1829 (19.6) & 2082 (22.3) & 1928 (20.7) & 2001 (21.4) & 9329 \\
-\textbf{Total repeat medicines} & Mean (SD) & 6.6 (4.4) & 6 (4.2) & 5.4 (4.1) & 5 (3.9) & 4.6 (3.7) &  \\
-\textbf{Medicines group} & 0-2 & 31564 (12.6) & 43305 (17.3) & 54615 (21.8) & 58546 (23.4) & 62339 (24.9) & 250369 \\
-\textbf{} & 3-5 & 40396 (15.5) & 51836 (19.8) & 56891 (21.8) & 55634 (21.3) & 56432 (21.6) & 261189 \\
-\textbf{} & 6-8 & 40686 (19.3) & 46814 (22.2) & 45050 (21.3) & 40573 (19.2) & 37997 (18.0) & 211120 \\
-\textbf{} & 9+ & 49766 (24.7) & 49266 (24.4) & 41774 (20.7) & 33396 (16.6) & 27443 (13.6) & 201645 \\
-\textbf{Receiving social care} &  & 24848 (23.1) & 27209 (25.3) & 22531 (21.0) & 18033 (16.8) & 14820 (13.8) & 107441 \\
-\textbf{Receiving home care} &  & 10063 (24.4) & 10482 (25.5) & 8504 (20.7) & 6694 (16.3) & 5429 (13.2) & 41172 \\
-\textbf{\textgreater{}=1 episode USC} &  & 59898 (21.0) & 63211 (22.2) & 59044 (20.7) & 52933 (18.6) & 49973 (17.5) & 285059 \\
-\textbf{\textgreater{}= 1 unplanned hospital admission} &  & 33362 (22.9) & 33625 (23.1) & 30222 (20.7) & 25601 (17.6) & 22960 (15.8) & 145770 \\
-\textbf{\textgreater{}= 1 A \& E attendance} &  & 41212 (22.2) & 42645 (23.0) & 37409 (20.1) & 32794 (17.7) & 31707 (17.1) & 185767 \\ \bottomrule
+\textbf{Variable} & \textbf{Value} & \textbf{\begin{tabular}[c]{@{}r@{}}Decile 1\\ (most\\deprived)\\ (n=77070)\end{tabular}} & 
+\textbf{\begin{tabular}[c]{@{}r@{}}Decile 2\\(n=85342)\end{tabular}} &
+\textbf{\begin{tabular}[c]{@{}r@{}}Decile 3\\(n=94921)\end{tabular}} &
+\textbf{\begin{tabular}[c]{@{}r@{}}Decile 4\\(n=96300)\end{tabular}} &
+\textbf{\begin{tabular}[c]{@{}r@{}}Decile 5\\(n=98463)\end{tabular}} & 
+\textbf{\begin{tabular}[c]{@{}r@{}}Decile 6\\(n=99867)\end{tabular}} & 
+\textbf{\begin{tabular}[c]{@{}r@{}}Decile 7\\(n=95685)\end{tabular}} & 
+\textbf{\begin{tabular}[c]{@{}r@{}}Decile 8\\(n=92464)\end{tabular}} & 
+\textbf{\begin{tabular}[c]{@{}r@{}}Decile 9\\(n=93062)\end{tabular}} &
+\textbf{\begin{tabular}[c]{@{}r@{}}Decile 10\\(most\\affluent)\\(n=91149)\end{tabular}} &
+\textbf{\begin{tabular}[c]{@{}r@{}}Overall\\(n=924323)\end{tabular}} &
+\textbf{p-value}\\ \midrule
+\textbf{Sex} & Male & 33658 (43.7) & 37423 (43.9) & 41631 (43.9) & 42346 (44.0) & 44399 (45.1) & 45597 (45.7) & 44118 (46.1) & 42510 (46.0) & 42652 (45.8) & 41634 (45.7) & 415968 (45.0) & \textless 0.01 \\
+\textbf{} & Female & 43412 (56.3) & 47919 (56.1) & 53290 (56.1) & 53954 (56.0) & 54064 (54.9) & 54270 (54.3) & 51567 (53.9) & 49954 (54.0) & 50410 (54.2) & 49515 (54.3) & 508355 (55.0) & \\
+{} & & & & & & & & & & & & & \\
+\textbf{Mortality} & Died & 4179 (5.4) & 4219 (4.9) & 4551 (4.8) & 4137 (4.3) & 4167 (4.2) & 3932 (3.9) & 3578 (3.7) & 3270 (3.5) & 3110 (3.3) & 2849 (3.1) & 37992 (4.1) & \textless 0.01 \\
+\textbf{} & Survived & 72891 (94.6) & 81123 (95.1) & 90370 (95.2) & 92163 (95.7) & 94296 (95.8) & 95935 (96.1) & 92107 (96.3) & 89194 (96.5) & 89952 (96.7) & 88300 (96.9) & 886331 (95.9) & \\
+{} & & & & & & & & & & & & & \\
+\textbf{Age} & Median (IQR) & 73 (11) & 73 (11) & 74 (11) & 74 (11) & 73 (11) & 73 (11) & 73 (12) & 73 (11) & 73 (12) & 73 (11) & 73 (11) & \textless 0.01 \\
+{} & & & & & & & & & & & & & \\
+\textbf{Age group} & 65-69 & 23363 (30.3) & 25614 (30.0) & 27534 (29.0) & 28837 (29.9) & 29547 (30.0) & 31010 (31.1) & 29865 (31.2) & 29359 (31.8) & 29569 (31.8) & 27865 (30.6) & 282563 (30.6) & \textless 0.01 \\
+\textbf{} & 70-74 & 17910 (23.2) & 19616 (23.0) & 21848 (23.0) & 22194 (23.0) & 23153 (23.5) & 23670 (23.7) & 22778 (23.8) & 22062 (23.9) & 21779 (23.4) & 20885 (22.9) & 215895 (23.4) & \\
+\textbf{} & 75-79 & 15150 (19.7) & 16733 (19.6) & 18652 (19.7) & 18540 (19.3) & 18797 (19.1) & 18861 (18.9) & 17537 (18.3) & 17061 (18.5) & 17049 (18.3) & 16899 (18.5) & 175279 (19.0) & \\
+\textbf{} & 80-84 & 11172 (14.5) & 12494 (14.6) & 14057 (14.8) & 14217 (14.8) & 13844 (14.1) & 13435 (13.5) & 13050 (13.6) & 12300 (13.3) & 12714 (13.7) & 12852 (14.1) & 130135 (14.1) & \\
+\textbf{} & 85-89 & 6261 (8.1) & 7077 (8.3) & 8351 (8.8) & 8194 (8.5) & 8336 (8.5) & 8243 (8.3) & 7978 (8.2) & 7592 (8.2) & 7665 (8.2) & 7997 (8.8) & 77694 (8.4) & \\
+\textbf{} & 90-94 & 2523 (3.3) & 3010 (3.5) & 3550 (3.7) & 3418 (3.5) & 3731 (3.8) & 3621 (3.6) & 3489 (3.6) & 3150 (3.4) & 3344 (3.6) & 3592 (3.9) & 33428 (3.6) & \\
+\textbf{} & 95 plus & 691 (0.9) & 798 (0.9) & 929 (1.0) & 900 (0.9) & 1055 (1.1) & 1027 (1.0) & 988 (1.0) & 940 (1.0) & 942 (1.0) & 1059 (1.2) & 9329 (1.0) & \\
+{} & & & & & & & & & & & & & \\
+\textbf{\begin{tabular}[c]{@{}l@{}}Total\\repeat\\medicines\end{tabular}} & Median (IQR) & 6 (7) & 6 (6) & 6 (6) & 5 (5) & 5 (6) & 5 (6) & 4 (5) & 4 (5) & 4 (5) & 4 (5) & 5 (6) & \textless 0.01 \\
+{} & & & & & & & & & & & & & \\
+\textbf{\begin{tabular}[c]{@{}l@{}}Medicines\\group\end{tabular}} & 0-2 & 14317 (18.6) & 17247 (20.2) & 20252 (21.3) & 23053 (23.9) & 25748 (26.1) & 28867 (28.9) & 29569 (30.9) & 28977 (31.3) & 30020 (32.3) & 32319 (35.5) & 250369 (27.1) & \textless 0.01 \\
+\textbf{} & 3-5 & 18460 (24.0) & 21936 (25.7) & 25209 (26.6) & 26627 (27.7) & 27977 (28.4) & 28914 (29.0) & 27851 (29.1) & 27783 (30.0) & 28256 (30.4) & 28176 (30.9) & 261189 (28.3) & \\
+\textbf{} & 6-8 & 19313 (25.1) & 21373 (25.0) & 23726 (25.0) & 23088 (24.0) & 22904 (23.3) & 22146 (22.2) & 20850 (21.8) & 19723 (21.3) & 19781 (21.3) & 18216 (20.0) & 211120 (22.8) & \\
+\textbf{} & 9+ & 24980 (32.4) & 24786 (29.0) & 25734 (27.1) & 23532 (24.4) & 21834 (22.2) & 19940 (20.0) & 17415 (18.2) & 15981 (17.3) & 15005 (16.1) & 12438 (13.6) & 201645 (21.8) & \\
+{} & & & & & & & & & & & & & \\
+\textbf{\begin{tabular}[c]{@{}l@{}}Receiving\\social\\care\end{tabular}} &  & 12256 (15.9) & 12592 (14.8) & 14330 (15.1) & 12879 (13.4) & 11798 (12.0) & 10733 (10.7) & 9427 (9.9) & 8606 (9.3) & 7778 (8.4) & 7042 (7.7) & 107441 (11.6) & \textless 0.01 \\
+{} & & & & & & & & & & & & & \\
+\textbf{\begin{tabular}[c]{@{}l@{}}\textgreater{}= 1\\unplanned\\hospital\\admission\end{tabular}} &  & 16708 (21.7) & 16654 (19.5) & 17391 (18.3) & 16234 (16.9) & 15605 (15.8) & 14617 (14.6) & 13464 (14.1) & 12137 (13.1) & 11998 (12.9) & 10962 (12.0) & 145770 (15.8) & \textless 0.01 \\ \bottomrule
 \end{tabular}%
 \begin{tablenotes}
-\item \footnotesize{All values n(\%) unless otherwise stated} 
-\item \footnotesize{\emph{Row}-wise percentages within grouped variables}
-\item \footnotesize{USC = Unscheduled care}
+\item \tiny{All values n(\%) unless otherwise stated} 
+\item \tiny{\emph{Column}-wise percentages within grouped variables}
+\item \tiny{Chi-squared test for categorical variables}
+\item \tiny{Kruskal-Wallis test for continuous variables}
 \end{tablenotes}
-\end{threeparttable}%
-}
-\caption{Characteristics of study population by deprivation quintile 2015/16. N = 924,323}
+\end{threeparttable}
+\caption{Characteristics of study population by deprivation decile. 2015/16}
 \label{tab:results1-deprivation}
 \end{table}
+\end{landscape}
 
-Breaking the cohort down by deprivation quintile reveals that there were fewer males and females in quintile one compared to other quintiles in 2015/16 (table \ref{tab:results1-deprivation}). There was, however, a higher percentage of deaths in this quintile than would be seen if deaths were distributed equally across the population - where a value of 20% would be expected. This pattern is also present for quintiles two and three. Only 15.7% of individuals resident in quintile 5 datazones died in 2015/16. 
+The value of median age in Deciles 3 & 4 is one year higher than other deciles. Differences in age are more easily visualised by comparing Decile 1 and 10 across age groups to the overall figures. For example, 8.4% of the overall cohort in 2015/16 were aged 85-89. The corresponding figures in Deciles 1 and 10 were 8.1% and 8.8% respectively. 
 
-There is little difference in average age across deprivation quintiles. Nevertheless, taking into account the lower overall numbers in quintile one, there are noticeably lower percentages of individuals in the 90-94 and 95 and over age groups compared to other quintiles. 
+The median value of total repeat medicines decreases from six in Deciles 1-3 to four in Deciles 7-10. The percentage of individuals living in Decile 1 datazones (most deprived) in each repeat medicine group gradually increases from 18.6% receiving 0-2 medicines to 32.4% receiving 9+ medicines. The opposite is true for those living in Decile 10 (most affluent) datazones where the corresponding figures are 35.5% and 13.6%.   
 
-Individuals resident in quintile five datazones were more likely to receive less repeat medicines with lower mean values compared to other quintiles. A positive linear pattern is observable in the numbers and percentages receiving 0-2 repeat medicines from quintile 1 (31,564, 12.6%) to quintile 5 (62,339, 24.9%). The opposite (i.e. a negative linear trend) is observed for numbers and percentages of those receiving over 9 repeat medicines from quintile 1 (49,766, 24.7%) to quintile 5 (27,443, 13.6%). 
-
-In terms of service use, the largest percentage of individuals receiving social care was found in quintile two with decreasing percentages to quintile five. The second highest percentage of social care users were found in quintile one. 
+In terms of service use, the percentage of individuals living in Decile 1 (most deprived) areas and receiving social care is 15.9%. This value gradually decreases through SIMD deciles, apart from a small spike in Decile 3, to Decile 10 (most affluent) where only 7.7% of individuals received social care. The overall percentage of those in receipt of social care is 11.6%.  A similar pattern in seen in unplanned hospital admissions where the percentage of those with at least one admissions decreases from 21.7% in Decile 1 to 12.0% in Decile 10; the overall figure being 15.8%. 
 
 \FloatBarrier
 \subsection{Deprivation by age and sex}\label{subsec:dep-agesex}
@@ -255,11 +301,11 @@ In terms of service use, the largest percentage of individuals receiving social 
 \begin{figure}[h]
   \centering
     \includegraphics{figures/chapter-results-1/06_age_sex_simd_plot.pdf}
-    \caption{Breakdown of population by age group, sex, and SIMD decile}
+    \caption{Population by age group, sex, and deprivation decile. 2015/16}
     \label{fig:results1-age_simd}
 \end{figure}
 
-Figure \ref{fig:results1-age_simd} shows that the percentage of the cohort living in SIMD decile 1 areas is below 10% for both sexes and decreases with age. Males in decile 2 also show lower percentages and a reduction in overall make-up of the cohort at older ages.  
+Figure \ref{fig:results1-age_simd} shows that the percentage of the cohort living in SIMD Decile 1 areas is below 10% for both sexes and decreases with age. Males in Decile 2 also show lower percentages and a reduction in overall make-up of the cohort at older ages.  
 
 \FloatBarrier
 \subsection{Deprivation by local authority}\label{subsec:dep-la}
@@ -267,76 +313,80 @@ Figure \ref{fig:results1-age_simd} shows that the percentage of the cohort livin
 \begin{figure}[h]
   \centering
     \includegraphics{figures/chapter-results-1/05_simd_la.pdf}
-    \caption{Distribution of cohort by local authority and SIMD decile (Decile 1 - most deprived)}
+    \caption{Distribution of cohort by local authority and deprivation decile}
     \label{fig:results1-la-simd}
 \end{figure}
 
-The percentage of individuals from the cohort living in each of the SIMD deciles by local authority area of residence in the financial year 2013/14 is shown in figure \ref{fig:results1-la-simd}. The figure reveals large variation in percentages in each decile according to each local authority. For example approximately one-third of individuals in the City of Edinburgh live in a decile 10 datazone (the most affluent) whilst a similar number live in a decile 1 datazone in the Glasgow City area. Fife and Renfrewshire councils (and to a lesser extent South Ayrshire and South Lanarkshire) show the most even distribution of population across deprivation deciles albeit with slight discrepancies. Island local authority areas do not contain datazones from all 10 deciles and tend to have populations concentrated in the middle of the spectrum (a pattern also present in the Highland council area with smaller percentages seen at the extremes).    
+The percentage of individuals from the cohort living in each of the SIMD deciles by local authority area of residence in the financial year 2013/14 is shown in Figure \ref{fig:results1-la-simd}. The figure reveals large variation in percentages in each decile according to each local authority. For example approximately one-third of individuals in the City of Edinburgh live in a Decile 10 datazone (the most affluent) whilst a similar number live in a Decile 1 datazone in the Glasgow City area. Fife and Renfrewshire councils (and to a lesser extent South Ayrshire and South Lanarkshire) show the most even distribution of population across deprivation deciles albeit with slight discrepancies\footnote{Providing evidence that Renfrewshire is a good case-study area to have used in chapter 4}. Island local authority areas do not contain datazones from all 10 deciles and tend to have populations concentrated in the middle of the spectrum (a pattern also present in the Highland council area with smaller percentages seen at the extremes).    
+
+
 
 \FloatBarrier
 \section{Social Care}\label{sec:res1-sc}
 
+Figure \ref{fig:results1-sc-demos} illustrates that age is a significant contributing factor to the receipt of any form of social care with the percentage of the population receiving care increasing rapidly from age 65 to 95 regardless of sex, deprivation status or repeat medicine group. Despite this, there are noticeable differences within each of these groups with females, those in more deprived SIMD deciles, and those with higher multimorbidity status (measured by medicine group) showing higher percentages of individuals receiving social care at all ages. Looking across groups reveals a higher percentage of individuals prescribed nine or more repeat medicines receive care than any other group at all but the oldest ages.  
+
+These differences are also seen in Figure \ref{fig:results1-heatmap-2} which is a heatmap that allows the distribution of social care in 2015/16 to be visualised across four variables: age group, sex, SIMD decile and repeat medicine group. In each of the fourteen age/sex groups, each tile is shaded according to the percentage of social care users in each SIMD decile and repeat medicine group. For example, the uppermost left-hand tile shows the percentage of all males aged 65-69 receiving social care that lived in Decile 1 areas and were prescribed 9+ repeat medicines.
+
+The darker shades in the figure show those in the lowest multimorbidity group receive very little social care across all age, sex, and deprivation groups. In all but the highest multimorbidity groups the variation in social care receipt in each age/sex group is small across SIMD deciles. For those in younger age/sex groups receiving nine or more repeat medicines, the percentage of those receiving social care higher in more deprived SIMD deciles and gradually reduces to higher deciles. Other multimorbidity groups show less variation in the percentage of social care received across deprivation deciles. 
+
+\begin{landscape}
+\thispagestyle{empty}
 \begin{figure}[h]
   \centering
     \includegraphics{figures/chapter-results-1/13_comb_3.pdf}
-    \caption{Receipt of social care}
+    \caption{Receipt of social care. 2015/16}
     \label{fig:results1-sc-demos}
 \end{figure}
+\end{landscape}
 
-Figure \ref{fig:results1-sc-demos} illustrates that age is a significant contributing factor to the receipt of any form of social care with the percentage of the population receiving care increasing rapidly from age 65 to 95 regardless of sex, deprivation status or repeat medicine group. Despite this, there are noticeable differences within each of these groups with females, those in more deprived SIMD deciles, and those with higher multimorbidity status (measured by medicine group) showing higher percentages of individuals receiving social care at all ages. Looking across groups reveals a higher percentage of individuals prescribed nine or more repeat medicines receive care than any other group at all but the oldest ages.   
-
-These differences are also seen in figure \ref{fig:results1-heatmap-1} which is a heatmap that allows the distribution of social care in 2015/16 to be visualised across four variables: age group, sex, SIMD decile and repeat medicine group. There are 560 tiles in the heatmap - each representing an age/sex/deprivation/multimorbidity group and shaded according to percentage of all individuals receiving social care are in the group.
-
-\begin{figure}[h]
-  \centering
-    \includegraphics{figures/chapter-results-1/heatmap_1.pdf}
-    \caption{Sociodemographic distribution of social care 2015/16}
-    \label{fig:results1-heatmap-1}
-\end{figure}
-
-
-The lighter shades in the figure show those in the lowest multimorbidity group receive very little social care across all age, sex, and deprivation groups. The peak of the distribution of care receipt is in age groups 75-79, 80-84, and 85-89. Females in the poorest deprivation deciles and highest multimorbidity groups are the groups with highest percentages of social care use. In all but the highest multimorbidity groups the variation in social care receipt is small across SIMD deciles. For those receiving nine or more repeat medicines, social care receipt is higher in more deprived SIMD deciles with a negative linear pattern to higher deciles. 
-
-This pattern is more visible when the heatmap is redrawn to show the percentage of individuals receiving social care in deprivation/multimorbidity groups \emph{within} age/sex groups as shown in figure \ref{fig:results1-heatmap-2}. Again, the gradient of receipt of social care is negative from decile 1 to decile 10 for those in the highest multimorbidity group and more pronounced at younger ages. Other multimorbidity groups show less variation in the percentage of social care received across deprivation deciles. 
 
 \begin{figure}[h]
   \centering
     \includegraphics{figures/chapter-results-1/heatmap_2.pdf}
-    \caption{Sociodemographic distribution of social care \emph{within} age sex groups. 2015/16}
+    \caption{Sociodemographic distribution of social care. 2015/16}
     \label{fig:results1-heatmap-2}
 \end{figure}
+
 
 \FloatBarrier
 \section{Unplanned hospital admission}\label{sec:res1-adm}
 
+Age is also an important driver in the percentage of individuals having at least one unplanned hospital admission (Figure \ref{fig:results1-adm-demos}), although this is to a lesser extent than seen for social care. In contrast to social care receipt there is relatively little difference between sexes on unplanned admission. Similarly to social care, however, there are marked variations within deprivation and multimorbidity groups. Again, those in more deprived areas and with higher repeat medicine counts being more likely to have an unplanned admission at all ages.
+
+This can be more easily visualised in Figure \ref{fig:results1-heatmap-4} which shows the distribution of unplanned hospital admission across age/sex groups by deprivation and multimorbidity status. Similarly to social care distribution, there is little variation in rates of admission across SIMD deciles except for those in the highest multimorbidity group. In this group, those in more deprived deciles have a higher rate of admission. 
+
+\begin{landscape}
+\thispagestyle{empty}
 \begin{figure}[h]
   \centering
     \includegraphics{figures/chapter-results-1/13_comb_1.pdf}
-    \caption{Unplanned hospital admission}
+    \caption{Unplanned hospital admission. 2015/16}
     \label{fig:results1-adm-demos}
 \end{figure}
-
-Age is also an important driver in the percentage of individuals having at least one unplanned hospital admission (figure \ref{fig:results1-adm-demos}), although this is to a lesser extent than seen for social care. In contrast to social care receipt there is relatively little difference between sexes on unplanned admission. Similarly to social care, however, there are marked variations within deprivation and multimorbidity groups. Again, those in more deprived areas and with higher repeat medicine counts being more likely to have an unplanned admission at all ages.
-
-\begin{figure}[h]
-  \centering
-    \includegraphics{figures/chapter-results-1/heatmap_3.pdf}
-    \caption{Sociodemographic distribution of individuals with at least one unplanned hospital admission. 2015/16}
-    \label{fig:results1-heatmap-3}
-\end{figure}
-
-
-This can be more easily visualised in figure \ref{fig:results1-heatmap-3} which shows the distribution of unplanned hospital admission across age/sex groups by deprivation and multimorbidity status. Similarly to social care distribution, there is little variation in rates of admission across SIMD deciles except for those in the highest multimorbidity group. In this group, those in lower deciles have a higher rate of admission. 
+\end{landscape}
 
 \begin{figure}[h]
   \centering
     \includegraphics{figures/chapter-results-1/heatmap_4.pdf}
-    \caption{Sociodemographic distribution of individuals with at least one unplanned hospital admissions \emph{within} age sex groups. 2015/16}
+    \caption{Sociodemographic distribution of at least one unplanned hospital admission. 2015/16}
     \label{fig:results1-heatmap-4}
 \end{figure}
 
+\section{Summary}\label{sec:res1-summary}
 
-Comparing the rates of admission between sexes in figures \ref{fig:results1-adm-demos} and \ref{fig:results1-heatmap-3} indicates the similar rates seen in the former have a slight skew towards females in the highest multimorbidity group in the latter. Although difficult to ascertain in figure \ref{fig:results1-heatmap-3}, the distribution in the other age/sex groups slightly favours males. These patterns can also be seen when visualising the distribution of unplanned admission \emph{within} age/sex groups, figure \ref{fig:results1-heatmap-4}, where the variation across multimorbidity groups can also be more clearly seen. 
+This chapter has described the cohort created by linking the SCS to various health datasets as described in Chapter \ref{ch:data}. The overall number of individuals over the age of 65 in each financial year gradually increased from 2011/12 to 2015/16. The distribution of individuals in age, sex, repeat medicine, and local authority groups is similar across all financial years with the most recent, 2015/16, used for the majority of figures and tables in the chapter.
+
+In relation to research question 1(a), findings in this chapter show the percentage of the cohort receiving social care increases rapidly with age. There are differences in receipt of social care across sex, SEP, and multimorbidity measures with women, those in more deprived areas, and those receiving 9+ repeat medicines more likely to receive care than other groups. The variation in SEP, measured by SIMD decile, shows a gradient from most-deprived to most-affluent; and is more obvious for those receiving 9+ repeat medicines than other multimorbidity groups. Further findings in relation to research question 1(a) are presented in the summary of Chapter \ref{ch:res2}.
+
+The patterns shown for receipt of social care are also seen in the percentage of individuals in the cohort with at least one unplanned hospital admission. The only exception to this is that men and women have similar rates of unplanned admission whereas women have higher rates of social care receipt.
+
+Results concentrating on the distribution of the proxy multimorbidity measure show similar patterns. The percentage of those in the most severe multimorbidity group (9+ repeat medicines) is higher in those that are older, those living in more deprived areas, those receiving social care, and those with at least one unplanned admission to hospital compared to percentages seen in the overall cohort. 
+
+
+
+
+
 
 
 

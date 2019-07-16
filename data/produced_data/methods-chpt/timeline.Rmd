@@ -5,7 +5,7 @@ date: "6 December 2018"
 output: html_document
 ---
 
-```{r timeline, message=FALSE, warning=FALSE}
+```{r timeline, message=FALSE, warning=FALSE, fig.width=11, fig.height=4}
 library(ggplot2)
 library(dplyr)
 library(ggalt)
@@ -37,12 +37,12 @@ data <- tribble( ~start_date, ~event, ~displ,
                 ymd(20171122), "Health data available", -0.9,
                 ymd(20171213), "DSA signed", -0.7,
                 ymd(20180221), "SCS available", -0.3,
-                ymd(20180930), "PhD submission due", 1,
+                ymd(20180930), "End of 3rd year", 1,
                 ymd(20180831), "Data cleaning completed", -1,
-                ymd(20181130), "Social Care modelling completed", -0.8,
-                ymd(20181231), "USC modelling completed(!)", -0.6,
-                ymd(20190115), "Analysis completed(!)", 0.5,
-                ymd(20190228), "PhD submitted(!)", 0.3)
+                ymd(20190115), "Social Care modelling completed", -0.8,
+                ymd(20190228), "Admissions modelling completed", -0.6,
+                ymd(20190331), "Analysis completed", 0.5,
+                ymd(20190831), "PhD submitted", 0.3)
 
 
 #Function to shift x-axis to 0 taken from https://stackoverflow.com/questions/39071002/moving-x-or-y-axis-together-with-tick-labels-to-the-middle-of-a-single-ggplot-n
@@ -79,7 +79,7 @@ cond_colour <-
               data$start_date == "2017-03-15" |
               data$start_date == "2018-03-15" |
               data$start_date == "2018-09-30" |
-              data$start_date == "2019-02-28" ~ "black",
+              data$start_date == "2019-08-31" ~ "black",
             data$start_date == "2017-02-08" |
               data$start_date == "2017-02-10" |
               data$start_date == "2016-11-18" |
@@ -117,7 +117,7 @@ p1 <- data %>%
         axis.text.x = element_text(size = 8),
         panel.grid = element_blank(),
         plot.caption = element_text(size = 10)) +
-  expand_limits(x = c(ymd(20151201), ymd(20190701)), 
+  expand_limits(x = c(ymd(20151201), ymd(20191031)), 
                 y = c(1.2, -1.2)) +
   scale_x_date(breaks = scales::date_breaks(width = "3 month"),
                labels = scales::date_format(format = "%Y-%b")) + 
@@ -134,9 +134,10 @@ p1 <- data %>%
   labs(caption = "RAC = Research Approvals Committee\nPBPP = Public Benefit and Privacy Panel\nDSA = Data Sharing Agreement\nHSCAD = Health & Social Care Analysis Division") 
 
 #and run the function from above
-timeline <- shift_axis(p1, ymd(20151001), ymd(20190701)) 
+timeline <- shift_axis(p1, ymd(20151001), ymd(20191031)) 
 
 rm(list = c("data", "p1", "vjust", "shift_axis", "table", "cond_colour"))
+timeline
 ```
 
 
@@ -144,7 +145,7 @@ rm(list = c("data", "p1", "vjust", "shift_axis", "table", "cond_colour"))
 
 ```{r plot, fig.height=4, fig.width=10}
 ggplot2::ggsave("/GitHub/thesis_rmd/data/produced_data/methods-chpt/timeline.png",
-               timeline, height = 4, width = 10, dpi = 600)
+               timeline, height = 4, width = 12, dpi = 600)
 ```
 
 

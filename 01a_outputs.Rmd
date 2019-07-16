@@ -1,0 +1,11 @@
+---
+output: pdf_document
+---
+
+\thispagestyle{empty}
+
+Henderson, D., Bailey, N., McCowan, C., Mercer, S. (2018) Multimorbidity and access to social care: exploiting emerging administrative data sources in Scotland. \emph{International Journal of Population Data Science}. 3(4) Conference Proceedings for IPDLC 2018.
+
+Henderson, D., Bailey, N., McCowan, C., Mercer, S. (2018) Validation of the Scottish Social Care Survey using data from Renfrewshire Council. \emph{International Journal of Population Data Science}. 3(2). Conference proceedings for the International Conference for Administrative Data Research 2018.
+
+Henderson, D., Burton, J., Lynch, E., Clark, D., Rintoul, J., Bailey, N. (forthcoming). Data Resource Profile: the Scottish Social Care Survey (SCS) and the Scottish Care Home Census (SCHC). \emph{International Journal of Population Data Science}.

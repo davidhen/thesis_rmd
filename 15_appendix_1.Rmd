@@ -11,6 +11,8 @@ output: pdf_document
 \chapter*{Appendix B}\label{app:b}
 \thispagestyle{empty}
 
+
+\begin{scriptsize}
 \begin{longtable}{@{}lr@{}}
 \caption{Medicines not included in total counts}
 \label{append-tab-1} \\
@@ -228,6 +230,7 @@ INSULIN DEGLUDEC AND LIRAGLUTIDE & 06.01.02 \\
 \begin{tabular}[c]{@{}l@{}}LIDOCAINE HYDROCHLORIDE WITH \\ CETYLPYRIDIUM CHLORIDE\end{tabular} & 15.02.01 \\
 MULTIVITAMINS & 09.10.00 \\* \bottomrule
 \end{longtable}
+\end{scriptsize}
 
 
 \chapter*{Appendix C. Renfrewshire pilot. Ethical approval}\label{app:g}
@@ -239,6 +242,7 @@ MULTIVITAMINS & 09.10.00 \\* \bottomrule
 \chapter*{Appendix D. Supplementary tables and plots}
 \thispagestyle{empty}
 
+\begin{scriptsize}
 \begin{landscape}
 \begin{longtable}[c]{@{}lrrrrrrr@{}}
 \caption{Social care models. Subset 1. Model results 2015/16}
@@ -317,20 +321,15 @@ simd:councilArgyll and Bute & 0.013 & 0.016 & 0.818 & 0.414 & 1.013 & 0.982 & 1.
 \end{landscape}
 
 \begin{figure}[h]
-  \centering
-    \includegraphics{figures/chapter-results-2/sc_model_25_simd_plot.pdf}
-    \caption{Subset 1. Conditional effect of simd on receipt of social care}
-    \label{fig:res2-model1-simd}
-\end{figure}
-
-\begin{figure}[h]
   \caption{Subset 2. Odds ratios. 2015/16}
   \label{fig:res2-model2-or}
   \centering
     \includegraphics{figures/chapter-results-2/sc_model_24_or_plot.pdf}
 \end{figure}
+\end{scriptsize}
 
 
+\begin{scriptsize}
 \begin{landscape}
 \begin{longtable}{@{}lrrrrrrr@{}}
 \caption{Social care models. Subset 2. Model results 2015/16}
@@ -407,6 +406,7 @@ simd:councilPerth and Kinross & -0.098 & 0.046 & -2.126 & 0.034 & 0.907 & 0.828 
 simd:councilSouth Ayrshire & -0.032 & 0.046 & -0.687 & 0.492 & 0.969 & 0.885 & 1.06 \\* \bottomrule
 \end{longtable}
 \end{landscape}
+\end{scriptsize}
 
 \begin{figure}[h]
   \centering
@@ -415,6 +415,7 @@ simd:councilSouth Ayrshire & -0.032 & 0.046 & -0.687 & 0.492 & 0.969 & 0.885 & 1
     \label{fig:res3-adm-OR}
 \end{figure}
 
+\begin{scriptsize}
 \begin{landscape}
 \begin{longtable}{@{}lrrrrrrr@{}}
 \caption{Unplanned hospital admission. Model results 2015/16}
@@ -484,10 +485,11 @@ Age: 90-94:scs\_flagsocial Care & -0.36 & 0.044 & -8.229 & \textless{}0.001 & 0.
 Age: 95 plus:scs\_flagSocial Care & -0.15 & 0.07 & -2.154 & 0.031 & 0.861 & 0.751 & 0.987 \\* \bottomrule
 \end{longtable}
 \end{landscape}
+\end{scriptsize}
 
 \begin{figure}[h]
   \centering
     \includegraphics{figures/chapter-results-3/adm_model_3_simd_plot.pdf}
-    \caption{Conditional effect of SIMD on any unplanned hospital admission}
+    \caption{Conditional effect of deprivation on any unplanned hospital admission}
     \label{fig:res3-adm-simd}
 \end{figure}

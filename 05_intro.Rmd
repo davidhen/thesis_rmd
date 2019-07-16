@@ -7,56 +7,46 @@ output: pdf_document
 
 \section{Context}\label{sec:intro-context}
 
-Worldwide demographic changes have seen increases in life expectancy and the proportion of the population over the age of 60 grow, mainly due to better health programmes and treatments [@RN570; @RN537]. Accompanying this growth is an increase in the prevalence of multimorbidity - the presence of two or more chronic health conditions in one individual [@RN155; @RN570; @RN537; @RN576; @RN93; @RN226]. These changes are seen across the world in both high-income and low-to-middle-income countries where non-communicable diseases have replaced communicable diseases as the major burden of healthcare and contribute to two-thirds of all deaths [@RN570; @RN537; @RN288; @RN160]. The increasing prevalence of multimorbidity has profound impacts for clinicians, policy-makers and research. 
+Worldwide demographic changes have seen increases in life expectancy and the proportion of the population over the age of 60 grow, partly due to better health programmes and treatments [@RN570; @RN537]. Accompanying this growth is an increase in the prevalence of multimorbidity - the presence of two or more chronic health conditions in one individual [@RN155; @RN570; @RN537; @RN576; @RN93; @RN226]. These changes are seen across the world in both high-income and low-to-middle-income countries where non-communicable diseases have replaced communicable diseases as the major burden of healthcare and contribute to two-thirds of all deaths [@RN570; @RN537; @RN288; @RN160]. The increasing prevalence of multimorbidity has profound impacts for clinicians, policy-makers and research. 
 
-There is some evidence suggesting that multimorbidity disproportionately effects women and those of lower socioeconomic position [@RN570; @RN15; @RN33]. Those in the latter group are more likely to have a mix of physical and mental health conditions, which develop 10-15 years earlier than seen in their more affluent peers, and are thus more likely to have complex care needs [@RN33; @RN21]. The association between multimorbidity and increasing age is well documented [@RN570; @RN155], however a large proportion of younger, working age adults also have multiple chronic conditions [@RN403; @RN615]. In one landmark study, the absolute number of people with multimorbidity under the age of 65 was higher than for those over 65 [@RN33]. Given theses demographic changes, Governments in developed countries are having to identify ways of financing increasing demand for health and social care services [@RN652]. 
+There is some evidence suggesting that multimorbidity disproportionately affects women and those of lower socioeconomic position [@RN570; @RN15; @RN33]. Those in the latter group are more likely to have a mix of physical and mental health conditions, which develop 10-15 years earlier than seen in their more affluent peers, and are thus more likely to have complex care needs [@RN33; @RN21]. The association between multimorbidity and increasing age is well documented [@RN570; @RN155]. However, a large proportion of younger, working age adults also have multiple chronic conditions [@RN403; @RN615]. In one landmark study, the absolute number of people with multimorbidity under the age of 65 was higher than for those over 65 [@RN33]. Given these demographic changes, and the implications of fiscal austerity on health outcomes [@RN656], governments in high-income countries are having to identify ways of financing increasing demand for public services [@RN652]. 
 
 As a result, many countries have recently seen policies implemented that aim to integrate the provision of health and social care services [@RN234; @RN362; @RN262]. In addition to reducing variations in the provision of care across geographic areas, these policies hope to save public money by reducing unplanned admissions and delayed discharges from hospital, whilst also improving the quality of services for individuals [@RN232; @RN266; @RN406]. There is, however, little evidence showing the efficacy of these policies on desired outcomes [@RN367; @RN369; @RN234; @RN233; @RN321; @RN362; @RN366; @RN260]. Nevertheless, the continued drive to integrate services implicitly acknowledges that health and social care are services with a link. 
 
 Similarly, whilst much previous (and suggested) research on multimorbidity is aimed at understanding its effect on health care services [@RN570], a gap in knowledge describing its relationship with social care exists. In Scotland, approximately two-thirds of individuals receiving social care are over the age of 65 [@RN128] whilst approximately two-thirds of all those over the age of 65 have multimorbidity [@RN33]. It would seem intuitive that a large proportion of those receiving social care have multimorbidity. However, no single data source exists that allows this comparison to be made. This reflects the paucity of good social care data seen internationally [@RN406]. 
 
-All this comes on a backdrop of reductions in the number of people receiving formal social care services since 2010 in both England and Scotland as a result of financial austerity measures [@RN147; @RN173; @RN487]. Until recently many local authorities had attempted to protect front-line services, such as social care, from austerity cuts [@RN117]. However, given continued year-on-year reductions and further cuts to local authority spending (e.g. in Scotland a further 7.2% in 2016/2017 [@RN251]), the ability to protect social care from reductions in spend becomes less likely. These decreases in local government budgets across the UK have affected those living in the poorest areas hardest [@RN117; @RN484] which opens questions of equitable access to services [@RN547]. *Add in ref* [@RN656]
+All this comes against a backdrop of reductions in the number of people receiving formal social care services since 2010 in both England and Scotland as a result of financial austerity measures [@RN147; @RN173; @RN487]. Until recently many local authorities had attempted to protect front-line services, such as social care, from austerity cuts [@RN117]. However, given continued year-on-year reductions and further cuts to local authority spending (e.g. in Scotland a further 7.2% in 2016/2017 [@RN251]), the ability to protect social care from reductions in spend becomes less likely. These decreases in local government budgets across the UK have affected those living in the poorest areas hardest [@RN117; @RN484] which poses questions of equitable access to services [@RN547]. 
 
-These questions are valid given the presence of the inverse care law in UK primary care settings where, "The availability of good medical care tends to vary inversely with the need for it in the population served" [@RN120]. This is demonstrated by higher ratios of General Practitioners to population in England's most affluent neighbourhoods [@RN317] and inequitable resource allocation in Scotland [@RN148; @RN27]. Given the unequal distribution of cuts to services discussed above, presence of an inverse social care law is possible.
+These questions are valid given the presence of the inverse care law in UK primary care settings where, "The availability of good medical care tends to vary inversely with the need for it in the population served. This inverse care law operates more completely where medical care is most exposed to market forces, and less so where exposure is reduced." [@RN120]. This is demonstrated by higher ratios of General Practitioners to population in England's most affluent neighbourhoods [@RN317; @RN659] and inequitable resource allocation in Scotland [@RN148; @RN27]. Given the unequal distribution of cuts to services discussed above, presence of an inverse social care law is possible.
 
 There are, therefore, numerous areas where deeper understanding of the relationships between health and social care would be beneficial. This PhD research was commissioned by the Scottish Government, via the Economic & Social Research Council (ESRC), with the explicit aim of doing this via administrative data linkage using Scottish resources. Research of this type is ideally suited for investigating cross-sectoral relationships and is being increasingly used in the social sciences [@RN133]. Linking data from NHS and local authority social care sources has proved problematic in the past [@RN132], although new sources of data may provide the potential to overcome these barriers.  
 
-\section{Aims and Objectives}\label{sec:intro-aims-obs}
+\section{Aims}\label{sec:intro-aims-obs}
 
-\subsection{Aims}\label{subsec:intro-aims}
-
-\begin{enumerate}[noitemsep]
-\item Identify the best resource of social care data in Scotland that can be linked to health data (ideally at a national level) and assess its suitability in a research context
-\item Create a linked dataset that can be used to answer questions relevant to the provision of health and social care services 
-\item Demonstrate the ability of this dataset to answer cross-sectoral questions by:
-\begin{itemize}
-\item Describing the relationship, if any, between multimorbidity and social care
-\item Describing the relationship, if any, between social care and unplanned hospital admission
-\end{itemize}
-\end{enumerate}
-
-\subsection{Objectives}\label{sec:intro-objs}
+The thesis has three aims as follows:
 
 \begin{enumerate}[noitemsep]
-\item Identify the best social care data source by reviewing relevant literature and liaison with relevant stakeholders
-\item Assess to what extent measures of multimorbidity and health \& social care service use can be operationalised using existing health and social care administrative data.
-\item Obtain governance approval for a linked health and social care data set
-\item Clean and analyse linked data in accordance with aims and research questions
+\item Identify the best source of social care data in Scotland that can be linked to health data (ideally at a national level) and assess its suitability in a research context
+\item Create a linked dataset that can be used to answer questions relevant to multimorbidity and the provision of health and social care services 
+\item Demonstrate the ability of this dataset to answer pertinent cross-sectoral questions.
 \end{enumerate}
 
-\section{Research questions}\label{sec:intro-rq}
+Given past difficulties in linking health and social care data [@RN132], the first aim of the research was simple to identify. This involved liaison with relevant stakeholders in local and national government as well as appraisal of any relevant on-line materials and is discussed fully in section \ref{subsec-litrv-linkage-sources}.
 
-Based on these aims and objectives and the literature reviewed in chapter \ref{ch:lit-review}, the following research questions have been formulated:- 
+After identification of data that \emph{could} be linked, the next aim was to realise this linkage. This process first required appraisal of the ability to accurately measure multimorbidity and social care with the identified sources. 
+
+In order to be granted information governance approval to link these sources of data together, and also to achieve aim number 3, relevant research questions had to be formulated. Based on the literature reviewed in chapter \ref{ch:lit-review}, the following questions were derived:
+
+\section{Research Questions}\label{sec:rqs}
 
 In people over the age of 65 in Scotland:
-1. 
 \begin{enumerate}[noitemsep]
-\item What are the socioeconomic, demographic, and geographic patterns in the use of social care? 
-\item Is there an association between multimorbidity status and social care use? Does this vary by the patterns described in 1(a)?  
+\item 
+\begin{enumerate}[noitemsep]
+\item What are the socioeconomic and demographic patterns in the use of social care? 
+\item Is there an association between receipt of social care and multimorbidity status. Does this vary by the patterns described in 1(a)?  
 \end{enumerate}
-2. 
-\begin{enumerate}[noitemsep]
-\item Is there an association in the use of social care services, multimorbidity status and unplanned admission to hospital?
+\item Is there an association between unplanned hospital admission, multimorbidity, and the receipt of social care?
 \end{enumerate}
  
 
@@ -66,30 +56,17 @@ There are eight chapters, including this introduction, in the thesis.
 
 Chapter \ref{ch:lit-review} reviews literature relating to the main themes of the thesis: multimorbidity, social care, health and social care, and administrative data linkage. As much of the work of the project is exploratory in nature, a systematic review of literature was not appropriate. Instead, each section of the chapter provides a contextual review of literature relevant to its topic from academic and policy sources. 
 
-Chapter \ref{ch:data} details methods employed for the main project analysis. Firstly, a description of the information governance procedures that were required in order to access the sensitive data used in analyses is provided. This is followed by a detailed description of the administrative data sources used. The third section briefly describes the the indexing of the social care survey to the National Records of Scotland (NRS) population spine which enabled linked of social care data to CHI databases. Following this a section detailing the extensive data cleaning and manipulation process applied to the numerous raw data files to enable analysis is provided. The fifth section discusses the statistical methods applied in order to answer the stated research questions. The final section provides a timeline of the PhD project and briefly discusses important temporal milestones.
+Chapter \ref{ch:data} details methods employed for the main project analysis. Firstly, a description of the information governance procedures that were required in order to access the sensitive data used in analyses is provided. This is followed by a detailed description of the administrative data sources used. The third section briefly describes the indexing of the social care survey to the National Records of Scotland (NRS) population spine which enabled linked of social care data to CHI databases. Following this, a section detailing the extensive data cleaning and manipulation process applied to the numerous raw data files to enable analysis is provided. The fifth section discusses the statistical methods applied in order to answer the stated research questions. The final section provides a timeline of the PhD project and briefly discusses important temporal milestones.
 
-Chapter \ref{ch:renfrew} is a stand-alone chapter. The literature review and liaison with relevant stakeholders identified that the Social Care Survey (SCS) would be the best source of data to link to health records at a national level. However, some variables of the survey only collect information of individuals during a census week. This chapter attempts to quantify what proportion of the total number of people receiving social care in any given financial year are captured by the SCS. This was done by completing a data-sharing agreement with one local authority area and obtaining all social care records from a ten-year period. Comparison is made between individuals who received care in the census week with those who did not. 
+Chapter \ref{ch:renfrew} is a stand-alone chapter. The literature review and liaison with relevant stakeholders identified that the Social Care Survey (SCS) would be the best source of data to link to health records at a national level. However, some variables of the survey only collect information of individuals during a census week. This chapter attempts to quantify what proportion of the total number of people receiving home care in any given financial year are captured by the SCS. This was done by completing a data-sharing agreement with one local authority area and obtaining all social care records from a ten-year period. Comparison is made between individuals who received care in the census week with those who did not. 
 
-Chapter \ref{ch:results-1} provides detailed descriptive statistics of the large, linked health and social care cohort.
+Chapter \ref{ch:results-1} provides detailed descriptive statistics of the large, linked health and social care cohort in five sections: the characteristics of the cohort by age, sex, and geography, the distribution of repeat prescribed medicines, the distribution of deprivation, the distribution of receipt of social care, and the distribution of unplanned admission to hospital. 
 
-Chapter \ref{ch:res2} provides results of statistical models relevant to the two research questions.
+Chapter \ref{ch:res2} provides results of statistical models relevant to the two research questions. As described in Chapter \ref{ch:data}, linkage rates of the SCS to the CHI register varied at the local authority level. This made comparison across council areas more difficult. In order to overcome this, two subsets of data including local authorities with similar match rates were created in models relevant to research question 1. Both research questions are answered via logistic regression models reporting Average Partial Effects (APEs).
 
-Chapter \ref{ch:discussion} discussed the key findings of the research in context, compares findings with previous research, addresses the numerous strengths and weaknesses of the project, and makes recommendations for future research. 
+Chapter \ref{ch:discussion} discusses the key findings of the research in context, compares findings with previous research, addresses the numerous strengths and weaknesses of the project, and makes recommendations for future research. 
 
-Finally, chapter \ref{ch:conclusion} provides a brief conclusion to the thesis as a whole. 
-
-\section{Scientific contribution}\label{sec:intro-contrib}
-
-\begin{itemize}[noitemsep]
-\item First description of the relationship between SC and MM 
-\item First \emph{national} level study looking at SC and unplanned hosp admission
-\item Validation of SCS as a data source via Renfrew chapter
-\item Creation of a large, linked health and social care data set capable of answering numerous research questions
-\end{itemize}
-
-\subsection{Academic outputs}
-
-List publications and other outputs
+Finally, Chapter \ref{ch:conclusion} provides a brief conclusion to the thesis as a whole. 
 
 
 

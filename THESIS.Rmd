@@ -6,9 +6,6 @@ output:
     latex_engine: xelatex
 documentclass: report
 classoption: a4paper,oneside,table
-citecolor: black #doesn't work
-urlcolor: black
-linkcolor: black
 bibliography: references.bib
 csl: harvard-cite-them-right.csl
 fontsize: 12pt
@@ -23,6 +20,7 @@ header-includes:
 - \usepackage{microtype}
 - \usepackage{booktabs} #tables
 - \usepackage{longtable}
+- \usepackage{rotating}
 - \usepackage{pdflscape}
 - \usepackage{graphicx} #figures
 - \usepackage{epigraph} #nice quotations
@@ -43,6 +41,7 @@ header-includes:
 knitr::opts_chunk$set(fig.path = 'figures/', echo = FALSE,
                       warning = FALSE, message = FALSE)
 knitr::opts_knit$set(base.dir = 'chapters/')
+#options(tinytex.verbose = TRUE)
 ```
 
 \pagenumbering{arabic}
@@ -81,6 +80,15 @@ knitr::opts_knit$set(base.dir = 'chapters/')
 \addcontentsline{toc}{section}{List of Figures}
 \thispagestyle{empty}
 \listoffigures
+
+\newpage
+\section*{Academic outputs}
+\fancyhead[CO,CE]{}
+\renewcommand{\headrulewidth}{0pt}
+\addcontentsline{toc}{section}{Academic outputs}
+
+```{r child = '01a_outputs.Rmd'}
+```
 
 \newpage
 \section*{Acknowledgements}

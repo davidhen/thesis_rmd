@@ -5,19 +5,38 @@ output: pdf_document
 \chapter{Conclusion}\label{ch:conclusion}
 \thispagestyle{empty}
 
-Something like....
+Multimorbidity is increasing in prevalence worldwide and has important implications for clinicians, policymakers, and health research. Almost completely absent from guidelines and literature regarding multimorbidity is acknowledgement of its relationship with social care. In the past, this has partly been due to a lack of good quality social care data that could be linked to health records. Social care is an important issue for policy-makers, particularly in Scotland where health and social care services have recently been formally integrated. Given presence of the "inverse care law" in primary care in Scotland, understanding the influence of multimorbidity on receipt of social care and whether inequity in access to service is present are important research and policy questions. 
 
+The aims of this thesis were to:
 
-This PhD aimed to blah blah
+\begin{enumerate}[noitemsep]
+\item Identify the best source of social care data in Scotland that can be linked to health data (ideally at a national level) and assess its suitability in a research context
+\item Create a linked dataset that can be used to answer questions relevant to multimorbidity and the provision of health and social care services 
+\item Demonstrate the ability of this dataset to answer pertinent cross-sectoral questions.
+\end{enumerate}
 
-SCS was idenitified as most appropriate SC resource and a large, linked health and social care dataset was created. 
+Collected annually by the Scottish Government, the Social Care Survey was deemed the best potential source of social care data to fulfil the other aims of the project. Following indexing work completed by the National Records of Scotland to map social care data to a population spine, the survey was linked to three administrative health data sources; prescribing records, unscheduled care records, and demographic records including deaths. This was done with approval from the Public Benefit and Privacy Panel.
 
-Validation of the social care aspect was conducted via a second side-project which found (Renfrew)
+A cohort was created including all individuals over the age of 65 in Scotland between the 1st of April 2011 and the 31st of August 2016 and all administrative records from the above sources for these individuals were collated. After data cleaning 1,100,675 individuals were included. Individuals from Clackmannanshire local authority area (~10,000, the smallest mainland local authority) were not included in analysis due to poor linkage rates of social care data to the population spine.  
 
-Mulitmorbidity, along with age, was shown to have a strong relationship with receipt of social care. This has not been empirically shown before. 
+Given the paucity of morbidity data at a national level. prescribing records were used to create a proxy measurement of multimorbidity. Social care measurement was defined as presence in the Social Care Survey at the end of each financial year. Unplanned admission to hospital was defined as at least one admission in the six months following the end of each financial year. 
 
-Increasing severity of multimorbidity and social care use were shown to be associated with increased probabilities of unplanned hospital admission, although models showed a poorer fit to data. 
+Separate analysis based on ten years of social care data from Renfrewshire council area was used to validate the home care aspect of the Social Care Survey which is collected during a census week of each year only. The results from this analysis suggest 60% of individuals receiving home care in each financial year are captured by the SCS. These individuals receive approximately 75% of all home care delivered by the council. Those missed by the census are more likely to be in receipt of short-term packages of home care. These results likely underestimate the proportion of home care users captured by the census. Data on deaths and change of address (e.g. to a care home) were not available for this analysis leading to some misclassification. Furthermore, home care accounts for approximately 40% of all individuals over the age of 65 in the Social Care Survey. Other information, such as community alarm and telecare receipt, accounts for a greater proportion of all receipt and may include unmeasured overlap with home care users in the survey. This separate analysis suggests, overall, the Social Care Survey captures a large proportion of all social care users.  
 
-Further research is required to more accurately describe variations in the level of social care at the local authority level. 
+The main analysis was aimed at answering two research questions: 
 
-2 pages max.
+In people over the age of 65 in Scotland:
+\begin{enumerate}[noitemsep]
+\item 
+\begin{enumerate}[noitemsep]
+\item What are the socioeconomic and demographic patterns in the use of social care? 
+\item Is there an association between receipt of social care and multimorbidity status. Does this vary by the patterns described in 1(a)?  
+\end{enumerate}
+\item Is there an association between unplanned hospital admission, multimorbidity, and the receipt of social care?
+\end{enumerate}
+
+In relation to question 1(a), results indicated increasing age, female sex, and lower socioeconomic position were associated with higher rates of social care receipt. After adjustment for other variables, some small variation in the rate of social care delivered across local authorities was observed. However, poor data quality and lack of multi-level modelling mean robust conclusion regarding receipt of care across council areas cannot be drawn. Nevertheless, it can be reported that no obvious evidence of an "inverse social care law" has been found at present.  
+
+Answering question 1(b), A strong association between multimorbidity and receipt of social care was found. Those in the highest multimorbidity group had a 15% increased probability of receiving social care compared to those with little or no multimorbidity. This finding addresses a gap in current literature and indicates wider implications for society due to the increasing prevalence of multimorbidity than has previously been described.
+
+Results of analysis aimed at answering question 2 indicate that both multimorbidity and receipt of social care are associated with unplanned hospital admission. Whilst the association of multimorbidity and secondary care use has been comprehensively described elsewhere, few studies have described the positive association with social care. This is an important finding and adds to the debate about integration of health and social care service which aims, among other things, to reduce unplanned hospital admissions. The "intensification" of social care services over the ten years since 2010 means those in receipt of social care are those with highest needs and are likely to continue to require multiple health and social care services. Whether wider provision of social care to those with less severe needs would have any meaningful reductions in rates of unplanned hospital admission is unknown. 
