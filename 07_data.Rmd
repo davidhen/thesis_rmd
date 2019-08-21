@@ -5,11 +5,11 @@ output: pdf_document
 \chapter{Methods}\label{ch:data}
 \thispagestyle{empty}
 
-This chapter outlines the process of obtaining administrative data and the analysis methods suitable to answer the thesis research questions. There are six sections. Firstly, a detailed description of the strict information governance protocols required including: the infrastructure used, the approvals process, and the legal framework enabling the research to take place. Secondly, a thorough description of the data sources used in analysis is provided outlining their source, reasons for collection, and any known quality issues. In the third section, the process and results of probabilistically matching personal identifiers from the Social Care Survey to a research population spine is described. This process enabled the linkage of social and health care data sources and was conducted by an analyst from the National Records for Scotland. The fourth section describes how the study cohort was created including the data wrangling procedures necessary to join together data from disparate sources. The penultimate section outlines the statistical methods applied to the data in order to answer the thesis research questions. Finally, an illustrated timeline depicting the major stages of the overall project is displayed with a brief description.  
+This chapter outlines the process of obtaining administrative data and the analysis methods used to answer the thesis research questions. There are six sections. Firstly, a detailed description of the strict information governance protocols required including: the infrastructure used, the approvals process, and the legal framework enabling the research to take place is provided. Secondly, a thorough description of the data sources used in analysis outlining: their source, reasons for collection, and any known quality issues is presented. In the third section, the process and results of probabilistically matching personal identifiers from the Social Care Survey to a research population spine is described. This process enabled the linkage of social and health care data sources and was conducted by an analyst from the National Records for Scotland. The fourth section describes how the study cohort was created including the data wrangling procedures necessary to join together data from disparate sources. The penultimate section outlines the statistical methods applied to the data in order to answer the thesis research questions. Finally, an illustrated timeline depicting the major stages of the overall project is displayed with a brief description.  
 
 \section{Information Governance}\label{sec:ig}
 
-Confidentiality of data subjects is an important consideration in any data linkage project. The benefits of administrative data linkage, outlined in Section \ref{sec:data-linkage}, are dependent on research being conducted in a legally and ethically competent fashion. Whilst full anonymisation would be an effective way to protect data subjects confidentiality, it is almost impossible to achieve this with individual-level data suitable for research purposes [@RN489]. 
+Confidentiality of data subjects is an important consideration in any data linkage project. The benefits of administrative data linkage, outlined in Section \ref{sec:data-linkage}, are dependent on research being conducted in a legally and ethically competent fashion. Whilst full anonymisation would be an effective way to protect the confidentiality of data subjects, it is almost impossible to achieve this with individual-level data suitable for research purposes [@RN489]. 
 
 As an alternative, a process involving robust approvals review, researcher training with associated responsibilities and sanctions, pseudonymisation of identifying information, and safe haven settings are used to preserve data subject confidentiality [@RN489].  This section outlines how this process was applied for the purposes of the data linkage completed in this thesis. Firstly, the various organisations that provide the infrastructure that enabled the data linkage to take place are briefly described. An overview of the various approvals and ethical panels is then provided, followed by the legal framework which enabled data processing to take place with a brief description of how confidentiality is maintained during the linkage process. 
 
@@ -34,7 +34,7 @@ eDRIS is part of ISD and provides services under SILC [@RN481]. It is detailed s
 
 \subsubsection{National Records of Scotland}\label{subsec:nrs}
 
-NRS collects and maintains information about the people of Scotland including births, deaths, and marriages [@RN477]. In addition to producing annual reports and population estimates, NRS provides the indexing service under SILC which enables anonymous linking of administrative databases as a Trusted Third Party. This is made possible using an indexing spine which is based on the NHS Central Register (NHSCR) and held by NRS [@RN541]. This is described more fully in Section \ref{sec:linkage} .
+NRS collects and maintains information about the people of Scotland including births, deaths, and marriages [@RN477]. In addition to producing annual reports and population estimates, NRS provides the indexing service under SILC which enables anonymous linking of administrative databases as a Trusted Third Party. This is made possible using an indexing spine which is based on the NHS Central Register (NHSCR) and held by NRS [@RN541]. This is described more fully in Section \ref{sec:linkage}.
 
 \subsubsection{Health and Social Care Analysis Division}\label{subsec:asd}
 
@@ -88,7 +88,7 @@ Data sharing and processing can be completed without consent of data subjects as
 
 \end{itemize}
 
-Lawful processing of data for the purposes of the project is in accordance with a further two legal acts:- 
+Lawful processing of data for the purposes of the project is in accordance with a further two legal acts: 
 
 \begin{itemize}[noitemsep]
 \item Social Work (Scotland) Act 1968.
@@ -104,7 +104,7 @@ Lawful processing of data for the purposes of the project is in accordance with 
 
 Information governance for the project was also informed by the "Guiding Principles for Data Linkage" report produced by the Scottish Government [-@RN126]. These guidelines, themselves informed by legislation such as the DPA, highlight the importance of public interest, transparency, and privacy when conducting data linkage projects with publicly held data sets. 
 
-In order to preserve anonymity whilst linking administrative data from different agencies, a method known as "linkage using a separation of functions" is employed [@RN279; @RN85]. This process involves the use of a Trusted Third Party (TTP) to process non-anonymised information in order to link more than one dataset together. The TTP receives personal information (e.g. names, addresses and dates-of-birth) from the data controllers of the administrative datasets to be used and creates index "keys" to send back to the data controllers to attach to their data [@RN279; @RN85]. The TTP creates a lookup table of index "keys" relevant to each dataset and sends these to a linkage agent. The linkage agent receives data from the data controllers \textit{without} personal information and links them together using the "keys" created by the TTP and makes this available to a researcher in a secure environment [@RN279; @RN85]. This process means the TTP receives lots of personal information but no other information, the researcher has access to information relevant to their study but no personal information, and the data controllers share information about individuals in their datasets without compromising anonymity and without seeing data from each others databases [@RN479]. An illustration of this process in the Scottish context using a linkage between NHS an education data is provided by Pavis & Morris [-@RN85] and reproduced in Figure \ref{fig:methods-sep-funcs}
+In order to preserve anonymity whilst linking administrative data from different agencies, a method known as "linkage using a separation of functions" is employed [@RN279; @RN85]. This process involves the use of a Trusted Third Party (TTP) to process non-anonymised information in order to link more than one dataset together. The TTP receives personal information (e.g. names, addresses and dates-of-birth) from the data controllers of the administrative datasets to be used and creates index "keys" to send back to the data controllers to attach to their data [@RN279; @RN85]. The TTP creates a lookup table of index "keys" relevant to each dataset and sends these to a linkage agent. The linkage agent receives data from the data controllers \textit{without} personal information and links them together using the "keys" created by the TTP and makes this available to a researcher in a secure environment [@RN279; @RN85]. This process means the TTP receives lots of personal information but no other information, the researcher has access to information relevant to their study but no personal information, and the data controllers share information about individuals in their datasets without compromising anonymity and without seeing data from each other's databases [@RN479]. An illustration of this process in the Scottish context using a linkage between NHS and education data is provided by Pavis & Morris [-@RN85] and reproduced in Figure \ref{fig:methods-sep-funcs}
 
 \begin{figure}
   \centering
@@ -114,18 +114,18 @@ In order to preserve anonymity whilst linking administrative data from different
 \end{figure}
 
 
-\subsubsection{Safe Haven environment}\label{subsec:safe-haven}
+\subsubsection{Safe haven environment}\label{subsec:safe-haven}
 
 Another integral part of ensuring the confidentiality of data subjects within large, linked administrative data is by holding such data in a safe haven environment [@RN489]. As described in Section \ref{subsec:ubdc}, access to data for this thesis was administered via UBDC's controlled data service and further liaison with eDRIS to enable use of the NSS National safe haven. All data shared for the purposes of the thesis was transferred by data controllers to the safe haven by secure file transfer protocol. 
 
-The safe haven enables secure data storage and access via a Virtual Private Network (VPN) connection with strict access control. This environment does not enable external access of any kind i.e internet or saving & printing facilities [@RN529]. In order to retrieve output of analyses, work was submitted for statistical disclosure control which was conducted by eDRIS employees. This process ensures that data taken out of the safe haven cannot be used, either on its own or by being combined with other data, to breach the privacy of any individual [@RN529; @RN489]. A full guide to statistical disclosure control is provided by Lothian & Ritchie [-@RN530]. 
+The safe haven enables secure data storage and access via a Virtual Private Network (VPN) connection with strict access control. This environment does not enable external access of any kind i.e. internet or saving & printing facilities [@RN529]. In order to retrieve output of analyses, work was submitted for statistical disclosure control which was conducted by eDRIS employees. This process ensures that data taken out of the safe haven cannot be used, either on its own or by being combined with other data, to breach the privacy of any individual [@RN529; @RN489]. A full guide to statistical disclosure control is provided by Lothian & Ritchie [-@RN530]. 
 
 \subsubsection{Data sharing agreement}\label{subsec:dsa}
 
 For the purposes of the main linkage project, a three-way data sharing agreement (DSA) between the University of Glasgow, NHS National Services Scotland, and Scottish Ministers (Scottish Government) was signed. This detailed the purpose of data sharing, as well as the transfer, protection, and security of data. The  roles and responsibilities of each organisation in relation to relevant data protection legislation are clearly detailed in the DSA.  
 
 
-\section{Data Sources for Linkage}\label{sec:sources}
+\section{Data sources for linkage}\label{sec:sources}
 
 Research conducted with administrative data requires a thorough description of databases used [@RN480]. This should include a description of the purpose of the data collection and the methods employed to collect data. This enables appraisal of any  potential biases that may exist within the databases [@RN352; @RN480]. There are 4 main sources of data used in the main analyses of this thesis: the Social Care Survey, the National Records of Scotland population spine and death records, the Prescribing Information System, and the Unscheduled Care Data Mart. Each of these are described in more detail below. 
 
@@ -135,9 +135,9 @@ The Social Care Survey (SCS) is collected annually by HSCAD for the Scottish Gov
 
 All 32 Scottish local authorities collect information on social care as part of their management systems [@RN128]. HSCAD produce a data specification document outlining the information that should be returned for the SCS and this is sent to HSCAD via a secure web-based system called ProcXed. This system supports data validation checks on transfer to improve data accuracy [@RN128]. The SCS contains unique ID numbers generated by local authorities but does not routinely collect CHI numbers. In order for the SCS to be linked to health data sources, HSCAD commissioned work to link it to the NRS population spine using probabilistic linkage techniques. This process is described more fully in Section \ref{sec:linkage}. 
 
-The SCS has been collected in its present form since 2013 as a combination of two previous data collections - the Home Care Census and the Self Directed Support (Direct Payments) Survey [@RN128]. Individual-level data has been collected since 2010. Some questions have remained constant throughout this period but there have also been some changes in definitions and measures.
+The SCS has been collected in its present form since 2013 as a combination of two previous data collections - the Home Care Census and the Self-Directed Support (Direct Payments) Survey [@RN128]. Individual-level data has been collected since 2010. Some questions have remained constant throughout this period but there have also been some changes in definitions and measures.
 
-The most recent SCS (2017) collected information on all individuals that received community alarm, telecare, self directed support (SDS) or social work/ support worker services during the previous financial year. In addition, individuals that received home care services, meals, housing support, shopping, or laundry services during a specified census week are included in the survey. 
+The most recent SCS (2017) collected information on all individuals that received community alarm, telecare, self-directed support (SDS) or social work/support worker services during the previous financial year. In addition, individuals that received home care services, meals, housing support, shopping, or laundry services during a specified census week are included in the survey. 
 
 Before 2013/14, information on telecare and community alarm services was only collected for individuals receiving these services during the census week. Furthermore, the value for total weekly hours of housing support services was included in the value of home care services. The separation of these services acknowledges that housing support is often regarded as 24-hour-a-day-7-day-a-week service [@RN128]. 
 
@@ -145,9 +145,9 @@ For the value of total weekly hours of home care, HSCAD request details on sched
 
 The cross-sectional nature of the survey, and in particular the census week variables, mean that the SCS only collects a sample of the entire population that receive social care in Scotland in any given financial year. It is unknown how large this sample is. It is also impossible to infer whether the values of total weekly hours of home care delivered to individuals is representative of the care they receive throughout the financial year. In order to gain a better understanding of these issues, an exploratory project, using a richer data set, was conducted as part of this thesis and is reported in Chapter \ref{ch:renfrew}. 
 
-\subsection{NRS population spine and Death records}\label{subsec:source-nhscr}
+\subsection{NRS population spine and death records}\label{subsec:source-nhscr}
 
-The ‘Research population spine’ is a copy of the National Health Service Central Register (NHSCR) and is controlled by NRS [@RN541]. The spine contains over 9 million records and is updated quarterly. There are very strict policies which govern access to the offline secure server where the spine is stored. 
+The ``Research population spine" is a copy of the National Health Service Central Register (NHSCR) and is controlled by NRS [@RN541]. The spine contains over 9 million records and is updated quarterly. There are very strict policies which govern access to the offline secure server where the spine is stored. 
 
 The NHSCR is used operationally for the purpose of transferring GP records [@RN541].  Despite the name and the fact it is used for transferring patients records, the NHSCR does not hold medical records themselves. It contains records of anyone who was born in Scotland, who registers with a GP in Scotland, or who dies in Scotland. Variables included are: forename, middle name, surname, date of birth, gender, postcode, and country of birth. 
 
@@ -168,20 +168,20 @@ Drug data includes information on: the approved name (International Non-propriet
     \label{fig:methods-pis}
 \end{figure}
 
-\subsection{Unscheduled Care Data}\label{subsec:source-ucd}
+\subsection{Unscheduled care data}\label{subsec:source-ucd}
 
 The Unscheduled Care Data Mart (UCD) is a database collated by ISD for the purpose of understanding a patient journey through emergency and urgent care services [@RN528]. It is a linkage of routine health data from a number of sources controlled by ISD: NHS24 telephone triage service, Scottish Ambulance Service (SAS), primary care out-of-hours services (PC OOH), Accident & Emergency (A & E), acute emergency inpatient admissions (both general and mental health), and deaths. Data is available from 2011 with the exception of PC OOH data which is available from 2014. CHI numbers are available on all records. 
 
-Continuous Urgent Care Pathways (CUPs) are calculated that join together records from each of these sources that occur within 24 hrs of each other (or for services occurring within 48hrs of an acute emergency admission)[@RN528]. Details of all variables listed in UCD are available in a background paper published by ISD [-@RN528]. In addition to service use, UCD flags presence of any of 14 long-term health conditions in any of the above datasets and, additionally, any acute admission from 1981 onwards.  
+Continuous Urgent Care Pathways (CUPs) are calculated that join together records from each of these sources that occur within 24 hrs of each other (or for services occurring within 48hrs of an acute emergency admission) [@RN528]. Details of all variables listed in UCD are available in a background paper published by ISD [-@RN528]. In addition to service use, UCD flags presence of any of 14 long-term health conditions in any of the above datasets and, additionally, any acute admission from 1981 onwards.  
 
 
 \section{Making social care data available for linkage}\label{sec:linkage}
 
 The SCS does not routinely include CHI number as part of its annual data collection but does have fields for other personal identifiable information (PII) such as name, date-of-birth, gender, and postcode. In order to make the SCS available for linkage to health sources, HSCAD commissioned work to probabilistically match these identifiers to the NRS population spine (described in Section \ref{subsec:source-nhscr}) and create read-through indexes for linkage purposes. This work was undertaken by an analyst at NRS in 2017. Results have not been published but a short report was produced.  
 
-The report described the variable quality in PII provided to the SCS by local authorities. One local authority, Clackmannanshire, returned only month/year of birth and truncated postcode data to the SCS. This meant only 1% of its records could be matched to the population spine. For this reason it was recommended that records for Clackmannanshire not be included in any analyses.   
+The report described the variable quality in PII provided to the SCS by local authorities. One local authority, Clackmannanshire, returned only month/year of birth and truncated postcode data to the SCS. This meant only 1% of its records could be matched to the population spine. For this reason, it was recommended that records for Clackmannanshire not be included in any analyses.   
 
-Of the remaining 31 local authorities, 17 returned date-of-birth data where a disproportionate number of records had the \emph{day} of birth recorded as "01". Therefore these council areas had their records matched separately from the other 14 areas using a refined matching algorithm. 
+Of the remaining 31 local authorities, 17 returned date-of-birth data where a disproportionate number of records had the \emph{day} of birth recorded as "01". Therefore, these council areas had their records matched separately from the other 14 areas using a refined matching algorithm. 
 
 Using this approach an overall linkage rate of 91.2% for 31 local authorities (removing Clackmannanshire) was achieved to the population spine. Sensitivity analysis revealed consistent match rates across age, sex, and SIMD deciles. However, there was much more variation in match rates at the local authority level which ranged from 76.7% to 97.9% as shown in Table \ref{tab:linkage-rates}. 
 
@@ -280,7 +280,7 @@ Many variables requested from the SCS had large amounts of missing data. There w
 
 A small fraction of observations (198 pertaining to 129 individuals) had an impossible value of weekly hours of home care greater than 168 hrs (more than 24hr-7-day-a-week care). These records were dropped from the dataset after the entire social care file had been joined to other sources of data (described in Section \ref{subsec:join-data}).
 
-Assessment for duplicated rows indicated 4,357 individuals had more than one row of data for some years of data. Inspection of these additional rows indicated a change in value for some variables (e.g. a flag indicating use of community alarm services positive in one row and negative in another, or different values for client group in multiple rows). These additional rows amounted to 1.1% of observations in the SCS. The exact cause of these duplications is unknown. One possible explanation is that duplication was created when records from different sources were joined together in advance of being sent for linkage. A further potential cause is the duplication of records created by the process of recycling identification numbers in some local authorities. Given the small percentage or records this affected, individuals with duplicated information were also dropped from the dataset after being joined to other files (as described in Section \ref{subsec:join-data}). 
+Assessment for duplicated rows indicated 4,357 individuals had more than one row of data for some years of data. Inspection of these additional rows indicated a change in value for some variables (e.g. a flag indicating use of community alarm services positive in one row and negative in another, or different values for client group in multiple rows). These additional rows amounted to 1.1% of observations in the SCS. The exact cause of these duplications is unknown. One possible explanation is that duplication was created when records from different sources were joined together in advance of being sent for linkage. A further potential cause is the duplication of records created by the process of recycling identification numbers in some local authorities. Given the small percentage of records this affected, individuals with duplicated information were also dropped from the dataset after being joined to other files (as described in Section \ref{subsec:join-data}). 
 
 
 \begin{table}[]
@@ -401,7 +401,7 @@ Exploratory data analysis revealed three data quality issues that required furth
 
 Whilst the study period had been defined as 1st April 2011 to 31st March 2016 some data files contained observations outwith this period. These 1,695,587 observations were maintained for exploratory analysis but were dropped for final analysis. Thus, the final parent data frame used for all reported analyses contained 4,519,306 observations. 
 
-Derived grouping variables were created for age group (5 year bands), repeat medicines group (4 groups of similar size: 0-2, 3-5, 6-8, and over 9 repeat medicines), and linkage group (grouping councils that had linkage rates (described in Section \ref{sec:linkage}) within 4% of each other (e.g. 96-99.9%, 92-95.9% etc.)
+Derived grouping variables were created for age group (5-year bands), repeat medicines group (4 groups of similar size: 0-2, 3-5, 6-8, and over 9 repeat medicines), and linkage group (grouping councils that had linkage rates (described in Section \ref{sec:linkage}) within 4% of each other (e.g. 96-99.9%, 92-95.9% etc.)
 
 \FloatBarrier
 
@@ -419,7 +419,7 @@ Where:
 $ln(LM_{1})$ = log likelihood of the fitted model and:\newline
 $ln(LM_{0})$ = log likelihood of the null model (with intercept only as a predictor).
 
-McFadden's $R^2$ values are not analogous with $R^2$ values calculated from linear models. Instead, values of 0.2 - 0.4 represent an excellent model fit [@RN562,p35; @RN560,p55]. 
+McFadden's $R^2$ values are not analogous with $R^2$ values calculated from linear models. Instead, values of 0.2 - 0.4 represent an excellent model fit [@RN562, p35; @RN560, p55]. 
 
 The final models included: sex, age group, repeat medicines group, SIMD decile of residence, and local authority of residence as independent variables. Interaction terms were fitted between: sex \& age group, age group \& repeat medicines group, SIMD decile \& repeat medicines group, and SIMD decile \& local authority of residence. Exploratory models had revealed a linear effect of SIMD decile on receipt of social care thus, given the complexity of interaction terms and subsequent computational requirement, SIMD was fitted as a continuous term in the final models. The R code for the model was as follows: 
 
@@ -476,7 +476,7 @@ The effect estimate describes the average marginal effect (AME) at a specific va
 
 As Williams [-@RN566] observes, this has the effect of comparing hypothetical populations - one female, one male - with the same observed values for other explanatory variables in the model. The only differences between these hypothetical populations is their sex with the estimate describing the differences in the probability of them receiving social care. 
 
-Where categorical variables have more than one value (e.g. age group), the APE describes the average difference in the probability between the observed value and the reference value for that variable (in the case of age group the reference value is 65-69 years of age). Deprivation status was modelled as a continuous variable therefore the APE is an instantaneous effect reflecting the slope of the predicted probability curve at the mean value of SIMD. Therefore the value cannot be interpreted directly as a coefficient and a one-step change does not directly increase the value of the probability with the APE. To aid interpretation, plots depicting the conditional effect of SIMD on the receipt of social care were generated.
+Where categorical variables have more than one value (e.g. age group), the APE describes the average difference in the probability between the observed value and the reference value for that variable (in the case of age group the reference value is 65-69 years of age). Deprivation status was modelled as a continuous variable therefore the APE is an instantaneous effect reflecting the slope of the predicted probability curve at the mean value of SIMD. Therefore, the value cannot be interpreted directly as a coefficient and a one-step change does not directly increase the value of the probability with the APE. To aid interpretation, plots depicting the conditional effect of SIMD on the receipt of social care were generated.
 
 Reporting APEs has the advantage that effects can be compared across groups, across samples, and across models [@RN563]. APEs were calculated with standard errors and 95% confidence intervals using the R package \texttt{margins} v.0.3.23 [@RN567]. 
 
@@ -539,7 +539,7 @@ Approvals process through the UBDC RAC was governed by its bi-annual submission 
 
 This chapter has described in detail the methods used to identify, obtain, link, and analyse the administrative data used to answer the research questions set in Chapter \ref{ch:intro}. 
 
-Information governance procedures can be complicated and lengthy, however they are integral to the safe use of sensitive data for research purposes. The procedures identified in the first section of this chapter indicate the compliance of this project with required legal and ethical frameworks. 
+Information governance procedures can be complicated and lengthy, however they are integral to the safe use of sensitive data for research purposes. The procedures identified in the first section of this chapter indicate the compliance of this project with required legal and ethical frameworks and provide a guide to others planning to do similar work. 
 
 The second section provided a thorough description of the data sources from which variables for the analyses were obtained. Social care data has rarely been used for these purposes in the past. As such, greater emphasis was placed on the description of the SCS. Potential data quality issues arising from the SCS method of collection provide the justification for the extra, stand-alone, analysis conducted in Chapter \ref{ch:renfrew}.
 

@@ -10,9 +10,9 @@ Multimorbidity is increasing in prevalence worldwide and has important implicati
 The aims of this thesis were to:
 
 \begin{enumerate}[noitemsep]
-\item Identify the best source of social care data in Scotland that can be linked to health data (ideally at a national level) and assess its suitability in a research context
+\item Identify the best source of social care data in Scotland that can be linked to health data at an individual level (ideally in a national context) and assess its suitability for research
 \item Create a linked dataset that can be used to answer questions relevant to multimorbidity and the provision of health and social care services 
-\item Demonstrate the ability of this dataset to answer pertinent cross-sectoral questions.
+\item Demonstrate the ability of this dataset to answer pertinent cross-sectoral questions by undertaking analysis to explore the associations between multimorbidity, social care, and unplanned hospital admission.
 \end{enumerate}
 
 Collected annually by the Scottish Government, the Social Care Survey was deemed the best potential source of social care data to fulfil the other aims of the project. Following indexing work completed by the National Records of Scotland to map social care data to a population spine, the survey was linked to three administrative health data sources; prescribing records, unscheduled care records, and demographic records including deaths. This was done with approval from the Public Benefit and Privacy Panel.
@@ -29,14 +29,14 @@ In people over the age of 65 in Scotland:
 \begin{enumerate}[noitemsep]
 \item 
 \begin{enumerate}[noitemsep]
-\item What are the socioeconomic and demographic patterns in the use of social care? 
+\item What are the socioeconomic, demographic, and multimorbidity patterns in the use of social care? 
 \item Is there an association between receipt of social care and multimorbidity status. Does this vary by the patterns described in 1(a)?  
 \end{enumerate}
 \item Is there an association between unplanned hospital admission, multimorbidity, and the receipt of social care?
 \end{enumerate}
 
-In relation to question 1(a), results indicated increasing age, female sex, and lower socioeconomic position were associated with higher rates of social care receipt. After adjustment for other variables, some small variation in the rate of social care delivered across local authorities was observed. However, poor data quality and lack of multi-level modelling mean robust conclusion regarding receipt of care across council areas cannot be drawn. Nevertheless, it can be reported that no obvious evidence of an "inverse social care law" has been found at present.  
+In relation to question 1(a), results indicated increasing age, female sex, lower socioeconomic position, and more severe multimorbidity status were associated with higher rates of social care receipt. After adjustment for other variables, some small variation in the rate of social care delivered across local authorities was observed. However, poor data quality and lack of multi-level modelling mean robust conclusions regarding receipt of care across council areas cannot be drawn. Nevertheless, it can be reported that no obvious evidence of an "inverse social care law" has been found at present.  
 
 Answering question 1(b), A strong association between multimorbidity and receipt of social care was found. Those in the highest multimorbidity group had a 15% increased probability of receiving social care compared to those with little or no multimorbidity. This finding addresses a gap in current literature and indicates wider implications for society due to the increasing prevalence of multimorbidity than has previously been described.
 
-Results of analysis aimed at answering question 2 indicate that both multimorbidity and receipt of social care are associated with unplanned hospital admission. Whilst the association of multimorbidity and secondary care use has been comprehensively described elsewhere, few studies have described the positive association with social care. This is an important finding and adds to the debate about integration of health and social care service which aims, among other things, to reduce unplanned hospital admissions. The "intensification" of social care services over the ten years since 2010 means those in receipt of social care are those with highest needs and are likely to continue to require multiple health and social care services. Whether wider provision of social care to those with less severe needs would have any meaningful reductions in rates of unplanned hospital admission is unknown. 
+Results of analysis aimed at answering question 2 indicate that both multimorbidity and receipt of social care are associated with unplanned hospital admission. Whilst the association of multimorbidity and secondary care use has been comprehensively described elsewhere, few studies have described the positive association with social care. This is an important finding and adds to the debate about integration of health and social care service which aims, among other things, to reduce unplanned hospital admissions. The "intensification" of social care services since 2010 means those in receipt of social care are those with highest needs and are likely to continue to require multiple health and social care services. Whether wider provision of social care to those with less severe needs would have any meaningful reductions in rates of unplanned hospital admission is unknown. 

@@ -9,7 +9,7 @@ This chapter switches focus to the main linkage project described in Chapter \re
 \begin{enumerate}[noitemsep]
 \item 
 \begin{enumerate}[noitemsep]
-\item What are the socioeconomic and demographic patterns in the use of social care?
+\item What are the socioeconomic, demographic, and multimorbidity patterns in the use of social care?
 \end{enumerate}
 \end{enumerate}
 
@@ -64,9 +64,9 @@ Chapter \ref{ch:res2} completes the answer to research question 1(a) (as well as
 
 There were 1,100,675 individuals included within the study across all years with increasing numbers in each financial year as shown in Table \ref{tab:results1-cohorttab}.  Percentages in each gender group and of those that died were relatively stable across the study period. Age was also relatively stable across all years with almost one-third of the cohort in each year being aged between 65 and 69 years old whilst over half were under the age of 75. 
 
-In terms of healthcare, the vast majority of individuals had a least one repeat prescription in any given year, whilst the percentage of individuals with at least one unplanned admission to hospital was relatively stable over time. In contrast, the pattern in \emph{absolute} numbers with a prescription or unplanned admission shows a gradual increase over time shadowing the increase in overall numbers in the cohort in each year.  
+In terms of healthcare, the vast majority of individuals had a least one repeat prescription in any given year, whilst the percentage of individuals with at least one unplanned admission to hospital was relatively stable over time. In contrast, the pattern in \emph{absolute} numbers with a prescription or unplanned admission showed a gradual increase over time shadowing the increase in overall numbers in the cohort in each year.  
 
-Social care services show slightly less stability in terms of numbers and percentages of individuals receiving care. A jump of approximately 10,000 people receiving any form of social care is found between financial years 2013/14 and 2014/15 reflecting a change in data collection methods in the SCS. Conversely, the number flagged as living in a care home shows a gradual decrease over time.   
+Social care services showed slightly less stability in terms of numbers and percentages of individuals receiving care. A jump of approximately 10,000 people receiving any form of social care was found between financial years 2013/14 and 2014/15 reflecting a change in data collection methods in the SCS. Conversely, the number flagged as living in a care home showed a gradual decrease over time.   
 
 \FloatBarrier
 \subsection{Age and sex}\label{subsec:results1-age-sex}
@@ -78,7 +78,7 @@ Social care services show slightly less stability in terms of numbers and percen
     \label{fig:results1-age-sex}
 \end{figure}
 
-Using financial year 2015/16 as a reference, Figure \ref{fig:results1-age-sex} shows the breakdown by age and sex (similar patterns are seen across all years of data). There are more females than males in every age group with the difference between sexes widening as age increases. Over half of the cohort are under the age of 74 and over a quarter are between the ages of 75 and 84. 
+Using financial year 2015/16 as a reference, Figure \ref{fig:results1-age-sex} shows the breakdown by age and sex (similar patterns are seen across all years of data). There were more females than males in every age group with the difference between sexes widening as age increased. Over half of the cohort were under the age of 74 and over a quarter were between the ages of 75 and 84. 
 
 \FloatBarrier
 \subsection{Mortality}\label{subsec:results1-mortality}
@@ -90,13 +90,13 @@ Using financial year 2015/16 as a reference, Figure \ref{fig:results1-age-sex} s
     \label{fig:results1-mortality}
 \end{figure}
 
-In 2015/16, 4.1% of the cohort died (37,992 individuals) within that year. Figure \ref{fig:results1-mortality} shows how these deaths were distributed across age and sex groups (with similar patterns seen in other years). The highest percentages of deaths (approximately 20%) occurred in the 80-84 and 85-89 age groups with females accounting for over half of these. The difference in the percentage of deaths between males and females increases from the 80-84 age groups to older age groups, whereas higher percentages of men died in age groups below 80-84.
+In 2015/16, 4.1% of the cohort died (37,992 individuals) within that year. Figure \ref{fig:results1-mortality} shows how these deaths were distributed across age and sex groups (with similar patterns seen in other years). The highest percentages of deaths (approximately 20%) occurred in the 80-84 and 85-89 age groups with females accounting for over half of these. The difference in the percentage of deaths between males and females increased from the 80-84 age groups to older age groups, whereas higher percentages of men died in age groups below 80-84.
 
 
 \FloatBarrier
 \subsection{Local authorities}\label{subsec:results1-la}
 
-Figure \ref{fig:results1-la} shows the percentage of individuals in the cohort that lived in each local authority area in financial year 2015/16. The largest percentages of individuals are found in Glasgow and Edinburgh city areas, whilst the smallest number are found in the three island local authorities. This is as expected based on the general population distribution. 
+Figure \ref{fig:results1-la} shows the percentage of individuals in the cohort that lived in each local authority area in financial year 2015/16. The largest percentages of individuals were found in Glasgow and Edinburgh city areas, whilst the smallest number were found in the three island local authorities. This is as expected based on the general population distribution. 
 
 \begin{figure}[h]
   \centering
@@ -112,7 +112,7 @@ Figure \ref{fig:results1-la} shows the percentage of individuals in the cohort t
 \section{Repeat medicines}\label{sec:results1-mm-meds}
 \subsection{Distribution by sex}\label{subsec:results1-meds-sex}
 
-The distribution of number of repeat medicines prescribed in 2015/16 reveals the most common value to be zero (Figure \ref{fig:results1-meds-hist}). Otherwise, a positively-skewed normal distribution is seen with higher numbers of females receiving every number of repeat medicines. This pattern is repeated across all study years.     
+The distribution of number of repeat medicines prescribed in 2015/16 revealed the most common value to be zero (Figure \ref{fig:results1-meds-hist}). Otherwise, a positively-skewed normal distribution was seen with higher numbers of females receiving every number of repeat medicines. This pattern was repeated across all study years.     
 
 \begin{figure}[h]
   \centering
@@ -124,7 +124,7 @@ The distribution of number of repeat medicines prescribed in 2015/16 reveals the
 \FloatBarrier
 \subsection{Percentage by sex, age group, and deprivation}\label{subsec:results1-meds-age}
 
-Despite overall numbers for specific counts of medicines being higher for females, the \emph{percentage} of males and females receiving repeat medicines is similar as shown in the left-hand panel of Figure \ref{fig:results1-meds-age-grp}. There are, however, differences in the pattern of percentages by age groups and SIMD deciles. The shape of the distribution shifts further to the right for both older age groups and more deprived SIMD deciles. Combining these factors (Figure \ref{fig:results1-meds-simd-age}) reveals that the differences in deprivation deciles is more pronounced at younger ages and is much less obvious in older age groups where overall numbers are smaller.
+Despite overall numbers for specific counts of medicines being higher for females, the \emph{percentage} of males and females receiving repeat medicines was similar as shown in the left-hand panel of Figure \ref{fig:results1-meds-age-grp}. There were, however, differences in the pattern of percentages by age groups and SIMD deciles. The shape of the distribution shifts further to the right for both older age groups and more deprived SIMD deciles. Combining these factors (Figure \ref{fig:results1-meds-simd-age}) reveals that the differences in deprivation deciles was more pronounced at younger ages and was much less obvious in older age groups where overall numbers are smaller.
 
 \begin{landscape}
 \thispagestyle{empty}
@@ -158,7 +158,7 @@ Despite overall numbers for specific counts of medicines being higher for female
     \label{fig:results1-meds-grp}
 \end{figure}
 
-Figure \ref{fig:results1-meds-grp} shows the distribution of the percentage of individuals receiving numbers of repeat medicines within defined groups. Each group contains either slightly more or less than 25% of the total cohort with 0-2 and 3-5 groups being slightly larger. The same pattern is seen across all years of data. These groups are used as a proxy measurement of multimorbidity in models reported in Chapter \ref{ch:res2}.
+Figure \ref{fig:results1-meds-grp} shows the distribution of the percentage of individuals receiving numbers of repeat medicines within defined groups. Each group contained either slightly more or less than 25% of the total cohort with 0-2 and 3-5 groups being slightly larger. The same pattern was seen across all years of data. These groups are used as a proxy measurement of multimorbidity in models reported in Chapter \ref{ch:res2}.
 
 \begin{table}[]
 \centering
@@ -213,11 +213,11 @@ Figure \ref{fig:results1-meds-grp} shows the distribution of the percentage of i
 \label{tab:res1-mmgroups}
 \end{table}
 
-A higher percentage of females are found in the highest multimorbidity group (9+ repeat medicines) compared to the overall percentage of females in the cohort, whereas a higher percentage of men is found in the lowest group (0-2 repeat medicines) compared to the overall percentage of males (Table \ref{tab:res1-mmgroups}). The median age of individuals in each multimorbidity group rises with severity from 70 years in the lowest group to 76 years in the highest. In younger age groups, the percentage of individuals in lower medicine groups (0-2, 3-5) is higher than found in the overall population whilst the percentage in higher medicine groups (6-8, 9+) is lower. The converse is true in older age groups. Hypothesis testing indicates the differences between these variables across medicine groups is statistically significant.    
+A higher percentage of females were found in the highest multimorbidity group (9+ repeat medicines) compared to the overall percentage of females in the cohort, whereas a higher percentage of men were found in the lowest group (0-2 repeat medicines) compared to the overall percentage of males (Table \ref{tab:res1-mmgroups}). The median age of individuals in each multimorbidity group rose with severity from 70 years in the lowest group to 76 years in the highest. In younger age groups, the percentage of individuals in lower medicine groups (0-2, 3-5) was higher than found in the overall population whilst the percentage in higher medicine groups (6-8, 9+) was lower. The converse was true in older age groups. Hypothesis testing indicated the differences between these variables across medicine groups was statistically significant.    
 
-There is also a statistically significant difference in SIMD deciles across medicine groups. Whilst 8.3% of the cohort in 2015/16 lived in the most-deprived SIMD Decile 1 areas, only 5.7% of those receiving 0-2 medicines come from the same group. Conversely, 12.4% of those prescribed 9+ medicines lived in a SIMD Decile 1 area. In contrast, those living in the most-affluent SIMD Decile 10 areas accounted for 9.9% of the overall cohort. The corresponding figures for 0-2 and 9+ groups are 12.9% and 6.2% respectively. 
+There was also a statistically significant difference in SIMD deciles across medicine groups. Whilst 8.3% of the cohort in 2015/16 lived in the most-deprived SIMD Decile 1 areas, only 5.7% of those receiving 0-2 medicines came from the same group. Conversely, 12.4% of those prescribed 9+ medicines lived in a SIMD Decile 1 area. In contrast, those living in the most-affluent SIMD Decile 10 areas accounted for 9.9% of the overall cohort. The corresponding figures for 0-2 and 9+ groups were 12.9% and 6.2% respectively. 
 
-There is a noticeable relationship between service use and multimorbidity groups. Of those prescribed 0-2 repeat medicines, 3.4% were in receipt of social care compared to 24.0% of those prescribed 9+ medicines. The overall percentage receiving social care is 11.6%. Similarly, 6.4% of those in medicine group 0-2 had an unplanned admission to hospital compared to 31.8% of those prescribed 9+ medicines. Overall, 15.8% of the cohort had an unplanned hospital admission in 2015/16. Again, hypothesis tests show the differences within these variables are statistically significant. 
+There was a noticeable relationship between service use and multimorbidity groups. Of those prescribed 0-2 repeat medicines, 3.4% were in receipt of social care compared to 24.0% of those prescribed 9+ medicines. The overall percentage receiving social care was 11.6%. Similarly, 6.4% of those in medicine group 0-2 had an unplanned admission to hospital compared to 31.8% of those prescribed 9+ medicines. Overall, 15.8% of the cohort had an unplanned hospital admission in 2015/16. Again, hypothesis tests showed the differences within these variables were statistically significant. 
 
 ```{r DEPRIVATION, eval=FALSE, echo=FALSE}
 ##################################################################################################
@@ -289,11 +289,11 @@ Breaking the cohort in 2015/16 down by deprivation decile shows statistically si
 \end{table}
 \end{landscape}
 
-The value of median age in Deciles 3 & 4 is one year higher than other deciles. Differences in age are more easily visualised by comparing Decile 1 and 10 across age groups to the overall figures. For example, 8.4% of the overall cohort in 2015/16 were aged 85-89. The corresponding figures in Deciles 1 and 10 were 8.1% and 8.8% respectively. 
+The value of median age in Deciles 3 & 4 was one year higher than other deciles. Differences in age are more easily visualised by comparing Decile 1 and 10 across age groups to the overall figures. For example, 8.4% of the overall cohort in 2015/16 were aged 85-89. The corresponding figures in Deciles 1 and 10 were 8.1% and 8.8% respectively. 
 
-The median value of total repeat medicines decreases from six in Deciles 1-3 to four in Deciles 7-10. The percentage of individuals living in Decile 1 datazones (most deprived) in each repeat medicine group gradually increases from 18.6% receiving 0-2 medicines to 32.4% receiving 9+ medicines. The opposite is true for those living in Decile 10 (most affluent) datazones where the corresponding figures are 35.5% and 13.6%.   
+The median value of total repeat medicines decreased from six in Deciles 1-3 to four in Deciles 7-10. The percentage of individuals living in Decile 1 datazones (most deprived) in each repeat medicine group gradually increased from 18.6% receiving 0-2 medicines to 32.4% receiving 9+ medicines. The opposite is true for those living in Decile 10 (most affluent) datazones where the corresponding figures were 35.5% and 13.6%.   
 
-In terms of service use, the percentage of individuals living in Decile 1 (most deprived) areas and receiving social care is 15.9%. This value gradually decreases through SIMD deciles, apart from a small spike in Decile 3, to Decile 10 (most affluent) where only 7.7% of individuals received social care. The overall percentage of those in receipt of social care is 11.6%.  A similar pattern in seen in unplanned hospital admissions where the percentage of those with at least one admissions decreases from 21.7% in Decile 1 to 12.0% in Decile 10; the overall figure being 15.8%. 
+In terms of service use, the percentage of individuals living in Decile 1 (most deprived) areas and receiving social care was 15.9%. This value gradually decreased through SIMD deciles, apart from a small spike in Decile 3, to Decile 10 (most affluent) where only 7.7% of individuals received social care. The overall percentage of those in receipt of social care was 11.6%.  A similar pattern was seen in unplanned hospital admissions where the percentage of those with at least one admissions decreased from 21.7% in Decile 1 to 12.0% in Decile 10; the overall figure being 15.8%. 
 
 \FloatBarrier
 \subsection{Deprivation by age and sex}\label{subsec:dep-agesex}
@@ -305,7 +305,7 @@ In terms of service use, the percentage of individuals living in Decile 1 (most 
     \label{fig:results1-age_simd}
 \end{figure}
 
-Figure \ref{fig:results1-age_simd} shows that the percentage of the cohort living in SIMD Decile 1 areas is below 10% for both sexes and decreases with age. Males in Decile 2 also show lower percentages and a reduction in overall make-up of the cohort at older ages.  
+Figure \ref{fig:results1-age_simd} shows that the percentage of the cohort living in SIMD Decile 1 areas was below 10% for both sexes and decreased with age. Males in Decile 2 also showed lower percentages and a reduction in overall make-up of the cohort at older ages.  
 
 \FloatBarrier
 \subsection{Deprivation by local authority}\label{subsec:dep-la}
@@ -317,18 +317,18 @@ Figure \ref{fig:results1-age_simd} shows that the percentage of the cohort livin
     \label{fig:results1-la-simd}
 \end{figure}
 
-The percentage of individuals from the cohort living in each of the SIMD deciles by local authority area of residence in the financial year 2013/14 is shown in Figure \ref{fig:results1-la-simd}. The figure reveals large variation in percentages in each decile according to each local authority. For example approximately one-third of individuals in the City of Edinburgh live in a Decile 10 datazone (the most affluent) whilst a similar number live in a Decile 1 datazone in the Glasgow City area. Fife and Renfrewshire councils (and to a lesser extent South Ayrshire and South Lanarkshire) show the most even distribution of population across deprivation deciles albeit with slight discrepancies\footnote{Providing evidence that Renfrewshire is a good case-study area to have used in chapter 4}. Island local authority areas do not contain datazones from all 10 deciles and tend to have populations concentrated in the middle of the spectrum (a pattern also present in the Highland council area with smaller percentages seen at the extremes).    
+The percentage of individuals from the cohort living in each of the SIMD deciles by local authority area of residence in the financial year 2013/14 is shown in Figure \ref{fig:results1-la-simd}. The figure reveals large variation in percentages in each decile according to each local authority. For example, approximately one-third of individuals in the City of Edinburgh lived in a Decile 10 datazone (the most affluent) whilst a similar number lived in a Decile 1 datazone in the Glasgow City area. Fife and Renfrewshire councils (and to a lesser extent South Ayrshire and South Lanarkshire) showed the most even distribution of population across deprivation deciles albeit with slight discrepancies\footnote{Providing evidence that Renfrewshire is a good case-study area to have used in chapter 4}. Island local authority areas do not contain datazones from all 10 deciles and tended to have populations concentrated in the middle of the spectrum (a pattern also present in the Highland council area with smaller percentages seen at the extremes).    
 
 
 
 \FloatBarrier
 \section{Social Care}\label{sec:res1-sc}
 
-Figure \ref{fig:results1-sc-demos} illustrates that age is a significant contributing factor to the receipt of any form of social care with the percentage of the population receiving care increasing rapidly from age 65 to 95 regardless of sex, deprivation status or repeat medicine group. Despite this, there are noticeable differences within each of these groups with females, those in more deprived SIMD deciles, and those with higher multimorbidity status (measured by medicine group) showing higher percentages of individuals receiving social care at all ages. Looking across groups reveals a higher percentage of individuals prescribed nine or more repeat medicines receive care than any other group at all but the oldest ages.  
+Figure \ref{fig:results1-sc-demos} illustrates that age was a significant contributing factor to the receipt of any form of social care with the percentage of the population receiving care increasing rapidly from age 65 to 95 regardless of sex, deprivation status or repeat medicine group. Despite this, there were noticeable differences within each of these groups with females, those in more deprived SIMD deciles, and those with higher multimorbidity status (measured by medicine group) showing higher percentages of individuals receiving social care at all ages. Looking across groups reveals a higher percentage of individuals prescribed nine or more repeat medicines received care than any other group at all but the oldest ages.  
 
 These differences are also seen in Figure \ref{fig:results1-heatmap-2} which is a heatmap that allows the distribution of social care in 2015/16 to be visualised across four variables: age group, sex, SIMD decile and repeat medicine group. In each of the fourteen age/sex groups, each tile is shaded according to the percentage of social care users in each SIMD decile and repeat medicine group. For example, the uppermost left-hand tile shows the percentage of all males aged 65-69 receiving social care that lived in Decile 1 areas and were prescribed 9+ repeat medicines.
 
-The darker shades in the figure show those in the lowest multimorbidity group receive very little social care across all age, sex, and deprivation groups. In all but the highest multimorbidity groups the variation in social care receipt in each age/sex group is small across SIMD deciles. For those in younger age/sex groups receiving nine or more repeat medicines, the percentage of those receiving social care higher in more deprived SIMD deciles and gradually reduces to higher deciles. Other multimorbidity groups show less variation in the percentage of social care received across deprivation deciles. 
+The darker shades in the figure show those in the lowest multimorbidity group received very little social care across all age, sex, and deprivation groups. In all but the highest multimorbidity groups, the variation in social care receipt in each age/sex group was small across SIMD deciles. For those in younger age/sex groups receiving nine or more repeat medicines, the percentage of those receiving social care was higher in more deprived SIMD deciles and gradually reduced to more affluent deciles. Other multimorbidity groups showed less variation in the percentage of social care received across deprivation deciles. 
 
 \begin{landscape}
 \thispagestyle{empty}
@@ -352,9 +352,9 @@ The darker shades in the figure show those in the lowest multimorbidity group re
 \FloatBarrier
 \section{Unplanned hospital admission}\label{sec:res1-adm}
 
-Age is also an important driver in the percentage of individuals having at least one unplanned hospital admission (Figure \ref{fig:results1-adm-demos}), although this is to a lesser extent than seen for social care. In contrast to social care receipt there is relatively little difference between sexes on unplanned admission. Similarly to social care, however, there are marked variations within deprivation and multimorbidity groups. Again, those in more deprived areas and with higher repeat medicine counts being more likely to have an unplanned admission at all ages.
+Age was also an important driver in the percentage of individuals having at least one unplanned hospital admission (Figure \ref{fig:results1-adm-demos}), although this was to a lesser extent than seen for social care. In contrast to social care receipt there was relatively little difference between sexes on unplanned admission. Similarly to social care, however, there were marked variations within deprivation and multimorbidity groups. Again, those in more deprived areas and with higher repeat medicine counts being more likely to have had an unplanned admission at all ages.
 
-This can be more easily visualised in Figure \ref{fig:results1-heatmap-4} which shows the distribution of unplanned hospital admission across age/sex groups by deprivation and multimorbidity status. Similarly to social care distribution, there is little variation in rates of admission across SIMD deciles except for those in the highest multimorbidity group. In this group, those in more deprived deciles have a higher rate of admission. 
+This can be more easily visualised in Figure \ref{fig:results1-heatmap-4} which shows the distribution of unplanned hospital admission across age/sex groups by deprivation and multimorbidity status. Similarly to the distribution of social care, there was little variation in rates of admission across SIMD deciles except for those in the highest multimorbidity group. In this group, those in more deprived deciles had a higher rate of admission. 
 
 \begin{landscape}
 \thispagestyle{empty}
@@ -375,13 +375,13 @@ This can be more easily visualised in Figure \ref{fig:results1-heatmap-4} which 
 
 \section{Summary}\label{sec:res1-summary}
 
-This chapter has described the cohort created by linking the SCS to various health datasets as described in Chapter \ref{ch:data}. The overall number of individuals over the age of 65 in each financial year gradually increased from 2011/12 to 2015/16. The distribution of individuals in age, sex, repeat medicine, and local authority groups is similar across all financial years with the most recent, 2015/16, used for the majority of figures and tables in the chapter.
+This chapter has described the cohort created by linking the SCS to various health datasets as described in Chapter \ref{ch:data}. The overall number of individuals over the age of 65 in each financial year gradually increased from 2011/12 to 2015/16. The distribution of individuals in age, sex, repeat medicine, and local authority groups was similar across all financial years with the most recent, 2015/16, used for the majority of figures and tables in the chapter.
 
-In relation to research question 1(a), findings in this chapter show the percentage of the cohort receiving social care increases rapidly with age. There are differences in receipt of social care across sex, SEP, and multimorbidity measures with women, those in more deprived areas, and those receiving 9+ repeat medicines more likely to receive care than other groups. The variation in SEP, measured by SIMD decile, shows a gradient from most-deprived to most-affluent; and is more obvious for those receiving 9+ repeat medicines than other multimorbidity groups. Further findings in relation to research question 1(a) are presented in the summary of Chapter \ref{ch:res2}.
+In relation to research question 1(a), findings in this chapter show the percentage of the cohort receiving social care increased rapidly with age. There were differences in receipt of social care across sex, socioeconomic position, and multimorbidity measures with women, those in more deprived areas, and those receiving 9+ repeat medicines more likely to have received care than other groups. The variation in socioeconomic position, measured by SIMD decile, showed a gradient from most-deprived to most-affluent; and was more obvious for those receiving 9+ repeat medicines than other multimorbidity groups. Further findings in relation to research question 1(a) are presented in the summary of Chapter \ref{ch:res2}.
 
-The patterns shown for receipt of social care are also seen in the percentage of individuals in the cohort with at least one unplanned hospital admission. The only exception to this is that men and women have similar rates of unplanned admission whereas women have higher rates of social care receipt.
+The patterns shown for receipt of social care were also seen in the percentage of individuals in the cohort with at least one unplanned hospital admission. The only exception to this was that men and women have similar rates of unplanned admission whereas women had higher rates of social care receipt.
 
-Results concentrating on the distribution of the proxy multimorbidity measure show similar patterns. The percentage of those in the most severe multimorbidity group (9+ repeat medicines) is higher in those that are older, those living in more deprived areas, those receiving social care, and those with at least one unplanned admission to hospital compared to percentages seen in the overall cohort. 
+Results concentrating on the distribution of the proxy multimorbidity measure showed similar patterns. The percentage of those in the most severe multimorbidity group (9+ repeat medicines) was higher in those that were older, living in more deprived areas, receiving social care, and with at least one unplanned admission to hospital compared to percentages seen in the overall cohort. 
 
 
 
