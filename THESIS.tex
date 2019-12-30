@@ -1,3 +1,6 @@
+\PassOptionsToPackage{unicode=true}{hyperref} % options for packages loaded elsewhere
+\PassOptionsToPackage{hyphens}{url}
+%
 \documentclass[12pt,a4paper,oneside,table]{report}
 \usepackage{lmodern}
 \usepackage{amssymb,amsmath}
@@ -6,27 +9,30 @@
 \ifnum 0\ifxetex 1\fi\ifluatex 1\fi=0 % if pdftex
   \usepackage[T1]{fontenc}
   \usepackage[utf8]{inputenc}
+  \usepackage{textcomp} % provides euro and other symbols
 \else % if luatex or xelatex
-  \ifxetex
-    \usepackage{mathspec}
-  \else
-    \usepackage{fontspec}
-  \fi
+  \usepackage{unicode-math}
   \defaultfontfeatures{Ligatures=TeX,Scale=MatchLowercase}
 \fi
 % use upquote if available, for straight quotes in verbatim environments
 \IfFileExists{upquote.sty}{\usepackage{upquote}}{}
 % use microtype if available
 \IfFileExists{microtype.sty}{%
-\usepackage{microtype}
+\usepackage[]{microtype}
 \UseMicrotypeSet[protrusion]{basicmath} % disable protrusion for tt fonts
 }{}
-\usepackage[top = 1.8cm, bottom = 1.8cm, left = 4cm, right = 1.5cm]{geometry}
+\IfFileExists{parskip.sty}{%
+\usepackage{parskip}
+}{% else
+\setlength{\parindent}{0pt}
+\setlength{\parskip}{6pt plus 2pt minus 1pt}
+}
 \usepackage{hyperref}
-\hypersetup{unicode=true,
+\hypersetup{
             pdfborder={0 0 0},
             breaklinks=true}
 \urlstyle{same}  % don't use monospace font for urls
+\usepackage[top = 1.8cm, bottom = 1.8cm, left = 4cm, right = 1.5cm]{geometry}
 \usepackage{color}
 \usepackage{fancyvrb}
 \newcommand{\VerbBar}{|}
@@ -76,12 +82,6 @@
 % margins by default, and it is still possible to overwrite the defaults
 % using explicit options in \includegraphics[width, height, ...]{}
 \setkeys{Gin}{width=\maxwidth,height=\maxheight,keepaspectratio}
-\IfFileExists{parskip.sty}{%
-\usepackage{parskip}
-}{% else
-\setlength{\parindent}{0pt}
-\setlength{\parskip}{6pt plus 2pt minus 1pt}
-}
 \setlength{\emergencystretch}{3em}  % prevent overfull lines
 \providecommand{\tightlist}{%
   \setlength{\itemsep}{0pt}\setlength{\parskip}{0pt}}
@@ -96,30 +96,11 @@
 \renewcommand{\subparagraph}[1]{\oldsubparagraph{#1}\mbox{}}
 \fi
 
-%%% Use protect on footnotes to avoid problems with footnotes in titles
-\let\rmarkdownfootnote\footnote%
-\def\footnote{\protect\rmarkdownfootnote}
+% set default figure placement to htbp
+\makeatletter
+\def\fps@figure{htbp}
+\makeatother
 
-%%% Change title format to be more compact
-\usepackage{titling}
-
-% Create subtitle command for use in maketitle
-\providecommand{\subtitle}[1]{
-  \posttitle{
-    \begin{center}\large#1\end{center}
-    }
-}
-
-\setlength{\droptitle}{-2em}
-
-  \title{}
-    \pretitle{\vspace{\droptitle}}
-  \posttitle{}
-    \author{}
-    \preauthor{}\postauthor{}
-    \date{}
-    \predate{}\postdate{}
-  
 \usepackage{placeins}
 \usepackage{caption}
 \usepackage{fancyhdr}
@@ -143,6 +124,9 @@
 \usepackage{xcolor}
 \usepackage{hyperref}
 \onehalfspacing
+
+\author{}
+\date{\vspace{-2.5em}}
 
 \begin{document}
 
@@ -853,7 +837,7 @@ Fenstein (1970, p. 467) who stated, ``In a patient with a particular
 index disease, the term co-morbidity refers to any additional
 co-existing ailment.'' Van Den Akker \textit{et al.}. (1996, p. 65)
 separated this term from multimorbidity which they described as
-``\ldots any co-occurrence of medical conditions within a person.'' In
+``\ldots{}any co-occurrence of medical conditions within a person.'' In
 this sense, multimorbidity does not rely on the presence of a primary,
 or index, disease but refers to the overall state of multiple illnesses.
 The recent addition of a distinct MeSH heading for multimorbidity that
@@ -1359,7 +1343,7 @@ well-being for those that are in need. As quality of life is an
 important factor of well-being, Huxley \textit{et al.} (2007) argue that
 wider issues regarding environment and the quality of public and private
 services also play an important role in social care. Indeed, Daly and
-Lewis (2000, p. 287) argue that social care is ``\ldots an activity and
+Lewis (2000, p. 287) argue that social care is ``\ldots{}an activity and
 set of relations lying at the intersection of state, market, family (and
 voluntary sector) relations''.
 
@@ -1609,7 +1593,7 @@ predictable source of finance enabling states to plan more effectively
 Fernández, 2011). Mixed systems of social care can still result in
 considerable costs for those that require care, whereas the costs to
 individuals in the means-tested system can be ``catastrophic'' (Colombo
-\emph{et al.}, 2011, p. pp240). The means-tested system can also be
+\emph{et al.}, 2011, pp240). The means-tested system can also be
 perceived as unfair for those that need to sell assets (such as a house)
 to pay for care, particularly when there is variation in eligibility
 criteria within countries (Glendinning and Bell, 2008; Colombo \emph{et
@@ -1748,9 +1732,9 @@ influence on how individuals can access social care services.
 Equity of access to services is directly influenced by the eligibility
 framework. Indeed, the strategy for self-directed support
 (Scottish-Government, 2010, p. 20) acknowledges this and states that
-such a framework ``\ldots can result in resources being narrowly focused
-on individuals with acute needs.'' However, the report goes on to state
-that growing demand and finite resources requires some form of
+such a framework ``\ldots{}can result in resources being narrowly
+focused on individuals with acute needs.'' However, the report goes on
+to state that growing demand and finite resources requires some form of
 eligibility assessment, but this should not have a disproportionate
 effect on any one group of people requiring care.
 
@@ -1759,7 +1743,7 @@ for access to care in line with local priorities and resources. This has
 the effect that access to services varies across differing council
 areas. The potential for regional variation is acknowledged by the
 strategy for self-directed support (Scottish-Government, 2010, p. 20)
-which states that, ``\ldots further work will be undertaken by the
+which states that, ``\ldots{}further work will be undertaken by the
 Scottish Government and COSLA to assess whether there is merit in
 establishing national thresholds for access to formal support across all
 client groups.''
@@ -1767,11 +1751,11 @@ client groups.''
 Acknowledgement of problems with eligibility criteria and the promise of
 ``further work'' to be undertaken by the Scottish Government and COSLA
 is repeated in practitioner guidance on Self-Directed Support published
-in 2014 (Scottish-Government, 2014, p. 19) and that, ``\ldots it remains
-the case that local authorities should operate eligibility criteria to
-determine whether or not an individual assessed as having social care
-needs can access formal support and if so, which of their needs are to
-be met by that support.''
+in 2014 (Scottish-Government, 2014, p. 19) and that, ``\ldots{}it
+remains the case that local authorities should operate eligibility
+criteria to determine whether or not an individual assessed as having
+social care needs can access formal support and if so, which of their
+needs are to be met by that support.''
 
 Data is not available on levels of care provided by LAs for each of the
 National Eligibility Framework criteria or for the threshold that each
@@ -1810,7 +1794,7 @@ In England, the Care Act (HM-Government, 2014b) aimed to reduce regional
 variations in eligibility in access to social care by imposing national
 minimum thresholds that local authorities would have a statutory
 obligation to provide. The Care Act also aimed to ensure local
-authorities provided care, ``\ldots as early as possible to help
+authorities provided care, ``\ldots{}as early as possible to help
 maintain well-being and independence, and potentially delay a situation
 where longer-term care and support might be required.'' (SCIE, 2015, p.
 2). The minimum criteria for being eligible for care involves an
@@ -1937,9 +1921,9 @@ the annual settlement for local authorities in Scotland stresses that
 the values allocated for different services are not budgets or targets
 and that local authorities are free to spend resources (other than
 ring-fenced monies) as they see fit (Scottish-Government, 2018a). In
-effect, ``\ldots the capitation payments seek to offer comparable public
-sector organisations the opportunity to deliver some average level of
-service, assuming average responses to social and economic
+effect, ``\ldots{}the capitation payments seek to offer comparable
+public sector organisations the opportunity to deliver some average
+level of service, assuming average responses to social and economic
 circumstances, and an average level of efficiency'' (Smith, 2003, p.
 309).
 
@@ -2057,14 +2041,14 @@ individuals of the general public are eligible to access any given
 service - doing so from a position of authority, free from
 organisational oversight and unconstrained by organisational policies
 (Lipsky, 2010). As a result, street-level bureaucrats control
-``\ldots the nature, amount, and quality of benefits and sanctions
+``\ldots{}the nature, amount, and quality of benefits and sanctions
 provided by their agencies.'' (Lipsky, 2010, p. 13). Using the term,
 ``street-level'' suggests that the theory is concerned with power, where
 it resides, and who wields it (Hupe \emph{et al.}, 2016). Street-level
 bureaucrats can be teachers, police officers, nurses, social workers, or
 any other worker providing a public service (Hupe \emph{et al.}, 2016)
-and their ``\ldots decisions\ldots, the routines they establish, and the
-devices they invent to cope with uncertainties and work pressures
+and their ``\ldots{}decisions\ldots{}, the routines they establish, and
+the devices they invent to cope with uncertainties and work pressures
 effectively \textit{become} the public policies they carry out''
 (Lipsky, 2010, p. xiii).
 
@@ -2159,7 +2143,7 @@ compares the distribution of public expenditure and outcomes across
 health, education, housing, and transport. It concludes, as highlighted
 in the quote above, that those with higher socioeconomic position
 benefited disproportionately from government social services spending
-across all sectors. Indeed, ``\ldots there persist substantial
+across all sectors. Indeed, ``\ldots{}there persist substantial
 inequalities in public expenditure, in use, in opportunity, in access,
 and in outcomes'' (Le Grand, 1982, p. 4).
 
@@ -2186,9 +2170,9 @@ and Hastings, 2013; Hastings \emph{et al.}, 2014). An adapted version of
 Gal's (1998) six channel framework of middle class advantage described
 by Hastings \emph{et al.} (2014) is shown in Table \ref{tab:gal}.
 
-\textbackslash begin\{table\}{[}h{]} \footnotesize
+\textbackslash{}begin\{table\}{[}h{]} \footnotesize
 \rowcolors{2}{white}{gray!10} \centering
-\textbackslash begin\{threeparttable\}
+\textbackslash{}begin\{threeparttable\}
 
 \begin{tabular}[t]{ll}
         \toprule
@@ -2215,18 +2199,18 @@ by Hastings \emph{et al.} (2014) is shown in Table \ref{tab:gal}.
 
 \begin{tabular}[c]{@{}l@{}}Public services ``run" by the middle classes therefore exert         influence \\ over how it is accessed and by whom.\end{tabular}
 
-\textbackslash{} \bottomrule \textbackslash end\{tabular\}\%
+\textbackslash{} \bottomrule \textbackslash{}end\{tabular\}\%
 
 \begin{tablenotes}
     \item[1]Adapted by Hastings \textit{et al.} (2014) from Gal (1998)
     \end{tablenotes}
 
-\textbackslash end\{threeparttable\}
+\textbackslash{}end\{threeparttable\}
 
 \caption{Six channels of middle class advantage}
 \label{tab:gal}
 
-\textbackslash end\{table\}
+\textbackslash{}end\{table\}
 
 These six ``channels'' conceptualise the modes of how and why welfare
 spending in certain areas appears to benefit more affluent groups. In
@@ -2415,7 +2399,7 @@ The Public Working (Joint Bodies) (Scotland) Act (HM-Government, 2014a)
 paved the way for the legal integration of health and social care
 services and all integrated authorities had management and structural
 plans in place by the Scottish Government's designated deadline of 1st
-April 2016. These reforms were seen as the ``\ldots most significant
+April 2016. These reforms were seen as the ``\ldots{}most significant
 change to the way we care for and improve the health of our people, in
 their communities, since the creation of the NHS'' (Scottish-Government,
 2017a).
@@ -2423,7 +2407,7 @@ their communities, since the creation of the NHS'' (Scottish-Government,
 One of the most important changes this legislation made was that funding
 for the designated integrated services were to be provided from a single
 budget. In a report investigating future change to health and social
-care services in England, the Barker commission noted, ``\ldots moving
+care services in England, the Barker commission noted, ``\ldots{}moving
 to a single budget with a single commissioner is not a sufficient
 condition to tackle the myriad problems of integration that face health
 and social care. But we believe it is a necessary one'' (Barker, 2014,
@@ -2589,7 +2573,7 @@ investigation.
 
 The finding that social care users also consume a higher proportion of
 secondary care has previously been described in a Swedish paper.
-Condelius \textit{et al.} (2008) included the \textasciitilde5000
+Condelius \textit{et al.} (2008) included the \textasciitilde{}5000
 individuals over 65 from four municipal areas (analogous to local
 authorities) who had at least one hospital discharge over a one-year
 period. They found that those who had the most secondary care use were
@@ -2610,7 +2594,7 @@ However, they rightly point out the difficulty in synthesising evidence
 from highly heterogeneous studies. Differences in the systems of health
 and social care, data types, outcomes, and analysis techniques make it
 impossible to draw robust conclusions from these studies. Although
-Spiers \textit{et al.} remark, ``\ldots the overall direction of
+Spiers \textit{et al.} remark, ``\ldots{}the overall direction of
 evidence was consistent'', the limitations of the data, including
 paucity of home care data and reliance on aggregate measures, means
 these results should be interpreted with caution. Studies that have
@@ -3458,7 +3442,7 @@ sex, and SIMD deciles. However, there was much more variation in match
 rates at the local authority level which ranged from 76.7\% to 97.9\% as
 shown in Table \ref{tab:linkage-rates}.
 
-\textbackslash begin\{table\}{[}{]}
+\textbackslash{}begin\{table\}{[}{]}
 
 \begin{tabular}{lr}
 \hline
@@ -3483,12 +3467,12 @@ Dunbartonshire \& 85.1 \textbackslash{} Scottish Borders \& 84.2
 82 \textbackslash{} Renfrewshire \& 81.1 \textbackslash{} Midlothian \&
 80.1 \textbackslash{} Highland \& 79.2 \textbackslash{} North
 Lanarkshire \& 76.7 \textbackslash{} \hline
-\textbackslash end\{tabular\}
+\textbackslash{}end\{tabular\}
 
 \caption{Local authority linkage rates to the population spine}
 \label{tab:linkage-rates}
 
-\textbackslash end\{table\}
+\textbackslash{}end\{table\}
 
 The variation in linkage rates indicates non-random missing data for SCS
 data derived from population spine indexes. This makes comparison of
@@ -3713,19 +3697,19 @@ medicines prescribed from as a crude measure of body systems being
 treated. Table \ref{tab:PIS-clean} shows the total observations and
 variables in the cleaned PIS file.
 
-\textbackslash begin\{table\}{[}h{]} \scriptsize \centering
+\textbackslash{}begin\{table\}{[}h{]} \scriptsize \centering
 
 \begin{tabular}{@{}lll@{}}
 \toprule
 Number or rows & Number of individuals & Variables \\ \midrule
 5,501,820 & 1,066,395 & \begin{tabular}[c]{@{}l@{}}1. Index (id)\\ 2. Financial Year\\ 3. Total medicines (n)\\ 4. Total chapters (n)\end{tabular}
 
-\textbackslash{} \bottomrule \textbackslash end\{tabular\}
+\textbackslash{} \bottomrule \textbackslash{}end\{tabular\}
 
 \caption{Prescribing Information System file variables}
 \label{tab:PIS-clean}
 
-\textbackslash end\{table\}
+\textbackslash{}end\{table\}
 
 \FloatBarrier
 \subsection{Unscheduled care measures}\label{subsec:usc-summs}
@@ -3743,27 +3727,27 @@ data to be reshaped to a long format with individuals having one or
 multiple rows of data for each financial year. To create one observation
 per individual per year, data with information on each CUP was nested
 within a data frame as a list column (described by Wickham \& Grolemund
-(2017, p. ch.20)). With data in this format, summary measures were
-derived by applying functions to the list column utilising the
-\texttt{purrr} R package (Henry and Wickham, 2017). Derived information
-included counts of total USC episodes, acute admissions to hospital, A
-\& E attendances, and total number of long-term conditions identified
-from admissions and A \& E data. The format of the cleaned UCD data
-frame is described in Table \ref{tab:USC-clean}
+(2017, ch.20)). With data in this format, summary measures were derived
+by applying functions to the list column utilising the \texttt{purrr} R
+package (Henry and Wickham, 2017). Derived information included counts
+of total USC episodes, acute admissions to hospital, A \& E attendances,
+and total number of long-term conditions identified from admissions and
+A \& E data. The format of the cleaned UCD data frame is described in
+Table \ref{tab:USC-clean}
 
-\textbackslash begin\{table\}{[}h{]} \scriptsize \centering
+\textbackslash{}begin\{table\}{[}h{]} \scriptsize \centering
 
 \begin{tabular}{@{}lll@{}}
 \toprule
 Number of rows & Number of individuals & \multicolumn{1}{c}{Variables} \\ \midrule
 1,951,755 & 845,516 & \begin{tabular}[c]{@{}l@{}}1. Index (id)\\ 2. Year\\ 3. USC episodes (n)\\ 4. Acute admissions (n)\\ 5. A \& E attendances (n)\\ 6. Long-term conditions (n)\end{tabular}
 
-\textbackslash{} \bottomrule \textbackslash end\{tabular\}
+\textbackslash{} \bottomrule \textbackslash{}end\{tabular\}
 
 \caption{Unscheduled Care file variables}
 \label{tab:USC-clean}
 
-\textbackslash end\{table\}
+\textbackslash{}end\{table\}
 
 Data were available beyond the study period ending 31st March 2016.
 Records outside this end date were dropped when this file was joined
@@ -3860,9 +3844,9 @@ Exploratory data analysis revealed three data quality issues that
 required further observations to be dropped from the data frame.
 Firstly, as described in Section \ref{subsubsec:scs-summs}, 168
 observations contained implausible values for weekly hours of home care
-(\textgreater168 hrs). These had not been removed as whilst cleaning the
-social care file so were dropped here. Secondly, calculating average age
-for each individual revealed 8,809 observations with a null value.
+(\textgreater{}168 hrs). These had not been removed as whilst cleaning
+the social care file so were dropped here. Secondly, calculating average
+age for each individual revealed 8,809 observations with a null value.
 Further inspection of these observations identified each individual had
 only one observation and had died before their 65th birthday. The
 inclusion criteria for the cohort stated individuals should be ``born
@@ -3917,8 +3901,8 @@ as a predictor).
 
 McFadden's \(R^2\) values are not analogous with \(R^2\) values
 calculated from linear models. Instead, values of 0.2 - 0.4 represent an
-excellent model fit (McFadden, 1977, p. p35; Louviere \emph{et al.},
-2000, p. p55).
+excellent model fit (McFadden, 1977, p35; Louviere \emph{et al.}, 2000,
+p55).
 
 The final models included: sex, age group, repeat medicines group, SIMD
 decile of residence, and local authority of residence as independent
@@ -3985,7 +3969,7 @@ doing so often results in misinterpretation (Ai and Norton, 2003; Norton
 Therefore, in order to provide a measure of the magnitude of the effect
 of each variable (taking into account interaction effects), estimates
 are reported as average partial effects (APEs) described by Mood (2010,
-p. p75) with the formula
+p75) with the formula
 
 \[\frac{1}{n}\sum_{i = 1}^n\beta_{x_1}f(\beta_{x_i})\] Where: \newline
 \(\beta_{x_1}\) = the log odds-ratio for variable \(x_{1}\), \newline
@@ -3994,10 +3978,10 @@ and \newline \(f(\beta_{x_i})\) = the probability distribution function
 of the logistic distribution with regard to \(\beta_{x_i}\)
 
 The effect estimate describes the average marginal effect (AME) at a
-specific value of \(x_1\). Williams (2012, p. p325) provides an
-intuitive example of how APEs are calculated and interpreted which has
-been adapted to reflect the fitted model and uses the ``sex'' variable
-as an example here
+specific value of \(x_1\). Williams (2012,p325) provides an intuitive
+example of how APEs are calculated and interpreted which has been
+adapted to reflect the fitted model and uses the ``sex'' variable as an
+example here
 
 \begin{itemize}
 \tightlist
@@ -4881,7 +4865,7 @@ to complete the SCS. Absolute numbers of individuals receiving home care
 in each financial year in this analysis are similar to those returned by
 Renfrewshire council to the SCS overall with some mild discrepancies.
 Eligibility to be included in the home care census has changed over the
-years (e.g.~``Housing Support'' and ``Overnight Services'' being
+years (e.g. ``Housing Support'' and ``Overnight Services'' being
 included as home care and then collected as a separate type of service
 in later years) and the collection of individual-level data did not
 begin until 2010/11. Whether this has changed how data is collated at
@@ -5282,51 +5266,51 @@ was a higher percentage of deaths in Deciles 1-3 (5.4\%, 4.9\%, and
 4.8\%) compared to the overall cohort where 4.1\% of people died. Only
 3.1\% of individuals resident in Decile 10 datazones died in 2015/16.
 
-\textbackslash begin\{landscape\} \thispagestyle{empty}
-\textbackslash begin\{table\} \tiny
-\textbackslash begin\{threeparttable\}
+\textbackslash{}begin\{landscape\} \thispagestyle{empty}
+\textbackslash{}begin\{table\} \tiny
+\textbackslash{}begin\{threeparttable\}
 
 \begin{tabular}{@{}llrrrrrrrrrrrr@{}}
 \toprule
 \textbf{Variable} & \textbf{Value} & \textbf{\begin{tabular}[c]{@{}r@{}}Decile 1\\ (most\\deprived)\\ (n=77070)\end{tabular}
 
-\} \& \textbackslash textbf\{
+\} \& \textbackslash{}textbf\{
 
 \begin{tabular}[c]{@{}r@{}}Decile 2\\(n=85342)\end{tabular}
 
-\} \& \textbackslash textbf\{
+\} \& \textbackslash{}textbf\{
 
 \begin{tabular}[c]{@{}r@{}}Decile 3\\(n=94921)\end{tabular}
 
-\} \& \textbackslash textbf\{
+\} \& \textbackslash{}textbf\{
 
 \begin{tabular}[c]{@{}r@{}}Decile 4\\(n=96300)\end{tabular}
 
-\} \& \textbackslash textbf\{
+\} \& \textbackslash{}textbf\{
 
 \begin{tabular}[c]{@{}r@{}}Decile 5\\(n=98463)\end{tabular}
 
-\} \& \textbackslash textbf\{
+\} \& \textbackslash{}textbf\{
 
 \begin{tabular}[c]{@{}r@{}}Decile 6\\(n=99867)\end{tabular}
 
-\} \& \textbackslash textbf\{
+\} \& \textbackslash{}textbf\{
 
 \begin{tabular}[c]{@{}r@{}}Decile 7\\(n=95685)\end{tabular}
 
-\} \& \textbackslash textbf\{
+\} \& \textbackslash{}textbf\{
 
 \begin{tabular}[c]{@{}r@{}}Decile 8\\(n=92464)\end{tabular}
 
-\} \& \textbackslash textbf\{
+\} \& \textbackslash{}textbf\{
 
 \begin{tabular}[c]{@{}r@{}}Decile 9\\(n=93062)\end{tabular}
 
-\} \& \textbackslash textbf\{
+\} \& \textbackslash{}textbf\{
 
 \begin{tabular}[c]{@{}r@{}}Decile 10\\(most\\affluent)\\(n=91149)\end{tabular}
 
-\} \& \textbackslash textbf\{
+\} \& \textbackslash{}textbf\{
 
 \begin{tabular}[c]{@{}r@{}}Overall\\(n=924323)\end{tabular}
 
@@ -5370,14 +5354,14 @@ was a higher percentage of deaths in Deciles 1-3 (5.4\%, 4.9\%, and
 \textbf{} \& 95 plus \& 691 (0.9) \& 798 (0.9) \& 929 (1.0) \& 900 (0.9)
 \& 1055 (1.1) \& 1027 (1.0) \& 988 (1.0) \& 940 (1.0) \& 942 (1.0) \&
 1059 (1.2) \& 9329 (1.0) \& \textbackslash{} \{\} \& \& \& \& \& \& \&
-\& \& \& \& \& \& \textbackslash{} \textbackslash textbf\{
+\& \& \& \& \& \& \textbackslash{} \textbackslash{}textbf\{
 
 \begin{tabular}[c]{@{}l@{}}Total\\repeat\\medicines\end{tabular}
 
 \} \& Median (IQR) \& 6 (7) \& 6 (6) \& 6 (6) \& 5 (5) \& 5 (6) \& 5 (6)
 \& 4 (5) \& 4 (5) \& 4 (5) \& 4 (5) \& 5 (6) \& \textless 0.01
 \textbackslash{} \{\} \& \& \& \& \& \& \& \& \& \& \& \& \&
-\textbackslash{} \textbackslash textbf\{
+\textbackslash{} \textbackslash{}textbf\{
 
 \begin{tabular}[c]{@{}l@{}}Medicines\\group\end{tabular}
 
@@ -5394,7 +5378,7 @@ was a higher percentage of deaths in Deciles 1-3 (5.4\%, 4.9\%, and
 25734 (27.1) \& 23532 (24.4) \& 21834 (22.2) \& 19940 (20.0) \& 17415
 (18.2) \& 15981 (17.3) \& 15005 (16.1) \& 12438 (13.6) \& 201645 (21.8)
 \& \textbackslash{} \{\} \& \& \& \& \& \& \& \& \& \& \& \& \&
-\textbackslash{} \textbackslash textbf\{
+\textbackslash{} \textbackslash{}textbf\{
 
 \begin{tabular}[c]{@{}l@{}}Receiving\\social\\care\end{tabular}
 
@@ -5402,14 +5386,14 @@ was a higher percentage of deaths in Deciles 1-3 (5.4\%, 4.9\%, and
 11798 (12.0) \& 10733 (10.7) \& 9427 (9.9) \& 8606 (9.3) \& 7778 (8.4)
 \& 7042 (7.7) \& 107441 (11.6) \& \textless 0.01 \textbackslash{} \{\}
 \& \& \& \& \& \& \& \& \& \& \& \& \& \textbackslash{}
-\textbackslash textbf\{
+\textbackslash{}textbf\{
 
 \begin{tabular}[c]{@{}l@{}}\textgreater{}= 1\\unplanned\\hospital\\admission\end{tabular}
 
 \} \& \& 16708 (21.7) \& 16654 (19.5) \& 17391 (18.3) \& 16234 (16.9) \&
 15605 (15.8) \& 14617 (14.6) \& 13464 (14.1) \& 12137 (13.1) \& 11998
 (12.9) \& 10962 (12.0) \& 145770 (15.8) \& \textless 0.01
-\textbackslash{} \bottomrule \textbackslash end\{tabular\}\%
+\textbackslash{} \bottomrule \textbackslash{}end\{tabular\}\%
 
 \begin{tablenotes}
 \item \tiny{All values n(\%) unless otherwise stated} 
@@ -5418,12 +5402,12 @@ was a higher percentage of deaths in Deciles 1-3 (5.4\%, 4.9\%, and
 \item \tiny{Kruskal-Wallis test for continuous variables}
 \end{tablenotes}
 
-\textbackslash end\{threeparttable\}
+\textbackslash{}end\{threeparttable\}
 
 \caption{Characteristics of study population by deprivation decile. 2015/16}
 \label{tab:results1-deprivation}
 
-\textbackslash end\{table\} \textbackslash end\{landscape\}
+\textbackslash{}end\{table\} \textbackslash{}end\{landscape\}
 
 The value of median age in Deciles 3 \& 4 was one year higher than other
 deciles. Differences in age are more easily visualised by comparing
@@ -5642,8 +5626,8 @@ year. This could be in relation to any form of social care provided, or
 commissioned, by a local authority. As linkage rates from the SCS to the
 population spine varied at the local authority level, direct comparison
 of levels of care across all councils is impossible. For this reason two
-groups, together representing \textasciitilde58\% of the overall cohort,
-are compared in relation to research question 1 in the first two
+groups, together representing \textasciitilde{}58\% of the overall
+cohort, are compared in relation to research question 1 in the first two
 sections of this chapter. The third section aims to answer research
 question 2. A brief summary of results is also provided. Discussion of
 the key findings and implications are found in Chapter
@@ -5773,7 +5757,7 @@ converse was true for Dumfries and Galloway and Argyll and Bute council
 areas. Statistically significant results were found for all variables
 with Chi-squared tests for differences within groups.
 
-\textbackslash begin\{table\}{[}h{]} \footnotesize \centering
+\textbackslash{}begin\{table\}{[}h{]} \footnotesize \centering
 
 \begin{tabular}{@{}lrrrrr@{}}
 \toprule
@@ -5794,12 +5778,12 @@ with Chi-squared tests for differences within groups.
 \& 11.1 \& 11.4 \& 11.7 \textbackslash{} \textbf{Dumfries and Galloway}
 \& 8.4 \& 8 \& 7.5 \& 8.1 \& 9.1 \textbackslash{}
 \textbf{Argyll and Bute} \& 8.2 \& 8.7 \& 9.2 \& 9.6 \& 9.6
-\textbackslash{} \bottomrule \textbackslash end\{tabular\}\%
+\textbackslash{} \bottomrule \textbackslash{}end\{tabular\}\%
 
 \caption{Group 1. Percentage of over 65s receiving any form of social care}
 \label{tab:res2-la}
 
-\textbackslash end\{table\}
+\textbackslash{}end\{table\}
 
 The rate of social care receipt \emph{within} local authority areas,
 unlike other variables in the models, can fluctuate over time as shown
@@ -5901,23 +5885,23 @@ other variables in the model. Age had the largest positive effect with
 the probability of receiving social care being approximately 45\% higher
 for those over 95 compared to those aged 65-69 in all models
 (specifically 46.6\% in 2015/16). Age bands 90-94, 85-89, and 80-84 also
-showed very strong effects (\textasciitilde40\%, \textasciitilde28\%,
-and \textasciitilde15\% higher probability of receiving social care
-across all models).
+showed very strong effects (\textasciitilde{}40\%,
+\textasciitilde{}28\%, and \textasciitilde{}15\% higher probability of
+receiving social care across all models).
 
 Multimorbidity also had a strong positive effect on receipt of social
 care, although the magnitude of this effect was lower than that of
 higher age groups. Those receiving 9 or more repeat medicines had an
-\textasciitilde15\% higher probability of receiving social care compared
-to those receiving 0-2 repeat medicines in all years (15.3\% in
+\textasciitilde{}15\% higher probability of receiving social care
+compared to those receiving 0-2 repeat medicines in all years (15.3\% in
 2015/16). This effect was a similar magnitude as the APE of being 80-84
 compared to 65-69 years of age. Medicine groups 6-8 and 3-5 had
-respectively \textasciitilde7\% and \textasciitilde3\% increased
+respectively \textasciitilde{}7\% and \textasciitilde{}3\% increased
 probability of receiving social care compared to those receiving 0-2
 medicines.
 
 Females had an increased probability of receiving care of
-\textasciitilde4\% compared to males for all models (exactly 4\% in
+\textasciitilde{}4\% compared to males for all models (exactly 4\% in
 2015/16). SIMD decile was modelled as a continuous variable. The APE of
 -0.006, after adjustment for other variables, in 2015/16 (Table
 \ref{tab:res2-model1-APE}) indicates the coefficient of the slope at the
@@ -6080,7 +6064,7 @@ Glasgow City (higher rate of social care compared to relative size) and
 City of Edinburgh and South Ayrshire (lower rate of social care compared
 to relative size).
 
-\textbackslash begin\{table\}{[}h{]} \footnotesize \centering
+\textbackslash{}begin\{table\}{[}h{]} \footnotesize \centering
 
 \begin{tabular}{@{}lrrrrr@{}}
 \toprule
@@ -6102,12 +6086,12 @@ to relative size).
 11 \textbackslash{} \textbf{Perth and Kinross} \& 8.1 \& 8.4 \& 7.6 \&
 9.3 \& 9.9 \textbackslash{} \textbf{South Ayrshire} \& 8.1 \& 8.4 \& 8.5
 \& 7.8 \& 7.8 \textbackslash{} \bottomrule
-\textbackslash end\{tabular\}\%
+\textbackslash{}end\{tabular\}\%
 
 \caption{Group 2. Percentage of over 65s receiving any form of social care}
 \label{tab:res2-mod2-la}
 
-\textbackslash end\{table\}
+\textbackslash{}end\{table\}
 
 In a similar fashion as seen in group 1, the rate of social care
 \emph{within} local authorities varied over time (Table
@@ -6361,22 +6345,22 @@ was the dependent variable.
     \label{fig:res3-adm-APE}
 \end{figure}
 
-\textbackslash begin\{table\}{[}h{]} \footnotesize \centering
-\textbackslash begin\{threeparttable\}
+\textbackslash{}begin\{table\}{[}h{]} \footnotesize \centering
+\textbackslash{}begin\{threeparttable\}
 
 \begin{tabular}{@{}lrrrrr@{}}
 \toprule
 \textbf{Variable} & \textbf{\begin{tabular}[c]{@{}r@{}}Average\\ Partial Effect\end{tabular}
 
-\} \& \textbackslash textbf\{
+\} \& \textbackslash{}textbf\{
 
 \begin{tabular}[c]{@{}r@{}}Standard\\ Error\end{tabular}
 
-\} \& \textbf{p-value} \& \textbackslash textbf\{
+\} \& \textbf{p-value} \& \textbackslash{}textbf\{
 
 \begin{tabular}[c]{@{}r@{}}Lower 95\%\\ CI\end{tabular}
 
-\} \& \textbackslash textbf\{
+\} \& \textbackslash{}textbf\{
 
 \begin{tabular}[c]{@{}r@{}}Upper 95\%\\ CI\end{tabular}
 
@@ -6401,19 +6385,19 @@ was the dependent variable.
 \& -0.003 \& -0.003 \textbackslash{} \textbf{Care Home} \& -0.008 \&
 0.001 \& \textless\{\}0.001 \& -0.011 \& -0.006 \textbackslash{}
 \textbf{Female} \& -0.016 \& 0.001 \& \textless\{\}0.001 \& -0.017 \&
--0.015 \textbackslash{} \bottomrule \textbackslash end\{tabular\}\%
+-0.015 \textbackslash{} \bottomrule \textbackslash{}end\{tabular\}\%
 
 \begin{tablenotes}
 \item \footnotesize{Reference group for age: 65-69}
 \item \footnotesize{Reference group for meds: 0-2 repeat medicines}
 \end{tablenotes}
 
-\textbackslash end\{threeparttable\}\%
+\textbackslash{}end\{threeparttable\}\%
 
 \caption{Unplanned hospital admission. Average partial effects. 2015/16}
 \label{tab:res3-adm-ape1516}
 
-\textbackslash end\{table\}
+\textbackslash{}end\{table\}
 
 High multimorbidity, measured by prescription of 9 or more repeat
 medicines, had the largest magnitude of APE in the unplanned hospital
@@ -6424,15 +6408,15 @@ also showed increasing probability of admission compared to the
 reference value as severity increased.
 
 In terms of other service use, having any USC episode in the previous
-financial year was associated with a \textasciitilde7.5\% increase in
+financial year was associated with a \textasciitilde{}7.5\% increase in
 probability compared to those with no previous USC use. Similarly,
 receipt of social care measured in the SCS was associated with a
-\textasciitilde6.5\% increase in the probability of having an unplanned
-hospital admission compared to those with no social care. There was a
-split in the direction of the effect of living in a care home after
-2013/14. After this year being in a care home was associated with a
-decrease in the probability of unplanned admission of almost 1\% whilst
-in previous years the probability had increased by almost 1\%.
+\textasciitilde{}6.5\% increase in the probability of having an
+unplanned hospital admission compared to those with no social care.
+There was a split in the direction of the effect of living in a care
+home after 2013/14. After this year being in a care home was associated
+with a decrease in the probability of unplanned admission of almost 1\%
+whilst in previous years the probability had increased by almost 1\%.
 
 Higher age groups were also associated with higher APEs compared to
 other variables in the models though there were wider confidence
@@ -6697,7 +6681,7 @@ One group that showed a reduced likelihood of unplanned hospital
 admission were those that live in care homes, although findings varied
 across models. The direction of effect changes from 2014/15 onwards. In
 models fitted to earlier financial years, living in a care home has a
-small (\textless1\%) increase in probability of unplanned admission.
+small (\textless{}1\%) increase in probability of unplanned admission.
 Models fitted to data from 2014/15 and 2015/16 show a decreased
 probability of admission of almost 2\%. It is difficult to ascertain the
 cause of this change. The obvious temporal difference could have a
@@ -6776,10 +6760,11 @@ financial year. Using presence or not in the SCS as a binary measure of
 receipt of social care, such as analyses in chapter \ref{ch:res2},
 misclassifies some individuals by indicating they have not received care
 when in fact they would have done. As the discussion in chapter
-\ref{ch:renfrew} identifies, the \textasciitilde60\% of individuals that
-the SCS would have identified as receiving home care in the Renfrewshire
-area is likely to be an underestimate of the coverage of total social
-care for the models in chapter \ref{ch:res2} for two reasons.
+\ref{ch:renfrew} identifies, the \textasciitilde{}60\% of individuals
+that the SCS would have identified as receiving home care in the
+Renfrewshire area is likely to be an underestimate of the coverage of
+total social care for the models in chapter \ref{ch:res2} for two
+reasons.
 
 Firstly, the analysis in chapter \ref{ch:renfrew} could not account for
 mortality and therefore overall proportions include those that died in
@@ -6951,7 +6936,7 @@ specifically identified relationships between multimorbidity and
 requirement for social care. Much previous research has focussed on the
 effect social care has as an explanatory variable on other outcomes -
 usually in a secondary care setting. Whilst multimorbidity may also be
-included as an explanatory variable in these studies e.g.~(Condelius
+included as an explanatory variable in these studies e.g. (Condelius
 \emph{et al.}, 2008), the relationship between them is not explored. The
 positive, increasing effect of multimorbidity status on both social care
 receipt and unplanned hospital admission found in this thesis (and by
@@ -7045,7 +7030,7 @@ care records at a national level. The main strength of the research
 carried out is in the size of dataset created to answer the designated
 research questions. By creating a non-selective study population of all
 individuals over the age of 65 in Scotland during the study period
-(\textasciitilde1.1 million individuals) and linking their data from a
+(\textasciitilde{}1.1 million individuals) and linking their data from a
 number of different health and social care sources, a comprehensive
 description of this group has been provided. It is the first study to
 specifically investigate the relationship between multimorbidity and
@@ -7061,7 +7046,7 @@ important role in such interactions.
 
 The handful of previous cross-sectoral studies that have used
 individual-level data have been limited to using social care data from
-no more than a handful of local authorities at a time e.g.~(Condelius
+no more than a handful of local authorities at a time e.g. (Condelius
 \emph{et al.}, 2008; Bardsley \emph{et al.}, 2012). The large resource
 in this PhD, despite the limitations discussed in the next section and
 section \ref{sec:disc-sc-data}, mean concerns of sampling bias or
@@ -7294,9 +7279,9 @@ Scotland between the 1st of April 2011 and the 31st of August 2016 and
 all administrative records from the above sources for these individuals
 were collated. After data cleaning 1,100,675 individuals were included.
 Individuals from Clackmannanshire local authority area
-(\textasciitilde10,000, the smallest mainland local authority) were not
-included in analysis due to poor linkage rates of social care data to
-the population spine.
+(\textasciitilde{}10,000, the smallest mainland local authority) were
+not included in analysis due to poor linkage rates of social care data
+to the population spine.
 
 Given the paucity of morbidity data at a national level. prescribing
 records were used to create a proxy measurement of multimorbidity.
@@ -8543,7 +8528,8 @@ Huntley, A. L., Johnson, R. and Purdy, S. \emph{et al.} (2012) `Measures
 of multimorbidity and morbidity burden for use in primary care and
 community settings: A systematic review and guide', \emph{The Annals of
 Family Medicine}, 10(2), pp. 134--141. Available at:
-\url{http://www.ncbi.nlm.nih.gov/pmc/articles/PMC3315139/pdf/0100134.pdf\%0Ahttp://www.annfammed.org/content/10/2/134.full.pdf}.
+\href{http://www.ncbi.nlm.nih.gov/pmc/articles/PMC3315139/pdf/0100134.pdf\%0Ahttp://www.annfammed.org/content/10/2/134.full.pdf}{http://www.ncbi.nlm.nih.gov/pmc/articles/PMC3315139/pdf/0100134.pdf
+http://www.annfammed.org/content/10/2/134.full.pdf}.
 
 \leavevmode\hypertarget{ref-RN428}{}%
 Hupe, P., Hill, M. and Buffat, A. (2016) `Introduction', in Hupe, P.,
@@ -8658,7 +8644,7 @@ population-based study of 162,283 danish adults', \emph{PloS one},
 \url{http://journals.plos.org/plosone/article?id=10.1371/journal.pone.0169426}.
 
 \leavevmode\hypertarget{ref-RN567}{}%
-Leeper, T. J., Arnold, J. and Arel-Bundock, V. (2017) \emph{Margins:
+Leeper, T., Arnold, J. and Arel-Bundock, V. (2017) \emph{Margins:
 Marginal effects for model objects. R package v0.3.23}. Report.
 Available at:
 \url{https://cran.r-project.org/web/packages/margins/index.html}.
@@ -9297,7 +9283,7 @@ Stewart, A., Petch, A. and Curtice, L. (2003) `Moving towards integrated
 working in health and social care in scotland: From maze to matrix',
 \emph{Journal of Interprofessional Care}, 17(4), pp. 335--350. Available
 at:
-\url{Moving\%20towards\%20integrated\%20working\%20in\%20health\%20and\%20social\%20care\%20in\%20Scotland:\%20from\%20maze\%20to\%20matrix}.
+\href{Moving\%20towards\%20integrated\%20working\%20in\%20health\%20and\%20social\%20care\%20in\%20Scotland:\%20from\%20maze\%20to\%20matrix}{Moving towards integrated working in health and social care in Scotland: from maze to matrix}.
 
 \leavevmode\hypertarget{ref-RN629}{}%
 Sutherland, S. (1999) \emph{With respect to old age: Long term
@@ -9540,7 +9526,7 @@ S10. Available at:
 \url{http://www.sciencedirect.com/science/article/pii/S0140673613624356}.
 
 \leavevmode\hypertarget{ref-RN556}{}%
-Zeileis, A., Grothendieck, G. and Ryan, J. A. \emph{et al.} (2018)
+Zeileis, A., Grothendieck, G. and Ryan, J. \emph{et al.} (2018)
 \emph{Zoo: S3 infrastructure for regular and irregular time series (z's
 ordered observations)}. Report. Available at:
 \url{https://CRAN.R-project.org/package=zoo}.
@@ -9551,6 +9537,5 @@ Zullig, L. L., Whitson, H. E. and Hastings, S. N. \emph{et al.} (2016)
 new model development', \emph{Journal of general internal medicine},
 31(3), pp. 329--337. Available at:
 \url{https://link.springer.com/article/10.1007\%2Fs11606-015-3512-2}.
-
 
 \end{document}
